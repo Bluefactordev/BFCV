@@ -114,28 +114,28 @@ def main():
     
     # Verifica se l'utente è già autenticato
     if 'authenticated' in st.session_state and st.session_state.authenticated:
-        # Importa il modulo bfcv_007 solo quando necessario
-        import bfcv_007
+        # Importa il modulo bfcv_008 solo quando necessario
+        import bfcv_008
         
         # Imposta le variabili per evitare configurazione pagina e autenticazione duplicata
-        bfcv_007.skip_page_config = True
-        bfcv_007.skip_authentication = True
+        bfcv_008.skip_page_config = True
+        bfcv_008.skip_authentication = True
         
         # Inizializzo le variabili di sessione necessarie
         if 'active_tab' not in st.session_state:
             st.session_state.active_tab = 0
             
         if 'available_fields' not in st.session_state:
-            st.session_state.available_fields = bfcv_007.CV_FIELDS.copy()
+            st.session_state.available_fields = bfcv_008.CV_FIELDS.copy()
             
         if 'selected_fields' not in st.session_state:
-            st.session_state.selected_fields = bfcv_007.CV_FIELDS.copy()
+            st.session_state.selected_fields = bfcv_008.CV_FIELDS.copy()
             
         if 'fields' not in st.session_state:
-            st.session_state.fields = bfcv_007.CV_FIELDS.copy()
+            st.session_state.fields = bfcv_008.CV_FIELDS.copy()
         
         # Mostra l'app principale
-        bfcv_007.main()
+        bfcv_008.main()
         
         # Pulsante di logout nell'angolo in alto a destra
         with st.sidebar:

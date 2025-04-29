@@ -1,0 +1,51 @@
+2025-04-29 16:58:00,536 - INFO - bfcv_007.py:3349 - setup_scores_logger - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-04-29 16:58:00,536 - INFO - bfcv_007.py:3350 - setup_scores_logger - Inizializzato logger di debug per i punteggi
+2025-04-29 16:58:00,537 - INFO - bfcv_007.py:3351 - setup_scores_logger - Python version: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-04-29 16:58:00,537 - INFO - bfcv_007.py:3352 - setup_scores_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-04-29 16:58:00,537 - INFO - bfcv_007.py:3353 - setup_scores_logger - Log file: D:\Progetti\BFCV\logs\scores_debug_20250429_165800.log
+2025-04-29 16:58:00,537 - INFO - bfcv_007.py:3355 - setup_scores_logger - Modello OpenAI configurato: gpt-4o-mini
+2025-04-29 16:58:00,537 - INFO - bfcv_007.py:3357 - setup_scores_logger - Modello Ollama configurato: phi4:latest
+2025-04-29 16:58:00,537 - INFO - bfcv_007.py:3359 - setup_scores_logger - Uso Ollama: False
+2025-04-29 16:58:00,537 - INFO - bfcv_007.py:3361 - setup_scores_logger - Cache abilitata: True
+2025-04-29 16:58:00,537 - INFO - bfcv_007.py:3654 - main - Inizializzato logger di debug per i punteggi
+2025-04-29 16:58:00,673 - INFO - bfcv_007.py:2766 - normalize_dataframe - Normalizzazione DataFrame con colonne: ['File_PDF', 'Punteggio_composito', 'Nome', 'Cognome', 'Numero di contatto', 'Email', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Lingue conosciute', 'Legame con Firenze', 'Età espressa in anni come numero intero senza commenti', 'Età_numero', 'Età_dettagli', 'Competenze Tecniche', 'Esperienza Settoriale', 'Formazione', 'Leadership', 'Attitudine al new business e commerciale', 'Esperienza di accounting su brand non locali', 'Esperienza A&G Digital Marketing', 'Proximity Firenze', 'Age Under 30']
+2025-04-29 16:58:00,674 - INFO - bfcv_007.py:2775 - normalize_dataframe - Criteri di valutazione da considerare numerici: ['Competenze Tecniche', 'Esperienza Settoriale', 'Formazione', 'Leadership', 'Attitudine al new business e commerciale', 'Esperienza di accounting su brand non locali', 'Esperienza A&G Digital Marketing', 'Proximity Firenze', 'Age Under 30']
+2025-04-29 16:58:00,675 - INFO - bfcv_007.py:2781 - normalize_dataframe - Colonna 'Punteggio_composito' convertita in numerica
+2025-04-29 16:58:00,675 - INFO - bfcv_007.py:2789 - normalize_dataframe - Conversione criterio 'Competenze Tecniche' in numerico
+2025-04-29 16:58:00,676 - INFO - bfcv_007.py:2792 - normalize_dataframe - Esempi valori prima: [85.0, 90.0, 90.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,677 - INFO - bfcv_007.py:2799 - normalize_dataframe - Esempi valori dopo: [85.0, 90.0, 90.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,678 - INFO - bfcv_007.py:2789 - normalize_dataframe - Conversione criterio 'Esperienza Settoriale' in numerico
+2025-04-29 16:58:00,679 - INFO - bfcv_007.py:2792 - normalize_dataframe - Esempi valori prima: [80.0, 85.0, 85.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,679 - INFO - bfcv_007.py:2799 - normalize_dataframe - Esempi valori dopo: [80.0, 85.0, 85.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,680 - INFO - bfcv_007.py:2789 - normalize_dataframe - Conversione criterio 'Formazione' in numerico
+2025-04-29 16:58:00,680 - INFO - bfcv_007.py:2792 - normalize_dataframe - Esempi valori prima: [90.0, 85.0, 80.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,681 - INFO - bfcv_007.py:2799 - normalize_dataframe - Esempi valori dopo: [90.0, 85.0, 80.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,681 - INFO - bfcv_007.py:2789 - normalize_dataframe - Conversione criterio 'Leadership' in numerico
+2025-04-29 16:58:00,681 - INFO - bfcv_007.py:2792 - normalize_dataframe - Esempi valori prima: [75.0, 80.0, 75.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,682 - INFO - bfcv_007.py:2799 - normalize_dataframe - Esempi valori dopo: [75.0, 80.0, 75.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,682 - INFO - bfcv_007.py:2789 - normalize_dataframe - Conversione criterio 'Attitudine al new business e commerciale' in numerico
+2025-04-29 16:58:00,683 - INFO - bfcv_007.py:2792 - normalize_dataframe - Esempi valori prima: [80.0, 90.0, 90.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,684 - INFO - bfcv_007.py:2799 - normalize_dataframe - Esempi valori dopo: [80.0, 90.0, 90.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,684 - INFO - bfcv_007.py:2789 - normalize_dataframe - Conversione criterio 'Esperienza di accounting su brand non locali' in numerico
+2025-04-29 16:58:00,684 - INFO - bfcv_007.py:2792 - normalize_dataframe - Esempi valori prima: [85.0, 70.0, 70.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,685 - INFO - bfcv_007.py:2799 - normalize_dataframe - Esempi valori dopo: [85.0, 70.0, 70.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,686 - INFO - bfcv_007.py:2789 - normalize_dataframe - Conversione criterio 'Esperienza A&G Digital Marketing' in numerico
+2025-04-29 16:58:00,686 - INFO - bfcv_007.py:2792 - normalize_dataframe - Esempi valori prima: [90.0, 80.0, 80.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,688 - INFO - bfcv_007.py:2799 - normalize_dataframe - Esempi valori dopo: [90.0, 80.0, 80.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,688 - INFO - bfcv_007.py:2789 - normalize_dataframe - Conversione criterio 'Proximity Firenze' in numerico
+2025-04-29 16:58:00,689 - INFO - bfcv_007.py:2792 - normalize_dataframe - Esempi valori prima: [90.0, 90.0, 100.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,690 - INFO - bfcv_007.py:2799 - normalize_dataframe - Esempi valori dopo: [90.0, 90.0, 100.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,690 - INFO - bfcv_007.py:2789 - normalize_dataframe - Conversione criterio 'Age Under 30' in numerico
+2025-04-29 16:58:00,691 - INFO - bfcv_007.py:2792 - normalize_dataframe - Esempi valori prima: [100.0, 0.0, 0.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,691 - INFO - bfcv_007.py:2799 - normalize_dataframe - Esempi valori dopo: [100.0, 0.0, 0.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-29 16:58:00,692 - INFO - bfcv_007.py:2807 - normalize_dataframe - Colonne numeriche rilevate: ['Punteggio_composito', 'Età_numero', 'Competenze Tecniche', 'Esperienza Settoriale', 'Formazione', 'Leadership', 'Attitudine al new business e commerciale', 'Esperienza di accounting su brand non locali', 'Esperienza A&G Digital Marketing', 'Proximity Firenze', 'Age Under 30']
+2025-04-29 16:58:00,706 - INFO - bfcv_007.py:4590 - main - Controllo extra su colonne criteri prima di visualizzazione
+2025-04-29 16:58:00,706 - INFO - bfcv_007.py:4593 - main - Controllo criterio 'Competenze Tecniche'
+2025-04-29 16:58:00,706 - INFO - bfcv_007.py:4593 - main - Controllo criterio 'Esperienza Settoriale'
+2025-04-29 16:58:00,706 - INFO - bfcv_007.py:4593 - main - Controllo criterio 'Formazione'
+2025-04-29 16:58:00,707 - INFO - bfcv_007.py:4593 - main - Controllo criterio 'Leadership'
+2025-04-29 16:58:00,708 - INFO - bfcv_007.py:4593 - main - Controllo criterio 'Attitudine al new business e commerciale'
+2025-04-29 16:58:00,708 - INFO - bfcv_007.py:4593 - main - Controllo criterio 'Esperienza di accounting su brand non locali'
+2025-04-29 16:58:00,708 - INFO - bfcv_007.py:4593 - main - Controllo criterio 'Esperienza A&G Digital Marketing'
+2025-04-29 16:58:00,709 - INFO - bfcv_007.py:4593 - main - Controllo criterio 'Proximity Firenze'
+2025-04-29 16:58:00,709 - INFO - bfcv_007.py:4593 - main - Controllo criterio 'Age Under 30'
