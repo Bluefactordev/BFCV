@@ -1,3 +1,4 @@
+# Python environment
 venv/
 __pycache__/
 *.pyc
@@ -5,3 +6,11 @@ __pycache__/
 *.pyd
 *.pyw
 *.pyz
+
+# Environment variables
+.env
+
+# Logs
+logs/
+
+
