@@ -1,0 +1,10 @@
+2025-03-26 14:57:47,972 - INFO - bfcv_007.py:2946 - setup_scores_logger - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-03-26 14:57:47,972 - INFO - bfcv_007.py:2947 - setup_scores_logger - Inizializzato logger di debug per i punteggi
+2025-03-26 14:57:47,973 - INFO - bfcv_007.py:2948 - setup_scores_logger - Python version: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-26 14:57:47,973 - INFO - bfcv_007.py:2949 - setup_scores_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-26 14:57:47,973 - INFO - bfcv_007.py:2950 - setup_scores_logger - Log file: D:\Progetti\BFCV\logs\scores_debug_20250326_145747.log
+2025-03-26 14:57:47,973 - INFO - bfcv_007.py:2952 - setup_scores_logger - Modello OpenAI configurato: gpt-4o-mini
+2025-03-26 14:57:47,974 - INFO - bfcv_007.py:2954 - setup_scores_logger - Modello Ollama configurato: None
+2025-03-26 14:57:47,974 - INFO - bfcv_007.py:2956 - setup_scores_logger - Uso Ollama: False
+2025-03-26 14:57:47,974 - INFO - bfcv_007.py:2958 - setup_scores_logger - Cache abilitata: True
+2025-03-26 14:57:47,974 - INFO - bfcv_007.py:3220 - main - Inizializzato logger di debug per i punteggi

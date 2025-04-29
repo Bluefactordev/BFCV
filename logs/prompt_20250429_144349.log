@@ -1,0 +1,154 @@
+Data e ora: 2025-04-29 14:43:49
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nBruno Roberto\nDati personali\nsono nato il 06 Aprile 1969 a Treviso. Residenza: Via Ciardi,03-\n31100 Treviso (TV). c.f.:RBRBR 69D06L407S. mobile\npersonale:3408090154. email :brrobert69@gmail.com.\nEsperienze professionali\n1990-1995 NALCO SPA-Agente monomandatario\nVendevo prodotti chimici per la depurazione e manutenzione degli\nimpianti industriali, le province di competenza: TV,VE,PD,PN. Abbiamo\nincrementato la clientela del 35% e il fatturato del 50%;\n1995-2010 DE LONGHI SPA-Agente monomandatario\nVendevo sistemi di climatizzazione civile ed industriale a grossisti\ne distributori, le province di competenza: TV/BL/VE/PD e FVG, abbiamo\nincrementato la clientela del 40% e il fatturato del 65%;\n2010-2018- Logos Technologies srl- Key Account manager Ita\nSeguo i clienti direzionali e i rivenditori, la rete commerciale\ncomprende 15 agenti sul territorio nazionale. Il gruppo LOGOS si\noccupa di progettazione e realizzazione sistemi ICT e TLC.\n2018-DIVA TELECOMUNICAZIONI -Direzione commerciale.\nSeguo i clienti direzionali e i rivenditori, la creazione della\nrete\ncommerciale che attualmente comprende 10 agenti sul territorio\nnazionale, gestisco la politica commerciale aziendale , DIVA\nTELECOMUNICAZIONI si occupa di progettazione e realizzazione sistemi\nICT e TLC.\nOttima conoscenza sistemi informatici ,con certificazioni specifiche\nCISCO,buona conoscenza lingua inglese scritta/parlata,corsi in\n1\nMarketing e di Communication Management\ndel Sole 24 Ore business\nschool\nNel corso della mia attività lavorativa,specialmente negli ultimi 10\nanni, ho gestito e creato reti vendita in tutto il Nord Italia.\nIstruzione\n1989. ISTITUTO INDUSTRIALE E.FERMI DI TREVISO\nDiploma di Perito Chimico Industriale votazione 42/60\nInteressi\nMi piace molto viaggiare e lo sport, in particolare il rugby che ho\npraticato per circa 20 Anni. Alleno una squadra di rugby giovanile.\nVi autorizzo al trattamento dei miei dati personali contenute nel\npresente documento, ai sensi del D.Lgs 196/2003.\nin fede\nBruno Roberto\n2\n\n\n---Estrazione OCR---\nBruno Roberto\nDati personali\nsono nato il 06 Aprile 1969 a Treviso. Residenza: Via Ciardi,03-\n31100 Treviso (TV). c.f.:RBRBR 69D06L407S. mobile\npersonale:3408090154. email :brrobert69@qmail.com.\nEsperienze professionali\n1990-1995 NALCO SPA-Agente monomandatario\nVendevo prodotti chimici per la depurazione e manutenzione degli\nimpianti industriali, le province di competenza: TV,VE,PD,PN. Abbiamo\nincrementato la clientela del 35% e il fatturato del 50%;\n1995-2010 DE LONGHI SPA-Agente monomandatario\nVendevo sistemi di climatizzazione civile ed industriale a grossisti\ne distributori, le province di competenza: TV/BL/VE/PD e FVG, abbiamo\nincrementato la clientela del 40% e il fatturato del 65%;\n2010-2018- Logos Technologies srl- Key Account manager Ita\nSeguo i clienti direzionali e 1 rivenditori, la rete commerciale\ncomprende 15 agenti sul territorio nazionale. Il gruppo LOGOS si\noccupa di progettazione e realizzazione sistemi ICT e TLC.\n2018-DIVA TELECOMUNICAZIONI -Direzione commerciale.\nSeguo i clienti direzionali e i rivenditori, la creazione della rete\ncommerciale che attualmente comprende 10 agenti sul territorio\nnazionale, gestisco la politica commerciale aziendale , DIVA\nTELECOMUNICAZIONI si occupa di progettazione e realizzazione sistemi\nICT e TLC.\nOttima conoscenza sistemi informatici ,con certificazioni specifiche\nCISCO,buona conoscenza lingua inglese scritta/parlata,corsi in\n\n1\nMarketing e di Communication Management del Sole 24 Ore business\nschool\nNel corso della mia attivita lavorativa,specialmente negli ultimi 10\nanni, ho gestito e creato reti vendita in tutto il Nord Italia.\nIstruzione\n1989. ISTITUTO INDUSTRIALE E.FERMI DI TREVISO\nDiploma di Perito Chimico Industriale votazione 42/60\nInteressi\nMi piace molto viaggiare e lo sport, in particolare il rugby che ho\npraticato per circa 20 Anni. Alleno una squadra di rugby giovanile.\nVi autorizzo al trattamento dei miei dati personali contenute nel\npresente documento, ai sensi del D.Lgs 196/2003.\nin fede\nBruno Roberto\n\n2\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Bruno Roberto
+Dati personali
+sono nato il 06 Aprile 1969 a Treviso. Residenza: Via Ciardi,03-
+31100 Treviso (TV). c.f.:RBRBR 69D06L407S. mobile
+personale:3408090154. email :brrobert69@gmail.com.
+Esperienze professionali
+1990-1995 NALCO SPA-Agente monomandatario
+Vendevo prodotti chimici per la depurazione e manutenzione degli
+impianti industriali, le province di competenza: TV,VE,PD,PN. Abbiamo
+incrementato la clientela del 35% e il fatturato del 50%;
+1995-2010 DE LONGHI SPA-Agente monomandatario
+Vendevo sistemi di climatizzazione civile ed industriale a grossisti
+e distributori, le province di competenza: TV/BL/VE/PD e FVG, abbiamo
+incrementato la clientela del 40% e il fatturato del 65%;
+2010-2018- Logos Technologies srl- Key Account manager Ita
+Seguo i clienti direzionali e i rivenditori, la rete commerciale
+comprende 15 agenti sul territorio nazionale. Il gruppo LOGOS si
+occupa di progettazione e realizzazione sistemi ICT e TLC.
+2018-DIVA TELECOMUNICAZIONI -Direzione commerciale.
+Seguo i clienti direzionali e i rivenditori, la creazione della
+rete
+commerciale che attualmente comprende 10 agenti sul territorio
+nazionale, gestisco la politica commerciale aziendale , DIVA
+TELECOMUNICAZIONI si occupa di progettazione e realizzazione sistemi
+ICT e TLC.
+Ottima conoscenza sistemi informatici ,con certificazioni specifiche
+CISCO,buona conoscenza lingua inglese scritta/parlata,corsi in
+1
+Marketing e di Communication Management
+del Sole 24 Ore business
+school
+Nel corso della mia attività lavorativa,specialmente negli ultimi 10
+anni, ho gestito e creato reti vendita in tutto il Nord Italia.
+Istruzione
+1989. ISTITUTO INDUSTRIALE E.FERMI DI TREVISO
+Diploma di Perito Chimico Industriale votazione 42/60
+Interessi
+Mi piace molto viaggiare e lo sport, in particolare il rugby che ho
+praticato per circa 20 Anni. Alleno una squadra di rugby giovanile.
+Vi autorizzo al trattamento dei miei dati personali contenute nel
+presente documento, ai sensi del D.Lgs 196/2003.
+in fede
+Bruno Roberto
+2
+
+
+---Estrazione OCR---
+Bruno Roberto
+Dati personali
+sono nato il 06 Aprile 1969 a Treviso. Residenza: Via Ciardi,03-
+31100 Treviso (TV). c.f.:RBRBR 69D06L407S. mobile
+personale:3408090154. email :brrobert69@qmail.com.
+Esperienze professionali
+1990-1995 NALCO SPA-Agente monomandatario
+Vendevo prodotti chimici per la depurazione e manutenzione degli
+impianti industriali, le province di competenza: TV,VE,PD,PN. Abbiamo
+incrementato la clientela del 35% e il fatturato del 50%;
+1995-2010 DE LONGHI SPA-Agente monomandatario
+Vendevo sistemi di climatizzazione civile ed industriale a grossisti
+e distributori, le province di competenza: TV/BL/VE/PD e FVG, abbiamo
+incrementato la clientela del 40% e il fatturato del 65%;
+2010-2018- Logos Technologies srl- Key Account manager Ita
+Seguo i clienti direzionali e 1 rivenditori, la rete commerciale
+comprende 15 agenti sul territorio nazionale. Il gruppo LOGOS si
+occupa di progettazione e realizzazione sistemi ICT e TLC.
+2018-DIVA TELECOMUNICAZIONI -Direzione commerciale.
+Seguo i clienti direzionali e i rivenditori, la creazione della rete
+commerciale che attualmente comprende 10 agenti sul territorio
+nazionale, gestisco la politica commerciale aziendale , DIVA
+TELECOMUNICAZIONI si occupa di progettazione e realizzazione sistemi
+ICT e TLC.
+Ottima conoscenza sistemi informatici ,con certificazioni specifiche
+CISCO,buona conoscenza lingua inglese scritta/parlata,corsi in
+
+1
+Marketing e di Communication Management del Sole 24 Ore business
+school
+Nel corso della mia attivita lavorativa,specialmente negli ultimi 10
+anni, ho gestito e creato reti vendita in tutto il Nord Italia.
+Istruzione
+1989. ISTITUTO INDUSTRIALE E.FERMI DI TREVISO
+Diploma di Perito Chimico Industriale votazione 42/60
+Interessi
+Mi piace molto viaggiare e lo sport, in particolare il rugby che ho
+praticato per circa 20 Anni. Alleno una squadra di rugby giovanile.
+Vi autorizzo al trattamento dei miei dati personali contenute nel
+presente documento, ai sensi del D.Lgs 196/2003.
+in fede
+Bruno Roberto
+
+2
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**Bruno Roberto**  
+**Dati personali**  
+Nato il 06 Aprile 1969 a Treviso.  
+Residenza: Via Ciardi, 03 - 31100 Treviso (TV).  
+C.F.: RBRBR 69D06L407S.  
+Mobile personale: 3408090154.  
+Email: brrobert69@gmail.com.  
+
+**Esperienze professionali**  
+1990-1995 NALCO SPA - Agente monomandatario  
+Vendevo prodotti chimici per la depurazione e manutenzione degli impianti industriali, le province di competenza: TV, VE, PD, PN. Abbiamo incrementato la clientela del 35% e il fatturato del 50%.
+
+1995-2010 DE LONGHI SPA - Agente monomandatario  
+Vendevo sistemi di climatizzazione civile ed industriale a grossisti e distributori, le province di competenza: TV, BL, VE, PD e FVG. Abbiamo incrementato la clientela del 40% e il fatturato del 65%.
+
+2010-2018 LOGOS TECHNOLOGIES Srl - Key Account Manager Italia  
+Seguo i clienti direzionali e i rivenditori, la rete commerciale comprende 15 agenti sul territorio nazionale. Il gruppo LOGOS si occupa di progettazione e realizzazione di sistemi ICT e TLC.
+
+2018 - DIVA TELECOMUNICAZIONI - Direzione commerciale  
+Seguo i clienti direzionali e i rivenditori, la creazione della rete commerciale che attualmente comprende 10 agenti sul territorio nazionale. Gestisco la politica commerciale aziendale. DIVA TELECOMUNICAZIONI si occupa di progettazione e realizzazione di sistemi ICT e TLC.
+
+**Competenze**  
+Ottima conoscenza dei sistemi informatici, con certificazioni specifiche CISCO. Buona conoscenza della lingua inglese scritta e parlata. Corsi in Marketing e Communication Management del Sole 24 Ore Business School.  
+Nel corso della mia attività lavorativa, specialmente negli ultimi 10 anni, ho gestito e creato reti vendita in tutto il Nord Italia.
+
+**Istruzione**  
+1989 ISTITUTO INDUSTRIALE E. FERMI DI TREVISO  
+Diploma di Perito Chimico Industriale, votazione 42/60.
+
+**Interessi**  
+Mi piace molto viaggiare e lo sport, in particolare il rugby, che ho praticato per circa 20 anni. Alleno una squadra di rugby giovanile.  
+
+Vi autorizzo al trattamento dei miei dati personali contenuti nel presente documento, ai sensi del D.Lgs 196/2003.  
+
+In fede,  
+Bruno Roberto

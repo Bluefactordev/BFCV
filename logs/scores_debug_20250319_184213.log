@@ -1,0 +1,53 @@
+2025-03-19 18:42:13,537 - INFO - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-03-19 18:42:13,537 - INFO - Inizializzato logger di debug per i punteggi
+2025-03-19 18:42:13,624 - INFO - ======================================== INIZIO ELABORAZIONE CV IN D:\Progetti\BFCV\CVS\Stage2025 ========================================
+2025-03-19 18:42:15,022 - INFO - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-03-19 18:42:15,310 - INFO - Iniziando la fase di valutazione con i criteri
+2025-03-19 18:42:15,318 - INFO - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-03-19 18:42:15,319 - INFO - Punteggio composito ricalcolato: 50 (media pesata con peso totale 0)
+2025-03-19 18:42:15,319 - INFO - Punteggio composito originale: 58.5
+2025-03-19 18:42:17,417 - INFO - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-03-19 18:42:17,426 - INFO - Iniziando la fase di valutazione con i criteri
+2025-03-19 18:42:17,433 - INFO - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-03-19 18:42:17,434 - INFO - Punteggio composito ricalcolato: 50 (media pesata con peso totale 0)
+2025-03-19 18:42:17,434 - INFO - Punteggio composito originale: 72.5
+2025-03-19 18:42:18,405 - INFO - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-03-19 18:42:18,412 - INFO - Iniziando la fase di valutazione con i criteri
+2025-03-19 18:42:18,415 - INFO - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-03-19 18:42:18,416 - INFO - Punteggio composito ricalcolato: 50 (media pesata con peso totale 0)
+2025-03-19 18:42:18,416 - INFO - Punteggio composito originale: 58.25
+2025-03-19 18:42:18,418 - INFO - Processando risultato per file: (Ita) Alessandro Anceschi - CV.pdf
+2025-03-19 18:42:18,418 - INFO - Punteggio composito grezzo: 50 (tipo: <class 'int'>)
+2025-03-19 18:42:18,419 - INFO - Punteggio composito convertito: 50
+2025-03-19 18:42:18,419 - INFO - Riga DataFrame completa per (Ita) Alessandro Anceschi - CV.pdf: {'Filename': '(Ita) Alessandro Anceschi - CV.pdf', 'Nome': 'Alessandro', 'Cognome': 'Anceschi', 'Numero di contatto': '+39 3921956752', 'Email': 'alessandro.anceschi.21@gmail.com', 'Età': '26', 'Città di residenza': 'Roma', 'Città di origine': 'Roma', 'Anni di esperienza lavorativa': 'Circa 2 anni', 'Anni di esperienza lavorativa nel ruolo richiesto': '1', 'Master o assimilabile nel ruolo richiesto': 'Sì, Master I Livello in Marketing Management', 'Università/Istituto': 'Unicusano', 'Posizione attuale': 'Digital Marketing Specialist', 'Datori di lavoro precedenti': ['Diadora', 'Silicon Drinkabout Rome', 'Minerva Digital Solutions'], 'Legame con Firenze': 'Nessuno', 'Soft skills': 'Creatività, capacità di lavorare in team, gestione del tempo', "Progetti personali o accademici relativi all'AI o al marketing digitale": 'Corso Digital Marketing', 'Conoscenza di pratiche SEO e SEM': 'Sì', 'Punteggio_composito': 50}
+2025-03-19 18:42:18,419 - INFO - Processando risultato per file: 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-19 18:42:18,419 - INFO - Punteggio composito grezzo: 50 (tipo: <class 'int'>)
+2025-03-19 18:42:18,419 - INFO - Punteggio composito convertito: 50
+2025-03-19 18:42:18,420 - INFO - Riga DataFrame completa per 0_Rafael-Patron_AI_Program_Manager.pdf: {'Filename': '0_Rafael-Patron_AI_Program_Manager.pdf', 'Nome': 'Rafael', 'Cognome': 'Patron', 'Numero di contatto': '+39 3313983284', 'Email': 'r@r4f.it', 'Età': '43', 'Città di residenza': 'Genova', 'Città di origine': 'Genova', 'Anni di esperienza lavorativa': 16, 'Anni di esperienza lavorativa nel ruolo richiesto': '16', 'Master o assimilabile nel ruolo richiesto': 'Sì', 'Università/Istituto': 'IED Milano', 'Posizione attuale': 'AI Program Manager & Growth Hacker', 'Datori di lavoro precedenti': ['Intarget', 'Unoenergy Spa', 'Virtus Entella', 'Dedagroup', 'Snap Inc.', 'Wyscout', 'Google', 'Eurotraining'], 'Legame con Firenze': 'Docente presso Fondazione Universitaria Firenze', 'Soft skills': 'Capacità di coordinamento di team cross-funzionali, docente, orientamento ai risultati', "Progetti personali o accademici relativi all'AI o al marketing digitale": 'Progetti di Intelligenza Artificiale in corso, libro in pubblicazione sul Growth Hacking', 'Conoscenza di pratiche SEO e SEM': 'Esperto in SEO/SEM, consultenze e strategie specifiche svolte in ruoli precedenti', 'Punteggio_composito': 50}
+2025-03-19 18:42:18,420 - INFO - Processando risultato per file: 2025 Resume.pdf.pdf
+2025-03-19 18:42:18,420 - INFO - Punteggio composito grezzo: 50 (tipo: <class 'int'>)
+2025-03-19 18:42:18,420 - INFO - Punteggio composito convertito: 50
+2025-03-19 18:42:18,420 - INFO - Riga DataFrame completa per 2025 Resume.pdf.pdf: {'Filename': '2025 Resume.pdf.pdf', 'Nome': 'Julie', 'Cognome': 'Miller', 'Numero di contatto': '781-608-2292', 'Email': 'juliemiller0303@gmail.com', 'Età': 'Circa 25-30 anni', 'Città di residenza': "Non specificata, ma probabilmente Firenze, Italia (considerando l'educazione)", 'Città di origine': 'Non specificata', 'Anni di esperienza lavorativa': 'Circa 1-2 anni', 'Anni di esperienza lavorativa nel ruolo richiesto': 'Circa 1 anno', 'Master o assimilabile nel ruolo richiesto': 'Sì', 'Università/Istituto': 'Istituto Marangoni Firenze', 'Posizione attuale': 'Founder & Content Strategist', 'Datori di lavoro precedenti': ['Officina di Santa Maria Novella', 'Bus2Alps'], 'Legame con Firenze': "Ha studiato all'Istituto Marangoni Firenze", 'Soft skills': ['Creatività', 'Teamwork', 'Comunicazione', 'Analisi dei dati'], "Progetti personali o accademici relativi all'AI o al marketing digitale": 'Nessuna menzione specifica, ma specializzazione in Digital Media Strategy', 'Conoscenza di pratiche SEO e SEM': 'Sì', 'Punteggio_composito': 50}
+2025-03-19 18:42:18,423 - INFO - VALORI PUNTEGGI NEL DATAFRAME PRIMA DELLA NORMALIZZAZIONE:
+2025-03-19 18:42:18,423 - INFO - File: (Ita) Alessandro Anceschi - CV.pdf
+2025-03-19 18:42:18,425 - INFO -   Punteggio composito: 50 (tipo: <class 'int'>)
+2025-03-19 18:42:18,425 - INFO - File: 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-19 18:42:18,425 - INFO -   Punteggio composito: 50 (tipo: <class 'int'>)
+2025-03-19 18:42:18,425 - INFO - File: 2025 Resume.pdf.pdf
+2025-03-19 18:42:18,426 - INFO -   Punteggio composito: 50 (tipo: <class 'int'>)
+2025-03-19 18:42:18,426 - INFO - ==================== INIZIO NORMALIZZAZIONE DATAFRAME ====================
+2025-03-19 18:42:18,426 - INFO - Colonne nel DataFrame originale: ['Filename', 'Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Soft skills', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM', 'Punteggio_composito']
+2025-03-19 18:42:18,427 - INFO - Valori originali per Punteggio_composito: [50, 50, 50]
+2025-03-19 18:42:18,430 - INFO - Tipi per Punteggio_composito: {<class 'int'>: 3}
+2025-03-19 18:42:18,435 - INFO - Normalizzazione colonna di punteggio: Punteggio_composito
+2025-03-19 18:42:18,439 - INFO - ==================== PUNTEGGI DOPO NORMALIZZAZIONE ====================
+2025-03-19 18:42:18,439 - INFO - Valori finali per Punteggio_composito: ['50', '50', '50']
+2025-03-19 18:42:18,440 - INFO - ==================== FINE NORMALIZZAZIONE DATAFRAME ====================
+2025-03-19 18:42:18,440 - INFO - VALORI PUNTEGGI NEL DATAFRAME DOPO LA NORMALIZZAZIONE:
+2025-03-19 18:42:18,440 - INFO - File: (Ita) Alessandro Anceschi - CV.pdf
+2025-03-19 18:42:18,440 - INFO -   Punteggio composito: 50 (tipo: <class 'str'>)
+2025-03-19 18:42:18,442 - INFO - File: 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-19 18:42:18,442 - INFO -   Punteggio composito: 50 (tipo: <class 'str'>)
+2025-03-19 18:42:18,442 - INFO - File: 2025 Resume.pdf.pdf
+2025-03-19 18:42:18,442 - INFO -   Punteggio composito: 50 (tipo: <class 'str'>)
+2025-03-19 18:42:18,442 - INFO - ======================================== FINE ELABORAZIONE CV ========================================

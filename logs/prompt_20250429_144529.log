@@ -1,0 +1,294 @@
+Data e ora: 2025-04-29 14:45:29
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nVipul Aggarwal \nvipul.captureart@gmail.com \n+91-8766244243 \nHighly skilled and motivated project management professional with extensive experience in managing integrated projects and\ncampaigns for international clients. Proven track record of leading teams, optimizing processes, and delivering projects on time and\nwithin budget. \nWORK EXPERIENCE \nManager \nHavas Media \n08/2023 - Present,  \nBangalore, India \nManaged project timelines, budgets, and deliverables for various\nmarketing campaigns, ensuring alignment with client objectives. \nEnhanced productivity through the implementation of project\nmanagement tools, fostering team collaboration and eﬃciency. \nSuccessfully managed end-to-end projects for V-Guard and digital\nmarketing initiatives for Puma and Bosch. \nSr. Operations Executive \nPublicis Groupe \n11/2021 - 07/2023,  \nGurugram, India \nContributed to over £1M in revenue growth by acquiring business\nfrom new channels and engaging global clients like GSK and L'Oréal. \nDemonstrated strong leadership by setting targets, SOPs, SLAs, and\nparticipating in strategic planning to drive process improvements\nand meet organizational goals. \nProject Manager \nVizipp India Pvt. Ltd. \n04/2021 - 10/2021,  \nMaharashtra, India \nLed end-to-end project management, ensuring adherence to\ntimelines, budget, and quality standards. \nProactively conducted regular analysis of operational metrics (SLA,\nCSAT) to generate insightful reports and implement process\nenhancements. \nQuality Control Lead \nLakshya Digital Pvt. Ltd. \n12/2018 - 03/2021,  \nGurugram, India \nIncreased QA lab eﬃciency, reducing testing time by 74% for phases\nlike design validation and veriﬁcation. \nPerformed routine quality inspections and directed quality decisions\nin compliance with organizational control standards. \nACHIEVEMENTS \nMost Promising Team Member (03/2022) \nRecognized for dedicated contributions as a member of DCOMM team in Publicis. \nSlack Community Leader \nAcknowledged for organizing events, managing community structure, and connecting\nwith global speakers. \nOpen Data Science Conference (ODSC) Volunteer \nWorked as a speaker volunteer and organized global conferences, receiving recognition\nfor outstanding performance. \nSKILLS \nProject Management \nStrategic Planning \nBudget Estimation \nRisk Management \nResource Planning \nClient Relationship Management \nAnalytics \nAgile \nCritical Thinking \nCommunication \nTeam Management \nPERSONAL PROJECTS \nGSK Brand Launch Campaign\n (03/2023 - 05/2023) \nCollaborated with the creative team to develop a\ncohesive brand identity, resulting in a 30% increase\nin brand recognition within the ﬁrst quarter. \nProvided ongoing guidance and support to\noptimize content marketing eﬀorts and\nrecommended eﬀective strategies. \nInsider Trading Dashboard\n (05/2022 - 07/2022) \nCreated a fully automated E2E dashboard to\nidentify insider trading cases using Python &\nTableau, utilizing Pandas for data analysis and\nextraction. \nEDUCATION \nProject Management\nCertiﬁcation \nIIM Indore \nMasters of Computer Application \nIndira Gandhi University \nTOOLS \nJIRA \nWorkfront \nSmartsheet \nMicrosoft Project \nBasecamp \nTrello \nAsana \nConﬂuence \nMonday.com \n\n\n---Estrazione OCR---\nVi p U [ Ag g Fa rwa [ vipul.captureart@gmail.com WK\n+91-8766244243 fj\n\nHighly skilled and motivated project management professional with extensive experience in managing integrated projects and\ncampaigns for international clients. Proven track record of leading teams, optimizing processes, and delivering projects on time and\nwithin budget.\nWORK EXPERIENCE SKILLS\n\nManager\n\nHavas Media\n\n08/2023 - Present Bangalore, India\n\n- Managed project timelines, budgets, and deliverables for various\nmarketing campaigns, ensuring alignment with client objectives.\n\n- Enhanced productivity through the implementation of project\nmanagement tools, fostering team collaboration and efficiency.\n\n- Successfully managed end-to-end projects For V-Guard and digital\nmarketing initiatives for Puma and Bosch.\n\nSr. Operations Executive\nPublicis Groupe\n11/2021 - 07/2023 Gurugram, India PERSO NAL PROJ ECTS\n\n- Contributed to over £1M in revenue growth by acquiring business GSK Brand Launch Campaign\nfrom new channels and engaging global clients like GSK and L'Oréal. (03/2023 - 05/2023)\n\n_ F . — Collaborated with the creative team to develop a\nDemonstrated strong leadership by setting targets, SOPs, SLAs, and cohesive brand identity, resulting in a 30% increase\nparticipating in strategic planning to drive process improvements in brand recognition within the first quarter.\nand meet organizational goals. - Provided ongoing guidance and support to\n\noptimize content marketing efforts and\nProject Manager recommended effective strategies.\nVizipp India Pvt. Ltd. Insider Trading Dashboard\n04/2021 - 10/2021 Maharashtra, India (05/ 2022 - 07/ 2022)\n- Created a Fully automated E2E dashboard to\n\n- Led end-to-end project management, ensuring adherence to identify insider trading cases using Python &\n\n; . . Tableau, utilizing Pandas For data analysis and\ntimelines, budget, and quality standards. extraction.\n\n- Proactively conducted regular analysis of operational metrics (SLA,\n\nCSAT) to generate insightful reports and implement process\n\nenhancements.\n\nEDUCATION\nQuality Control Lead Project Management\nLakshya Digital Pvt. Ltd. sce pe\nispp0ve 03/n021 G Indi Certification\n- rugram, India\nwg IIM Indore\n\n- Increased QA lab efficiency, reducing testing time by 74% for phases\nlike design validation and verification. Masters of Computer Application\n\n- Performed routine quality inspections and directed quality decisions Indira Gandhi University\nin compliance with organizational control standards.\n\nTOOLS\n\nACHIEVEMENTS TO\n\n_ JIRA Workfront Smartsheet\nMost Promising Team Member (03/2022)\nRecognized for dedicated contributions as a member of DCOMM team in Publicis. Microsoft Project Basecamp\nSlack Community Leader\nAcknowledged for organizing events, managing community structure, and connecting Trello Asana Confluence\nwith global speakers.\nOpen Data Science Conference (ODSC) Volunteer Monday.com\nWorked as a speaker volunteer and organized global conferences, receiving recognition\nfor outstanding performance.\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Vipul Aggarwal 
+vipul.captureart@gmail.com 
++91-8766244243 
+Highly skilled and motivated project management professional with extensive experience in managing integrated projects and
+campaigns for international clients. Proven track record of leading teams, optimizing processes, and delivering projects on time and
+within budget. 
+WORK EXPERIENCE 
+Manager 
+Havas Media 
+08/2023 - Present,  
+Bangalore, India 
+Managed project timelines, budgets, and deliverables for various
+marketing campaigns, ensuring alignment with client objectives. 
+Enhanced productivity through the implementation of project
+management tools, fostering team collaboration and eﬃciency. 
+Successfully managed end-to-end projects for V-Guard and digital
+marketing initiatives for Puma and Bosch. 
+Sr. Operations Executive 
+Publicis Groupe 
+11/2021 - 07/2023,  
+Gurugram, India 
+Contributed to over £1M in revenue growth by acquiring business
+from new channels and engaging global clients like GSK and L'Oréal. 
+Demonstrated strong leadership by setting targets, SOPs, SLAs, and
+participating in strategic planning to drive process improvements
+and meet organizational goals. 
+Project Manager 
+Vizipp India Pvt. Ltd. 
+04/2021 - 10/2021,  
+Maharashtra, India 
+Led end-to-end project management, ensuring adherence to
+timelines, budget, and quality standards. 
+Proactively conducted regular analysis of operational metrics (SLA,
+CSAT) to generate insightful reports and implement process
+enhancements. 
+Quality Control Lead 
+Lakshya Digital Pvt. Ltd. 
+12/2018 - 03/2021,  
+Gurugram, India 
+Increased QA lab eﬃciency, reducing testing time by 74% for phases
+like design validation and veriﬁcation. 
+Performed routine quality inspections and directed quality decisions
+in compliance with organizational control standards. 
+ACHIEVEMENTS 
+Most Promising Team Member (03/2022) 
+Recognized for dedicated contributions as a member of DCOMM team in Publicis. 
+Slack Community Leader 
+Acknowledged for organizing events, managing community structure, and connecting
+with global speakers. 
+Open Data Science Conference (ODSC) Volunteer 
+Worked as a speaker volunteer and organized global conferences, receiving recognition
+for outstanding performance. 
+SKILLS 
+Project Management 
+Strategic Planning 
+Budget Estimation 
+Risk Management 
+Resource Planning 
+Client Relationship Management 
+Analytics 
+Agile 
+Critical Thinking 
+Communication 
+Team Management 
+PERSONAL PROJECTS 
+GSK Brand Launch Campaign
+ (03/2023 - 05/2023) 
+Collaborated with the creative team to develop a
+cohesive brand identity, resulting in a 30% increase
+in brand recognition within the ﬁrst quarter. 
+Provided ongoing guidance and support to
+optimize content marketing eﬀorts and
+recommended eﬀective strategies. 
+Insider Trading Dashboard
+ (05/2022 - 07/2022) 
+Created a fully automated E2E dashboard to
+identify insider trading cases using Python &
+Tableau, utilizing Pandas for data analysis and
+extraction. 
+EDUCATION 
+Project Management
+Certiﬁcation 
+IIM Indore 
+Masters of Computer Application 
+Indira Gandhi University 
+TOOLS 
+JIRA 
+Workfront 
+Smartsheet 
+Microsoft Project 
+Basecamp 
+Trello 
+Asana 
+Conﬂuence 
+Monday.com 
+
+
+---Estrazione OCR---
+Vi p U [ Ag g Fa rwa [ vipul.captureart@gmail.com WK
++91-8766244243 fj
+
+Highly skilled and motivated project management professional with extensive experience in managing integrated projects and
+campaigns for international clients. Proven track record of leading teams, optimizing processes, and delivering projects on time and
+within budget.
+WORK EXPERIENCE SKILLS
+
+Manager
+
+Havas Media
+
+08/2023 - Present Bangalore, India
+
+- Managed project timelines, budgets, and deliverables for various
+marketing campaigns, ensuring alignment with client objectives.
+
+- Enhanced productivity through the implementation of project
+management tools, fostering team collaboration and efficiency.
+
+- Successfully managed end-to-end projects For V-Guard and digital
+marketing initiatives for Puma and Bosch.
+
+Sr. Operations Executive
+Publicis Groupe
+11/2021 - 07/2023 Gurugram, India PERSO NAL PROJ ECTS
+
+- Contributed to over £1M in revenue growth by acquiring business GSK Brand Launch Campaign
+from new channels and engaging global clients like GSK and L'Oréal. (03/2023 - 05/2023)
+
+_ F . — Collaborated with the creative team to develop a
+Demonstrated strong leadership by setting targets, SOPs, SLAs, and cohesive brand identity, resulting in a 30% increase
+participating in strategic planning to drive process improvements in brand recognition within the first quarter.
+and meet organizational goals. - Provided ongoing guidance and support to
+
+optimize content marketing efforts and
+Project Manager recommended effective strategies.
+Vizipp India Pvt. Ltd. Insider Trading Dashboard
+04/2021 - 10/2021 Maharashtra, India (05/ 2022 - 07/ 2022)
+- Created a Fully automated E2E dashboard to
+
+- Led end-to-end project management, ensuring adherence to identify insider trading cases using Python &
+
+; . . Tableau, utilizing Pandas For data analysis and
+timelines, budget, and quality standards. extraction.
+
+- Proactively conducted regular analysis of operational metrics (SLA,
+
+CSAT) to generate insightful reports and implement process
+
+enhancements.
+
+EDUCATION
+Quality Control Lead Project Management
+Lakshya Digital Pvt. Ltd. sce pe
+ispp0ve 03/n021 G Indi Certification
+- rugram, India
+wg IIM Indore
+
+- Increased QA lab efficiency, reducing testing time by 74% for phases
+like design validation and verification. Masters of Computer Application
+
+- Performed routine quality inspections and directed quality decisions Indira Gandhi University
+in compliance with organizational control standards.
+
+TOOLS
+
+ACHIEVEMENTS TO
+
+_ JIRA Workfront Smartsheet
+Most Promising Team Member (03/2022)
+Recognized for dedicated contributions as a member of DCOMM team in Publicis. Microsoft Project Basecamp
+Slack Community Leader
+Acknowledged for organizing events, managing community structure, and connecting Trello Asana Confluence
+with global speakers.
+Open Data Science Conference (ODSC) Volunteer Monday.com
+Worked as a speaker volunteer and organized global conferences, receiving recognition
+for outstanding performance.
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**Vipul Aggarwal**  
+vipul.captureart@gmail.com  
++91-8766244243  
+
+Highly skilled and motivated project management professional with extensive experience in managing integrated projects and campaigns for international clients. Proven track record of leading teams, optimizing processes, and delivering projects on time and within budget.
+
+---
+
+**WORK EXPERIENCE**  
+
+**Manager**  
+Havas Media  
+08/2023 - Present, Bangalore, India  
+- Managed project timelines, budgets, and deliverables for various marketing campaigns, ensuring alignment with client objectives.  
+- Enhanced productivity through the implementation of project management tools, fostering team collaboration and efficiency.  
+- Successfully managed end-to-end projects for V-Guard and digital marketing initiatives for Puma and Bosch.  
+
+**Sr. Operations Executive**  
+Publicis Groupe  
+11/2021 - 07/2023, Gurugram, India  
+- Contributed to over £1M in revenue growth by acquiring business from new channels and engaging global clients like GSK and L'Oréal.  
+- Demonstrated strong leadership by setting targets, SOPs, SLAs, and participating in strategic planning to drive process improvements and meet organizational goals.  
+
+**Project Manager**  
+Vizipp India Pvt. Ltd.  
+04/2021 - 10/2021, Maharashtra, India  
+- Led end-to-end project management, ensuring adherence to timelines, budget, and quality standards.  
+- Proactively conducted regular analysis of operational metrics (SLA, CSAT) to generate insightful reports and implement process enhancements.  
+
+**Quality Control Lead**  
+Lakshya Digital Pvt. Ltd.  
+12/2018 - 03/2021, Gurugram, India  
+- Increased QA lab efficiency, reducing testing time by 74% for phases like design validation and verification.  
+- Performed routine quality inspections and directed quality decisions in compliance with organizational control standards.  
+
+---
+
+**ACHIEVEMENTS**  
+- **Most Promising Team Member (03/2022)**: Recognized for dedicated contributions as a member of DCOMM team in Publicis.  
+- **Slack Community Leader**: Acknowledged for organizing events, managing community structure, and connecting with global speakers.  
+- **Open Data Science Conference (ODSC) Volunteer**: Worked as a speaker volunteer and organized global conferences, receiving recognition for outstanding performance.  
+
+---
+
+**SKILLS**  
+- Project Management  
+- Strategic Planning  
+- Budget Estimation  
+- Risk Management  
+- Resource Planning  
+- Client Relationship Management  
+- Analytics  
+- Agile  
+- Critical Thinking  
+- Communication  
+- Team Management  
+
+---
+
+**PERSONAL PROJECTS**  
+
+**GSK Brand Launch Campaign**  
+(03/2023 - 05/2023)  
+- Collaborated with the creative team to develop a cohesive brand identity, resulting in a 30% increase in brand recognition within the first quarter.  
+- Provided ongoing guidance and support to optimize content marketing efforts and recommended effective strategies.  
+
+**Insider Trading Dashboard**  
+(05/2022 - 07/2022)  
+- Created a fully automated E2E dashboard to identify insider trading cases using Python & Tableau, utilizing Pandas for data analysis and extraction.  
+
+---
+
+**EDUCATION**  
+- **Project Management Certification**  
+  IIM Indore  
+
+- **Masters of Computer Application**  
+  Indira Gandhi University  
+
+---
+
+**TOOLS**  
+- JIRA  
+- Workfront  
+- Smartsheet  
+- Microsoft Project  
+- Basecamp  
+- Trello  
+- Asana  
+- Confluence  
+- Monday.com  

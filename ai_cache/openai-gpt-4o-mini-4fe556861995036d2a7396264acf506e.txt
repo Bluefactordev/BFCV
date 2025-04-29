@@ -1,0 +1,1 @@
+{"criteria": [{"id": "programmazione", "label": "Competenze di programmazione", "weight": 40}, {"id": "uso_ai", "label": "Esperienza con AI", "weight": 30}, {"id": "web_marketing", "label": "Conoscenze web marketing", "weight": 20}, {"id": "analisi_dati", "label": "Analisi dei dati", "weight": 10}]}

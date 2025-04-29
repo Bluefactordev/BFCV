@@ -1,0 +1,25 @@
+                # Verifica che il criterio esista nel risultato della valutazione
+                if criteria_id not in criteria_data:
+                    scores_logger.warning(f"Criterio '{criteria_id}' NON TROVATO nei dati di valutazione! Salto questo criterio.")
+                    continue
+                
+                # Ottieni il punteggio in modo sicuro
+                raw_score = None
+                if isinstance(criteria_data[criteria_id], dict) and "score" in criteria_data[criteria_id]:
+                    raw_score = criteria_data[criteria_id]["score"]
+                elif isinstance(criteria_data[criteria_id], (int, float, str)):
+                    raw_score = criteria_data[criteria_id]
+                else:
+                    raw_score = 0
+                    scores_logger.warning(f"Formato non supportato per {criteria_id}: {criteria_data[criteria_id]}")
+                
+                scores_logger.info(f"  {criteria_id} - score grezzo: {raw_score} - tipo: {type(raw_score)}")
+                
+                # Assicurati che il punteggio sia numerico
+                if isinstance(raw_score, str):
+                    # Rimuovi eventuali caratteri non numerici
+                    cleaned_score = ''.join(c for c in raw_score if c.isdigit() or c == '.')
+                    score = float(cleaned_score) if cleaned_score else 0
+                    scores_logger.info(f"  {criteria_id} - conversione da stringa '{raw_score}' a numero {score}")
+                else:
+                    score = float(raw_score) if raw_score is not None else 0 

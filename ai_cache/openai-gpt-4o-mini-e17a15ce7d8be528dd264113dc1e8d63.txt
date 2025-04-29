@@ -1,0 +1,1 @@
+"{\n    \"Età\": 30,\n    \"Città di origine\": \"Padova\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laureando in Economia Aziendale - Management per l'innovazione e la sostenibilità\",\n    \"Legame con Firenze\": \"Nessun legame specificato\",\n    \"Età espressa in anni\": 30\n}"

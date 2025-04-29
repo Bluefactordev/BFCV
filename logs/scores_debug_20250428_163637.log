@@ -1,0 +1,543 @@
+2025-04-28 16:36:37,052 - INFO - bfcv_007.py:3348 - setup_scores_logger - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-04-28 16:36:37,052 - INFO - bfcv_007.py:3349 - setup_scores_logger - Inizializzato logger di debug per i punteggi
+2025-04-28 16:36:37,052 - INFO - bfcv_007.py:3350 - setup_scores_logger - Python version: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-04-28 16:36:37,053 - INFO - bfcv_007.py:3351 - setup_scores_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-04-28 16:36:37,053 - INFO - bfcv_007.py:3352 - setup_scores_logger - Log file: D:\Progetti\BFCV\logs\scores_debug_20250428_163637.log
+2025-04-28 16:36:37,053 - INFO - bfcv_007.py:3354 - setup_scores_logger - Modello OpenAI configurato: phi4-mini:latest
+2025-04-28 16:36:37,053 - INFO - bfcv_007.py:3356 - setup_scores_logger - Modello Ollama configurato: phi4:latest
+2025-04-28 16:36:37,055 - INFO - bfcv_007.py:3358 - setup_scores_logger - Uso Ollama: True
+2025-04-28 16:36:37,055 - INFO - bfcv_007.py:3360 - setup_scores_logger - Cache abilitata: True
+2025-04-28 16:36:37,055 - INFO - bfcv_007.py:3653 - main - Inizializzato logger di debug per i punteggi
+2025-04-28 16:36:37,180 - INFO - bfcv_007.py:2833 - process_cvs - ======================================== INIZIO ELABORAZIONE CV IN G:\Drive condivisi\Bluefactor - Produzione\Ricerche di personale\Account2025 ========================================
+2025-04-28 16:36:41,382 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=53c76ca8...
+2025-04-28 16:36:41,382 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+CV: ALESSIO GASPERETTI 
+ACCOUNT MANAGER E 
+DATA ANALYST 
+ 
+ 
+ 
+ Durante il mio percorso lavorativo ho 
+avuto l’opportunità di lavorare per 
+multinazionali in ambienti 
+internazionali, prima a Dublino, poi a 
+Liverpool, Londra, ...
+2025-04-28 16:36:41,387 - INFO - bfcv_007.py:1219 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=53c76ca8...
+2025-04-28 16:36:41,388 - DEBUG - bfcv_007.py:1224 - get_cached_response - CACHE RESPONSE (troncato): **Curriculum Vitae**
+
+---
+
+**Nome:**  
+Gasperet
+
+**Telefono:**  
++356 9970 5795
+
+**Posta Elettronica:**  
+Gasperet@hotmail.com  
+
+**Hobby:**  
+- Viaggiare  
+- Lettura  
+- Blockchain e Criptovalute  
+- Finanza ed Economia  
+
+---
+
+**Formazione:**
+
+- **Senior Sports Trader / Data Analyst**  
+  SG Digit...
+2025-04-28 16:36:41,388 - INFO - bfcv_007.py:2321 - analyze_cv_ollama - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-04-28 16:36:41,389 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=b31129c0...
+2025-04-28 16:36:41,389 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di dig...
+2025-04-28 16:36:41,400 - INFO - bfcv_007.py:1219 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=b31129c0...
+2025-04-28 16:36:41,401 - DEBUG - bfcv_007.py:1224 - get_cached_response - CACHE RESPONSE (troncato): {
+  "Nome": "Gasperet",
+  "Cognome": "Non specificato",
+  "Numero di contatto": "+356 9970 5795",
+  "Email": "Gasperet@hotmail.com",
+  "Età": "Non specificato",
+  "Città di residenza": "Non specificato",
+  "Città di origine": "Non specificato",
+  "Anni di esperienza lavorativa": "Più di 13 anni (dal...
+2025-04-28 16:36:41,404 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=7d565869...
+2025-04-28 16:36:41,404 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital mark...
+2025-04-28 16:36:41,405 - INFO - bfcv_007.py:1239 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=7d565869...
+2025-04-28 16:36:41,405 - INFO - bfcv_007.py:1240 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=7d565869...
+2025-04-28 16:37:03,567 - INFO - bfcv_007.py:1317 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=7d565869...
+2025-04-28 16:37:03,567 - DEBUG - bfcv_007.py:1322 - save_to_cache - CACHED RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {
+            "score": 60,
+            "motivation": "Il candidato ha esperienza in analisi dei dati e reportistica, che sono competenze tecniche rilevanti per l'analisi delle performance delle campagne digitali. Tuttavia, manca di esperienza specif...
+2025-04-28 16:37:03,567 - INFO - bfcv_007.py:2621 - analyze_cv_ollama - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-04-28 16:37:03,568 - INFO - bfcv_007.py:2632 - analyze_cv_ollama - Trovata struttura con campo 'criteria': ['competenze_tecniche', 'esperienza_rilevante', 'formazione', 'leadership', 'attitudine_al_new_business_e_commerciale'] ...
+2025-04-28 16:37:03,569 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'competenze_tecniche'
+2025-04-28 16:37:03,569 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'competenze_tecniche' trovato: {"score": 60, "motivation": "Il candidato ha esperienza in analisi dei dati e reportistica, che sono competenze tecniche rilevanti per l'analisi delle performance delle campagne digitali. Tuttavia, manca di esperienza specifica nel marketing digitale."}
+2025-04-28 16:37:03,569 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   competenze_tecniche - score grezzo: 60 - tipo: <class 'int'>
+2025-04-28 16:37:03,569 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   competenze_tecniche - peso: 25
+2025-04-28 16:37:03,569 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'esperienza_rilevante'
+2025-04-28 16:37:03,570 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'esperienza_rilevante' trovato: {"score": 20, "motivation": "L'esperienza del candidato \u00e8 principalmente nel trading sportivo e nell'analisi dei dati, senza un background diretto in agenzia di pubblicit\u00e0 o digital marketing."}
+2025-04-28 16:37:03,570 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   esperienza_rilevante - score grezzo: 20 - tipo: <class 'int'>
+2025-04-28 16:37:03,571 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   esperienza_rilevante - peso: 25
+2025-04-28 16:37:03,571 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'formazione'
+2025-04-28 16:37:03,571 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'formazione' trovato: {"score": 10, "motivation": "Non ci sono informazioni sul possesso di un master in marketing o comunicazione; la formazione sembra focalizzata su settori diversi dal marketing digitale."}
+2025-04-28 16:37:03,571 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   formazione - score grezzo: 10 - tipo: <class 'int'>
+2025-04-28 16:37:03,571 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   formazione - peso: 15
+2025-04-28 16:37:03,571 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'leadership'
+2025-04-28 16:37:03,572 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'leadership' trovato: {"score": 30, "motivation": "Il candidato ha dimostrato capacit\u00e0 gestionali, come nel ruolo di Account Amministratore all'Estero, ma non ci sono prove di leadership esplicita in contesti digital marketing."}
+2025-04-28 16:37:03,573 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   leadership - score grezzo: 30 - tipo: <class 'int'>
+2025-04-28 16:37:03,573 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   leadership - peso: 10
+2025-04-28 16:37:03,573 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'attitudine_al_new_business_e_commerciale'
+2025-04-28 16:37:03,574 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'attitudine_al_new_business_e_commerciale' trovato: {"score": 25, "motivation": "L'esperienza nel trading e nell'accounting suggerisce una certa attitudine commerciale, ma non ci sono prove dirette di esperienze specifiche nel new business nel settore digital marketing."}
+2025-04-28 16:37:03,574 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   attitudine_al_new_business_e_commerciale - score grezzo: 25 - tipo: <class 'int'>
+2025-04-28 16:37:03,574 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   attitudine_al_new_business_e_commerciale - peso: 30
+2025-04-28 16:37:03,574 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'esperienza_di_accounting_su_brand_non_locali'
+2025-04-28 16:37:03,574 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'esperienza_di_accounting_su_brand_non_locali' trovato: {"score": 40, "motivation": "Il candidato ha lavorato con brand non locali in ruoli che implicano accounting, mostrando familiarit\u00e0 con operazioni su scala pi\u00f9 ampia."}
+2025-04-28 16:37:03,575 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   esperienza_di_accounting_su_brand_non_locali - score grezzo: 40 - tipo: <class 'int'>
+2025-04-28 16:37:03,575 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   esperienza_di_accounting_su_brand_non_locali - peso: 30
+2025-04-28 16:37:03,576 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'esperienza_agenzia'
+2025-04-28 16:37:03,576 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'esperienza_agenzia' trovato: {"score": 10, "motivation": "Non ci sono esperienze documentate nel lavoro per agenzie di digital marketing o pubblicit\u00e0, il che limita la valutazione in questo criterio."}
+2025-04-28 16:37:03,576 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   esperienza_agenzia - score grezzo: 10 - tipo: <class 'int'>
+2025-04-28 16:37:03,576 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   esperienza_agenzia - peso: 40
+2025-04-28 16:37:03,576 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'proximity_firenze'
+2025-04-28 16:37:03,576 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'proximity_firenze' trovato: {"score": 0, "motivation": "Il CV non fornisce alcuna informazione sul legame con Firenze, quindi non \u00e8 possibile valutarlo su questo aspetto."}
+2025-04-28 16:37:03,576 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   proximity_firenze - score grezzo: 0 - tipo: <class 'int'>
+2025-04-28 16:37:03,577 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   proximity_firenze - peso: 10
+2025-04-28 16:37:03,577 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'age_under_30'
+2025-04-28 16:37:03,577 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'age_under_30' trovato: {"score": 0, "motivation": "L'et\u00e0 del candidato non \u00e8 specificata nel CV, rendendo impossibile determinare se soddisfa il criterio di et\u00e0 inferiore ai 30 anni."}
+2025-04-28 16:37:03,577 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   age_under_30 - score grezzo: 0 - tipo: <class 'int'>
+2025-04-28 16:37:03,578 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   age_under_30 - peso: 5
+2025-04-28 16:37:03,578 - INFO - bfcv_007.py:2697 - analyze_cv_ollama - Punteggio composito calcolato: 25 (= 4800.0 / 190)
+2025-04-28 16:37:03,578 - INFO - bfcv_007.py:2703 - analyze_cv_ollama - Punteggio composito ricalcolato: 25 (media pesata con peso totale 190)
+2025-04-28 16:37:03,578 - INFO - bfcv_007.py:2707 - analyze_cv_ollama - Punteggio composito originale: 23.5
+2025-04-28 16:37:05,256 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=1a8ed1b3...
+2025-04-28 16:37:05,257 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+CONTACTS
++39 333 2978 268
+giorgiofloriddia.tr@gmail.com
+Italy - Rimini 
+Willing to relocate
+ITALIAN;
+ENGLISH;
+SPANISH;
+PORTUGUESE.
+PROFILE
+As an experienced professional, I strongly
+believe 
+in 
+leadership 
+and 
+collaboration,
+...
+2025-04-28 16:37:05,263 - INFO - bfcv_007.py:1219 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=1a8ed1b3...
+2025-04-28 16:37:05,263 - DEBUG - bfcv_007.py:1224 - get_cached_response - CACHE RESPONSE (troncato): **GIORGIO FLORIDDIA**
+
+**Contatti:**
+- Telefono: +39 333 2978 268
+- Email: giorgiofloriddia.tr@gmail.com
+- Luogo: Italia - Rimini 
+- Disponibile a trasferirmi
+
+**Lingue Conosciute:**
+- ITALIANO;
+- INGLESE;
+- SPAGNOLO;
+- PORTOGHESE.
+
+---
+
+**Profilo Professionale**
+
+Come professionista esperto, credo ...
+2025-04-28 16:37:05,264 - INFO - bfcv_007.py:2321 - analyze_cv_ollama - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-04-28 16:37:05,265 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=489f9d51...
+2025-04-28 16:37:05,265 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di dig...
+2025-04-28 16:37:05,266 - INFO - bfcv_007.py:1239 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=489f9d51...
+2025-04-28 16:37:05,266 - INFO - bfcv_007.py:1240 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=489f9d51...
+2025-04-28 16:37:16,529 - INFO - bfcv_007.py:1317 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=489f9d51...
+2025-04-28 16:37:16,530 - DEBUG - bfcv_007.py:1322 - save_to_cache - CACHED RESPONSE (troncato): {
+  "Nome": "GIORGIO",
+  "Cognome": "FLORIDDIA",
+  "Numero di contatto": "+39 333 2978 268",
+  "Email": "giorgiofloriddia.tr@gmail.com",
+  "Età": "Non specificato",
+  "Città di residenza": "Rimini",
+  "Città di origine": "Non specificato",
+  "Anni di esperienza lavorativa": "5",
+  "Anni di esperienz...
+2025-04-28 16:37:16,532 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=d0f0b9a0...
+2025-04-28 16:37:16,533 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Età
+2. Città di origine
+3. Legame con Firenze
+4. Età espressa in anni come numero intero senza commenti
+    
+    CV:
+    **GIORGIO FLORIDDIA**
+
+**Contatti:**
+- Telefono: +39 333 2978 268
+- Email: giorgiofloriddia.tr@gmail...
+2025-04-28 16:37:16,534 - INFO - bfcv_007.py:1239 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=d0f0b9a0...
+2025-04-28 16:37:16,534 - INFO - bfcv_007.py:1240 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=d0f0b9a0...
+2025-04-28 16:37:23,589 - INFO - bfcv_007.py:1317 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=d0f0b9a0...
+2025-04-28 16:37:23,589 - DEBUG - bfcv_007.py:1322 - save_to_cache - CACHED RESPONSE (troncato): {
+    "Età": "Calcolata sulla base dell'ultimo anno di istruzione, la laurea è stata completata nel luglio 2018. Supponendo che l'anno scolastico inizi all'età di circa 18 anni e che abbia seguito un percorso educativo tipico, Giorgio dovrebbe avere intorno ai 26-27 anni.",
+    "Città di origine": "...
+2025-04-28 16:37:23,593 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=f678a30c...
+2025-04-28 16:37:23,593 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital mark...
+2025-04-28 16:37:23,593 - INFO - bfcv_007.py:1239 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=f678a30c...
+2025-04-28 16:37:23,593 - INFO - bfcv_007.py:1240 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=f678a30c...
+2025-04-28 16:37:45,196 - INFO - bfcv_007.py:1317 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=f678a30c...
+2025-04-28 16:37:45,196 - DEBUG - bfcv_007.py:1322 - save_to_cache - CACHED RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {
+            "score": 80,
+            "motivation": "Giorgio ha una solida base di competenze tecniche nel digital marketing e copywriting persuasivo, supportata da formazione avanzata."
+        },
+        "esperienza_rilevante": {
+            "sco...
+2025-04-28 16:37:45,197 - INFO - bfcv_007.py:2621 - analyze_cv_ollama - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-04-28 16:37:45,197 - INFO - bfcv_007.py:2632 - analyze_cv_ollama - Trovata struttura con campo 'criteria': ['competenze_tecniche', 'esperienza_rilevante', 'formazione', 'leadership', 'attitudine_al_new_business_e_commerciale'] ...
+2025-04-28 16:37:45,197 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'competenze_tecniche'
+2025-04-28 16:37:45,197 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'competenze_tecniche' trovato: {"score": 80, "motivation": "Giorgio ha una solida base di competenze tecniche nel digital marketing e copywriting persuasivo, supportata da formazione avanzata."}
+2025-04-28 16:37:45,197 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   competenze_tecniche - score grezzo: 80 - tipo: <class 'int'>
+2025-04-28 16:37:45,197 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   competenze_tecniche - peso: 25
+2025-04-28 16:37:45,199 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'esperienza_rilevante'
+2025-04-28 16:37:45,199 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'esperienza_rilevante' trovato: {"score": 60, "motivation": "Ha esperienza in ruoli correlati al digital marketing ma non specificamente come account manager o in un'agenzia digitale."}
+2025-04-28 16:37:45,200 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   esperienza_rilevante - score grezzo: 60 - tipo: <class 'int'>
+2025-04-28 16:37:45,200 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   esperienza_rilevante - peso: 25
+2025-04-28 16:37:45,200 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'formazione'
+2025-04-28 16:37:45,200 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'formazione' trovato: {"score": 90, "motivation": "Giorgio ha completato due master pertinenti nel campo del digital innovation e management, indicando una formazione eccellente."}
+2025-04-28 16:37:45,200 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   formazione - score grezzo: 90 - tipo: <class 'int'>
+2025-04-28 16:37:45,200 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   formazione - peso: 15
+2025-04-28 16:37:45,201 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'leadership'
+2025-04-28 16:37:45,201 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'leadership' trovato: {"score": 50, "motivation": "Non ci sono prove dirette di esperienza in leadership nei ruoli passati, anche se potrebbe aver avuto responsabilit\u00e0 indirette."}
+2025-04-28 16:37:45,201 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   leadership - score grezzo: 50 - tipo: <class 'int'>
+2025-04-28 16:37:45,201 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   leadership - peso: 10
+2025-04-28 16:37:45,201 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'attitudine_al_new_business_e_commerciale'
+2025-04-28 16:37:45,202 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'attitudine_al_new_business_e_commerciale' trovato: {"score": 70, "motivation": "La sua formazione e il background lavorativo suggeriscono una buona attitudine al new business, anche se non esplicitamente documentata."}
+2025-04-28 16:37:45,202 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   attitudine_al_new_business_e_commerciale - score grezzo: 70 - tipo: <class 'int'>
+2025-04-28 16:37:45,203 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   attitudine_al_new_business_e_commerciale - peso: 30
+2025-04-28 16:37:45,203 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'esperienza_di_accounting_su_brand_non_locali'
+2025-04-28 16:37:45,203 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'esperienza_di_accounting_su_brand_non_locali' trovato: {"score": 60, "motivation": "Ha esperienza con PwC Italia e in ruoli freelance, indicando familiarit\u00e0 con marchi internazionali o non locali."}
+2025-04-28 16:37:45,203 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   esperienza_di_accounting_su_brand_non_locali - score grezzo: 60 - tipo: <class 'int'>
+2025-04-28 16:37:45,204 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   esperienza_di_accounting_su_brand_non_locali - peso: 30
+2025-04-28 16:37:45,204 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'esperienza_agenzia'
+2025-04-28 16:37:45,204 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'esperienza_agenzia' trovato: {"score": 50, "motivation": "Non ha esperienze dirette in un'agenzia di digital marketing, ma il background lavorativo \u00e8 rilevante per l'industria."}
+2025-04-28 16:37:45,204 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   esperienza_agenzia - score grezzo: 50 - tipo: <class 'int'>
+2025-04-28 16:37:45,204 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   esperienza_agenzia - peso: 40
+2025-04-28 16:37:45,205 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'proximity_firenze'
+2025-04-28 16:37:45,205 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'proximity_firenze' trovato: {"score": 0, "motivation": "Non c'\u00e8 alcun legame specifico con Firenze menzionato nel CV."}
+2025-04-28 16:37:45,205 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   proximity_firenze - score grezzo: 0 - tipo: <class 'int'>
+2025-04-28 16:37:45,205 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   proximity_firenze - peso: 10
+2025-04-28 16:37:45,205 - INFO - bfcv_007.py:2639 - analyze_cv_ollama - Elaborazione criterio 'age_under_30'
+2025-04-28 16:37:45,205 - INFO - bfcv_007.py:2643 - analyze_cv_ollama - Criterio 'age_under_30' trovato: {"score": 100, "motivation": "Giorgio ha circa 26 anni, soddisfacendo pienamente il criterio di et\u00e0 sotto i 30."}
+2025-04-28 16:37:45,205 - INFO - bfcv_007.py:2663 - analyze_cv_ollama -   age_under_30 - score grezzo: 100 - tipo: <class 'int'>
+2025-04-28 16:37:45,206 - INFO - bfcv_007.py:2676 - analyze_cv_ollama -   age_under_30 - peso: 5
+2025-04-28 16:37:45,206 - INFO - bfcv_007.py:2697 - analyze_cv_ollama - Punteggio composito calcolato: 61 (= 11750.0 / 190)
+2025-04-28 16:37:45,206 - INFO - bfcv_007.py:2703 - analyze_cv_ollama - Punteggio composito ricalcolato: 61 (media pesata con peso totale 190)
+2025-04-28 16:37:45,207 - INFO - bfcv_007.py:2707 - analyze_cv_ollama - Punteggio composito originale: 66.5
+2025-04-28 16:38:02,201 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=de9268d7...
+2025-04-28 16:38:02,201 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+ 
+ 
+1 
+Curriculum Vitae 
+ 
+ 
+Personal Information:  
+ 
+Name:   
+ 
+ 
+Giulio Benati  
+Citizenship: 
+ 
+ 
+Italian  
+Contact:  
+ 
+ 
+giulio.benati84@gmail.com 
+Telephone: 
+ 
+ 
++393280339213  
+Linkedin:  
+ 
+ 
+https://www.linkedin.com/...
+2025-04-28 16:38:02,209 - INFO - bfcv_007.py:1219 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=de9268d7...
+2025-04-28 16:38:02,209 - DEBUG - bfcv_007.py:1224 - get_cached_response - CACHE RESPONSE (troncato): # Curriculum Vitae
+
+## Contatti
+
+**Nome:** [Inserire Nome]  
+**Posizione Corrente:** Senior E-commerce Manager & Head of Marketplace @ Ecommerce School   
+**Email:** [inserire email]  
+**Telefono:** [inserire numero di telefono]  
+
+**Luogo:** Florence, Italy  
+**Data:** 11/10/2024  
+
+## Esperienza P...
+2025-04-28 16:38:02,209 - INFO - bfcv_007.py:2321 - analyze_cv_ollama - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-04-28 16:38:02,211 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=2cae4d1d...
+2025-04-28 16:38:02,211 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di dig...
+2025-04-28 16:38:02,211 - INFO - bfcv_007.py:1239 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=2cae4d1d...
+2025-04-28 16:38:02,212 - INFO - bfcv_007.py:1240 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=2cae4d1d...
+2025-04-28 16:38:15,348 - INFO - bfcv_007.py:1317 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=2cae4d1d...
+2025-04-28 16:38:15,348 - DEBUG - bfcv_007.py:1322 - save_to_cache - CACHED RESPONSE (troncato): {
+  "Nome": "Non specificato",
+  "Cognome": "Non specificato",
+  "Numero di contatto": "[inserire numero di telefono]",
+  "Email": "[inserire email]",
+  "Età": "Non specificato",
+  "Città di residenza": "Firenze, Italia",
+  "Città di origine": "Non specificato",
+  "Anni di esperienza lavorativa": "2...
+2025-04-28 16:38:15,351 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=20cbea64...
+2025-04-28 16:38:15,351 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Nome
+2. Cognome
+3. Età
+4. Città di origine
+5. Master o assimilabile nel ruolo richiesto
+6. Lingue conosciute
+7. Età espressa in anni come numero intero senza commenti
+    
+    CV:
+    # Curriculum Vitae
+
+## Contatti
+
+**No...
+2025-04-28 16:38:15,351 - INFO - bfcv_007.py:1239 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=20cbea64...
+2025-04-28 16:38:15,351 - INFO - bfcv_007.py:1240 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=20cbea64...
+2025-04-28 16:38:22,703 - INFO - bfcv_007.py:1317 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=20cbea64...
+2025-04-28 16:38:22,703 - DEBUG - bfcv_007.py:1322 - save_to_cache - CACHED RESPONSE (troncato): {
+    "Nome": "[Inserire Nome]",
+    "Cognome": "",
+    "Età": "Calcolata dalla data attuale (2023) e la data di nascita stimata basata sul 'Data: 11/10/2024', risultando in circa 27 anni.",
+    "Città di origine": "Firenze, Italia",
+    "Master o assimilabile nel ruolo richiesto": "[Inserire Specia...
+2025-04-28 16:38:22,706 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=db27064c...
+2025-04-28 16:38:22,707 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital mark...
+2025-04-28 16:38:22,707 - INFO - bfcv_007.py:1239 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=db27064c...
+2025-04-28 16:38:22,708 - INFO - bfcv_007.py:1240 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=db27064c...
+2025-04-28 16:38:48,335 - INFO - bfcv_007.py:1317 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=db27064c...
+2025-04-28 16:38:48,335 - DEBUG - bfcv_007.py:1322 - save_to_cache - CACHED RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {
+            "score": 85,
+            "motivation": "Il candidato ha dimostrato competenze tecniche solide attraverso ruoli strategici in e-commerce, gestione di marketplace e sviluppo di strategie digitali."
+        },
+        "esperienza_rilevant...
+2025-04-28 16:38:51,546 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=51e812ed...
+2025-04-28 16:38:51,546 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ESPERIENZA LAVORATIVA 
+06/2024 – 09/2024 – FIRENZE, Italia 
+RESPONSABILE BIGLIETTERIA MUSEO PALAZZO DAVANZATI – OPERA LABORATORI FIORENTINI 
+ 
+-Responsabile e gestione autonoma dei seguenti ...
+2025-04-28 16:38:51,546 - INFO - bfcv_007.py:1239 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=51e812ed...
+2025-04-28 16:38:51,547 - INFO - bfcv_007.py:1240 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=51e812ed...
+2025-04-28 16:39:18,276 - INFO - bfcv_007.py:1317 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=51e812ed...
+2025-04-28 16:39:18,276 - DEBUG - bfcv_007.py:1322 - save_to_cache - CACHED RESPONSE (troncato): **Curriculum Vitae**
+
+---
+
+**Nome:** Claudia Rossi  
+**Contatto:**
+- **Telefono:** +39 345 678 9012
+- **Email:** claudia.rossi@email.com
+
+---
+
+### Esperienze Professionali:
+
+1. **Direttrice Commerciale e Culturale, Camera di Commercio Italo-Honduregna**  
+   *Tegucigalpa, Honduras*  
+   Settembre 20...
+2025-04-28 16:39:18,278 - INFO - bfcv_007.py:2321 - analyze_cv_ollama - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-04-28 16:39:18,278 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=2baa68bb...
+2025-04-28 16:39:18,278 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di dig...
+2025-04-28 16:39:18,279 - INFO - bfcv_007.py:1239 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=2baa68bb...
+2025-04-28 16:39:18,279 - INFO - bfcv_007.py:1240 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=2baa68bb...
+2025-04-28 16:39:32,156 - INFO - bfcv_007.py:1317 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=2baa68bb...
+2025-04-28 16:39:32,157 - DEBUG - bfcv_007.py:1322 - save_to_cache - CACHED RESPONSE (troncato): {
+  "Nome": "Claudia",
+  "Cognome": "Rossi",
+  "Numero di contatto": "+39 345 678 9012",
+  "Email": "claudia.rossi@email.com",
+  "Età": "Non specificato",
+  "Città di residenza": "Non specificato",
+  "Città di origine": "Non specificato",
+  "Anni di esperienza lavorativa": "11-12 anni (dal settembre...
+2025-04-28 16:39:32,160 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=de387859...
+2025-04-28 16:39:32,160 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Età
+2. Città di residenza
+3. Città di origine
+4. Anni di esperienza lavorativa nel ruolo richiesto
+5. Posizione attuale
+6. Età espressa in anni come numero intero senza commenti
+    
+    CV:
+    **Curriculum Vitae**
+
+---
+...
+2025-04-28 16:39:32,161 - INFO - bfcv_007.py:1239 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=de387859...
+2025-04-28 16:39:32,161 - INFO - bfcv_007.py:1240 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=de387859...
+2025-04-28 16:39:41,602 - INFO - bfcv_007.py:1317 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=de387859...
+2025-04-28 16:39:41,604 - DEBUG - bfcv_007.py:1322 - save_to_cache - CACHED RESPONSE (troncato): {
+    "Età": "Supponendo che Claudia Rossi abbia completato la sua formazione più alta nel maggio 2012, e considerando l'anno corrente come 2023, Claudia avrà circa 41 anni.",
+    "Città di residenza": "L'ultimo luogo di lavoro menzionato è Tegucigalpa, Honduras. Si suppone che sia la sua città di r...
+2025-04-28 16:39:41,606 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=8d1f9cf1...
+2025-04-28 16:39:41,606 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital mark...
+2025-04-28 16:39:41,607 - INFO - bfcv_007.py:1239 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=8d1f9cf1...
+2025-04-28 16:39:41,607 - INFO - bfcv_007.py:1240 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=8d1f9cf1...
+2025-04-28 16:40:07,294 - INFO - bfcv_007.py:1317 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=8d1f9cf1...
+2025-04-28 16:40:07,295 - DEBUG - bfcv_007.py:1322 - save_to_cache - CACHED RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {
+            "score": 60,
+            "motivation": "Claudia ha competenze tecniche di base in digital marketing e social media management. Tuttavia, non ci sono dettagli specifici sulle sue capacità tecniche avanzate."
+        },
+        "esperien...
+2025-04-28 16:40:09,265 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=cddd1b92...
+2025-04-28 16:40:09,265 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Ronald K. Bray 
+Jupiter, FL 33458 
+ronbray13@gmail.com | 561-385-9343| www.linkedin.com/in/ronbray  
+Customer Focused and Results Driven Sales Professional 
+ Strategic Thinker| Adaptive Approach| Product Expert 
+Exceptional Out...
+2025-04-28 16:40:09,266 - INFO - bfcv_007.py:1239 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=cddd1b92...
+2025-04-28 16:40:09,266 - INFO - bfcv_007.py:1240 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=cddd1b92...
+2025-04-28 16:40:35,651 - INFO - bfcv_007.py:1317 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=cddd1b92...
+2025-04-28 16:40:35,651 - DEBUG - bfcv_007.py:1322 - save_to_cache - CACHED RESPONSE (troncato): **Ronald K. Bray**  
+Jupiter, FL 33458  
+Email: ronbray13@gmail.com | Phone: 561-385-9343 | LinkedIn: [www.linkedin.com/in/ronbray](www.linkedin.com/in/ronbray)  
+
+---
+
+### Profilo
+
+Customer Focused and Results Driven Sales Professional. Strategic Thinker with an Adaptive Approach and Product Expert...
+2025-04-28 16:40:35,652 - INFO - bfcv_007.py:2321 - analyze_cv_ollama - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-04-28 16:40:35,654 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=20e2a6f8...
+2025-04-28 16:40:35,654 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di dig...
+2025-04-28 16:40:35,655 - INFO - bfcv_007.py:1239 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=20e2a6f8...
+2025-04-28 16:40:35,655 - INFO - bfcv_007.py:1240 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=20e2a6f8...
+2025-04-28 16:43:37,764 - INFO - bfcv_007.py:1317 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=20e2a6f8...
+2025-04-28 16:43:37,764 - DEBUG - bfcv_007.py:1322 - save_to_cache - CACHED RESPONSE (troncato): {
+  "Nome": "Ronald",
+  "Cognome": "Bray",
+  "Numero di contatto": "561-385-9343",
+  "Email": "ronbray13@gmail.com",
+  "Età": "Non specificato",
+  "Città di residenza": "Jupiter, FL",
+  "Città di origine": "Non specificato",
+  "Anni di esperienza lavorativa": "Non specificato (ma si può dedurre circ...
+2025-04-28 16:43:39,522 - INFO - bfcv_007.py:1202 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=3bfc051a...
+2025-04-28 16:43:39,522 - DEBUG - bfcv_007.py:1206 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+DIGITAL AD SALES EXECUTIVE
+(SEPTEMBER 2024 - PRESENT) - ACCENTURE
+META MARKETING PRO
+ACCOUNT MANAGER FOR A PORTFOLIO OF OVER 120 SMB CLIENTS PER
+QUARTER, FOCUS ON THE ITALIAN MARKET
+META BUSINESS SUITE AND ADS MANAGER MARKETING...
+2025-04-28 16:43:39,523 - INFO - bfcv_007.py:1239 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=3bfc051a...
+2025-04-28 16:43:39,523 - INFO - bfcv_007.py:1240 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=3bfc051a...

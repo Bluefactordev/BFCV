@@ -1,0 +1,69 @@
+Basandoti sui seguenti documenti, ti preghiamo di rispondere alle seguenti domande in modo accurato e conciso. Non piu di 250 parole per risposta. Se non disponibile, si prega di cercare comunque di fare una stima ma di premettere 'Non fornito'.
+        Si prega di restituire la risposta in formato json con questo formato 'Risposta 1':'bla bla','Risposta 2':'bla bla'.
+
+        PROJECT MANAGER
+DIGITAL COMMUNICATION STRATEGIST
+Sono un esperto di marketing e comunicazione digitale con un focus sui progetti l’organizzazione e il coordinamenrto delle risorse e delle attività.
+
+EDUCATION
+24 ORE Business School
+Master - Project Management & Agile
+
+Università degli studi Firenze
+Laurea Triennale in Scienze umanistiche della comunicazione
+
+Università degli studi Firenze
+Corso di formazione avanzata in comunicazione, social media marketing, advertising
+
+Università degli studi Firenze
+CTF - Chimica e Tecnologia Farmaceutiche
+Corso di studi interrotto (16 esami sostenuti)
+
+EXPERIENCE
+2018 - Presente
+Sowhat. | JET’S Group 
+Coordinamento del team creativo, team informatico e redazionale
+Gestione dei fornitori esterni e collaboratori
+Stesura di Action Plan e documenti di gara
+Coordinamento di progetti digital in ambito Retail e Pharma
+Realizzazione di report complessi e integrati per il monitoraggio delle KPI digital
+Analisi e Benchmark con strumenti di digital listening (Talkwalker, Fanpage Karma Social Blade, Semrush, Google Analytics)
+Monitoraggio e consolidamento del budget su clienti assegnati
+Accounting e consulenza strategia per il new business
+
+SKILLS
+CRM (Veeva, Magento)
+CMS (Wordpress, Drupal, Dato CMS, Joomla)
+Pacchetto Office, pacchetto Adobe (Photoshop - Lightroom - Illustrator)
+Gestione di campagne di Influencer Marketing
+Digital Advertising e Campagne Paid su Facebook Ads e Google Ads
+Looker Studio per reportistica avanzata
+
+PERSONAL PROJECT
+2018 - 2023
+Coupleinflorence | Blog
+Sono stato curatore e co-fondatore di un blog coupleinflorence.it, adesso trasformatosi in missinflorence.it e relativa pagina Instagram, insieme alla mia ex compagna, incentrato su food e lifestyle in Toscana, in particolare Firenze. Oltre ad aver partecipato ad un progetto promosso dalla Regione Toscana (Tuscany Bloggers), dal 2020 siamo stati scelti come Digital Ambassador di MUS.E e siamo stati ideatori e promotori di un progetto per il sostegno dei ristoratori toscani durante il lockdown: #ioaiutounristorante, che ha avuto un discreto successo e attenzione mediatica.
+
+CONTACT
++39 333 9889330
+bartolini.marco89@gmail.com
+Via dei Sette Santi 28, 5017 Firenze
+
+        Domande:
+        Q0: Qual è il Nome di questo candidato?
+Q1: Qual è il Numero di contatto di questo candidato?
+Q2: Qual è il Genere di questo candidato?
+Q3: Qual è il Età il 1 Giugno 2024, se mancante calcolata come: 2024 - anno_di_diploma_superiore + 19  di questo candidato?
+Q4: Qual è il Legame con Firenze di questo candidato?
+Q5: Qual è il Anni di esperienza lavoro attiva (Numero) di questo candidato?
+Q6: Qual è il Istruzione più alta di questo candidato?
+Q7: Qual è il Nome dell'università di laurea di questo candidato?
+Q8: Qual è il Nome della scuola di master di questo candidato?
+Q9: Qual è il Stato occupazionale di questo candidato?
+Q10: Qual è il Posizione attuale di questo candidato?
+Q11: Qual è il Elenco dei datori di lavoro passati di questo candidato?
+Q12: Qual è il Esperienza in agenzia di pubblicità o di digital marketing di questo candidato?
+Q13: Qual è il Competenze tecniche di questo candidato?
+Q14: Qual è il Livello di esperienza di questo candidato?
+Q15: Qual è il Competenze di gestione di questo candidato?
+        

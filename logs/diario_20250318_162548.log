@@ -1,0 +1,21 @@
+2025-03-18 16:25:48,810 - INFO - bfcv_007.py:2165 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-03-18 16:25:48,810 - INFO - bfcv_007.py:2166 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-18 16:25:48,810 - INFO - bfcv_007.py:2167 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-18 16:25:48,810 - INFO - bfcv_007.py:2168 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-03-18 16:25:48,810 - INFO - bfcv_007.py:2169 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-03-18 16:25:48,850 - INFO - bfcv_007.py:2485 - main - Avvio analisi dei CV con process_cvs
+2025-03-18 16:25:48,850 - INFO - bfcv_007.py:1864 - process_cvs - Inizio elaborazione CV nella directory: D:\Progetti\BFCV\CVS\Stage2025
+2025-03-18 16:25:48,851 - INFO - bfcv_007.py:1865 - process_cvs - Campi selezionati: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Soft skills', 'Linguaggi di programmazione conosciuti', 'Esperienza con strumenti di web marketing', "Progetti o esperienze significative nel campo dell'AI", 'Certificazioni in ambito tecnico o marketing', "Interessi o hobby legati alla tecnologia e all'AI"]
+2025-03-18 16:25:48,852 - INFO - bfcv_007.py:1873 - process_cvs - Trovati 172 file PDF nella directory
+2025-03-18 16:25:48,853 - INFO - bfcv_007.py:1882 - process_cvs - Limitando l'analisi ai primi 10 CV (su 172 totali)
+2025-03-18 16:25:48,853 - INFO - bfcv_007.py:1888 - process_cvs - Utilizzo OpenAI: True
+2025-03-18 16:25:48,854 - INFO - bfcv_007.py:1902 - process_cvs - Utilizzo OpenAI - Modello: gpt-4o-mini
+2025-03-18 16:25:48,854 - INFO - bfcv_007.py:1923 - process_cvs - Inizio analisi di 10 file PDF
+2025-03-18 16:25:48,855 - INFO - bfcv_007.py:1927 - process_cvs - [1/10] Analisi di (Ita) Alessandro Anceschi - CV.pdf...
+2025-03-18 16:25:48,856 - INFO - bfcv_007.py:1937 - process_cvs - Estrazione testo da (Ita) Alessandro Anceschi - CV.pdf
+2025-03-18 16:25:49,741 - DEBUG - bfcv_007.py:1939 - process_cvs - Lunghezza testo diretto: 1402, testo OCR: 1737
+2025-03-18 16:25:49,741 - INFO - bfcv_007.py:1944 - process_cvs - Combinazione testi con OpenAI per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-18 16:25:50,226 - INFO - bfcv_007.py:1962 - process_cvs - Inizio analisi contenuto CV per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-18 16:25:53,908 - INFO - bfcv_007.py:1247 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-18 16:26:26,288 - INFO - bfcv_007.py:1299 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-18 16:27:08,417 - INFO - bfcv_007.py:1351 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento

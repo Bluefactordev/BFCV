@@ -1,0 +1,128 @@
+2025-04-29 13:20:13,330 - INFO - bfcv_007.py:3272 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-04-29 13:20:13,331 - INFO - bfcv_007.py:3273 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-04-29 13:20:13,332 - INFO - bfcv_007.py:3274 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-04-29 13:20:13,332 - INFO - bfcv_007.py:3275 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-04-29 13:20:13,332 - INFO - bfcv_007.py:3276 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-04-29 13:20:13,338 - INFO - bfcv_007.py:3686 - main - Mantenuto st.session_state.fields esistente con 17 campi
+2025-04-29 13:20:13,339 - INFO - bfcv_007.py:3692 - main - Mantenuto st.session_state.available_fields esistente con 19 campi
+2025-04-29 13:20:13,339 - INFO - bfcv_007.py:3703 - main - Mantenuto st.session_state.selected_fields esistente con 17 campi
+2025-04-29 13:20:13,446 - INFO - bfcv_007.py:4250 - main - Avvio analisi dei CV con process_cvs
+2025-04-29 13:20:13,447 - INFO - bfcv_007.py:2829 - process_cvs - Inizio elaborazione CV nella directory: G:\Drive condivisi\Bluefactor - Produzione\Ricerche di personale\Account2025
+2025-04-29 13:20:13,448 - INFO - bfcv_007.py:2830 - process_cvs - Campi selezionati: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Lingue conosciute', 'Legame con Firenze', 'Età espressa in anni come numero intero senza commenti']
+2025-04-29 13:20:13,450 - INFO - bfcv_007.py:2842 - process_cvs - Trovati 62 file PDF nella directory
+2025-04-29 13:20:13,450 - INFO - bfcv_007.py:2851 - process_cvs - Limitando l'analisi ai primi 15 CV (su 62 totali)
+2025-04-29 13:20:13,451 - INFO - bfcv_007.py:2857 - process_cvs - Utilizzo OpenAI: True
+2025-04-29 13:20:13,453 - INFO - bfcv_007.py:2871 - process_cvs - Utilizzo OpenAI - Modello: gpt-4o-mini
+2025-04-29 13:20:13,454 - INFO - bfcv_007.py:2892 - process_cvs - Inizio analisi di 15 file PDF
+2025-04-29 13:20:13,454 - INFO - bfcv_007.py:2896 - process_cvs - [1/15] Analisi di CV Alessio Gasperetti. Italiano.pdf...
+2025-04-29 13:20:13,456 - INFO - bfcv_007.py:2906 - process_cvs - Estrazione testo da CV Alessio Gasperetti. Italiano.pdf
+2025-04-29 13:20:15,550 - DEBUG - bfcv_007.py:2908 - process_cvs - Lunghezza testo diretto: 5157, testo OCR: 5049
+2025-04-29 13:20:15,550 - INFO - bfcv_007.py:2913 - process_cvs - Combinazione testi con OpenAI per CV Alessio Gasperetti. Italiano.pdf
+2025-04-29 13:20:15,552 - DEBUG - bfcv_007.py:1202 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-53c76ca84f5b6be0bc8008b75b355de5.txt
+2025-04-29 13:20:15,559 - INFO - bfcv_007.py:1219 - get_cached_response - Trovata risposta nella cache per openai-gpt-4o-mini
+2025-04-29 13:20:15,560 - INFO - bfcv_007.py:2931 - process_cvs - Inizio analisi contenuto CV per CV Alessio Gasperetti. Italiano.pdf
+2025-04-29 13:20:15,563 - INFO - bfcv_007.py:1947 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-04-29 13:20:15,565 - DEBUG - bfcv_007.py:1202 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-6854e95e695a1011e3649eb21dba411a.txt
+2025-04-29 13:20:15,566 - INFO - bfcv_007.py:1239 - get_cached_response - Nessuna cache trovata per openai-gpt-4o-mini con hash 6854e95e695a1011e3649eb21dba411a
+2025-04-29 13:20:15,566 - INFO - bfcv_007.py:2000 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-04-29 13:20:15,567 - INFO - bfcv_007.py:998 - get_openai_client - Inizializzazione client OpenAI per modello: gpt-4o-mini
+2025-04-29 13:20:15,567 - INFO - bfcv_007.py:1024 - get_openai_client - Configurazione client standard OpenAI
+2025-04-29 13:20:15,567 - INFO - bfcv_007.py:1025 - get_openai_client - Parametri client OpenAI: {'api_key': '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'}
+2025-04-29 13:20:22,495 - INFO - bfcv_007.py:1317 - save_to_cache - Risposta salvata nella cache: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-6854e95e695a1011e3649eb21dba411a.txt
+2025-04-29 13:20:22,496 - INFO - bfcv_007.py:2053 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-04-29 13:20:22,496 - INFO - bfcv_007.py:1558 - refine_missing_fields - Affinamento di 6 campi mancanti: Età, Città di residenza, Città di origine, Lingue conosciute, Legame con Firenze, Età espressa in anni come numero intero senza commenti
+2025-04-29 13:20:22,498 - DEBUG - bfcv_007.py:1202 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-c10afe0142bddd85f3e816cdaadcd054.txt
+2025-04-29 13:20:22,499 - INFO - bfcv_007.py:1239 - get_cached_response - Nessuna cache trovata per openai-gpt-4o-mini con hash c10afe0142bddd85f3e816cdaadcd054
+2025-04-29 13:20:22,500 - INFO - bfcv_007.py:1705 - refine_missing_fields - Chiamata API OpenAI per il raffinamento dei campi mancanti
+2025-04-29 13:20:22,500 - INFO - bfcv_007.py:998 - get_openai_client - Inizializzazione client OpenAI per modello: gpt-4o-mini
+2025-04-29 13:20:22,500 - INFO - bfcv_007.py:1024 - get_openai_client - Configurazione client standard OpenAI
+2025-04-29 13:20:22,500 - INFO - bfcv_007.py:1025 - get_openai_client - Parametri client OpenAI: {'api_key': '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'}
+2025-04-29 13:20:24,765 - INFO - bfcv_007.py:1317 - save_to_cache - Risposta salvata nella cache: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-c10afe0142bddd85f3e816cdaadcd054.txt
+2025-04-29 13:20:24,765 - INFO - bfcv_007.py:2064 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-04-29 13:20:24,770 - DEBUG - bfcv_007.py:1202 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-074cb3709e272d84a2a849ba8d81e990.txt
+2025-04-29 13:20:24,770 - INFO - bfcv_007.py:1239 - get_cached_response - Nessuna cache trovata per openai-gpt-4o-mini con hash 074cb3709e272d84a2a849ba8d81e990
+2025-04-29 13:20:24,771 - INFO - bfcv_007.py:2154 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per la valutazione
+2025-04-29 13:20:24,771 - INFO - bfcv_007.py:998 - get_openai_client - Inizializzazione client OpenAI per modello: gpt-4o-mini
+2025-04-29 13:20:24,771 - INFO - bfcv_007.py:1024 - get_openai_client - Configurazione client standard OpenAI
+2025-04-29 13:20:24,771 - INFO - bfcv_007.py:1025 - get_openai_client - Parametri client OpenAI: {'api_key': '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'}
+2025-04-29 13:20:36,868 - INFO - bfcv_007.py:1317 - save_to_cache - Risposta salvata nella cache: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-074cb3709e272d84a2a849ba8d81e990.txt
+2025-04-29 13:20:36,877 - INFO - bfcv_007.py:2293 - analyze_cv_openai - Iniziando l'analisi delle aziende menzionate nel CV
+2025-04-29 13:20:36,882 - INFO - bfcv_007.py:2947 - process_cvs - Analisi completata per CV Alessio Gasperetti. Italiano.pdf
+2025-04-29 13:20:36,883 - INFO - bfcv_007.py:2896 - process_cvs - [2/15] Analisi di Giorgio.Floriddia.Cv.25 (1).pdf...
+2025-04-29 13:20:36,885 - INFO - bfcv_007.py:2906 - process_cvs - Estrazione testo da Giorgio.Floriddia.Cv.25 (1).pdf
+2025-04-29 13:20:38,285 - DEBUG - bfcv_007.py:2908 - process_cvs - Lunghezza testo diretto: 3862, testo OCR: 3346
+2025-04-29 13:20:38,285 - INFO - bfcv_007.py:2913 - process_cvs - Combinazione testi con OpenAI per Giorgio.Floriddia.Cv.25 (1).pdf
+2025-04-29 13:20:38,285 - DEBUG - bfcv_007.py:1202 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-1a8ed1b399b6f06d22e1a42ab9badf4c.txt
+2025-04-29 13:20:38,289 - INFO - bfcv_007.py:1219 - get_cached_response - Trovata risposta nella cache per openai-gpt-4o-mini
+2025-04-29 13:20:38,290 - INFO - bfcv_007.py:2931 - process_cvs - Inizio analisi contenuto CV per Giorgio.Floriddia.Cv.25 (1).pdf
+2025-04-29 13:20:38,291 - INFO - bfcv_007.py:1947 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-04-29 13:20:38,293 - DEBUG - bfcv_007.py:1202 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-a570c02d885dccda8598d65deff256fc.txt
+2025-04-29 13:20:38,294 - INFO - bfcv_007.py:1239 - get_cached_response - Nessuna cache trovata per openai-gpt-4o-mini con hash a570c02d885dccda8598d65deff256fc
+2025-04-29 13:20:38,295 - INFO - bfcv_007.py:2000 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-04-29 13:20:38,295 - INFO - bfcv_007.py:998 - get_openai_client - Inizializzazione client OpenAI per modello: gpt-4o-mini
+2025-04-29 13:20:38,296 - INFO - bfcv_007.py:1024 - get_openai_client - Configurazione client standard OpenAI
+2025-04-29 13:20:38,296 - INFO - bfcv_007.py:1025 - get_openai_client - Parametri client OpenAI: {'api_key': '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'}
+2025-04-29 13:20:45,769 - INFO - bfcv_007.py:1317 - save_to_cache - Risposta salvata nella cache: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-a570c02d885dccda8598d65deff256fc.txt
+2025-04-29 13:20:45,769 - INFO - bfcv_007.py:2053 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-04-29 13:20:45,771 - INFO - bfcv_007.py:1558 - refine_missing_fields - Affinamento di 6 campi mancanti: Età, Città di origine, Anni di esperienza lavorativa, Anni di esperienza lavorativa nel ruolo richiesto, Legame con Firenze, Età espressa in anni come numero intero senza commenti
+2025-04-29 13:20:45,772 - DEBUG - bfcv_007.py:1202 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-8fe9444df27d2211fbd3250189bf0029.txt
+2025-04-29 13:20:45,772 - INFO - bfcv_007.py:1239 - get_cached_response - Nessuna cache trovata per openai-gpt-4o-mini con hash 8fe9444df27d2211fbd3250189bf0029
+2025-04-29 13:20:45,773 - INFO - bfcv_007.py:1705 - refine_missing_fields - Chiamata API OpenAI per il raffinamento dei campi mancanti
+2025-04-29 13:20:45,773 - INFO - bfcv_007.py:998 - get_openai_client - Inizializzazione client OpenAI per modello: gpt-4o-mini
+2025-04-29 13:20:45,773 - INFO - bfcv_007.py:1024 - get_openai_client - Configurazione client standard OpenAI
+2025-04-29 13:20:45,774 - INFO - bfcv_007.py:1025 - get_openai_client - Parametri client OpenAI: {'api_key': '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'}
+2025-04-29 13:20:58,709 - INFO - bfcv_007.py:1317 - save_to_cache - Risposta salvata nella cache: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-8fe9444df27d2211fbd3250189bf0029.txt
+2025-04-29 13:20:58,710 - INFO - bfcv_007.py:2064 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-04-29 13:20:58,711 - DEBUG - bfcv_007.py:1202 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-849ab91abb1f179b52b800e8f89dcf9d.txt
+2025-04-29 13:20:58,712 - INFO - bfcv_007.py:1239 - get_cached_response - Nessuna cache trovata per openai-gpt-4o-mini con hash 849ab91abb1f179b52b800e8f89dcf9d
+2025-04-29 13:20:58,713 - INFO - bfcv_007.py:2154 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per la valutazione
+2025-04-29 13:20:58,713 - INFO - bfcv_007.py:998 - get_openai_client - Inizializzazione client OpenAI per modello: gpt-4o-mini
+2025-04-29 13:20:58,713 - INFO - bfcv_007.py:1024 - get_openai_client - Configurazione client standard OpenAI
+2025-04-29 13:20:58,713 - INFO - bfcv_007.py:1025 - get_openai_client - Parametri client OpenAI: {'api_key': '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'}
+2025-04-29 13:21:11,015 - INFO - bfcv_007.py:1317 - save_to_cache - Risposta salvata nella cache: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-849ab91abb1f179b52b800e8f89dcf9d.txt
+2025-04-29 13:21:11,023 - INFO - bfcv_007.py:2293 - analyze_cv_openai - Iniziando l'analisi delle aziende menzionate nel CV
+2025-04-29 13:21:23,525 - INFO - bfcv_007.py:2947 - process_cvs - Analisi completata per Giorgio.Floriddia.Cv.25 (1).pdf
+2025-04-29 13:21:23,526 - INFO - bfcv_007.py:2896 - process_cvs - [3/15] Analisi di Curriculum Vitae - G. Benati (1).pdf...
+2025-04-29 13:21:23,527 - INFO - bfcv_007.py:2906 - process_cvs - Estrazione testo da Curriculum Vitae - G. Benati (1).pdf
+2025-04-29 13:21:27,341 - DEBUG - bfcv_007.py:2908 - process_cvs - Lunghezza testo diretto: 9150, testo OCR: 8682
+2025-04-29 13:21:27,342 - INFO - bfcv_007.py:2913 - process_cvs - Combinazione testi con OpenAI per Curriculum Vitae - G. Benati (1).pdf
+2025-04-29 13:21:27,342 - DEBUG - bfcv_007.py:1202 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-de9268d7c0147ed6da81511b0565ab30.txt
+2025-04-29 13:21:27,348 - INFO - bfcv_007.py:1219 - get_cached_response - Trovata risposta nella cache per openai-gpt-4o-mini
+2025-04-29 13:21:27,348 - INFO - bfcv_007.py:2931 - process_cvs - Inizio analisi contenuto CV per Curriculum Vitae - G. Benati (1).pdf
+2025-04-29 13:21:27,350 - INFO - bfcv_007.py:1947 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-04-29 13:21:27,351 - DEBUG - bfcv_007.py:1202 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-48d74400c15814cfa7afa7761f4b5ca3.txt
+2025-04-29 13:21:27,351 - INFO - bfcv_007.py:1239 - get_cached_response - Nessuna cache trovata per openai-gpt-4o-mini con hash 48d74400c15814cfa7afa7761f4b5ca3
+2025-04-29 13:21:27,353 - INFO - bfcv_007.py:2000 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-04-29 13:21:27,353 - INFO - bfcv_007.py:998 - get_openai_client - Inizializzazione client OpenAI per modello: gpt-4o-mini
+2025-04-29 13:21:27,353 - INFO - bfcv_007.py:1024 - get_openai_client - Configurazione client standard OpenAI
+2025-04-29 13:21:27,354 - INFO - bfcv_007.py:1025 - get_openai_client - Parametri client OpenAI: {'api_key': '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'}
+2025-04-29 13:21:37,410 - INFO - bfcv_007.py:1317 - save_to_cache - Risposta salvata nella cache: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-48d74400c15814cfa7afa7761f4b5ca3.txt
+2025-04-29 13:21:37,412 - INFO - bfcv_007.py:2053 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-04-29 13:21:37,412 - INFO - bfcv_007.py:1558 - refine_missing_fields - Affinamento di 2 campi mancanti: Città di residenza, Anni di esperienza lavorativa nel ruolo richiesto
+2025-04-29 13:21:37,413 - DEBUG - bfcv_007.py:1202 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-281346fe3ccc94802133bf4d7670b90c.txt
+2025-04-29 13:21:37,416 - INFO - bfcv_007.py:1219 - get_cached_response - Trovata risposta nella cache per openai-gpt-4o-mini
+2025-04-29 13:21:37,417 - INFO - bfcv_007.py:1687 - refine_missing_fields - Usando risposta dalla cache per il raffinamento dei campi mancanti
+2025-04-29 13:21:37,417 - INFO - bfcv_007.py:2064 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-04-29 13:21:37,419 - DEBUG - bfcv_007.py:1202 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-157c7674679c3230ace92b3775e6a8a3.txt
+2025-04-29 13:21:37,420 - INFO - bfcv_007.py:1239 - get_cached_response - Nessuna cache trovata per openai-gpt-4o-mini con hash 157c7674679c3230ace92b3775e6a8a3
+2025-04-29 13:21:37,420 - INFO - bfcv_007.py:2154 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per la valutazione
+2025-04-29 13:21:37,420 - INFO - bfcv_007.py:998 - get_openai_client - Inizializzazione client OpenAI per modello: gpt-4o-mini
+2025-04-29 13:21:37,421 - INFO - bfcv_007.py:1024 - get_openai_client - Configurazione client standard OpenAI
+2025-04-29 13:21:37,421 - INFO - bfcv_007.py:1025 - get_openai_client - Parametri client OpenAI: {'api_key': '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'}
+2025-04-29 13:21:52,930 - INFO - bfcv_007.py:1317 - save_to_cache - Risposta salvata nella cache: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-157c7674679c3230ace92b3775e6a8a3.txt
+2025-04-29 13:21:52,939 - INFO - bfcv_007.py:2293 - analyze_cv_openai - Iniziando l'analisi delle aziende menzionate nel CV
+2025-04-29 13:21:52,939 - INFO - bfcv_007.py:2947 - process_cvs - Analisi completata per Curriculum Vitae - G. Benati (1).pdf
+2025-04-29 13:21:52,940 - INFO - bfcv_007.py:2896 - process_cvs - [4/15] Analisi di CV - Claudia Battisti 2024doc (1).pdf...
+2025-04-29 13:21:52,941 - INFO - bfcv_007.py:2906 - process_cvs - Estrazione testo da CV - Claudia Battisti 2024doc (1).pdf
+2025-04-29 13:21:55,684 - DEBUG - bfcv_007.py:2908 - process_cvs - Lunghezza testo diretto: 6080, testo OCR: 5864
+2025-04-29 13:21:55,684 - INFO - bfcv_007.py:2913 - process_cvs - Combinazione testi con OpenAI per CV - Claudia Battisti 2024doc (1).pdf
+2025-04-29 13:21:55,685 - DEBUG - bfcv_007.py:1202 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-51e812ed9120badc347467b04903fca1.txt
+2025-04-29 13:21:55,690 - INFO - bfcv_007.py:1219 - get_cached_response - Trovata risposta nella cache per openai-gpt-4o-mini
+2025-04-29 13:21:55,691 - INFO - bfcv_007.py:2931 - process_cvs - Inizio analisi contenuto CV per CV - Claudia Battisti 2024doc (1).pdf
+2025-04-29 13:21:55,692 - INFO - bfcv_007.py:1947 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-04-29 13:21:55,694 - DEBUG - bfcv_007.py:1202 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-2d6ad3daf0a53c4a414ca27dd4d4029b.txt
+2025-04-29 13:21:55,695 - INFO - bfcv_007.py:1239 - get_cached_response - Nessuna cache trovata per openai-gpt-4o-mini con hash 2d6ad3daf0a53c4a414ca27dd4d4029b
+2025-04-29 13:21:55,695 - INFO - bfcv_007.py:2000 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-04-29 13:21:55,695 - INFO - bfcv_007.py:998 - get_openai_client - Inizializzazione client OpenAI per modello: gpt-4o-mini
+2025-04-29 13:21:55,696 - INFO - bfcv_007.py:1024 - get_openai_client - Configurazione client standard OpenAI
+2025-04-29 13:21:55,696 - INFO - bfcv_007.py:1025 - get_openai_client - Parametri client OpenAI: {'api_key': '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'}

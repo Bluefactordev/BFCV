@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"39 anni\",\n    \"Città di origine\": \"Genova\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"16 anni\",\n    \"Legame con Firenze\": \"Docente presso Fondazione Universitaria Firenze\",\n    \"Soft skills\": \"Leadership, lavoro di squadra, pensiero critico, problem solving\"\n}"

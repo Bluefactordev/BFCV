@@ -1,0 +1,321 @@
+Data e ora: 2025-04-29 14:24:38
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nCURRICULUM VITAE \n \nMARCO CONTU \nLuogo e data di nascita: Cagliari, 8.1.1983 \nResidenza: Lucca \nMobile: 340 1476102 \nEmail: marcocontu@icloud.com \nSTUDI E FORMAZIONE \nLaurea Specialistica in Marketing e Ricerche di Mercato conseguita nel mese di dicembre 2009 \npresso la facoltà di Economia dell’Università di Pisa, con votazione finale 109/110. \nTitolo della tesi: “L’autenticità dell’esperienza turistica. Analisi empirica in Sardegna”; campo di \nricerca: Analisi del comportamento del consumatore. \nPrincipali esami sostenuti: Marketing management, Analisi del comportamento del consumatore, \nRilevazione e analisi dei dati campionari, Analisi e ricerche di marketing, Internet marketing, \nAnalisi e contabilità dei costi, The Economics of European Union. \nLaurea primo livello in Economia e Gestione Aziendale, indirizzo Marketing, conseguita nel mese \ndi luglio 2007 presso l’Università degli Studi di Cagliari, con votazione finale 106/110. \nTitolo della tesi: “Le comunità virtuali. Le relazioni sociali nella società globale dell’informazione”; \ncampo di ricerca: Marketing. \nLINGUE STRANIERE \nOttima conoscenza della lingua inglese parlata e scritta. Livello intermedio avanzato (B2). \nCONOSCENZE INFORMATICHE \nOttima dimestichezza con: Pacchetto Office, macOS, SAP, CRM, Wordpress, WooCommerce, \nSocial Media, Mailchimp, Facebook Business Manager, Facebook Ads, Google Business, Google \nAds e Google Analytics. \nCOMPETENZE AUDIO E VIDEO \nRealizzazione foto e video a livello professionale. Ottima dimestichezza con Photoshop e Camera \nRaw, Procreate, Illustrator, Canva, CapCut, DaVinci Resolve, iMovie, Ableton Live, Audition.  \nESPERIENZE LAVORATIVE \nGennaio - Dicembre 2024 \nContent Creator e Social Media Manager presso Music Store Academy \nAttività svolta: realizzazione foto, video e grafiche, Social Media Marketing, gestione contenuti \nWeb, Newsletter. \nFebbraio 2020 – Giugno 2021 \nEcommerce Specialist presso Puntouno Commerciale Srl \nAttività svolta: gestione Ecommerce, gestione e sviluppo dei contenuti Web, SEO, Social Media \nMarketing, DEM, shooting fotografico dei prodotti, sviluppo ed implementazione delle strategie di \nDigital Marketing, analisi statistiche. \nGennaio 2018 – Gennaio 2020 \nDigital Marketing Freelance \nAttività svolta: Social Media Strategy, gestione Web e E-commerce, photo shooting. Portfolio: \nDrogheria e Alimentari Spa, Agenzia Unipol Cipollini Orsi Bordolesi, Fioremania Angelini, La \nBottega del Fattore. \nAprile – Ottobre 2016 \nMarketing and Communication Specialist presso Cromology Italia Spa \nAttività svolta: sviluppo prodotto e packaging, creazione e gestione operativa dei materiali di \nmarketing, sviluppo piani di comunicazione e promozione a supporto dei lanci, gestione siti web e \nSocial Media, gestione attività in-store ed eventi, allestimento punti vendita, analisi dati, gestione \nbudget. \nGiugno – Dicembre 2015 \nCustomer Service Specialist presso Lucart Group \nAttività svolta: gestione ordini, assistenza clienti canale GDO, supporto alla forza vendita. \nNovembre 2013 - Gennaio 2015 \nTrade Marketing Specialist presso De’Longhi Group – Divisione commerciale Ariete \nAttività svolta: sviluppo e gestione materiali POP per i punti vendita del canale GD, \nimplementazione attività promozionali, pianificazione attività di in-store promotion e coordinamento \npromoter e merchandiser, gestione allestimento dei punti vendita, coordinamento agenzie grafiche \ne stampatori, supporto alla forza vendita Italia ed estero, analisi sellin e sellout, gestione eventi e \nfiere a livello internazionale. \nGennaio – Marzo 2013 \nField Key Account canale GDO presso Ferrero SpA \nGiugno – Agosto 2012 \nField Key Account canale GDO presso Ferrero SpA \nAttività svolta sui punti vendita assegnati (grandi supermercati ed ipermercati): gestione ordini, \nattivazione delle promozioni concordate con le insegne, gestione allestimento materiali POP, \ncontrollo layout prodotti, coordinamento merchandiser, rilevazione prezzi, controllo scadenze \nprodotti, analisi sellin e sellout. \nLuglio 2011 – Gennaio 2012 \nAddetto alla Logistica presso Industrie Cartarie Tronchetti Spa \nAttività svolta: programmazione delle spedizioni nazionali ed internazionali, assistenza clienti, \ngestione ordini e magazzino. \nOttobre 2010 – Aprile 2011 \nMarketing Intern presso Cassa di Risparmio di San Miniato SpA (Banca Carismi) \nAttività svolta: analisi dati; sviluppo campagne pubblicitarie e promozionali; contatti con agenzie e \nmedia; sviluppo programmi di fidelizzazione; organizzazione eventi; web marketing. \nDurante gli anni dell’Università ho lavorato come DJ/Animatore presso l’hotel Le Meridien di Chia \n(CA) ed altre strutture ricettive della Sardegna. \nPASSIONI E INTERESSI PERSONALI \nForte passione per la musica (dj e producer di musica elettronica), illustrazioni e pittura, viaggi. \nCARATTERISTICHE PERSONALI \nIntraprendenza, entusiasmo, empatia ed attitudine alle relazioni interpersonali, creatività, elevata \ncapacità di problem solving. \nCONDIZIONI \nDisponibilità al trasferimento vicino alla sede di lavoro. \nDisponibilità a trasferte in Italia ed all'estero. \nAutomunito. \nAutorizzo il trattamento dei miei dati personali ai sensi dell’art. 13 Dlgs 196 del 30 giugno 2003 e \ndell’art. 13 GDPR (Regolamento UE 2016/679) ai fini della ricerca e selezione del personale.\n\n\n---Estrazione OCR---\nCURRICULUM VITAE\nMARCO CONTU\nLuogo e data di nascita: Cagliari, 8.1.1983 pes b,\nResidenza: Lucca\nMobile: 340 1476102 F ’ ;\nEmail: marcocontu@icloud.com @ /\nSTUDI E FORMAZIONE\nLaurea Specialistica in Marketing e Ricerche di Mercato conseguita nel mese di dicembre 2009\npresso la facolta di Economia dell’Universita di Pisa, con votazione finale 109/110.\nTitolo della tesi: “L’autenticita dell’esperienza turistica. Analisi empirica in Sardegna”; campo di\nricerca: Analisi del comportamento del consumatore.\nPrincipali esami sostenuti: Marketing management, Analisi del comportamento del consumatore,\nRilevazione e analisi dei dati campionari, Analisi e ricerche di marketing, Internet marketing,\nAnalisi e contabilita dei costi, The Economics of European Union.\nLaurea primo livello in Economia e Gestione Aziendale, indirizzo Marketing, conseguita nel mese\ndi luglio 2007 presso l’Universita degli Studi di Cagliari, con votazione finale 106/110.\nTitolo della tesi: “Le comunita virtuali. Le relazioni sociali nella societa globale dell’informazione”;\ncampo di ricerca: Marketing.\nLINGUE STRANIERE\nOttima conoscenza della lingua inglese parlata e scritta. Livello intermedio avanzato (B2).\nCONOSCENZE INFORMATICHE\nOttima dimestichezza con: Pacchetto Office, macOS, SAP, CRM, Wordpress, WooCommerce,\nSocial Media, Mailchimp, Facebook Business Manager, Facebook Ads, Google Business, Google\nAds e Google Analytics.\nCOMPETENZE AUDIO E VIDEO\n\nRealizzazione foto e video a livello professionale. Ottima dimestichezza con Photoshop e Camera\nRaw, Procreate, Illustrator, Canva, CapCut, DaVinci Resolve, iMovie, Ableton Live, Audition.\nESPERIENZE LAVORATIVE\n\nGennaio - Dicembre 2024\n\nContent Creator e Social Media Manager presso Music Store Academy\n\nAttivita svolta: realizzazione foto, video e grafiche, Social Media Marketing, gestione contenuti\nWeb, Newsletter.\n\nFebbraio 2020 — Giugno 2021\n\nEcommerce Specialist presso Puntouno Commerciale Srl\n\nAttivita svolta: gestione Ecommerce, gestione e sviluppo dei contenuti Web, SEO, Social Media\nMarketing, DEM, shooting fotografico dei prodotti, sviluppo ed implementazione delle strategie di\nDigital Marketing, analisi statistiche.\n\nGennaio 2018 — Gennaio 2020\n\nDigital Marketing Freelance\n\nAttivita svolta: Social Media Strategy, gestione Web e E-commerce, photo shooting. Portfolio:\nDrogheria e Alimentari Spa, Agenzia Unipol Cipollini Orsi Bordolesi, Fioremania Angelini, La\nBottega del Fattore.\n\nAprile — Ottobre 2016\n\nMarketing and Communication Specialist presso Cromology Italia Spa\n\nAttivita svolta: sviluppo prodotto e packaging, creazione e gestione operativa dei materiali di\nmarketing, sviluppo piani di comunicazione e promozione a supporto dei lanci, gestione siti web e\nSocial Media, gestione attivita in-store ed eventi, allestimento punti vendita, analisi dati, gestione\nbudget.\n\nGiugno — Dicembre 2015\n\nCustomer Service Specialist presso Lucart Group\n\nAttivita svolta: gestione ordini, assistenza clienti canale GDO, supporto alla forza vendita.\nNovembre 2013 - Gennaio 2015\n\nTrade Marketing Specialist presso De’Longhi Group — Divisione commerciale Ariete\n\nAttivita svolta: sviluppo e gestione materiali POP per i punti vendita del canale GD,\nimplementazione attivita promozionali, pianificazione attivita di in-store promotion e coordinamento\npromoter e merchandiser, gestione allestimento dei punti vendita, coordinamento agenzie grafiche\ne stampatori, supporto alla forza vendita Italia ed estero, analisi sellin e sellout, gestione eventi e\nfiere a livello internazionale.\n\nGennaio — Marzo 2013\n\nField Key Account canale GDO presso Ferrero SpA\n\nGiugno — Agosto 2012\n\nField Key Account canale GDO presso Ferrero SpA\n\nAttivita svolta sui punti vendita assegnati (grandi supermercati ed ipermercati): gestione ordini,\nattivazione delle promozioni concordate con le insegne, gestione allestimento materiali POP,\ncontrollo layout prodotti, coordinamento merchandiser, rilevazione prezzi, controllo scadenze\nprodotti, analisi sellin e sellout.\n\nLuglio 2011 - Gennaio 2012\n\nAddetto alla Logistica presso Industrie Cartarie Tronchetti Spa\n\nAttivita svolta: programmazione delle spedizioni nazionali ed internazionali, assistenza clienti,\ngestione ordini e magazzino.\n\nOttobre 2010 — Aprile 2011\n\nMarketing Intern presso Cassa di Risparmio di San Miniato SpA (Banca Carismi)\n\nAttivita svolta: analisi dati; sviluppo campagne pubblicitarie e promozionali; contatti con agenzie e\nmedia; sviluppo programmi di fidelizzazione; organizzazione eventi; web marketing.\n\nDurante gli anni dell’Universita ho lavorato come DJ/Animatore presso |’hotel Le Meridien di Chia\n(CA) ed altre strutture ricettive della Sardegna.\n\nPASSIONI E INTERESSI PERSONALI\n\nForte passione per la musica (dj e producer di musica elettronica), illustrazioni e pittura, viaggi.\nCARATTERISTICHE PERSONALI\n\nIntraprendenza, entusiasmo, empatia ed attitudine alle relazioni interpersonali, creativita, elevata\ncapacita di problem solving.\n\nCONDIZIONI\n\nDisponibilita al trasferimento vicino alla sede di lavoro.\n\nDisponibilita a trasferte in Italia ed all’estero.\n\nAutomunito.\nAutorizzo il trattamento dei miei dati personali ai sensi dell’art. 13 Digs 196 del 30 giugno 2003 e\ndell’art. 13 GDPR (Regolamento UE 2016/679) ai fini della ricerca e selezione del personale.\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+CURRICULUM VITAE 
+ 
+MARCO CONTU 
+Luogo e data di nascita: Cagliari, 8.1.1983 
+Residenza: Lucca 
+Mobile: 340 1476102 
+Email: marcocontu@icloud.com 
+STUDI E FORMAZIONE 
+Laurea Specialistica in Marketing e Ricerche di Mercato conseguita nel mese di dicembre 2009 
+presso la facoltà di Economia dell’Università di Pisa, con votazione finale 109/110. 
+Titolo della tesi: “L’autenticità dell’esperienza turistica. Analisi empirica in Sardegna”; campo di 
+ricerca: Analisi del comportamento del consumatore. 
+Principali esami sostenuti: Marketing management, Analisi del comportamento del consumatore, 
+Rilevazione e analisi dei dati campionari, Analisi e ricerche di marketing, Internet marketing, 
+Analisi e contabilità dei costi, The Economics of European Union. 
+Laurea primo livello in Economia e Gestione Aziendale, indirizzo Marketing, conseguita nel mese 
+di luglio 2007 presso l’Università degli Studi di Cagliari, con votazione finale 106/110. 
+Titolo della tesi: “Le comunità virtuali. Le relazioni sociali nella società globale dell’informazione”; 
+campo di ricerca: Marketing. 
+LINGUE STRANIERE 
+Ottima conoscenza della lingua inglese parlata e scritta. Livello intermedio avanzato (B2). 
+CONOSCENZE INFORMATICHE 
+Ottima dimestichezza con: Pacchetto Office, macOS, SAP, CRM, Wordpress, WooCommerce, 
+Social Media, Mailchimp, Facebook Business Manager, Facebook Ads, Google Business, Google 
+Ads e Google Analytics. 
+COMPETENZE AUDIO E VIDEO 
+Realizzazione foto e video a livello professionale. Ottima dimestichezza con Photoshop e Camera 
+Raw, Procreate, Illustrator, Canva, CapCut, DaVinci Resolve, iMovie, Ableton Live, Audition.  
+ESPERIENZE LAVORATIVE 
+Gennaio - Dicembre 2024 
+Content Creator e Social Media Manager presso Music Store Academy 
+Attività svolta: realizzazione foto, video e grafiche, Social Media Marketing, gestione contenuti 
+Web, Newsletter. 
+Febbraio 2020 – Giugno 2021 
+Ecommerce Specialist presso Puntouno Commerciale Srl 
+Attività svolta: gestione Ecommerce, gestione e sviluppo dei contenuti Web, SEO, Social Media 
+Marketing, DEM, shooting fotografico dei prodotti, sviluppo ed implementazione delle strategie di 
+Digital Marketing, analisi statistiche. 
+Gennaio 2018 – Gennaio 2020 
+Digital Marketing Freelance 
+Attività svolta: Social Media Strategy, gestione Web e E-commerce, photo shooting. Portfolio: 
+Drogheria e Alimentari Spa, Agenzia Unipol Cipollini Orsi Bordolesi, Fioremania Angelini, La 
+Bottega del Fattore. 
+Aprile – Ottobre 2016 
+Marketing and Communication Specialist presso Cromology Italia Spa 
+Attività svolta: sviluppo prodotto e packaging, creazione e gestione operativa dei materiali di 
+marketing, sviluppo piani di comunicazione e promozione a supporto dei lanci, gestione siti web e 
+Social Media, gestione attività in-store ed eventi, allestimento punti vendita, analisi dati, gestione 
+budget. 
+Giugno – Dicembre 2015 
+Customer Service Specialist presso Lucart Group 
+Attività svolta: gestione ordini, assistenza clienti canale GDO, supporto alla forza vendita. 
+Novembre 2013 - Gennaio 2015 
+Trade Marketing Specialist presso De’Longhi Group – Divisione commerciale Ariete 
+Attività svolta: sviluppo e gestione materiali POP per i punti vendita del canale GD, 
+implementazione attività promozionali, pianificazione attività di in-store promotion e coordinamento 
+promoter e merchandiser, gestione allestimento dei punti vendita, coordinamento agenzie grafiche 
+e stampatori, supporto alla forza vendita Italia ed estero, analisi sellin e sellout, gestione eventi e 
+fiere a livello internazionale. 
+Gennaio – Marzo 2013 
+Field Key Account canale GDO presso Ferrero SpA 
+Giugno – Agosto 2012 
+Field Key Account canale GDO presso Ferrero SpA 
+Attività svolta sui punti vendita assegnati (grandi supermercati ed ipermercati): gestione ordini, 
+attivazione delle promozioni concordate con le insegne, gestione allestimento materiali POP, 
+controllo layout prodotti, coordinamento merchandiser, rilevazione prezzi, controllo scadenze 
+prodotti, analisi sellin e sellout. 
+Luglio 2011 – Gennaio 2012 
+Addetto alla Logistica presso Industrie Cartarie Tronchetti Spa 
+Attività svolta: programmazione delle spedizioni nazionali ed internazionali, assistenza clienti, 
+gestione ordini e magazzino. 
+Ottobre 2010 – Aprile 2011 
+Marketing Intern presso Cassa di Risparmio di San Miniato SpA (Banca Carismi) 
+Attività svolta: analisi dati; sviluppo campagne pubblicitarie e promozionali; contatti con agenzie e 
+media; sviluppo programmi di fidelizzazione; organizzazione eventi; web marketing. 
+Durante gli anni dell’Università ho lavorato come DJ/Animatore presso l’hotel Le Meridien di Chia 
+(CA) ed altre strutture ricettive della Sardegna. 
+PASSIONI E INTERESSI PERSONALI 
+Forte passione per la musica (dj e producer di musica elettronica), illustrazioni e pittura, viaggi. 
+CARATTERISTICHE PERSONALI 
+Intraprendenza, entusiasmo, empatia ed attitudine alle relazioni interpersonali, creatività, elevata 
+capacità di problem solving. 
+CONDIZIONI 
+Disponibilità al trasferimento vicino alla sede di lavoro. 
+Disponibilità a trasferte in Italia ed all'estero. 
+Automunito. 
+Autorizzo il trattamento dei miei dati personali ai sensi dell’art. 13 Dlgs 196 del 30 giugno 2003 e 
+dell’art. 13 GDPR (Regolamento UE 2016/679) ai fini della ricerca e selezione del personale.
+
+
+---Estrazione OCR---
+CURRICULUM VITAE
+MARCO CONTU
+Luogo e data di nascita: Cagliari, 8.1.1983 pes b,
+Residenza: Lucca
+Mobile: 340 1476102 F ’ ;
+Email: marcocontu@icloud.com @ /
+STUDI E FORMAZIONE
+Laurea Specialistica in Marketing e Ricerche di Mercato conseguita nel mese di dicembre 2009
+presso la facolta di Economia dell’Universita di Pisa, con votazione finale 109/110.
+Titolo della tesi: “L’autenticita dell’esperienza turistica. Analisi empirica in Sardegna”; campo di
+ricerca: Analisi del comportamento del consumatore.
+Principali esami sostenuti: Marketing management, Analisi del comportamento del consumatore,
+Rilevazione e analisi dei dati campionari, Analisi e ricerche di marketing, Internet marketing,
+Analisi e contabilita dei costi, The Economics of European Union.
+Laurea primo livello in Economia e Gestione Aziendale, indirizzo Marketing, conseguita nel mese
+di luglio 2007 presso l’Universita degli Studi di Cagliari, con votazione finale 106/110.
+Titolo della tesi: “Le comunita virtuali. Le relazioni sociali nella societa globale dell’informazione”;
+campo di ricerca: Marketing.
+LINGUE STRANIERE
+Ottima conoscenza della lingua inglese parlata e scritta. Livello intermedio avanzato (B2).
+CONOSCENZE INFORMATICHE
+Ottima dimestichezza con: Pacchetto Office, macOS, SAP, CRM, Wordpress, WooCommerce,
+Social Media, Mailchimp, Facebook Business Manager, Facebook Ads, Google Business, Google
+Ads e Google Analytics.
+COMPETENZE AUDIO E VIDEO
+
+Realizzazione foto e video a livello professionale. Ottima dimestichezza con Photoshop e Camera
+Raw, Procreate, Illustrator, Canva, CapCut, DaVinci Resolve, iMovie, Ableton Live, Audition.
+ESPERIENZE LAVORATIVE
+
+Gennaio - Dicembre 2024
+
+Content Creator e Social Media Manager presso Music Store Academy
+
+Attivita svolta: realizzazione foto, video e grafiche, Social Media Marketing, gestione contenuti
+Web, Newsletter.
+
+Febbraio 2020 — Giugno 2021
+
+Ecommerce Specialist presso Puntouno Commerciale Srl
+
+Attivita svolta: gestione Ecommerce, gestione e sviluppo dei contenuti Web, SEO, Social Media
+Marketing, DEM, shooting fotografico dei prodotti, sviluppo ed implementazione delle strategie di
+Digital Marketing, analisi statistiche.
+
+Gennaio 2018 — Gennaio 2020
+
+Digital Marketing Freelance
+
+Attivita svolta: Social Media Strategy, gestione Web e E-commerce, photo shooting. Portfolio:
+Drogheria e Alimentari Spa, Agenzia Unipol Cipollini Orsi Bordolesi, Fioremania Angelini, La
+Bottega del Fattore.
+
+Aprile — Ottobre 2016
+
+Marketing and Communication Specialist presso Cromology Italia Spa
+
+Attivita svolta: sviluppo prodotto e packaging, creazione e gestione operativa dei materiali di
+marketing, sviluppo piani di comunicazione e promozione a supporto dei lanci, gestione siti web e
+Social Media, gestione attivita in-store ed eventi, allestimento punti vendita, analisi dati, gestione
+budget.
+
+Giugno — Dicembre 2015
+
+Customer Service Specialist presso Lucart Group
+
+Attivita svolta: gestione ordini, assistenza clienti canale GDO, supporto alla forza vendita.
+Novembre 2013 - Gennaio 2015
+
+Trade Marketing Specialist presso De’Longhi Group — Divisione commerciale Ariete
+
+Attivita svolta: sviluppo e gestione materiali POP per i punti vendita del canale GD,
+implementazione attivita promozionali, pianificazione attivita di in-store promotion e coordinamento
+promoter e merchandiser, gestione allestimento dei punti vendita, coordinamento agenzie grafiche
+e stampatori, supporto alla forza vendita Italia ed estero, analisi sellin e sellout, gestione eventi e
+fiere a livello internazionale.
+
+Gennaio — Marzo 2013
+
+Field Key Account canale GDO presso Ferrero SpA
+
+Giugno — Agosto 2012
+
+Field Key Account canale GDO presso Ferrero SpA
+
+Attivita svolta sui punti vendita assegnati (grandi supermercati ed ipermercati): gestione ordini,
+attivazione delle promozioni concordate con le insegne, gestione allestimento materiali POP,
+controllo layout prodotti, coordinamento merchandiser, rilevazione prezzi, controllo scadenze
+prodotti, analisi sellin e sellout.
+
+Luglio 2011 - Gennaio 2012
+
+Addetto alla Logistica presso Industrie Cartarie Tronchetti Spa
+
+Attivita svolta: programmazione delle spedizioni nazionali ed internazionali, assistenza clienti,
+gestione ordini e magazzino.
+
+Ottobre 2010 — Aprile 2011
+
+Marketing Intern presso Cassa di Risparmio di San Miniato SpA (Banca Carismi)
+
+Attivita svolta: analisi dati; sviluppo campagne pubblicitarie e promozionali; contatti con agenzie e
+media; sviluppo programmi di fidelizzazione; organizzazione eventi; web marketing.
+
+Durante gli anni dell’Universita ho lavorato come DJ/Animatore presso |’hotel Le Meridien di Chia
+(CA) ed altre strutture ricettive della Sardegna.
+
+PASSIONI E INTERESSI PERSONALI
+
+Forte passione per la musica (dj e producer di musica elettronica), illustrazioni e pittura, viaggi.
+CARATTERISTICHE PERSONALI
+
+Intraprendenza, entusiasmo, empatia ed attitudine alle relazioni interpersonali, creativita, elevata
+capacita di problem solving.
+
+CONDIZIONI
+
+Disponibilita al trasferimento vicino alla sede di lavoro.
+
+Disponibilita a trasferte in Italia ed all’estero.
+
+Automunito.
+Autorizzo il trattamento dei miei dati personali ai sensi dell’art. 13 Digs 196 del 30 giugno 2003 e
+dell’art. 13 GDPR (Regolamento UE 2016/679) ai fini della ricerca e selezione del personale.
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+CURRICULUM VITAE
+
+MARCO CONTU  
+Luogo e data di nascita: Cagliari, 8.1.1983  
+Residenza: Lucca  
+Mobile: 340 1476102  
+Email: marcocontu@icloud.com  
+
+STUDI E FORMAZIONE  
+Laurea Specialistica in Marketing e Ricerche di Mercato conseguita nel mese di dicembre 2009 presso la facoltà di Economia dell’Università di Pisa, con votazione finale 109/110.  
+Titolo della tesi: “L’autenticità dell’esperienza turistica. Analisi empirica in Sardegna”; campo di ricerca: Analisi del comportamento del consumatore.  
+Principali esami sostenuti: Marketing management, Analisi del comportamento del consumatore, Rilevazione e analisi dei dati campionari, Analisi e ricerche di marketing, Internet marketing, Analisi e contabilità dei costi, The Economics of European Union.  
+
+Laurea primo livello in Economia e Gestione Aziendale, indirizzo Marketing, conseguita nel mese di luglio 2007 presso l’Università degli Studi di Cagliari, con votazione finale 106/110.  
+Titolo della tesi: “Le comunità virtuali. Le relazioni sociali nella società globale dell’informazione”; campo di ricerca: Marketing.  
+
+LINGUE STRANIERE  
+Ottima conoscenza della lingua inglese parlata e scritta. Livello intermedio avanzato (B2).  
+
+CONOSCENZE INFORMATICHE  
+Ottima dimestichezza con: Pacchetto Office, macOS, SAP, CRM, Wordpress, WooCommerce, Social Media, Mailchimp, Facebook Business Manager, Facebook Ads, Google Business, Google Ads e Google Analytics.  
+
+COMPETENZE AUDIO E VIDEO  
+Realizzazione foto e video a livello professionale. Ottima dimestichezza con Photoshop e Camera Raw, Procreate, Illustrator, Canva, CapCut, DaVinci Resolve, iMovie, Ableton Live, Audition.  
+
+ESPERIENZE LAVORATIVE  
+Gennaio - Dicembre 2024  
+Content Creator e Social Media Manager presso Music Store Academy  
+Attività svolta: realizzazione foto, video e grafiche, Social Media Marketing, gestione contenuti Web, Newsletter.  
+
+Febbraio 2020 – Giugno 2021  
+Ecommerce Specialist presso Puntouno Commerciale Srl  
+Attività svolta: gestione Ecommerce, gestione e sviluppo dei contenuti Web, SEO, Social Media Marketing, DEM, shooting fotografico dei prodotti, sviluppo ed implementazione delle strategie di Digital Marketing, analisi statistiche.  
+
+Gennaio 2018 – Gennaio 2020  
+Digital Marketing Freelance  
+Attività svolta: Social Media Strategy, gestione Web e E-commerce, photo shooting. Portfolio: Drogheria e Alimentari Spa, Agenzia Unipol Cipollini Orsi Bordolesi, Fioremania Angelini, La Bottega del Fattore.  
+
+Aprile – Ottobre 2016  
+Marketing and Communication Specialist presso Cromology Italia Spa  
+Attività svolta: sviluppo prodotto e packaging, creazione e gestione operativa dei materiali di marketing, sviluppo piani di comunicazione e promozione a supporto dei lanci, gestione siti web e Social Media, gestione attività in-store ed eventi, allestimento punti vendita, analisi dati, gestione budget.  
+
+Giugno – Dicembre 2015  
+Customer Service Specialist presso Lucart Group  
+Attività svolta: gestione ordini, assistenza clienti canale GDO, supporto alla forza vendita.  
+
+Novembre 2013 - Gennaio 2015  
+Trade Marketing Specialist presso De’Longhi Group – Divisione commerciale Ariete  
+Attività svolta: sviluppo e gestione materiali POP per i punti vendita del canale GD, implementazione attività promozionali, pianificazione attività di in-store promotion e coordinamento promoter e merchandiser, gestione allestimento dei punti vendita, coordinamento agenzie grafiche e stampatori, supporto alla forza vendita Italia ed estero, analisi sellin e sellout, gestione eventi e fiere a livello internazionale.  
+
+Gennaio – Marzo 2013  
+Field Key Account canale GDO presso Ferrero SpA  
+
+Giugno – Agosto 2012  
+Field Key Account canale GDO presso Ferrero SpA  
+Attività svolta sui punti vendita assegnati (grandi supermercati ed ipermercati): gestione ordini, attivazione delle promozioni concordate con le insegne, gestione allestimento materiali POP, controllo layout prodotti, coordinamento merchandiser, rilevazione prezzi, controllo scadenze prodotti, analisi sellin e sellout.  
+
+Luglio 2011 – Gennaio 2012  
+Addetto alla Logistica presso Industrie Cartarie Tronchetti Spa  
+Attività svolta: programmazione delle spedizioni nazionali ed internazionali, assistenza clienti, gestione ordini e magazzino.  
+
+Ottobre 2010 – Aprile 2011  
+Marketing Intern presso Cassa di Risparmio di San Miniato SpA (Banca Carismi)  
+Attività svolta: analisi dati; sviluppo campagne pubblicitarie e promozionali; contatti con agenzie e media; sviluppo programmi di fidelizzazione; organizzazione eventi; web marketing.  
+
+Durante gli anni dell’Università ho lavorato come DJ/Animatore presso l’hotel Le Meridien di Chia (CA) ed altre strutture ricettive della Sardegna.  
+
+PASSIONI E INTERESSI PERSONALI  
+Forte passione per la musica (dj e producer di musica elettronica), illustrazioni e pittura, viaggi.  
+
+CARATTERISTICHE PERSONALI  
+Intraprendenza, entusiasmo, empatia ed attitudine alle relazioni interpersonali, creatività, elevata capacità di problem solving.  
+
+CONDIZIONI  
+Disponibilità al trasferimento vicino alla sede di lavoro.  
+Disponibilità a trasferte in Italia ed all'estero.  
+Automunito.  
+
+Autorizzo il trattamento dei miei dati personali ai sensi dell’art. 13 Dlgs 196 del 30 giugno 2003 e dell’art. 13 GDPR (Regolamento UE 2016/679) ai fini della ricerca e selezione del personale.

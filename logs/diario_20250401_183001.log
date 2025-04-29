@@ -1,0 +1,27 @@
+2025-04-01 18:30:01,451 - INFO - bfcv_007.py:3201 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-04-01 18:30:01,451 - INFO - bfcv_007.py:3202 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-04-01 18:30:01,451 - INFO - bfcv_007.py:3203 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-04-01 18:30:01,452 - INFO - bfcv_007.py:3204 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-04-01 18:30:01,452 - INFO - bfcv_007.py:3205 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-04-01 18:30:01,457 - INFO - bfcv_007.py:3612 - main - Mantenuto st.session_state.fields esistente con 18 campi
+2025-04-01 18:30:01,458 - INFO - bfcv_007.py:3618 - main - Mantenuto st.session_state.available_fields esistente con 18 campi
+2025-04-01 18:30:01,458 - INFO - bfcv_007.py:3629 - main - Mantenuto st.session_state.selected_fields esistente con 18 campi
+2025-04-01 18:30:01,544 - INFO - bfcv_007.py:4161 - main - Avvio analisi dei CV con process_cvs
+2025-04-01 18:30:01,545 - INFO - bfcv_007.py:2758 - process_cvs - Inizio elaborazione CV nella directory: G:\Drive condivisi\Bluefactor - Produzione\Ricerche di personale\Account2025
+2025-04-01 18:30:01,545 - INFO - bfcv_007.py:2759 - process_cvs - Campi selezionati: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Lingue conosciute', 'Legame con Firenze', 'Soft skills', 'Lingue straniere']
+2025-04-01 18:30:01,547 - INFO - bfcv_007.py:2771 - process_cvs - Trovati 62 file PDF nella directory
+2025-04-01 18:30:01,548 - INFO - bfcv_007.py:2786 - process_cvs - Utilizzo OpenAI: False
+2025-04-01 18:30:01,548 - INFO - bfcv_007.py:2807 - process_cvs - Utilizzo Ollama - Modello: phi4-mini:latest
+2025-04-01 18:30:03,567 - INFO - bfcv_007.py:2821 - process_cvs - Inizio analisi di 62 file PDF
+2025-04-01 18:30:03,568 - INFO - bfcv_007.py:2825 - process_cvs - [1/62] Analisi di CV Alessio Gasperetti. Italiano.pdf...
+2025-04-01 18:30:03,570 - INFO - bfcv_007.py:2835 - process_cvs - Estrazione testo da CV Alessio Gasperetti. Italiano.pdf
+2025-04-01 18:30:05,754 - DEBUG - bfcv_007.py:2837 - process_cvs - Lunghezza testo diretto: 5157, testo OCR: 5049
+2025-04-01 18:30:05,754 - INFO - bfcv_007.py:2851 - process_cvs - Combinazione testi con Ollama per CV Alessio Gasperetti. Italiano.pdf
+2025-04-01 18:30:05,755 - DEBUG - bfcv_007.py:1125 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\ollama-phi4-mini:latest-53c76ca84f5b6be0bc8008b75b355de5.txt
+2025-04-01 18:30:06,274 - INFO - bfcv_007.py:1142 - get_cached_response - Trovata risposta nella cache per ollama-phi4-mini:latest
+2025-04-01 18:30:06,275 - INFO - bfcv_007.py:2860 - process_cvs - Inizio analisi contenuto CV per CV Alessio Gasperetti. Italiano.pdf
+2025-04-01 18:30:08,356 - INFO - bfcv_007.py:2251 - analyze_cv_ollama - Iniziando l'estrazione principale con Ollama
+2025-04-01 18:30:10,342 - DEBUG - bfcv_007.py:1125 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\ollama-phi4-mini:latest-0a85debf71c5ed0af5d2f2cf0a01e259.txt
+2025-04-01 18:30:10,343 - INFO - bfcv_007.py:1162 - get_cached_response - Nessuna cache trovata per ollama-phi4-mini:latest con hash 0a85debf71c5ed0af5d2f2cf0a01e259
+2025-04-01 18:30:10,730 - INFO - bfcv_007.py:2281 - analyze_cv_ollama - Nessuna cache disponibile, chiamo l'API Ollama per l'estrazione principale
+2025-04-01 18:30:12,857 - ERROR - bfcv_007.py:2356 - analyze_cv_ollama - Errore nella connessione a Ollama: 'dict' object has no attribute 'model_json_schema'

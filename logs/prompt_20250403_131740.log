@@ -1,0 +1,49 @@
+Data e ora: 2025-04-03 13:17:40
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "\n    Analizza questa job description e suggerisci 3-5 campi aggiuntivi specifici che sarebbero utili estrarre dai CV per valutare i candidati.\n    I campi dovrebbero essere pertinenti per questo specifico ruolo e non già presenti nell'elenco base.\n    \n    Job Description:\n    Account Manager di agenzia di digital marketing. \nSi preferisce un candidato che:\n- Abbia esperienza in agenzia di pubblicità o di digital marketing. \n- Abbia una predisposizione o esperienza nella generazione di new business o come commerciale di agenzie di digital marketing\n- Abbia già un qualche legame con la città di lavoro, cioè Firenze, ovvero o abiti vicino, o ci abbia almeno studiato o lavorato, e quindi possa volerci tornare\n- Possibilmente sotto i 30 anni. \n- Preferibilmente con un master in marketing o comunicazione.\n\nCompiti: \n- Gestione e sviluppo dei rapporti con i clienti\n- Pianificazione e gestione di progetti digitali\n- Analisi delle performance delle campagne\n- Preparazione di presentazioni e reportistica\n- Sviluppo di strategie di content marketing\n- Ricerca di nuove opportunità di business\n- Presentazione dell'agenzia ai clienti\n    \n    Campi base già presenti:\n    Nome, Cognome, Numero di contatto, Email, Età, Città di residenza, Città di origine, Anni di esperienza lavorativa, Anni di esperienza lavorativa nel ruolo richiesto, Master o assimilabile nel ruolo richiesto, Formazione più alta, Università/Istituto, Posizione attuale, Datori di lavoro precedenti, Lingue conosciute, Legame con Firenze, Lingue straniere\n    \n    Restituisci SOLO un array JSON con i campi suggeriti. Esempio: [\"Campo1\", \"Campo2\", \"Campo3\"]\n    "
+    }
+  ],
+  "temperature": 0.7,
+  "response_format": {
+    "type": "json_object"
+  }
+}
+
+Prompt:
+
+    Analizza questa job description e suggerisci 3-5 campi aggiuntivi specifici che sarebbero utili estrarre dai CV per valutare i candidati.
+    I campi dovrebbero essere pertinenti per questo specifico ruolo e non già presenti nell'elenco base.
+    
+    Job Description:
+    Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital marketing. 
+- Abbia una predisposizione o esperienza nella generazione di new business o come commerciale di agenzie di digital marketing
+- Abbia già un qualche legame con la città di lavoro, cioè Firenze, ovvero o abiti vicino, o ci abbia almeno studiato o lavorato, e quindi possa volerci tornare
+- Possibilmente sotto i 30 anni. 
+- Preferibilmente con un master in marketing o comunicazione.
+
+Compiti: 
+- Gestione e sviluppo dei rapporti con i clienti
+- Pianificazione e gestione di progetti digitali
+- Analisi delle performance delle campagne
+- Preparazione di presentazioni e reportistica
+- Sviluppo di strategie di content marketing
+- Ricerca di nuove opportunità di business
+- Presentazione dell'agenzia ai clienti
+    
+    Campi base già presenti:
+    Nome, Cognome, Numero di contatto, Email, Età, Città di residenza, Città di origine, Anni di esperienza lavorativa, Anni di esperienza lavorativa nel ruolo richiesto, Master o assimilabile nel ruolo richiesto, Formazione più alta, Università/Istituto, Posizione attuale, Datori di lavoro precedenti, Lingue conosciute, Legame con Firenze, Lingue straniere
+    
+    Restituisci SOLO un array JSON con i campi suggeriti. Esempio: ["Campo1", "Campo2", "Campo3"]
+    
+
+Risposta:
+{"suggestedFields": ["Competenze in gestione dei social media", "Esperienza nella creazione di campagne PPC", "Portfolio di progetti precedenti", "Certificazioni in marketing digitale", "Esperienza di lavoro in team multidisciplinari"]}

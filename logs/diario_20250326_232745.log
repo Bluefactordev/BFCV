@@ -1,0 +1,125 @@
+2025-03-26 23:27:45,375 - INFO - bfcv_007.py:2932 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-03-26 23:27:45,375 - INFO - bfcv_007.py:2933 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-26 23:27:45,376 - INFO - bfcv_007.py:2934 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-26 23:27:45,376 - INFO - bfcv_007.py:2935 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-03-26 23:27:45,376 - INFO - bfcv_007.py:2936 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-03-26 23:27:45,383 - INFO - bfcv_007.py:3312 - main - Mantenuto st.session_state.fields esistente con 19 campi
+2025-03-26 23:27:45,383 - INFO - bfcv_007.py:3318 - main - Mantenuto st.session_state.available_fields esistente con 23 campi
+2025-03-26 23:27:45,384 - INFO - bfcv_007.py:3329 - main - Mantenuto st.session_state.selected_fields esistente con 19 campi
+2025-03-26 23:27:45,463 - INFO - bfcv_007.py:3843 - main - Avvio analisi dei CV con process_cvs
+2025-03-26 23:27:45,463 - INFO - bfcv_007.py:2489 - process_cvs - Inizio elaborazione CV nella directory: D:\Progetti\BFCV\CVS\Stage2025
+2025-03-26 23:27:45,464 - INFO - bfcv_007.py:2490 - process_cvs - Campi selezionati: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Competenze in linguaggi di programmazione (es. Python, JavaScript)', 'Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)', 'Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM']
+2025-03-26 23:27:45,466 - INFO - bfcv_007.py:2502 - process_cvs - Trovati 172 file PDF nella directory
+2025-03-26 23:27:45,466 - INFO - bfcv_007.py:2517 - process_cvs - Utilizzo OpenAI: True
+2025-03-26 23:27:45,467 - INFO - bfcv_007.py:2531 - process_cvs - Utilizzo OpenAI - Modello: deepseek-v3
+2025-03-26 23:27:45,467 - INFO - bfcv_007.py:2552 - process_cvs - Inizio analisi di 172 file PDF
+2025-03-26 23:27:45,468 - INFO - bfcv_007.py:2556 - process_cvs - [1/172] Analisi di (Ita) Alessandro Anceschi - CV.pdf...
+2025-03-26 23:27:45,469 - INFO - bfcv_007.py:2566 - process_cvs - Estrazione testo da (Ita) Alessandro Anceschi - CV.pdf
+2025-03-26 23:27:46,686 - DEBUG - bfcv_007.py:2568 - process_cvs - Lunghezza testo diretto: 1402, testo OCR: 1737
+2025-03-26 23:27:46,686 - INFO - bfcv_007.py:2573 - process_cvs - Combinazione testi con OpenAI per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-26 23:27:46,686 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-917cfa3ebae6752a8eef68c327ed1ddc.txt
+2025-03-26 23:27:46,687 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash 917cfa3ebae6752a8eef68c327ed1ddc
+2025-03-26 23:27:47,622 - INFO - bfcv_007.py:2591 - process_cvs - Inizio analisi contenuto CV per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-26 23:27:47,624 - INFO - bfcv_007.py:1624 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-26 23:27:47,874 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-c77620c8dfb4ac5c6018fc0a2c3d2e44.txt
+2025-03-26 23:27:47,875 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash c77620c8dfb4ac5c6018fc0a2c3d2e44
+2025-03-26 23:27:47,876 - INFO - bfcv_007.py:1676 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-26 23:27:47,876 - ERROR - bfcv_007.py:1974 - analyze_cv_openai - Errore durante l'analisi con OpenAI: name 'OpenAI' is not defined
+2025-03-26 23:27:47,881 - WARNING - bfcv_007.py:2621 - process_cvs - Analisi non riuscita per (Ita) Alessandro Anceschi - CV.pdf - result à None o vuoto
+2025-03-26 23:27:47,882 - INFO - bfcv_007.py:2556 - process_cvs - [2/172] Analisi di 0_Rafael-Patron_AI_Program_Manager.pdf...
+2025-03-26 23:27:47,882 - INFO - bfcv_007.py:2566 - process_cvs - Estrazione testo da 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-26 23:27:49,953 - DEBUG - bfcv_007.py:2568 - process_cvs - Lunghezza testo diretto: 26620, testo OCR: 4615
+2025-03-26 23:27:49,953 - INFO - bfcv_007.py:2573 - process_cvs - Combinazione testi con OpenAI per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-26 23:27:49,954 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-1df815785dd710626f066f4953283c64.txt
+2025-03-26 23:27:49,954 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash 1df815785dd710626f066f4953283c64
+2025-03-26 23:27:50,178 - INFO - bfcv_007.py:2591 - process_cvs - Inizio analisi contenuto CV per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-26 23:27:50,179 - INFO - bfcv_007.py:1624 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-26 23:27:50,184 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-74aa5a18df4e2d43e61b159b318cc328.txt
+2025-03-26 23:27:50,184 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash 74aa5a18df4e2d43e61b159b318cc328
+2025-03-26 23:27:50,185 - INFO - bfcv_007.py:1676 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-26 23:27:50,185 - ERROR - bfcv_007.py:1974 - analyze_cv_openai - Errore durante l'analisi con OpenAI: name 'OpenAI' is not defined
+2025-03-26 23:27:50,188 - WARNING - bfcv_007.py:2621 - process_cvs - Analisi non riuscita per 0_Rafael-Patron_AI_Program_Manager.pdf - result à None o vuoto
+2025-03-26 23:27:50,189 - INFO - bfcv_007.py:2556 - process_cvs - [3/172] Analisi di 2025 Resume.pdf.pdf...
+2025-03-26 23:27:50,190 - INFO - bfcv_007.py:2566 - process_cvs - Estrazione testo da 2025 Resume.pdf.pdf
+2025-03-26 23:27:51,136 - DEBUG - bfcv_007.py:2568 - process_cvs - Lunghezza testo diretto: 2829, testo OCR: 2757
+2025-03-26 23:27:51,136 - INFO - bfcv_007.py:2573 - process_cvs - Combinazione testi con OpenAI per 2025 Resume.pdf.pdf
+2025-03-26 23:27:51,137 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-6f942ac95791ab3e34bbd78126f67131.txt
+2025-03-26 23:27:51,138 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash 6f942ac95791ab3e34bbd78126f67131
+2025-03-26 23:27:51,353 - INFO - bfcv_007.py:2591 - process_cvs - Inizio analisi contenuto CV per 2025 Resume.pdf.pdf
+2025-03-26 23:27:51,354 - INFO - bfcv_007.py:1624 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-26 23:27:51,356 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-0630941c2449e7582bda28a21d635453.txt
+2025-03-26 23:27:51,356 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash 0630941c2449e7582bda28a21d635453
+2025-03-26 23:27:51,356 - INFO - bfcv_007.py:1676 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-26 23:27:51,357 - ERROR - bfcv_007.py:1974 - analyze_cv_openai - Errore durante l'analisi con OpenAI: name 'OpenAI' is not defined
+2025-03-26 23:27:51,360 - WARNING - bfcv_007.py:2621 - process_cvs - Analisi non riuscita per 2025 Resume.pdf.pdf - result à None o vuoto
+2025-03-26 23:27:51,361 - INFO - bfcv_007.py:2556 - process_cvs - [4/172] Analisi di 4.DE_MARIA_ALESSANDRO_CV_2425.pdf...
+2025-03-26 23:27:51,362 - INFO - bfcv_007.py:2566 - process_cvs - Estrazione testo da 4.DE_MARIA_ALESSANDRO_CV_2425.pdf
+2025-03-26 23:27:52,564 - DEBUG - bfcv_007.py:2568 - process_cvs - Lunghezza testo diretto: 2765, testo OCR: 2931
+2025-03-26 23:27:52,565 - INFO - bfcv_007.py:2573 - process_cvs - Combinazione testi con OpenAI per 4.DE_MARIA_ALESSANDRO_CV_2425.pdf
+2025-03-26 23:27:52,565 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-2b8e57f77cb32abed025fa49ab6349d4.txt
+2025-03-26 23:27:52,565 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash 2b8e57f77cb32abed025fa49ab6349d4
+2025-03-26 23:27:52,771 - INFO - bfcv_007.py:2591 - process_cvs - Inizio analisi contenuto CV per 4.DE_MARIA_ALESSANDRO_CV_2425.pdf
+2025-03-26 23:27:52,773 - INFO - bfcv_007.py:1624 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-26 23:27:52,774 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-cd31682fdf36d33bc00d9970d25ad0fc.txt
+2025-03-26 23:27:52,774 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash cd31682fdf36d33bc00d9970d25ad0fc
+2025-03-26 23:27:52,774 - INFO - bfcv_007.py:1676 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-26 23:27:52,775 - ERROR - bfcv_007.py:1974 - analyze_cv_openai - Errore durante l'analisi con OpenAI: name 'OpenAI' is not defined
+2025-03-26 23:27:52,779 - WARNING - bfcv_007.py:2621 - process_cvs - Analisi non riuscita per 4.DE_MARIA_ALESSANDRO_CV_2425.pdf - result à None o vuoto
+2025-03-26 23:27:52,779 - INFO - bfcv_007.py:2556 - process_cvs - [5/172] Analisi di Ajlin Sinani Curriculum Vitae.pdf...
+2025-03-26 23:27:52,780 - INFO - bfcv_007.py:2566 - process_cvs - Estrazione testo da Ajlin Sinani Curriculum Vitae.pdf
+2025-03-26 23:27:53,812 - DEBUG - bfcv_007.py:2568 - process_cvs - Lunghezza testo diretto: 2231, testo OCR: 2176
+2025-03-26 23:27:53,812 - INFO - bfcv_007.py:2573 - process_cvs - Combinazione testi con OpenAI per Ajlin Sinani Curriculum Vitae.pdf
+2025-03-26 23:27:53,813 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-e67d110b8de7a5cdddf2b34e6c58ad5e.txt
+2025-03-26 23:27:53,815 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash e67d110b8de7a5cdddf2b34e6c58ad5e
+2025-03-26 23:27:54,019 - INFO - bfcv_007.py:2591 - process_cvs - Inizio analisi contenuto CV per Ajlin Sinani Curriculum Vitae.pdf
+2025-03-26 23:27:54,021 - INFO - bfcv_007.py:1624 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-26 23:27:54,022 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-a97c010b776449734a26db93796ac9db.txt
+2025-03-26 23:27:54,023 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash a97c010b776449734a26db93796ac9db
+2025-03-26 23:27:54,023 - INFO - bfcv_007.py:1676 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-26 23:27:54,023 - ERROR - bfcv_007.py:1974 - analyze_cv_openai - Errore durante l'analisi con OpenAI: name 'OpenAI' is not defined
+2025-03-26 23:27:54,027 - WARNING - bfcv_007.py:2621 - process_cvs - Analisi non riuscita per Ajlin Sinani Curriculum Vitae.pdf - result à None o vuoto
+2025-03-26 23:27:54,028 - INFO - bfcv_007.py:2556 - process_cvs - [6/172] Analisi di Alessia Milella - CV.pdf...
+2025-03-26 23:27:54,029 - INFO - bfcv_007.py:2566 - process_cvs - Estrazione testo da Alessia Milella - CV.pdf
+2025-03-26 23:27:55,010 - DEBUG - bfcv_007.py:2568 - process_cvs - Lunghezza testo diretto: 2307, testo OCR: 2431
+2025-03-26 23:27:55,010 - INFO - bfcv_007.py:2573 - process_cvs - Combinazione testi con OpenAI per Alessia Milella - CV.pdf
+2025-03-26 23:27:55,011 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-79214e3a46fdc9fcc55d777198927c2f.txt
+2025-03-26 23:27:55,012 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash 79214e3a46fdc9fcc55d777198927c2f
+2025-03-26 23:27:55,236 - INFO - bfcv_007.py:2591 - process_cvs - Inizio analisi contenuto CV per Alessia Milella - CV.pdf
+2025-03-26 23:27:55,238 - INFO - bfcv_007.py:1624 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-26 23:27:55,239 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-58688e402f7df25b06c5ae734916d3ca.txt
+2025-03-26 23:27:55,240 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash 58688e402f7df25b06c5ae734916d3ca
+2025-03-26 23:27:55,240 - INFO - bfcv_007.py:1676 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-26 23:27:55,241 - ERROR - bfcv_007.py:1974 - analyze_cv_openai - Errore durante l'analisi con OpenAI: name 'OpenAI' is not defined
+2025-03-26 23:27:55,244 - WARNING - bfcv_007.py:2621 - process_cvs - Analisi non riuscita per Alessia Milella - CV.pdf - result à None o vuoto
+2025-03-26 23:27:55,245 - INFO - bfcv_007.py:2556 - process_cvs - [7/172] Analisi di ALICE PETRI PROFILO CV.pdf...
+2025-03-26 23:27:55,246 - INFO - bfcv_007.py:2566 - process_cvs - Estrazione testo da ALICE PETRI PROFILO CV.pdf
+2025-03-26 23:27:56,277 - DEBUG - bfcv_007.py:2568 - process_cvs - Lunghezza testo diretto: 2427, testo OCR: 2470
+2025-03-26 23:27:56,278 - INFO - bfcv_007.py:2573 - process_cvs - Combinazione testi con OpenAI per ALICE PETRI PROFILO CV.pdf
+2025-03-26 23:27:56,278 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-13178b8062bf419987d194f2980fe857.txt
+2025-03-26 23:27:56,278 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash 13178b8062bf419987d194f2980fe857
+2025-03-26 23:27:56,574 - INFO - bfcv_007.py:2591 - process_cvs - Inizio analisi contenuto CV per ALICE PETRI PROFILO CV.pdf
+2025-03-26 23:27:56,577 - INFO - bfcv_007.py:1624 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-26 23:27:56,577 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-e4ed1ebc1a4fd37d2e0e69a90f34ec0b.txt
+2025-03-26 23:27:56,578 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash e4ed1ebc1a4fd37d2e0e69a90f34ec0b
+2025-03-26 23:27:56,578 - INFO - bfcv_007.py:1676 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-26 23:27:56,578 - ERROR - bfcv_007.py:1974 - analyze_cv_openai - Errore durante l'analisi con OpenAI: name 'OpenAI' is not defined
+2025-03-26 23:27:56,581 - WARNING - bfcv_007.py:2621 - process_cvs - Analisi non riuscita per ALICE PETRI PROFILO CV.pdf - result à None o vuoto
+2025-03-26 23:27:56,582 - INFO - bfcv_007.py:2556 - process_cvs - [8/172] Analisi di Alice Tonelli-5.pdf...
+2025-03-26 23:27:56,583 - INFO - bfcv_007.py:2566 - process_cvs - Estrazione testo da Alice Tonelli-5.pdf
+2025-03-26 23:27:57,261 - DEBUG - bfcv_007.py:2568 - process_cvs - Lunghezza testo diretto: 1509, testo OCR: 1320
+2025-03-26 23:27:57,261 - INFO - bfcv_007.py:2573 - process_cvs - Combinazione testi con OpenAI per Alice Tonelli-5.pdf
+2025-03-26 23:27:57,262 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-42b19ece627c69dea5dc620553b135fa.txt
+2025-03-26 23:27:57,262 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash 42b19ece627c69dea5dc620553b135fa
+2025-03-26 23:27:57,613 - INFO - bfcv_007.py:2591 - process_cvs - Inizio analisi contenuto CV per Alice Tonelli-5.pdf
+2025-03-26 23:27:57,614 - INFO - bfcv_007.py:1624 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-26 23:27:57,614 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-d7cf2d76c6cc6f3207d526cca89ae0b3.txt
+2025-03-26 23:27:57,616 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash d7cf2d76c6cc6f3207d526cca89ae0b3
+2025-03-26 23:27:57,616 - INFO - bfcv_007.py:1676 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-26 23:27:57,616 - ERROR - bfcv_007.py:1974 - analyze_cv_openai - Errore durante l'analisi con OpenAI: name 'OpenAI' is not defined
+2025-03-26 23:27:57,619 - WARNING - bfcv_007.py:2621 - process_cvs - Analisi non riuscita per Alice Tonelli-5.pdf - result à None o vuoto
+2025-03-26 23:27:57,620 - INFO - bfcv_007.py:2556 - process_cvs - [9/172] Analisi di AliceVeracini_Curriculum.pdf...
+2025-03-26 23:27:57,621 - INFO - bfcv_007.py:2566 - process_cvs - Estrazione testo da AliceVeracini_Curriculum.pdf
+2025-03-26 23:27:57,933 - DEBUG - bfcv_007.py:2568 - process_cvs - Lunghezza testo diretto: 2644, testo OCR: 0
+2025-03-26 23:27:57,933 - INFO - bfcv_007.py:2573 - process_cvs - Combinazione testi con OpenAI per AliceVeracini_Curriculum.pdf
+2025-03-26 23:27:57,934 - DEBUG - bfcv_007.py:1032 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek-v3-35e0e4039b0d0396aa62f98e4e239848.txt
+2025-03-26 23:27:57,935 - INFO - bfcv_007.py:1069 - get_cached_response - Nessuna cache trovata per openai-deepseek-v3 con hash 35e0e4039b0d0396aa62f98e4e239848

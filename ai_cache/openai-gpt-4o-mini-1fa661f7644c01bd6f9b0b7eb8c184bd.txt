@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"Stima di 30-35 anni\",\n    \"Città di origine\": \"Bologna, Italia\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea in Scienze della Comunicazione\",\n    \"Legame con Firenze\": \"Formazione presso l'Università di Bologna, vicino a Firenze\"\n}"

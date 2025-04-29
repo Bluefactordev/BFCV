@@ -1,0 +1,15 @@
+2025-03-27 15:13:47,609 - INFO - bfcv_007.py:3018 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-03-27 15:13:47,610 - INFO - bfcv_007.py:3019 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-27 15:13:47,610 - INFO - bfcv_007.py:3020 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-27 15:13:47,610 - INFO - bfcv_007.py:3021 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-03-27 15:13:47,611 - INFO - bfcv_007.py:3022 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-03-27 15:13:47,627 - INFO - bfcv_007.py:3429 - main - Mantenuto st.session_state.fields esistente con 18 campi
+2025-03-27 15:13:47,627 - INFO - bfcv_007.py:3435 - main - Mantenuto st.session_state.available_fields esistente con 22 campi
+2025-03-27 15:13:47,627 - INFO - bfcv_007.py:3446 - main - Mantenuto st.session_state.selected_fields esistente con 18 campi
+2025-03-27 15:13:47,648 - DEBUG - bfcv_007.py:1064 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek/deepseek-chat-v3-0324:free-4d609da8a2bcd5d36f70ca7ee0acf7db.txt
+2025-03-27 15:13:47,649 - INFO - bfcv_007.py:1101 - get_cached_response - Nessuna cache trovata per openai-deepseek/deepseek-chat-v3-0324:free con hash 4d609da8a2bcd5d36f70ca7ee0acf7db
+2025-03-27 15:13:51,783 - INFO - bfcv_007.py:860 - get_openai_client - Inizializzazione client OpenAI per modello: deepseek/deepseek-chat-v3-0324:free
+2025-03-27 15:13:51,783 - INFO - bfcv_007.py:873 - get_openai_client - Configurazione client per DeepSeek via OpenRouter
+2025-03-27 15:13:51,784 - INFO - bfcv_007.py:883 - get_openai_client - Modello modificato per OpenRouter: deepseek/deepseek-chat-v3-0324:free
+2025-03-27 15:13:51,784 - INFO - bfcv_007.py:884 - get_openai_client - Parametri client OpenRouter: {'api_key': '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', 'base_url': 'https://openrouter.ai/api/v1', 'default_headers': {'HTTP-Referer': 'https://cv-analyzer-pro', 'X-Title': 'CV Analyzer Pro', 'Content-Type': 'application/json'}}
+2025-03-27 15:13:51,859 - INFO - bfcv_007.py:895 - get_openai_client - Aggiornato modello in session_state per DeepSeek

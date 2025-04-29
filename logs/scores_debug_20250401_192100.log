@@ -1,0 +1,47 @@
+2025-04-01 19:21:00,175 - INFO - bfcv_007.py:3272 - setup_scores_logger - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-04-01 19:21:00,175 - INFO - bfcv_007.py:3273 - setup_scores_logger - Inizializzato logger di debug per i punteggi
+2025-04-01 19:21:00,175 - INFO - bfcv_007.py:3274 - setup_scores_logger - Python version: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-04-01 19:21:00,175 - INFO - bfcv_007.py:3275 - setup_scores_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-04-01 19:21:00,175 - INFO - bfcv_007.py:3276 - setup_scores_logger - Log file: D:\Progetti\BFCV\logs\scores_debug_20250401_192100.log
+2025-04-01 19:21:00,176 - INFO - bfcv_007.py:3278 - setup_scores_logger - Modello OpenAI configurato: gpt-4o-mini
+2025-04-01 19:21:00,176 - INFO - bfcv_007.py:3280 - setup_scores_logger - Modello Ollama configurato: phi4-mini:latest
+2025-04-01 19:21:00,176 - INFO - bfcv_007.py:3282 - setup_scores_logger - Uso Ollama: False
+2025-04-01 19:21:00,176 - INFO - bfcv_007.py:3284 - setup_scores_logger - Cache abilitata: True
+2025-04-01 19:21:00,176 - INFO - bfcv_007.py:3577 - main - Inizializzato logger di debug per i punteggi
+2025-04-01 19:21:00,326 - INFO - bfcv_007.py:2689 - normalize_dataframe - Normalizzazione DataFrame con colonne: ['File_PDF', 'Punteggio_composito', 'Nome', 'Cognome', 'Numero di contatto', 'Email', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Lingue conosciute', 'Legame con Firenze', 'Soft skills', 'Lingue straniere', 'Età_numero', 'Età_dettagli', 'Competenze Tecniche', 'Esperienza Settoriale', 'Formazione', 'Problem Solving', 'Leadership', 'Potenziale', 'Attitudine al new business e commerciale', 'Esperienza di accounting su brand non locali']
+2025-04-01 19:21:00,328 - INFO - bfcv_007.py:2698 - normalize_dataframe - Criteri di valutazione da considerare numerici: ['Competenze Tecniche', 'Esperienza Settoriale', 'Formazione', 'Problem Solving', 'Leadership', 'Potenziale', 'Attitudine al new business e commerciale', 'Esperienza di accounting su brand non locali']
+2025-04-01 19:21:00,329 - INFO - bfcv_007.py:2704 - normalize_dataframe - Colonna 'Punteggio_composito' convertita in numerica
+2025-04-01 19:21:00,329 - INFO - bfcv_007.py:2712 - normalize_dataframe - Conversione criterio 'Competenze Tecniche' in numerico
+2025-04-01 19:21:00,330 - INFO - bfcv_007.py:2715 - normalize_dataframe - Esempi valori prima: [90.0, 85.0, 85.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-01 19:21:00,331 - INFO - bfcv_007.py:2722 - normalize_dataframe - Esempi valori dopo: [90.0, 85.0, 85.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-01 19:21:00,331 - INFO - bfcv_007.py:2712 - normalize_dataframe - Conversione criterio 'Esperienza Settoriale' in numerico
+2025-04-01 19:21:00,332 - INFO - bfcv_007.py:2715 - normalize_dataframe - Esempi valori prima: [85.0, 80.0, 80.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-01 19:21:00,333 - INFO - bfcv_007.py:2722 - normalize_dataframe - Esempi valori dopo: [85.0, 80.0, 80.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-01 19:21:00,333 - INFO - bfcv_007.py:2712 - normalize_dataframe - Conversione criterio 'Formazione' in numerico
+2025-04-01 19:21:00,334 - INFO - bfcv_007.py:2715 - normalize_dataframe - Esempi valori prima: [80.0, 90.0, 90.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-01 19:21:00,335 - INFO - bfcv_007.py:2722 - normalize_dataframe - Esempi valori dopo: [80.0, 90.0, 90.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-01 19:21:00,336 - INFO - bfcv_007.py:2712 - normalize_dataframe - Conversione criterio 'Problem Solving' in numerico
+2025-04-01 19:21:00,336 - INFO - bfcv_007.py:2715 - normalize_dataframe - Esempi valori prima: [85.0, 80.0, 80.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-01 19:21:00,338 - INFO - bfcv_007.py:2722 - normalize_dataframe - Esempi valori dopo: [85.0, 80.0, 80.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-01 19:21:00,338 - INFO - bfcv_007.py:2712 - normalize_dataframe - Conversione criterio 'Leadership' in numerico
+2025-04-01 19:21:00,339 - INFO - bfcv_007.py:2715 - normalize_dataframe - Esempi valori prima: [80.0, 75.0, 75.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-01 19:21:00,341 - INFO - bfcv_007.py:2722 - normalize_dataframe - Esempi valori dopo: [80.0, 75.0, 75.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-01 19:21:00,341 - INFO - bfcv_007.py:2712 - normalize_dataframe - Conversione criterio 'Potenziale' in numerico
+2025-04-01 19:21:00,342 - INFO - bfcv_007.py:2715 - normalize_dataframe - Esempi valori prima: [75.0, 70.0, 80.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-01 19:21:00,342 - INFO - bfcv_007.py:2722 - normalize_dataframe - Esempi valori dopo: [75.0, 70.0, 80.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-01 19:21:00,343 - INFO - bfcv_007.py:2712 - normalize_dataframe - Conversione criterio 'Attitudine al new business e commerciale' in numerico
+2025-04-01 19:21:00,343 - INFO - bfcv_007.py:2715 - normalize_dataframe - Esempi valori prima: [90.0, 65.0, 75.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-01 19:21:00,344 - INFO - bfcv_007.py:2722 - normalize_dataframe - Esempi valori dopo: [90.0, 65.0, 75.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-01 19:21:00,344 - INFO - bfcv_007.py:2712 - normalize_dataframe - Conversione criterio 'Esperienza di accounting su brand non locali' in numerico
+2025-04-01 19:21:00,345 - INFO - bfcv_007.py:2715 - normalize_dataframe - Esempi valori prima: [70.0, 85.0, 70.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-01 19:21:00,346 - INFO - bfcv_007.py:2722 - normalize_dataframe - Esempi valori dopo: [70.0, 85.0, 70.0] (tipi: [<class 'float'>, <class 'float'>, <class 'float'>])
+2025-04-01 19:21:00,347 - INFO - bfcv_007.py:2730 - normalize_dataframe - Colonne numeriche rilevate: ['Punteggio_composito', 'Età_numero', 'Competenze Tecniche', 'Esperienza Settoriale', 'Formazione', 'Problem Solving', 'Leadership', 'Potenziale', 'Attitudine al new business e commerciale', 'Esperienza di accounting su brand non locali']
+2025-04-01 19:21:00,360 - INFO - bfcv_007.py:4499 - main - Controllo extra su colonne criteri prima di visualizzazione
+2025-04-01 19:21:00,360 - INFO - bfcv_007.py:4502 - main - Controllo criterio 'Competenze Tecniche'
+2025-04-01 19:21:00,361 - INFO - bfcv_007.py:4502 - main - Controllo criterio 'Esperienza Settoriale'
+2025-04-01 19:21:00,361 - INFO - bfcv_007.py:4502 - main - Controllo criterio 'Formazione'
+2025-04-01 19:21:00,361 - INFO - bfcv_007.py:4502 - main - Controllo criterio 'Problem Solving'
+2025-04-01 19:21:00,363 - INFO - bfcv_007.py:4502 - main - Controllo criterio 'Leadership'
+2025-04-01 19:21:00,363 - INFO - bfcv_007.py:4502 - main - Controllo criterio 'Potenziale'
+2025-04-01 19:21:00,363 - INFO - bfcv_007.py:4502 - main - Controllo criterio 'Attitudine al new business e commerciale'
+2025-04-01 19:21:00,364 - INFO - bfcv_007.py:4502 - main - Controllo criterio 'Esperienza di accounting su brand non locali'

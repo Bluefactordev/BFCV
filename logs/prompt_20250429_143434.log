@@ -1,0 +1,207 @@
+Data e ora: 2025-04-29 14:34:34
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nSocial media manager\nScuola di fumetto e scrittura, Siena (SI)\nMAR 2019 - GIU 2019\nAssistant Account Executive\nCaffeina S.p.A, Parma (PR)\nGEN 2022 - DIC 2022\nAccount Executive\nCaffeina S.p.A, Parma (PR)\nGEN 2023 - GIU 2023\nP R O F I L O\nAppassionato di marketing e\ndi ogni forma di tecnologia,\nho sempre cercato di unire le\nmie capacità analitiche al\nmio pensiero creativo.\nSono alla continua ricerca di\nstimoli, per mettermi con\numiltà alla prova, per\nimparare e migliorarmi. \nHo sempre creduto\nnell'impegno e nella\ncostanza, due concetti che\nhanno saputo regalarmi\ngrandi soddisfazioni nella\nmia vita e durante il mio\npercorso di studi. \nleonardo.ronzini@yahoo.it\n3387355845\nlinkedin.com/in/leonardo-\nronzini\nC O N T A T T I\nLEONARDO RONZINI\nC O M P E T E N Z E\nT E C N I C H E\nE S P E R I E N Z E  L A V O R A T I V E\nMicrosoft OfficeSuite \nExcel avanzato\nIOS system e software (keynote)\nMontaggio video (Final Cut Pro)\nSocial media ads\nCreazione contenuti digitali\nAssistant Brand Manager\nAffinity Petcare, Milano (MI)\nFEB 2024 - PRESENTE\nL I N G U E\nInglese conoscenza professionale intermedia (B2)\nFrancese conoscenza professionale intermedia (B2)\n30/08/1997 Castel del Piano (GR)\nAutorizzo il trattamento dei dati personali ai sensi della legge\n 196/2003 e successive modifiche e ai sensi dell'art. 13GDPR 679/16\nLaurea magistrale in Food Marketing e strategie\ncommerciali (LM77)\nUniversità Cattolica del Sacro Cuore, Piacenza\nVotazione finale 110/110\nBusinessGame Lavazza - Coop | Calzedonia | Bolton | McCan\n2020 - 2023\nF O R M A Z I O N E\nLaurea triennale in Scienze della Comunicazione\n(L20)\nUniversità degli Studi di Siena\nTesi di Laurea: \"Il marketing digitale nell'era dello\nstreaming: il caso Twitch\"\n2016 - 2019\nLiceo scientifico E. Fermi, Castel del Piano\nDiploma di scuola superiore e Baccaulauréat\n2011 - 2016\n\n\n---Estrazione OCR---\n(r 30/08/1997 Castel del Piano (GR)\nPROFILO FORMAZIONE\nee ee\nAppassionato di marketing e Laurea magistrale in Food Marketing e strategie\ndi ogni forma di tecnologia, commerciali (LM77)\nho sempre cercato di unire le Universita Cattolica del Sacro Cuore, Piacenza\nmie capacita analitiche al 2020 - 2025\nmio pensiero creativo. e Votazione finale 110/110\nSono alla continua ricerca di e BusinessGame Lavazza - Coop | Calzedonia | Bolton | McCan\nstimoll, per mettermi con Laurea triennale in Scienze della Comunicazione\numilta alla prova, per\n. ‘oli . (L20)\nImparare © MIgiorarm|. Universita degli Studi di Siena\nHo sempre creduto\nI'impegno e nella 2016 = 2018\nne peg ; Tesi di Laurea: \"II marketing digitale nell'era dello\ncostanza, due concetti che streaming: il caso Twitch\"\nhanno saputo regalarmi\ngrandi soddisfazioni nella Liceo scientifico E. Fermi, Castel del Piano\nmia vita e durante il mio Diploma di scuola superiore e Baccaulauréat\npercorso di studi. 2011 - 2016\nESPERIENZE LAVORATIVE\nCONTATTI —_——\na Assistant Brand Manager\n©) leonardo.ronzini@yahoo.it Affinity Petcare, Milano (MI)\nFEB 2024 - PRESENTE\n3387355845 Account Executive\n‘in| linkedin.com/in/leonardo- Caffeina S.p.A, Parma (PR)\nronzini GEN 2023 - GIU 2023\nAssistant Account Executive\nCOMPETENZE Caffeina S.p.A, Parma (PR)\nTECNICHE GEN 2022 - DIC 2022\nSocial media manager\na Scuola di fumetto e scrittura, Siena (SI)\n* Microsoft OfficeSuite MAR 2019 - GIU 2019\n* Excel avanzato\nLINGUE\n* IOS system e software (keynote)\n* Montaggio video (Final Cut Pro)\n¢ Social media ads Inglese conoscenza professionale intermedia (B2)\n* Creazione contenuti digitali Francese conoscenza professionale intermedia (B2)\nAutorizzo il trattamento dei dati personali ai sensi delia legge\n196/2003 e successive modifiche e ai sensi dell'art. I3GDPR 679/16\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Social media manager
+Scuola di fumetto e scrittura, Siena (SI)
+MAR 2019 - GIU 2019
+Assistant Account Executive
+Caffeina S.p.A, Parma (PR)
+GEN 2022 - DIC 2022
+Account Executive
+Caffeina S.p.A, Parma (PR)
+GEN 2023 - GIU 2023
+P R O F I L O
+Appassionato di marketing e
+di ogni forma di tecnologia,
+ho sempre cercato di unire le
+mie capacità analitiche al
+mio pensiero creativo.
+Sono alla continua ricerca di
+stimoli, per mettermi con
+umiltà alla prova, per
+imparare e migliorarmi. 
+Ho sempre creduto
+nell'impegno e nella
+costanza, due concetti che
+hanno saputo regalarmi
+grandi soddisfazioni nella
+mia vita e durante il mio
+percorso di studi. 
+leonardo.ronzini@yahoo.it
+3387355845
+linkedin.com/in/leonardo-
+ronzini
+C O N T A T T I
+LEONARDO RONZINI
+C O M P E T E N Z E
+T E C N I C H E
+E S P E R I E N Z E  L A V O R A T I V E
+Microsoft OfficeSuite 
+Excel avanzato
+IOS system e software (keynote)
+Montaggio video (Final Cut Pro)
+Social media ads
+Creazione contenuti digitali
+Assistant Brand Manager
+Affinity Petcare, Milano (MI)
+FEB 2024 - PRESENTE
+L I N G U E
+Inglese conoscenza professionale intermedia (B2)
+Francese conoscenza professionale intermedia (B2)
+30/08/1997 Castel del Piano (GR)
+Autorizzo il trattamento dei dati personali ai sensi della legge
+ 196/2003 e successive modifiche e ai sensi dell'art. 13GDPR 679/16
+Laurea magistrale in Food Marketing e strategie
+commerciali (LM77)
+Università Cattolica del Sacro Cuore, Piacenza
+Votazione finale 110/110
+BusinessGame Lavazza - Coop | Calzedonia | Bolton | McCan
+2020 - 2023
+F O R M A Z I O N E
+Laurea triennale in Scienze della Comunicazione
+(L20)
+Università degli Studi di Siena
+Tesi di Laurea: "Il marketing digitale nell'era dello
+streaming: il caso Twitch"
+2016 - 2019
+Liceo scientifico E. Fermi, Castel del Piano
+Diploma di scuola superiore e Baccaulauréat
+2011 - 2016
+
+
+---Estrazione OCR---
+(r 30/08/1997 Castel del Piano (GR)
+PROFILO FORMAZIONE
+ee ee
+Appassionato di marketing e Laurea magistrale in Food Marketing e strategie
+di ogni forma di tecnologia, commerciali (LM77)
+ho sempre cercato di unire le Universita Cattolica del Sacro Cuore, Piacenza
+mie capacita analitiche al 2020 - 2025
+mio pensiero creativo. e Votazione finale 110/110
+Sono alla continua ricerca di e BusinessGame Lavazza - Coop | Calzedonia | Bolton | McCan
+stimoll, per mettermi con Laurea triennale in Scienze della Comunicazione
+umilta alla prova, per
+. ‘oli . (L20)
+Imparare © MIgiorarm|. Universita degli Studi di Siena
+Ho sempre creduto
+I'impegno e nella 2016 = 2018
+ne peg ; Tesi di Laurea: "II marketing digitale nell'era dello
+costanza, due concetti che streaming: il caso Twitch"
+hanno saputo regalarmi
+grandi soddisfazioni nella Liceo scientifico E. Fermi, Castel del Piano
+mia vita e durante il mio Diploma di scuola superiore e Baccaulauréat
+percorso di studi. 2011 - 2016
+ESPERIENZE LAVORATIVE
+CONTATTI —_——
+a Assistant Brand Manager
+©) leonardo.ronzini@yahoo.it Affinity Petcare, Milano (MI)
+FEB 2024 - PRESENTE
+3387355845 Account Executive
+‘in| linkedin.com/in/leonardo- Caffeina S.p.A, Parma (PR)
+ronzini GEN 2023 - GIU 2023
+Assistant Account Executive
+COMPETENZE Caffeina S.p.A, Parma (PR)
+TECNICHE GEN 2022 - DIC 2022
+Social media manager
+a Scuola di fumetto e scrittura, Siena (SI)
+* Microsoft OfficeSuite MAR 2019 - GIU 2019
+* Excel avanzato
+LINGUE
+* IOS system e software (keynote)
+* Montaggio video (Final Cut Pro)
+¢ Social media ads Inglese conoscenza professionale intermedia (B2)
+* Creazione contenuti digitali Francese conoscenza professionale intermedia (B2)
+Autorizzo il trattamento dei dati personali ai sensi delia legge
+196/2003 e successive modifiche e ai sensi dell'art. I3GDPR 679/16
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**LEONARDO RONZINI**  
+30/08/1997  
+Castel del Piano (GR)  
+leonardo.ronzini@yahoo.it  
+3387355845  
+[linkedin.com/in/leonardo-ronzini](https://linkedin.com/in/leonardo-ronzini)  
+
+---
+
+**PROFILO**  
+Appassionato di marketing e di ogni forma di tecnologia, ho sempre cercato di unire le mie capacità analitiche al mio pensiero creativo. Sono alla continua ricerca di stimoli, per mettermi con umiltà alla prova, per imparare e migliorarmi. Ho sempre creduto nell'impegno e nella costanza, due concetti che hanno saputo regalarmi grandi soddisfazioni nella mia vita e durante il mio percorso di studi.
+
+---
+
+**ESPERIENZE LAVORATIVE**  
+- **Assistant Brand Manager**  
+  Affinity Petcare, Milano (MI)  
+  FEB 2024 - PRESENTE  
+
+- **Account Executive**  
+  Caffeina S.p.A, Parma (PR)  
+  GEN 2023 - GIU 2023  
+
+- **Assistant Account Executive**  
+  Caffeina S.p.A, Parma (PR)  
+  GEN 2022 - DIC 2022  
+
+- **Social Media Manager**  
+  Scuola di fumetto e scrittura, Siena (SI)  
+  MAR 2019 - GIU 2019  
+
+---
+
+**FORMAZIONE**  
+- **Laurea magistrale in Food Marketing e strategie commerciali (LM77)**  
+  Università Cattolica del Sacro Cuore, Piacenza  
+  2020 - 2025  
+  Votazione finale 110/110  
+  Business Game Lavazza - Coop | Calzedonia | Bolton | McCan  
+
+- **Laurea triennale in Scienze della Comunicazione (L20)**  
+  Università degli Studi di Siena  
+  2016 - 2019  
+  Tesi di Laurea: "Il marketing digitale nell'era dello streaming: il caso Twitch"  
+
+- **Liceo scientifico E. Fermi, Castel del Piano**  
+  Diploma di scuola superiore e Baccaulauréat  
+  2011 - 2016  
+
+---
+
+**COMPETENZE TECNICHE**  
+- Microsoft Office Suite  
+- Excel avanzato  
+- IOS system e software (Keynote)  
+- Montaggio video (Final Cut Pro)  
+- Social media ads  
+- Creazione contenuti digitali  
+
+---
+
+**LINGUE**  
+- Inglese: conoscenza professionale intermedia (B2)  
+- Francese: conoscenza professionale intermedia (B2)  
+
+---
+
+Autorizzo il trattamento dei dati personali ai sensi della legge 196/2003 e successive modifiche e ai sensi dell'art. 13 GDPR 679/16.

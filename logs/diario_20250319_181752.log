@@ -1,0 +1,10 @@
+2025-03-19 18:17:52,111 - INFO - bfcv_007.py:2402 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-03-19 18:17:52,111 - INFO - bfcv_007.py:2403 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-19 18:17:52,112 - INFO - bfcv_007.py:2404 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-19 18:17:52,113 - INFO - bfcv_007.py:2405 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-03-19 18:17:52,113 - INFO - bfcv_007.py:2406 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-03-19 18:17:52,201 - INFO - bfcv_007.py:3006 - main - Risultati trovati in session_state, procedo con la visualizzazione
+2025-03-19 18:17:52,207 - INFO - bfcv_007.py:3036 - main - Rendering tab Panoramica
+2025-03-19 18:17:52,225 - INFO - bfcv_007.py:3188 - main - Visualizzazione DataFrame dei risultati nella panoramica
+2025-03-19 18:17:52,259 - INFO - bfcv_007.py:3271 - main - Rendering tab Dettaglio
+2025-03-19 18:17:52,262 - INFO - bfcv_007.py:3279 - main - Visualizzazione dettagliata del CV: (Ita) Alessandro Anceschi - CV.pdf

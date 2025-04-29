@@ -1,0 +1,78 @@
+2025-03-25 16:21:48,647 - INFO - bfcv_007.py:2469 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-03-25 16:21:48,649 - INFO - bfcv_007.py:2470 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-25 16:21:48,649 - INFO - bfcv_007.py:2471 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-25 16:21:48,649 - INFO - bfcv_007.py:2472 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-03-25 16:21:48,649 - INFO - bfcv_007.py:2473 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-03-25 16:21:48,769 - INFO - bfcv_007.py:3268 - main - Avvio analisi dei CV con process_cvs
+2025-03-25 16:21:48,770 - INFO - bfcv_007.py:2099 - process_cvs - Inizio elaborazione CV nella directory: D:\Progetti\BFCV\CVS\Stage2025
+2025-03-25 16:21:48,771 - INFO - bfcv_007.py:2100 - process_cvs - Campi selezionati: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Lingue conosciute', 'Legame con Firenze', 'Soft skills', 'Lingue straniere']
+2025-03-25 16:21:48,775 - INFO - bfcv_007.py:2112 - process_cvs - Trovati 172 file PDF nella directory
+2025-03-25 16:21:48,776 - INFO - bfcv_007.py:2121 - process_cvs - Limitando l'analisi ai primi 3 CV (su 172 totali)
+2025-03-25 16:21:48,777 - INFO - bfcv_007.py:2127 - process_cvs - Utilizzo OpenAI: False
+2025-03-25 16:21:48,777 - INFO - bfcv_007.py:2148 - process_cvs - Utilizzo Ollama - Modello: phi4:latest
+2025-03-25 16:21:50,834 - INFO - bfcv_007.py:2162 - process_cvs - Inizio analisi di 3 file PDF
+2025-03-25 16:21:50,835 - INFO - bfcv_007.py:2166 - process_cvs - [1/3] Analisi di (Ita) Alessandro Anceschi - CV.pdf...
+2025-03-25 16:21:50,836 - INFO - bfcv_007.py:2176 - process_cvs - Estrazione testo da (Ita) Alessandro Anceschi - CV.pdf
+2025-03-25 16:21:51,754 - DEBUG - bfcv_007.py:2178 - process_cvs - Lunghezza testo diretto: 1402, testo OCR: 1737
+2025-03-25 16:21:51,755 - INFO - bfcv_007.py:2192 - process_cvs - Combinazione testi con Ollama per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-25 16:21:52,526 - INFO - bfcv_007.py:2201 - process_cvs - Inizio analisi contenuto CV per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-25 16:21:52,527 - INFO - bfcv_007.py:1719 - analyze_cv_ollama - Iniziando l'estrazione principale con Ollama
+2025-03-25 16:21:52,528 - INFO - bfcv_007.py:1763 - analyze_cv_ollama - Nessuna cache disponibile, chiamo l'API Ollama per l'estrazione principale
+2025-03-25 16:22:12,832 - ERROR - bfcv_007.py:1796 - analyze_cv_ollama - Errore nella connessione a Ollama: Expecting property name enclosed in double quotes: line 6 column 30 (char 169)
+2025-03-25 16:22:12,833 - WARNING - bfcv_007.py:2231 - process_cvs - Analisi non riuscita per (Ita) Alessandro Anceschi - CV.pdf - result à None o vuoto
+2025-03-25 16:22:12,834 - INFO - bfcv_007.py:2166 - process_cvs - [2/3] Analisi di 0_Rafael-Patron_AI_Program_Manager.pdf...
+2025-03-25 16:22:12,836 - INFO - bfcv_007.py:2176 - process_cvs - Estrazione testo da 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-25 16:22:15,095 - DEBUG - bfcv_007.py:2178 - process_cvs - Lunghezza testo diretto: 26620, testo OCR: 4615
+2025-03-25 16:22:15,096 - INFO - bfcv_007.py:2192 - process_cvs - Combinazione testi con Ollama per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-25 16:22:15,114 - INFO - bfcv_007.py:2201 - process_cvs - Inizio analisi contenuto CV per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-25 16:22:15,117 - INFO - bfcv_007.py:1719 - analyze_cv_ollama - Iniziando l'estrazione principale con Ollama
+2025-03-25 16:22:15,118 - INFO - bfcv_007.py:1763 - analyze_cv_ollama - Nessuna cache disponibile, chiamo l'API Ollama per l'estrazione principale
+2025-03-25 16:22:33,475 - INFO - bfcv_007.py:1802 - analyze_cv_ollama - Controllo campi mancanti per eventuale raffinamento
+2025-03-25 16:22:33,475 - INFO - bfcv_007.py:1117 - refine_missing_fields - Affinamento di 4 campi mancanti: Età, Città di residenza, Città di origine, Posizione attuale
+2025-03-25 16:22:33,477 - INFO - bfcv_007.py:1174 - refine_missing_fields - Chiamata API Ollama per il raffinamento dei campi mancanti
+2025-03-25 16:22:46,319 - ERROR - bfcv_007.py:1198 - refine_missing_fields - Errore nel parsing della risposta JSON da Ollama: Per estrarre le informazioni richieste dal CV di Rafael Patron, si procederà come segue:
+
+1. **Età**: La formazione superiore è stata completata nel 2011 presso l'Università degli Studi di Genova. Supponendo che abbia frequentato la scuola superiore per circa 5 anni, si può stimare che sia nato intorno al 1986-1987. Data la conoscenza attuale del 2023, Rafael avrebbe all'incirca 36-37 anni.
+
+2. **Città di residenza**: Non è esplicitamente menzionata nel CV. Tuttavia, dato che ha lavorato con aziende come Google e Snap Inc., entrambe a San Francisco, si può ragionevolmente supporre una connessione lì o in aree urbane correlate.
+
+3. **Città di origine**: Non specificata direttamente nel CV. Tuttavia, poiché ha frequentato il programma Intensive English presso la Kaplan University a San Francisco e ha lavorato per aziende statunitensi, potrebbe essere originario di un paese non anglofono.
+
+4. **Posizione attuale**: L'ultimo ruolo menzionato è "Docente" in vari istituti educativi italiani come IED, TIM e Fondazione Universitaria Firenze.
+
+Ecco le informazioni estratte nel formato JSON richiesto:
+
+```json
+{
+    "Età": 36-37,
+    "Città di residenza": "San Francisco (supposta)",
+    "Città di origine": "Paese non anglofono (supposta)",
+    "Posizione attuale": "Docente"
+}
+```
+
+Queste stime si basano su contesti e inferenze ragionevoli dai dettagli forniti nel CV.
+2025-03-25 16:22:46,321 - INFO - bfcv_007.py:1812 - analyze_cv_ollama - Iniziando la fase di valutazione
+2025-03-25 16:22:46,324 - INFO - bfcv_007.py:1893 - analyze_cv_ollama - Nessuna cache disponibile, chiamo l'API Ollama per la valutazione
+2025-03-25 16:23:16,836 - INFO - bfcv_007.py:2217 - process_cvs - Analisi completata per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-25 16:23:16,837 - INFO - bfcv_007.py:2166 - process_cvs - [3/3] Analisi di 2025 Resume.pdf.pdf...
+2025-03-25 16:23:16,838 - INFO - bfcv_007.py:2176 - process_cvs - Estrazione testo da 2025 Resume.pdf.pdf
+2025-03-25 16:23:18,344 - DEBUG - bfcv_007.py:2178 - process_cvs - Lunghezza testo diretto: 2829, testo OCR: 2757
+2025-03-25 16:23:18,344 - INFO - bfcv_007.py:2192 - process_cvs - Combinazione testi con Ollama per 2025 Resume.pdf.pdf
+2025-03-25 16:23:18,364 - INFO - bfcv_007.py:2201 - process_cvs - Inizio analisi contenuto CV per 2025 Resume.pdf.pdf
+2025-03-25 16:23:18,365 - INFO - bfcv_007.py:1719 - analyze_cv_ollama - Iniziando l'estrazione principale con Ollama
+2025-03-25 16:23:18,365 - INFO - bfcv_007.py:1763 - analyze_cv_ollama - Nessuna cache disponibile, chiamo l'API Ollama per l'estrazione principale
+2025-03-25 16:23:39,272 - INFO - bfcv_007.py:1802 - analyze_cv_ollama - Controllo campi mancanti per eventuale raffinamento
+2025-03-25 16:23:39,273 - INFO - bfcv_007.py:1117 - refine_missing_fields - Affinamento di 3 campi mancanti: Età, Città di residenza, Città di origine
+2025-03-25 16:23:39,275 - INFO - bfcv_007.py:1174 - refine_missing_fields - Chiamata API Ollama per il raffinamento dei campi mancanti
+2025-03-25 16:23:50,978 - INFO - bfcv_007.py:1812 - analyze_cv_ollama - Iniziando la fase di valutazione
+2025-03-25 16:23:50,981 - INFO - bfcv_007.py:1893 - analyze_cv_ollama - Nessuna cache disponibile, chiamo l'API Ollama per la valutazione
+2025-03-25 16:24:51,281 - ERROR - bfcv_007.py:1922 - analyze_cv_ollama - Errore nel parsing della valutazione. JSON non valido anche dopo la pulizia.
+2025-03-25 16:24:51,284 - WARNING - bfcv_007.py:2231 - process_cvs - Analisi non riuscita per 2025 Resume.pdf.pdf - result à None o vuoto
+2025-03-25 16:24:51,285 - INFO - bfcv_007.py:2243 - process_cvs - Analisi completata. Processati 1 CV su 3 disponibili
+2025-03-25 16:24:51,290 - INFO - bfcv_007.py:2297 - process_cvs - DataFrame creato con 1 righe e 20 colonne
+2025-03-25 16:24:51,314 - INFO - bfcv_007.py:2314 - process_cvs - DataFrame normalizzato e pronto per la visualizzazione
+2025-03-25 16:24:51,317 - INFO - bfcv_007.py:3276 - main - Analisi completata con successo. Ottenuti 1 risultati
+2025-03-25 16:24:51,318 - INFO - bfcv_007.py:3282 - main - Risultati salvati in st.session_state.results e st.session_state.analysis_results
+2025-03-25 16:24:51,320 - INFO - bfcv_007.py:3291 - main - Impostata active_tab = 0 per mostrare la panoramica dei risultati
+2025-03-25 16:24:51,321 - INFO - bfcv_007.py:3294 - main - Eseguo st.rerun() per ricaricare la pagina e mostrare i risultati

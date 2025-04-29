@@ -1,0 +1,1 @@
+"{\n    \"Città di residenza\": \"Castel del Piano (GR)\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2 anni\",\n    \"Legame con Firenze\": \"Non specificato, ma la città è nella stessa regione della Toscana\"\n}"

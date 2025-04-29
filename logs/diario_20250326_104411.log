@@ -1,0 +1,85 @@
+2025-03-26 10:44:11,274 - INFO - bfcv_007.py:2776 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-03-26 10:44:11,275 - INFO - bfcv_007.py:2777 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-26 10:44:11,275 - INFO - bfcv_007.py:2778 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-26 10:44:11,275 - INFO - bfcv_007.py:2779 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-03-26 10:44:11,275 - INFO - bfcv_007.py:2780 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-03-26 10:44:11,365 - INFO - bfcv_007.py:3672 - main - Avvio analisi dei CV con process_cvs
+2025-03-26 10:44:11,366 - INFO - bfcv_007.py:2409 - process_cvs - Inizio elaborazione CV nella directory: D:\Progetti\BFCV\CVS\Stage2025
+2025-03-26 10:44:11,366 - INFO - bfcv_007.py:2410 - process_cvs - Campi selezionati: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Lingue conosciute', 'Legame con Firenze', 'Soft skills', 'Lingue straniere']
+2025-03-26 10:44:11,369 - INFO - bfcv_007.py:2422 - process_cvs - Trovati 172 file PDF nella directory
+2025-03-26 10:44:11,369 - INFO - bfcv_007.py:2431 - process_cvs - Limitando l'analisi ai primi 2 CV (su 172 totali)
+2025-03-26 10:44:11,370 - INFO - bfcv_007.py:2437 - process_cvs - Utilizzo OpenAI: True
+2025-03-26 10:44:11,370 - INFO - bfcv_007.py:2451 - process_cvs - Utilizzo OpenAI - Modello: gpt-4o-mini
+2025-03-26 10:44:11,371 - INFO - bfcv_007.py:2472 - process_cvs - Inizio analisi di 2 file PDF
+2025-03-26 10:44:11,371 - INFO - bfcv_007.py:2476 - process_cvs - [1/2] Analisi di (Ita) Alessandro Anceschi - CV.pdf...
+2025-03-26 10:44:11,372 - INFO - bfcv_007.py:2486 - process_cvs - Estrazione testo da (Ita) Alessandro Anceschi - CV.pdf
+2025-03-26 10:44:12,739 - DEBUG - bfcv_007.py:2488 - process_cvs - Lunghezza testo diretto: 1402, testo OCR: 1737
+2025-03-26 10:44:12,739 - INFO - bfcv_007.py:2493 - process_cvs - Combinazione testi con OpenAI per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-26 10:44:12,740 - DEBUG - bfcv_007.py:992 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-917cfa3ebae6752a8eef68c327ed1ddc.txt
+2025-03-26 10:44:13,290 - INFO - bfcv_007.py:1009 - get_cached_response - Trovata risposta nella cache per openai-gpt-4o-mini
+2025-03-26 10:44:13,290 - INFO - bfcv_007.py:2511 - process_cvs - Inizio analisi contenuto CV per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-26 10:44:13,292 - INFO - bfcv_007.py:1583 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-26 10:44:13,293 - DEBUG - bfcv_007.py:992 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-8450816eea8998362fdc82a47f40cc6b.txt
+2025-03-26 10:44:13,294 - INFO - bfcv_007.py:1029 - get_cached_response - Nessuna cache trovata per openai-gpt-4o-mini con hash 8450816eea8998362fdc82a47f40cc6b
+2025-03-26 10:44:13,295 - INFO - bfcv_007.py:1635 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-26 10:44:19,287 - INFO - bfcv_007.py:1107 - save_to_cache - Risposta salvata nella cache: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-8450816eea8998362fdc82a47f40cc6b.txt
+2025-03-26 10:44:19,288 - INFO - bfcv_007.py:1687 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-03-26 10:44:19,288 - INFO - bfcv_007.py:1295 - refine_missing_fields - Affinamento di 5 campi mancanti: Età, Città di origine, Anni di esperienza lavorativa nel ruolo richiesto, Legame con Firenze, Soft skills
+2025-03-26 10:44:19,289 - DEBUG - bfcv_007.py:992 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-3137dfcdfa906aa87f02d865806dea38.txt
+2025-03-26 10:44:19,290 - INFO - bfcv_007.py:1029 - get_cached_response - Nessuna cache trovata per openai-gpt-4o-mini con hash 3137dfcdfa906aa87f02d865806dea38
+2025-03-26 10:44:19,291 - INFO - bfcv_007.py:1442 - refine_missing_fields - Chiamata API OpenAI per il raffinamento dei campi mancanti
+2025-03-26 10:44:23,468 - INFO - bfcv_007.py:1107 - save_to_cache - Risposta salvata nella cache: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-3137dfcdfa906aa87f02d865806dea38.txt
+2025-03-26 10:44:23,468 - INFO - bfcv_007.py:1698 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-03-26 10:44:23,471 - DEBUG - bfcv_007.py:992 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-a71284975737b7d681a6497bc0b0518f.txt
+2025-03-26 10:44:23,472 - INFO - bfcv_007.py:1029 - get_cached_response - Nessuna cache trovata per openai-gpt-4o-mini con hash a71284975737b7d681a6497bc0b0518f
+2025-03-26 10:44:23,472 - INFO - bfcv_007.py:1789 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per la valutazione
+2025-03-26 10:44:33,921 - INFO - bfcv_007.py:1107 - save_to_cache - Risposta salvata nella cache: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-a71284975737b7d681a6497bc0b0518f.txt
+2025-03-26 10:44:33,927 - INFO - bfcv_007.py:2527 - process_cvs - Analisi completata per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-26 10:44:33,928 - INFO - bfcv_007.py:2476 - process_cvs - [2/2] Analisi di 0_Rafael-Patron_AI_Program_Manager.pdf...
+2025-03-26 10:44:33,930 - INFO - bfcv_007.py:2486 - process_cvs - Estrazione testo da 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-26 10:44:35,965 - DEBUG - bfcv_007.py:2488 - process_cvs - Lunghezza testo diretto: 26620, testo OCR: 4615
+2025-03-26 10:44:35,965 - INFO - bfcv_007.py:2493 - process_cvs - Combinazione testi con OpenAI per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-26 10:44:35,966 - DEBUG - bfcv_007.py:992 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-1df815785dd710626f066f4953283c64.txt
+2025-03-26 10:44:35,973 - INFO - bfcv_007.py:1009 - get_cached_response - Trovata risposta nella cache per openai-gpt-4o-mini
+2025-03-26 10:44:35,974 - INFO - bfcv_007.py:2511 - process_cvs - Inizio analisi contenuto CV per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-26 10:44:35,975 - INFO - bfcv_007.py:1583 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-26 10:44:35,976 - DEBUG - bfcv_007.py:992 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-54b4067cba42071ec32b5f72a4d27864.txt
+2025-03-26 10:44:35,977 - INFO - bfcv_007.py:1029 - get_cached_response - Nessuna cache trovata per openai-gpt-4o-mini con hash 54b4067cba42071ec32b5f72a4d27864
+2025-03-26 10:44:35,977 - INFO - bfcv_007.py:1635 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-26 10:44:46,109 - INFO - bfcv_007.py:1107 - save_to_cache - Risposta salvata nella cache: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-54b4067cba42071ec32b5f72a4d27864.txt
+2025-03-26 10:44:46,110 - INFO - bfcv_007.py:1687 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-03-26 10:44:46,110 - INFO - bfcv_007.py:1295 - refine_missing_fields - Affinamento di 5 campi mancanti: Età, Città di origine, Anni di esperienza lavorativa nel ruolo richiesto, Legame con Firenze, Soft skills
+2025-03-26 10:44:46,111 - DEBUG - bfcv_007.py:992 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-16213e44fb69751bba318289b36534af.txt
+2025-03-26 10:44:46,112 - INFO - bfcv_007.py:1029 - get_cached_response - Nessuna cache trovata per openai-gpt-4o-mini con hash 16213e44fb69751bba318289b36534af
+2025-03-26 10:44:46,112 - INFO - bfcv_007.py:1442 - refine_missing_fields - Chiamata API OpenAI per il raffinamento dei campi mancanti
+2025-03-26 10:44:47,408 - INFO - bfcv_007.py:1107 - save_to_cache - Risposta salvata nella cache: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-16213e44fb69751bba318289b36534af.txt
+2025-03-26 10:44:47,409 - INFO - bfcv_007.py:1698 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-03-26 10:44:47,412 - DEBUG - bfcv_007.py:992 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-279fc8274d1d8a979b011626fab2b800.txt
+2025-03-26 10:44:47,412 - INFO - bfcv_007.py:1029 - get_cached_response - Nessuna cache trovata per openai-gpt-4o-mini con hash 279fc8274d1d8a979b011626fab2b800
+2025-03-26 10:44:47,412 - INFO - bfcv_007.py:1789 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per la valutazione
+2025-03-26 10:44:54,892 - INFO - bfcv_007.py:1107 - save_to_cache - Risposta salvata nella cache: D:\Progetti\BFCV\ai_cache\openai-gpt-4o-mini-279fc8274d1d8a979b011626fab2b800.txt
+2025-03-26 10:44:54,898 - INFO - bfcv_007.py:2527 - process_cvs - Analisi completata per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-26 10:44:54,899 - INFO - bfcv_007.py:2553 - process_cvs - Analisi completata. Processati 2 CV su 2 disponibili
+2025-03-26 10:44:54,903 - INFO - bfcv_007.py:2607 - process_cvs - DataFrame creato con 2 righe e 20 colonne
+2025-03-26 10:44:54,911 - ERROR - bfcv_007.py:3702 - main - Errore critico durante l'analisi dei CV: local variable 'safe_convert' referenced before assignment
+2025-03-26 10:44:54,912 - ERROR - bfcv_007.py:3705 - main - Traceback dell'errore:
+Traceback (most recent call last):
+  File "D:\Progetti\BFCV\bfcv_007.py", line 3673, in main
+    results, results_df = process_cvs(
+  File "D:\Progetti\BFCV\bfcv_007.py", line 2623, in process_cvs
+    results_df = normalize_dataframe(results_df)
+  File "D:\Progetti\BFCV\bfcv_007.py", line 2375, in normalize_dataframe
+    df_normalized[col] = df_normalized[col].apply(safe_convert)
+UnboundLocalError: local variable 'safe_convert' referenced before assignment
+
+2025-03-26 10:44:54,913 - ERROR - bfcv_007.py:3709 - main - Errore nell'analisi dei CV: local variable 'safe_convert' referenced before assignment
+2025-03-26 10:44:54,914 - ERROR - bfcv_007.py:3710 - main - Traceback (most recent call last):
+  File "D:\Progetti\BFCV\bfcv_007.py", line 3673, in main
+    results, results_df = process_cvs(
+  File "D:\Progetti\BFCV\bfcv_007.py", line 2623, in process_cvs
+    results_df = normalize_dataframe(results_df)
+  File "D:\Progetti\BFCV\bfcv_007.py", line 2375, in normalize_dataframe
+    df_normalized[col] = df_normalized[col].apply(safe_convert)
+UnboundLocalError: local variable 'safe_convert' referenced before assignment
+
+2025-03-26 10:44:54,915 - WARNING - bfcv_007.py:4340 - main - Nessun risultato trovato in session_state

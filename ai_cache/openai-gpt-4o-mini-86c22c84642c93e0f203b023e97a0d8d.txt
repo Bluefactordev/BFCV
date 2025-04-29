@@ -1,0 +1,1 @@
+"{\n    \"Età\": 45,\n    \"Città di origine\": \"Jupiter, FL\",\n    \"Lingue conosciute\": \"Inglese\",\n    \"Legame con Firenze\": \"Non specificato, stima basata sul contesto lavorativo in ambito ortopedico in Florida\"\n}"

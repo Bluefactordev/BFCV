@@ -1,0 +1,62 @@
+2025-03-26 14:40:53,904 - INFO - bfcv_007.py:2779 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-03-26 14:40:53,905 - INFO - bfcv_007.py:2780 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-26 14:40:53,905 - INFO - bfcv_007.py:2781 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-26 14:40:53,905 - INFO - bfcv_007.py:2782 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-03-26 14:40:53,905 - INFO - bfcv_007.py:2783 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-03-26 14:40:54,000 - INFO - bfcv_007.py:3674 - main - Avvio analisi dei CV con process_cvs
+2025-03-26 14:40:54,000 - INFO - bfcv_007.py:2407 - process_cvs - Inizio elaborazione CV nella directory: D:\Progetti\BFCV\CVS\Stage2025
+2025-03-26 14:40:54,001 - INFO - bfcv_007.py:2408 - process_cvs - Campi selezionati: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Competenze in linguaggi di programmazione (es. Python, JavaScript)', 'Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)', 'Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM']
+2025-03-26 14:40:54,003 - INFO - bfcv_007.py:2420 - process_cvs - Trovati 172 file PDF nella directory
+2025-03-26 14:40:54,003 - INFO - bfcv_007.py:2429 - process_cvs - Limitando l'analisi ai primi 2 CV (su 172 totali)
+2025-03-26 14:40:54,004 - INFO - bfcv_007.py:2435 - process_cvs - Utilizzo OpenAI: False
+2025-03-26 14:40:54,004 - INFO - bfcv_007.py:2456 - process_cvs - Utilizzo Ollama - Modello: phi4:latest
+2025-03-26 14:40:56,056 - INFO - bfcv_007.py:2470 - process_cvs - Inizio analisi di 2 file PDF
+2025-03-26 14:40:56,056 - INFO - bfcv_007.py:2474 - process_cvs - [1/2] Analisi di (Ita) Alessandro Anceschi - CV.pdf...
+2025-03-26 14:40:56,058 - INFO - bfcv_007.py:2484 - process_cvs - Estrazione testo da (Ita) Alessandro Anceschi - CV.pdf
+2025-03-26 14:40:56,947 - DEBUG - bfcv_007.py:2486 - process_cvs - Lunghezza testo diretto: 1402, testo OCR: 1737
+2025-03-26 14:40:56,947 - INFO - bfcv_007.py:2500 - process_cvs - Combinazione testi con Ollama per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-26 14:40:56,948 - DEBUG - bfcv_007.py:992 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\ollama-phi4:latest-917cfa3ebae6752a8eef68c327ed1ddc.txt
+2025-03-26 14:40:57,479 - INFO - bfcv_007.py:1009 - get_cached_response - Trovata risposta nella cache per ollama-phi4:latest
+2025-03-26 14:40:57,480 - INFO - bfcv_007.py:2509 - process_cvs - Inizio analisi contenuto CV per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-26 14:40:57,480 - INFO - bfcv_007.py:1949 - analyze_cv_ollama - Iniziando l'estrazione principale con Ollama
+2025-03-26 14:40:57,481 - DEBUG - bfcv_007.py:992 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\ollama-phi4:latest-7169c17618db0cff6363f93faa45dc64.txt
+2025-03-26 14:40:57,484 - INFO - bfcv_007.py:1009 - get_cached_response - Trovata risposta nella cache per ollama-phi4:latest
+2025-03-26 14:40:57,485 - INFO - bfcv_007.py:1979 - analyze_cv_ollama - Utilizzando risposta dalla cache per l'estrazione principale
+2025-03-26 14:40:57,485 - INFO - bfcv_007.py:2058 - analyze_cv_ollama - Controllo campi mancanti per eventuale raffinamento
+2025-03-26 14:40:57,485 - INFO - bfcv_007.py:1295 - refine_missing_fields - Affinamento di 15 campi mancanti: Età, Città di residenza, Città di origine, Anni di esperienza lavorativa, Anni di esperienza lavorativa nel ruolo richiesto, Master o assimilabile nel ruolo richiesto, Università/Istituto, Posizione attuale, Datori di lavoro precedenti, Legame con Firenze, Competenze in linguaggi di programmazione (es. Python, JavaScript), Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager), Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp), Progetti personali o accademici relativi all'AI o al marketing digitale, Conoscenza di pratiche SEO e SEM
+2025-03-26 14:40:57,486 - DEBUG - bfcv_007.py:992 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\ollama-phi4:latest-bf39fb86e6c3c3f24832042fc014f360.txt
+2025-03-26 14:40:57,490 - INFO - bfcv_007.py:1009 - get_cached_response - Trovata risposta nella cache per ollama-phi4:latest
+2025-03-26 14:40:57,490 - INFO - bfcv_007.py:1334 - refine_missing_fields - Usando risposta dalla cache per il raffinamento dei campi mancanti
+2025-03-26 14:40:57,490 - INFO - bfcv_007.py:2068 - analyze_cv_ollama - Iniziando la fase di valutazione
+2025-03-26 14:40:57,761 - DEBUG - bfcv_007.py:992 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\ollama-phi4:latest-84d5edefc47c71c83938ab93e702bb1c.txt
+2025-03-26 14:40:57,765 - INFO - bfcv_007.py:1009 - get_cached_response - Trovata risposta nella cache per ollama-phi4:latest
+2025-03-26 14:40:57,765 - INFO - bfcv_007.py:2138 - analyze_cv_ollama - Utilizzando risposta dalla cache per la valutazione
+2025-03-26 14:40:57,772 - INFO - bfcv_007.py:2525 - process_cvs - Analisi completata per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-26 14:40:57,773 - INFO - bfcv_007.py:2474 - process_cvs - [2/2] Analisi di 0_Rafael-Patron_AI_Program_Manager.pdf...
+2025-03-26 14:40:57,774 - INFO - bfcv_007.py:2484 - process_cvs - Estrazione testo da 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-26 14:40:59,775 - DEBUG - bfcv_007.py:2486 - process_cvs - Lunghezza testo diretto: 26620, testo OCR: 4615
+2025-03-26 14:40:59,775 - INFO - bfcv_007.py:2500 - process_cvs - Combinazione testi con Ollama per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-26 14:40:59,776 - DEBUG - bfcv_007.py:992 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\ollama-phi4:latest-1df815785dd710626f066f4953283c64.txt
+2025-03-26 14:40:59,783 - INFO - bfcv_007.py:1009 - get_cached_response - Trovata risposta nella cache per ollama-phi4:latest
+2025-03-26 14:40:59,783 - INFO - bfcv_007.py:2509 - process_cvs - Inizio analisi contenuto CV per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-26 14:40:59,784 - INFO - bfcv_007.py:1949 - analyze_cv_ollama - Iniziando l'estrazione principale con Ollama
+2025-03-26 14:40:59,784 - DEBUG - bfcv_007.py:992 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\ollama-phi4:latest-c3c9a95dab23c805a6065292e3f3b0e6.txt
+2025-03-26 14:40:59,787 - INFO - bfcv_007.py:1009 - get_cached_response - Trovata risposta nella cache per ollama-phi4:latest
+2025-03-26 14:40:59,787 - INFO - bfcv_007.py:1979 - analyze_cv_ollama - Utilizzando risposta dalla cache per l'estrazione principale
+2025-03-26 14:40:59,787 - INFO - bfcv_007.py:2058 - analyze_cv_ollama - Controllo campi mancanti per eventuale raffinamento
+2025-03-26 14:40:59,788 - INFO - bfcv_007.py:1295 - refine_missing_fields - Affinamento di 7 campi mancanti: Età, Città di residenza, Città di origine, Posizione attuale, Competenze in linguaggi di programmazione (es. Python, JavaScript), Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager), Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)
+2025-03-26 14:40:59,790 - DEBUG - bfcv_007.py:992 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\ollama-phi4:latest-d6d713a9993d41e06f2de4a85c46772a.txt
+2025-03-26 14:40:59,793 - INFO - bfcv_007.py:1009 - get_cached_response - Trovata risposta nella cache per ollama-phi4:latest
+2025-03-26 14:40:59,793 - INFO - bfcv_007.py:1334 - refine_missing_fields - Usando risposta dalla cache per il raffinamento dei campi mancanti
+2025-03-26 14:40:59,793 - INFO - bfcv_007.py:2068 - analyze_cv_ollama - Iniziando la fase di valutazione
+2025-03-26 14:40:59,796 - DEBUG - bfcv_007.py:992 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\ollama-phi4:latest-50fbd2edbfc0334105e16f0832f1ee9e.txt
+2025-03-26 14:40:59,799 - INFO - bfcv_007.py:1009 - get_cached_response - Trovata risposta nella cache per ollama-phi4:latest
+2025-03-26 14:40:59,799 - INFO - bfcv_007.py:2138 - analyze_cv_ollama - Utilizzando risposta dalla cache per la valutazione
+2025-03-26 14:40:59,809 - INFO - bfcv_007.py:2525 - process_cvs - Analisi completata per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-26 14:40:59,810 - INFO - bfcv_007.py:2551 - process_cvs - Analisi completata. Processati 2 CV su 2 disponibili
+2025-03-26 14:40:59,815 - INFO - bfcv_007.py:2610 - process_cvs - DataFrame creato con 2 righe e 18 colonne
+2025-03-26 14:40:59,828 - INFO - bfcv_007.py:2627 - process_cvs - DataFrame normalizzato e pronto per la visualizzazione
+2025-03-26 14:40:59,831 - INFO - bfcv_007.py:3690 - main - Analisi completata con successo. Ottenuti 2 risultati
+2025-03-26 14:40:59,832 - INFO - bfcv_007.py:3697 - main - Risultati salvati in st.session_state.results e st.session_state.analysis_results
+2025-03-26 14:40:59,834 - INFO - bfcv_007.py:3706 - main - Impostata active_tab = 0 per mostrare la panoramica dei risultati
+2025-03-26 14:40:59,834 - INFO - bfcv_007.py:3709 - main - Eseguo st.rerun() per ricaricare la pagina e mostrare i risultati

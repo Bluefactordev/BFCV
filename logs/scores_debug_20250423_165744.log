@@ -1,0 +1,1030 @@
+2025-04-23 16:57:44,853 - INFO - bfcv_007.py:3272 - setup_scores_logger - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-04-23 16:57:44,853 - INFO - bfcv_007.py:3273 - setup_scores_logger - Inizializzato logger di debug per i punteggi
+2025-04-23 16:57:44,853 - INFO - bfcv_007.py:3274 - setup_scores_logger - Python version: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-04-23 16:57:44,853 - INFO - bfcv_007.py:3275 - setup_scores_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-04-23 16:57:44,853 - INFO - bfcv_007.py:3276 - setup_scores_logger - Log file: D:\Progetti\BFCV\logs\scores_debug_20250423_165744.log
+2025-04-23 16:57:44,855 - INFO - bfcv_007.py:3278 - setup_scores_logger - Modello OpenAI configurato: gpt-4o-mini
+2025-04-23 16:57:44,855 - INFO - bfcv_007.py:3280 - setup_scores_logger - Modello Ollama configurato: phi4-mini:latest
+2025-04-23 16:57:44,855 - INFO - bfcv_007.py:3282 - setup_scores_logger - Uso Ollama: False
+2025-04-23 16:57:44,855 - INFO - bfcv_007.py:3284 - setup_scores_logger - Cache abilitata: True
+2025-04-23 16:57:44,856 - INFO - bfcv_007.py:3577 - main - Inizializzato logger di debug per i punteggi
+2025-04-23 16:57:44,951 - INFO - bfcv_007.py:2757 - process_cvs - ======================================== INIZIO ELABORAZIONE CV IN G:\Drive condivisi\Bluefactor - Produzione\Ricerche di personale\Account2025 ========================================
+2025-04-23 16:57:47,639 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=53c76ca8...
+2025-04-23 16:57:47,639 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+CV: ALESSIO GASPERETTI 
+ACCOUNT MANAGER E 
+DATA ANALYST 
+ 
+ 
+ 
+ Durante il mio percorso lavorativo ho 
+avuto l’opportunità di lavorare per 
+multinazionali in ambienti 
+internazionali, prima a Dublino, poi a 
+Liverpool, Londra, ...
+2025-04-23 16:57:48,207 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=53c76ca8...
+2025-04-23 16:57:48,207 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): **CV: ALESSIO GASPERETTI**  
+**ACCOUNT MANAGER E DATA ANALYST**  
+
+**TELEFONO:**  
++35699705795  
+
+**POSTA ELETTRONICA:**  
+Gasperet@hotmail.com  
+
+**HOBBY:**  
+Viaggiare  
+Lettura  
+Blockchain  
+Criptovaluta  
+Finanza ed Economia  
+
+---
+
+**EDUCAZIONE**  
+- MBA: Focus in Sales | EDU Effective Busine...
+2025-04-23 16:57:48,207 - INFO - bfcv_007.py:1863 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-04-23 16:57:48,207 - INFO - bfcv_007.py:1864 - analyze_cv_openai - Modello: gpt-4o-mini
+2025-04-23 16:57:48,208 - INFO - bfcv_007.py:1865 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Lingue conosciute', 'Legame con Firenze', 'Soft skills', 'Lingue straniere']
+2025-04-23 16:57:48,209 - INFO - bfcv_007.py:1866 - analyze_cv_openai - Job description (troncata): Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital marketing. 
+- Abbia una predisposizione o esperienza nella generazione di new business o come commerciale di agenzie di digital marketing
+- Abbia già un qualche legame con la città di lavoro, cioè Firenze, ovvero o abiti vicino, o ci abbia almeno studiato o lavorato, e quindi possa volerci tornare
+- Possibilmente sotto i 30 anni. 
+- Preferibilmente con un mas...
+2025-04-23 16:57:48,211 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=ae3d1e8b...
+2025-04-23 16:57:48,211 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di dig...
+2025-04-23 16:57:48,214 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=ae3d1e8b...
+2025-04-23 16:57:48,214 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Nome": "ALESSIO",
+    "Cognome": "GASPERETTI",
+    "Numero di contatto": "+35699705795",
+    "Email": "Gasperet@hotmail.com",
+    "Età": "Non specificato",
+    "Città di residenza": "Non specificato",
+    "Città di origine": "Non specificato",
+    "Anni di esperienza lavorativa": 14,
+    "Ann...
+2025-04-23 16:57:48,216 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=5548df97...
+2025-04-23 16:57:48,216 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Età
+2. Città di residenza
+3. Città di origine
+4. Lingue conosciute
+5. Legame con Firenze
+6. Lingue straniere
+    
+    CV:
+    **CV: ALESSIO GASPERETTI**  
+**ACCOUNT MANAGER E DATA ANALYST**  
+
+**TELEFONO:**  
++35699705795...
+2025-04-23 16:57:48,218 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=5548df97...
+2025-04-23 16:57:48,219 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Età": "39",
+    "Città di residenza": "Malta",
+    "Città di origine": "Pisa",
+    "Lingue conosciute": "Italiano, Inglese",
+    "Legame con Firenze": "Laurea in Scienze Sociali & Economia all'Università degli Studi di Pisa",
+    "Lingue straniere": "Inglese"
+}
+2025-04-23 16:57:48,222 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=19099a79...
+2025-04-23 16:57:48,222 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital mark...
+2025-04-23 16:57:48,225 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=19099a79...
+2025-04-23 16:57:48,225 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {"score": 85, "motivation": "Il candidato ha una solida esperienza nella gestione delle relazioni con i clienti e nell'analisi dei dati, competenze fondamentali per il ruolo di Account Manager."},
+        "esperienza_rilevante": {"score": 80, "motiv...
+2025-04-23 16:57:48,226 - INFO - bfcv_007.py:2137 - analyze_cv_openai - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-04-23 16:57:48,226 - INFO - bfcv_007.py:2145 - analyze_cv_openai - Trovata struttura con campo 'criteria': ['competenze_tecniche', 'esperienza_rilevante', 'formazione', 'problem_solving', 'leadership'] ...
+2025-04-23 16:57:48,227 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'competenze_tecniche'
+2025-04-23 16:57:48,227 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'competenze_tecniche' trovato: {"score": 85, "motivation": "Il candidato ha una solida esperienza nella gestione delle relazioni con i clienti e nell'analisi dei dati, competenze fondamentali per il ruolo di Account Manager."}
+2025-04-23 16:57:48,227 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   competenze_tecniche - score grezzo: 85 - tipo: <class 'int'>
+2025-04-23 16:57:48,228 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   competenze_tecniche - peso: 25
+2025-04-23 16:57:48,228 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'esperienza_rilevante'
+2025-04-23 16:57:48,228 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'esperienza_rilevante' trovato: {"score": 80, "motivation": "Ha oltre 3 anni di esperienza come Account Manager, ma la sua esperienza \u00e8 principalmente nel settore delle scommesse piuttosto che nel digital marketing."}
+2025-04-23 16:57:48,228 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   esperienza_rilevante - score grezzo: 80 - tipo: <class 'int'>
+2025-04-23 16:57:48,228 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   esperienza_rilevante - peso: 25
+2025-04-23 16:57:48,228 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'formazione'
+2025-04-23 16:57:48,229 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'formazione' trovato: {"score": 90, "motivation": "Possiede un MBA con focus in Sales e un Master in Data Analyst, che sono altamente rilevanti per il ruolo."}
+2025-04-23 16:57:48,229 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   formazione - score grezzo: 90 - tipo: <class 'int'>
+2025-04-23 16:57:48,229 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   formazione - peso: 15
+2025-04-23 16:57:48,230 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'problem_solving'
+2025-04-23 16:57:48,230 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'problem_solving' trovato: {"score": 80, "motivation": "Ha dimostrato capacit\u00e0 di analizzare e ottimizzare flussi di lavoro, suggerendo soluzioni innovative per migliorare la customer experience."}
+2025-04-23 16:57:48,230 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   problem_solving - score grezzo: 80 - tipo: <class 'int'>
+2025-04-23 16:57:48,230 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   problem_solving - peso: 15
+2025-04-23 16:57:48,230 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'leadership'
+2025-04-23 16:57:48,230 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'leadership' trovato: {"score": 75, "motivation": "Ha gestito team e collaborato con diversi dipartimenti, dimostrando buone capacit\u00e0 di leadership, anche se non in un ruolo di gestione diretta."}
+2025-04-23 16:57:48,231 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   leadership - score grezzo: 75 - tipo: <class 'int'>
+2025-04-23 16:57:48,232 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   leadership - peso: 10
+2025-04-23 16:57:48,232 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'potenziale_crescita'
+2025-04-23 16:57:48,232 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'potenziale_crescita' trovato: {"score": 70, "motivation": "Con un MBA e una solida esperienza, ha il potenziale per crescere ulteriormente, ma la sua et\u00e0 e il legame con Firenze potrebbero influenzare le opportunit\u00e0."}
+2025-04-23 16:57:48,232 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   potenziale_crescita - score grezzo: 70 - tipo: <class 'int'>
+2025-04-23 16:57:48,232 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   potenziale_crescita - peso: 10
+2025-04-23 16:57:48,232 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'attitudine_al_new_business_e_commerciale'
+2025-04-23 16:57:48,233 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'attitudine_al_new_business_e_commerciale' trovato: {"score": 65, "motivation": "Ha esperienza nella gestione delle relazioni e nella strategia commerciale, ma non ha evidenziato un forte focus sulla generazione di new business."}
+2025-04-23 16:57:48,233 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   attitudine_al_new_business_e_commerciale - score grezzo: 65 - tipo: <class 'int'>
+2025-04-23 16:57:48,233 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   attitudine_al_new_business_e_commerciale - peso: 30
+2025-04-23 16:57:48,233 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'esperienza_di_accounting_su_brand_non_locali'
+2025-04-23 16:57:48,233 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'esperienza_di_accounting_su_brand_non_locali' trovato: {"score": 85, "motivation": "Ha lavorato con diversi brand internazionali, dimostrando esperienza nella gestione di clienti non locali."}
+2025-04-23 16:57:48,233 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   esperienza_di_accounting_su_brand_non_locali - score grezzo: 85 - tipo: <class 'int'>
+2025-04-23 16:57:48,233 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   esperienza_di_accounting_su_brand_non_locali - peso: 30
+2025-04-23 16:57:48,235 - INFO - bfcv_007.py:2203 - analyze_cv_openai - Punteggio composito calcolato: 78 (= 12625.0 / 160)
+2025-04-23 16:57:48,235 - INFO - bfcv_007.py:2209 - analyze_cv_openai - Punteggio composito ricalcolato: 78 (media pesata con peso totale 160)
+2025-04-23 16:57:48,235 - INFO - bfcv_007.py:2213 - analyze_cv_openai - Punteggio composito originale: 76.25
+2025-04-23 16:57:49,702 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=1a8ed1b3...
+2025-04-23 16:57:49,702 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+CONTACTS
++39 333 2978 268
+giorgiofloriddia.tr@gmail.com
+Italy - Rimini 
+Willing to relocate
+ITALIAN;
+ENGLISH;
+SPANISH;
+PORTUGUESE.
+PROFILE
+As an experienced professional, I strongly
+believe 
+in 
+leadership 
+and 
+collaboration,
+...
+2025-04-23 16:57:49,707 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=1a8ed1b3...
+2025-04-23 16:57:49,707 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): **GIORGIO FLORIDDIA**  
+Digital Sales Project Manager  
+Digital Marketing Strategist  
+Linguistic Mediator  
+
+**CONTACTS**  
++39 333 2978 268  
+giorgiofloriddia.tr@gmail.com  
+Italy - Rimini  
+Willing to relocate  
+
+**PROFILE**  
+As an experienced professional, I strongly believe in leadership and c...
+2025-04-23 16:57:49,707 - INFO - bfcv_007.py:1863 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-04-23 16:57:49,708 - INFO - bfcv_007.py:1864 - analyze_cv_openai - Modello: gpt-4o-mini
+2025-04-23 16:57:49,708 - INFO - bfcv_007.py:1865 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Lingue conosciute', 'Legame con Firenze', 'Soft skills', 'Lingue straniere']
+2025-04-23 16:57:49,708 - INFO - bfcv_007.py:1866 - analyze_cv_openai - Job description (troncata): Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital marketing. 
+- Abbia una predisposizione o esperienza nella generazione di new business o come commerciale di agenzie di digital marketing
+- Abbia già un qualche legame con la città di lavoro, cioè Firenze, ovvero o abiti vicino, o ci abbia almeno studiato o lavorato, e quindi possa volerci tornare
+- Possibilmente sotto i 30 anni. 
+- Preferibilmente con un mas...
+2025-04-23 16:57:49,711 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=82f69412...
+2025-04-23 16:57:49,712 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di dig...
+2025-04-23 16:57:49,727 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=82f69412...
+2025-04-23 16:57:49,727 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Nome": "Giorgio",
+    "Cognome": "Floriddia",
+    "Numero di contatto": "+39 333 2978 268",
+    "Email": "giorgiofloriddia.tr@gmail.com",
+    "Età": "Non specificato",
+    "Città di residenza": "Rimini",
+    "Città di origine": "Non specificato",
+    "Anni di esperienza lavorativa": "Circa 5 ...
+2025-04-23 16:57:49,729 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=1825bd8a...
+2025-04-23 16:57:49,729 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Età
+2. Città di origine
+3. Anni di esperienza lavorativa nel ruolo richiesto
+4. Legame con Firenze
+    
+    CV:
+    **GIORGIO FLORIDDIA**  
+Digital Sales Project Manager  
+Digital Marketing Strategist  
+Linguistic Mediato...
+2025-04-23 16:57:49,733 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=1825bd8a...
+2025-04-23 16:57:49,733 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Età": "27",
+    "Città di origine": "Rimini",
+    "Anni di esperienza lavorativa nel ruolo richiesto": "5",
+    "Legame con Firenze": "Non specificato, ma potrebbe essere interessato a trasferirsi"
+}
+2025-04-23 16:57:49,737 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=16e363df...
+2025-04-23 16:57:49,737 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital mark...
+2025-04-23 16:57:49,741 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=16e363df...
+2025-04-23 16:57:49,741 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {"score": 85, "motivation": "Giorgio ha una solida esperienza in digital marketing e utilizza strumenti come Google Ads e Google Analytics, dimostrando competenze tecniche avanzate."},
+        "esperienza_rilevante": {"score": 80, "motivation": "Con...
+2025-04-23 16:57:49,742 - INFO - bfcv_007.py:2137 - analyze_cv_openai - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-04-23 16:57:49,742 - INFO - bfcv_007.py:2145 - analyze_cv_openai - Trovata struttura con campo 'criteria': ['competenze_tecniche', 'esperienza_rilevante', 'formazione', 'problem_solving', 'leadership'] ...
+2025-04-23 16:57:49,742 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'competenze_tecniche'
+2025-04-23 16:57:49,743 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'competenze_tecniche' trovato: {"score": 85, "motivation": "Giorgio ha una solida esperienza in digital marketing e utilizza strumenti come Google Ads e Google Analytics, dimostrando competenze tecniche avanzate."}
+2025-04-23 16:57:49,743 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   competenze_tecniche - score grezzo: 85 - tipo: <class 'int'>
+2025-04-23 16:57:49,743 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   competenze_tecniche - peso: 25
+2025-04-23 16:57:49,743 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'esperienza_rilevante'
+2025-04-23 16:57:49,744 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'esperienza_rilevante' trovato: {"score": 80, "motivation": "Con circa 5 anni di esperienza nel settore del digital marketing, ha ricoperto ruoli significativi in diverse agenzie, ma non ha esperienza specifica in un'agenzia di pubblicit\u00e0."}
+2025-04-23 16:57:49,744 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   esperienza_rilevante - score grezzo: 80 - tipo: <class 'int'>
+2025-04-23 16:57:49,744 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   esperienza_rilevante - peso: 25
+2025-04-23 16:57:49,744 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'formazione'
+2025-04-23 16:57:49,744 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'formazione' trovato: {"score": 90, "motivation": "Possiede due master pertinenti nel campo del marketing e della comunicazione, che lo rendono altamente qualificato."}
+2025-04-23 16:57:49,744 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   formazione - score grezzo: 90 - tipo: <class 'int'>
+2025-04-23 16:57:49,744 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   formazione - peso: 15
+2025-04-23 16:57:49,746 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'problem_solving'
+2025-04-23 16:57:49,746 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'problem_solving' trovato: {"score": 80, "motivation": "Ha dimostrato capacit\u00e0 di gestire progetti complessi e di rispettare scadenze, evidenziando competenze di problem solving."}
+2025-04-23 16:57:49,746 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   problem_solving - score grezzo: 80 - tipo: <class 'int'>
+2025-04-23 16:57:49,747 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   problem_solving - peso: 15
+2025-04-23 16:57:49,747 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'leadership'
+2025-04-23 16:57:49,747 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'leadership' trovato: {"score": 75, "motivation": "Giorgio ha esperienza nella gestione di team e nella guida di iniziative, ma non ci sono dettagli specifici sulla sua leadership in contesti complessi."}
+2025-04-23 16:57:49,747 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   leadership - score grezzo: 75 - tipo: <class 'int'>
+2025-04-23 16:57:49,747 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   leadership - peso: 10
+2025-04-23 16:57:49,748 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'potenziale_crescita'
+2025-04-23 16:57:49,748 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'potenziale_crescita' trovato: {"score": 80, "motivation": "La sua formazione e la variet\u00e0 di esperienze lavorative suggeriscono un buon potenziale di crescita nel settore."}
+2025-04-23 16:57:49,748 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   potenziale_crescita - score grezzo: 80 - tipo: <class 'int'>
+2025-04-23 16:57:49,749 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   potenziale_crescita - peso: 10
+2025-04-23 16:57:49,749 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'attitudine_al_new_business_e_commerciale'
+2025-04-23 16:57:49,751 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'attitudine_al_new_business_e_commerciale' trovato: {"score": 75, "motivation": "Ha esperienza nella vendita di servizi digitali e nella generazione di business, ma non \u00e8 chiaro quanto sia stato coinvolto in attivit\u00e0 di new business."}
+2025-04-23 16:57:49,751 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   attitudine_al_new_business_e_commerciale - score grezzo: 75 - tipo: <class 'int'>
+2025-04-23 16:57:49,751 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   attitudine_al_new_business_e_commerciale - peso: 30
+2025-04-23 16:57:49,751 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'esperienza_di_accounting_su_brand_non_locali'
+2025-04-23 16:57:49,752 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'esperienza_di_accounting_su_brand_non_locali' trovato: {"score": 70, "motivation": "Ha lavorato con clienti internazionali, ma non ha specificato esperienze con brand locali, il che potrebbe essere un fattore limitante."}
+2025-04-23 16:57:49,752 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   esperienza_di_accounting_su_brand_non_locali - score grezzo: 70 - tipo: <class 'int'>
+2025-04-23 16:57:49,752 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   esperienza_di_accounting_su_brand_non_locali - peso: 30
+2025-04-23 16:57:49,752 - INFO - bfcv_007.py:2203 - analyze_cv_openai - Punteggio composito calcolato: 78 (= 12575.0 / 160)
+2025-04-23 16:57:49,752 - INFO - bfcv_007.py:2209 - analyze_cv_openai - Punteggio composito ricalcolato: 78 (media pesata con peso totale 160)
+2025-04-23 16:57:49,752 - INFO - bfcv_007.py:2213 - analyze_cv_openai - Punteggio composito originale: 78.75
+2025-04-23 16:57:53,818 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=de9268d7...
+2025-04-23 16:57:53,818 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+ 
+ 
+1 
+Curriculum Vitae 
+ 
+ 
+Personal Information:  
+ 
+Name:   
+ 
+ 
+Giulio Benati  
+Citizenship: 
+ 
+ 
+Italian  
+Contact:  
+ 
+ 
+giulio.benati84@gmail.com 
+Telephone: 
+ 
+ 
++393280339213  
+Linkedin:  
+ 
+ 
+https://www.linkedin.com/...
+2025-04-23 16:57:53,826 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=de9268d7...
+2025-04-23 16:57:53,826 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): **Curriculum Vitae**
+
+**Personal Information:**
+
+Name: Giulio Benati  
+Citizenship: Italian  
+Contact: giulio.benati84@gmail.com  
+Telephone: +393280339213  
+Linkedin: https://www.linkedin.com/giulio-benati  
+References: check all my references here  
+
+**A brief introduction about myself:**
+
+Entrepr...
+2025-04-23 16:57:53,827 - INFO - bfcv_007.py:1863 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-04-23 16:57:53,827 - INFO - bfcv_007.py:1864 - analyze_cv_openai - Modello: gpt-4o-mini
+2025-04-23 16:57:53,827 - INFO - bfcv_007.py:1865 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Lingue conosciute', 'Legame con Firenze', 'Soft skills', 'Lingue straniere']
+2025-04-23 16:57:53,828 - INFO - bfcv_007.py:1866 - analyze_cv_openai - Job description (troncata): Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital marketing. 
+- Abbia una predisposizione o esperienza nella generazione di new business o come commerciale di agenzie di digital marketing
+- Abbia già un qualche legame con la città di lavoro, cioè Firenze, ovvero o abiti vicino, o ci abbia almeno studiato o lavorato, e quindi possa volerci tornare
+- Possibilmente sotto i 30 anni. 
+- Preferibilmente con un mas...
+2025-04-23 16:57:53,831 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=6bf66660...
+2025-04-23 16:57:53,832 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di dig...
+2025-04-23 16:57:53,872 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=6bf66660...
+2025-04-23 16:57:53,872 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): {"Nome":"Giulio","Cognome":"Benati","Numero di contatto":"+393280339213","Email":"giulio.benati84@gmail.com","Età":"39","Città di residenza":"Non specificato","Città di origine":"Firenze","Anni di esperienza lavorativa":"11","Anni di esperienza lavorativa nel ruolo richiesto":"Non specificato","Mast...
+2025-04-23 16:57:53,874 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=281346fe...
+2025-04-23 16:57:53,875 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Città di residenza
+2. Anni di esperienza lavorativa nel ruolo richiesto
+    
+    CV:
+    **Curriculum Vitae**
+
+**Personal Information:**
+
+Name: Giulio Benati  
+Citizenship: Italian  
+Contact: giulio.benati84@gmail.com  
+T...
+2025-04-23 16:57:53,879 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=281346fe...
+2025-04-23 16:57:53,880 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Città di residenza": "Florence, Italy",
+    "Anni di esperienza lavorativa nel ruolo richiesto": "9"
+}
+2025-04-23 16:57:53,884 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=77f729e9...
+2025-04-23 16:57:53,884 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital mark...
+2025-04-23 16:57:53,889 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=77f729e9...
+2025-04-23 16:57:53,890 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {"score": 90, "motivation": "Giulio ha una vasta esperienza nelle competenze tecniche richieste, inclusa la gestione di progetti digitali e strategie di marketing. Le sue competenze in e-commerce e analisi delle performance sono particolarmente rile...
+2025-04-23 16:57:53,891 - INFO - bfcv_007.py:2137 - analyze_cv_openai - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-04-23 16:57:53,892 - INFO - bfcv_007.py:2145 - analyze_cv_openai - Trovata struttura con campo 'criteria': ['competenze_tecniche', 'esperienza_rilevante', 'formazione', 'problem_solving', 'leadership'] ...
+2025-04-23 16:57:53,892 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'competenze_tecniche'
+2025-04-23 16:57:53,892 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'competenze_tecniche' trovato: {"score": 90, "motivation": "Giulio ha una vasta esperienza nelle competenze tecniche richieste, inclusa la gestione di progetti digitali e strategie di marketing. Le sue competenze in e-commerce e analisi delle performance sono particolarmente rilevanti per il ruolo."}
+2025-04-23 16:57:53,892 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   competenze_tecniche - score grezzo: 90 - tipo: <class 'int'>
+2025-04-23 16:57:53,893 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   competenze_tecniche - peso: 25
+2025-04-23 16:57:53,893 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'esperienza_rilevante'
+2025-04-23 16:57:53,894 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'esperienza_rilevante' trovato: {"score": 85, "motivation": "Con oltre 9 anni di esperienza nel settore del digital marketing e della gestione di progetti, Giulio ha lavorato in diverse agenzie e ha gestito progetti per vari clienti."}
+2025-04-23 16:57:53,894 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   esperienza_rilevante - score grezzo: 85 - tipo: <class 'int'>
+2025-04-23 16:57:53,894 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   esperienza_rilevante - peso: 25
+2025-04-23 16:57:53,894 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'formazione'
+2025-04-23 16:57:53,895 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'formazione' trovato: {"score": 80, "motivation": "Possiede un Master in Growth Hacking Marketing, che \u00e8 pertinente per il ruolo di Account Manager in un'agenzia di digital marketing."}
+2025-04-23 16:57:53,895 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   formazione - score grezzo: 80 - tipo: <class 'int'>
+2025-04-23 16:57:53,895 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   formazione - peso: 15
+2025-04-23 16:57:53,896 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'problem_solving'
+2025-04-23 16:57:53,896 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'problem_solving' trovato: {"score": 85, "motivation": "Giulio ha dimostrato capacit\u00e0 di problem solving attraverso la gestione efficace di progetti complessi e la riduzione dei rischi."}
+2025-04-23 16:57:53,896 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   problem_solving - score grezzo: 85 - tipo: <class 'int'>
+2025-04-23 16:57:53,896 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   problem_solving - peso: 15
+2025-04-23 16:57:53,896 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'leadership'
+2025-04-23 16:57:53,897 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'leadership' trovato: {"score": 80, "motivation": "Ha esperienza nella gestione di team e nella leadership di progetti, evidenziando la sua capacit\u00e0 di guidare e motivare i membri del team."}
+2025-04-23 16:57:53,897 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   leadership - score grezzo: 80 - tipo: <class 'int'>
+2025-04-23 16:57:53,897 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   leadership - peso: 10
+2025-04-23 16:57:53,898 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'potenziale_crescita'
+2025-04-23 16:57:53,898 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'potenziale_crescita' trovato: {"score": 75, "motivation": "Il suo background imprenditoriale e la continua formazione suggeriscono un buon potenziale di crescita nel ruolo."}
+2025-04-23 16:57:53,898 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   potenziale_crescita - score grezzo: 75 - tipo: <class 'int'>
+2025-04-23 16:57:53,898 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   potenziale_crescita - peso: 10
+2025-04-23 16:57:53,898 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'attitudine_al_new_business_e_commerciale'
+2025-04-23 16:57:53,898 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'attitudine_al_new_business_e_commerciale' trovato: {"score": 90, "motivation": "Giulio ha una forte attitudine commerciale, avendo guidato iniziative di crescita e sviluppo di nuovi business in diverse aziende."}
+2025-04-23 16:57:53,898 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   attitudine_al_new_business_e_commerciale - score grezzo: 90 - tipo: <class 'int'>
+2025-04-23 16:57:53,899 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   attitudine_al_new_business_e_commerciale - peso: 30
+2025-04-23 16:57:53,899 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'esperienza_di_accounting_su_brand_non_locali'
+2025-04-23 16:57:53,899 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'esperienza_di_accounting_su_brand_non_locali' trovato: {"score": 70, "motivation": "Sebbene abbia lavorato con brand non locali, la sua esperienza principale sembra concentrarsi su progetti locali e startup."}
+2025-04-23 16:57:53,900 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   esperienza_di_accounting_su_brand_non_locali - score grezzo: 70 - tipo: <class 'int'>
+2025-04-23 16:57:53,900 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   esperienza_di_accounting_su_brand_non_locali - peso: 30
+2025-04-23 16:57:53,900 - INFO - bfcv_007.py:2203 - analyze_cv_openai - Punteggio composito calcolato: 82 (= 13200.0 / 160)
+2025-04-23 16:57:53,900 - INFO - bfcv_007.py:2209 - analyze_cv_openai - Punteggio composito ricalcolato: 82 (media pesata con peso totale 160)
+2025-04-23 16:57:53,900 - INFO - bfcv_007.py:2213 - analyze_cv_openai - Punteggio composito originale: 80.25
+2025-04-23 16:57:56,836 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=51e812ed...
+2025-04-23 16:57:56,836 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ESPERIENZA LAVORATIVA 
+06/2024 – 09/2024 – FIRENZE, Italia 
+RESPONSABILE BIGLIETTERIA MUSEO PALAZZO DAVANZATI – OPERA LABORATORI FIORENTINI 
+ 
+-Responsabile e gestione autonoma dei seguenti ...
+2025-04-23 16:57:56,842 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=51e812ed...
+2025-04-23 16:57:56,843 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): **CLAUDIA BATTISTI**  
+Data di nascita: 13/02/1985  
+Nazionalità: Italiana  
+Sesso: Femminile  
+(+39) 3427046571  
+claubattisti@gmail.com  
+via Ho Chi Minh 13, 50023, IMPRUNETA, Italia  
+
+**Presentazione:**  
+Sono una persona altamente motivata, responsabile, tenace, curiosa e sportiva. Come si evin...
+2025-04-23 16:57:56,843 - INFO - bfcv_007.py:1863 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-04-23 16:57:56,843 - INFO - bfcv_007.py:1864 - analyze_cv_openai - Modello: gpt-4o-mini
+2025-04-23 16:57:56,844 - INFO - bfcv_007.py:1865 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Lingue conosciute', 'Legame con Firenze', 'Soft skills', 'Lingue straniere']
+2025-04-23 16:57:56,844 - INFO - bfcv_007.py:1866 - analyze_cv_openai - Job description (troncata): Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital marketing. 
+- Abbia una predisposizione o esperienza nella generazione di new business o come commerciale di agenzie di digital marketing
+- Abbia già un qualche legame con la città di lavoro, cioè Firenze, ovvero o abiti vicino, o ci abbia almeno studiato o lavorato, e quindi possa volerci tornare
+- Possibilmente sotto i 30 anni. 
+- Preferibilmente con un mas...
+2025-04-23 16:57:56,848 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=18ad9ab7...
+2025-04-23 16:57:56,849 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di dig...
+2025-04-23 16:57:56,853 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=18ad9ab7...
+2025-04-23 16:57:56,854 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Nome": "CLAUDIA",
+    "Cognome": "BATTISTI",
+    "Numero di contatto": "(+39) 3427046571",
+    "Email": "claubattisti@gmail.com",
+    "Età": 38,
+    "Città di residenza": "IMPRUNETA",
+    "Città di origine": "Non specificato",
+    "Anni di esperienza lavorativa": 12,
+    "Anni di esperienza l...
+2025-04-23 16:57:56,857 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=9dca5f7a...
+2025-04-23 16:57:56,857 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Città di origine
+2. Master o assimilabile nel ruolo richiesto
+    
+    CV:
+    **CLAUDIA BATTISTI**  
+Data di nascita: 13/02/1985  
+Nazionalità: Italiana  
+Sesso: Femminile  
+(+39) 3427046571  
+claubattisti@gmail.com  
+vi...
+2025-04-23 16:57:56,861 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=9dca5f7a...
+2025-04-23 16:57:56,861 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Città di origine": "Impruneta",
+    "Master o assimilabile nel ruolo richiesto": "Laurea Magistrale in Comunicazione Strategica"
+}
+2025-04-23 16:57:56,866 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=771acb1d...
+2025-04-23 16:57:56,867 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital mark...
+2025-04-23 16:57:56,872 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=771acb1d...
+2025-04-23 16:57:56,873 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {"score": 85, "motivation": "Claudia ha una solida esperienza nel social media management e nella creazione di strategie digitali, che sono cruciali per il ruolo di Account Manager."},
+        "esperienza_rilevante": {"score": 70, "motivation": "Ha ...
+2025-04-23 16:57:56,874 - INFO - bfcv_007.py:2137 - analyze_cv_openai - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-04-23 16:57:56,874 - INFO - bfcv_007.py:2145 - analyze_cv_openai - Trovata struttura con campo 'criteria': ['competenze_tecniche', 'esperienza_rilevante', 'formazione', 'problem_solving', 'leadership'] ...
+2025-04-23 16:57:56,874 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'competenze_tecniche'
+2025-04-23 16:57:56,875 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'competenze_tecniche' trovato: {"score": 85, "motivation": "Claudia ha una solida esperienza nel social media management e nella creazione di strategie digitali, che sono cruciali per il ruolo di Account Manager."}
+2025-04-23 16:57:56,875 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   competenze_tecniche - score grezzo: 85 - tipo: <class 'int'>
+2025-04-23 16:57:56,876 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   competenze_tecniche - peso: 25
+2025-04-23 16:57:56,876 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'esperienza_rilevante'
+2025-04-23 16:57:56,876 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'esperienza_rilevante' trovato: {"score": 70, "motivation": "Ha un anno di esperienza diretta nel settore del marketing digitale, ma la maggior parte della sua carriera si \u00e8 svolta in contesti diversi."}
+2025-04-23 16:57:56,876 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   esperienza_rilevante - score grezzo: 70 - tipo: <class 'int'>
+2025-04-23 16:57:56,877 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   esperienza_rilevante - peso: 25
+2025-04-23 16:57:56,878 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'formazione'
+2025-04-23 16:57:56,878 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'formazione' trovato: {"score": 75, "motivation": "Possiede una laurea magistrale in Comunicazione Strategica, che \u00e8 pertinente, ma non un master specifico in marketing."}
+2025-04-23 16:57:56,878 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   formazione - score grezzo: 75 - tipo: <class 'int'>
+2025-04-23 16:57:56,879 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   formazione - peso: 15
+2025-04-23 16:57:56,879 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'problem_solving'
+2025-04-23 16:57:56,879 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'problem_solving' trovato: {"score": 80, "motivation": "Ha dimostrato capacit\u00e0 di problem solving nella gestione di eventi e strategie di comunicazione in contesti complessi."}
+2025-04-23 16:57:56,880 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   problem_solving - score grezzo: 80 - tipo: <class 'int'>
+2025-04-23 16:57:56,880 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   problem_solving - peso: 15
+2025-04-23 16:57:56,880 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'leadership'
+2025-04-23 16:57:56,880 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'leadership' trovato: {"score": 70, "motivation": "Ha ricoperto ruoli di responsabilit\u00e0 e coordinamento, ma non ha evidenze di leadership diretta in team di vendita."}
+2025-04-23 16:57:56,881 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   leadership - score grezzo: 70 - tipo: <class 'int'>
+2025-04-23 16:57:56,881 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   leadership - peso: 10
+2025-04-23 16:57:56,881 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'potenziale_crescita'
+2025-04-23 16:57:56,881 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'potenziale_crescita' trovato: {"score": 75, "motivation": "La sua motivazione e la variet\u00e0 di esperienze suggeriscono un buon potenziale di crescita nel settore."}
+2025-04-23 16:57:56,882 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   potenziale_crescita - score grezzo: 75 - tipo: <class 'int'>
+2025-04-23 16:57:56,882 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   potenziale_crescita - peso: 10
+2025-04-23 16:57:56,882 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'attitudine_al_new_business_e_commerciale'
+2025-04-23 16:57:56,882 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'attitudine_al_new_business_e_commerciale' trovato: {"score": 65, "motivation": "Ha esperienza nella gestione di relazioni e nella creazione di eventi, ma non ha un forte background commerciale specifico."}
+2025-04-23 16:57:56,883 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   attitudine_al_new_business_e_commerciale - score grezzo: 65 - tipo: <class 'int'>
+2025-04-23 16:57:56,883 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   attitudine_al_new_business_e_commerciale - peso: 30
+2025-04-23 16:57:56,883 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'esperienza_di_accounting_su_brand_non_locali'
+2025-04-23 16:57:56,883 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'esperienza_di_accounting_su_brand_non_locali' trovato: {"score": 60, "motivation": "Ha lavorato in contesti internazionali, ma la sua esperienza di accounting su brand non locali \u00e8 limitata."}
+2025-04-23 16:57:56,884 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   esperienza_di_accounting_su_brand_non_locali - score grezzo: 60 - tipo: <class 'int'>
+2025-04-23 16:57:56,884 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   esperienza_di_accounting_su_brand_non_locali - peso: 30
+2025-04-23 16:57:56,884 - INFO - bfcv_007.py:2203 - analyze_cv_openai - Punteggio composito calcolato: 71 (= 11400.0 / 160)
+2025-04-23 16:57:56,884 - INFO - bfcv_007.py:2209 - analyze_cv_openai - Punteggio composito ricalcolato: 71 (media pesata con peso totale 160)
+2025-04-23 16:57:56,886 - INFO - bfcv_007.py:2213 - analyze_cv_openai - Punteggio composito originale: 71.25
+2025-04-23 16:57:58,536 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=cddd1b92...
+2025-04-23 16:57:58,536 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Ronald K. Bray 
+Jupiter, FL 33458 
+ronbray13@gmail.com | 561-385-9343| www.linkedin.com/in/ronbray  
+Customer Focused and Results Driven Sales Professional 
+ Strategic Thinker| Adaptive Approach| Product Expert 
+Exceptional Out...
+2025-04-23 16:57:58,539 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=cddd1b92...
+2025-04-23 16:57:58,539 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): **Ronald K. Bray**  
+Jupiter, FL 33458  
+ronbray13@gmail.com | 561-385-9343 | www.linkedin.com/in/ronbray  
+
+**Customer Focused and Results Driven Sales Professional**  
+Strategic Thinker | Adaptive Approach | Product Expert  
+
+Eccezionale rappresentante di vendite esterne con esperienza nell'establ...
+2025-04-23 16:57:58,539 - INFO - bfcv_007.py:1863 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-04-23 16:57:58,541 - INFO - bfcv_007.py:1864 - analyze_cv_openai - Modello: gpt-4o-mini
+2025-04-23 16:57:58,541 - INFO - bfcv_007.py:1865 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Lingue conosciute', 'Legame con Firenze', 'Soft skills', 'Lingue straniere']
+2025-04-23 16:57:58,541 - INFO - bfcv_007.py:1866 - analyze_cv_openai - Job description (troncata): Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital marketing. 
+- Abbia una predisposizione o esperienza nella generazione di new business o come commerciale di agenzie di digital marketing
+- Abbia già un qualche legame con la città di lavoro, cioè Firenze, ovvero o abiti vicino, o ci abbia almeno studiato o lavorato, e quindi possa volerci tornare
+- Possibilmente sotto i 30 anni. 
+- Preferibilmente con un mas...
+2025-04-23 16:57:58,543 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=ea912f51...
+2025-04-23 16:57:58,544 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di dig...
+2025-04-23 16:57:58,548 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=ea912f51...
+2025-04-23 16:57:58,548 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): {"nome":"Ronald","cognome":"K. Bray","numero_di_contatto":"561-385-9343","email":"ronbray13@gmail.com","età":"Non specificato","città_di_residenza":"Jupiter, FL","città_di_origine":"Non specificato","anni_di_esperienza_lavorativa":"20+ anni","anni_di_esperienza_lavorativa_nel_ruolo_richesto":"0","ma...
+2025-04-23 16:57:58,552 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=5216585f...
+2025-04-23 16:57:58,552 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Nome
+2. Cognome
+3. Numero di contatto
+4. Email
+5. Età
+6. Città di residenza
+7. Città di origine
+8. Anni di esperienza lavorativa
+9. Anni di esperienza lavorativa nel ruolo richiesto
+10. Master o assimilabile nel ruolo ric...
+2025-04-23 16:57:58,555 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=5216585f...
+2025-04-23 16:57:58,555 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Nome": "Ronald",
+    "Cognome": "Bray",
+    "Numero di contatto": "561-385-9343",
+    "Email": "ronbray13@gmail.com",
+    "Età": "circa 47",
+    "Città di residenza": "Jupiter, FL",
+    "Città di origine": "Non specificato",
+    "Anni di esperienza lavorativa": "25",
+    "Anni di esperienza l...
+2025-04-23 16:57:58,558 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=70026e29...
+2025-04-23 16:57:58,559 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital mark...
+2025-04-23 16:57:58,562 - INFO - bfcv_007.py:1143 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=70026e29...
+2025-04-23 16:57:58,562 - DEBUG - bfcv_007.py:1148 - get_cached_response - CACHE RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {"score": 40, "motivation": "Il candidato ha esperienza nelle vendite, ma non ha competenze specifiche nel digital marketing o nella gestione di progetti digitali."},
+        "esperienza_rilevante": {"score": 30, "motivation": "Non ha esperienza dir...
+2025-04-23 16:57:58,563 - INFO - bfcv_007.py:2137 - analyze_cv_openai - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-04-23 16:57:58,563 - INFO - bfcv_007.py:2145 - analyze_cv_openai - Trovata struttura con campo 'criteria': ['competenze_tecniche', 'esperienza_rilevante', 'formazione', 'problem_solving', 'leadership'] ...
+2025-04-23 16:57:58,564 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'competenze_tecniche'
+2025-04-23 16:57:58,564 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'competenze_tecniche' trovato: {"score": 40, "motivation": "Il candidato ha esperienza nelle vendite, ma non ha competenze specifiche nel digital marketing o nella gestione di progetti digitali."}
+2025-04-23 16:57:58,565 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   competenze_tecniche - score grezzo: 40 - tipo: <class 'int'>
+2025-04-23 16:57:58,565 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   competenze_tecniche - peso: 25
+2025-04-23 16:57:58,565 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'esperienza_rilevante'
+2025-04-23 16:57:58,565 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'esperienza_rilevante' trovato: {"score": 30, "motivation": "Non ha esperienza diretta in agenzie di pubblicit\u00e0 o digital marketing, limitando la sua rilevanza per il ruolo."}
+2025-04-23 16:57:58,565 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   esperienza_rilevante - score grezzo: 30 - tipo: <class 'int'>
+2025-04-23 16:57:58,566 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   esperienza_rilevante - peso: 25
+2025-04-23 16:57:58,566 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'formazione'
+2025-04-23 16:57:58,566 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'formazione' trovato: {"score": 60, "motivation": "Possiede una laurea in Health Care Administration, ma non un master in marketing o comunicazione, come preferito."}
+2025-04-23 16:57:58,566 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   formazione - score grezzo: 60 - tipo: <class 'int'>
+2025-04-23 16:57:58,567 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   formazione - peso: 15
+2025-04-23 16:57:58,567 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'problem_solving'
+2025-04-23 16:57:58,567 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'problem_solving' trovato: {"score": 70, "motivation": "Ha dimostrato capacit\u00e0 di problem solving attraverso la gestione di vendite e relazioni con i clienti."}
+2025-04-23 16:57:58,567 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   problem_solving - score grezzo: 70 - tipo: <class 'int'>
+2025-04-23 16:57:58,568 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   problem_solving - peso: 15
+2025-04-23 16:57:58,568 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'leadership'
+2025-04-23 16:57:58,568 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'leadership' trovato: {"score": 50, "motivation": "Ha esperienza nella gestione di account, ma non ci sono evidenze chiare di leadership diretta nel suo CV."}
+2025-04-23 16:57:58,568 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   leadership - score grezzo: 50 - tipo: <class 'int'>
+2025-04-23 16:57:58,568 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   leadership - peso: 10
+2025-04-23 16:57:58,569 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'potenziale_crescita'
+2025-04-23 16:57:58,569 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'potenziale_crescita' trovato: {"score": 60, "motivation": "Ha una lunga carriera nelle vendite, suggerendo un potenziale di crescita, ma manca di esperienza nel settore specifico."}
+2025-04-23 16:57:58,569 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   potenziale_crescita - score grezzo: 60 - tipo: <class 'int'>
+2025-04-23 16:57:58,569 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   potenziale_crescita - peso: 10
+2025-04-23 16:57:58,570 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'attitudine_al_new_business_e_commerciale'
+2025-04-23 16:57:58,570 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'attitudine_al_new_business_e_commerciale' trovato: {"score": 80, "motivation": "Ha una solida esperienza nelle vendite e nella costruzione di relazioni, indicando una buona attitudine al new business."}
+2025-04-23 16:57:58,570 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   attitudine_al_new_business_e_commerciale - score grezzo: 80 - tipo: <class 'int'>
+2025-04-23 16:57:58,571 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   attitudine_al_new_business_e_commerciale - peso: 30
+2025-04-23 16:57:58,572 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'esperienza_di_accounting_su_brand_non_locali'
+2025-04-23 16:57:58,572 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'esperienza_di_accounting_su_brand_non_locali' trovato: {"score": 50, "motivation": "Ha gestito account in diverse regioni, ma non ha esperienza con brand specifici nel digital marketing."}
+2025-04-23 16:57:58,572 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   esperienza_di_accounting_su_brand_non_locali - score grezzo: 50 - tipo: <class 'int'>
+2025-04-23 16:57:58,573 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   esperienza_di_accounting_su_brand_non_locali - peso: 30
+2025-04-23 16:57:58,573 - INFO - bfcv_007.py:2203 - analyze_cv_openai - Punteggio composito calcolato: 54 (= 8700.0 / 160)
+2025-04-23 16:57:58,573 - INFO - bfcv_007.py:2209 - analyze_cv_openai - Punteggio composito ricalcolato: 54 (media pesata con peso totale 160)
+2025-04-23 16:57:58,573 - INFO - bfcv_007.py:2213 - analyze_cv_openai - Punteggio composito originale: 54.5
+2025-04-23 16:57:59,967 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=3bfc051a...
+2025-04-23 16:57:59,967 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+DIGITAL AD SALES EXECUTIVE
+(SEPTEMBER 2024 - PRESENT) - ACCENTURE
+META MARKETING PRO
+ACCOUNT MANAGER FOR A PORTFOLIO OF OVER 120 SMB CLIENTS PER
+QUARTER, FOCUS ON THE ITALIAN MARKET
+META BUSINESS SUITE AND ADS MANAGER MARKETING...
+2025-04-23 16:57:59,967 - INFO - bfcv_007.py:1163 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=3bfc051a...
+2025-04-23 16:57:59,967 - INFO - bfcv_007.py:1164 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=3bfc051a...
+2025-04-23 16:58:21,025 - INFO - bfcv_007.py:1241 - save_to_cache - CACHE SAVE: Modello=openai-gpt-4o-mini, Hash=3bfc051a...
+2025-04-23 16:58:21,025 - DEBUG - bfcv_007.py:1246 - save_to_cache - CACHED RESPONSE (troncato): **Nome:** Lucio Regimonti  
+**Contatti:**  
+Telefono: +359 879998142  
+Email: lucio.regimonti@outlook.it  
+LinkedIn: [LinkedIn Profile]  
+Località: Sofia, Bulgaria  
+
+---
+
+**PROFILO PROFESSIONALE**  
+Sales, account, B2B relationships representative keen to tech and digital markets. Ho lavorato per d...
+2025-04-23 16:58:21,025 - INFO - bfcv_007.py:1863 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-04-23 16:58:21,025 - INFO - bfcv_007.py:1864 - analyze_cv_openai - Modello: gpt-4o-mini
+2025-04-23 16:58:21,025 - INFO - bfcv_007.py:1865 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Lingue conosciute', 'Legame con Firenze', 'Soft skills', 'Lingue straniere']
+2025-04-23 16:58:21,027 - INFO - bfcv_007.py:1866 - analyze_cv_openai - Job description (troncata): Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital marketing. 
+- Abbia una predisposizione o esperienza nella generazione di new business o come commerciale di agenzie di digital marketing
+- Abbia già un qualche legame con la città di lavoro, cioè Firenze, ovvero o abiti vicino, o ci abbia almeno studiato o lavorato, e quindi possa volerci tornare
+- Possibilmente sotto i 30 anni. 
+- Preferibilmente con un mas...
+2025-04-23 16:58:21,030 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=5999c03b...
+2025-04-23 16:58:21,030 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di dig...
+2025-04-23 16:58:21,031 - INFO - bfcv_007.py:1163 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=5999c03b...
+2025-04-23 16:58:21,031 - INFO - bfcv_007.py:1164 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=5999c03b...
+2025-04-23 16:58:37,473 - INFO - bfcv_007.py:1241 - save_to_cache - CACHE SAVE: Modello=openai-gpt-4o-mini, Hash=5999c03b...
+2025-04-23 16:58:37,473 - DEBUG - bfcv_007.py:1246 - save_to_cache - CACHED RESPONSE (troncato): {
+  "Nome": "Lucio",
+  "Cognome": "Regimonti",
+  "Numero di contatto": "+359 879998142",
+  "Email": "lucio.regimonti@outlook.it",
+  "Età": "Non specificato",
+  "Città di residenza": "Sofia, Bulgaria",
+  "Città di origine": "Non specificato",
+  "Anni di esperienza lavorativa": "Non specificato (ma es...
+2025-04-23 16:58:37,475 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=1fa661f7...
+2025-04-23 16:58:37,476 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Età
+2. Città di origine
+3. Master o assimilabile nel ruolo richiesto
+4. Legame con Firenze
+    
+    CV:
+    **Nome:** Lucio Regimonti  
+**Contatti:**  
+Telefono: +359 879998142  
+Email: lucio.regimonti@outlook.it  
+Linked...
+2025-04-23 16:58:37,476 - INFO - bfcv_007.py:1163 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=1fa661f7...
+2025-04-23 16:58:37,476 - INFO - bfcv_007.py:1164 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=1fa661f7...
+2025-04-23 16:58:50,568 - INFO - bfcv_007.py:1241 - save_to_cache - CACHE SAVE: Modello=openai-gpt-4o-mini, Hash=1fa661f7...
+2025-04-23 16:58:50,568 - DEBUG - bfcv_007.py:1246 - save_to_cache - CACHED RESPONSE (troncato): {
+    "Età": "Stima di 30-35 anni",
+    "Città di origine": "Bologna, Italia",
+    "Master o assimilabile nel ruolo richiesto": "Laurea in Scienze della Comunicazione",
+    "Legame con Firenze": "Formazione presso l'Università di Bologna, vicino a Firenze"
+}
+2025-04-23 16:58:50,573 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=d01944c7...
+2025-04-23 16:58:50,573 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital mark...
+2025-04-23 16:58:50,573 - INFO - bfcv_007.py:1163 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=d01944c7...
+2025-04-23 16:58:50,573 - INFO - bfcv_007.py:1164 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=d01944c7...
+2025-04-23 16:59:12,890 - INFO - bfcv_007.py:1241 - save_to_cache - CACHE SAVE: Modello=openai-gpt-4o-mini, Hash=d01944c7...
+2025-04-23 16:59:12,890 - DEBUG - bfcv_007.py:1246 - save_to_cache - CACHED RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {
+            "score": 85,
+            "motivation": "Lucio ha una solida esperienza in ambienti B2B e una buona conoscenza degli strumenti digitali, come Meta Business Suite e Salesforce, che sono fondamentali per il ruolo."
+        },
+        "esp...
+2025-04-23 16:59:12,890 - INFO - bfcv_007.py:2137 - analyze_cv_openai - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-04-23 16:59:12,891 - INFO - bfcv_007.py:2145 - analyze_cv_openai - Trovata struttura con campo 'criteria': ['competenze_tecniche', 'esperienza_rilevante', 'formazione', 'problem_solving', 'leadership'] ...
+2025-04-23 16:59:12,891 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'competenze_tecniche'
+2025-04-23 16:59:12,891 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'competenze_tecniche' trovato: {"score": 85, "motivation": "Lucio ha una solida esperienza in ambienti B2B e una buona conoscenza degli strumenti digitali, come Meta Business Suite e Salesforce, che sono fondamentali per il ruolo."}
+2025-04-23 16:59:12,892 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   competenze_tecniche - score grezzo: 85 - tipo: <class 'int'>
+2025-04-23 16:59:12,892 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   competenze_tecniche - peso: 25
+2025-04-23 16:59:12,892 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'esperienza_rilevante'
+2025-04-23 16:59:12,892 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'esperienza_rilevante' trovato: {"score": 80, "motivation": "Ha lavorato in ruoli di vendita e account management in aziende di digital marketing, dimostrando competenze nel settore, anche se non ha esperienza diretta in un'agenzia di pubblicit\u00e0."}
+2025-04-23 16:59:12,892 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   esperienza_rilevante - score grezzo: 80 - tipo: <class 'int'>
+2025-04-23 16:59:12,892 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   esperienza_rilevante - peso: 25
+2025-04-23 16:59:12,892 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'formazione'
+2025-04-23 16:59:12,892 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'formazione' trovato: {"score": 70, "motivation": "Possiede una laurea in Scienze della Comunicazione, ma non ha un master in marketing o comunicazione, che sarebbe preferibile per il ruolo."}
+2025-04-23 16:59:12,892 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   formazione - score grezzo: 70 - tipo: <class 'int'>
+2025-04-23 16:59:12,892 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   formazione - peso: 15
+2025-04-23 16:59:12,893 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'problem_solving'
+2025-04-23 16:59:12,893 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'problem_solving' trovato: {"score": 90, "motivation": "Le sue esperienze lavorative e le soft skills evidenziano una forte capacit\u00e0 di problem solving e adattamento a nuovi contesti."}
+2025-04-23 16:59:12,893 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   problem_solving - score grezzo: 90 - tipo: <class 'int'>
+2025-04-23 16:59:12,893 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   problem_solving - peso: 15
+2025-04-23 16:59:12,893 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'leadership'
+2025-04-23 16:59:12,894 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'leadership' trovato: {"score": 75, "motivation": "Lucio ha dimostrato propensione alla leadership e capacit\u00e0 di comunicazione interpersonale, ma non ha esperienze specifiche di gestione di team."}
+2025-04-23 16:59:12,894 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   leadership - score grezzo: 75 - tipo: <class 'int'>
+2025-04-23 16:59:12,894 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   leadership - peso: 10
+2025-04-23 16:59:12,894 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'potenziale_crescita'
+2025-04-23 16:59:12,895 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'potenziale_crescita' trovato: {"score": 80, "motivation": "La sua esperienza in aziende di alto profilo e il suo orientamento agli obiettivi suggeriscono un buon potenziale di crescita nel settore."}
+2025-04-23 16:59:12,895 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   potenziale_crescita - score grezzo: 80 - tipo: <class 'int'>
+2025-04-23 16:59:12,895 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   potenziale_crescita - peso: 10
+2025-04-23 16:59:12,896 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'attitudine_al_new_business_e_commerciale'
+2025-04-23 16:59:12,896 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'attitudine_al_new_business_e_commerciale' trovato: {"score": 85, "motivation": "Ha esperienza nella generazione di lead e nello sviluppo commerciale, il che indica una forte attitudine al new business."}
+2025-04-23 16:59:12,896 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   attitudine_al_new_business_e_commerciale - score grezzo: 85 - tipo: <class 'int'>
+2025-04-23 16:59:12,896 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   attitudine_al_new_business_e_commerciale - peso: 30
+2025-04-23 16:59:12,897 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'esperienza_di_accounting_su_brand_non_locali'
+2025-04-23 16:59:12,897 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'esperienza_di_accounting_su_brand_non_locali' trovato: {"score": 90, "motivation": "Lucio ha gestito account per brand globali come Google e Meta, dimostrando competenze solide nella gestione di clienti non locali."}
+2025-04-23 16:59:12,897 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   esperienza_di_accounting_su_brand_non_locali - score grezzo: 90 - tipo: <class 'int'>
+2025-04-23 16:59:12,897 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   esperienza_di_accounting_su_brand_non_locali - peso: 30
+2025-04-23 16:59:12,898 - INFO - bfcv_007.py:2203 - analyze_cv_openai - Punteggio composito calcolato: 83 (= 13325.0 / 160)
+2025-04-23 16:59:12,898 - INFO - bfcv_007.py:2209 - analyze_cv_openai - Punteggio composito ricalcolato: 83 (media pesata con peso totale 160)
+2025-04-23 16:59:12,898 - INFO - bfcv_007.py:2213 - analyze_cv_openai - Punteggio composito originale: 80.25
+2025-04-23 16:59:29,887 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=485f684d...
+2025-04-23 16:59:29,887 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Page 1 of 3 
+Contact 
++393394657022 (Mobile) 
+luisacalomino@gmail.com
+www.linkedin.com/in/ 
+luisacalomino (LinkedIn) 
+Top Skills 
+Content Management 
+Digital Communication 
+Web 2.0 
+SEO/
+Web Analytics 
+Corporate Communication 
+...
+2025-04-23 16:59:29,888 - INFO - bfcv_007.py:1163 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=485f684d...
+2025-04-23 16:59:29,888 - INFO - bfcv_007.py:1164 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=485f684d...
+2025-04-23 16:59:55,357 - INFO - bfcv_007.py:1241 - save_to_cache - CACHE SAVE: Modello=openai-gpt-4o-mini, Hash=485f684d...
+2025-04-23 16:59:55,357 - DEBUG - bfcv_007.py:1246 - save_to_cache - CACHED RESPONSE (troncato): **Luisa Calomino**  
+Communication Manager  
+Florence, Tuscany, Italy  
+
+**Contact**  
+Mobile: +393394657022  
+Email: luisacalomino@gmail.com  
+LinkedIn: www.linkedin.com/in/luisacalomino  
+
+**Top Skills**  
+- Content Management  
+- Digital Communication  
+- Web 2.0  
+- SEO/Web Analytics  
+- Corpora...
+2025-04-23 16:59:55,358 - INFO - bfcv_007.py:1863 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-04-23 16:59:55,358 - INFO - bfcv_007.py:1864 - analyze_cv_openai - Modello: gpt-4o-mini
+2025-04-23 16:59:55,358 - INFO - bfcv_007.py:1865 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Lingue conosciute', 'Legame con Firenze', 'Soft skills', 'Lingue straniere']
+2025-04-23 16:59:55,358 - INFO - bfcv_007.py:1866 - analyze_cv_openai - Job description (troncata): Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital marketing. 
+- Abbia una predisposizione o esperienza nella generazione di new business o come commerciale di agenzie di digital marketing
+- Abbia già un qualche legame con la città di lavoro, cioè Firenze, ovvero o abiti vicino, o ci abbia almeno studiato o lavorato, e quindi possa volerci tornare
+- Possibilmente sotto i 30 anni. 
+- Preferibilmente con un mas...
+2025-04-23 16:59:55,361 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=da81b4a8...
+2025-04-23 16:59:55,361 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di dig...
+2025-04-23 16:59:55,362 - INFO - bfcv_007.py:1163 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=da81b4a8...
+2025-04-23 16:59:55,362 - INFO - bfcv_007.py:1164 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=da81b4a8...
+2025-04-23 17:00:02,553 - INFO - bfcv_007.py:1241 - save_to_cache - CACHE SAVE: Modello=openai-gpt-4o-mini, Hash=da81b4a8...
+2025-04-23 17:00:02,553 - DEBUG - bfcv_007.py:1246 - save_to_cache - CACHED RESPONSE (troncato): {"nome":"Luisa","cognome":"Calomino","numero_di_contatto":"+393394657022","email":"luisacalomino@gmail.com","età":"Non specificato","città_di_residenza":"Florence","città_di_origine":"Non specificato","anni_di_esperienza_lavorativa":"20 anni","anni_di_esperienza_lavorativa_nel_ruolo_richiestto":"Non...
+2025-04-23 17:00:02,555 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=fbd6b4ae...
+2025-04-23 17:00:02,555 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Nome
+2. Cognome
+3. Numero di contatto
+4. Email
+5. Età
+6. Città di residenza
+7. Città di origine
+8. Anni di esperienza lavorativa
+9. Anni di esperienza lavorativa nel ruolo richiesto
+10. Master o assimilabile nel ruolo ric...
+2025-04-23 17:00:02,557 - INFO - bfcv_007.py:1163 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=fbd6b4ae...
+2025-04-23 17:00:02,557 - INFO - bfcv_007.py:1164 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=fbd6b4ae...
+2025-04-23 17:00:11,003 - INFO - bfcv_007.py:1241 - save_to_cache - CACHE SAVE: Modello=openai-gpt-4o-mini, Hash=fbd6b4ae...
+2025-04-23 17:00:11,003 - DEBUG - bfcv_007.py:1246 - save_to_cache - CACHED RESPONSE (troncato): {
+    "Nome": "Luisa",
+    "Cognome": "Calomino",
+    "Numero di contatto": "+393394657022",
+    "Email": "luisacalomino@gmail.com",
+    "Età": "circa 42",
+    "Città di residenza": "Florence",
+    "Città di origine": "Siena",
+    "Anni di esperienza lavorativa": "20",
+    "Anni di esperienza lavora...
+2025-04-23 17:00:11,006 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=44e1e69a...
+2025-04-23 17:00:11,006 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital mark...
+2025-04-23 17:00:11,007 - INFO - bfcv_007.py:1163 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=44e1e69a...
+2025-04-23 17:00:11,007 - INFO - bfcv_007.py:1164 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=44e1e69a...
+2025-04-23 17:00:33,668 - INFO - bfcv_007.py:1241 - save_to_cache - CACHE SAVE: Modello=openai-gpt-4o-mini, Hash=44e1e69a...
+2025-04-23 17:00:33,668 - DEBUG - bfcv_007.py:1246 - save_to_cache - CACHED RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {"score": 85, "motivation": "Luisa ha una solida esperienza nelle competenze tecniche richieste, come content management e SEO, che sono fondamentali per il ruolo di Account Manager."},
+        "esperienza_rilevante": {"score": 70, "motivation": "Ha...
+2025-04-23 17:00:33,668 - INFO - bfcv_007.py:2137 - analyze_cv_openai - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-04-23 17:00:33,668 - INFO - bfcv_007.py:2145 - analyze_cv_openai - Trovata struttura con campo 'criteria': ['competenze_tecniche', 'esperienza_rilevante', 'formazione', 'problem_solving', 'leadership'] ...
+2025-04-23 17:00:33,668 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'competenze_tecniche'
+2025-04-23 17:00:33,668 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'competenze_tecniche' trovato: {"score": 85, "motivation": "Luisa ha una solida esperienza nelle competenze tecniche richieste, come content management e SEO, che sono fondamentali per il ruolo di Account Manager."}
+2025-04-23 17:00:33,669 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   competenze_tecniche - score grezzo: 85 - tipo: <class 'int'>
+2025-04-23 17:00:33,669 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   competenze_tecniche - peso: 25
+2025-04-23 17:00:33,669 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'esperienza_rilevante'
+2025-04-23 17:00:33,669 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'esperienza_rilevante' trovato: {"score": 70, "motivation": "Ha oltre 20 anni di esperienza nel settore della comunicazione, ma la sua esperienza specifica in agenzie di digital marketing \u00e8 limitata."}
+2025-04-23 17:00:33,669 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   esperienza_rilevante - score grezzo: 70 - tipo: <class 'int'>
+2025-04-23 17:00:33,669 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   esperienza_rilevante - peso: 25
+2025-04-23 17:00:33,669 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'formazione'
+2025-04-23 17:00:33,669 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'formazione' trovato: {"score": 90, "motivation": "Possiede un master in Corporate Communication e una laurea in Comunicazione e Pubblicit\u00e0, che sono altamente rilevanti per il ruolo."}
+2025-04-23 17:00:33,670 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   formazione - score grezzo: 90 - tipo: <class 'int'>
+2025-04-23 17:00:33,670 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   formazione - peso: 15
+2025-04-23 17:00:33,670 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'problem_solving'
+2025-04-23 17:00:33,670 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'problem_solving' trovato: {"score": 75, "motivation": "Ha dimostrato capacit\u00e0 di problem solving nella gestione di progetti complessi e nella pianificazione strategica."}
+2025-04-23 17:00:33,670 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   problem_solving - score grezzo: 75 - tipo: <class 'int'>
+2025-04-23 17:00:33,670 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   problem_solving - peso: 15
+2025-04-23 17:00:33,670 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'leadership'
+2025-04-23 17:00:33,670 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'leadership' trovato: {"score": 70, "motivation": "Ha ricoperto ruoli di responsabilit\u00e0 come Communication Manager, ma non ci sono evidenze di leadership diretta nel contesto di vendita."}
+2025-04-23 17:00:33,670 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   leadership - score grezzo: 70 - tipo: <class 'int'>
+2025-04-23 17:00:33,671 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   leadership - peso: 10
+2025-04-23 17:00:33,671 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'potenziale_crescita'
+2025-04-23 17:00:33,671 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'potenziale_crescita' trovato: {"score": 80, "motivation": "La sua vasta esperienza e formazione suggeriscono un buon potenziale di crescita nel settore del digital marketing."}
+2025-04-23 17:00:33,671 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   potenziale_crescita - score grezzo: 80 - tipo: <class 'int'>
+2025-04-23 17:00:33,672 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   potenziale_crescita - peso: 10
+2025-04-23 17:00:33,672 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'attitudine_al_new_business_e_commerciale'
+2025-04-23 17:00:33,672 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'attitudine_al_new_business_e_commerciale' trovato: {"score": 50, "motivation": "Non ha evidenze di esperienza diretta nella generazione di new business o in ruoli commerciali specifici."}
+2025-04-23 17:00:33,674 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   attitudine_al_new_business_e_commerciale - score grezzo: 50 - tipo: <class 'int'>
+2025-04-23 17:00:33,674 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   attitudine_al_new_business_e_commerciale - peso: 30
+2025-04-23 17:00:33,674 - INFO - bfcv_007.py:2152 - analyze_cv_openai - Elaborazione criterio 'esperienza_di_accounting_su_brand_non_locali'
+2025-04-23 17:00:33,674 - INFO - bfcv_007.py:2156 - analyze_cv_openai - Criterio 'esperienza_di_accounting_su_brand_non_locali' trovato: {"score": 60, "motivation": "Ha lavorato con brand noti, ma la sua esperienza di accounting su brand non locali \u00e8 limitata."}
+2025-04-23 17:00:33,674 - INFO - bfcv_007.py:2169 - analyze_cv_openai -   esperienza_di_accounting_su_brand_non_locali - score grezzo: 60 - tipo: <class 'int'>
+2025-04-23 17:00:33,675 - INFO - bfcv_007.py:2182 - analyze_cv_openai -   esperienza_di_accounting_su_brand_non_locali - peso: 30
+2025-04-23 17:00:33,675 - INFO - bfcv_007.py:2203 - analyze_cv_openai - Punteggio composito calcolato: 69 (= 11150.0 / 160)
+2025-04-23 17:00:33,675 - INFO - bfcv_007.py:2209 - analyze_cv_openai - Punteggio composito ricalcolato: 69 (media pesata con peso totale 160)
+2025-04-23 17:00:33,675 - INFO - bfcv_007.py:2213 - analyze_cv_openai - Punteggio composito originale: 71.25
+2025-04-23 17:00:49,062 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=d0ae0dc9...
+2025-04-23 17:00:49,062 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Giulia Pasquale 
+Data di nascita: 29/07/1991
+ Nazionalità: Italiana
+ Sesso: Femminile 
+ 
+Numero di telefono: (+39) 3407072789 (Cellulare) 
+Indirizzo e-mail: 
+pasquale_giulia@yahoo.com 
+ LinkedIn: 
+https://www.linkedin.com/in/gi...
+2025-04-23 17:00:49,064 - INFO - bfcv_007.py:1163 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=d0ae0dc9...
+2025-04-23 17:00:49,064 - INFO - bfcv_007.py:1164 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=d0ae0dc9...
+2025-04-23 17:01:27,240 - INFO - bfcv_007.py:1241 - save_to_cache - CACHE SAVE: Modello=openai-gpt-4o-mini, Hash=d0ae0dc9...
+2025-04-23 17:01:27,240 - DEBUG - bfcv_007.py:1246 - save_to_cache - CACHED RESPONSE (troncato): **Giulia Pasquale**  
+Data di nascita: 29/07/1991  
+Nazionalità: Italiana  
+Sesso: Femminile  
+
+**Contatti:**  
+Numero di telefono: (+39) 3407072789 (Cellulare)  
+Indirizzo e-mail: pasquale_giulia@yahoo.com  
+LinkedIn: [giulia-pasquale-b09937160](https://www.linkedin.com/in/giulia-pasquale-b09937160...
+2025-04-23 17:01:27,241 - INFO - bfcv_007.py:1863 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-04-23 17:01:27,241 - INFO - bfcv_007.py:1864 - analyze_cv_openai - Modello: gpt-4o-mini
+2025-04-23 17:01:27,241 - INFO - bfcv_007.py:1865 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Lingue conosciute', 'Legame con Firenze', 'Soft skills', 'Lingue straniere']
+2025-04-23 17:01:27,242 - INFO - bfcv_007.py:1866 - analyze_cv_openai - Job description (troncata): Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital marketing. 
+- Abbia una predisposizione o esperienza nella generazione di new business o come commerciale di agenzie di digital marketing
+- Abbia già un qualche legame con la città di lavoro, cioè Firenze, ovvero o abiti vicino, o ci abbia almeno studiato o lavorato, e quindi possa volerci tornare
+- Possibilmente sotto i 30 anni. 
+- Preferibilmente con un mas...
+2025-04-23 17:01:27,245 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=dc4b8e54...
+2025-04-23 17:01:27,246 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di dig...
+2025-04-23 17:01:27,246 - INFO - bfcv_007.py:1163 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=dc4b8e54...
+2025-04-23 17:01:27,246 - INFO - bfcv_007.py:1164 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=dc4b8e54...
+2025-04-23 17:01:55,620 - INFO - bfcv_007.py:1241 - save_to_cache - CACHE SAVE: Modello=openai-gpt-4o-mini, Hash=dc4b8e54...
+2025-04-23 17:01:55,620 - DEBUG - bfcv_007.py:1246 - save_to_cache - CACHED RESPONSE (troncato): {
+    "nome": "Giulia",
+    "cognome": "Pasquale",
+    "numero_di_contatto": "(+39) 3407072789",
+    "email": "pasquale_giulia@yahoo.com",
+    "età": 32,
+    "città_di_residenza": "Firenze",
+    "città_di_origine": "Non specificato",
+    "anni_di_esperienza_lavorativa": 3,
+    "anni_di_esperienza_la...
+2025-04-23 17:01:55,623 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=3d812306...
+2025-04-23 17:01:55,623 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Nome
+2. Cognome
+3. Numero di contatto
+4. Email
+5. Età
+6. Città di residenza
+7. Città di origine
+8. Anni di esperienza lavorativa
+9. Anni di esperienza lavorativa nel ruolo richiesto
+10. Master o assimilabile nel ruolo ric...
+2025-04-23 17:01:55,623 - INFO - bfcv_007.py:1163 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=3d812306...
+2025-04-23 17:01:55,623 - INFO - bfcv_007.py:1164 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=3d812306...
+2025-04-23 17:02:01,042 - INFO - bfcv_007.py:1241 - save_to_cache - CACHE SAVE: Modello=openai-gpt-4o-mini, Hash=3d812306...
+2025-04-23 17:02:01,042 - DEBUG - bfcv_007.py:1246 - save_to_cache - CACHED RESPONSE (troncato): {
+    "Nome": "Giulia",
+    "Cognome": "Pasquale",
+    "Numero di contatto": "(+39) 3407072789",
+    "Email": "pasquale_giulia@yahoo.com",
+    "Età": "32",
+    "Città di residenza": "Firenze",
+    "Città di origine": "Napoli",
+    "Anni di esperienza lavorativa": "6",
+    "Anni di esperienza lavorat...
+2025-04-23 17:02:01,046 - INFO - bfcv_007.py:1126 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=022ac194...
+2025-04-23 17:02:01,046 - DEBUG - bfcv_007.py:1130 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital mark...
+2025-04-23 17:02:01,047 - INFO - bfcv_007.py:1163 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=022ac194...
+2025-04-23 17:02:01,047 - INFO - bfcv_007.py:1164 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=022ac194...

@@ -1,0 +1,43 @@
+2025-03-26 16:53:54,473 - INFO - bfcv_007.py:2951 - setup_scores_logger - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-03-26 16:53:54,473 - INFO - bfcv_007.py:2952 - setup_scores_logger - Inizializzato logger di debug per i punteggi
+2025-03-26 16:53:54,474 - INFO - bfcv_007.py:2953 - setup_scores_logger - Python version: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-26 16:53:54,474 - INFO - bfcv_007.py:2954 - setup_scores_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-26 16:53:54,474 - INFO - bfcv_007.py:2955 - setup_scores_logger - Log file: D:\Progetti\BFCV\logs\scores_debug_20250326_165354.log
+2025-03-26 16:53:54,475 - INFO - bfcv_007.py:2957 - setup_scores_logger - Modello OpenAI configurato: phi4:latest
+2025-03-26 16:53:54,475 - INFO - bfcv_007.py:2959 - setup_scores_logger - Modello Ollama configurato: phi4:latest
+2025-03-26 16:53:54,475 - INFO - bfcv_007.py:2961 - setup_scores_logger - Uso Ollama: True
+2025-03-26 16:53:54,476 - INFO - bfcv_007.py:2963 - setup_scores_logger - Cache abilitata: True
+2025-03-26 16:53:54,476 - INFO - bfcv_007.py:3225 - main - Inizializzato logger di debug per i punteggi
+2025-03-26 16:53:54,595 - INFO - bfcv_007.py:2383 - normalize_dataframe - Normalizzazione DataFrame con colonne: ['Filename', 'Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM', 'Punteggio_composito', 'Competenze Tecniche', 'Esperienza Settoriale', 'Formazione', 'Problem Solving', 'Leadership', 'Potenziale', 'Programmazione php o python']
+2025-03-26 16:53:54,597 - INFO - bfcv_007.py:2392 - normalize_dataframe - Criteri di valutazione da considerare numerici: ['Competenze Tecniche', 'Esperienza Settoriale', 'Formazione', 'Problem Solving', 'Leadership', 'Potenziale', 'Programmazione php o python']
+2025-03-26 16:53:54,598 - INFO - bfcv_007.py:2398 - normalize_dataframe - Colonna 'Punteggio_composito' convertita in numerica
+2025-03-26 16:53:54,598 - INFO - bfcv_007.py:2406 - normalize_dataframe - Conversione criterio 'Competenze Tecniche' in numerico
+2025-03-26 16:53:54,599 - INFO - bfcv_007.py:2409 - normalize_dataframe - Esempi valori prima: [80.0, 60.0] (tipi: [<class 'float'>, <class 'float'>])
+2025-03-26 16:53:54,600 - INFO - bfcv_007.py:2416 - normalize_dataframe - Esempi valori dopo: [80.0, 60.0] (tipi: [<class 'float'>, <class 'float'>])
+2025-03-26 16:53:54,600 - INFO - bfcv_007.py:2406 - normalize_dataframe - Conversione criterio 'Esperienza Settoriale' in numerico
+2025-03-26 16:53:54,601 - INFO - bfcv_007.py:2409 - normalize_dataframe - Esempi valori prima: [90.0, 65.0] (tipi: [<class 'float'>, <class 'float'>])
+2025-03-26 16:53:54,602 - INFO - bfcv_007.py:2416 - normalize_dataframe - Esempi valori dopo: [90.0, 65.0] (tipi: [<class 'float'>, <class 'float'>])
+2025-03-26 16:53:54,602 - INFO - bfcv_007.py:2406 - normalize_dataframe - Conversione criterio 'Formazione' in numerico
+2025-03-26 16:53:54,602 - INFO - bfcv_007.py:2409 - normalize_dataframe - Esempi valori prima: [75.0, 70.0] (tipi: [<class 'float'>, <class 'float'>])
+2025-03-26 16:53:54,603 - INFO - bfcv_007.py:2416 - normalize_dataframe - Esempi valori dopo: [75.0, 70.0] (tipi: [<class 'float'>, <class 'float'>])
+2025-03-26 16:53:54,604 - INFO - bfcv_007.py:2406 - normalize_dataframe - Conversione criterio 'Problem Solving' in numerico
+2025-03-26 16:53:54,604 - INFO - bfcv_007.py:2409 - normalize_dataframe - Esempi valori prima: [75.0, 55.0] (tipi: [<class 'float'>, <class 'float'>])
+2025-03-26 16:53:54,604 - INFO - bfcv_007.py:2416 - normalize_dataframe - Esempi valori dopo: [75.0, 55.0] (tipi: [<class 'float'>, <class 'float'>])
+2025-03-26 16:53:54,606 - INFO - bfcv_007.py:2406 - normalize_dataframe - Conversione criterio 'Leadership' in numerico
+2025-03-26 16:53:54,606 - INFO - bfcv_007.py:2409 - normalize_dataframe - Esempi valori prima: [60.0, 50.0] (tipi: [<class 'float'>, <class 'float'>])
+2025-03-26 16:53:54,607 - INFO - bfcv_007.py:2416 - normalize_dataframe - Esempi valori dopo: [60.0, 50.0] (tipi: [<class 'float'>, <class 'float'>])
+2025-03-26 16:53:54,607 - INFO - bfcv_007.py:2406 - normalize_dataframe - Conversione criterio 'Potenziale' in numerico
+2025-03-26 16:53:54,607 - INFO - bfcv_007.py:2409 - normalize_dataframe - Esempi valori prima: [85.0, 75.0] (tipi: [<class 'float'>, <class 'float'>])
+2025-03-26 16:53:54,608 - INFO - bfcv_007.py:2416 - normalize_dataframe - Esempi valori dopo: [85.0, 75.0] (tipi: [<class 'float'>, <class 'float'>])
+2025-03-26 16:53:54,608 - INFO - bfcv_007.py:2406 - normalize_dataframe - Conversione criterio 'Programmazione php o python' in numerico
+2025-03-26 16:53:54,608 - INFO - bfcv_007.py:2409 - normalize_dataframe - Esempi valori prima: [30.0, 0.0] (tipi: [<class 'float'>, <class 'float'>])
+2025-03-26 16:53:54,609 - INFO - bfcv_007.py:2416 - normalize_dataframe - Esempi valori dopo: [30.0, 0.0] (tipi: [<class 'float'>, <class 'float'>])
+2025-03-26 16:53:54,610 - INFO - bfcv_007.py:2424 - normalize_dataframe - Colonne numeriche rilevate: ['Punteggio_composito', 'Competenze Tecniche', 'Esperienza Settoriale', 'Formazione', 'Problem Solving', 'Leadership', 'Potenziale', 'Programmazione php o python']
+2025-03-26 16:53:54,620 - INFO - bfcv_007.py:4119 - main - Controllo extra su colonne criteri prima di visualizzazione
+2025-03-26 16:53:54,620 - INFO - bfcv_007.py:4122 - main - Controllo criterio 'Competenze Tecniche'
+2025-03-26 16:53:54,621 - INFO - bfcv_007.py:4122 - main - Controllo criterio 'Esperienza Settoriale'
+2025-03-26 16:53:54,621 - INFO - bfcv_007.py:4122 - main - Controllo criterio 'Formazione'
+2025-03-26 16:53:54,623 - INFO - bfcv_007.py:4122 - main - Controllo criterio 'Problem Solving'
+2025-03-26 16:53:54,623 - INFO - bfcv_007.py:4122 - main - Controllo criterio 'Leadership'
+2025-03-26 16:53:54,624 - INFO - bfcv_007.py:4122 - main - Controllo criterio 'Potenziale'
+2025-03-26 16:53:54,624 - INFO - bfcv_007.py:4122 - main - Controllo criterio 'Programmazione php o python'

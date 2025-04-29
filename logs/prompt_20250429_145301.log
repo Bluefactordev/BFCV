@@ -1,0 +1,160 @@
+Data e ora: 2025-04-29 14:53:01
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\n\n\n---Estrazione OCR---\n+ Digital Marketing Professional\nNY ‘% Professionista in Digital Marketing specializzata nell'ottimizzazione delle\n~~ piattaforme digitali compresi i siti, la email, e Social Media per la pubblicita e le\n‘4 vendite. Prende costantemente in considerazione le esigenze del consumatore.\n‘ . Analitica e curiosa.\n10 anni di esperienza in Digital Marketing, Pubblicita, E-commerce Retail, Moda,\nMerce, Acquisti, e Vendite. Laureata presso il Polimoda e UCLA.\nContatti Experience\nCellulare Specialista in Digital Marketing\n+39 347 548 7779 Fabio Rusconi | Firenze, IT\n. 2024 Jan-Dec\nEmail Marketi E-C €12MM brand di Made in Ital\nlaurelamunn@gmail.com ° ar e ing e - ommerce per ran : | scarpe ade in aly .\n¢ Sviluppo, implementazione e monitoraggio di strategie marketing digitali,\nLinkedIn Social, ed email per presentare il brand ed incrementare le vendite\nlinkedin.com/in/laurelamunn ¢ Organizzazione del sito, scrivere le descrizioni di tutti i prodotti in inglese\nPosizione ¢ italiano\nCalenzano. Firenze. Italia ¢ Fotoshoot dei prodotti per la promozione delle collezioni stagionali e B2B\n¢ Gestione degli ordini, dalla conferma online al packaging e spedizione\nFormazione Specialista in Brand\n2022 Amazon | Seattle, WA, USA\nMA Design di Borse 2017-2019\nPolimoda | Firenze, Italia e Responsabile per $7MM e-commerce retail business\ne Gestione Buying, Marketing, Merchandising, e Strategia di business\n2019-2021 e Analisi e reportistica settimanale delle vendite\nAbbigliamento Design & Sviluppo ° Proiezione Open To Buy: entrate, costi, margine di profitto, turni di\ninventario\nSeattle Central College | WA . . os\ne Risultati conseguiti:\n2007-2012 o Aumento delle entrate +19%, e dei Profitti +27% (da 22 -> 28% di\nBA Sociologia, Globalizzazione & margine)\nEconomia o Aumento delle entrate di riporto +208% YoY (28% delle entrate totali)\nUCLA | Los Angeles, CA ottimizzando still e combinazioni di colori con l'analisi dei dati di\nvendita\n© Aumento dei ricavi promozionali del +130%\nCompetenze\ne Dati/ Social / Media Analisi Specialista in Marketing e Social Media\ne Strategia / Ricerca di Mercato aoa wane | Los Angeles, CA\ne Comunicazione & Social Media * Gestione dei siti e dei social media per 4 marchi privati di un distributore\ne Ideazione della campagna, Text del Sito di orologi\ne Aumento del 20% del traffico sui siti tramite collaborazioni con social\ne Communicazione & Pubblicita we\nmedia influencer\ne Adobe Photoshop, Illustrator, InDesign ¢ Creazione di narrazioni personalizzate per il marketing digitale secondo la\n; . ; strategia del segmento di mercato interessato\ne Microsoft Office Excel, Powerpoint\nAnalista di Media Digitali (Pubblicita)\nLingue Conill (Publicis Groupe) | Los Angeles, CA\nInglese Madrelingua, Business 2013-2015\n. . « Creazione di dashboard e scorecard per la visualizzazione dei dati\nItaliano B2 Competenza lavorativa fluente . . . . ; .\nNata: 1989 e Riduzione del 50% del tempo di elaborazione dati tramite Excel\nata: e Analitica del sito web ed allocazione della spesa di pubblicita’\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+
+
+---Estrazione OCR---
++ Digital Marketing Professional
+NY ‘% Professionista in Digital Marketing specializzata nell'ottimizzazione delle
+~~ piattaforme digitali compresi i siti, la email, e Social Media per la pubblicita e le
+‘4 vendite. Prende costantemente in considerazione le esigenze del consumatore.
+‘ . Analitica e curiosa.
+10 anni di esperienza in Digital Marketing, Pubblicita, E-commerce Retail, Moda,
+Merce, Acquisti, e Vendite. Laureata presso il Polimoda e UCLA.
+Contatti Experience
+Cellulare Specialista in Digital Marketing
++39 347 548 7779 Fabio Rusconi | Firenze, IT
+. 2024 Jan-Dec
+Email Marketi E-C €12MM brand di Made in Ital
+laurelamunn@gmail.com ° ar e ing e - ommerce per ran : | scarpe ade in aly .
+¢ Sviluppo, implementazione e monitoraggio di strategie marketing digitali,
+LinkedIn Social, ed email per presentare il brand ed incrementare le vendite
+linkedin.com/in/laurelamunn ¢ Organizzazione del sito, scrivere le descrizioni di tutti i prodotti in inglese
+Posizione ¢ italiano
+Calenzano. Firenze. Italia ¢ Fotoshoot dei prodotti per la promozione delle collezioni stagionali e B2B
+¢ Gestione degli ordini, dalla conferma online al packaging e spedizione
+Formazione Specialista in Brand
+2022 Amazon | Seattle, WA, USA
+MA Design di Borse 2017-2019
+Polimoda | Firenze, Italia e Responsabile per $7MM e-commerce retail business
+e Gestione Buying, Marketing, Merchandising, e Strategia di business
+2019-2021 e Analisi e reportistica settimanale delle vendite
+Abbigliamento Design & Sviluppo ° Proiezione Open To Buy: entrate, costi, margine di profitto, turni di
+inventario
+Seattle Central College | WA . . os
+e Risultati conseguiti:
+2007-2012 o Aumento delle entrate +19%, e dei Profitti +27% (da 22 -> 28% di
+BA Sociologia, Globalizzazione & margine)
+Economia o Aumento delle entrate di riporto +208% YoY (28% delle entrate totali)
+UCLA | Los Angeles, CA ottimizzando still e combinazioni di colori con l'analisi dei dati di
+vendita
+© Aumento dei ricavi promozionali del +130%
+Competenze
+e Dati/ Social / Media Analisi Specialista in Marketing e Social Media
+e Strategia / Ricerca di Mercato aoa wane | Los Angeles, CA
+e Comunicazione & Social Media * Gestione dei siti e dei social media per 4 marchi privati di un distributore
+e Ideazione della campagna, Text del Sito di orologi
+e Aumento del 20% del traffico sui siti tramite collaborazioni con social
+e Communicazione & Pubblicita we
+media influencer
+e Adobe Photoshop, Illustrator, InDesign ¢ Creazione di narrazioni personalizzate per il marketing digitale secondo la
+; . ; strategia del segmento di mercato interessato
+e Microsoft Office Excel, Powerpoint
+Analista di Media Digitali (Pubblicita)
+Lingue Conill (Publicis Groupe) | Los Angeles, CA
+Inglese Madrelingua, Business 2013-2015
+. . « Creazione di dashboard e scorecard per la visualizzazione dei dati
+Italiano B2 Competenza lavorativa fluente . . . . ; .
+Nata: 1989 e Riduzione del 50% del tempo di elaborazione dati tramite Excel
+ata: e Analitica del sito web ed allocazione della spesa di pubblicita’
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**Fabio Rusconi**  
+Firenze, IT  
+Cellulare: +39 347 548 7779  
+Email: laurelamunn@gmail.com  
+LinkedIn: linkedin.com/in/laurelamunn  
+
+---
+
+**Profilo Professionale**  
+Professionista in Digital Marketing specializzata nell'ottimizzazione delle piattaforme digitali, compresi i siti, l'email e i social media per la pubblicità e le vendite. Prende costantemente in considerazione le esigenze del consumatore. Analitica e curiosa, con 10 anni di esperienza in Digital Marketing, Pubblicità, E-commerce Retail, Moda, Merce, Acquisti e Vendite. Laureata presso il Polimoda e UCLA.
+
+---
+
+**Esperienza**  
+
+**Specialista in Digital Marketing**  
+E-C €12MM brand di Made in Italy  
+Gennaio 2024 - Dicembre 2024  
+- Sviluppo, implementazione e monitoraggio di strategie marketing digitali, social ed email per presentare il brand ed incrementare le vendite.  
+- Organizzazione del sito e scrittura delle descrizioni di tutti i prodotti in inglese e italiano.  
+- Fotoshoot dei prodotti per la promozione delle collezioni stagionali e B2B.  
+- Gestione degli ordini, dalla conferma online al packaging e spedizione.
+
+**Specialista in Brand**  
+Amazon | Seattle, WA, USA  
+2019 - 2021  
+- Responsabile per $7MM e-commerce retail business.  
+- Gestione Buying, Marketing, Merchandising e Strategia di business.  
+- Analisi e reportistica settimanale delle vendite.  
+- Proiezione Open To Buy: entrate, costi, margine di profitto, turni di inventario.  
+- Risultati conseguiti:  
+  - Aumento delle entrate +19% e dei Profitti +27% (da 22% a 28% di margine).  
+  - Aumento delle entrate di riporto +208% YoY (28% delle entrate totali) ottimizzando stile e combinazioni di colori con l'analisi dei dati di vendita.  
+  - Aumento dei ricavi promozionali del +130%.
+
+**Analista di Media Digitali (Pubblicità)**  
+Conill (Publicis Groupe) | Los Angeles, CA  
+2013 - 2015  
+- Creazione di dashboard e scorecard per la visualizzazione dei dati.  
+- Riduzione del 50% del tempo di elaborazione dati tramite Excel.  
+- Analitica del sito web ed allocazione della spesa pubblicitaria.
+
+---
+
+**Formazione**  
+
+**MA Design di Borse**  
+Polimoda | Firenze, Italia  
+2017 - 2019  
+
+**BA Sociologia, Globalizzazione & Economia**  
+UCLA | Los Angeles, CA  
+2007 - 2012  
+
+**Abbigliamento Design & Sviluppo**  
+Seattle Central College | WA  
+
+---
+
+**Competenze**  
+- Digital Marketing  
+- Social Media Management  
+- Analisi Dati  
+- Strategia di Mercato  
+- Comunicazione & Pubblicità  
+- Adobe Photoshop, Illustrator, InDesign  
+- Microsoft Office (Excel, PowerPoint)  
+
+---
+
+**Lingue**  
+- Inglese: Madrelingua, Business  
+- Italiano: B2 Competenza lavorativa fluente  
+
+---
+
+**Nato:** 1989  

@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Impruneta\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea Magistrale in Comunicazione Strategica\"\n}"

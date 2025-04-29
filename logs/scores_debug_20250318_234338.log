@@ -1,0 +1,182 @@
+2025-03-18 23:43:38,425 - INFO - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-03-18 23:43:38,425 - INFO - Inizializzato logger di debug per i punteggi
+2025-03-18 23:43:38,471 - INFO - ======================================== INIZIO ELABORAZIONE CV IN D:\Progetti\BFCV\CVS\Stage2025 ========================================
+2025-03-18 23:43:43,923 - INFO - Processando risultato per file: (Ita) Alessandro Anceschi - CV.pdf
+2025-03-18 23:43:43,924 - INFO - Punteggio composito grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,924 - INFO - Punteggio composito convertito: 50
+2025-03-18 23:43:43,925 - INFO - Criterio competenze_tecniche grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,927 - INFO - Criterio competenze_tecniche convertito: 50
+2025-03-18 23:43:43,927 - INFO - Criterio esperienza_rilevante grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,927 - INFO - Criterio esperienza_rilevante convertito: 50
+2025-03-18 23:43:43,927 - INFO - Criterio formazione grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,928 - INFO - Criterio formazione convertito: 50
+2025-03-18 23:43:43,928 - INFO - Criterio soft_skills grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,928 - INFO - Criterio soft_skills convertito: 50
+2025-03-18 23:43:43,928 - INFO - Criterio fit_culturale grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,928 - INFO - Criterio fit_culturale convertito: 50
+2025-03-18 23:43:43,928 - INFO - Criterio potenziale_crescita grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,928 - INFO - Criterio potenziale_crescita convertito: 50
+2025-03-18 23:43:43,928 - INFO - Criterio criteri_base grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,929 - INFO - Criterio criteri_base convertito: 50
+2025-03-18 23:43:43,929 - INFO - Criterio criteri_estesi grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,929 - INFO - Criterio criteri_estesi convertito: 50
+2025-03-18 23:43:43,929 - INFO - Criterio intuito grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,929 - INFO - Criterio intuito convertito: 50
+2025-03-18 23:43:43,929 - INFO - Riga DataFrame completa per (Ita) Alessandro Anceschi - CV.pdf: {'Filename': '(Ita) Alessandro Anceschi - CV.pdf', 'Nome': 'Alessandro', 'Cognome': 'Anceschi', 'Numero di contatto': '+39 3921956752', 'Email': 'alessandro.anceschi.21@gmail.com', 'Età': 'Circa 26 anni', 'Città di residenza': 'Roma', 'Città di origine': 'Roma', 'Anni di esperienza lavorativa': 'Circa 2 anni', 'Anni di esperienza lavorativa nel ruolo richiesto': 'Circa 1 anno', 'Master o assimilabile nel ruolo richiesto': 'Master di I Livello in Marketing Management', 'Università/Istituto': 'Unicusano', 'Posizione attuale': 'Digital Marketing Specialist', 'Datori di lavoro precedenti': ['Diadora', 'Silicon Drinkabout Rome', 'Minerva Digital Solutions', 'Annfas Roma Onlus'], 'Legame con Firenze': 'Nessun legame specificato', 'Soft skills': 'Creatività, capacità di lavorare in team, gestione del tempo', "Progetti personali o accademici relativi all'AI o al marketing digitale": 'Corso Digital Marketing', 'Conoscenza di pratiche SEO e SEM': 'Sì', 'Punteggio_composito': 50, 'Competenze Tecniche': 50, 'Esperienza Rilevante': 50, 'Formazione': 50, 'Soft Skills': 50, 'Fit Culturale': 50, 'Potenziale di Crescita': 50, 'Criteri Base': 50, 'Criteri Estesi': 50, 'Intuito': 50}
+2025-03-18 23:43:43,929 - INFO - Processando risultato per file: 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-18 23:43:43,930 - INFO - Punteggio composito grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,930 - INFO - Punteggio composito convertito: 50
+2025-03-18 23:43:43,930 - INFO - Criterio competenze_tecniche grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,930 - INFO - Criterio competenze_tecniche convertito: 50
+2025-03-18 23:43:43,930 - INFO - Criterio esperienza_rilevante grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,930 - INFO - Criterio esperienza_rilevante convertito: 50
+2025-03-18 23:43:43,931 - INFO - Criterio formazione grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,931 - INFO - Criterio formazione convertito: 50
+2025-03-18 23:43:43,931 - INFO - Criterio soft_skills grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,931 - INFO - Criterio soft_skills convertito: 50
+2025-03-18 23:43:43,931 - INFO - Criterio fit_culturale grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,933 - INFO - Criterio fit_culturale convertito: 50
+2025-03-18 23:43:43,933 - INFO - Criterio potenziale_crescita grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,933 - INFO - Criterio potenziale_crescita convertito: 50
+2025-03-18 23:43:43,933 - INFO - Criterio criteri_base grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,933 - INFO - Criterio criteri_base convertito: 50
+2025-03-18 23:43:43,934 - INFO - Criterio criteri_estesi grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,934 - INFO - Criterio criteri_estesi convertito: 50
+2025-03-18 23:43:43,935 - INFO - Criterio intuito grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,935 - INFO - Criterio intuito convertito: 50
+2025-03-18 23:43:43,935 - INFO - Riga DataFrame completa per 0_Rafael-Patron_AI_Program_Manager.pdf: {'Filename': '0_Rafael-Patron_AI_Program_Manager.pdf', 'Nome': 'RAFAEL', 'Cognome': 'PATRON', 'Numero di contatto': '+39 3313983284', 'Email': 'r@r4f.it', 'Età': '38', 'Città di residenza': 'Genova, Italia', 'Città di origine': 'Genova', 'Anni di esperienza lavorativa': '16', 'Anni di esperienza lavorativa nel ruolo richiesto': '16', 'Master o assimilabile nel ruolo richiesto': 'Sì', 'Università/Istituto': 'IED Milano', 'Posizione attuale': 'AI Program Manager & Growth Hacker', 'Datori di lavoro precedenti': 'Intarget, Unoenergy Spa, Virtus Entella, Dedagroup, Snap Inc., Wyscout, Google, Eurotraining', 'Legame con Firenze': 'Docente presso Fondazione Universitaria Firenze', 'Soft skills': 'Collaborazione, approccio data-driven, strategia orientata ai risultati', "Progetti personali o accademici relativi all'AI o al marketing digitale": "Sì (esperienza come AI Program Manager e partecipazione a corsi come 'Computer Science for Artificial Intelligence')", 'Conoscenza di pratiche SEO e SEM': 'Sì (esperienza come SEO Specialist e Digital Marketing Strategist)', 'Punteggio_composito': 50, 'Competenze Tecniche': 50, 'Esperienza Rilevante': 50, 'Formazione': 50, 'Soft Skills': 50, 'Fit Culturale': 50, 'Potenziale di Crescita': 50, 'Criteri Base': 50, 'Criteri Estesi': 50, 'Intuito': 50}
+2025-03-18 23:43:43,935 - INFO - Processando risultato per file: 2025 Resume.pdf.pdf
+2025-03-18 23:43:43,936 - INFO - Punteggio composito grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,936 - INFO - Punteggio composito convertito: 50
+2025-03-18 23:43:43,936 - INFO - Criterio competenze_tecniche grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,936 - INFO - Criterio competenze_tecniche convertito: 50
+2025-03-18 23:43:43,936 - INFO - Criterio esperienza_rilevante grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,937 - INFO - Criterio esperienza_rilevante convertito: 50
+2025-03-18 23:43:43,937 - INFO - Criterio formazione grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,937 - INFO - Criterio formazione convertito: 50
+2025-03-18 23:43:43,938 - INFO - Criterio soft_skills grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,938 - INFO - Criterio soft_skills convertito: 50
+2025-03-18 23:43:43,938 - INFO - Criterio fit_culturale grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,938 - INFO - Criterio fit_culturale convertito: 50
+2025-03-18 23:43:43,938 - INFO - Criterio potenziale_crescita grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,938 - INFO - Criterio potenziale_crescita convertito: 50
+2025-03-18 23:43:43,938 - INFO - Criterio criteri_base grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,938 - INFO - Criterio criteri_base convertito: 50
+2025-03-18 23:43:43,938 - INFO - Criterio criteri_estesi grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,939 - INFO - Criterio criteri_estesi convertito: 50
+2025-03-18 23:43:43,939 - INFO - Criterio intuito grezzo: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,939 - INFO - Criterio intuito convertito: 50
+2025-03-18 23:43:43,940 - INFO - Riga DataFrame completa per 2025 Resume.pdf.pdf: {'Filename': '2025 Resume.pdf.pdf', 'Nome': 'Julie', 'Cognome': 'Miller', 'Numero di contatto': '781-608-2292', 'Email': 'juliemiller0303@gmail.com', 'Età': "Stima di circa 28-30 anni (considerando la formazione e l'esperienza lavorativa)", 'Città di residenza': 'Firenze', 'Città di origine': 'Non specificato, ma presume origine statunitense', 'Anni di esperienza lavorativa': 'Circa 1 anno (2023-Present e 2024-Present)', 'Anni di esperienza lavorativa nel ruolo richiesto': 'Circa 1 anno (in ruoli di content strategist e social media manager)', 'Master o assimilabile nel ruolo richiesto': 'M.A. Fashion Styling, Creative Direction & Digital Content', 'Università/Istituto': 'Istituto Marangoni Firenze', 'Posizione attuale': 'Founder & Content Strategist', 'Datori di lavoro precedenti': 'Officina di Santa Maria Novella, Bus2Alps', 'Legame con Firenze': "Ha studiato all'Istituto Marangoni Firenze", 'Soft skills': 'Creatività, capacità di storytelling, capacità di engagement', "Progetti personali o accademici relativi all'AI o al marketing digitale": 'Non specificato, ma utilizza Adobe Creative Suite & AI-Powered Design', 'Conoscenza di pratiche SEO e SEM': 'Sì', 'Punteggio_composito': 50, 'Competenze Tecniche': 50, 'Esperienza Rilevante': 50, 'Formazione': 50, 'Soft Skills': 50, 'Fit Culturale': 50, 'Potenziale di Crescita': 50, 'Criteri Base': 50, 'Criteri Estesi': 50, 'Intuito': 50}
+2025-03-18 23:43:43,941 - INFO - VALORI PUNTEGGI NEL DATAFRAME PRIMA DELLA NORMALIZZAZIONE:
+2025-03-18 23:43:43,943 - INFO - File: (Ita) Alessandro Anceschi - CV.pdf
+2025-03-18 23:43:43,943 - INFO -   Punteggio composito: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,944 - INFO -   Competenze Tecniche: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,944 - INFO -   Esperienza Rilevante: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,944 - INFO -   Formazione: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,945 - INFO -   Soft Skills: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,945 - INFO -   Fit Culturale: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,945 - INFO -   Potenziale di Crescita: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,945 - INFO -   Criteri Base: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,946 - INFO -   Criteri Estesi: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,946 - INFO -   Intuito: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,946 - INFO - File: 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-18 23:43:43,946 - INFO -   Punteggio composito: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,946 - INFO -   Competenze Tecniche: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,946 - INFO -   Esperienza Rilevante: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,947 - INFO -   Formazione: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,947 - INFO -   Soft Skills: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,947 - INFO -   Fit Culturale: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,947 - INFO -   Potenziale di Crescita: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,947 - INFO -   Criteri Base: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,947 - INFO -   Criteri Estesi: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,949 - INFO -   Intuito: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,949 - INFO - File: 2025 Resume.pdf.pdf
+2025-03-18 23:43:43,949 - INFO -   Punteggio composito: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,949 - INFO -   Competenze Tecniche: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,949 - INFO -   Esperienza Rilevante: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,949 - INFO -   Formazione: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,949 - INFO -   Soft Skills: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,949 - INFO -   Fit Culturale: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,949 - INFO -   Potenziale di Crescita: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,949 - INFO -   Criteri Base: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,949 - INFO -   Criteri Estesi: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,952 - INFO -   Intuito: 50 (tipo: <class 'int'>)
+2025-03-18 23:43:43,952 - INFO - ==================== INIZIO NORMALIZZAZIONE DATAFRAME ====================
+2025-03-18 23:43:43,952 - INFO - Colonne nel DataFrame originale: ['Filename', 'Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Soft skills', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM', 'Punteggio_composito', 'Competenze Tecniche', 'Esperienza Rilevante', 'Formazione', 'Soft Skills', 'Fit Culturale', 'Potenziale di Crescita', 'Criteri Base', 'Criteri Estesi', 'Intuito']
+2025-03-18 23:43:43,953 - INFO - Valori originali per Punteggio_composito: [50, 50, 50]
+2025-03-18 23:43:43,954 - INFO - Tipi per Punteggio_composito: {<class 'int'>: 3}
+2025-03-18 23:43:43,956 - INFO - Valori originali per Competenze Tecniche: [50, 50, 50]
+2025-03-18 23:43:43,956 - INFO - Tipi per Competenze Tecniche: {<class 'int'>: 3}
+2025-03-18 23:43:43,956 - INFO - Valori originali per Esperienza Rilevante: [50, 50, 50]
+2025-03-18 23:43:43,957 - INFO - Tipi per Esperienza Rilevante: {<class 'int'>: 3}
+2025-03-18 23:43:43,957 - INFO - Valori originali per Formazione: [50, 50, 50]
+2025-03-18 23:43:43,958 - INFO - Tipi per Formazione: {<class 'int'>: 3}
+2025-03-18 23:43:43,958 - INFO - Valori originali per Soft Skills: [50, 50, 50]
+2025-03-18 23:43:43,959 - INFO - Tipi per Soft Skills: {<class 'int'>: 3}
+2025-03-18 23:43:43,959 - INFO - Valori originali per Fit Culturale: [50, 50, 50]
+2025-03-18 23:43:43,960 - INFO - Tipi per Fit Culturale: {<class 'int'>: 3}
+2025-03-18 23:43:43,960 - INFO - Valori originali per Potenziale di Crescita: [50, 50, 50]
+2025-03-18 23:43:43,961 - INFO - Tipi per Potenziale di Crescita: {<class 'int'>: 3}
+2025-03-18 23:43:43,961 - INFO - Valori originali per Criteri Base: [50, 50, 50]
+2025-03-18 23:43:43,961 - INFO - Tipi per Criteri Base: {<class 'int'>: 3}
+2025-03-18 23:43:43,962 - INFO - Valori originali per Criteri Estesi: [50, 50, 50]
+2025-03-18 23:43:43,962 - INFO - Tipi per Criteri Estesi: {<class 'int'>: 3}
+2025-03-18 23:43:43,962 - INFO - Valori originali per Intuito: [50, 50, 50]
+2025-03-18 23:43:43,963 - INFO - Tipi per Intuito: {<class 'int'>: 3}
+2025-03-18 23:43:43,968 - INFO - Normalizzazione colonna di punteggio: Punteggio_composito
+2025-03-18 23:43:43,969 - INFO - Normalizzazione colonna di punteggio: Competenze Tecniche
+2025-03-18 23:43:43,970 - INFO - Normalizzazione colonna di punteggio: Esperienza Rilevante
+2025-03-18 23:43:43,970 - INFO - Normalizzazione colonna di punteggio: Formazione
+2025-03-18 23:43:43,971 - INFO - Normalizzazione colonna di punteggio: Soft Skills
+2025-03-18 23:43:43,971 - INFO - Normalizzazione colonna di punteggio: Fit Culturale
+2025-03-18 23:43:43,972 - INFO - Normalizzazione colonna di punteggio: Potenziale di Crescita
+2025-03-18 23:43:43,973 - INFO - Normalizzazione colonna di punteggio: Criteri Base
+2025-03-18 23:43:43,974 - INFO - Normalizzazione colonna di punteggio: Criteri Estesi
+2025-03-18 23:43:43,974 - INFO - Normalizzazione colonna di punteggio: Intuito
+2025-03-18 23:43:43,981 - INFO - ==================== PUNTEGGI DOPO NORMALIZZAZIONE ====================
+2025-03-18 23:43:43,981 - INFO - Valori finali per Punteggio_composito: ['50', '50', '50']
+2025-03-18 23:43:43,981 - INFO - Valori finali per Competenze Tecniche: ['50', '50', '50']
+2025-03-18 23:43:43,982 - INFO - Valori finali per Esperienza Rilevante: ['50', '50', '50']
+2025-03-18 23:43:43,982 - INFO - Valori finali per Formazione: ['50', '50', '50']
+2025-03-18 23:43:43,982 - INFO - Valori finali per Soft Skills: ['50', '50', '50']
+2025-03-18 23:43:43,982 - INFO - Valori finali per Fit Culturale: ['50', '50', '50']
+2025-03-18 23:43:43,983 - INFO - Valori finali per Potenziale di Crescita: ['50', '50', '50']
+2025-03-18 23:43:43,983 - INFO - Valori finali per Criteri Base: ['50', '50', '50']
+2025-03-18 23:43:43,983 - INFO - Valori finali per Criteri Estesi: ['50', '50', '50']
+2025-03-18 23:43:43,983 - INFO - Valori finali per Intuito: ['50', '50', '50']
+2025-03-18 23:43:43,983 - INFO - ==================== FINE NORMALIZZAZIONE DATAFRAME ====================
+2025-03-18 23:43:43,984 - INFO - VALORI PUNTEGGI NEL DATAFRAME DOPO LA NORMALIZZAZIONE:
+2025-03-18 23:43:43,984 - INFO - File: (Ita) Alessandro Anceschi - CV.pdf
+2025-03-18 23:43:43,984 - INFO -   Punteggio composito: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,984 - INFO -   Competenze Tecniche: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,984 - INFO -   Esperienza Rilevante: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,984 - INFO -   Formazione: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,984 - INFO -   Soft Skills: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,986 - INFO -   Fit Culturale: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,986 - INFO -   Potenziale di Crescita: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,986 - INFO -   Criteri Base: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,987 - INFO -   Criteri Estesi: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,987 - INFO -   Intuito: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,987 - INFO - File: 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-18 23:43:43,987 - INFO -   Punteggio composito: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,987 - INFO -   Competenze Tecniche: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,987 - INFO -   Esperienza Rilevante: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,988 - INFO -   Formazione: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,988 - INFO -   Soft Skills: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,988 - INFO -   Fit Culturale: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,988 - INFO -   Potenziale di Crescita: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,988 - INFO -   Criteri Base: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,988 - INFO -   Criteri Estesi: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,988 - INFO -   Intuito: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,990 - INFO - File: 2025 Resume.pdf.pdf
+2025-03-18 23:43:43,990 - INFO -   Punteggio composito: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,990 - INFO -   Competenze Tecniche: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,990 - INFO -   Esperienza Rilevante: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,990 - INFO -   Formazione: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,990 - INFO -   Soft Skills: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,990 - INFO -   Fit Culturale: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,992 - INFO -   Potenziale di Crescita: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,992 - INFO -   Criteri Base: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,992 - INFO -   Criteri Estesi: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,992 - INFO -   Intuito: 50 (tipo: <class 'str'>)
+2025-03-18 23:43:43,992 - INFO - ======================================== FINE ELABORAZIONE CV ========================================

@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Bologna\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea Specialistica in Direzione Aziendale\",\n    \"Legame con Firenze\": \"Non specificato, ma potrebbe essere associato a opportunità lavorative o di formazione\"\n}"

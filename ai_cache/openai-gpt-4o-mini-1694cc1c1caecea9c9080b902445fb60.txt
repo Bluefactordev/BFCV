@@ -1,0 +1,1 @@
+"{\n    \"Età\": 39,\n    \"Città di residenza\": \"Genova\",\n    \"Città di origine\": \"Genova\",\n    \"Anni di esperienza lavorativa\": 9,\n    \"Legame con Firenze\": \"Nessuno esplicito, ma possibile legame attraverso la formazione o esperienze lavorative\",\n    \"Età espressa in anni\": 39\n}"

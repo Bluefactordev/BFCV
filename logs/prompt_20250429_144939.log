@@ -1,0 +1,240 @@
+Data e ora: 2025-04-29 14:49:39
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nALICE \nGIOMBINI\nSocial Media & Event Planner\nCONTATTI\nCellulare: 3920067811\nEmail: giombinialice@gmail.com\nIndirizzo: Viale Gramsci 54, 50031\n                   Barberino di Mugello\nCOMPETENZE\nAbilità in pianificazione strategica\nSpiccata abilità nella gestione e\nprogrammazione\nAbilità in pianificazione strategica\nSpiccata abilità nella gestion\ne e programmazione\nOttime doti comunicative\nCapacità decisionali e problem solving\nConoscenze in digital e social media marketing\nOttime capacità di lavoro in team\nInglese: B1\nItaliano: madrelingua\nInglese: B1\nESPERIENZE PROFESSIONALI\nSocial Media Menager & Content Marketing\nUniversità di Bologna, 2021-2024\nCampus di Rimini\nCompetenze acquisite: marketing e comunicazione per la moda e luxury, organizzazione aziendale e gestione sostenibile, pianificazione e gestione di eventi, creazione di siti web e gestione dei social media.\nTitolo tesi: Quanto L’Immagine Conta: Strategie e Applicazioni di Rebranding nella Moda, la Visione di Alessandro Michele \nGestione delle campagne pubblicitarie ed eventi\nMita Acadmy, 2019-2022\nFirenze\n2024 - Presente\nIstituto Benvenuto Cellini Tornabuoni, 2013-2018\nFirenze\nGestione dei tempi durante l’evento\nGestione del personale\nDigiflò Agenzia Pubblicitaria - Borgo San Lorenzo\n2024 - Presente\nGestione dei social media\nIdeazione e creazione di contenuti\nPianificazione e pubblicazione\nMonitoraggio delle performance\nGestione delle campagne pubblicitarie ed eventi\nAggiornamento e ricerca delle tendenze\nDiploma Tecnico Superiore in Evolution Textile Italian\nCompetences\nProduction Code - Firenze\n2024\nIdeazione e creazione di contenuti\nMonitoraggio delle performance\nIdeazione delle campagne pubblicitarie ed eventi\nAggiornamento e ricerca delle tendenze\nCampus di Rimini\nArno Finanziaria - Firenze\n2017-2024\nOrganizzazione del lavoro \nGestione dei tempi durante l’evento\nGestione del personale\nAccoglienza clienti\nCura allestimento\nSelezione dei materiali\nil Borgo Cashmere - Borgo San Lorenzo\n2022\nPelezione dei materiali\nControllo qualità\nGestione del processo produttivo\nPratiche sostenibili\nMonitoraggio della produzione\nIdeazione e creazione di contenuti\nBarberino Designer Outlet\n2018-2022\nAllestimento vetrine e negozio\nVendita assistita e assistenza post vendita\nGestione magazzino e cassa\n\n\n---Estrazione OCR---\nFORMAZIONE\n' Laurea Triennale in Culture e Pratiche della Moda\nUniversita di Bologna, 2021-2024\nCampus di Rimini\nf : @ S Competenze acquisite: marketing e comunicazione per la moda e luxury,\nse organizzazione aziendale e gestione sostenibile, pianificazione e gestione\nre) ; di eventi, creazione di siti web e gestione dei social media.\nTitolo tesi: Quanto L’immagine Conta: Strategie e Applicazioni di\nq Rebranding nella Moda, la Visione di Alessandro Michele\nte - Diploma Tecnico Superiore in Evolution Textile Italian\n<— s Competences\n| Mita Acadmy, 2019-2022\n\" Firenze\n. Diploma Superiore in Prodotto Moda\nIstituto Benvenuto Cellini Tornabuoni, 2013-2018\n. ‘ Firenze\nALICE ESPERIENZE PROFESSIONALI\nSocial Media Menager & Content Marketing\nGIOMBI N | Digiflé Agenzia Pubblicitaria - Borgo San Lorenzo\n2024 - Presente\nSocial Media & Event Planner . Gestione del social media ;\n« Ideazione e creazione di contenuti\n« Pianificazione e pubblicazione\n« Monitoraggio delle performance\n* Gestione delle campagne pubblicitarie ed eventi\nDATA DI NASCITA ¢ Aggiornamento e ricerca delle tendenze\n21/09/1999 Content Marketing (Internship)\nProduction Code - Firenze\nCONTATTI 2024\ne Ideazione e creazione di contenuti\nCellulare: 3920067811 * Monitoraggio delle performance\nEmail: giombinialice@gmail.com e Ideazione delle campagne pubblicitarie ed eventi\nIndirizzo: Viale Gramsci 54, 50031 e Aggiornamento e ricerca delle tendenze\nBarberino di Mugello\nEvent & Wedding Planner\nArno Finanziaria - Firenze\nCOMPETENZE 2017-2024\ne Abilita in pianificazione strategica ° Organizzazione del lavoro\n. es ; ¢ Gestione dei tempi durante ’evento\ne Spiccata abilita nella gestione e * Gestione del personale\nprogrammazione * Accoglienza clienti\n¢ Ottime doti comunicative * Cura allestimento\ne Capacita decisionali e problem\nsolving Textile Production Technician (Internship)\ne Conoscenze in digital e social il Borgo Cashmere - Borgo San Lorenzo\nmedia marketing 2022\ne Ottime capacita di lavoro in team * Selezione dei materiali\n¢ Controllo qualita\n¢ Gestione del processo produttivo\nLINGUE e Pratiche sostenibili\n¢ Monitoraggio della produzione\nItaliano: madrelingua\ninglese: B1 Sales Assistant\nBarberino Designer Outlet\n2018-2022\ne Allestimento vetrine e negozio\n¢ Vendita assistita e assistenza post vendita\n¢ Gestione magazzino e cassa\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+ALICE 
+GIOMBINI
+Social Media & Event Planner
+CONTATTI
+Cellulare: 3920067811
+Email: giombinialice@gmail.com
+Indirizzo: Viale Gramsci 54, 50031
+                   Barberino di Mugello
+COMPETENZE
+Abilità in pianificazione strategica
+Spiccata abilità nella gestione e
+programmazione
+Abilità in pianificazione strategica
+Spiccata abilità nella gestion
+e e programmazione
+Ottime doti comunicative
+Capacità decisionali e problem solving
+Conoscenze in digital e social media marketing
+Ottime capacità di lavoro in team
+Inglese: B1
+Italiano: madrelingua
+Inglese: B1
+ESPERIENZE PROFESSIONALI
+Social Media Menager & Content Marketing
+Università di Bologna, 2021-2024
+Campus di Rimini
+Competenze acquisite: marketing e comunicazione per la moda e luxury, organizzazione aziendale e gestione sostenibile, pianificazione e gestione di eventi, creazione di siti web e gestione dei social media.
+Titolo tesi: Quanto L’Immagine Conta: Strategie e Applicazioni di Rebranding nella Moda, la Visione di Alessandro Michele 
+Gestione delle campagne pubblicitarie ed eventi
+Mita Acadmy, 2019-2022
+Firenze
+2024 - Presente
+Istituto Benvenuto Cellini Tornabuoni, 2013-2018
+Firenze
+Gestione dei tempi durante l’evento
+Gestione del personale
+Digiflò Agenzia Pubblicitaria - Borgo San Lorenzo
+2024 - Presente
+Gestione dei social media
+Ideazione e creazione di contenuti
+Pianificazione e pubblicazione
+Monitoraggio delle performance
+Gestione delle campagne pubblicitarie ed eventi
+Aggiornamento e ricerca delle tendenze
+Diploma Tecnico Superiore in Evolution Textile Italian
+Competences
+Production Code - Firenze
+2024
+Ideazione e creazione di contenuti
+Monitoraggio delle performance
+Ideazione delle campagne pubblicitarie ed eventi
+Aggiornamento e ricerca delle tendenze
+Campus di Rimini
+Arno Finanziaria - Firenze
+2017-2024
+Organizzazione del lavoro 
+Gestione dei tempi durante l’evento
+Gestione del personale
+Accoglienza clienti
+Cura allestimento
+Selezione dei materiali
+il Borgo Cashmere - Borgo San Lorenzo
+2022
+Pelezione dei materiali
+Controllo qualità
+Gestione del processo produttivo
+Pratiche sostenibili
+Monitoraggio della produzione
+Ideazione e creazione di contenuti
+Barberino Designer Outlet
+2018-2022
+Allestimento vetrine e negozio
+Vendita assistita e assistenza post vendita
+Gestione magazzino e cassa
+
+
+---Estrazione OCR---
+FORMAZIONE
+' Laurea Triennale in Culture e Pratiche della Moda
+Universita di Bologna, 2021-2024
+Campus di Rimini
+f : @ S Competenze acquisite: marketing e comunicazione per la moda e luxury,
+se organizzazione aziendale e gestione sostenibile, pianificazione e gestione
+re) ; di eventi, creazione di siti web e gestione dei social media.
+Titolo tesi: Quanto L’immagine Conta: Strategie e Applicazioni di
+q Rebranding nella Moda, la Visione di Alessandro Michele
+te - Diploma Tecnico Superiore in Evolution Textile Italian
+<— s Competences
+| Mita Acadmy, 2019-2022
+" Firenze
+. Diploma Superiore in Prodotto Moda
+Istituto Benvenuto Cellini Tornabuoni, 2013-2018
+. ‘ Firenze
+ALICE ESPERIENZE PROFESSIONALI
+Social Media Menager & Content Marketing
+GIOMBI N | Digiflé Agenzia Pubblicitaria - Borgo San Lorenzo
+2024 - Presente
+Social Media & Event Planner . Gestione del social media ;
+« Ideazione e creazione di contenuti
+« Pianificazione e pubblicazione
+« Monitoraggio delle performance
+* Gestione delle campagne pubblicitarie ed eventi
+DATA DI NASCITA ¢ Aggiornamento e ricerca delle tendenze
+21/09/1999 Content Marketing (Internship)
+Production Code - Firenze
+CONTATTI 2024
+e Ideazione e creazione di contenuti
+Cellulare: 3920067811 * Monitoraggio delle performance
+Email: giombinialice@gmail.com e Ideazione delle campagne pubblicitarie ed eventi
+Indirizzo: Viale Gramsci 54, 50031 e Aggiornamento e ricerca delle tendenze
+Barberino di Mugello
+Event & Wedding Planner
+Arno Finanziaria - Firenze
+COMPETENZE 2017-2024
+e Abilita in pianificazione strategica ° Organizzazione del lavoro
+. es ; ¢ Gestione dei tempi durante ’evento
+e Spiccata abilita nella gestione e * Gestione del personale
+programmazione * Accoglienza clienti
+¢ Ottime doti comunicative * Cura allestimento
+e Capacita decisionali e problem
+solving Textile Production Technician (Internship)
+e Conoscenze in digital e social il Borgo Cashmere - Borgo San Lorenzo
+media marketing 2022
+e Ottime capacita di lavoro in team * Selezione dei materiali
+¢ Controllo qualita
+¢ Gestione del processo produttivo
+LINGUE e Pratiche sostenibili
+¢ Monitoraggio della produzione
+Italiano: madrelingua
+inglese: B1 Sales Assistant
+Barberino Designer Outlet
+2018-2022
+e Allestimento vetrine e negozio
+¢ Vendita assistita e assistenza post vendita
+¢ Gestione magazzino e cassa
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**ALICE GIOMBINI**  
+Social Media & Event Planner  
+
+**CONTATTI**  
+Cellulare: 3920067811  
+Email: giombinialice@gmail.com  
+Indirizzo: Viale Gramsci 54, 50031 Barberino di Mugello  
+
+**COMPETENZE**  
+- Abilità in pianificazione strategica  
+- Spiccata abilità nella gestione e programmazione  
+- Ottime doti comunicative  
+- Capacità decisionali e problem solving  
+- Conoscenze in digital e social media marketing  
+- Ottime capacità di lavoro in team  
+- Inglese: B1  
+- Italiano: madrelingua  
+
+**ESPERIENZE PROFESSIONALI**  
+
+**Social Media Manager & Content Marketing**  
+Digiflò Agenzia Pubblicitaria - Borgo San Lorenzo  
+2024 - Presente  
+- Gestione dei social media  
+- Ideazione e creazione di contenuti  
+- Pianificazione e pubblicazione  
+- Monitoraggio delle performance  
+- Gestione delle campagne pubblicitarie ed eventi  
+- Aggiornamento e ricerca delle tendenze  
+
+**Content Marketing (Internship)**  
+Production Code - Firenze  
+2024  
+- Ideazione e creazione di contenuti  
+- Monitoraggio delle performance  
+- Ideazione delle campagne pubblicitarie ed eventi  
+- Aggiornamento e ricerca delle tendenze  
+
+**Event & Wedding Planner**  
+Arno Finanziaria - Firenze  
+2017-2024  
+- Organizzazione del lavoro  
+- Gestione dei tempi durante l’evento  
+- Gestione del personale  
+- Accoglienza clienti  
+- Cura allestimento  
+
+**Textile Production Technician (Internship)**  
+il Borgo Cashmere - Borgo San Lorenzo  
+2022  
+- Selezione dei materiali  
+- Controllo qualità  
+- Gestione del processo produttivo  
+- Pratiche sostenibili  
+- Monitoraggio della produzione  
+
+**Sales Assistant**  
+Barberino Designer Outlet  
+2018-2022  
+- Allestimento vetrine e negozio  
+- Vendita assistita e assistenza post vendita  
+- Gestione magazzino e cassa  
+
+**FORMAZIONE**  
+
+**Laurea Triennale in Culture e Pratiche della Moda**  
+Università di Bologna, 2021-2024  
+Campus di Rimini  
+- Competenze acquisite: marketing e comunicazione per la moda e luxury, organizzazione aziendale e gestione sostenibile, pianificazione e gestione di eventi, creazione di siti web e gestione dei social media.  
+- Titolo tesi: Quanto L’immagine Conta: Strategie e Applicazioni di Rebranding nella Moda, la Visione di Alessandro Michele  
+
+**Diploma Tecnico Superiore in Evolution Textile Italian Competences**  
+Mita Acadmy, 2019-2022  
+Firenze  
+
+**Diploma Superiore in Prodotto Moda**  
+Istituto Benvenuto Cellini Tornabuoni, 2013-2018  
+Firenze  

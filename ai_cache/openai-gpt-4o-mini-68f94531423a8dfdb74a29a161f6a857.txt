@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Roma\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2 anni\",\n    \"Legame con Firenze\": \"Non specificato, ma la formazione e le esperienze lavorative non menzionano un legame diretto con Firenze.\"\n}"

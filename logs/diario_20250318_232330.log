@@ -1,0 +1,59 @@
+2025-03-18 23:23:30,533 - INFO - bfcv_007.py:2246 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-03-18 23:23:30,533 - INFO - bfcv_007.py:2247 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-18 23:23:30,534 - INFO - bfcv_007.py:2248 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-18 23:23:30,534 - INFO - bfcv_007.py:2249 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-03-18 23:23:30,534 - INFO - bfcv_007.py:2250 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-03-18 23:23:30,588 - INFO - bfcv_007.py:2566 - main - Avvio analisi dei CV con process_cvs
+2025-03-18 23:23:30,589 - INFO - bfcv_007.py:1935 - process_cvs - Inizio elaborazione CV nella directory: D:\Progetti\BFCV\CVS\Stage2025
+2025-03-18 23:23:30,589 - INFO - bfcv_007.py:1936 - process_cvs - Campi selezionati: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Soft skills', 'Competenze in linguaggi di programmazione (es. Python, JavaScript)', 'Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)', 'Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM']
+2025-03-18 23:23:30,592 - INFO - bfcv_007.py:1944 - process_cvs - Trovati 172 file PDF nella directory
+2025-03-18 23:23:30,592 - INFO - bfcv_007.py:1953 - process_cvs - Limitando l'analisi ai primi 3 CV (su 172 totali)
+2025-03-18 23:23:30,593 - INFO - bfcv_007.py:1959 - process_cvs - Utilizzo OpenAI: True
+2025-03-18 23:23:30,593 - INFO - bfcv_007.py:1973 - process_cvs - Utilizzo OpenAI - Modello: gpt-4o-mini
+2025-03-18 23:23:30,594 - INFO - bfcv_007.py:1994 - process_cvs - Inizio analisi di 3 file PDF
+2025-03-18 23:23:30,594 - INFO - bfcv_007.py:1998 - process_cvs - [1/3] Analisi di (Ita) Alessandro Anceschi - CV.pdf...
+2025-03-18 23:23:30,595 - INFO - bfcv_007.py:2008 - process_cvs - Estrazione testo da (Ita) Alessandro Anceschi - CV.pdf
+2025-03-18 23:23:31,450 - DEBUG - bfcv_007.py:2010 - process_cvs - Lunghezza testo diretto: 1402, testo OCR: 1737
+2025-03-18 23:23:31,450 - INFO - bfcv_007.py:2015 - process_cvs - Combinazione testi con OpenAI per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-18 23:23:31,960 - INFO - bfcv_007.py:2033 - process_cvs - Inizio analisi contenuto CV per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-18 23:23:31,960 - INFO - bfcv_007.py:1325 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-18 23:23:31,964 - INFO - bfcv_007.py:1359 - analyze_cv_openai - Utilizzando risposta dalla cache per l'estrazione principale
+2025-03-18 23:23:31,964 - INFO - bfcv_007.py:1429 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-03-18 23:23:31,964 - INFO - bfcv_007.py:1081 - refine_missing_fields - Affinamento di 9 campi mancanti: Età, Città di origine, Anni di esperienza lavorativa nel ruolo richiesto, Legame con Firenze, Soft skills, Competenze in linguaggi di programmazione (es. Python, JavaScript), Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager), Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp), Progetti personali o accademici relativi all'AI o al marketing digitale
+2025-03-18 23:23:31,967 - INFO - bfcv_007.py:1187 - refine_missing_fields - Usando risposta dalla cache per il raffinamento dei campi mancanti
+2025-03-18 23:23:31,967 - INFO - bfcv_007.py:1440 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-03-18 23:23:31,971 - INFO - bfcv_007.py:1500 - analyze_cv_openai - Utilizzando risposta dalla cache per la valutazione
+2025-03-18 23:23:31,973 - INFO - bfcv_007.py:2049 - process_cvs - Analisi completata per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-18 23:23:31,973 - INFO - bfcv_007.py:1998 - process_cvs - [2/3] Analisi di 0_Rafael-Patron_AI_Program_Manager.pdf...
+2025-03-18 23:23:31,975 - INFO - bfcv_007.py:2008 - process_cvs - Estrazione testo da 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-18 23:23:34,005 - DEBUG - bfcv_007.py:2010 - process_cvs - Lunghezza testo diretto: 26620, testo OCR: 4615
+2025-03-18 23:23:34,005 - INFO - bfcv_007.py:2015 - process_cvs - Combinazione testi con OpenAI per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-18 23:23:34,015 - INFO - bfcv_007.py:2033 - process_cvs - Inizio analisi contenuto CV per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-18 23:23:34,015 - INFO - bfcv_007.py:1325 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-18 23:23:34,022 - INFO - bfcv_007.py:1359 - analyze_cv_openai - Utilizzando risposta dalla cache per l'estrazione principale
+2025-03-18 23:23:34,022 - INFO - bfcv_007.py:1429 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-03-18 23:23:34,024 - INFO - bfcv_007.py:1081 - refine_missing_fields - Affinamento di 7 campi mancanti: Età, Città di origine, Anni di esperienza lavorativa nel ruolo richiesto, Soft skills, Competenze in linguaggi di programmazione (es. Python, JavaScript), Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager), Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)
+2025-03-18 23:23:34,029 - INFO - bfcv_007.py:1187 - refine_missing_fields - Usando risposta dalla cache per il raffinamento dei campi mancanti
+2025-03-18 23:23:34,029 - INFO - bfcv_007.py:1440 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-03-18 23:23:34,036 - INFO - bfcv_007.py:1500 - analyze_cv_openai - Utilizzando risposta dalla cache per la valutazione
+2025-03-18 23:23:34,038 - INFO - bfcv_007.py:2049 - process_cvs - Analisi completata per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-18 23:23:34,039 - INFO - bfcv_007.py:1998 - process_cvs - [3/3] Analisi di 2025 Resume.pdf.pdf...
+2025-03-18 23:23:34,041 - INFO - bfcv_007.py:2008 - process_cvs - Estrazione testo da 2025 Resume.pdf.pdf
+2025-03-18 23:23:34,978 - DEBUG - bfcv_007.py:2010 - process_cvs - Lunghezza testo diretto: 2829, testo OCR: 2757
+2025-03-18 23:23:34,978 - INFO - bfcv_007.py:2015 - process_cvs - Combinazione testi con OpenAI per 2025 Resume.pdf.pdf
+2025-03-18 23:23:34,980 - INFO - bfcv_007.py:2033 - process_cvs - Inizio analisi contenuto CV per 2025 Resume.pdf.pdf
+2025-03-18 23:23:34,980 - INFO - bfcv_007.py:1325 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-18 23:23:35,694 - INFO - bfcv_007.py:1359 - analyze_cv_openai - Utilizzando risposta dalla cache per l'estrazione principale
+2025-03-18 23:23:35,694 - INFO - bfcv_007.py:1429 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-03-18 23:23:35,694 - INFO - bfcv_007.py:1081 - refine_missing_fields - Affinamento di 10 campi mancanti: Età, Città di residenza, Città di origine, Anni di esperienza lavorativa, Anni di esperienza lavorativa nel ruolo richiesto, Legame con Firenze, Competenze in linguaggi di programmazione (es. Python, JavaScript), Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager), Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp), Progetti personali o accademici relativi all'AI o al marketing digitale
+2025-03-18 23:23:35,698 - INFO - bfcv_007.py:1187 - refine_missing_fields - Usando risposta dalla cache per il raffinamento dei campi mancanti
+2025-03-18 23:23:35,699 - INFO - bfcv_007.py:1440 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-03-18 23:23:35,705 - INFO - bfcv_007.py:1500 - analyze_cv_openai - Utilizzando risposta dalla cache per la valutazione
+2025-03-18 23:23:35,707 - INFO - bfcv_007.py:2049 - process_cvs - Analisi completata per 2025 Resume.pdf.pdf
+2025-03-18 23:23:35,708 - INFO - bfcv_007.py:2075 - process_cvs - Analisi completata. Processati 3 CV su 3 disponibili
+2025-03-18 23:23:35,710 - INFO - bfcv_007.py:2112 - process_cvs - DataFrame creato con 3 righe e 28 colonne
+2025-03-18 23:23:35,726 - INFO - bfcv_007.py:2116 - process_cvs - DataFrame normalizzato e pronto per la visualizzazione
+2025-03-18 23:23:35,726 - INFO - bfcv_007.py:2574 - main - Analisi completata con successo. Ottenuti 3 risultati
+2025-03-18 23:23:35,728 - INFO - bfcv_007.py:2580 - main - Risultati salvati in st.session_state.results e st.session_state.analysis_results
+2025-03-18 23:23:35,730 - INFO - bfcv_007.py:2589 - main - Impostata active_tab = 0 per mostrare la panoramica dei risultati
+2025-03-18 23:23:35,730 - INFO - bfcv_007.py:2592 - main - Eseguo st.rerun() per ricaricare la pagina e mostrare i risultati

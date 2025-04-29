@@ -1,0 +1,1 @@
+"{\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"18 anni\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Corsi di formazione in ambito vendite, leadership, gestione delle risorse, problem solving e time management\"\n}"

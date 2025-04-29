@@ -1,0 +1,86 @@
+{
+  "name": "Account manager 2025",
+  "description": "",
+  "created_at": "2025-03-27T14:08:26.769869",
+  "updated_at": "2025-04-28T16:36:30.307844",
+  "fields": [
+    "Nome",
+    "Cognome",
+    "Numero di contatto",
+    "Email",
+    "Et\u00e0",
+    "Citt\u00e0 di residenza",
+    "Citt\u00e0 di origine",
+    "Anni di esperienza lavorativa",
+    "Anni di esperienza lavorativa nel ruolo richiesto",
+    "Master o assimilabile nel ruolo richiesto",
+    "Formazione pi\u00f9 alta",
+    "Universit\u00e0/Istituto",
+    "Posizione attuale",
+    "Datori di lavoro precedenti",
+    "Lingue conosciute",
+    "Legame con Firenze",
+    "Et\u00e0 espressa in anni come numero intero senza commenti"
+  ],
+  "job_description": "Account Manager di agenzia di digital marketing. \nSi preferisce un candidato che:\n- Abbia esperienza in agenzia di pubblicit\u00e0 o di digital marketing. \n- Abbia una predisposizione o esperienza nella generazione di new business o come commerciale di agenzie di digital marketing\n- Abbia gi\u00e0 un qualche legame con la citt\u00e0 di lavoro, cio\u00e8 Firenze, ovvero o abiti vicino, o ci abbia almeno studiato o lavorato, e quindi possa volerci tornare\n- Possibilmente sotto i 30 anni. \n- Preferibilmente con un master in marketing o comunicazione.\n\nCompiti: \n- Gestione e sviluppo dei rapporti con i clienti\n- Pianificazione e gestione di progetti digitali\n- Analisi delle performance delle campagne\n- Preparazione di presentazioni e reportistica\n- Sviluppo di strategie di content marketing\n- Ricerca di nuove opportunit\u00e0 di business\n- Presentazione dell'agenzia ai clienti",
+  "cv_dir": "G:\\Drive condivisi\\Bluefactor - Produzione\\Ricerche di personale\\Account2025",
+  "criteria_weights": {
+    "competenze_tecniche": 25,
+    "esperienza_rilevante": 25,
+    "formazione": 15,
+    "problem_solving": 15,
+    "leadership": 10,
+    "potenziale_crescita": 10,
+    "attitudine_al_new_business_e_commerciale": 30,
+    "esperienza_di_accounting_su_brand_non_locali": 30,
+    "esperienza_agenzia": 40,
+    "new_business_experience": 20,
+    "proximity_firenze": 10,
+    "master_marketing_communication": 15,
+    "age_under_30": 5
+  },
+  "evaluation_criteria": [
+    [
+      "competenze_tecniche",
+      "Competenze Tecniche"
+    ],
+    [
+      "esperienza_rilevante",
+      "Esperienza Settoriale"
+    ],
+    [
+      "formazione",
+      "Formazione"
+    ],
+    [
+      "leadership",
+      "Leadership"
+    ],
+    [
+      "attitudine_al_new_business_e_commerciale",
+      "Attitudine al new business e commerciale"
+    ],
+    [
+      "esperienza_di_accounting_su_brand_non_locali",
+      "Esperienza di accounting su brand non locali"
+    ],
+    [
+      "esperienza_agenzia",
+      "Esperienza A&G Digital Marketing"
+    ],
+    [
+      "proximity_firenze",
+      "Proximity Firenze"
+    ],
+    [
+      "age_under_30",
+      "Age Under 30"
+    ]
+  ],
+  "llm_model": "phi4:latest",
+  "use_ollama": true,
+  "ollama_model": "phi4:latest",
+  "api_key": "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",
+  "use_cache": true,
+  "max_cv_to_analyze": 999
+}

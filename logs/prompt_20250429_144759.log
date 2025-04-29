@@ -1,0 +1,209 @@
+Data e ora: 2025-04-29 14:47:59
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nFULVIO\nSCUTERI\nCHI SONO\nCONTATTI\nCOMPETENZE\nLINGUE\nESPERIENZE PROFESSIONALI\nEDUCAZIONE E FORMAZIONE\nRIEPILOGO ABILITÀ\n       DATA                              FIRMA\nfulvio.scuteri@gmail.com\n+39 339 3379726\nPisa (PI), Via Gioberti, 16\nData Analysis & Visualization\nProject Management\nCopy & Content Writing\nCommunity Management\nUniversità di Pisa, Pisa | May ‘21\nLaurea Triennale in Lingue e Letterature Straniere\nHarward - Online | Dic ‘23\nCS50's Introduzione all’Intelligenza Artificiale con Python\nSoftskills\nRisoluzione\nProblemi\nPensiero Critico\nComunicazione e\nNegoziazione\nTeamwork\nProattività\nInglese (C2)\nSpagnolo (B1)\nPortughese (A1)\nProgrammazione\nHTML / CSS\nJavaScript\nPython\nSQL\nPrompting\nAbilità Tecniche\nPacchetto Office\nCanva\nCockpit, Wordpress\nJira\nZoho\nTag Manager\nAnalytics\nAutorizzo il trattamento dei dati personali contenuti nel curriculum vitae in base all'art. 13 GDPR 679/16\nSono un pensatore versatile,\nmi piace influenzare le persone con \nle mie parole e azioni. Mi appassionano\nlettura, musica, buon cibo e il mondo tech.\nEstroverso e curioso, adoro i contesti \ndinamici e mi piacciono sfide e progetti\nche abbracciano molteplici ambiti\nUniversità di Pisa, Siena e Firenze, Pisa | Jan ‘24 - Jan ’25\nTesi: “Editoria Scalabile con GenAI”\nMaster 1° “Scalability: Digital Technologies and\nCompany Growth”\nCRO Specialist - Sercanto | Sep ‘21 - Nov ’23\nAnalisi Dati e creazione Dashboard - Excel, Google Analytics & Tag\nManager, Google Data Studio\nScrittura, traduzione e proofreading per progetto Brand in ottica SEO -\nSemRush, Wordpress\nCampagne Pubblicitarie - Google AdManager, AdWords, Meta BM\nDigital Strategist - Everset | Dic ‘23 - Mar ’24\nGestione progetti lead generation - Basecamp, Canva, CapCut\nAnalisi concorrenti e keyword - AnswerThePublic, Ads Libraries\nDefinizione e monitoring KPI e e obiettivi performance campagne\n24/01/2025\ndd/mm/yyyy\nPM & Digital Consultant - Fortop | Aug ‘24 - Feb ’25\nGestione Progetti su verticali Travel, Food e Pharma - Jira, Powerpoint\nDefinizione e monitoring KPI e obiettivi SEO - Google Search Console\nCreazione pipeline per contenuti AI-generated - GatherContent,\nChatGPT, Gemini\n\n\n---Estrazione OCR---\n»@ Be T 4\n‘ eS ‘¥\n— iw PM & Digital Consultant - Fortop | Aug ‘24 - Feb ’25\n<> a\ne« Gestione Progetti su verticali Travel, Food e Pharma - Jira, Powerpoint\ne Definizione e monitoring KPI e obiettivi SEO - Google Search Console\ne Creazione pipeline per contenuti Al-generated - GatherContent,\nChatGPT, Gemini\nDigital Strategist - Everset | Dic ‘23 - Mar ’24\ne Gestione progetti lead generation - Basecamp, Canva, CapCut\ne Analisi concorrenti e keyword - AnswerThePublic, Ads Libraries\nSono un pensatore versatile, e Definizione e monitoring KPI e e obiettivi performance campagne\nmi piace influenzare le persone con CRO Specialist - Sercanto | Sep ‘21 - Nov '23\nle mie parole e azioni. Mi appassionano e Analisi Dati e creazione Dashboard - Excel, Google Analytics & Tag\nlettura, musica, buon cibo e il mondo tech. Manager, Google Data Studio\n. . . e Scrittura, traduzione e proofreading per progetto Brand in ottica SEO -\nEstroverso e curioso, adoro i contesti SemRush, Wordpress\ndinamici e mi piacciono sfide e progetti e Campagne Pubblicitarie - Google AdManager, AdWords, Meta BM\nche abbracciano molteplici ambiti\nFg Master 1° “Scalability: Digital Technologies and\nCompany Growth”\n© +39 339 3379726 Universita di Pisa, Siena e Firenze, Pisa | Jan ‘24 - Jan '25\nTesi: “Editoria Scalabile con GenAl’”\n© fulvio.scuteri@gmail.com CS50's Introduzione all’Intelligenza Artificiale con Python\nHarward - Online | Dic ‘23\nr Pisa (PI), Via Gioberti, 16 Laurea Triennale in Lingue e Letterature Straniere\ni»\n* Project Management Programmazione Abilita Tecniche Softskills\ne Copy & Content Writing e HTML/CSS e Pacchetto Office e Risoluzione\n* Community Management * JavaScript *« Canva Problemi\ne Python e Cockpit, Wordpress ¢ Pensiero Critico\ne SQL e Jira e Comunicazione e\ne Tag Manager e Teamwork\nInglese (C2) e Analytics e Proattivita\nSpagnolo (B1)\n24/01/2025 ade\nat +\n2 oO Uw\nF 4 Autorizzo il trattamento dei dati personali contenuti nel curriculum vitae in base all'art. 13 GDPR 679/16\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+FULVIO
+SCUTERI
+CHI SONO
+CONTATTI
+COMPETENZE
+LINGUE
+ESPERIENZE PROFESSIONALI
+EDUCAZIONE E FORMAZIONE
+RIEPILOGO ABILITÀ
+       DATA                              FIRMA
+fulvio.scuteri@gmail.com
++39 339 3379726
+Pisa (PI), Via Gioberti, 16
+Data Analysis & Visualization
+Project Management
+Copy & Content Writing
+Community Management
+Università di Pisa, Pisa | May ‘21
+Laurea Triennale in Lingue e Letterature Straniere
+Harward - Online | Dic ‘23
+CS50's Introduzione all’Intelligenza Artificiale con Python
+Softskills
+Risoluzione
+Problemi
+Pensiero Critico
+Comunicazione e
+Negoziazione
+Teamwork
+Proattività
+Inglese (C2)
+Spagnolo (B1)
+Portughese (A1)
+Programmazione
+HTML / CSS
+JavaScript
+Python
+SQL
+Prompting
+Abilità Tecniche
+Pacchetto Office
+Canva
+Cockpit, Wordpress
+Jira
+Zoho
+Tag Manager
+Analytics
+Autorizzo il trattamento dei dati personali contenuti nel curriculum vitae in base all'art. 13 GDPR 679/16
+Sono un pensatore versatile,
+mi piace influenzare le persone con 
+le mie parole e azioni. Mi appassionano
+lettura, musica, buon cibo e il mondo tech.
+Estroverso e curioso, adoro i contesti 
+dinamici e mi piacciono sfide e progetti
+che abbracciano molteplici ambiti
+Università di Pisa, Siena e Firenze, Pisa | Jan ‘24 - Jan ’25
+Tesi: “Editoria Scalabile con GenAI”
+Master 1° “Scalability: Digital Technologies and
+Company Growth”
+CRO Specialist - Sercanto | Sep ‘21 - Nov ’23
+Analisi Dati e creazione Dashboard - Excel, Google Analytics & Tag
+Manager, Google Data Studio
+Scrittura, traduzione e proofreading per progetto Brand in ottica SEO -
+SemRush, Wordpress
+Campagne Pubblicitarie - Google AdManager, AdWords, Meta BM
+Digital Strategist - Everset | Dic ‘23 - Mar ’24
+Gestione progetti lead generation - Basecamp, Canva, CapCut
+Analisi concorrenti e keyword - AnswerThePublic, Ads Libraries
+Definizione e monitoring KPI e e obiettivi performance campagne
+24/01/2025
+dd/mm/yyyy
+PM & Digital Consultant - Fortop | Aug ‘24 - Feb ’25
+Gestione Progetti su verticali Travel, Food e Pharma - Jira, Powerpoint
+Definizione e monitoring KPI e obiettivi SEO - Google Search Console
+Creazione pipeline per contenuti AI-generated - GatherContent,
+ChatGPT, Gemini
+
+
+---Estrazione OCR---
+»@ Be T 4
+‘ eS ‘¥
+— iw PM & Digital Consultant - Fortop | Aug ‘24 - Feb ’25
+<> a
+e« Gestione Progetti su verticali Travel, Food e Pharma - Jira, Powerpoint
+e Definizione e monitoring KPI e obiettivi SEO - Google Search Console
+e Creazione pipeline per contenuti Al-generated - GatherContent,
+ChatGPT, Gemini
+Digital Strategist - Everset | Dic ‘23 - Mar ’24
+e Gestione progetti lead generation - Basecamp, Canva, CapCut
+e Analisi concorrenti e keyword - AnswerThePublic, Ads Libraries
+Sono un pensatore versatile, e Definizione e monitoring KPI e e obiettivi performance campagne
+mi piace influenzare le persone con CRO Specialist - Sercanto | Sep ‘21 - Nov '23
+le mie parole e azioni. Mi appassionano e Analisi Dati e creazione Dashboard - Excel, Google Analytics & Tag
+lettura, musica, buon cibo e il mondo tech. Manager, Google Data Studio
+. . . e Scrittura, traduzione e proofreading per progetto Brand in ottica SEO -
+Estroverso e curioso, adoro i contesti SemRush, Wordpress
+dinamici e mi piacciono sfide e progetti e Campagne Pubblicitarie - Google AdManager, AdWords, Meta BM
+che abbracciano molteplici ambiti
+Fg Master 1° “Scalability: Digital Technologies and
+Company Growth”
+© +39 339 3379726 Universita di Pisa, Siena e Firenze, Pisa | Jan ‘24 - Jan '25
+Tesi: “Editoria Scalabile con GenAl’”
+© fulvio.scuteri@gmail.com CS50's Introduzione all’Intelligenza Artificiale con Python
+Harward - Online | Dic ‘23
+r Pisa (PI), Via Gioberti, 16 Laurea Triennale in Lingue e Letterature Straniere
+i»
+* Project Management Programmazione Abilita Tecniche Softskills
+e Copy & Content Writing e HTML/CSS e Pacchetto Office e Risoluzione
+* Community Management * JavaScript *« Canva Problemi
+e Python e Cockpit, Wordpress ¢ Pensiero Critico
+e SQL e Jira e Comunicazione e
+e Tag Manager e Teamwork
+Inglese (C2) e Analytics e Proattivita
+Spagnolo (B1)
+24/01/2025 ade
+at +
+2 oO Uw
+F 4 Autorizzo il trattamento dei dati personali contenuti nel curriculum vitae in base all'art. 13 GDPR 679/16
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**FULVIO SCUTERI**
+
+**CHI SONO**  
+Sono un pensatore versatile, mi piace influenzare le persone con le mie parole e azioni. Mi appassionano lettura, musica, buon cibo e il mondo tech. Estroverso e curioso, adoro i contesti dinamici e mi piacciono sfide e progetti che abbracciano molteplici ambiti.
+
+**CONTATTI**  
+Email: fulvio.scuteri@gmail.com  
+Telefono: +39 339 3379726  
+Indirizzo: Pisa (PI), Via Gioberti, 16  
+
+**COMPETENZE**  
+- **Data Analysis & Visualization**  
+- **Project Management**  
+- **Copy & Content Writing**  
+- **Community Management**  
+
+**LINGUE**  
+- Inglese (C2)  
+- Spagnolo (B1)  
+- Portoghese (A1)  
+
+**ABILITÀ TECNICHE**  
+- Programmazione: HTML / CSS, JavaScript, Python, SQL  
+- Pacchetto Office, Canva, Cockpit, Wordpress, Jira, Zoho, Tag Manager, Analytics  
+
+**SOFTSKILLS**  
+- Risoluzione Problemi  
+- Pensiero Critico  
+- Comunicazione e Negoziazione  
+- Teamwork  
+- Proattività  
+
+**ESPERIENZE PROFESSIONALI**  
+- **CRO Specialist - Sercanto** | Sep ‘21 - Nov ’23  
+  - Analisi Dati e creazione Dashboard - Excel, Google Analytics & Tag Manager, Google Data Studio  
+  - Scrittura, traduzione e proofreading per progetto Brand in ottica SEO - SemRush, Wordpress  
+  - Campagne Pubblicitarie - Google AdManager, AdWords, Meta BM  
+
+- **Digital Strategist - Everset** | Dic ‘23 - Mar ’24  
+  - Gestione progetti lead generation - Basecamp, Canva, CapCut  
+  - Analisi concorrenti e keyword - AnswerThePublic, Ads Libraries  
+  - Definizione e monitoring KPI e obiettivi performance campagne  
+
+- **PM & Digital Consultant - Fortop** | Aug ‘24 - Feb ’25  
+  - Gestione Progetti su verticali Travel, Food e Pharma - Jira, Powerpoint  
+  - Definizione e monitoring KPI e obiettivi SEO - Google Search Console  
+  - Creazione pipeline per contenuti AI-generated - GatherContent, ChatGPT, Gemini  
+
+**EDUCAZIONE E FORMAZIONE**  
+- **Università di Pisa, Pisa** | May ‘21  
+  - Laurea Triennale in Lingue e Letterature Straniere  
+
+- **Università di Pisa, Siena e Firenze, Pisa** | Jan ‘24 - Jan ’25  
+  - Master 1° “Scalability: Digital Technologies and Company Growth”  
+  - Tesi: “Editoria Scalabile con GenAI”  
+
+- **Harvard - Online** | Dic ‘23  
+  - CS50's Introduzione all’Intelligenza Artificiale con Python  
+
+**RIEPILOGO ABILITÀ**  
+Autorizzo il trattamento dei dati personali contenuti nel curriculum vitae in base all'art. 13 GDPR 679/16.  
+
+**DATA**  
+24/01/2025  
+**FIRMA**  

@@ -1,0 +1,178 @@
+Data e ora: 2025-04-29 14:54:43
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\n\n\n---Estrazione OCR---\nCURRICULUM VITAE EXPERIENCE ABOUT ME —\n| @ @\nwa ; 4 26.05.1996\noe § QR +39 334 9718293\n. MX noelenzini@gmail.com\n‘ ™”\" 9 Capraia e Limite (Fl)\n= _ AR Page | 01\nCURRICULUM VITAE CONTACT ABOUT ME —\n& Marketing Specialist\nCentro Porsche Firenze t, >, ~, Ve: k yy 4 a are a7\"\nCentro Porsche Pescara hm rN vA By ‘ve sei a”. ad. - yo oY }\nCentro Assistenza Porsche Livorno Be a 4 4. nek Swe, 4 ie. ,\nCentro Porsche Approved & Service Arezzo © one Sara) _N —_ 42 yr 2\n* en ee el ) w a ane £0\n\nBONN OT Ea oo\n\n03/2023 - actual \\ - g Ry g r |\n2 a) .\nPage | 02\nCURRICULUM VITAE CONTACT ABOUT ME —\nTasks\ne Gestione dei Database e dei Leads, e Supporto al Team per l’organizzazione\nmonitoraggio e implementazione dei eventi, gestione fornitorie\nprocessi per la raccolta e utilizzo dei supervisione sul campo\ndati clienti secondo obiettivi e linee e Coordinamento agenzia Digital,\nguida da HQ revisione e approvazione dei piani\ne Segmentazione del Database per editoriali per i social media-\nattivita mirate monitoraggio campagne ADV (Google\ne Analisi dati e reportistica ADS e Meta ADS)\ne Formazione team sull’uso corretto e Sviluppo materiali di marketig,\ndelle piattaforme creazione di contenuti promozionali\ne Creazione e gestione di DEM e Supervisione e coordinamento fornitori\ne Controllo conformita al GDPR per shooting foto e video assicurando\ne Gestione Top Customer Program la coerenza con le guidelines del Brand\ne Gestione e monitoraggio della e il rispetto delle tempistiche\nCustomer Satisfaction e Gestione e aggiornamento dei siti web\ne Gestione e monitoraggio delle aziendali\ncampagne e Supporto progetti e iniziative interne page | 03\nCURRICULUM VITAE CONTACT ABOUT ME —\nExperiences\n11/2021-03/2023 11/2019-01/2020 05/2016-11/2019\nFORMULA SERVIZI GUCCI SWATCH\nISPRO - Villa Delle Rose Via Tornabuoni (Fl) Firenze Duomo e1 Gigli\ne Accoglienza e gestione °e Vendita assistita e Vendita assistita e\npazienti e Operazioni di cassa operazioni di cassa\ne Organizzazione agendae e Visual Merchandising\ngestione appuntamenti e Monitoraggio KPI\neInvio report settimanalie\nmensili\nPage | 04\nCURRICULUM VITAE CONTACT EXPERIENCE —\nA tpe 7 | |\n» 7 & A\n, az.\nA e C) J T v | e Italiano\n\nCuriosa, disponibile e , gs\n\n, e Ottime capacita di e Inglese\ncreativa, con un forte senso\n\n, , adattamento e ° Spagnolo\nestetico e una grande voglia Drobl Soly;\ndi mettermi in gioco. Amo rO ol) © VIN\naffrontare nuove sfide con ° Attenzione al dettagli\nentusiasmo e © Disponibilita e e Patente B\ndeterminazione, cercando velocita |\nsempre approcci innovativie nell’apprendimento\nstimolanti. di nuove conoscenze Page | 05\nCURRICULUM VITAE CONTACT EXPERIENCE ABOUT ME _—\n“Autorizzo il trattamento dei miei dati personali ai sensi del\nDigs 196 del 30 giugno 2003 e dell’art. 13 GDPR” Page | 06\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+
+
+---Estrazione OCR---
+CURRICULUM VITAE EXPERIENCE ABOUT ME —
+| @ @
+wa ; 4 26.05.1996
+oe § QR +39 334 9718293
+. MX noelenzini@gmail.com
+‘ ™”" 9 Capraia e Limite (Fl)
+= _ AR Page | 01
+CURRICULUM VITAE CONTACT ABOUT ME —
+& Marketing Specialist
+Centro Porsche Firenze t, >, ~, Ve: k yy 4 a are a7"
+Centro Porsche Pescara hm rN vA By ‘ve sei a”. ad. - yo oY }
+Centro Assistenza Porsche Livorno Be a 4 4. nek Swe, 4 ie. ,
+Centro Porsche Approved & Service Arezzo © one Sara) _N —_ 42 yr 2
+* en ee el ) w a ane £0
+
+BONN OT Ea oo
+
+03/2023 - actual \ - g Ry g r |
+2 a) .
+Page | 02
+CURRICULUM VITAE CONTACT ABOUT ME —
+Tasks
+e Gestione dei Database e dei Leads, e Supporto al Team per l’organizzazione
+monitoraggio e implementazione dei eventi, gestione fornitorie
+processi per la raccolta e utilizzo dei supervisione sul campo
+dati clienti secondo obiettivi e linee e Coordinamento agenzia Digital,
+guida da HQ revisione e approvazione dei piani
+e Segmentazione del Database per editoriali per i social media-
+attivita mirate monitoraggio campagne ADV (Google
+e Analisi dati e reportistica ADS e Meta ADS)
+e Formazione team sull’uso corretto e Sviluppo materiali di marketig,
+delle piattaforme creazione di contenuti promozionali
+e Creazione e gestione di DEM e Supervisione e coordinamento fornitori
+e Controllo conformita al GDPR per shooting foto e video assicurando
+e Gestione Top Customer Program la coerenza con le guidelines del Brand
+e Gestione e monitoraggio della e il rispetto delle tempistiche
+Customer Satisfaction e Gestione e aggiornamento dei siti web
+e Gestione e monitoraggio delle aziendali
+campagne e Supporto progetti e iniziative interne page | 03
+CURRICULUM VITAE CONTACT ABOUT ME —
+Experiences
+11/2021-03/2023 11/2019-01/2020 05/2016-11/2019
+FORMULA SERVIZI GUCCI SWATCH
+ISPRO - Villa Delle Rose Via Tornabuoni (Fl) Firenze Duomo e1 Gigli
+e Accoglienza e gestione °e Vendita assistita e Vendita assistita e
+pazienti e Operazioni di cassa operazioni di cassa
+e Organizzazione agendae e Visual Merchandising
+gestione appuntamenti e Monitoraggio KPI
+eInvio report settimanalie
+mensili
+Page | 04
+CURRICULUM VITAE CONTACT EXPERIENCE —
+A tpe 7 | |
+» 7 & A
+, az.
+A e C) J T v | e Italiano
+
+Curiosa, disponibile e , gs
+
+, e Ottime capacita di e Inglese
+creativa, con un forte senso
+
+, , adattamento e ° Spagnolo
+estetico e una grande voglia Drobl Soly;
+di mettermi in gioco. Amo rO ol) © VIN
+affrontare nuove sfide con ° Attenzione al dettagli
+entusiasmo e © Disponibilita e e Patente B
+determinazione, cercando velocita |
+sempre approcci innovativie nell’apprendimento
+stimolanti. di nuove conoscenze Page | 05
+CURRICULUM VITAE CONTACT EXPERIENCE ABOUT ME _—
+“Autorizzo il trattamento dei miei dati personali ai sensi del
+Digs 196 del 30 giugno 2003 e dell’art. 13 GDPR” Page | 06
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**CURRICULUM VITAE**
+
+**Nome:** Noemi Lenzini  
+**Data di nascita:** 26.05.1996  
+**Contatti:**  
+- Telefono: +39 334 9718293  
+- Email: noelenzini@gmail.com  
+- Indirizzo: Capraia e Limite (FI)  
+
+---
+
+**ESPERIENZA LAVORATIVA**
+
+**Marketing Specialist**  
+Centro Porsche Firenze  
+Centro Porsche Pescara  
+Centro Assistenza Porsche Livorno  
+Centro Porsche Approved & Service Arezzo  
+03/2023 - attuale  
+- Gestione dei Database e dei Leads  
+- Supporto al Team per l’organizzazione, monitoraggio e implementazione degli eventi  
+- Gestione fornitori e processi per la raccolta e utilizzo dei dati clienti secondo obiettivi e linee guida da HQ  
+- Supervisione sul campo e coordinamento agenzia Digital  
+- Revisione e approvazione dei piani editoriali per i social media  
+- Monitoraggio campagne ADV (Google ADS e Meta ADS)  
+- Analisi dati e reportistica  
+- Formazione team sull’uso corretto delle piattaforme  
+- Sviluppo materiali di marketing e creazione di contenuti promozionali  
+- Supervisione e coordinamento fornitori per shooting foto e video  
+- Controllo conformità al GDPR e gestione Top Customer Program  
+- Gestione e monitoraggio della Customer Satisfaction  
+- Aggiornamento dei siti web aziendali  
+- Supporto progetti e iniziative interne  
+
+**FORMULA SERVIZI**  
+11/2021 - 03/2023  
+- Accoglienza e gestione pazienti  
+- Operazioni di cassa  
+- Organizzazione agenda e gestione appuntamenti  
+- Invio report settimanali e mensili  
+
+**GUCCI**  
+11/2019 - 01/2020  
+- Vendita assistita  
+- Operazioni di cassa  
+- Visual Merchandising  
+- Monitoraggio KPI  
+
+**SWATCH**  
+05/2016 - 11/2019  
+- Vendita assistita  
+- Operazioni di cassa  
+
+---
+
+**FORMAZIONE**
+
+**[Inserire dettagli sulla formazione, se disponibili]**
+
+---
+
+**COMPETENZE**
+
+- Ottime capacità di adattamento  
+- Creatività e forte senso estetico  
+- Attenzione ai dettagli  
+- Disponibilità e velocità  
+- Lingue: Italiano (madrelingua), Inglese (buono), Spagnolo (buono)  
+- Patente B  
+
+---
+
+**INFORMAZIONI AGGIUNTIVE**
+
+Autorizzo il trattamento dei miei dati personali ai sensi del D.Lgs 196 del 30 giugno 2003 e dell’art. 13 GDPR.

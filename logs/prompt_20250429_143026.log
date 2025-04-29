@@ -1,0 +1,304 @@
+Data e ora: 2025-04-29 14:30:26
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nCARLOTTA\nFABIANI BUTI\nFirenze  22/11/1990 \n(+39) 3408456387 \ncarlotta.buti@gmail.com \nESPERIENZE PROFESSIONALI\nESPERIENZE PROFESSIONALI\nSenior Social Media Strategist, \nContent Creator\n & Copywriter\nDGNET Web Agency\nNovembre 2021- Oggi\nIdeazione e stesura dei piani editoriali per i canali dei vari brand\n(Instagram, Facebook, Linkedin, TikTok)\nImplementazione delle strategie di social media marketing &\ninfluencer marketing \nCommunity management\nImplementazione di campagne ADS di Meta e Google \nOrganizzazione e gestione shooting\nNewsletter & DEM Management\nReporting\nSocial Media Manager & Copywriter\nWodka Agency\nNovembre 2021 - Marzo 2020  \nIdeazione e stesura dei piani editoriali per i canali dei vari brand\n(Instagram, Facebook)\nStesura articoli per blog in ottica SEO\nImplementazione delle strategie di social media marketing \nCommunity management \nReporting\nAssistente Marketing e Comunicazione\nES'GIVIEN\nGennaio 2018- Gennaio 2019 \nAssistente CEO\nFollow up file clienti\nOrganizzazione meeting ed eventi \nCreazioni piano editoriali \nCommunity management \nAssistenza shooting \nAssistente alle vendite \nGUCCIO GUCCI & \nSalvatore Ferragamo Showroom\nOttobre 2017- Gennaio 2019 \n          \nOrganizzazione sfilata di presentazione collezione \nAssistente alle vendite \nGestione budget Buyer \nInventario \nVestiarista\nResponsabile acquisti\nUva Bar Firenze\nGennaio 2013 - Gennaio 2017\nResponsabile acquisti \nContabilità\nOrganizzazione orari settimanali\nCameriera/barista\nInventario\nISTRUZIONE\nISTRUZIONE\n2010\n2010\nDiploma\nDiploma  \nscuola superiore\nscuola superiore\nLiceo Scientifico\nLiceo Scientifico\n--\nIstituto Salesiano\nIstituto Salesiano\ndell'Immacolata,\ndell'Immacolata,\nFirenze\nFirenze  \n2012\n2012\nDiploma Fotografia\nDiploma Fotografia  \n&&\n  Post Produzione\nPost Produzione\n--\nFondazione\nFondazione  \nStudio Marangoni,\nStudio Marangoni,\nFirenze\nFirenze\n2020\n2020\nMarketing\nMarketing  \n&&\nDigital Marketing\nDigital Marketing\n--\nCity University\nCity University\nof London,\nof London,\nLondra\nLondra\nLINGUE\nLINGUE  \nSKILLS\nSKILLS  \nInglese\nProject management\nBudgeting\nCopywriting\nGrafica\nVideo  making\nAnalytics\n2023\n2023\nUfficio Stampa,\nUfficio Stampa,\nLa formazione delle\nLa formazione delle\nnotizie\nnotizie\n--\nScuola\nScuola\nHolden,\nHolden,\nTorino\nTorino\n\n\n---Estrazione OCR---\n‘ ie CARLOTTA\nnd FABIAN! BUTI\nRaa ee Firenze 22/11/1990\nRag eae (+39) 3408456387\na y 2 carlotta.buti@gmail.com\noe 2h, PF ee\n~ , ESPERIENZE PROFESSIONALI\ne Ideazione e stesura dei piani editoriali per i canali dei vari brand\nSenior Social Media Strategist, (Instagram, Facebook, Linkedin, TikTok)\nContent Creator ¢ Implementazione delle strategie di social media marketing &\n. influencer marketing\n& Copywriter .\ne Community management\nDGNET Web Agency e Implementazione di campagne ADS di Meta e Google\ne Organizzazione e gestione shooting\nNovembre 2021- Oggi e Newsletter & DEM Management\ne Reporting\ne Ideazione e stesura dei piani editoriali per i canali dei vari brand\nSocial Media Manager & Copywriter (Instagram, Facebook)\nWodka Agency e Stesura articoli per blog in ottica SEO\ne Implementazione delle strategie di social media marketing\nNovembre 2021 - Marzo 2020 ¢ Community management\ne Reporting\nAssistente Marketing e Comunicazione ¢ AssistenteCEQ\nES'CIVIEN ¢ Follow up file clienti\ne Organizzazione meeting ed eventi\ne Creazioni piano editoriali\nGennaio 2018- Gennaio 2019 e Community management\ne Assistenza shooting\nAssistente alle vendite ont . . . .\ne Organizzazione sfilata di presentazione collezione\nGUCCIO GUCCI & e Assistente alle vendite\nSalvatore Ferragamo Showroom e Gestione budget Buyer\ne Inventario\nOttobre 2017- Gennaio 2019 * Vestiarista\nResponsabile acquisti ¢ Responsabile acquisti\nUva Bar Firenze * Contabilita: a\ne Organizzazione orari settimanali\ne Cameriera/barista\nGennaio 2013 - Gennaio 2017 e Inventario\nISTRUZIONE\n* 2010 ° 2012 ° 2020 e 2025\nDiploma Diploma Fotografia Marketing Ufficio Stampa,\nscuola superiore & & La formazione delle\nLiceo Scientifico Post Produzione Digital Marketing notizie\nIstituto Salesiano Fondazione City University Scuola\ndell Tmmacolata, Studio Marangoni, of London, Holden,\nFirenze Firenze Londra Torino\nLINGUE SKILLS\nInglese © @ @ Project management @ T © @\nBudgeting @o@e@@\nCopywriting @e@e@\nGrafica eee\nVideo making @ T @\nAnalytics @ @ e@\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+CARLOTTA
+FABIANI BUTI
+Firenze  22/11/1990 
+(+39) 3408456387 
+carlotta.buti@gmail.com 
+ESPERIENZE PROFESSIONALI
+ESPERIENZE PROFESSIONALI
+Senior Social Media Strategist, 
+Content Creator
+ & Copywriter
+DGNET Web Agency
+Novembre 2021- Oggi
+Ideazione e stesura dei piani editoriali per i canali dei vari brand
+(Instagram, Facebook, Linkedin, TikTok)
+Implementazione delle strategie di social media marketing &
+influencer marketing 
+Community management
+Implementazione di campagne ADS di Meta e Google 
+Organizzazione e gestione shooting
+Newsletter & DEM Management
+Reporting
+Social Media Manager & Copywriter
+Wodka Agency
+Novembre 2021 - Marzo 2020  
+Ideazione e stesura dei piani editoriali per i canali dei vari brand
+(Instagram, Facebook)
+Stesura articoli per blog in ottica SEO
+Implementazione delle strategie di social media marketing 
+Community management 
+Reporting
+Assistente Marketing e Comunicazione
+ES'GIVIEN
+Gennaio 2018- Gennaio 2019 
+Assistente CEO
+Follow up file clienti
+Organizzazione meeting ed eventi 
+Creazioni piano editoriali 
+Community management 
+Assistenza shooting 
+Assistente alle vendite 
+GUCCIO GUCCI & 
+Salvatore Ferragamo Showroom
+Ottobre 2017- Gennaio 2019 
+          
+Organizzazione sfilata di presentazione collezione 
+Assistente alle vendite 
+Gestione budget Buyer 
+Inventario 
+Vestiarista
+Responsabile acquisti
+Uva Bar Firenze
+Gennaio 2013 - Gennaio 2017
+Responsabile acquisti 
+Contabilità
+Organizzazione orari settimanali
+Cameriera/barista
+Inventario
+ISTRUZIONE
+ISTRUZIONE
+2010
+2010
+Diploma
+Diploma  
+scuola superiore
+scuola superiore
+Liceo Scientifico
+Liceo Scientifico
+--
+Istituto Salesiano
+Istituto Salesiano
+dell'Immacolata,
+dell'Immacolata,
+Firenze
+Firenze  
+2012
+2012
+Diploma Fotografia
+Diploma Fotografia  
+&&
+  Post Produzione
+Post Produzione
+--
+Fondazione
+Fondazione  
+Studio Marangoni,
+Studio Marangoni,
+Firenze
+Firenze
+2020
+2020
+Marketing
+Marketing  
+&&
+Digital Marketing
+Digital Marketing
+--
+City University
+City University
+of London,
+of London,
+Londra
+Londra
+LINGUE
+LINGUE  
+SKILLS
+SKILLS  
+Inglese
+Project management
+Budgeting
+Copywriting
+Grafica
+Video  making
+Analytics
+2023
+2023
+Ufficio Stampa,
+Ufficio Stampa,
+La formazione delle
+La formazione delle
+notizie
+notizie
+--
+Scuola
+Scuola
+Holden,
+Holden,
+Torino
+Torino
+
+
+---Estrazione OCR---
+‘ ie CARLOTTA
+nd FABIAN! BUTI
+Raa ee Firenze 22/11/1990
+Rag eae (+39) 3408456387
+a y 2 carlotta.buti@gmail.com
+oe 2h, PF ee
+~ , ESPERIENZE PROFESSIONALI
+e Ideazione e stesura dei piani editoriali per i canali dei vari brand
+Senior Social Media Strategist, (Instagram, Facebook, Linkedin, TikTok)
+Content Creator ¢ Implementazione delle strategie di social media marketing &
+. influencer marketing
+& Copywriter .
+e Community management
+DGNET Web Agency e Implementazione di campagne ADS di Meta e Google
+e Organizzazione e gestione shooting
+Novembre 2021- Oggi e Newsletter & DEM Management
+e Reporting
+e Ideazione e stesura dei piani editoriali per i canali dei vari brand
+Social Media Manager & Copywriter (Instagram, Facebook)
+Wodka Agency e Stesura articoli per blog in ottica SEO
+e Implementazione delle strategie di social media marketing
+Novembre 2021 - Marzo 2020 ¢ Community management
+e Reporting
+Assistente Marketing e Comunicazione ¢ AssistenteCEQ
+ES'CIVIEN ¢ Follow up file clienti
+e Organizzazione meeting ed eventi
+e Creazioni piano editoriali
+Gennaio 2018- Gennaio 2019 e Community management
+e Assistenza shooting
+Assistente alle vendite ont . . . .
+e Organizzazione sfilata di presentazione collezione
+GUCCIO GUCCI & e Assistente alle vendite
+Salvatore Ferragamo Showroom e Gestione budget Buyer
+e Inventario
+Ottobre 2017- Gennaio 2019 * Vestiarista
+Responsabile acquisti ¢ Responsabile acquisti
+Uva Bar Firenze * Contabilita: a
+e Organizzazione orari settimanali
+e Cameriera/barista
+Gennaio 2013 - Gennaio 2017 e Inventario
+ISTRUZIONE
+* 2010 ° 2012 ° 2020 e 2025
+Diploma Diploma Fotografia Marketing Ufficio Stampa,
+scuola superiore & & La formazione delle
+Liceo Scientifico Post Produzione Digital Marketing notizie
+Istituto Salesiano Fondazione City University Scuola
+dell Tmmacolata, Studio Marangoni, of London, Holden,
+Firenze Firenze Londra Torino
+LINGUE SKILLS
+Inglese © @ @ Project management @ T © @
+Budgeting @o@e@@
+Copywriting @e@e@
+Grafica eee
+Video making @ T @
+Analytics @ @ e@
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**CARLOTTA FABIANI BUTI**  
+Firenze 22/11/1990  
+(+39) 3408456387  
+carlotta.buti@gmail.com  
+
+---
+
+**ESPERIENZE PROFESSIONALI**  
+
+**Senior Social Media Strategist, Content Creator & Copywriter**  
+DGNET Web Agency  
+Novembre 2021 - Oggi  
+- Ideazione e stesura dei piani editoriali per i canali dei vari brand (Instagram, Facebook, Linkedin, TikTok)  
+- Implementazione delle strategie di social media marketing & influencer marketing  
+- Community management  
+- Implementazione di campagne ADS di Meta e Google  
+- Organizzazione e gestione shooting  
+- Newsletter & DEM Management  
+- Reporting  
+
+**Social Media Manager & Copywriter**  
+Wodka Agency  
+Novembre 2021 - Marzo 2020  
+- Ideazione e stesura dei piani editoriali per i canali dei vari brand (Instagram, Facebook)  
+- Stesura articoli per blog in ottica SEO  
+- Implementazione delle strategie di social media marketing  
+- Community management  
+- Reporting  
+
+**Assistente Marketing e Comunicazione**  
+ES'GIVIEN  
+Gennaio 2018 - Gennaio 2019  
+- Assistente CEO  
+- Follow up file clienti  
+- Organizzazione meeting ed eventi  
+- Creazione piani editoriali  
+- Community management  
+- Assistenza shooting  
+
+**Assistente alle vendite**  
+GUCCIO GUCCI & Salvatore Ferragamo Showroom  
+Ottobre 2017 - Gennaio 2019  
+- Organizzazione sfilata di presentazione collezione  
+- Assistente alle vendite  
+- Gestione budget Buyer  
+- Inventario  
+
+**Responsabile acquisti**  
+Uva Bar Firenze  
+Gennaio 2013 - Gennaio 2017  
+- Responsabile acquisti  
+- Contabilità  
+- Organizzazione orari settimanali  
+- Cameriera/barista  
+- Inventario  
+
+---
+
+**ISTRUZIONE**  
+
+**Diploma**  
+Liceo Scientifico  
+Istituto Salesiano dell'Immacolata, Firenze  
+2010  
+
+**Diploma Fotografia & Post Produzione**  
+Fondazione Studio Marangoni, Firenze  
+2012  
+
+**Marketing & Digital Marketing**  
+City University of London, Londra  
+2020  
+
+**Ufficio Stampa, La formazione delle notizie**  
+Scuola Holden, Torino  
+2023  
+
+---
+
+**LINGUE**  
+- Inglese  
+
+---
+
+**SKILLS**  
+- Project management  
+- Budgeting  
+- Copywriting  
+- Grafica  
+- Video making  
+- Analytics  

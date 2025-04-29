@@ -1,0 +1,209 @@
+Data e ora: 2025-04-29 14:36:19
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nMATTEO\nFARNETANI\nS A L E S\nDATA DI NASCITA\n27/10/2002\nPROFILO PERSONALE\nPiacere, sono Matteo Farnetani, un professionista giovane e\ndeterminato che ha iniziato la propria carriera come agente\nimmobiliare. Successivamente, grazie ad una forte passione\nper il mondo digitale, ho iniziato a lavorare nel reparto\nSales di un Saas per gli E-commerce. Dove, prima come\nSDR e poi come sales manager, mi sono occupato dello\nsviluppo commerciale e della creazione di un team che\navesse come obbiettivo la costante ricerca di nuove\nopportunità di vendita. Diventato Account executive ho\niniziato a lavorare in prima persona quei lead che prima\nsolo ricercavo. Sono fiero della perseveranza che ho avuto\nnel rispettare e raggiungere mese dopo mese gli obbiettivi\ncommerciali e i KPI che mi sono stati assegnati. .\nABILITÀ E COMPETENZE\nAttitudine all’apprendimento\nAscolto attivo ed empatia\nSpiccate doti relazionali e di negoziazione\nCapacità organizzative e lavoro per obiettivi\nConoscenza dei principali software crm\nCONTATTI\nCellulare: +39 3345321055\nEmail: farnetani.matteo26@gmail.com\nIndirizzo: Fiesole, Firenze Fi\nFORMAZIONE\nDiploma in sistemi informatici aziendali\nF I R E N Z E , I S T I T U T O T E C N I C O G . P E A N O , 2\n0 1 6 - 2 0 2 1\nPatente europea per l'uso del computer Icdl\nF i r e n z e , 2 0 2 0\nESPERIENZE PROFESSIONALI\nSALES DEVELOPMENT REPRESENTATIVE\n2 0 2 4 - a d o g g i Qapla’ s.p.a.\nprocacciare nuove opportunità di vendita, icp aziende\nmedio-grandi\nCreazione di sequenze outbound\nPrimo contatto lead inbound e qualificazione\ndegli stessi\nSalesforce\nACCOUNT EXECUTIVE\n2 0 2 3 - 2 0 2 4 ready digital s.r.l.\nVendita e gestione trattative commerciali in presenza\nAutonomia operativa\nACCOUNT EXECUTIVE\n2 0 2 3 - 2 0 2 4 isendu s.r.l.\nVendita e gestione trattative commerciali a distanza\nCreazione nuove strategie di vendita\nOnboarding e retention clientela\nUp selling\nSALES MANAGER\n2 0 2 2 - 2 0 2 3 I s e n d u s . r . l .\nCreazione e Gestione di un team (9 persone)\nFormazione nuovi Sdr e onboarding degli stessi\nCooperazione con il reparto marketing per il\nmiglioramento dei lead inbound\nSALES DEVELOPMENT REPRESENTATIVE 2 0 2\n2 - 2 0 2 3 I s e n d u s . r . l .\nProcacciamento di nuove opportunità di vendita\ntelefonicamente(cold calling/out bound), icp piccole\nmedie imprese\nAssistenza al cliente\nAGENTE IMMOBILIARE\n2 0 2 1 - 2 0 2 2 I t a l i a n a I m m o b i l i a r e\nProcacciamento e gestione trattative immobiliari\nRicerche di mercato\nGestione inserzioni pubblicitarie\n\n\n---Estrazione OCR---\nEmail: farnetani.matteo26@gmail.com\nIndirizzo: Fiesole, Firenze Fi\n= F.\n\" FORMAZIONE\nDiploma in sistemi informatici aziendali\nFIRENZE,ISTITUTO TECNICOG.PEANO,2\n016-2021\nPatente europea per l'uso del computer Icdl\n- Firenze,2020\n— ESPERIENZE PROFESSIONALI\nSALES DEVELOPMENT REPRESENTATIVE\nFARNETAN!I 2024-adoggi Qapla’ spa.\nprocacciare nuove opportunita di vendita, icp aziende\nSALES medio-grandi\nCreazione di sequenze outbound\nPrimo contatto lead inbound e qualificazione\ndegli stessi\nSalesforce\nACCOUNT EXECUTIVE\nDATA DI NASCITA 2023-2024 ready digital s.rl.\n97/10/2002 Vendita e gestione trattative commerciali in presenza\nAutonomia operativa\nPROFILO PERSONALE ACCOUNT EXECUTIVE\nPiacere, sono Matteo Farnetani, un professionista giovane e 2023-2024 isendu sel.\ndeterminato che ha iniziato la propria carriera come agente Vendita e gestione trattative commerciali a distanza\nimmobiliare. Successivamente, grazie ad una forte passione Creazione nuove strategie di vendita\nper il mondo digitale, ho iniziato a lavorare nel reparto Onboarding e retention clientela\nSales di un Saas per gli E-commerce. Dove, prima come Up selling\nSDR e poi come sales manager, mi sono occupato dello\nsviluppo commerciale e della creazione di un team che SALES MANAGER\navesse come obbiettivo la costante ricerca di nuove 9099-9093lsendus.rl.\nepportunita di vendita. Diventato Account executive ho\niniziato a lavorare in prima persona quei lead che prima Creazione e Gestione di un team (9 persone)\nsolo ricercavo. Sono fiero della perseveranza che ho avuto Formazione nuovi Sdr e onboarding degli stessi\nnel rispettare e raggiungere mese dopo mese gli obbiettivi Cooperazione con il reparto marketing per il\ncommerciali e i KPI che mi sono stati assegnati. . ili . .\nmig ioramento dei lead inbound\nABILITA E COMPETENZE SALES DEVELOPMENT REPRESENTATIVE 202\nAttitudine all’apprendimento 2-2023lsendus.r.l.\nAscolto attivo ed empatia Procacciamento di nuove opportunita di vendita\nSpiccate doti relazionali e di negoziazione telefonicamente(cold calling/out bound), icp piccole\nCapacita organizzative e lavoro per obiettivi medie imprese\nConoscenza dei principali software crm Assistenza al cliente\nAGENTE IMMOBILIARE\n2021-2022Italianalmmobiliare\nCONTATTI Procacciamento e gestione trattative immobiliari\nRicerche di mercato\nCellulare: +39 3345321055 Gestione inserzioni pubblicitarie\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+MATTEO
+FARNETANI
+S A L E S
+DATA DI NASCITA
+27/10/2002
+PROFILO PERSONALE
+Piacere, sono Matteo Farnetani, un professionista giovane e
+determinato che ha iniziato la propria carriera come agente
+immobiliare. Successivamente, grazie ad una forte passione
+per il mondo digitale, ho iniziato a lavorare nel reparto
+Sales di un Saas per gli E-commerce. Dove, prima come
+SDR e poi come sales manager, mi sono occupato dello
+sviluppo commerciale e della creazione di un team che
+avesse come obbiettivo la costante ricerca di nuove
+opportunità di vendita. Diventato Account executive ho
+iniziato a lavorare in prima persona quei lead che prima
+solo ricercavo. Sono fiero della perseveranza che ho avuto
+nel rispettare e raggiungere mese dopo mese gli obbiettivi
+commerciali e i KPI che mi sono stati assegnati. .
+ABILITÀ E COMPETENZE
+Attitudine all’apprendimento
+Ascolto attivo ed empatia
+Spiccate doti relazionali e di negoziazione
+Capacità organizzative e lavoro per obiettivi
+Conoscenza dei principali software crm
+CONTATTI
+Cellulare: +39 3345321055
+Email: farnetani.matteo26@gmail.com
+Indirizzo: Fiesole, Firenze Fi
+FORMAZIONE
+Diploma in sistemi informatici aziendali
+F I R E N Z E , I S T I T U T O T E C N I C O G . P E A N O , 2
+0 1 6 - 2 0 2 1
+Patente europea per l'uso del computer Icdl
+F i r e n z e , 2 0 2 0
+ESPERIENZE PROFESSIONALI
+SALES DEVELOPMENT REPRESENTATIVE
+2 0 2 4 - a d o g g i Qapla’ s.p.a.
+procacciare nuove opportunità di vendita, icp aziende
+medio-grandi
+Creazione di sequenze outbound
+Primo contatto lead inbound e qualificazione
+degli stessi
+Salesforce
+ACCOUNT EXECUTIVE
+2 0 2 3 - 2 0 2 4 ready digital s.r.l.
+Vendita e gestione trattative commerciali in presenza
+Autonomia operativa
+ACCOUNT EXECUTIVE
+2 0 2 3 - 2 0 2 4 isendu s.r.l.
+Vendita e gestione trattative commerciali a distanza
+Creazione nuove strategie di vendita
+Onboarding e retention clientela
+Up selling
+SALES MANAGER
+2 0 2 2 - 2 0 2 3 I s e n d u s . r . l .
+Creazione e Gestione di un team (9 persone)
+Formazione nuovi Sdr e onboarding degli stessi
+Cooperazione con il reparto marketing per il
+miglioramento dei lead inbound
+SALES DEVELOPMENT REPRESENTATIVE 2 0 2
+2 - 2 0 2 3 I s e n d u s . r . l .
+Procacciamento di nuove opportunità di vendita
+telefonicamente(cold calling/out bound), icp piccole
+medie imprese
+Assistenza al cliente
+AGENTE IMMOBILIARE
+2 0 2 1 - 2 0 2 2 I t a l i a n a I m m o b i l i a r e
+Procacciamento e gestione trattative immobiliari
+Ricerche di mercato
+Gestione inserzioni pubblicitarie
+
+
+---Estrazione OCR---
+Email: farnetani.matteo26@gmail.com
+Indirizzo: Fiesole, Firenze Fi
+= F.
+" FORMAZIONE
+Diploma in sistemi informatici aziendali
+FIRENZE,ISTITUTO TECNICOG.PEANO,2
+016-2021
+Patente europea per l'uso del computer Icdl
+- Firenze,2020
+— ESPERIENZE PROFESSIONALI
+SALES DEVELOPMENT REPRESENTATIVE
+FARNETAN!I 2024-adoggi Qapla’ spa.
+procacciare nuove opportunita di vendita, icp aziende
+SALES medio-grandi
+Creazione di sequenze outbound
+Primo contatto lead inbound e qualificazione
+degli stessi
+Salesforce
+ACCOUNT EXECUTIVE
+DATA DI NASCITA 2023-2024 ready digital s.rl.
+97/10/2002 Vendita e gestione trattative commerciali in presenza
+Autonomia operativa
+PROFILO PERSONALE ACCOUNT EXECUTIVE
+Piacere, sono Matteo Farnetani, un professionista giovane e 2023-2024 isendu sel.
+determinato che ha iniziato la propria carriera come agente Vendita e gestione trattative commerciali a distanza
+immobiliare. Successivamente, grazie ad una forte passione Creazione nuove strategie di vendita
+per il mondo digitale, ho iniziato a lavorare nel reparto Onboarding e retention clientela
+Sales di un Saas per gli E-commerce. Dove, prima come Up selling
+SDR e poi come sales manager, mi sono occupato dello
+sviluppo commerciale e della creazione di un team che SALES MANAGER
+avesse come obbiettivo la costante ricerca di nuove 9099-9093lsendus.rl.
+epportunita di vendita. Diventato Account executive ho
+iniziato a lavorare in prima persona quei lead che prima Creazione e Gestione di un team (9 persone)
+solo ricercavo. Sono fiero della perseveranza che ho avuto Formazione nuovi Sdr e onboarding degli stessi
+nel rispettare e raggiungere mese dopo mese gli obbiettivi Cooperazione con il reparto marketing per il
+commerciali e i KPI che mi sono stati assegnati. . ili . .
+mig ioramento dei lead inbound
+ABILITA E COMPETENZE SALES DEVELOPMENT REPRESENTATIVE 202
+Attitudine all’apprendimento 2-2023lsendus.r.l.
+Ascolto attivo ed empatia Procacciamento di nuove opportunita di vendita
+Spiccate doti relazionali e di negoziazione telefonicamente(cold calling/out bound), icp piccole
+Capacita organizzative e lavoro per obiettivi medie imprese
+Conoscenza dei principali software crm Assistenza al cliente
+AGENTE IMMOBILIARE
+2021-2022Italianalmmobiliare
+CONTATTI Procacciamento e gestione trattative immobiliari
+Ricerche di mercato
+Cellulare: +39 3345321055 Gestione inserzioni pubblicitarie
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**MATTEO FARNETANI**  
+**S A L E S**  
+**DATA DI NASCITA**: 27/10/2002  
+
+**PROFILO PERSONALE**  
+Piacere, sono Matteo Farnetani, un professionista giovane e determinato che ha iniziato la propria carriera come agente immobiliare. Successivamente, grazie ad una forte passione per il mondo digitale, ho iniziato a lavorare nel reparto Sales di un Saas per gli E-commerce. Dove, prima come SDR e poi come sales manager, mi sono occupato dello sviluppo commerciale e della creazione di un team che avesse come obiettivo la costante ricerca di nuove opportunità di vendita. Diventato Account executive ho iniziato a lavorare in prima persona quei lead che prima solo ricercavo. Sono fiero della perseveranza che ho avuto nel rispettare e raggiungere mese dopo mese gli obiettivi commerciali e i KPI che mi sono stati assegnati.
+
+**ABILITÀ E COMPETENZE**  
+- Attitudine all’apprendimento  
+- Ascolto attivo ed empatia  
+- Spiccate doti relazionali e di negoziazione  
+- Capacità organizzative e lavoro per obiettivi  
+- Conoscenza dei principali software CRM  
+
+**CONTATTI**  
+Cellulare: +39 3345321055  
+Email: farnetani.matteo26@gmail.com  
+Indirizzo: Fiesole, Firenze FI  
+
+**FORMAZIONE**  
+Diploma in sistemi informatici aziendali  
+FIRENZE, ISTITUTO TECNICO G. PEANO, 2016 - 2021  
+Patente europea per l'uso del computer ICDL, Firenze, 2020  
+
+**ESPERIENZE PROFESSIONALI**  
+**SALES DEVELOPMENT REPRESENTATIVE**  
+2024 - ad oggi, Qapla’ S.p.A.  
+- Procacciamento nuove opportunità di vendita, ICP aziende medio-grandi  
+- Creazione di sequenze outbound  
+- Primo contatto lead inbound e qualificazione degli stessi  
+- Utilizzo di Salesforce  
+
+**ACCOUNT EXECUTIVE**  
+2023 - 2024, Ready Digital S.r.l.  
+- Vendita e gestione trattative commerciali in presenza  
+- Autonomia operativa  
+
+**ACCOUNT EXECUTIVE**  
+2023 - 2024, Isendu S.r.l.  
+- Vendita e gestione trattative commerciali a distanza  
+- Creazione nuove strategie di vendita  
+- Onboarding e retention clientela  
+- Up selling  
+
+**SALES MANAGER**  
+2022 - 2023, Isendu S.r.l.  
+- Creazione e gestione di un team (9 persone)  
+- Formazione nuovi SDR e onboarding degli stessi  
+- Cooperazione con il reparto marketing per il miglioramento dei lead inbound  
+
+**SALES DEVELOPMENT REPRESENTATIVE**  
+2022 - 2023, Isendu S.r.l.  
+- Procacciamento di nuove opportunità di vendita telefonicamente (cold calling/outbound), ICP piccole e medie imprese  
+- Assistenza al cliente  
+
+**AGENTE IMMOBILIARE**  
+2021 - 2022, Italiana Immobiliare  
+- Procacciamento e gestione trattative immobiliari  
+- Ricerche di mercato  
+- Gestione inserzioni pubblicitarie  

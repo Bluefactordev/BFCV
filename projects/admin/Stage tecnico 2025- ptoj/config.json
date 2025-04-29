@@ -1,0 +1,67 @@
+{
+  "name": "Stage tecnico 2025- ptoj",
+  "description": "",
+  "created_at": "2025-03-14T15:50:27.176692",
+  "updated_at": "2025-03-27T11:54:56.860654",
+  "fields": [
+    "Nome",
+    "Cognome",
+    "Numero di contatto",
+    "Email",
+    "Et\u00e0",
+    "Citt\u00e0 di residenza",
+    "Citt\u00e0 di origine",
+    "Anni di esperienza lavorativa",
+    "Anni di esperienza lavorativa nel ruolo richiesto",
+    "Master o assimilabile nel ruolo richiesto",
+    "Formazione pi\u00f9 alta",
+    "Universit\u00e0/Istituto",
+    "Posizione attuale",
+    "Datori di lavoro precedenti",
+    "Lingue conosciute",
+    "Legame con Firenze",
+    "Soft skills",
+    "Lingue straniere"
+  ],
+  "job_description": "Stage in una agenzia di digital marketing in performance web marketing\nSono gradite: \n- conoscenza delle basi teoriche o esperienza in campagne digitli tipo Google Ads o Meta Ads\n- conoscenza delle basi teoriche o esperienza in programmazione web (php, js, etc..)\n- conoscenza delle basi di uso della AI",
+  "criteria_weights": {
+    "competenze_tecniche": 25,
+    "esperienza_rilevante": 25,
+    "formazione": 15,
+    "problem_solving": 15,
+    "leadership": 10,
+    "potenziale_crescita": 10
+  },
+  "evaluation_criteria": [
+    [
+      "competenze_tecniche",
+      "Competenze Tecniche"
+    ],
+    [
+      "esperienza_rilevante",
+      "Esperienza Settoriale"
+    ],
+    [
+      "formazione",
+      "Formazione"
+    ],
+    [
+      "problem_solving",
+      "Problem Solving"
+    ],
+    [
+      "leadership",
+      "Leadership"
+    ],
+    [
+      "potenziale_crescita",
+      "Potenziale"
+    ]
+  ],
+  "cv_dir": "D:\\Progetti\\BFCV\\CVS\\Stage2025",
+  "llm_model": "deepseek/deepseek-chat-v3-0324:free",
+  "use_ollama": false,
+  "api_key": "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",
+  "ollama_model": "phi4:latest",
+  "use_cache": true
+}

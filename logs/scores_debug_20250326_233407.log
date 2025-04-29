@@ -1,0 +1,36 @@
+2025-03-26 23:34:07,143 - INFO - bfcv_007.py:3009 - setup_scores_logger - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-03-26 23:34:07,145 - INFO - bfcv_007.py:3010 - setup_scores_logger - Inizializzato logger di debug per i punteggi
+2025-03-26 23:34:07,145 - INFO - bfcv_007.py:3011 - setup_scores_logger - Python version: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-26 23:34:07,145 - INFO - bfcv_007.py:3012 - setup_scores_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-26 23:34:07,145 - INFO - bfcv_007.py:3013 - setup_scores_logger - Log file: D:\Progetti\BFCV\logs\scores_debug_20250326_233407.log
+2025-03-26 23:34:07,146 - INFO - bfcv_007.py:3015 - setup_scores_logger - Modello OpenAI configurato: deepseek-v3
+2025-03-26 23:34:07,146 - INFO - bfcv_007.py:3017 - setup_scores_logger - Modello Ollama configurato: phi4:latest
+2025-03-26 23:34:07,146 - INFO - bfcv_007.py:3019 - setup_scores_logger - Uso Ollama: False
+2025-03-26 23:34:07,146 - INFO - bfcv_007.py:3021 - setup_scores_logger - Cache abilitata: True
+2025-03-26 23:34:07,146 - INFO - bfcv_007.py:3283 - main - Inizializzato logger di debug per i punteggi
+2025-03-26 23:34:07,236 - INFO - bfcv_007.py:2494 - process_cvs - ======================================== INIZIO ELABORAZIONE CV IN D:\Progetti\BFCV\CVS\Stage2025 ========================================
+2025-03-26 23:34:08,077 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=917cfa3e...
+2025-03-26 23:34:08,078 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Esperienze
+Digital Support: Diadora (Stage Extracurriculare) | Supporto gestione ADS, Contenuti Social Media e Sito
+| 02/2024 -  08/2024 (Caerano di San Marco - Treviso)
+Social Media Support: Silicon Drinkabout Rome (Eventi di ...
+2025-03-26 23:34:08,078 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=917cfa3e...
+2025-03-26 23:34:08,078 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=917cfa3e...
+2025-03-26 23:34:17,859 - INFO - bfcv_007.py:1617 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-03-26 23:34:18,038 - INFO - bfcv_007.py:1618 - analyze_cv_openai - Modello: deepseek-v3
+2025-03-26 23:34:18,266 - INFO - bfcv_007.py:1619 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Competenze in linguaggi di programmazione (es. Python, JavaScript)', 'Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)', 'Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM']
+2025-03-26 23:34:18,438 - INFO - bfcv_007.py:1620 - analyze_cv_openai - Job description (troncata): Stage tecnico in programmazione web e ai e performance web marketing!...
+2025-03-26 23:34:30,964 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=c77620c8...
+2025-03-26 23:34:30,964 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        Amazing: PME Nuova Risorsa + Cv Ale...
+2025-03-26 23:34:30,965 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=c77620c8...
+2025-03-26 23:34:30,965 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=c77620c8...

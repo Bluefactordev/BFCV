@@ -1,0 +1,11 @@
+2025-03-27 10:32:56,550 - INFO - bfcv_007.py:2942 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-03-27 10:32:56,551 - INFO - bfcv_007.py:2943 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-27 10:32:56,551 - INFO - bfcv_007.py:2944 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-27 10:32:56,552 - INFO - bfcv_007.py:2945 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-03-27 10:32:56,552 - INFO - bfcv_007.py:2946 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-03-27 10:32:56,568 - INFO - bfcv_007.py:3322 - main - Mantenuto st.session_state.fields esistente con 19 campi
+2025-03-27 10:32:56,568 - INFO - bfcv_007.py:3328 - main - Mantenuto st.session_state.available_fields esistente con 23 campi
+2025-03-27 10:32:56,568 - INFO - bfcv_007.py:3339 - main - Mantenuto st.session_state.selected_fields esistente con 19 campi
+2025-03-27 10:32:56,587 - DEBUG - bfcv_007.py:1042 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek/deepseek-chat-v3-0324:free-7d4fc6f13cd2b6569ea697576472d024.txt
+2025-03-27 10:32:56,588 - INFO - bfcv_007.py:1079 - get_cached_response - Nessuna cache trovata per openai-deepseek/deepseek-chat-v3-0324:free con hash 7d4fc6f13cd2b6569ea697576472d024
+2025-03-27 10:32:57,459 - WARNING - bfcv_007.py:4694 - main - Nessun risultato trovato in session_state

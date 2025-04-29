@@ -1,0 +1,1 @@
+"{\n    \"Lingue conosciute\": \"Non specificato\",\n    \"Legame con Firenze\": \"Non specificato\",\n    \"Età\": 30\n}"

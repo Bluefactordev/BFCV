@@ -1,0 +1,225 @@
+Data e ora: 2025-04-29 14:23:41
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nda  \n+39 388 7266205 \nOlivia Sbalchiero \nExcellent ability to learn and quickly adapt to new professional environments. Strong interpersonal skills with a \nnatural talent for managing relationships with all stakeholders. A team player with proven experience in coordinating \nand collaborating within multidisciplinary teams. Outstanding problem-solving skills, with a focus on maintaining \ncalm and effectively managing unforeseen challenges. Punctual and precise in executing tasks. \nMilan, Italy \noliviasbalchiero@gmail.com \nProfessional Experience \nJunior Account \nSmartbox  \n• \nConducted performance analysis of onboarded travel agencies to identify trends \nand optimize their performance. \n• \nLed efforts in restarting business relationships with underperforming or closed \naccounts, reviving partnerships and generating new revenue. \n• \nOnboarded clients into the company's new platform, ensuring a smooth \ntransition and maintaining client engagement. \n \nRetail Associate \nSubdued \n• \nPerformed inventory checks and analysis with Excel. \n• \nAnalyzed purchasing patterns and trends to provide insights. \n• \nDelivered proficient customer service by assisting with product inquiries, \nguiding customers through purchases. \n \nEvent Assistant \nF.E.M.A. Cooperativa \n• \nAssist with the setup and breakdown of event spaces, manage guest lists to \nensure all aspects of the congress run smoothly. \n• \nGather feedback from attendees regarding their experience and report to \norganizers. \n \nSecretary \nPolisportiva Nippon & Ellequadra Srl \n• \nGreet and assist clients and visitors, ensuring a professional atmosphere. \nManage visitor logs and coordinate access. \nFeb. 2024 – Jan. 2025         \n \nMilan, Italy \n \n \n \n \n \n \n \n \n \nJuly 2023 – Sept. 2023        \n \nMilan, Italy \n \n \n \n \n \n \n \nJan. 2022 – July 2023          \n \nMilan, Italy \n \n \n \n \n \n \n \n2017 – 2018 – 2020            \n \nMilan, Italy \nEducation \n2020 – 2024                         Bachelor’s Degree in Corporate Communication & Public Relations \nMilan, Italy                         \n        IULM University of Milan \n• \nNon mandatory courses: “Data,Trends and Society”, “Corporate event \nmanagement”. \nSkills \nLanguages \n• Salesforce CRM (good), Excel (advanced), Word (advanced), Power Point \n(good), Communication, Deadline oriented \n• Italian (native), English (Professional) \n\n\n---Estrazione OCR---\nyy Olivia Sbalchiero\nan ~ \\S +39 388 7266205\na EX) oliviasbalchiero@gmail.com\n. 9 Milan, Italy\nExcellent ability to learn and quickly adapt to new professional environments. Strong interpersonal skills with a\nnatural talent for managing relationships with all stakeholders. A team player with proven experience in coordinating\nand collaborating within multidisciplinary teams. Outstanding problem-solving skills, with a focus on maintaining\ncalm and effectively managing unforeseen challenges. Punctual and precise in executing tasks.\nProfessional Experience\nFeb. 2024 — Jan. 2025 Junior Account\nMilan, Italy Smartbox\ne Conducted performance analysis of onboarded travel agencies to identify trends\nand optimize their performance.\ne Led efforts in restarting business relationships with underperforming or closed\naccounts, reviving partnerships and generating new revenue.\ne Onboarded clients into the company's new platform, ensuring a smooth\ntransition and maintaining client engagement.\nJuly 2023 — Sept. 2023 Retail Associate\nMilan, Italy Subdued\ne Performed inventory checks and analysis with Excel.\ne Analyzed purchasing patterns and trends to provide insights.\ne Delivered proficient customer service by assisting with product inquiries,\nguiding customers through purchases.\nJan. 2022 — July 2023 Event Assistant\nMilan, Italy F.E.M.A. Cooperativa\ne Assist with the setup and breakdown of event spaces, manage guest lists to\nensure all aspects of the congress run smoothly.\ne Gather feedback from attendees regarding their experience and report to\norganizers.\n2017 - 2018 - 2020 Secretary\nMilan, Italy Polisportiva Nippon & Ellequadra Srl\ne Greet and assist clients and visitors, ensuring a professional atmosphere.\nManage visitor logs and coordinate access.\nEducation\n2020 - 2024 Bachelor’s Degree in Corporate Communication & Public Relations\nMilan, Italy IULM University of Milan\ne Non mandatory courses: “Data,Trends and Society”, “Corporate event\nmanagement”.\nSkills e Salesforce CRM (good), Excel (advanced), Word (advanced), Power Point\n(good), Communication, Deadline oriented\nLanguages e Italian (native), English (Professional)\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+da  
++39 388 7266205 
+Olivia Sbalchiero 
+Excellent ability to learn and quickly adapt to new professional environments. Strong interpersonal skills with a 
+natural talent for managing relationships with all stakeholders. A team player with proven experience in coordinating 
+and collaborating within multidisciplinary teams. Outstanding problem-solving skills, with a focus on maintaining 
+calm and effectively managing unforeseen challenges. Punctual and precise in executing tasks. 
+Milan, Italy 
+oliviasbalchiero@gmail.com 
+Professional Experience 
+Junior Account 
+Smartbox  
+• 
+Conducted performance analysis of onboarded travel agencies to identify trends 
+and optimize their performance. 
+• 
+Led efforts in restarting business relationships with underperforming or closed 
+accounts, reviving partnerships and generating new revenue. 
+• 
+Onboarded clients into the company's new platform, ensuring a smooth 
+transition and maintaining client engagement. 
+ 
+Retail Associate 
+Subdued 
+• 
+Performed inventory checks and analysis with Excel. 
+• 
+Analyzed purchasing patterns and trends to provide insights. 
+• 
+Delivered proficient customer service by assisting with product inquiries, 
+guiding customers through purchases. 
+ 
+Event Assistant 
+F.E.M.A. Cooperativa 
+• 
+Assist with the setup and breakdown of event spaces, manage guest lists to 
+ensure all aspects of the congress run smoothly. 
+• 
+Gather feedback from attendees regarding their experience and report to 
+organizers. 
+ 
+Secretary 
+Polisportiva Nippon & Ellequadra Srl 
+• 
+Greet and assist clients and visitors, ensuring a professional atmosphere. 
+Manage visitor logs and coordinate access. 
+Feb. 2024 – Jan. 2025         
+ 
+Milan, Italy 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+July 2023 – Sept. 2023        
+ 
+Milan, Italy 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Jan. 2022 – July 2023          
+ 
+Milan, Italy 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2017 – 2018 – 2020            
+ 
+Milan, Italy 
+Education 
+2020 – 2024                         Bachelor’s Degree in Corporate Communication & Public Relations 
+Milan, Italy                         
+        IULM University of Milan 
+• 
+Non mandatory courses: “Data,Trends and Society”, “Corporate event 
+management”. 
+Skills 
+Languages 
+• Salesforce CRM (good), Excel (advanced), Word (advanced), Power Point 
+(good), Communication, Deadline oriented 
+• Italian (native), English (Professional) 
+
+
+---Estrazione OCR---
+yy Olivia Sbalchiero
+an ~ \S +39 388 7266205
+a EX) oliviasbalchiero@gmail.com
+. 9 Milan, Italy
+Excellent ability to learn and quickly adapt to new professional environments. Strong interpersonal skills with a
+natural talent for managing relationships with all stakeholders. A team player with proven experience in coordinating
+and collaborating within multidisciplinary teams. Outstanding problem-solving skills, with a focus on maintaining
+calm and effectively managing unforeseen challenges. Punctual and precise in executing tasks.
+Professional Experience
+Feb. 2024 — Jan. 2025 Junior Account
+Milan, Italy Smartbox
+e Conducted performance analysis of onboarded travel agencies to identify trends
+and optimize their performance.
+e Led efforts in restarting business relationships with underperforming or closed
+accounts, reviving partnerships and generating new revenue.
+e Onboarded clients into the company's new platform, ensuring a smooth
+transition and maintaining client engagement.
+July 2023 — Sept. 2023 Retail Associate
+Milan, Italy Subdued
+e Performed inventory checks and analysis with Excel.
+e Analyzed purchasing patterns and trends to provide insights.
+e Delivered proficient customer service by assisting with product inquiries,
+guiding customers through purchases.
+Jan. 2022 — July 2023 Event Assistant
+Milan, Italy F.E.M.A. Cooperativa
+e Assist with the setup and breakdown of event spaces, manage guest lists to
+ensure all aspects of the congress run smoothly.
+e Gather feedback from attendees regarding their experience and report to
+organizers.
+2017 - 2018 - 2020 Secretary
+Milan, Italy Polisportiva Nippon & Ellequadra Srl
+e Greet and assist clients and visitors, ensuring a professional atmosphere.
+Manage visitor logs and coordinate access.
+Education
+2020 - 2024 Bachelor’s Degree in Corporate Communication & Public Relations
+Milan, Italy IULM University of Milan
+e Non mandatory courses: “Data,Trends and Society”, “Corporate event
+management”.
+Skills e Salesforce CRM (good), Excel (advanced), Word (advanced), Power Point
+(good), Communication, Deadline oriented
+Languages e Italian (native), English (Professional)
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**Olivia Sbalchiero**  
++39 388 7266205  
+oliviasbalchiero@gmail.com  
+Milan, Italy  
+
+---
+
+**Profilo Professionale**  
+Excellent ability to learn and quickly adapt to new professional environments. Strong interpersonal skills with a natural talent for managing relationships with all stakeholders. A team player with proven experience in coordinating and collaborating within multidisciplinary teams. Outstanding problem-solving skills, with a focus on maintaining calm and effectively managing unforeseen challenges. Punctual and precise in executing tasks.
+
+---
+
+**Esperienza Professionale**  
+
+**Junior Account**  
+Smartbox  
+Feb. 2024 – Jan. 2025  
+Milan, Italy  
+- Conducted performance analysis of onboarded travel agencies to identify trends and optimize their performance.  
+- Led efforts in restarting business relationships with underperforming or closed accounts, reviving partnerships and generating new revenue.  
+- Onboarded clients into the company's new platform, ensuring a smooth transition and maintaining client engagement.  
+
+**Retail Associate**  
+Subdued  
+July 2023 – Sept. 2023  
+Milan, Italy  
+- Performed inventory checks and analysis with Excel.  
+- Analyzed purchasing patterns and trends to provide insights.  
+- Delivered proficient customer service by assisting with product inquiries, guiding customers through purchases.  
+
+**Event Assistant**  
+F.E.M.A. Cooperativa  
+Jan. 2022 – July 2023  
+Milan, Italy  
+- Assisted with the setup and breakdown of event spaces, managing guest lists to ensure all aspects of the congress run smoothly.  
+- Gathered feedback from attendees regarding their experience and reported to organizers.  
+
+**Secretary**  
+Polisportiva Nippon & Ellequadra Srl  
+2017 – 2018 – 2020  
+Milan, Italy  
+- Greeted and assisted clients and visitors, ensuring a professional atmosphere.  
+- Managed visitor logs and coordinated access.  
+
+---
+
+**Formazione**  
+
+**Bachelor’s Degree in Corporate Communication & Public Relations**  
+IULM University of Milan  
+2020 – 2024  
+Milan, Italy  
+- Non-mandatory courses: “Data, Trends and Society”, “Corporate event management”.  
+
+---
+
+**Competenze**  
+- Salesforce CRM (good), Excel (advanced), Word (advanced), Power Point (good), Communication, Deadline oriented  
+
+**Lingue**  
+- Italian (native), English (Professional)  

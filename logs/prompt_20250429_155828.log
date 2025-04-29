@@ -1,0 +1,289 @@
+Data e ora: 2025-04-29 15:58:28
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nCV LORELA MUCOLLARI \nINFORMAZIONI PERSONALI \n \nNome Cognome: Lorela Mucollari \nData di nascita: 28 agosto 1992 \nNazionalità: Italiana, Albanese. \nIndirizzo: Viale Fulvio Testi 192, Milano. \nTelefono: 338 2188851 E-mail: lorelamucollari@gmail.com \n \n \nESPERIENZA LAVORATIVA \n4/2019 - presente \n \nAssociate Manager Accenture SPA, Milano, Italia. \nSupporto ai progetti per la ridefinizione dei flussi di Sales and Distribution e Material Managment. \nAnalisi e implementazione delle soluzioni sviluppate per l’integrazione dei flussi su SAP HANA. \n \n5/2019– 4/2019  \n \nAssociate PWC, Milano, Italia. \nSupporto ai progetti per la ridefinizione dei flussi di Sales and Distribution e Material Managment. \nAnalisi e implementazione delle soluzioni sviluppate per l’integrazione dei flussi su SAP. \n \n01/2018 – 5/2019 \n \nSolution Analyst in SAP SD and MM in Everis Italia Spa, Milano, Italia. \nSolution Analyst specializzata nel modulo di SAP SD e MM: \nSupporto ai progetti per la ridefinizione dei flussi di Sales and Distribution e Material Managment. \nAnalisi e implementazione delle soluzioni sviluppate per l’integrazione dei flussi su SAP. \nAttività di quality assurance per le nuove implementazioni sviluppate dal team di progetto prima \ndel rilascio in ambiente di produzione. \n \n04/2016 – 07/2016 \n \nMarket research and assistant World Trade Center Tampa Bay, Florida. USA. \nMarket research and assistant per lo sviluppo della Camera di Commercio Afroamericana \n(Botswana-Usa).  \n \nISTRUZIONE \n11/2017-12/2017 \nMRK – Business Software Consulting – Via Pergolesi 18, Milano (in collaborazione con \nKPMG). Corso di alta Formazione “Gestione dei Processi Aziendali Attraverso le \ntecnologie dell’informazione”: \nIntensive course on the application and usage of SAP ERP to manage integrated business \nprocesses. 240+ hours of in-person training, SAP modules: \n• \nFinancial Accounting (FI) \n• \nControlling (CO) \n• \nMaterial Management & Purchasing (MM) \n• \nSales and Distribution (SD) \n• \nProduction Planning (PP) \nTraining on Project & Risk Management methodologies and their application through coding of \nproject plans with Microsoft Project. \nSAP ERP | SAP R/3 General | Project Risk Management | Project Management | Logistics | Supply \nChain Management (SCM) | Accelerated SAP Methodology (ASAP). \n \n09/2016 – 8/2017  \nMIEX Master in Management Internazionale – Università di Uppsala, Svezia. Master in \nBusiness and Administration. \nMaterie: Leadership, Strategia di Impresa, Analisi e Azioni Manageriali, Economia delle Imprese \nInternazionali. \nTesi: Gamification – L’influenza di gamification nell’ intenzione del consumatore di acquistare. \n(Gamification - The influence of gamification on the consumer purchase intention). \n \n01/2016-04/2016 \nMIEX Master in Management Internazionale – Università di Bologna, Italia. \nMaterie: Economia Internazionale, Logistica, Economia Industriale, Strategia di Impresa \nand Entrepreneurship Internazionale, Finanza Internazionale. \n \n09/2015-8/2017 \nMIEX Master in Management Internazionale – ICN Business School, Nancy, Francia.  \n \nMaterie: Risorse Umane, International Banking, Diritto Commerciale Internazionale, Tecniche di \nNegoziazione e Analisi Informativa, Marketing e Brand Management Internazionale. \n \n9/2011-3/2015 \nLaurea triennale in Economia, Mercati e Istituzioni. Università di Bologna, Italia. \n \nCourses: Mathematics, Microeconomics, Economic History, Sociology, Political Science, Corporate \nAccounting, Macroeconomics, Industrial Organization, Private and Commercial Law, English, \nStatistics, Econometrics, Environmental Economics, Economics of Financial Intermediaries, \nInternational Economics and Finance. \nTesi: La crisi finanziaria nei paesi emergenti: il caso russo.  \n \n \nLANGUAGES \nITALIANO: Madrelingua \nALBANESE: Madrelingua  \nINGLESE: Ottima capacità di scrittura, comprensione e orale. \nSPAGNOLO: Ottima capacità di scrittura, comprensione e orale. \nTEDESCO: Capacità base di scrittura e comprensione. \n \n \nSKILLS \nINFORMATICA: Ottima capacità di utilizzo di Microsoft Office specialmente di Word, Excel e Power Point, SPSS Statistics, Xlstat e \nSAP. \n \n\n\n---Estrazione OCR---\nCV LORELA MUCOLLARI\nINFORMAZIONI PERSONALI\nNome Cognome: Lorela Mucollari\na am) Data di nascita: 28 agosto 1992\nw ed Nazionalita: Italiana, Albanese.\neo _— Indirizzo: Viale Fulvio Testi 192, Milano.\n7 | Telefono: 338 2188851 E-mail: lorelamucollari@ gmail.com\n\nESPERIENZA LAVORATIVA\n\n4/2019 - presente Associate Manager Accenture SPA, Milano, Italia.\nSupporto ai progetti per la ridefinizione dei flussi di Sales and Distribution e Material Managment.\nAnalisi e implementazione delle soluzioni sviluppate per l’integrazione dei flussi su SAP HANA.\n\n5/2019- 4/2019 Associate PWC, Milano, Italia.\nSupporto ai progetti per la ridefinizione dei flussi di Sales and Distribution e Material Managment.\nAnalisi e implementazione delle soluzioni sviluppate per I'integrazione dei flussi su SAP.\n\n01/2018 — 5/2019 Solution Analyst in SAP SD and MM in Everis Italia Spa, Milano, Italia.\nSolution Analyst specializzata nel modulo di SAP SD e MM:\nSupporto ai progetti per la ridefinizione dei flussi di Sales and Distribution e Material Managment.\nAnalisi e implementazione delle soluzioni sviluppate per I'integrazione dei flussi su SAP.\nAttivita di quality assurance per le nuove implementazioni sviluppate dal team di progetto prima\ndel rilascio in ambiente di produzione.\n\n04/2016 — 07/2016 Market research and assistant World Trade Center Tampa Bay, Florida. USA.\nMarket research and assistant per lo sviluppo della Camera di Commercio Afroamericana\n(Botswana-Usa).\n\nISTRUZIONE\n\n11/2017-12/2017 MRK — Business Software Consulting — Via Pergolesi 18, Milano (in collaborazione con\nKPMG). Corso di alta Formazione “Gestione dei Processi Aziendali Attraverso le\ntecnologie dell‘informazione”:\nIntensive course on the application and usage of SAP ERP to manage integrated business\nprocesses. 240+ hours of in-person training, SAP modules:\ne ~— Financial Accounting (FI)\ne Controlling (CO)\ne Material Management & Purchasing (MM)\ne Sales and Distribution (SD)\ne = Production Planning (PP)\nTraining on Project & Risk Management methodologies and their application through coding of\nproject plans with Microsoft Project.\nSAP ERP | SAP R/3 General | Project Risk Management | Project Management | Logistics | Supply\nChain Management (SCM) | Accelerated SAP Methodology (ASAP).\n\n09/2016 — 8/2017 MIEX Master in Management Internazionale — Universita di Uppsala, Svezia. Master in\nBusiness and Administration.\nMaterie: Leadership, Strategia di Impresa, Analisi e Azioni Manageriali, Economia delle Imprese\nInternazionali.\nTesi: Gamification - L'influenza di gamification nell’ intenzione del consumatore di acquistare.\n(Gamification - The influence of gamification on the consumer purchase intention).\n\n01/2016-04/2016 MIEX Master in Management Internazionale — Universita di Bologna, Italia.\nMaterie: Economia Internazionale, Logistica, Economia Industriale, Strategia di Impresa\nand Entrepreneurship Internazionale, Finanza Internazionale.\n\n09/2015-8/2017 MIEX Master in Management Internazionale — ICN Business School, Nancy, Francia.\nMaterie: Risorse Umane, International Banking, Diritto Commerciale Internazionale, Tecniche di\nNegoziazione e Analisi Informativa, Marketing e Brand Management Internazionale.\n\n9/2011-3/2015 Laurea triennale in Economia, Mercati e Istituzioni. Universita di Bologna, Italia.\nCourses: Mathematics, Microeconomics, Economic History, Sociology, Political Science, Corporate\nAccounting, Macroeconomics, Industrial Organization, Private and Commercial Law, English,\nStatistics, Econometrics, Environmental Economics, Economics of Financial Intermediaries,\nInternational Economics and Finance.\nTesi: La crisi finanziaria nei paesi emergenti: il caso russo.\n\nLANGUAGES\n\nITALIANO: Madrelingua\n\nALBANESE: Madrelingua\n\nINGLESE: Ottima capacita di scrittura, comprensione e orale.\n\nSPAGNOLO: Ottima capacita di scrittura, comprensione e orale.\n\nTEDESCO: Capacita base di scrittura e comprensione.\n\nSKILLS\n\nINFORMATICA: Ottima capacita di utilizzo di Microsoft Office specialmente di Word, Excel e Power Point, SPSS Statistics, Xlstat e\n\nSAP.\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+CV LORELA MUCOLLARI 
+INFORMAZIONI PERSONALI 
+ 
+Nome Cognome: Lorela Mucollari 
+Data di nascita: 28 agosto 1992 
+Nazionalità: Italiana, Albanese. 
+Indirizzo: Viale Fulvio Testi 192, Milano. 
+Telefono: 338 2188851 E-mail: lorelamucollari@gmail.com 
+ 
+ 
+ESPERIENZA LAVORATIVA 
+4/2019 - presente 
+ 
+Associate Manager Accenture SPA, Milano, Italia. 
+Supporto ai progetti per la ridefinizione dei flussi di Sales and Distribution e Material Managment. 
+Analisi e implementazione delle soluzioni sviluppate per l’integrazione dei flussi su SAP HANA. 
+ 
+5/2019– 4/2019  
+ 
+Associate PWC, Milano, Italia. 
+Supporto ai progetti per la ridefinizione dei flussi di Sales and Distribution e Material Managment. 
+Analisi e implementazione delle soluzioni sviluppate per l’integrazione dei flussi su SAP. 
+ 
+01/2018 – 5/2019 
+ 
+Solution Analyst in SAP SD and MM in Everis Italia Spa, Milano, Italia. 
+Solution Analyst specializzata nel modulo di SAP SD e MM: 
+Supporto ai progetti per la ridefinizione dei flussi di Sales and Distribution e Material Managment. 
+Analisi e implementazione delle soluzioni sviluppate per l’integrazione dei flussi su SAP. 
+Attività di quality assurance per le nuove implementazioni sviluppate dal team di progetto prima 
+del rilascio in ambiente di produzione. 
+ 
+04/2016 – 07/2016 
+ 
+Market research and assistant World Trade Center Tampa Bay, Florida. USA. 
+Market research and assistant per lo sviluppo della Camera di Commercio Afroamericana 
+(Botswana-Usa).  
+ 
+ISTRUZIONE 
+11/2017-12/2017 
+MRK – Business Software Consulting – Via Pergolesi 18, Milano (in collaborazione con 
+KPMG). Corso di alta Formazione “Gestione dei Processi Aziendali Attraverso le 
+tecnologie dell’informazione”: 
+Intensive course on the application and usage of SAP ERP to manage integrated business 
+processes. 240+ hours of in-person training, SAP modules: 
+• 
+Financial Accounting (FI) 
+• 
+Controlling (CO) 
+• 
+Material Management & Purchasing (MM) 
+• 
+Sales and Distribution (SD) 
+• 
+Production Planning (PP) 
+Training on Project & Risk Management methodologies and their application through coding of 
+project plans with Microsoft Project. 
+SAP ERP | SAP R/3 General | Project Risk Management | Project Management | Logistics | Supply 
+Chain Management (SCM) | Accelerated SAP Methodology (ASAP). 
+ 
+09/2016 – 8/2017  
+MIEX Master in Management Internazionale – Università di Uppsala, Svezia. Master in 
+Business and Administration. 
+Materie: Leadership, Strategia di Impresa, Analisi e Azioni Manageriali, Economia delle Imprese 
+Internazionali. 
+Tesi: Gamification – L’influenza di gamification nell’ intenzione del consumatore di acquistare. 
+(Gamification - The influence of gamification on the consumer purchase intention). 
+ 
+01/2016-04/2016 
+MIEX Master in Management Internazionale – Università di Bologna, Italia. 
+Materie: Economia Internazionale, Logistica, Economia Industriale, Strategia di Impresa 
+and Entrepreneurship Internazionale, Finanza Internazionale. 
+ 
+09/2015-8/2017 
+MIEX Master in Management Internazionale – ICN Business School, Nancy, Francia.  
+ 
+Materie: Risorse Umane, International Banking, Diritto Commerciale Internazionale, Tecniche di 
+Negoziazione e Analisi Informativa, Marketing e Brand Management Internazionale. 
+ 
+9/2011-3/2015 
+Laurea triennale in Economia, Mercati e Istituzioni. Università di Bologna, Italia. 
+ 
+Courses: Mathematics, Microeconomics, Economic History, Sociology, Political Science, Corporate 
+Accounting, Macroeconomics, Industrial Organization, Private and Commercial Law, English, 
+Statistics, Econometrics, Environmental Economics, Economics of Financial Intermediaries, 
+International Economics and Finance. 
+Tesi: La crisi finanziaria nei paesi emergenti: il caso russo.  
+ 
+ 
+LANGUAGES 
+ITALIANO: Madrelingua 
+ALBANESE: Madrelingua  
+INGLESE: Ottima capacità di scrittura, comprensione e orale. 
+SPAGNOLO: Ottima capacità di scrittura, comprensione e orale. 
+TEDESCO: Capacità base di scrittura e comprensione. 
+ 
+ 
+SKILLS 
+INFORMATICA: Ottima capacità di utilizzo di Microsoft Office specialmente di Word, Excel e Power Point, SPSS Statistics, Xlstat e 
+SAP. 
+ 
+
+
+---Estrazione OCR---
+CV LORELA MUCOLLARI
+INFORMAZIONI PERSONALI
+Nome Cognome: Lorela Mucollari
+a am) Data di nascita: 28 agosto 1992
+w ed Nazionalita: Italiana, Albanese.
+eo _— Indirizzo: Viale Fulvio Testi 192, Milano.
+7 | Telefono: 338 2188851 E-mail: lorelamucollari@ gmail.com
+
+ESPERIENZA LAVORATIVA
+
+4/2019 - presente Associate Manager Accenture SPA, Milano, Italia.
+Supporto ai progetti per la ridefinizione dei flussi di Sales and Distribution e Material Managment.
+Analisi e implementazione delle soluzioni sviluppate per l’integrazione dei flussi su SAP HANA.
+
+5/2019- 4/2019 Associate PWC, Milano, Italia.
+Supporto ai progetti per la ridefinizione dei flussi di Sales and Distribution e Material Managment.
+Analisi e implementazione delle soluzioni sviluppate per I'integrazione dei flussi su SAP.
+
+01/2018 — 5/2019 Solution Analyst in SAP SD and MM in Everis Italia Spa, Milano, Italia.
+Solution Analyst specializzata nel modulo di SAP SD e MM:
+Supporto ai progetti per la ridefinizione dei flussi di Sales and Distribution e Material Managment.
+Analisi e implementazione delle soluzioni sviluppate per I'integrazione dei flussi su SAP.
+Attivita di quality assurance per le nuove implementazioni sviluppate dal team di progetto prima
+del rilascio in ambiente di produzione.
+
+04/2016 — 07/2016 Market research and assistant World Trade Center Tampa Bay, Florida. USA.
+Market research and assistant per lo sviluppo della Camera di Commercio Afroamericana
+(Botswana-Usa).
+
+ISTRUZIONE
+
+11/2017-12/2017 MRK — Business Software Consulting — Via Pergolesi 18, Milano (in collaborazione con
+KPMG). Corso di alta Formazione “Gestione dei Processi Aziendali Attraverso le
+tecnologie dell‘informazione”:
+Intensive course on the application and usage of SAP ERP to manage integrated business
+processes. 240+ hours of in-person training, SAP modules:
+e ~— Financial Accounting (FI)
+e Controlling (CO)
+e Material Management & Purchasing (MM)
+e Sales and Distribution (SD)
+e = Production Planning (PP)
+Training on Project & Risk Management methodologies and their application through coding of
+project plans with Microsoft Project.
+SAP ERP | SAP R/3 General | Project Risk Management | Project Management | Logistics | Supply
+Chain Management (SCM) | Accelerated SAP Methodology (ASAP).
+
+09/2016 — 8/2017 MIEX Master in Management Internazionale — Universita di Uppsala, Svezia. Master in
+Business and Administration.
+Materie: Leadership, Strategia di Impresa, Analisi e Azioni Manageriali, Economia delle Imprese
+Internazionali.
+Tesi: Gamification - L'influenza di gamification nell’ intenzione del consumatore di acquistare.
+(Gamification - The influence of gamification on the consumer purchase intention).
+
+01/2016-04/2016 MIEX Master in Management Internazionale — Universita di Bologna, Italia.
+Materie: Economia Internazionale, Logistica, Economia Industriale, Strategia di Impresa
+and Entrepreneurship Internazionale, Finanza Internazionale.
+
+09/2015-8/2017 MIEX Master in Management Internazionale — ICN Business School, Nancy, Francia.
+Materie: Risorse Umane, International Banking, Diritto Commerciale Internazionale, Tecniche di
+Negoziazione e Analisi Informativa, Marketing e Brand Management Internazionale.
+
+9/2011-3/2015 Laurea triennale in Economia, Mercati e Istituzioni. Universita di Bologna, Italia.
+Courses: Mathematics, Microeconomics, Economic History, Sociology, Political Science, Corporate
+Accounting, Macroeconomics, Industrial Organization, Private and Commercial Law, English,
+Statistics, Econometrics, Environmental Economics, Economics of Financial Intermediaries,
+International Economics and Finance.
+Tesi: La crisi finanziaria nei paesi emergenti: il caso russo.
+
+LANGUAGES
+
+ITALIANO: Madrelingua
+
+ALBANESE: Madrelingua
+
+INGLESE: Ottima capacita di scrittura, comprensione e orale.
+
+SPAGNOLO: Ottima capacita di scrittura, comprensione e orale.
+
+TEDESCO: Capacita base di scrittura e comprensione.
+
+SKILLS
+
+INFORMATICA: Ottima capacita di utilizzo di Microsoft Office specialmente di Word, Excel e Power Point, SPSS Statistics, Xlstat e
+
+SAP.
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**CV LORELA MUCOLLARI**
+
+**INFORMAZIONI PERSONALI**  
+Nome Cognome: Lorela Mucollari  
+Data di nascita: 28 agosto 1992  
+Nazionalità: Italiana, Albanese  
+Indirizzo: Viale Fulvio Testi 192, Milano  
+Telefono: 338 2188851  
+E-mail: lorelamucollari@gmail.com  
+
+**ESPERIENZA LAVORATIVA**  
+**4/2019 - presente**  
+Associate Manager, Accenture SPA, Milano, Italia  
+Supporto ai progetti per la ridefinizione dei flussi di Sales and Distribution e Material Management.  
+Analisi e implementazione delle soluzioni sviluppate per l’integrazione dei flussi su SAP HANA.  
+
+**5/2019 - 4/2019**  
+Associate, PWC, Milano, Italia  
+Supporto ai progetti per la ridefinizione dei flussi di Sales and Distribution e Material Management.  
+Analisi e implementazione delle soluzioni sviluppate per l’integrazione dei flussi su SAP.  
+
+**01/2018 - 5/2019**  
+Solution Analyst in SAP SD and MM, Everis Italia Spa, Milano, Italia  
+Solution Analyst specializzata nel modulo di SAP SD e MM:  
+Supporto ai progetti per la ridefinizione dei flussi di Sales and Distribution e Material Management.  
+Analisi e implementazione delle soluzioni sviluppate per l’integrazione dei flussi su SAP.  
+Attività di quality assurance per le nuove implementazioni sviluppate dal team di progetto prima del rilascio in ambiente di produzione.  
+
+**04/2016 - 07/2016**  
+Market Research and Assistant, World Trade Center Tampa Bay, Florida, USA  
+Market research and assistant per lo sviluppo della Camera di Commercio Afroamericana (Botswana-Usa).  
+
+**ISTRUZIONE**  
+**11/2017 - 12/2017**  
+MRK – Business Software Consulting, Via Pergolesi 18, Milano (in collaborazione con KPMG)  
+Corso di alta Formazione “Gestione dei Processi Aziendali Attraverso le tecnologie dell’informazione”:  
+Intensive course on the application and usage of SAP ERP to manage integrated business processes. 240+ hours of in-person training, SAP modules:  
+- Financial Accounting (FI)  
+- Controlling (CO)  
+- Material Management & Purchasing (MM)  
+- Sales and Distribution (SD)  
+- Production Planning (PP)  
+Training on Project & Risk Management methodologies and their application through coding of project plans with Microsoft Project.  
+SAP ERP | SAP R/3 General | Project Risk Management | Project Management | Logistics | Supply Chain Management (SCM) | Accelerated SAP Methodology (ASAP).  
+
+**09/2016 - 8/2017**  
+MIEX Master in Management Internazionale, Università di Uppsala, Svezia  
+Master in Business and Administration.  
+Materie: Leadership, Strategia di Impresa, Analisi e Azioni Manageriali, Economia delle Imprese Internazionali.  
+Tesi: Gamification – L’influenza di gamification nell’intenzione del consumatore di acquistare.  
+
+**01/2016 - 04/2016**  
+MIEX Master in Management Internazionale, Università di Bologna, Italia  
+Materie: Economia Internazionale, Logistica, Economia Industriale, Strategia di Impresa e Entrepreneurship Internazionale, Finanza Internazionale.  
+
+**09/2015 - 8/2017**  
+MIEX Master in Management Internazionale, ICN Business School, Nancy, Francia  
+Materie: Risorse Umane, International Banking, Diritto Commerciale Internazionale, Tecniche di Negoziazione e Analisi Informativa, Marketing e Brand Management Internazionale.  
+
+**9/2011 - 3/2015**  
+Laurea triennale in Economia, Mercati e Istituzioni, Università di Bologna, Italia  
+Courses: Mathematics, Microeconomics, Economic History, Sociology, Political Science, Corporate Accounting, Macroeconomics, Industrial Organization, Private and Commercial Law, English, Statistics, Econometrics, Environmental Economics, Economics of Financial Intermediaries, International Economics and Finance.  
+Tesi: La crisi finanziaria nei paesi emergenti: il caso russo.  
+
+**LINGUE**  
+ITALIANO: Madrelingua  
+ALBANESE: Madrelingua  
+INGLESE: Ottima capacità di scrittura, comprensione e orale.  
+SPAGNOLO: Ottima capacità di scrittura, comprensione e orale.  
+TEDESCO: Capacità base di scrittura e comprensione.  
+
+**COMPETENZE**  
+INFORMATICA: Ottima capacità di utilizzo di Microsoft Office, specialmente di Word, Excel e Power Point, SPSS Statistics, Xlstat e SAP.

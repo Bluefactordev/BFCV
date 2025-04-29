@@ -1,0 +1,219 @@
+Data e ora: 2025-04-29 14:22:13
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nLaureato in Scienze Politiche e Relazioni\nInternazionali\nPunteggio: 100/110\nLaureato in strategia della comunicazione\nPubblica e Politica.\nPunteggio: 108/110\n2019-2022\n2022-2024\nUniversità degli studi la Sapienza di Roma\nUniversità degli Studi di Firenze\nLeonardo\nRosatelli\nContact\nAbout Me\nSkills\nFirenze\nleonardorosatelli126@gmail.com\n3400635536\nEducation\nPianificazione \ncampagne \nsocial \norganiche \na \npagamento,\ncollaborazione allo sviluppo del piano editoriale e strategie per\ncampagne di marketing. Identificazione del concept creativo in\nconformità delle esigenze della clientela. \nProgetto Universitario che mi ha permesso di inventare e\ncoordinare una campagna di comunicazione, gestendo la strategia\nmulticanale da utilizzare offline ed online.\nPianificazione campagne social, elaborazione di content strategy di\ntipo testuale,fotografico, video e motion design. Creazione di piani\neditoriali che sappiano supportare il brand e incentivare la\nsponsorizzazione sui vari social media.\n10.2024 - Attuale\n02.2024 - 08-2024\n02.2023- 05 2023\n01 .2023- 03 2023\nSales Support\nevents, web and communication asisistant\nCollaboratore\nTeam Communication and Social media\nArval BNP Paribas\ngroup\nAlia Multiutility\nComunicarlo - Firenze\nCentro studi Geopolitica.info\nExperience\nEsperto di marketing e vendite, abile nel\ntenere il passo con scadenze pressanti e\nclienti \nimportanti. \nSono \nin \ngrado \ndi\nlavorare in team e mi stimolano le sfide.\nMi \ndefinisco \nuna \npersona \nmotivata,\nestremamente \ncuriosa \ne \norientato\nall’obiettivo.\nManagement Skills\nStrategia di Content creation\nDigital Marketing\nNegotiation\nCopywriting\nLeadership\nCompetenze linguistiche\nItaliano: Lingua madre\nInglese:  B2, intermedio superiore\nSpagna: B2, intermedio superiore\n\n\n---Estrazione OCR---\nR t | | ° Education\nUniversita degli studi la Sapienza di Roma 2019-2022\nLaureato in Scienze Politiche e Relazioni\n. Internazionali\nPunteggio: 100/110\nily Universita degli Studi di Firenze 2022-2024\n\"ad Laureato in strategia della comunicazione\n; Pubblica e Politica.\nPunteggio: 108/110\nContact Experience\nef) 3400635536 Sales Support 10.2024 - Attuale\nArval BNP Paribas\n@ leonardorosatellil26@qmail.com group\n2 Firenze\nevents, web and communication asisistant 02.2024 - 08-2024\nAlia Multiutilit\nAbout Me y\nPianificazione campagne social organiche a  pagamento,\ncollaborazione allo sviluppo del piano editoriale e strategie per\nEsperto di marketing e vendite, abile nel campagne di marketing, Identificazione del concept creativo in\n. . conformita delle esigenze della clientela.\ntenere il passo con scadenze pressanti e\nclienti importanti. Sono in grado di Collaboratore 02.2023- 05 2023\nlavorare in team e mi stimolano le sfide. Comunicarlo - Firenze\nMi definisco una persona motivata Progetto Universitario che mi ha permesso di inventare e\n. . coordinare una campagna di comunicazione, gestendo la strategia\nestremamente — curiosa e  orientato ;\noes multicanale da utilizzare offline ed online.\nall’obiettivo.\nSkills\nSS Team Communication and Social media 01 .2023- 03 2023\nCentro studi Geopolitica.info\n« Management Skills Pianificazione campagne social, elaborazione di content strategy di\ntipo testuale,fotografico, video e motion design. Creazione di piani\n¢« Strategia di Content creation editoriali che sappiano supportare il brand e incentivare la\nsponsorizzazione sui vari social media.\n¢ Digital Marketing\n« Negotiation ; .\nCompetenze linguistiche\n* Copywriting\nItaliano: Lingua madre\n« Leadershi . . .\nP Inglese: B2, intermedio superiore\nSpagna: B2, intermedio superiore\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Laureato in Scienze Politiche e Relazioni
+Internazionali
+Punteggio: 100/110
+Laureato in strategia della comunicazione
+Pubblica e Politica.
+Punteggio: 108/110
+2019-2022
+2022-2024
+Università degli studi la Sapienza di Roma
+Università degli Studi di Firenze
+Leonardo
+Rosatelli
+Contact
+About Me
+Skills
+Firenze
+leonardorosatelli126@gmail.com
+3400635536
+Education
+Pianificazione 
+campagne 
+social 
+organiche 
+a 
+pagamento,
+collaborazione allo sviluppo del piano editoriale e strategie per
+campagne di marketing. Identificazione del concept creativo in
+conformità delle esigenze della clientela. 
+Progetto Universitario che mi ha permesso di inventare e
+coordinare una campagna di comunicazione, gestendo la strategia
+multicanale da utilizzare offline ed online.
+Pianificazione campagne social, elaborazione di content strategy di
+tipo testuale,fotografico, video e motion design. Creazione di piani
+editoriali che sappiano supportare il brand e incentivare la
+sponsorizzazione sui vari social media.
+10.2024 - Attuale
+02.2024 - 08-2024
+02.2023- 05 2023
+01 .2023- 03 2023
+Sales Support
+events, web and communication asisistant
+Collaboratore
+Team Communication and Social media
+Arval BNP Paribas
+group
+Alia Multiutility
+Comunicarlo - Firenze
+Centro studi Geopolitica.info
+Experience
+Esperto di marketing e vendite, abile nel
+tenere il passo con scadenze pressanti e
+clienti 
+importanti. 
+Sono 
+in 
+grado 
+di
+lavorare in team e mi stimolano le sfide.
+Mi 
+definisco 
+una 
+persona 
+motivata,
+estremamente 
+curiosa 
+e 
+orientato
+all’obiettivo.
+Management Skills
+Strategia di Content creation
+Digital Marketing
+Negotiation
+Copywriting
+Leadership
+Competenze linguistiche
+Italiano: Lingua madre
+Inglese:  B2, intermedio superiore
+Spagna: B2, intermedio superiore
+
+
+---Estrazione OCR---
+R t | | ° Education
+Universita degli studi la Sapienza di Roma 2019-2022
+Laureato in Scienze Politiche e Relazioni
+. Internazionali
+Punteggio: 100/110
+ily Universita degli Studi di Firenze 2022-2024
+"ad Laureato in strategia della comunicazione
+; Pubblica e Politica.
+Punteggio: 108/110
+Contact Experience
+ef) 3400635536 Sales Support 10.2024 - Attuale
+Arval BNP Paribas
+@ leonardorosatellil26@qmail.com group
+2 Firenze
+events, web and communication asisistant 02.2024 - 08-2024
+Alia Multiutilit
+About Me y
+Pianificazione campagne social organiche a  pagamento,
+collaborazione allo sviluppo del piano editoriale e strategie per
+Esperto di marketing e vendite, abile nel campagne di marketing, Identificazione del concept creativo in
+. . conformita delle esigenze della clientela.
+tenere il passo con scadenze pressanti e
+clienti importanti. Sono in grado di Collaboratore 02.2023- 05 2023
+lavorare in team e mi stimolano le sfide. Comunicarlo - Firenze
+Mi definisco una persona motivata Progetto Universitario che mi ha permesso di inventare e
+. . coordinare una campagna di comunicazione, gestendo la strategia
+estremamente — curiosa e  orientato ;
+oes multicanale da utilizzare offline ed online.
+all’obiettivo.
+Skills
+SS Team Communication and Social media 01 .2023- 03 2023
+Centro studi Geopolitica.info
+« Management Skills Pianificazione campagne social, elaborazione di content strategy di
+tipo testuale,fotografico, video e motion design. Creazione di piani
+¢« Strategia di Content creation editoriali che sappiano supportare il brand e incentivare la
+sponsorizzazione sui vari social media.
+¢ Digital Marketing
+« Negotiation ; .
+Competenze linguistiche
+* Copywriting
+Italiano: Lingua madre
+« Leadershi . . .
+P Inglese: B2, intermedio superiore
+Spagna: B2, intermedio superiore
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**Leonardo Rosatelli**  
+Firenze  
+leonardorosatelli126@gmail.com  
+3400635536  
+
+---
+
+**About Me**  
+Esperto di marketing e vendite, abile nel tenere il passo con scadenze pressanti e clienti importanti. Sono in grado di lavorare in team e mi stimolano le sfide. Mi definisco una persona motivata, estremamente curiosa e orientato all’obiettivo.
+
+---
+
+**Education**  
+**Università degli Studi La Sapienza di Roma**  
+Laureato in Scienze Politiche e Relazioni Internazionali  
+Punteggio: 100/110  
+2019-2022  
+
+**Università degli Studi di Firenze**  
+Laureato in Strategia della Comunicazione Pubblica e Politica  
+Punteggio: 108/110  
+2022-2024  
+
+---
+
+**Experience**  
+**Sales Support**  
+Arval BNP Paribas Group  
+10.2024 - Attuale  
+
+**Events, Web and Communication Assistant**  
+Alia Multiutility  
+02.2024 - 08.2024  
+
+**Collaboratore**  
+Comunicarlo - Firenze  
+02.2023 - 05.2023  
+
+**Team Communication and Social Media**  
+Centro Studi Geopolitica.info  
+01.2023 - 03.2023  
+
+---
+
+**Skills**  
+- Pianificazione campagne social organiche e a pagamento  
+- Collaborazione allo sviluppo del piano editoriale e strategie per campagne di marketing  
+- Identificazione del concept creativo in conformità delle esigenze della clientela  
+- Progetto Universitario che mi ha permesso di inventare e coordinare una campagna di comunicazione, gestendo la strategia multicanale da utilizzare offline ed online  
+- Pianificazione campagne social, elaborazione di content strategy di tipo testuale, fotografico, video e motion design  
+- Creazione di piani editoriali che sappiano supportare il brand e incentivare la sponsorizzazione sui vari social media  
+
+---
+
+**Management Skills**  
+- Strategia di Content Creation  
+- Digital Marketing  
+- Negotiation  
+- Copywriting  
+- Leadership  
+
+---
+
+**Competenze Linguistiche**  
+- Italiano: Lingua madre  
+- Inglese: B2, intermedio superiore  
+- Spagnolo: B2, intermedio superiore  

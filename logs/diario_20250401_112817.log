@@ -1,0 +1,8 @@
+2025-04-01 11:28:17,573 - INFO - bfcv_007.py:3127 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-04-01 11:28:17,573 - INFO - bfcv_007.py:3128 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-04-01 11:28:17,574 - INFO - bfcv_007.py:3129 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-04-01 11:28:17,575 - INFO - bfcv_007.py:3130 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-04-01 11:28:17,576 - INFO - bfcv_007.py:3131 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-04-01 11:28:17,584 - INFO - bfcv_007.py:3536 - main - Inizializzato st.session_state.fields con CV_FIELDS predefiniti
+2025-04-01 11:28:17,584 - INFO - bfcv_007.py:3542 - main - Inizializzato st.session_state.available_fields con CV_FIELDS predefiniti
+2025-04-01 11:28:17,585 - INFO - bfcv_007.py:3550 - main - Inizializzato st.session_state.selected_fields basato su fields esistente

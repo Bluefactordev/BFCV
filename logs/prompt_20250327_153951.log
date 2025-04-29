@@ -1,0 +1,49 @@
+Data e ora: 2025-03-27 15:39:51
+Modello: deepseek/deepseek-chat-v3-0324:free
+
+Parametri chiamata:
+{
+  "model": "deepseek/deepseek-chat-v3-0324:free",
+  "messages": [
+    {
+      "role": "user",
+      "content": "\n    Analizza questa job description e suggerisci 3-5 campi aggiuntivi specifici che sarebbero utili estrarre dai CV per valutare i candidati.\n    I campi dovrebbero essere pertinenti per questo specifico ruolo e non già presenti nell'elenco base.\n    \n    Job Description:\n    Account Manager di agenzia di digital marketing. \nSi preferisce un candidato che:\n- Abbia esperienza in agenzia di pubblicità o di digital marketing. \n- Abbia una predisposizione o esperienza nella generazione di new business o come commerciale di agenzie di digital marketing\n- Abbia già un qualche legame con la città di lavoro, cioè Firenze, ovvero o abiti vicino, o ci abbia almeno studiato o lavorato, e quindi possa volerci tornare\n- Possibilmente sotto i 30 anni. \n- Preferibilmente con un master in marketing o comunicazione.\n\nCompiti: \n- Gestione e sviluppo dei rapporti con i clienti\n- Pianificazione e gestione di progetti digitali\n- Analisi delle performance delle campagne\n- Preparazione di presentazioni e reportistica\n- Sviluppo di strategie di content marketing\n- Ricerca di nuove opportunità di business\n- Presentazione dell'agenzia ai clienti\n    \n    Campi base già presenti:\n    Nome, Cognome, Numero di contatto, Email, Età, Città di residenza, Città di origine, Anni di esperienza lavorativa, Anni di esperienza lavorativa nel ruolo richiesto, Master o assimilabile nel ruolo richiesto, Università/Istituto, Posizione attuale, Datori di lavoro precedenti, Legame con Firenze, Competenze in linguaggi di programmazione (es. Python, JavaScript), Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager), Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp), Conoscenza di pratiche SEO e SEM\n    \n    Restituisci SOLO un array JSON con i campi suggeriti. Esempio: [\"Campo1\", \"Campo2\", \"Campo3\"]\n    "
+    }
+  ],
+  "temperature": 0.7,
+  "response_format": {
+    "type": "json_object"
+  }
+}
+
+Prompt:
+
+    Analizza questa job description e suggerisci 3-5 campi aggiuntivi specifici che sarebbero utili estrarre dai CV per valutare i candidati.
+    I campi dovrebbero essere pertinenti per questo specifico ruolo e non già presenti nell'elenco base.
+    
+    Job Description:
+    Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital marketing. 
+- Abbia una predisposizione o esperienza nella generazione di new business o come commerciale di agenzie di digital marketing
+- Abbia già un qualche legame con la città di lavoro, cioè Firenze, ovvero o abiti vicino, o ci abbia almeno studiato o lavorato, e quindi possa volerci tornare
+- Possibilmente sotto i 30 anni. 
+- Preferibilmente con un master in marketing o comunicazione.
+
+Compiti: 
+- Gestione e sviluppo dei rapporti con i clienti
+- Pianificazione e gestione di progetti digitali
+- Analisi delle performance delle campagne
+- Preparazione di presentazioni e reportistica
+- Sviluppo di strategie di content marketing
+- Ricerca di nuove opportunità di business
+- Presentazione dell'agenzia ai clienti
+    
+    Campi base già presenti:
+    Nome, Cognome, Numero di contatto, Email, Età, Città di residenza, Città di origine, Anni di esperienza lavorativa, Anni di esperienza lavorativa nel ruolo richiesto, Master o assimilabile nel ruolo richiesto, Università/Istituto, Posizione attuale, Datori di lavoro precedenti, Legame con Firenze, Competenze in linguaggi di programmazione (es. Python, JavaScript), Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager), Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp), Conoscenza di pratiche SEO e SEM
+    
+    Restituisci SOLO un array JSON con i campi suggeriti. Esempio: ["Campo1", "Campo2", "Campo3"]
+    
+
+ERRORE:
+'NoneType' object is not subscriptable

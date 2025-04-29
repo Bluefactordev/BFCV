@@ -1,0 +1,13 @@
+2025-03-14 17:00:57,421 - INFO - bfcv_007.py:2131 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-03-14 17:00:57,421 - INFO - bfcv_007.py:2132 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-14 17:00:57,422 - INFO - bfcv_007.py:2133 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-14 17:00:57,423 - INFO - bfcv_007.py:2134 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-03-14 17:00:57,423 - INFO - bfcv_007.py:2135 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-03-14 17:00:57,473 - INFO - bfcv_007.py:1837 - process_cvs - Inizio elaborazione CV nella directory: D:\Progetti\BFCV\CVS\Stage2025
+2025-03-14 17:00:57,474 - INFO - bfcv_007.py:1838 - process_cvs - Campi selezionati: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Legame con Firenze', 'Esperienza pratica con strumenti AI (es. Cursor AI, Copilot, ChatGPT)', 'Progetti di sviluppo software (link o descrizione)', 'Competenze in analisi dei dati (es. strumenti utilizzati, linguaggi)', 'Capacità di lavorare con team multidisciplinari (es. esempi di collaborazione)', 'Interesse specifico per strategie di digital marketing e automazione']
+2025-03-14 17:00:57,476 - INFO - bfcv_007.py:1846 - process_cvs - Trovati 172 file PDF nella directory
+2025-03-14 17:00:57,476 - INFO - bfcv_007.py:1855 - process_cvs - Limitando l'analisi ai primi 10 CV (su 172 totali)
+2025-03-14 17:00:57,477 - INFO - bfcv_007.py:1861 - process_cvs - Utilizzo OpenAI: False
+2025-03-14 17:00:57,478 - INFO - bfcv_007.py:1882 - process_cvs - Utilizzo Ollama - Modello: phi4:latest
+2025-03-14 17:00:59,510 - INFO - bfcv_007.py:1896 - process_cvs - Inizio analisi di 10 file PDF
+2025-03-14 17:00:59,510 - INFO - bfcv_007.py:1900 - process_cvs - [1/10] Analisi di (Ita) Alessandro Anceschi - CV.pdf...

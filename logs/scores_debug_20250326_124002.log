@@ -1,0 +1,56 @@
+2025-03-26 12:40:02,947 - INFO - bfcv_007.py:2807 - setup_scores_logger - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-03-26 12:40:02,948 - INFO - bfcv_007.py:2808 - setup_scores_logger - Inizializzato logger di debug per i punteggi
+2025-03-26 12:40:02,948 - INFO - bfcv_007.py:2809 - setup_scores_logger - Python version: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-26 12:40:02,948 - INFO - bfcv_007.py:2810 - setup_scores_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-26 12:40:02,949 - INFO - bfcv_007.py:2811 - setup_scores_logger - Log file: D:\Progetti\BFCV\logs\scores_debug_20250326_124002.log
+2025-03-26 12:40:02,949 - INFO - bfcv_007.py:2813 - setup_scores_logger - Modello OpenAI configurato: phi4:latest
+2025-03-26 12:40:02,950 - INFO - bfcv_007.py:2815 - setup_scores_logger - Modello Ollama configurato: phi4:latest
+2025-03-26 12:40:02,950 - INFO - bfcv_007.py:2817 - setup_scores_logger - Uso Ollama: True
+2025-03-26 12:40:02,951 - INFO - bfcv_007.py:2819 - setup_scores_logger - Cache abilitata: True
+2025-03-26 12:40:02,951 - INFO - bfcv_007.py:3065 - main - Inizializzato logger di debug per i punteggi
+2025-03-26 12:40:03,032 - INFO - bfcv_007.py:2368 - process_cvs - ======================================== INIZIO ELABORAZIONE CV IN D:\Progetti\BFCV\CVS\Stage2025 ========================================
+2025-03-26 12:40:05,865 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=917cfa3e...
+2025-03-26 12:40:05,865 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Esperienze
+Digital Support: Diadora (Stage Extracurriculare) | Supporto gestione ADS, Contenuti Social Media e Sito
+| 02/2024 -  08/2024 (Caerano di San Marco - Treviso)
+Social Media Support: Silicon Drinkabout Rome (Eventi di ...
+2025-03-26 12:40:06,384 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=917cfa3e...
+2025-03-26 12:40:06,384 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): **Alessandro Anceschi**  
+*Digital Marketing Specialist*
+
+---
+
+**Contatti:**  
+- **Telefono:** +39 3921956752  
+- **E-mail:** alessandro.anceschi.21@gmail.com  
+- **Città:** Roma, CAP 00142  
+
+**Esperienze:**
+
+1. **Digital Support - Diadora (Stage Extracurriculare):**  
+   - Supporto nella gestione ...
+2025-03-26 12:40:06,385 - INFO - bfcv_007.py:1933 - analyze_cv_ollama - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-26 12:40:06,385 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=7169c176...
+2025-03-26 12:40:06,385 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        **Alessandro Anceschi**  
+*Digital ...
+2025-03-26 12:40:06,388 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=7169c176...
+2025-03-26 12:40:06,388 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Nome": "Alessandro",
+    "Cognome": "Anceschi",
+    "Numero di contatto": "+39 3921956752",
+    "Email": "alessandro.anceschi.21@gmail.com",
+    "Età": "Non specificato", 	"Anno di nascita non fornito nel curriculum."
+    :"Città di residenza: ",
+    "Roma"
+    :"Città di origine: ",
+    "Non...

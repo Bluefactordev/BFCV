@@ -1,0 +1,1 @@
+"{\n    \"Età\": 40,\n    \"Master o assimilabile nel ruolo richiesto\": \"Non specificato, ma ha esperienza significativa nel settore\",\n    \"Legame con Firenze\": \"Residenza attuale non a Firenze, ma ha lavorato in Italia\",\n    \"Età espressa in anni come numero intero senza commenti\": 40\n}"

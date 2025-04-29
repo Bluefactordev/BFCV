@@ -1,0 +1,274 @@
+Data e ora: 2025-04-29 14:28:14
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nObjectives \nWork Experience\n00393505855581\nmariam_arabb@outlook.com\nAncona, Italy\nMaster Degree\nUniversità Politecnica delle Marche\nLebanese International University\nBachelor Degree\n2022 - 2024\n2019 - 2022\nEducation\nArabic (Native)\nEnglish (Advanced/Fluent)\nItalian (A1/A2)\nLanguages\nMARIAM ARAB\nVerbal and written communication skills \nMultitasking \nCustomer Support\nOrganization Skills\nAttention to details\nActive Listening\nMicrosoft Office (Word, Excel, PowerPoint, Outlook)\nProblem Solving Skills\nTime Management\nSales Strategy\nTeamwork\nLeadership Skills\nFast learner\nAdaptability\nNegotiation Skills\nHandling and resolving customer complaints\nArabic (Native)\nEnglish (Advanced/Fluent)\nItalian (A1/A2)\nHandled petty cash\nManaging daily inquiries (expenses, purchasing, sales,\npayments and formal/informal invoices)\nA  master degree graduate seeking to use my superior knowledge in the field and my advanced communication skills to effectively serve your company. Dedicated, hardworking, ambitious and committed to becoming a dependable and valuable team member.\nLea HD Beauty Center\nReceptionist / Cash & Phone Operator\nHandled customer complaints\nMar 2024 \n- \nApr 2024 \nCustomer Care (Internship)\nResponded to customers email\nChecked pending and cancelled orders\nChecked Inventory\nDid invoices\nWorked with AS400\nSalesPerson/ Cashier  \nJun 2022\n- \nSep 2022 \nCall Center Agent\nAnswering phones from customers professionally\nCompleting call notes and reports as necessary and updating them in the CRM\nProviding customers with organization’s service and product information\nHandling and resolving custome\nr complaints\nProblem Solving Skills\nApr 2022 \n- \nMay 2022 \nAccountant (Internship)\nWorked with dolphin accounting software\nHandled petty cash\nManaging daily inquiries (expenses, purchasing, sales, payments and formal/informal invoices)\nOrganize Tasks\n- \nDec 2020 \n- \n \nJan 2022  \nReceptionist / Cash & Phone Operator\nHandled customer complaints \nAnswered calls, responded to emails and spoke with clients face to face \nBooked appointments\nHandled large amount of money on the cash register \nDid daily reports\nHandles petty cash\nSep 2018 \n- \nNov 2019\nAssisted with product display and pricing \nSalesPerson/ Cashier  \nGreet potential customers \n\n\n---Estrazione OCR---\n~ MARIAM ARAB\nete ‘\n’ yy\nmA & Objectives\nJ Ga ‘fi A master degree graduate seeking to use my superior knowledge in\ni . { the field and my advanced communication skills to effectively serve\nnf .\n/ BA your company. Dedicated, hardworking, ambitious and committed to\nyy: ecoming a dependable and valuable team member.\no ; ¢ b ing a dependable and valuable t b\nE+ Work Experience\n{ 0039350585558! “ee | Fale Spa\nApr 2024 Customer Care (Internship)\n(>) mariam_arabb@outlook.com . Responded to customers email\ne« Checked pending and cancelled orders\n9 Ancona, Italy * Checked Inventory\n¢ Did invoices\n*« Worked with AS400\nEducation\nJun 2022 Call Center Solution Lebanon\nMaster Degree . Sep 2022 Call Center Agent\nInternational Economics . h f fessional\n(Business Organization and e Answering phones from customers professionally\nStrat ) 9 * Completing call notes and reports as necessary and\nrategy . .\nupdating them in the CRM\nUniversita Politecnica delle Marche P . g ; oa, ;\n9022 - 2024 ¢ Providing customers with organization's service and\nhel product information\nBac one Degree Syst * Handling and resolving customer complaints\nccounting Inrormation system\nLebanese International University\n2019 - 2022 Apr 2022 Kiwari Precious Woods & Veneers\n. May 2022 Accountant (Internship)\nSkills * Worked with dolphin accounting software\n¢« Verbal and written e Handled petty cash\ncommunication skills * Managing daily inquiries (expenses, purchasing, sales,\n* Multitasking payments and formal/informal invoices)\n¢« Customer Support * Organize Tasks\n¢ Organization Skills\n* Attention to details pee zone Lea HD Beauty Center\nActive Listening Jan 2022 Receptionist / Cash & Phone Operator\ne\n; ; e Handled customer complaints\n* Microsoft Office (Word, Excel, e Answered calls, responded to emails and spoke with\nPowerPoint, Outlook) clients face to face\n* Time Management e¢ Handled large amount of money on the cash register\n¢ Sales Strategy ¢ Did daily reports\n* Teamwork ¢ Handles petty cash\ne Leadership Skills\n* Fast learner Sep zone Wow store\n* Adaptability Nov 2019 SalesPerson/ Cashier\n* Negotiation skills ¢ Greet potential customers\n¢ Steer customers towards products and services that\ncan help them to address their needs\nLa nguages * Examine and inspect items and report any damage to\nArabic (Native) the supervisor\nEnglish (Advanced/Fluent) « Assisted with product display and pricing\nItalian (A1/A2) ¢ Helped customers\n¢ Balancing cash registers\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Objectives 
+Work Experience
+00393505855581
+mariam_arabb@outlook.com
+Ancona, Italy
+Master Degree
+Università Politecnica delle Marche
+Lebanese International University
+Bachelor Degree
+2022 - 2024
+2019 - 2022
+Education
+Arabic (Native)
+English (Advanced/Fluent)
+Italian (A1/A2)
+Languages
+MARIAM ARAB
+Verbal and written communication skills 
+Multitasking 
+Customer Support
+Organization Skills
+Attention to details
+Active Listening
+Microsoft Office (Word, Excel, PowerPoint, Outlook)
+Problem Solving Skills
+Time Management
+Sales Strategy
+Teamwork
+Leadership Skills
+Fast learner
+Adaptability
+Negotiation Skills
+Handling and resolving customer complaints
+Arabic (Native)
+English (Advanced/Fluent)
+Italian (A1/A2)
+Handled petty cash
+Managing daily inquiries (expenses, purchasing, sales,
+payments and formal/informal invoices)
+A  master degree graduate seeking to use my superior knowledge in the field and my advanced communication skills to effectively serve your company. Dedicated, hardworking, ambitious and committed to becoming a dependable and valuable team member.
+Lea HD Beauty Center
+Receptionist / Cash & Phone Operator
+Handled customer complaints
+Mar 2024 
+- 
+Apr 2024 
+Customer Care (Internship)
+Responded to customers email
+Checked pending and cancelled orders
+Checked Inventory
+Did invoices
+Worked with AS400
+SalesPerson/ Cashier  
+Jun 2022
+- 
+Sep 2022 
+Call Center Agent
+Answering phones from customers professionally
+Completing call notes and reports as necessary and updating them in the CRM
+Providing customers with organization’s service and product information
+Handling and resolving custome
+r complaints
+Problem Solving Skills
+Apr 2022 
+- 
+May 2022 
+Accountant (Internship)
+Worked with dolphin accounting software
+Handled petty cash
+Managing daily inquiries (expenses, purchasing, sales, payments and formal/informal invoices)
+Organize Tasks
+- 
+Dec 2020 
+- 
+ 
+Jan 2022  
+Receptionist / Cash & Phone Operator
+Handled customer complaints 
+Answered calls, responded to emails and spoke with clients face to face 
+Booked appointments
+Handled large amount of money on the cash register 
+Did daily reports
+Handles petty cash
+Sep 2018 
+- 
+Nov 2019
+Assisted with product display and pricing 
+SalesPerson/ Cashier  
+Greet potential customers 
+
+
+---Estrazione OCR---
+~ MARIAM ARAB
+ete ‘
+’ yy
+mA & Objectives
+J Ga ‘fi A master degree graduate seeking to use my superior knowledge in
+i . { the field and my advanced communication skills to effectively serve
+nf .
+/ BA your company. Dedicated, hardworking, ambitious and committed to
+yy: ecoming a dependable and valuable team member.
+o ; ¢ b ing a dependable and valuable t b
+E+ Work Experience
+{ 0039350585558! “ee | Fale Spa
+Apr 2024 Customer Care (Internship)
+(>) mariam_arabb@outlook.com . Responded to customers email
+e« Checked pending and cancelled orders
+9 Ancona, Italy * Checked Inventory
+¢ Did invoices
+*« Worked with AS400
+Education
+Jun 2022 Call Center Solution Lebanon
+Master Degree . Sep 2022 Call Center Agent
+International Economics . h f fessional
+(Business Organization and e Answering phones from customers professionally
+Strat ) 9 * Completing call notes and reports as necessary and
+rategy . .
+updating them in the CRM
+Universita Politecnica delle Marche P . g ; oa, ;
+9022 - 2024 ¢ Providing customers with organization's service and
+hel product information
+Bac one Degree Syst * Handling and resolving customer complaints
+ccounting Inrormation system
+Lebanese International University
+2019 - 2022 Apr 2022 Kiwari Precious Woods & Veneers
+. May 2022 Accountant (Internship)
+Skills * Worked with dolphin accounting software
+¢« Verbal and written e Handled petty cash
+communication skills * Managing daily inquiries (expenses, purchasing, sales,
+* Multitasking payments and formal/informal invoices)
+¢« Customer Support * Organize Tasks
+¢ Organization Skills
+* Attention to details pee zone Lea HD Beauty Center
+Active Listening Jan 2022 Receptionist / Cash & Phone Operator
+e
+; ; e Handled customer complaints
+* Microsoft Office (Word, Excel, e Answered calls, responded to emails and spoke with
+PowerPoint, Outlook) clients face to face
+* Time Management e¢ Handled large amount of money on the cash register
+¢ Sales Strategy ¢ Did daily reports
+* Teamwork ¢ Handles petty cash
+e Leadership Skills
+* Fast learner Sep zone Wow store
+* Adaptability Nov 2019 SalesPerson/ Cashier
+* Negotiation skills ¢ Greet potential customers
+¢ Steer customers towards products and services that
+can help them to address their needs
+La nguages * Examine and inspect items and report any damage to
+Arabic (Native) the supervisor
+English (Advanced/Fluent) « Assisted with product display and pricing
+Italian (A1/A2) ¢ Helped customers
+¢ Balancing cash registers
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**MARIAM ARAB**  
+Ancona, Italy  
+mariam_arabb@outlook.com  
+00393505855581  
+
+---
+
+**Objectives**  
+A master degree graduate seeking to use my superior knowledge in the field and my advanced communication skills to effectively serve your company. Dedicated, hardworking, ambitious and committed to becoming a dependable and valuable team member.
+
+---
+
+**Education**  
+**Master Degree**  
+Università Politecnica delle Marche  
+2022 - 2024  
+
+**Bachelor Degree**  
+Lebanese International University  
+2019 - 2022  
+
+---
+
+**Work Experience**  
+
+**Customer Care (Internship)**  
+Lea HD Beauty Center  
+Mar 2024 - Apr 2024  
+- Responded to customers' emails  
+- Checked pending and cancelled orders  
+- Checked inventory  
+- Created invoices  
+- Worked with AS400  
+
+**Call Center Agent**  
+Call Center Solution Lebanon  
+Jun 2022 - Sep 2022  
+- Answered phones from customers professionally  
+- Completed call notes and reports as necessary and updated them in the CRM  
+- Provided customers with organization's service and product information  
+- Handled and resolved customer complaints  
+
+**Accountant (Internship)**  
+Kiwari Precious Woods & Veneers  
+Apr 2022 - May 2022  
+- Worked with dolphin accounting software  
+- Handled petty cash  
+- Managed daily inquiries (expenses, purchasing, sales, payments and formal/informal invoices)  
+- Organized tasks  
+
+**Receptionist / Cash & Phone Operator**  
+Lea HD Beauty Center  
+Jan 2022 - Dec 2022  
+- Handled customer complaints  
+- Answered calls, responded to emails and spoke with clients face to face  
+- Booked appointments  
+- Handled large amounts of money on the cash register  
+- Created daily reports  
+- Handled petty cash  
+
+**SalesPerson/ Cashier**  
+Wow Store  
+Sep 2018 - Nov 2019  
+- Greeted potential customers  
+- Assisted with product display and pricing  
+- Helped customers  
+- Balanced cash registers  
+
+---
+
+**Languages**  
+- Arabic (Native)  
+- English (Advanced/Fluent)  
+- Italian (A1/A2)  
+
+---
+
+**Skills**  
+- Verbal and written communication skills  
+- Multitasking  
+- Customer Support  
+- Organization Skills  
+- Attention to details  
+- Active Listening  
+- Microsoft Office (Word, Excel, PowerPoint, Outlook)  
+- Problem Solving Skills  
+- Time Management  
+- Sales Strategy  
+- Teamwork  
+- Leadership Skills  
+- Fast learner  
+- Adaptability  
+- Negotiation Skills  
+- Handling and resolving customer complaints  
+- Managing daily inquiries (expenses, purchasing, sales, payments and formal/informal invoices)  

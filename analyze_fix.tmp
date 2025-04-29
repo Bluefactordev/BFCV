@@ -1,0 +1,72 @@
+                    # Esegui l'analisi dei CV
+                    with st.spinner("Analisi in corso..."):
+                        try:
+                            logger.info("Avvio analisi dei CV con process_cvs")
+                            results, results_df = process_cvs(
+                                cv_dir=st.session_state.cv_dir, 
+                                job_description=st.session_state.job_description, 
+                                fields=st.session_state.fields,
+                                progress_callback=update_progress
+                            )
+                            
+                            # Se non ci sono risultati, probabilmente c'è stato un errore
+                            if not results or len(results) == 0:
+                                logger.warning("Analisi completata ma nessun CV è stato analizzato con successo")
+                                st.session_state.analysis_error = "Nessun CV è stato analizzato con successo"
+                                st.error("⚠️ ATTENZIONE: Nessun CV è stato analizzato con successo. Controlla i log per i dettagli.")
+                                # Non eseguiamo st.rerun() per mantenere visibile il messaggio di errore
+                                return
+                            
+                            logger.info(f"Analisi completata con successo. Ottenuti {len(results)} risultati")
+                            
+                            # Memorizza i risultati nella session state
+                            st.session_state.results = results
+                            st.session_state.analysis_results = results_df
+                            st.session_state.analysis_error = None  # Resetta eventuali errori precedenti
+                            
+                            logger.info("Risultati salvati in st.session_state.results e st.session_state.analysis_results")
+                            
+                            # Mostra un messaggio di successo
+                            progress_placeholder.empty()
+                            progress_bar.empty()
+                            st.success(f"Analisi completata! {len(results)} CV analizzati.")
+                            
+                            # Attiva la scheda della panoramica
+                            st.session_state.active_tab = 0
+                            logger.info("Impostata active_tab = 0 per mostrare la panoramica dei risultati")
+                            
+                            # Forza il recaricamento della pagina solo se non ci sono stati errori
+                            logger.info("Eseguo st.rerun() per ricaricare la pagina e mostrare i risultati")
+                            st.rerun()
+                        except Exception as e:
+                            # Gestione degli errori
+                            logger.error(f"Errore critico durante l'analisi dei CV: {str(e)}")
+                            import traceback
+                            error_traceback = traceback.format_exc()
+                            logger.error(f"Traceback dell'errore:\n{error_traceback}")
+                            
+                            # Salva l'errore nella session state per visualizzarlo in modo persistente
+                            st.session_state.analysis_error = str(e)
+                            
+                            # Svuota i placeholder di progress per non mostrare lo spinner infinito
+                            if progress_placeholder:
+                                progress_placeholder.empty()
+                            if progress_bar:
+                                progress_bar.empty()
+                            
+                            # Mostra un errore formattato chiaramente che rimarrà visibile
+                            st.error(f"""
+                            ⚠️ ERRORE DURANTE L'ANALISI DEI CV ⚠️
+                            
+                            Si è verificato il seguente errore:
+                            {str(e)}
+                            
+                            Controlla i log per maggiori dettagli.
+                            """)
+                            
+                            # Log dell'errore
+                            logger.error(f"Errore nell'analisi dei CV: {str(e)}")
+                            logger.error(traceback.format_exc())
+                            
+                            # NON facciamo st.rerun() per mantenere visibile il messaggio di errore
+                            return 

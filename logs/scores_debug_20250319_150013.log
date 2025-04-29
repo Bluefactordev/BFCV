@@ -1,0 +1,5 @@
+2025-03-19 15:00:13,903 - INFO - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-03-19 15:00:13,903 - INFO - Inizializzato logger di debug per i punteggi
+2025-03-19 15:00:14,012 - INFO - ======================================== INIZIO ELABORAZIONE CV IN D:\Progetti\BFCV\CVS\Stage2025 ========================================
+2025-03-19 15:00:25,981 - INFO - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-03-19 15:00:52,818 - INFO - Iniziando la fase di valutazione con i criteri

@@ -1,0 +1,334 @@
+Data e ora: 2025-04-29 14:55:25
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\n \n \nCARLOTTA \nFRENI \nCARLOTTAM.FRENI@GMAIL.COM \n \n+39 333 34 66 740 \n \n/in/carlottamariafreni \nPROFILE \n \nPositive and enthusiastic sales and \naccount focused on marketing, IP \nexploitation, digital environment and \nbusiness negotiations.  \nI am skilled in developing complex \nprojects, managing people and building \npartnerships between companies and \nstakeholders. I'm actually based between \nMilan and Prato, but I’m available to be \nrelocated in Italy and abroad.  \n \nSKILLS \n \nIT Skills \n• \nGoogle workspace  \n• \nMetadata skills \n• \nExcel - Advanced \n• \nAltassian (JIRA, Confluence)  \n• \nAdobe Package \n• \nDigital Marketing  \n• \nMonday platform \n \nSoft Skills \n• \nCross functional work  \n• \nB2B marketing \n• \nAgile project management \n• \nInternational environment \n• \nCustomer oriented \n• \nTeam management  \n• \nEvents management  \n \nLanguages \n• \nItalian: Native \n• \nEnglish: Professional \n• \nGerman: Begninner \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nWORK EXPERIENCES \nWARNER CHAPPELL MUSIC ITALIANA S.R.L. \nFrom April 2020 (current company) \nOctober 2021(current position) - Licensing Jr. Manager \nApril 2020 to September 2021 - Licensing Assistant \nLicensing sales for Warner Music Group publishing company. Partnerships \nnegotiations deals for advertising campaigns, special projects for brands, Film \nand TV Series Productions. Marketing strategies development.  \nSkills:  \n• \nSales and licensing negotiations \n• \nB2B marketing strategies dev. and market data analysis \n• \nStrong internal and external stakeholders’ management \n• \nNew clients relations development \n• \nExisting clients service and care \n• \nPricing and marketing trends analysis for projects development \n• \nHigh level partnerships deals negotiation \n• \nBusiness team goals oriented \nITSRIGHT S.R.L. \nJanuary 2015 – March 2020 (5 years, 2 months) \nNew Business & Technology Development, Licensing dept. \nLicensing agreements development and negotiation with professional music \nusers. AGILE project management for the company's catalog digital \ntrasformation project in compliance with the European copyright law. \nSkills: \n• \nProject management for IT (Agile and SCRUM methods) \n• \nCompetitive analysis for business development \n• \nData processing and analysis \n• \nSales and negotiations in line with financial goals \n• \nClients relations and PRs Operations management analysis \nSCF S.R.L. \nOctober 2013 – September 2014 (1 year) \nMarketing Specialist \nCo-marketing activities development with professional music users and \nmanagement of business intelligence activities to support commercial strategies. \nSkills: \n• \nCommunication and marketing activities  \n• \nCRM analysis \n• \nSupply chain monitoring \n \nEDUCATION \n2012 \nUNIVERSITA’ COMMERCIALE “LUIGI BOCCONI” \nBachelor’s degree - CLEACC \nEconomics and Marketing for Arts, Culture and Communications \n \n \n \nLicensing - Sales - Marketing \n\n\n---Estrazione OCR---\nWORK EXPERIENCES\nF RE N | WARNER CHAPPELL MUSIC ITALIANA S.R.L.\n- Licensing Jr. Manager\n- Licensing Assistant\nLicensing sales for Warner Music Group publishing company. Partnerships\nCARLOTTAM.FRENI@GMAIL.COM negotiations deals for advertising campaigns, special projects for brands, Film\nand TV Series Productions. Marketing strategies development.\nSkills:\n+39 333 34 66 740\ne Sales and licensing negotiations\ne B2B marketing strategies dev. and market data analysis\ne — Strong internal and external stakeholders’ management\ne New clients relations development\ne Existing clients service and care\nPROFILE e — Pricing and marketing trends analysis for projects development\ne — High level partnerships deals negotiation\nPositive and enthusiastic sales and ° Business team goals oriented\naccount focused on marketing, IP\nexploitation, digital environment and ITSRIGHT S.RLL.\nbusiness negotiations.\nI killed in developi l\nam we 0 eveep ing comp ox New Business & Technology Development, Licensing dept.\nprojects, managing people and building ; : - > ; ;\n. : Licensing agreements development and negotiation with professional music\npartnerships between companies and : \\ _\n' users. AGILE project management for the company's catalog digital\nstakeholders. I'm actually based between trasformation project in compliance with the European copyright law\nMilan and Prato, but I’m available to be ; Pro] P P Pyrig ‘\nrelocated in Italy and abroad. Skills:\n© Project management for IT (Agile and SCRUM methods)\n© Competitive analysis for business development\ne Data processing and analysis\nSKILLS e — Sales and negotiations in line with financial goals\n¢ Clients relations and PRs Operations management analysis\nIT Skills\n¢ Google workspace SCF S.RLL.\ne Metadata skills\n° Excel ° Advanced Marketing Specialist\ne = Altassian (JIRA, Confluence) Co-marketing activities development with professional music users and\n« Adobe Package management of business intelligence activities to support commercial strategies.\ne Digital Marketing Skills:\ne Monday platform\n¢ Communication and marketing activities\nSoft Skills * CRM analysis\ne Cross functional work ° — Supply chain monitoring\ne  B2B marketing\ne = Agile project management\ne International environment EDUCATION\ne Customer oriented\ne Team management\ne Events management\nUNIVERSITA’ COMMERCIALE “LUIGI BOCCONI”\nLanguages Bachelor’s degree - CLEACC\ne Italian: Native . . «ae\n: ; Economics and Marketing for Arts, Culture and Communications\ne — English: Professional\ne German: Begninner\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+ 
+ 
+CARLOTTA 
+FRENI 
+CARLOTTAM.FRENI@GMAIL.COM 
+ 
++39 333 34 66 740 
+ 
+/in/carlottamariafreni 
+PROFILE 
+ 
+Positive and enthusiastic sales and 
+account focused on marketing, IP 
+exploitation, digital environment and 
+business negotiations.  
+I am skilled in developing complex 
+projects, managing people and building 
+partnerships between companies and 
+stakeholders. I'm actually based between 
+Milan and Prato, but I’m available to be 
+relocated in Italy and abroad.  
+ 
+SKILLS 
+ 
+IT Skills 
+• 
+Google workspace  
+• 
+Metadata skills 
+• 
+Excel - Advanced 
+• 
+Altassian (JIRA, Confluence)  
+• 
+Adobe Package 
+• 
+Digital Marketing  
+• 
+Monday platform 
+ 
+Soft Skills 
+• 
+Cross functional work  
+• 
+B2B marketing 
+• 
+Agile project management 
+• 
+International environment 
+• 
+Customer oriented 
+• 
+Team management  
+• 
+Events management  
+ 
+Languages 
+• 
+Italian: Native 
+• 
+English: Professional 
+• 
+German: Begninner 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+WORK EXPERIENCES 
+WARNER CHAPPELL MUSIC ITALIANA S.R.L. 
+From April 2020 (current company) 
+October 2021(current position) - Licensing Jr. Manager 
+April 2020 to September 2021 - Licensing Assistant 
+Licensing sales for Warner Music Group publishing company. Partnerships 
+negotiations deals for advertising campaigns, special projects for brands, Film 
+and TV Series Productions. Marketing strategies development.  
+Skills:  
+• 
+Sales and licensing negotiations 
+• 
+B2B marketing strategies dev. and market data analysis 
+• 
+Strong internal and external stakeholders’ management 
+• 
+New clients relations development 
+• 
+Existing clients service and care 
+• 
+Pricing and marketing trends analysis for projects development 
+• 
+High level partnerships deals negotiation 
+• 
+Business team goals oriented 
+ITSRIGHT S.R.L. 
+January 2015 – March 2020 (5 years, 2 months) 
+New Business & Technology Development, Licensing dept. 
+Licensing agreements development and negotiation with professional music 
+users. AGILE project management for the company's catalog digital 
+trasformation project in compliance with the European copyright law. 
+Skills: 
+• 
+Project management for IT (Agile and SCRUM methods) 
+• 
+Competitive analysis for business development 
+• 
+Data processing and analysis 
+• 
+Sales and negotiations in line with financial goals 
+• 
+Clients relations and PRs Operations management analysis 
+SCF S.R.L. 
+October 2013 – September 2014 (1 year) 
+Marketing Specialist 
+Co-marketing activities development with professional music users and 
+management of business intelligence activities to support commercial strategies. 
+Skills: 
+• 
+Communication and marketing activities  
+• 
+CRM analysis 
+• 
+Supply chain monitoring 
+ 
+EDUCATION 
+2012 
+UNIVERSITA’ COMMERCIALE “LUIGI BOCCONI” 
+Bachelor’s degree - CLEACC 
+Economics and Marketing for Arts, Culture and Communications 
+ 
+ 
+ 
+Licensing - Sales - Marketing 
+
+
+---Estrazione OCR---
+WORK EXPERIENCES
+F RE N | WARNER CHAPPELL MUSIC ITALIANA S.R.L.
+- Licensing Jr. Manager
+- Licensing Assistant
+Licensing sales for Warner Music Group publishing company. Partnerships
+CARLOTTAM.FRENI@GMAIL.COM negotiations deals for advertising campaigns, special projects for brands, Film
+and TV Series Productions. Marketing strategies development.
+Skills:
++39 333 34 66 740
+e Sales and licensing negotiations
+e B2B marketing strategies dev. and market data analysis
+e — Strong internal and external stakeholders’ management
+e New clients relations development
+e Existing clients service and care
+PROFILE e — Pricing and marketing trends analysis for projects development
+e — High level partnerships deals negotiation
+Positive and enthusiastic sales and ° Business team goals oriented
+account focused on marketing, IP
+exploitation, digital environment and ITSRIGHT S.RLL.
+business negotiations.
+I killed in developi l
+am we 0 eveep ing comp ox New Business & Technology Development, Licensing dept.
+projects, managing people and building ; : - > ; ;
+. : Licensing agreements development and negotiation with professional music
+partnerships between companies and : \ _
+' users. AGILE project management for the company's catalog digital
+stakeholders. I'm actually based between trasformation project in compliance with the European copyright law
+Milan and Prato, but I’m available to be ; Pro] P P Pyrig ‘
+relocated in Italy and abroad. Skills:
+© Project management for IT (Agile and SCRUM methods)
+© Competitive analysis for business development
+e Data processing and analysis
+SKILLS e — Sales and negotiations in line with financial goals
+¢ Clients relations and PRs Operations management analysis
+IT Skills
+¢ Google workspace SCF S.RLL.
+e Metadata skills
+° Excel ° Advanced Marketing Specialist
+e = Altassian (JIRA, Confluence) Co-marketing activities development with professional music users and
+« Adobe Package management of business intelligence activities to support commercial strategies.
+e Digital Marketing Skills:
+e Monday platform
+¢ Communication and marketing activities
+Soft Skills * CRM analysis
+e Cross functional work ° — Supply chain monitoring
+e  B2B marketing
+e = Agile project management
+e International environment EDUCATION
+e Customer oriented
+e Team management
+e Events management
+UNIVERSITA’ COMMERCIALE “LUIGI BOCCONI”
+Languages Bachelor’s degree - CLEACC
+e Italian: Native . . «ae
+: ; Economics and Marketing for Arts, Culture and Communications
+e — English: Professional
+e German: Begninner
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+CARLOTTA FRENI  
+CARLOTTAM.FRENI@GMAIL.COM  
++39 333 34 66 740  
+/in/carlottamariafreni  
+
+**PROFILE**  
+Positive and enthusiastic sales and account professional focused on marketing, IP exploitation, digital environment, and business negotiations. I am skilled in developing complex projects, managing people, and building partnerships between companies and stakeholders. I'm currently based between Milan and Prato, but I’m available to be relocated in Italy and abroad.  
+
+**SKILLS**  
+
+*IT Skills*  
+- Google Workspace  
+- Metadata skills  
+- Excel - Advanced  
+- Atlassian (JIRA, Confluence)  
+- Adobe Package  
+- Digital Marketing  
+- Monday platform  
+
+*Soft Skills*  
+- Cross-functional work  
+- B2B marketing  
+- Agile project management  
+- International environment  
+- Customer-oriented  
+- Team management  
+- Events management  
+
+*Languages*  
+- Italian: Native  
+- English: Professional  
+- German: Beginner  
+
+**WORK EXPERIENCE**  
+
+*WARNER CHAPPELL MUSIC ITALIANA S.R.L.*  
+From April 2020 (current company)  
+- **October 2021 (current position)** - Licensing Jr. Manager  
+- **April 2020 to September 2021** - Licensing Assistant  
+Licensing sales for Warner Music Group publishing company. Partnerships negotiations for advertising campaigns, special projects for brands, Film and TV Series Productions. Marketing strategies development.  
+Skills:  
+- Sales and licensing negotiations  
+- B2B marketing strategies development and market data analysis  
+- Strong internal and external stakeholders’ management  
+- New clients relations development  
+- Existing clients service and care  
+- Pricing and marketing trends analysis for projects development  
+- High-level partnerships deals negotiation  
+- Business team goals oriented  
+
+*ITSRIGHT S.R.L.*  
+January 2015 – March 2020 (5 years, 2 months)  
+New Business & Technology Development, Licensing dept.  
+Licensing agreements development and negotiation with professional music users. Agile project management for the company's catalog digital transformation project in compliance with the European copyright law.  
+Skills:  
+- Project management for IT (Agile and SCRUM methods)  
+- Competitive analysis for business development  
+- Data processing and analysis  
+- Sales and negotiations in line with financial goals  
+- Clients relations and PRs Operations management analysis  
+
+*SCF S.R.L.*  
+October 2013 – September 2014 (1 year)  
+Marketing Specialist  
+Co-marketing activities development with professional music users and management of business intelligence activities to support commercial strategies.  
+Skills:  
+- Communication and marketing activities  
+- CRM analysis  
+- Supply chain monitoring  
+
+**EDUCATION**  
+2012  
+*UNIVERSITA’ COMMERCIALE “LUIGI BOCCONI”*  
+Bachelor’s degree - CLEACC  
+Economics and Marketing for Arts, Culture and Communications  

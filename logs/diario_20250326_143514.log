@@ -1,0 +1,9 @@
+2025-03-26 14:35:14,762 - INFO - bfcv_007.py:2760 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-03-26 14:35:14,762 - INFO - bfcv_007.py:2761 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-26 14:35:14,763 - INFO - bfcv_007.py:2762 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-26 14:35:14,763 - INFO - bfcv_007.py:2763 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-03-26 14:35:14,764 - INFO - bfcv_007.py:2764 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-03-26 14:35:14,854 - INFO - bfcv_007.py:3734 - main - Risultati trovati in session_state, procedo con la visualizzazione
+2025-03-26 14:35:14,856 - INFO - bfcv_007.py:3760 - main - Creazione tabs: ['📊 Panoramica', '🔍 Dettaglio', '⚖️ Confronta', '📋 Schede CV']
+2025-03-26 14:35:14,859 - INFO - bfcv_007.py:3764 - main - Rendering tab Panoramica
+2025-03-26 14:35:14,878 - INFO - bfcv_007.py:3916 - main - Visualizzazione DataFrame dei risultati nella panoramica

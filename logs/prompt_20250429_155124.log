@@ -1,0 +1,246 @@
+Data e ora: 2025-04-29 15:51:24
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nMARTINA\nPOZIELLI\nProject & Communication\nManager\nCONTACTS\nSOFT SKILLS\nTOOLS\nPhone: + 39 3483431603\nEmail: poziellimartina@gmail.com\nLinkedin profile\nClear communication\nStrategic and adaptable leadership\nStrong client relationship-building\nProactive problem-solving\nPrecision-focused time management\nClickUp\nTeamdeck\nProductive\nAsana\nGoogle Workspace\nMiro\nFigma\nCAREER\nCommunication Specialist and Account at The Branding\nCrew (Florence)\nProject Manager at MONOGRID (Florence)\nGoal setting, social media content strategy and editorial planning\nCommunity Management\nCoordination and support of the Art Direction unit: support in defining\nsocial media content strategy\nPlanning and organization of shooting day schedules, directing teams to\nmaintain efficiency and quality during the production process\nClient management \nInternational clients management (Dolce&Gabbana, Gucci, Heineken etc.)\nTeam management and project team (Art directors, Designers, Strategist,\nTech and Web Developers, QA Developers, IT) allocation\nPitch Process Management for new business clients\nDrafting of quotation documents and project specifications\nContinuous monitoring of the project (news and ongoing projects) and its\ntime milestones, and verification of adherence to the setted budget\nManagement of the team assigned to the realization of web and tech\nprojects, from creatives, to UX/UI designers to web developers and QA\ndevelopers\nWebsites technical maintenance: test and debugging, optimization,\nevolutionary implementations\n2021 - 2022\n2022 - 2024\nEDUCATION\nIED Specialization Course - Web Communication:\nSEO, UX, MULTIMEDIA\nFlorence, 2021\nProject Manager with strong expertise in digital and web projects, focused on\naligning individual talents with project goals to maximize team potential. Skilled\nin defining technical requirements, fostering client relationships, and problem-\nsolving to ensure project success. Fluent in English, with a strategic, people-\ncentered approach.\nLANGUAGES\nItalian: mother tongue\nEnglish: professional\nAccount Executive at Wib - Web is Business (Fermo)\nStrategy planning, goal setting, conversion analysis and direct client\ncommunication\nManaging and overseeing activities in collaboration with Project\nManagers to ensure seamless execution and delivery\n2021 - 2021\nUBRINO CARLO BO UNIVERSITY\nMaster Degree in Communication and Advertising \nUrbino, 2020\nALMA MATER STUDIORUM BOLOGNA\nBachelor Degree in Languages and Literatures\nBologna, 2018\nERASMUS +\nUtrecht University (The Netherlands), 2018 \nUniversitat Rovira i Virgili, Tarragona (Spain), 2020\nCommunication Manager at Scuola Normale Superiore (Pisa)\n2025 - present\nGoal setting, social media content strategy and editorial planning\nCommunity Management\nSupport in producing content for the university's website and social profiles\nTeam management and organization of workflows \n\n\n---Estrazione OCR---\nProject Manager with strong expertise in digital and web projects, focused on\naligning individual talents with project goals to maximize team potential. Skilled\nin defining technical requirements, fostering client relationships, and problem-\nsolving to ensure project success. Fluent in English, with a strategic, people-\ncentered approach.\nCAREER\n2 & Communication Manager at Scuola Normale Superiore (Pisa)\n; > 2025 - present\n« Goal setting, social media content strategy and editorial planning\n* Community Management\n* Support in producing content for the university's website and social profiles\n« Team management and organization of workflows\nProject Manager at MONOGRID (Florence)\n2022 - 2024\n« International clients management (Dolce&Gabbana, Gucci, Heineken etc.)\n« Team management and project team (Art directors, Designers, Strategist,\nTech and Web Developers, OA Developers, IT) allocation\nMi ARTI NA + Pitch Process Management for new business clients\n« Drafting of quotation documents and project specifications\nPOZI = LLI « Continuous monitoring of the project (news and ongoing projects) and its\ntime milestones, and verification of adherence to the setted budget\nProject & Communication « Management of the team assigned to the realization of web and tech\nManager projects, from creatives, to UX/UI designers to web developers and QA\ndevelopers\n« Websites technical maintenance: test and debugging, optimization,\nCONTACTS evolutionary implementations\nPhone: + 39 3483431603 Communication Specialist and Account at The Branding\nEmail: poziellimartina@gmail.com Crew (Florence)\nLinkedin profile 2021 - 2022\n+ Goal setting, social media content strategy and editorial planning\n« Community Management\nSOFT SKILLS « Coordination and support of the Art Direction unit: support in defining\nsocial media content strategy\n- Clear communication + Planning and organization of shooting day schedules, directing teams to\n- Strategic and adaptable leadership maintain efficiency and quality during the production process\n- Strong client relationship-building » Client management\n- Proactive problem-solving\n+ Precision-focused time management Account Executive at Wib - Web is Business (Fermo)\n2021 - 2021\n« Strategy planning, goal setting, conversion analysis and direct client\nTOOLS communication\n« Managing and overseeing activities in collaboration with Project\n* ClickUp Managers to ensure seamless execution and delivery\n« Teamdeck\n« Productive\n. Asana EDUCATION\n« Google Workspace\n+ Miro IED Specialization Course - Web Communication:\n+ Figma SEO, UX, MULTIMEDIA\nFlorence, 2021\nLANGUAGES UBRINO CARLO BO UNIVERSITY\nMaster Degree in Communication and Advertising\nItalian: mother tongue Urbino, 2020\nEnglish: professional\nALMA MATER STUDIORUM BOLOGNA\nBachelor Degree in Languages and Literatures\nBologna, 2018\nERASMUS +\nUtrecht University (The Netherlands), 2018\nUniversitat Rovira i Virgili, Tarragona (Spain), 2020\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+MARTINA
+POZIELLI
+Project & Communication
+Manager
+CONTACTS
+SOFT SKILLS
+TOOLS
+Phone: + 39 3483431603
+Email: poziellimartina@gmail.com
+Linkedin profile
+Clear communication
+Strategic and adaptable leadership
+Strong client relationship-building
+Proactive problem-solving
+Precision-focused time management
+ClickUp
+Teamdeck
+Productive
+Asana
+Google Workspace
+Miro
+Figma
+CAREER
+Communication Specialist and Account at The Branding
+Crew (Florence)
+Project Manager at MONOGRID (Florence)
+Goal setting, social media content strategy and editorial planning
+Community Management
+Coordination and support of the Art Direction unit: support in defining
+social media content strategy
+Planning and organization of shooting day schedules, directing teams to
+maintain efficiency and quality during the production process
+Client management 
+International clients management (Dolce&Gabbana, Gucci, Heineken etc.)
+Team management and project team (Art directors, Designers, Strategist,
+Tech and Web Developers, QA Developers, IT) allocation
+Pitch Process Management for new business clients
+Drafting of quotation documents and project specifications
+Continuous monitoring of the project (news and ongoing projects) and its
+time milestones, and verification of adherence to the setted budget
+Management of the team assigned to the realization of web and tech
+projects, from creatives, to UX/UI designers to web developers and QA
+developers
+Websites technical maintenance: test and debugging, optimization,
+evolutionary implementations
+2021 - 2022
+2022 - 2024
+EDUCATION
+IED Specialization Course - Web Communication:
+SEO, UX, MULTIMEDIA
+Florence, 2021
+Project Manager with strong expertise in digital and web projects, focused on
+aligning individual talents with project goals to maximize team potential. Skilled
+in defining technical requirements, fostering client relationships, and problem-
+solving to ensure project success. Fluent in English, with a strategic, people-
+centered approach.
+LANGUAGES
+Italian: mother tongue
+English: professional
+Account Executive at Wib - Web is Business (Fermo)
+Strategy planning, goal setting, conversion analysis and direct client
+communication
+Managing and overseeing activities in collaboration with Project
+Managers to ensure seamless execution and delivery
+2021 - 2021
+UBRINO CARLO BO UNIVERSITY
+Master Degree in Communication and Advertising 
+Urbino, 2020
+ALMA MATER STUDIORUM BOLOGNA
+Bachelor Degree in Languages and Literatures
+Bologna, 2018
+ERASMUS +
+Utrecht University (The Netherlands), 2018 
+Universitat Rovira i Virgili, Tarragona (Spain), 2020
+Communication Manager at Scuola Normale Superiore (Pisa)
+2025 - present
+Goal setting, social media content strategy and editorial planning
+Community Management
+Support in producing content for the university's website and social profiles
+Team management and organization of workflows 
+
+
+---Estrazione OCR---
+Project Manager with strong expertise in digital and web projects, focused on
+aligning individual talents with project goals to maximize team potential. Skilled
+in defining technical requirements, fostering client relationships, and problem-
+solving to ensure project success. Fluent in English, with a strategic, people-
+centered approach.
+CAREER
+2 & Communication Manager at Scuola Normale Superiore (Pisa)
+; > 2025 - present
+« Goal setting, social media content strategy and editorial planning
+* Community Management
+* Support in producing content for the university's website and social profiles
+« Team management and organization of workflows
+Project Manager at MONOGRID (Florence)
+2022 - 2024
+« International clients management (Dolce&Gabbana, Gucci, Heineken etc.)
+« Team management and project team (Art directors, Designers, Strategist,
+Tech and Web Developers, OA Developers, IT) allocation
+Mi ARTI NA + Pitch Process Management for new business clients
+« Drafting of quotation documents and project specifications
+POZI = LLI « Continuous monitoring of the project (news and ongoing projects) and its
+time milestones, and verification of adherence to the setted budget
+Project & Communication « Management of the team assigned to the realization of web and tech
+Manager projects, from creatives, to UX/UI designers to web developers and QA
+developers
+« Websites technical maintenance: test and debugging, optimization,
+CONTACTS evolutionary implementations
+Phone: + 39 3483431603 Communication Specialist and Account at The Branding
+Email: poziellimartina@gmail.com Crew (Florence)
+Linkedin profile 2021 - 2022
++ Goal setting, social media content strategy and editorial planning
+« Community Management
+SOFT SKILLS « Coordination and support of the Art Direction unit: support in defining
+social media content strategy
+- Clear communication + Planning and organization of shooting day schedules, directing teams to
+- Strategic and adaptable leadership maintain efficiency and quality during the production process
+- Strong client relationship-building » Client management
+- Proactive problem-solving
++ Precision-focused time management Account Executive at Wib - Web is Business (Fermo)
+2021 - 2021
+« Strategy planning, goal setting, conversion analysis and direct client
+TOOLS communication
+« Managing and overseeing activities in collaboration with Project
+* ClickUp Managers to ensure seamless execution and delivery
+« Teamdeck
+« Productive
+. Asana EDUCATION
+« Google Workspace
++ Miro IED Specialization Course - Web Communication:
++ Figma SEO, UX, MULTIMEDIA
+Florence, 2021
+LANGUAGES UBRINO CARLO BO UNIVERSITY
+Master Degree in Communication and Advertising
+Italian: mother tongue Urbino, 2020
+English: professional
+ALMA MATER STUDIORUM BOLOGNA
+Bachelor Degree in Languages and Literatures
+Bologna, 2018
+ERASMUS +
+Utrecht University (The Netherlands), 2018
+Universitat Rovira i Virgili, Tarragona (Spain), 2020
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**MARTINA POZIELLI**  
+**Project & Communication Manager**  
+
+**CONTACTS**  
+Phone: +39 3483431603  
+Email: poziellimartina@gmail.com  
+LinkedIn profile  
+
+**SOFT SKILLS**  
+- Clear communication  
+- Strategic and adaptable leadership  
+- Strong client relationship-building  
+- Proactive problem-solving  
+- Precision-focused time management  
+
+**TOOLS**  
+- ClickUp  
+- Teamdeck  
+- Productive  
+- Asana  
+- Google Workspace  
+- Miro  
+- Figma  
+
+**CAREER**  
+
+**Communication Manager at Scuola Normale Superiore (Pisa)**  
+2025 - Present  
+- Goal setting, social media content strategy and editorial planning  
+- Community Management  
+- Support in producing content for the university's website and social profiles  
+- Team management and organization of workflows  
+
+**Project Manager at MONOGRID (Florence)**  
+2022 - 2024  
+- International clients management (Dolce&Gabbana, Gucci, Heineken etc.)  
+- Team management and project team allocation (Art directors, Designers, Strategists, Tech and Web Developers, QA Developers, IT)  
+- Pitch Process Management for new business clients  
+- Drafting of quotation documents and project specifications  
+- Continuous monitoring of the project and its time milestones, and verification of adherence to the set budget  
+- Management of the team assigned to the realization of web and tech projects, from creatives to UX/UI designers to web developers and QA developers  
+- Websites technical maintenance: testing and debugging, optimization, evolutionary implementations  
+
+**Communication Specialist and Account at The Branding Crew (Florence)**  
+2021 - 2022  
+- Goal setting, social media content strategy and editorial planning  
+- Community Management  
+- Coordination and support of the Art Direction unit: support in defining social media content strategy  
+- Planning and organization of shooting day schedules, directing teams to maintain efficiency and quality during the production process  
+- Client management  
+
+**Account Executive at Wib - Web is Business (Fermo)**  
+2021 - 2021  
+- Strategy planning, goal setting, conversion analysis and direct client communication  
+- Managing and overseeing activities in collaboration with Project Managers to ensure seamless execution and delivery  
+
+**EDUCATION**  
+
+**IED Specialization Course - Web Communication: SEO, UX, MULTIMEDIA**  
+Florence, 2021  
+
+**UBRINO CARLO BO UNIVERSITY**  
+Master Degree in Communication and Advertising  
+Urbino, 2020  
+
+**ALMA MATER STUDIORUM BOLOGNA**  
+Bachelor Degree in Languages and Literatures  
+Bologna, 2018  
+
+**ERASMUS +**  
+Utrecht University (The Netherlands), 2018  
+Universitat Rovira i Virgili, Tarragona (Spain), 2020  
+
+**LANGUAGES**  
+- Italian: mother tongue  
+- English: professional  

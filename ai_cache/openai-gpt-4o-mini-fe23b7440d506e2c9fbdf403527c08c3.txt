@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Catania\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea Magistrale in Scienze dello Spettacolo e Comunicazione Multimediale\",\n    \"Legame con Firenze\": \"Non specificato\"\n}"

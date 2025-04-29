@@ -1,0 +1,272 @@
+2025-03-26 23:27:45,378 - INFO - bfcv_007.py:3009 - setup_scores_logger - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-03-26 23:27:45,378 - INFO - bfcv_007.py:3010 - setup_scores_logger - Inizializzato logger di debug per i punteggi
+2025-03-26 23:27:45,379 - INFO - bfcv_007.py:3011 - setup_scores_logger - Python version: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-26 23:27:45,379 - INFO - bfcv_007.py:3012 - setup_scores_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-26 23:27:45,379 - INFO - bfcv_007.py:3013 - setup_scores_logger - Log file: D:\Progetti\BFCV\logs\scores_debug_20250326_232745.log
+2025-03-26 23:27:45,379 - INFO - bfcv_007.py:3015 - setup_scores_logger - Modello OpenAI configurato: deepseek-v3
+2025-03-26 23:27:45,380 - INFO - bfcv_007.py:3017 - setup_scores_logger - Modello Ollama configurato: phi4:latest
+2025-03-26 23:27:45,380 - INFO - bfcv_007.py:3019 - setup_scores_logger - Uso Ollama: False
+2025-03-26 23:27:45,380 - INFO - bfcv_007.py:3021 - setup_scores_logger - Cache abilitata: True
+2025-03-26 23:27:45,381 - INFO - bfcv_007.py:3283 - main - Inizializzato logger di debug per i punteggi
+2025-03-26 23:27:45,464 - INFO - bfcv_007.py:2494 - process_cvs - ======================================== INIZIO ELABORAZIONE CV IN D:\Progetti\BFCV\CVS\Stage2025 ========================================
+2025-03-26 23:27:46,687 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=917cfa3e...
+2025-03-26 23:27:46,687 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Esperienze
+Digital Support: Diadora (Stage Extracurriculare) | Supporto gestione ADS, Contenuti Social Media e Sito
+| 02/2024 -  08/2024 (Caerano di San Marco - Treviso)
+Social Media Support: Silicon Drinkabout Rome (Eventi di ...
+2025-03-26 23:27:46,687 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=917cfa3e...
+2025-03-26 23:27:46,687 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=917cfa3e...
+2025-03-26 23:27:47,622 - INFO - bfcv_007.py:1617 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-03-26 23:27:47,622 - INFO - bfcv_007.py:1618 - analyze_cv_openai - Modello: deepseek-v3
+2025-03-26 23:27:47,624 - INFO - bfcv_007.py:1619 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Competenze in linguaggi di programmazione (es. Python, JavaScript)', 'Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)', 'Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM']
+2025-03-26 23:27:47,624 - INFO - bfcv_007.py:1620 - analyze_cv_openai - Job description (troncata): Stage tecnico in programmazione web e ai e performance web marketing!...
+2025-03-26 23:27:47,874 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=c77620c8...
+2025-03-26 23:27:47,875 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        Amazing: PME Nuova Risorsa + Cv Ale...
+2025-03-26 23:27:47,876 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=c77620c8...
+2025-03-26 23:27:47,876 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=c77620c8...
+2025-03-26 23:27:49,954 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=1df81578...
+2025-03-26 23:27:49,954 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+RAFAEL PATRON
+Growth Hacker 
+Growth Hacker & 
+& AI Program Manager
+AI Program Manager
+Professionista con 16 anni di esperienza in Digital 
+Marketing, AI Program Manager, SEO/SEM, Marketing 
+Automation e CRM (Salesforce), specia...
+2025-03-26 23:27:49,954 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=1df81578...
+2025-03-26 23:27:49,956 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=1df81578...
+2025-03-26 23:27:50,178 - INFO - bfcv_007.py:1617 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-03-26 23:27:50,179 - INFO - bfcv_007.py:1618 - analyze_cv_openai - Modello: deepseek-v3
+2025-03-26 23:27:50,179 - INFO - bfcv_007.py:1619 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Competenze in linguaggi di programmazione (es. Python, JavaScript)', 'Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)', 'Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM']
+2025-03-26 23:27:50,179 - INFO - bfcv_007.py:1620 - analyze_cv_openai - Job description (troncata): Stage tecnico in programmazione web e ai e performance web marketing!...
+2025-03-26 23:27:50,184 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=74aa5a18...
+2025-03-26 23:27:50,184 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        RAFAEL PATRON
+Growth Hacker 
+Growth...
+2025-03-26 23:27:50,184 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=74aa5a18...
+2025-03-26 23:27:50,185 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=74aa5a18...
+2025-03-26 23:27:51,137 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=6f942ac9...
+2025-03-26 23:27:51,137 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+781-608-2292
+juliemiller0303@gmail.com 
+https://linktr.ee/majolicamedia
+PROFILE
+Versatile social media manager and content
+strategist with a strong background in
+digital marketing, brand storytelling, and
+audience engagement. E...
+2025-03-26 23:27:51,138 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=6f942ac9...
+2025-03-26 23:27:51,138 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=6f942ac9...
+2025-03-26 23:27:51,353 - INFO - bfcv_007.py:1617 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-03-26 23:27:51,354 - INFO - bfcv_007.py:1618 - analyze_cv_openai - Modello: deepseek-v3
+2025-03-26 23:27:51,354 - INFO - bfcv_007.py:1619 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Competenze in linguaggi di programmazione (es. Python, JavaScript)', 'Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)', 'Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM']
+2025-03-26 23:27:51,354 - INFO - bfcv_007.py:1620 - analyze_cv_openai - Job description (troncata): Stage tecnico in programmazione web e ai e performance web marketing!...
+2025-03-26 23:27:51,356 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=0630941c...
+2025-03-26 23:27:51,356 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        781-608-2292
+juliemiller0303@gmail....
+2025-03-26 23:27:51,356 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=0630941c...
+2025-03-26 23:27:51,356 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=0630941c...
+2025-03-26 23:27:52,565 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=2b8e57f7...
+2025-03-26 23:27:52,565 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
++39 338 895 4005
+aledemaria98@hotmail.com
+Istruzione e formazione
+Su di me
+Appassionato di comunicazione e
+pubbliche relazioni, con esperienza nella
+gestione dei social media, creazione di
+contenuti e organizzazione eventi.
+Mot...
+2025-03-26 23:27:52,567 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=2b8e57f7...
+2025-03-26 23:27:52,567 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=2b8e57f7...
+2025-03-26 23:27:52,772 - INFO - bfcv_007.py:1617 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-03-26 23:27:52,772 - INFO - bfcv_007.py:1618 - analyze_cv_openai - Modello: deepseek-v3
+2025-03-26 23:27:52,773 - INFO - bfcv_007.py:1619 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Competenze in linguaggi di programmazione (es. Python, JavaScript)', 'Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)', 'Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM']
+2025-03-26 23:27:52,773 - INFO - bfcv_007.py:1620 - analyze_cv_openai - Job description (troncata): Stage tecnico in programmazione web e ai e performance web marketing!...
+2025-03-26 23:27:52,774 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=cd31682f...
+2025-03-26 23:27:52,774 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        e
+Alessandro De Maria
+= Aspirante P...
+2025-03-26 23:27:52,774 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=cd31682f...
+2025-03-26 23:27:52,774 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=cd31682f...
+2025-03-26 23:27:53,813 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=e67d110b...
+2025-03-26 23:27:53,813 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+ +33 7 69 65 10 41
+ ajlinsinani2016@gmail.com
+23 Avnue de Bruxelles 
+14000 Caen,  Francia
+Ajlin
+Sinani
+STUDENTESSA IN LINGUE
+STRANIERE APPLICATE PER IL
+COMMERCIO
+PROFILO
+Studentessa dell'ultimo anno di laurea
+triennale  in Ling...
+2025-03-26 23:27:53,815 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=e67d110b...
+2025-03-26 23:27:53,815 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=e67d110b...
+2025-03-26 23:27:54,020 - INFO - bfcv_007.py:1617 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-03-26 23:27:54,020 - INFO - bfcv_007.py:1618 - analyze_cv_openai - Modello: deepseek-v3
+2025-03-26 23:27:54,021 - INFO - bfcv_007.py:1619 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Competenze in linguaggi di programmazione (es. Python, JavaScript)', 'Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)', 'Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM']
+2025-03-26 23:27:54,021 - INFO - bfcv_007.py:1620 - analyze_cv_openai - Job description (troncata): Stage tecnico in programmazione web e ai e performance web marketing!...
+2025-03-26 23:27:54,022 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=a97c010b...
+2025-03-26 23:27:54,022 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+         +33 7 69 65 10 41
+ ajlinsinani2016...
+2025-03-26 23:27:54,023 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=a97c010b...
+2025-03-26 23:27:54,023 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=a97c010b...
+2025-03-26 23:27:55,011 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=79214e3a...
+2025-03-26 23:27:55,012 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+ALESSIA MILELLA
+PROFILO
+Sono appassionata di comunicazione e
+marketing, con una forte
+determinazione a crescere nel settore.
+Cerco opportunità in aziende, agenzie
+e centri media, dove posso utilizzare le
+mie competenze per svil...
+2025-03-26 23:27:55,012 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=79214e3a...
+2025-03-26 23:27:55,012 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=79214e3a...
+2025-03-26 23:27:55,237 - INFO - bfcv_007.py:1617 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-03-26 23:27:55,237 - INFO - bfcv_007.py:1618 - analyze_cv_openai - Modello: deepseek-v3
+2025-03-26 23:27:55,237 - INFO - bfcv_007.py:1619 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Competenze in linguaggi di programmazione (es. Python, JavaScript)', 'Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)', 'Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM']
+2025-03-26 23:27:55,238 - INFO - bfcv_007.py:1620 - analyze_cv_openai - Job description (troncata): Stage tecnico in programmazione web e ai e performance web marketing!...
+2025-03-26 23:27:55,240 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=58688e40...
+2025-03-26 23:27:55,240 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        : .. * ALESSIA MILELLA
+Ct saa a> Ca...
+2025-03-26 23:27:55,240 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=58688e40...
+2025-03-26 23:27:55,240 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=58688e40...
+2025-03-26 23:27:56,278 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=13178b80...
+2025-03-26 23:27:56,278 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+ALICE PETRI
+Italiano: madrelingua
+Inglese: livello B2
+L I N G U E
+Alicepetri01@gmail.com
+3895221684
+C O N T A T T I
+Master in Digital Communication, Brand and Content Creation
+Università Guglielmo Marconi | Febbraio 2024 - Febb...
+2025-03-26 23:27:56,278 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=13178b80...
+2025-03-26 23:27:56,279 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=13178b80...
+2025-03-26 23:27:56,576 - INFO - bfcv_007.py:1617 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-03-26 23:27:56,576 - INFO - bfcv_007.py:1618 - analyze_cv_openai - Modello: deepseek-v3
+2025-03-26 23:27:56,576 - INFO - bfcv_007.py:1619 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Competenze in linguaggi di programmazione (es. Python, JavaScript)', 'Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)', 'Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM']
+2025-03-26 23:27:56,577 - INFO - bfcv_007.py:1620 - analyze_cv_openai - Job description (troncata): Stage tecnico in programmazione web e ai e performance web marketing!...
+2025-03-26 23:27:56,577 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=e4ed1ebc...
+2025-03-26 23:27:56,578 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        * Sono una persona organizzata, det...
+2025-03-26 23:27:56,578 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=e4ed1ebc...
+2025-03-26 23:27:56,578 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=e4ed1ebc...
+2025-03-26 23:27:57,262 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=42b19ece...
+2025-03-26 23:27:57,262 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+335 5908293
+tonelli.alice@gmail.com
+Alice Tonelli
+335 5908293
+Laureata in Scienze della
+comunicazione appassionata del
+mondo del Digital Marketing e del
+Social Media Marketing. 
+tonelli.alice@gmail.com
+FORMAZIONE ACCADEMICA
+Uni...
+2025-03-26 23:27:57,262 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=42b19ece...
+2025-03-26 23:27:57,262 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=42b19ece...
+2025-03-26 23:27:57,613 - INFO - bfcv_007.py:1617 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-03-26 23:27:57,613 - INFO - bfcv_007.py:1618 - analyze_cv_openai - Modello: deepseek-v3
+2025-03-26 23:27:57,614 - INFO - bfcv_007.py:1619 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Competenze in linguaggi di programmazione (es. Python, JavaScript)', 'Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)', 'Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM']
+2025-03-26 23:27:57,614 - INFO - bfcv_007.py:1620 - analyze_cv_openai - Job description (troncata): Stage tecnico in programmazione web e ai e performance web marketing!...
+2025-03-26 23:27:57,614 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=d7cf2d76...
+2025-03-26 23:27:57,614 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        335 5908293
+tonelli.alice@gmail.com...
+2025-03-26 23:27:57,616 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=d7cf2d76...
+2025-03-26 23:27:57,616 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=d7cf2d76...
+2025-03-26 23:27:57,935 - INFO - bfcv_007.py:1033 - get_cached_response - CACHE CHECK: Modello=openai-deepseek-v3, Hash=35e0e403...
+2025-03-26 23:27:57,935 - DEBUG - bfcv_007.py:1037 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+ALICE VERACINI
+Junior Digital Marketing Specialist
+CONTATTI
+ESPERIENZE LAVORATIVE
+ISTRUZIONE
+SOFT SKILLS
+COMPETENZE
+INFORMATICHE 
+Laureata in Economia Aziendale con un Master in Digital Marketing, ho
+competenze in SEO/SEM, perf...
+2025-03-26 23:27:57,935 - INFO - bfcv_007.py:1070 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=35e0e403...
+2025-03-26 23:27:57,936 - INFO - bfcv_007.py:1071 - get_cached_response - CACHE MISS: Modello=openai-deepseek-v3, Hash=35e0e403...

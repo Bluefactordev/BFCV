@@ -1,0 +1,178 @@
+2025-03-26 14:07:19,954 - INFO - bfcv_007.py:2807 - setup_scores_logger - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-03-26 14:07:19,955 - INFO - bfcv_007.py:2808 - setup_scores_logger - Inizializzato logger di debug per i punteggi
+2025-03-26 14:07:19,955 - INFO - bfcv_007.py:2809 - setup_scores_logger - Python version: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-26 14:07:19,955 - INFO - bfcv_007.py:2810 - setup_scores_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-26 14:07:19,955 - INFO - bfcv_007.py:2811 - setup_scores_logger - Log file: D:\Progetti\BFCV\logs\scores_debug_20250326_140719.log
+2025-03-26 14:07:19,955 - INFO - bfcv_007.py:2813 - setup_scores_logger - Modello OpenAI configurato: phi4:latest
+2025-03-26 14:07:19,956 - INFO - bfcv_007.py:2815 - setup_scores_logger - Modello Ollama configurato: phi4:latest
+2025-03-26 14:07:19,956 - INFO - bfcv_007.py:2817 - setup_scores_logger - Uso Ollama: True
+2025-03-26 14:07:19,956 - INFO - bfcv_007.py:2819 - setup_scores_logger - Cache abilitata: True
+2025-03-26 14:07:19,956 - INFO - bfcv_007.py:3065 - main - Inizializzato logger di debug per i punteggi
+2025-03-26 14:07:20,035 - INFO - bfcv_007.py:2368 - process_cvs - ======================================== INIZIO ELABORAZIONE CV IN D:\Progetti\BFCV\CVS\Stage2025 ========================================
+2025-03-26 14:07:22,880 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=917cfa3e...
+2025-03-26 14:07:22,880 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Esperienze
+Digital Support: Diadora (Stage Extracurriculare) | Supporto gestione ADS, Contenuti Social Media e Sito
+| 02/2024 -  08/2024 (Caerano di San Marco - Treviso)
+Social Media Support: Silicon Drinkabout Rome (Eventi di ...
+2025-03-26 14:07:22,882 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=917cfa3e...
+2025-03-26 14:07:22,882 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): **Alessandro Anceschi**  
+*Digital Marketing Specialist*
+
+---
+
+**Contatti:**  
+- **Telefono:** +39 3921956752  
+- **E-mail:** alessandro.anceschi.21@gmail.com  
+- **Città:** Roma, CAP 00142  
+
+**Esperienze:**
+
+1. **Digital Support - Diadora (Stage Extracurriculare):**  
+   - Supporto nella gestione ...
+2025-03-26 14:07:22,882 - INFO - bfcv_007.py:1933 - analyze_cv_ollama - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-26 14:07:22,883 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=7169c176...
+2025-03-26 14:07:22,883 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        **Alessandro Anceschi**  
+*Digital ...
+2025-03-26 14:07:22,885 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=7169c176...
+2025-03-26 14:07:22,885 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Nome": "Alessandro",
+    "Cognome": "Anceschi",
+    "Numero di contatto": "+39 3921956752",
+    "Email": "alessandro.anceschi.21@gmail.com",
+    "Età": "Non specificato", 	"Anno di nascita non fornito nel curriculum."
+    :"Città di residenza: ",
+    "Roma"
+    :"Città di origine: ",
+    "Non...
+2025-03-26 14:07:22,888 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=bf39fb86...
+2025-03-26 14:07:22,888 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Età
+2. Città di residenza
+3. Città di origine
+4. Anni di esperienza lavorativa
+5. Anni di esperienza lavorativa nel ruolo richiesto
+6. Master o assimilabile nel ruolo richiesto
+7. Università/Istituto
+8. Posizione attuale
+...
+2025-03-26 14:07:22,889 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=bf39fb86...
+2025-03-26 14:07:22,890 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Età": "Alessandro è nato nel 2003 (presumendo che il '21' nella sua email si riferisca al suo anno di nascita), quindi ha circa 21 anni.",
+    "Città di residenza": "Roma",
+    "Città di origine": "Non specificato, ma Pesaro è menzionata come luogo per le attività con Anffas Roma Onlus; presu...
+2025-03-26 14:07:22,893 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=84d5edef...
+2025-03-26 14:07:22,893 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Stage tecnico in programmazione web e ai e performance web marketing!
+            
+            CV:
+            **Alessandro Anceschi**  
+*Digit...
+2025-03-26 14:07:22,896 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=84d5edef...
+2025-03-26 14:07:22,896 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {
+            "score": 60,
+            "motivation": "Alessandro ha una buona comprensione delle pratiche di SEO e SEM grazie all'uso di strumenti come Screaming Frog, Semrush e Ubersuggest. Tuttavia, mancano competenze in programmazione PHP o Pytho...
+2025-03-26 14:07:22,897 - INFO - bfcv_007.py:2246 - analyze_cv_ollama - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-03-26 14:07:22,897 - INFO - bfcv_007.py:2256 - analyze_cv_ollama - Elaborazione criterio 'competenze_tecniche'
+2025-03-26 14:07:24,948 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=1df81578...
+2025-03-26 14:07:24,949 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+RAFAEL PATRON
+Growth Hacker 
+Growth Hacker & 
+& AI Program Manager
+AI Program Manager
+Professionista con 16 anni di esperienza in Digital 
+Marketing, AI Program Manager, SEO/SEM, Marketing 
+Automation e CRM (Salesforce), specia...
+2025-03-26 14:07:24,959 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=1df81578...
+2025-03-26 14:07:24,960 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): **Cv Pulito: Rafael Patron**
+
+---
+
+**Contatti**
+- Email: rafael.patron@example.com
+- Cellulare: +39 123 456 789
+
+**Esperienza Professionale**
+
+1. **Growth Hacker & Web Marketing Manager**  
+   *Wyscout* | 2014 - 2017  
+   Implementazione di SEO, SEM e Growth Hacking per potenziare la visibilità onli...
+2025-03-26 14:07:24,960 - INFO - bfcv_007.py:1933 - analyze_cv_ollama - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-26 14:07:24,961 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=c3c9a95d...
+2025-03-26 14:07:24,962 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        **Cv Pulito: Rafael Patron**
+
+---
+
+...
+2025-03-26 14:07:24,964 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=c3c9a95d...
+2025-03-26 14:07:24,965 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Nome": "Rafael",
+    "Cognome": "Patron",
+    "Numero di contatto": "+39 123 456 789",
+    "Email": "rafael.patron@example.com",
+    "Età": "Non specificato",
+    "Città di residenza": "Non specificato",
+    "Città di origine": "Non specificato",
+    "Anni di esperienza lavorativa": 17,
+    "...
+2025-03-26 14:07:24,968 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=d6d713a9...
+2025-03-26 14:07:24,968 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Età
+2. Città di residenza
+3. Città di origine
+4. Posizione attuale
+5. Competenze in linguaggi di programmazione (es. Python, JavaScript)
+6. Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)
+7. Esp...
+2025-03-26 14:07:24,971 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=d6d713a9...
+2025-03-26 14:07:24,971 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Età": "Sulla base dell'ultima formazione completata nel 2014 e della pubblicazione prevista del libro per il 2024, è ragionevole stimare che Rafael abbia circa 40 anni.",
+    "Città di residenza": "Non specificato direttamente nel CV. Basandosi sulla presenza in aziende come Dedagroup a Milan...
+2025-03-26 14:07:24,975 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=50fbd2ed...
+2025-03-26 14:07:24,975 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Stage tecnico in programmazione web e ai e performance web marketing!
+            
+            CV:
+            **Cv Pulito: Rafael Patron**
+
+--...
+2025-03-26 14:07:24,979 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=50fbd2ed...
+2025-03-26 14:07:24,979 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {
+            "score": 80,
+            "motivation": "Rafael ha una forte competenza in strumenti di analisi web come Google Analytics e Semrush, oltre a certificazioni significative che dimostrano la sua abilità in SEO e SEM."
+        },
+        "e...
+2025-03-26 14:07:24,980 - INFO - bfcv_007.py:2246 - analyze_cv_ollama - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-03-26 14:07:24,981 - INFO - bfcv_007.py:2256 - analyze_cv_ollama - Elaborazione criterio 'competenze_tecniche'
+2025-03-26 14:07:24,986 - INFO - bfcv_007.py:2593 - process_cvs - ======================================== FINE ELABORAZIONE CV ========================================

@@ -1,0 +1,297 @@
+Data e ora: 2025-04-29 14:32:00
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nDIGITAL MARKETING - SOCIAL\nMEDIA - AFFILIATE MARKETING\nANNA\nMÄTZLER\nI am a creative content creator with a passion for planning and supervising\nactivities. Enjoy creating unique experiences – online and offline. Having\nworked in different countries, I can easily adapt to situations and learn\nquickly.\nABOUT\nmaetzler.anna@gmail.com\n+39 327 082 3941 \nFlorence   \nLinkedIn: @anna-maetzler\nCONTACT\nTraveling\nMusic \nHiking and swimming\nMeeting friends\nHOBBIES\nExpand brand presence in the D-A-CH market\nBuild and develop strategic relationships\nTrack and analyse the performance \nTrack market trends and proactively seek out new clients\nPROFESSIONAL EXPERIENCE\nBravo Savings Network, Sesto Fiorentino\n08/2023 - present \nJR ACCOUNT MANAGER DACH\nEDUCATION\nRome Business School\n04/2022 - 04/2023                                           \nMASTER IN DIGITAL MARKETING AND BUSINESS\nTRANSFORMATION   \nGerman: Native\nEnglish: Fluent / C1-C2\nItalian: Fluent / C1\nFrench: Intermediate / B1\nLANGUAGES\nE-commerce\nE-Mail Marketing and Newsletters (Mail-\nUp, OneSignal)\nMicrosoft Office Package\nHootsuite\nCanva\nGoogle Analytics\nHTML Basics\nMeta Business Suite / LinkedIn Business \nAmazon Seller Central\nSKILLS\nI authorize the processing of personal data\npursuant to Legislative Decree 196/2003\nIMC Fachhochschule Krems\n2016 - 2019                                           \nBACHELOR IN TOURISM AND LEISURE MANAGEMENT\nWEB CONTENT EDITOR DE\n07/2020 - 12/2020\nMICE ASSISTANT INTERN\nBlueTeam Travel Network, Florence, Italy\n09/2019 - 03/2020\nMEETING AND EVENTS SPECIALIST\nZoku Hotel, Amsterdam, The Netherlands\n03/2018 - 08/2018\nPreparation of the event space\nAssisting in planning and execution of events/meetings (up to 200\npeople)\nERASMUS SEMESTER \nDesign of Sustainable Tourism Systems\nUniversità degli Studi di Firenze\n09/2017 - 02/2018\nVOLUNTARY WORKER\nObiettivo Francesco, Bagno a Ripoli, Fiesole, Italy\n2019- present\nEvent planner, Catering and Hospitality Service\nOTHER EXPERIENCE\nWEB CONTENT SUPERVISOR DE + AT \nBravo Savings Network, Sesto Fiorentino\n01/2021-08/2022\nResponsible for distribution of tasks & overseeing the creation of\nmulti-channel content\nWork with cross-departmental team \nDevelop and maintain the master content calendar\nRecruiter  \nCompetitor Analysis\nSOCIAL MEDIA SPECIALIST\nDigital Angels, Rome\n08/2022 - 09/2023\nSocial Media strategies\nBenchmark analysis\nEditorial calendar + publication of posts \nMonitoring, community management, reporting\nSEO Activities: Website audit, copywriting, HTML writing\n\n\n---Estrazione OCR---\n. ABOUT\n° , . » | am a creative content creator with a passion for planning and supervising\n3) : : activities. Enjoy creating unique experiences - online and offline. Having\n» > worked in different countries, | can easily adapt to situations and learn\n. —_ quickly.\nNe as EDUCATION\n>t 4\n}\n( 2 : MASTER IN DIGITAL MARKETING AND BUSINESS\noO TRANSFORMATION\nRome Business School\n04/2022 - 04/2023\nBACHELOR IN TOURISM AND LEISURE MANAGEMENT\nIMC Fachhochschule Krems\n2016 - 2019\nERASMUS SEMESTER\nDesign of Sustainable Tourism Systems\nUniversita degli Studi di Firenze\nDIGITAL MARKETING - SOCIAL 09/2017 - 02/2018\nMEDIA - AFFILIATE MARKETING\nPROFESSIONAL EXPERIENCE\nCONTACT JR ACCOUNT MANAGER DACH\nmaetzler.anna@gmail.com Bravo Savings Network, Sesto Fiorentino\n+39 327 082 3941 08/2023 - present\nFlorence e Expand brand presence in the D-A-CH market\nLinkedIn: @anna-maetzler * Build and develop strategic relationships\ne Track and analyse the performance\nLANGUAGES ¢ Track market trends and proactively seek out new clients\nSeca) etc SOCIAL MEDIA SPECIALIST\ntal i. FI nt / C1 Digital Angels, Rome\nFonch: Interred 1B 08/2022 - 09/2023\nrench: Intermediate « Social Media strategies\nSKILLS ¢ Benchmark analysis\ne Editorial calendar + publication of posts\n« E-commerce ¢ Monitoring, community management, reporting\n¢ E-Mail Marketing and Newsletters (Mail- ¢ SEO Activities: Website audit, copywriting, HTML writing\nUp, OneSignal) . WEB CONTENT SUPERVISOR DE + AT\n° anne Office Package Bravo Savings Network, Sesto Fiorentino\n° c. sure 01/2021-08/2022\nanva . e Responsible for distribution of tasks & overseeing the creation of\n¢ Google Analytics .\n. multi-channel content\ne HTML Basics .\n. . . . e¢ Work with cross-departmental team\ne Meta Business Suite / LinkedIn Business oo\n¢ Develop and maintain the master content calendar\ne Amazon Seller Central ;\ne Recruiter\nHOBBIES ¢ Competitor Analysis\n. WEB CONTENT EDITOR DE\n¢ Traveling\n* Music 07/2020 - 12/2020\nas . MICE ASSISTANT INTERN\ne Hiking and swimming\n* Meeting friends BlueTeam Travel Network, Florence, Italy\n09/2019 - 03/2020\nOTHER EXPERIENCE MEETING AND EVENTS SPECIALIST\nVOLUNTARY WORKER Zoku Hotel, Amsterdam, The Netherlands\nObiettivo Francesco, Bagno a Ripolli, Fiesole, Italy 03/2018 - 08/2018\n2019- present p ti f th t\n¢ Event planner, Catering and Hospitality Service ° repara ton ° e event space ; .\n; e Assisting in planning and execution of events/meetings (up to 200\n| authorize the processing of personal data\npursuant to Legislative Decree 196/2003 people)\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+DIGITAL MARKETING - SOCIAL
+MEDIA - AFFILIATE MARKETING
+ANNA
+MÄTZLER
+I am a creative content creator with a passion for planning and supervising
+activities. Enjoy creating unique experiences – online and offline. Having
+worked in different countries, I can easily adapt to situations and learn
+quickly.
+ABOUT
+maetzler.anna@gmail.com
++39 327 082 3941 
+Florence   
+LinkedIn: @anna-maetzler
+CONTACT
+Traveling
+Music 
+Hiking and swimming
+Meeting friends
+HOBBIES
+Expand brand presence in the D-A-CH market
+Build and develop strategic relationships
+Track and analyse the performance 
+Track market trends and proactively seek out new clients
+PROFESSIONAL EXPERIENCE
+Bravo Savings Network, Sesto Fiorentino
+08/2023 - present 
+JR ACCOUNT MANAGER DACH
+EDUCATION
+Rome Business School
+04/2022 - 04/2023                                           
+MASTER IN DIGITAL MARKETING AND BUSINESS
+TRANSFORMATION   
+German: Native
+English: Fluent / C1-C2
+Italian: Fluent / C1
+French: Intermediate / B1
+LANGUAGES
+E-commerce
+E-Mail Marketing and Newsletters (Mail-
+Up, OneSignal)
+Microsoft Office Package
+Hootsuite
+Canva
+Google Analytics
+HTML Basics
+Meta Business Suite / LinkedIn Business 
+Amazon Seller Central
+SKILLS
+I authorize the processing of personal data
+pursuant to Legislative Decree 196/2003
+IMC Fachhochschule Krems
+2016 - 2019                                           
+BACHELOR IN TOURISM AND LEISURE MANAGEMENT
+WEB CONTENT EDITOR DE
+07/2020 - 12/2020
+MICE ASSISTANT INTERN
+BlueTeam Travel Network, Florence, Italy
+09/2019 - 03/2020
+MEETING AND EVENTS SPECIALIST
+Zoku Hotel, Amsterdam, The Netherlands
+03/2018 - 08/2018
+Preparation of the event space
+Assisting in planning and execution of events/meetings (up to 200
+people)
+ERASMUS SEMESTER 
+Design of Sustainable Tourism Systems
+Università degli Studi di Firenze
+09/2017 - 02/2018
+VOLUNTARY WORKER
+Obiettivo Francesco, Bagno a Ripoli, Fiesole, Italy
+2019- present
+Event planner, Catering and Hospitality Service
+OTHER EXPERIENCE
+WEB CONTENT SUPERVISOR DE + AT 
+Bravo Savings Network, Sesto Fiorentino
+01/2021-08/2022
+Responsible for distribution of tasks & overseeing the creation of
+multi-channel content
+Work with cross-departmental team 
+Develop and maintain the master content calendar
+Recruiter  
+Competitor Analysis
+SOCIAL MEDIA SPECIALIST
+Digital Angels, Rome
+08/2022 - 09/2023
+Social Media strategies
+Benchmark analysis
+Editorial calendar + publication of posts 
+Monitoring, community management, reporting
+SEO Activities: Website audit, copywriting, HTML writing
+
+
+---Estrazione OCR---
+. ABOUT
+° , . » | am a creative content creator with a passion for planning and supervising
+3) : : activities. Enjoy creating unique experiences - online and offline. Having
+» > worked in different countries, | can easily adapt to situations and learn
+. —_ quickly.
+Ne as EDUCATION
+>t 4
+}
+( 2 : MASTER IN DIGITAL MARKETING AND BUSINESS
+oO TRANSFORMATION
+Rome Business School
+04/2022 - 04/2023
+BACHELOR IN TOURISM AND LEISURE MANAGEMENT
+IMC Fachhochschule Krems
+2016 - 2019
+ERASMUS SEMESTER
+Design of Sustainable Tourism Systems
+Universita degli Studi di Firenze
+DIGITAL MARKETING - SOCIAL 09/2017 - 02/2018
+MEDIA - AFFILIATE MARKETING
+PROFESSIONAL EXPERIENCE
+CONTACT JR ACCOUNT MANAGER DACH
+maetzler.anna@gmail.com Bravo Savings Network, Sesto Fiorentino
++39 327 082 3941 08/2023 - present
+Florence e Expand brand presence in the D-A-CH market
+LinkedIn: @anna-maetzler * Build and develop strategic relationships
+e Track and analyse the performance
+LANGUAGES ¢ Track market trends and proactively seek out new clients
+Seca) etc SOCIAL MEDIA SPECIALIST
+tal i. FI nt / C1 Digital Angels, Rome
+Fonch: Interred 1B 08/2022 - 09/2023
+rench: Intermediate « Social Media strategies
+SKILLS ¢ Benchmark analysis
+e Editorial calendar + publication of posts
+« E-commerce ¢ Monitoring, community management, reporting
+¢ E-Mail Marketing and Newsletters (Mail- ¢ SEO Activities: Website audit, copywriting, HTML writing
+Up, OneSignal) . WEB CONTENT SUPERVISOR DE + AT
+° anne Office Package Bravo Savings Network, Sesto Fiorentino
+° c. sure 01/2021-08/2022
+anva . e Responsible for distribution of tasks & overseeing the creation of
+¢ Google Analytics .
+. multi-channel content
+e HTML Basics .
+. . . . e¢ Work with cross-departmental team
+e Meta Business Suite / LinkedIn Business oo
+¢ Develop and maintain the master content calendar
+e Amazon Seller Central ;
+e Recruiter
+HOBBIES ¢ Competitor Analysis
+. WEB CONTENT EDITOR DE
+¢ Traveling
+* Music 07/2020 - 12/2020
+as . MICE ASSISTANT INTERN
+e Hiking and swimming
+* Meeting friends BlueTeam Travel Network, Florence, Italy
+09/2019 - 03/2020
+OTHER EXPERIENCE MEETING AND EVENTS SPECIALIST
+VOLUNTARY WORKER Zoku Hotel, Amsterdam, The Netherlands
+Obiettivo Francesco, Bagno a Ripolli, Fiesole, Italy 03/2018 - 08/2018
+2019- present p ti f th t
+¢ Event planner, Catering and Hospitality Service ° repara ton ° e event space ; .
+; e Assisting in planning and execution of events/meetings (up to 200
+| authorize the processing of personal data
+pursuant to Legislative Decree 196/2003 people)
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+---
+
+**ANNA MÄTZLER**  
+DIGITAL MARKETING - SOCIAL MEDIA - AFFILIATE MARKETING  
+maetzler.anna@gmail.com  
++39 327 082 3941  
+Florence  
+LinkedIn: @anna-maetzler  
+
+---
+
+**ABOUT**  
+I am a creative content creator with a passion for planning and supervising activities. Enjoy creating unique experiences – online and offline. Having worked in different countries, I can easily adapt to situations and learn quickly.
+
+---
+
+**PROFESSIONAL EXPERIENCE**  
+
+**JR ACCOUNT MANAGER DACH**  
+Bravo Savings Network, Sesto Fiorentino  
+08/2023 - present  
+- Expand brand presence in the D-A-CH market  
+- Build and develop strategic relationships  
+- Track and analyse the performance  
+- Track market trends and proactively seek out new clients  
+
+**SOCIAL MEDIA SPECIALIST**  
+Digital Angels, Rome  
+08/2022 - 09/2023  
+- Social Media strategies  
+- Benchmark analysis  
+- Editorial calendar + publication of posts  
+- Monitoring, community management, reporting  
+- SEO Activities: Website audit, copywriting, HTML writing  
+
+**WEB CONTENT SUPERVISOR DE + AT**  
+Bravo Savings Network, Sesto Fiorentino  
+01/2021 - 08/2022  
+- Responsible for distribution of tasks & overseeing the creation of multi-channel content  
+- Work with cross-departmental team  
+- Develop and maintain the master content calendar  
+- Competitor Analysis  
+
+**WEB CONTENT EDITOR DE**  
+Bravo Savings Network, Sesto Fiorentino  
+07/2020 - 12/2020  
+
+**MICE ASSISTANT INTERN**  
+BlueTeam Travel Network, Florence, Italy  
+09/2019 - 03/2020  
+
+**MEETING AND EVENTS SPECIALIST**  
+Zoku Hotel, Amsterdam, The Netherlands  
+03/2018 - 08/2018  
+- Preparation of the event space  
+- Assisting in planning and execution of events/meetings (up to 200 people)  
+
+**VOLUNTARY WORKER**  
+Obiettivo Francesco, Bagno a Ripoli, Fiesole, Italy  
+2019 - present  
+- Event planner, Catering and Hospitality Service  
+
+---
+
+**EDUCATION**  
+
+**MASTER IN DIGITAL MARKETING AND BUSINESS TRANSFORMATION**  
+Rome Business School  
+04/2022 - 04/2023  
+
+**BACHELOR IN TOURISM AND LEISURE MANAGEMENT**  
+IMC Fachhochschule Krems  
+2016 - 2019  
+
+**ERASMUS SEMESTER**  
+Design of Sustainable Tourism Systems  
+Università degli Studi di Firenze  
+09/2017 - 02/2018  
+
+---
+
+**LANGUAGES**  
+- German: Native  
+- English: Fluent / C1-C2  
+- Italian: Fluent / C1  
+- French: Intermediate / B1  
+
+---
+
+**SKILLS**  
+- E-commerce  
+- E-Mail Marketing and Newsletters (Mail-Up, OneSignal)  
+- Microsoft Office Package  
+- Hootsuite  
+- Canva  
+- Google Analytics  
+- HTML Basics  
+- Meta Business Suite / LinkedIn Business  
+- Amazon Seller Central  
+
+---
+
+**HOBBIES**  
+- Traveling  
+- Music  
+- Hiking and swimming  
+- Meeting friends  
+
+---
+
+I authorize the processing of personal data pursuant to Legislative Decree 196/2003.  
+
+---

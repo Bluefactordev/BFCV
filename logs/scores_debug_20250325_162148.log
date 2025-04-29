@@ -1,0 +1,28 @@
+2025-03-25 16:21:48,651 - INFO - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-03-25 16:21:48,652 - INFO - Inizializzato logger di debug per i punteggi
+2025-03-25 16:21:48,772 - INFO - ======================================== INIZIO ELABORAZIONE CV IN D:\Progetti\BFCV\CVS\Stage2025 ========================================
+2025-03-25 16:21:52,526 - INFO - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-25 16:22:15,114 - INFO - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-25 16:23:16,834 - INFO - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-03-25 16:23:16,835 - INFO - Punteggio composito ricalcolato: 50 (media pesata con peso totale 0)
+2025-03-25 16:23:16,835 - INFO - Punteggio composito originale: 73.5
+2025-03-25 16:23:18,364 - INFO - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-25 16:24:51,286 - INFO - Processando risultato per file: 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-25 16:24:51,286 - INFO - Punteggio composito grezzo: 50 (tipo: <class 'int'>)
+2025-03-25 16:24:51,286 - INFO - Punteggio composito convertito: 50
+2025-03-25 16:24:51,287 - INFO - Riga DataFrame completa per 0_Rafael-Patron_AI_Program_Manager.pdf: {'Filename': '0_Rafael-Patron_AI_Program_Manager.pdf', 'Nome': 'Rafael', 'Cognome': 'Patron', 'Numero di contatto': '+39 123 456 789', 'Email': 'rafael.patron@example.com', 'Età': 'Non specificato', 'Città di residenza': 'Non specificato', 'Città di origine': 'Non specificato', 'Anni di esperienza lavorativa': '2011-2023', 'Anni di esperienza lavorativa nel ruolo richiesto': 'Molteplici incarichi pertinenti al web marketing, SEO e campagne digitali, totalizzando circa 10 anni di esperienza.', 'Master o assimilabile nel ruolo richiesto': 'Master in Evolution Marketing and Social Media - IED Milano (2012)', 'Formazione più alta': 'Computer Science for Artificial Intelligence - Harvard University', 'Università/Istituto': ['Harvard University', 'Università Bocconi', 'Università degli Studi di Genova'], 'Posizione attuale': 'Non specificato', 'Datori di lavoro precedenti': ['Wyscout', 'Google', 'Eurotraining', 'Dedagroup', 'Snap Inc.', 'IED, TIM e Fondazione Universitaria Firenze'], 'Lingue conosciute': ['Non specificato'], 'Legame con Firenze': 'Ha insegnato alla Fondazione Universitaria di Firenze.', 'Soft skills': ['Gestione progetti', 'Capacità comunicative', 'Abilità educativa'], 'Lingue straniere': ['Non specificato'], 'Punteggio_composito': 50}
+2025-03-25 16:24:51,291 - INFO - VALORI PUNTEGGI NEL DATAFRAME PRIMA DELLA NORMALIZZAZIONE:
+2025-03-25 16:24:51,292 - INFO - File: 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-25 16:24:51,293 - INFO -   Punteggio composito: 50 (tipo: <class 'int'>)
+2025-03-25 16:24:51,293 - INFO - ==================== INIZIO NORMALIZZAZIONE DATAFRAME ====================
+2025-03-25 16:24:51,293 - INFO - Colonne nel DataFrame originale: ['Filename', 'Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Lingue conosciute', 'Legame con Firenze', 'Soft skills', 'Lingue straniere', 'Punteggio_composito']
+2025-03-25 16:24:51,294 - INFO - Valori originali per Punteggio_composito: [50]
+2025-03-25 16:24:51,297 - INFO - Tipi per Punteggio_composito: {<class 'int'>: 1}
+2025-03-25 16:24:51,305 - INFO - Normalizzazione colonna di punteggio: Punteggio_composito
+2025-03-25 16:24:51,312 - INFO - ==================== PUNTEGGI DOPO NORMALIZZAZIONE ====================
+2025-03-25 16:24:51,313 - INFO - Valori finali per Punteggio_composito: ['50']
+2025-03-25 16:24:51,314 - INFO - ==================== FINE NORMALIZZAZIONE DATAFRAME ====================
+2025-03-25 16:24:51,314 - INFO - VALORI PUNTEGGI NEL DATAFRAME DOPO LA NORMALIZZAZIONE:
+2025-03-25 16:24:51,315 - INFO - File: 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-25 16:24:51,315 - INFO -   Punteggio composito: 50 (tipo: <class 'str'>)
+2025-03-25 16:24:51,317 - INFO - ======================================== FINE ELABORAZIONE CV ========================================

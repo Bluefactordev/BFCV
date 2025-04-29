@@ -1,0 +1,130 @@
+2025-03-27 11:34:11,487 - INFO - bfcv_007.py:3053 - setup_scores_logger - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-03-27 11:34:11,487 - INFO - bfcv_007.py:3054 - setup_scores_logger - Inizializzato logger di debug per i punteggi
+2025-03-27 11:34:11,488 - INFO - bfcv_007.py:3055 - setup_scores_logger - Python version: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-27 11:34:11,488 - INFO - bfcv_007.py:3056 - setup_scores_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-27 11:34:11,488 - INFO - bfcv_007.py:3057 - setup_scores_logger - Log file: D:\Progetti\BFCV\logs\scores_debug_20250327_113411.log
+2025-03-27 11:34:11,488 - INFO - bfcv_007.py:3059 - setup_scores_logger - Modello OpenAI configurato: gpt-4o-mini
+2025-03-27 11:34:11,489 - INFO - bfcv_007.py:3061 - setup_scores_logger - Modello Ollama configurato: phi4:latest
+2025-03-27 11:34:11,489 - INFO - bfcv_007.py:3063 - setup_scores_logger - Uso Ollama: False
+2025-03-27 11:34:11,489 - INFO - bfcv_007.py:3065 - setup_scores_logger - Cache abilitata: True
+2025-03-27 11:34:11,489 - INFO - bfcv_007.py:3327 - main - Inizializzato logger di debug per i punteggi
+2025-03-27 11:34:11,579 - INFO - bfcv_007.py:2538 - process_cvs - ======================================== INIZIO ELABORAZIONE CV IN D:\Progetti\BFCV\CVS\Stage2025 ========================================
+2025-03-27 11:34:20,702 - INFO - bfcv_007.py:1052 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=917cfa3e...
+2025-03-27 11:34:20,702 - DEBUG - bfcv_007.py:1056 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Esperienze
+Digital Support: Diadora (Stage Extracurriculare) | Supporto gestione ADS, Contenuti Social Media e Sito
+| 02/2024 -  08/2024 (Caerano di San Marco - Treviso)
+Social Media Support: Silicon Drinkabout Rome (Eventi di ...
+2025-03-27 11:34:21,316 - INFO - bfcv_007.py:1069 - get_cached_response - CACHE HIT: Modello=openai-gpt-4o-mini, Hash=917cfa3e...
+2025-03-27 11:34:21,317 - DEBUG - bfcv_007.py:1074 - get_cached_response - CACHE RESPONSE (troncato): **Alessandro Anceschi - Digital Marketing Specialist**
+
+**Contatti:**
+- Telefono: +39 3921956752
+- E-mail: alessandro.anceschi.21@gmail.com
+- Città: Roma, CAP 00142
+
+---
+
+**Esperienze:**
+
+- **Digital Support**: Diadora (Stage Extracurriculare)  
+  Supporto gestione ADS, Contenuti Social Media e Sito...
+2025-03-27 11:34:21,317 - INFO - bfcv_007.py:1661 - analyze_cv_openai - ======================================== NUOVA ANALISI CV CON OPENAI ========================================
+2025-03-27 11:34:21,318 - INFO - bfcv_007.py:1662 - analyze_cv_openai - Modello: gpt-4o-mini
+2025-03-27 11:34:21,318 - INFO - bfcv_007.py:1663 - analyze_cv_openai - Campi da estrarre: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Competenze in linguaggi di programmazione (es. Python, JavaScript)', 'Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)', 'Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM']
+2025-03-27 11:34:21,319 - INFO - bfcv_007.py:1664 - analyze_cv_openai - Job description (troncata): Stage in una agenzia di digital marketing in performance web marketing
+Sono gradite: 
+- conoscenza delle basi teoriche o esperienza in campagne digitli tipo Google Ads o Meta Ads
+- conoscenza delle ba...
+2025-03-27 11:34:21,321 - INFO - bfcv_007.py:1052 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=c9e8607e...
+2025-03-27 11:34:21,321 - DEBUG - bfcv_007.py:1056 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage in una agenzia di digital marketing in performance web marketing
+Sono gradite: 
+- conoscenza delle basi teoriche o esperienza in...
+2025-03-27 11:34:21,321 - INFO - bfcv_007.py:1089 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=c9e8607e...
+2025-03-27 11:34:21,322 - INFO - bfcv_007.py:1090 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=c9e8607e...
+2025-03-27 11:34:27,614 - INFO - bfcv_007.py:1167 - save_to_cache - CACHE SAVE: Modello=openai-gpt-4o-mini, Hash=c9e8607e...
+2025-03-27 11:34:27,614 - DEBUG - bfcv_007.py:1172 - save_to_cache - CACHED RESPONSE (troncato): {"Nome":"Alessandro","Cognome":"Anceschi","Numero di contatto":"+39 3921956752","Email":"alessandro.anceschi.21@gmail.com","Età":"Non specificato","Città di residenza":"Roma","Città di origine":"Non specificato","Anni di esperienza lavorativa":"2","Anni di esperienza lavorativa nel ruolo richiesto":...
+2025-03-27 11:34:27,617 - INFO - bfcv_007.py:1052 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=5948491d...
+2025-03-27 11:34:27,617 - DEBUG - bfcv_007.py:1056 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Età
+2. Città di origine
+3. Legame con Firenze
+4. Competenze in linguaggi di programmazione (es. Python, JavaScript)
+5. Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)
+6. Esperienza con strumenti...
+2025-03-27 11:34:27,617 - INFO - bfcv_007.py:1089 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=5948491d...
+2025-03-27 11:34:27,617 - INFO - bfcv_007.py:1090 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=5948491d...
+2025-03-27 11:34:30,277 - INFO - bfcv_007.py:1167 - save_to_cache - CACHE SAVE: Modello=openai-gpt-4o-mini, Hash=5948491d...
+2025-03-27 11:34:30,277 - DEBUG - bfcv_007.py:1172 - save_to_cache - CACHED RESPONSE (troncato): {
+    "Età": "Circa 26 anni",
+    "Città di origine": "Roma",
+    "Legame con Firenze": "Non specificato",
+    "Competenze in linguaggi di programmazione": "Non specificato",
+    "Conoscenze di strumenti di analisi web": "Google Analytics, Screaming Frog, Semrush, Ubersuggest",
+    "Esperienza con s...
+2025-03-27 11:34:30,279 - INFO - bfcv_007.py:1052 - get_cached_response - CACHE CHECK: Modello=openai-gpt-4o-mini, Hash=7ffb6fb0...
+2025-03-27 11:34:30,279 - DEBUG - bfcv_007.py:1056 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Stage in una agenzia di digital marketing in performance web marketing
+Sono gradite: 
+- conoscenza delle basi teoriche o esperienza in campagne...
+2025-03-27 11:34:30,279 - INFO - bfcv_007.py:1089 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=7ffb6fb0...
+2025-03-27 11:34:30,279 - INFO - bfcv_007.py:1090 - get_cached_response - CACHE MISS: Modello=openai-gpt-4o-mini, Hash=7ffb6fb0...
+2025-03-27 11:34:46,018 - INFO - bfcv_007.py:1167 - save_to_cache - CACHE SAVE: Modello=openai-gpt-4o-mini, Hash=7ffb6fb0...
+2025-03-27 11:34:46,018 - DEBUG - bfcv_007.py:1172 - save_to_cache - CACHED RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {
+            "score": 75,
+            "motivation": "Alessandro ha competenze solide nella gestione di campagne pubblicitarie e SEO, ma manca di esperienza diretta in programmazione web e strumenti di AI."
+        },
+        "esperienza_rilevante":...
+2025-03-27 11:34:46,018 - INFO - bfcv_007.py:1934 - analyze_cv_openai - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-03-27 11:34:46,019 - INFO - bfcv_007.py:1942 - analyze_cv_openai - Trovata struttura con campo 'criteria': ['competenze_tecniche', 'esperienza_rilevante', 'formazione', 'problem_solving', 'leadership'] ...
+2025-03-27 11:34:46,019 - INFO - bfcv_007.py:1949 - analyze_cv_openai - Elaborazione criterio 'competenze_tecniche'
+2025-03-27 11:34:46,019 - INFO - bfcv_007.py:1953 - analyze_cv_openai - Criterio 'competenze_tecniche' trovato: {"score": 75, "motivation": "Alessandro ha competenze solide nella gestione di campagne pubblicitarie e SEO, ma manca di esperienza diretta in programmazione web e strumenti di AI."}
+2025-03-27 11:34:46,019 - INFO - bfcv_007.py:1966 - analyze_cv_openai -   competenze_tecniche - score grezzo: 75 - tipo: <class 'int'>
+2025-03-27 11:34:46,019 - INFO - bfcv_007.py:1979 - analyze_cv_openai -   competenze_tecniche - peso: 25
+2025-03-27 11:34:46,019 - INFO - bfcv_007.py:1949 - analyze_cv_openai - Elaborazione criterio 'esperienza_rilevante'
+2025-03-27 11:34:46,019 - INFO - bfcv_007.py:1953 - analyze_cv_openai - Criterio 'esperienza_rilevante' trovato: {"score": 80, "motivation": "Possiede circa un anno di esperienza nel settore del digital marketing, con ruoli specifici nella gestione di ADS e contenuti social."}
+2025-03-27 11:34:46,019 - INFO - bfcv_007.py:1966 - analyze_cv_openai -   esperienza_rilevante - score grezzo: 80 - tipo: <class 'int'>
+2025-03-27 11:34:46,020 - INFO - bfcv_007.py:1979 - analyze_cv_openai -   esperienza_rilevante - peso: 25
+2025-03-27 11:34:46,020 - INFO - bfcv_007.py:1949 - analyze_cv_openai - Elaborazione criterio 'formazione'
+2025-03-27 11:34:46,020 - INFO - bfcv_007.py:1953 - analyze_cv_openai - Criterio 'formazione' trovato: {"score": 85, "motivation": "Ha completato un Master in Marketing Management e sta seguendo un corso di Digital Marketing, fornendo una solida base teorica."}
+2025-03-27 11:34:46,020 - INFO - bfcv_007.py:1966 - analyze_cv_openai -   formazione - score grezzo: 85 - tipo: <class 'int'>
+2025-03-27 11:34:46,020 - INFO - bfcv_007.py:1979 - analyze_cv_openai -   formazione - peso: 15
+2025-03-27 11:34:46,020 - INFO - bfcv_007.py:1949 - analyze_cv_openai - Elaborazione criterio 'problem_solving'
+2025-03-27 11:34:46,020 - INFO - bfcv_007.py:1953 - analyze_cv_openai - Criterio 'problem_solving' trovato: {"score": 70, "motivation": "Non ci sono dettagli specifici che evidenziano le sue capacit\u00e0 di problem solving, ma l'esperienza in ruoli di supporto suggerisce una certa adattabilit\u00e0."}
+2025-03-27 11:34:46,020 - INFO - bfcv_007.py:1966 - analyze_cv_openai -   problem_solving - score grezzo: 70 - tipo: <class 'int'>
+2025-03-27 11:34:46,020 - INFO - bfcv_007.py:1979 - analyze_cv_openai -   problem_solving - peso: 15
+2025-03-27 11:34:46,020 - INFO - bfcv_007.py:1949 - analyze_cv_openai - Elaborazione criterio 'leadership'
+2025-03-27 11:34:46,020 - INFO - bfcv_007.py:1953 - analyze_cv_openai - Criterio 'leadership' trovato: {"score": 60, "motivation": "Non ha esperienze di leadership evidenti nel CV, dimostrando pi\u00f9 un ruolo di supporto."}
+2025-03-27 11:34:46,020 - INFO - bfcv_007.py:1966 - analyze_cv_openai -   leadership - score grezzo: 60 - tipo: <class 'int'>
+2025-03-27 11:34:46,020 - INFO - bfcv_007.py:1979 - analyze_cv_openai -   leadership - peso: 10
+2025-03-27 11:34:46,020 - INFO - bfcv_007.py:1949 - analyze_cv_openai - Elaborazione criterio 'potenziale_crescita'
+2025-03-27 11:34:46,022 - INFO - bfcv_007.py:1953 - analyze_cv_openai - Criterio 'potenziale_crescita' trovato: {"score": 75, "motivation": "La sua formazione continua e l'interesse per il digital marketing suggeriscono un buon potenziale di crescita nel settore."}
+2025-03-27 11:34:46,022 - INFO - bfcv_007.py:1966 - analyze_cv_openai -   potenziale_crescita - score grezzo: 75 - tipo: <class 'int'>
+2025-03-27 11:34:46,022 - INFO - bfcv_007.py:1979 - analyze_cv_openai -   potenziale_crescita - peso: 10
+2025-03-27 11:34:46,022 - INFO - bfcv_007.py:1949 - analyze_cv_openai - Elaborazione criterio 'programmazione_php_o_python'
+2025-03-27 11:34:46,022 - INFO - bfcv_007.py:1953 - analyze_cv_openai - Criterio 'programmazione_php_o_python' trovato: {"score": 20, "motivation": "Il CV non menziona competenze in linguaggi di programmazione come PHP o JavaScript, che sono richieste."}
+2025-03-27 11:34:46,022 - INFO - bfcv_007.py:1966 - analyze_cv_openai -   programmazione_php_o_python - score grezzo: 20 - tipo: <class 'int'>
+2025-03-27 11:34:46,022 - INFO - bfcv_007.py:1979 - analyze_cv_openai -   programmazione_php_o_python - peso: 20
+2025-03-27 11:34:46,022 - INFO - bfcv_007.py:1949 - analyze_cv_openai - Elaborazione criterio 'conoscenza_delle_basi_teoriche_o_esperienza_in_campagne_digitli_tipo_google_ads_o_meta_ads'
+2025-03-27 11:34:46,022 - INFO - bfcv_007.py:1953 - analyze_cv_openai - Criterio 'conoscenza_delle_basi_teoriche_o_esperienza_in_campagne_digitli_tipo_google_ads_o_meta_ads' trovato: {"score": 85, "motivation": "Alessandro ha esperienza pratica nella gestione di campagne Google Ads e Meta Ads, dimostrando una buona conoscenza delle basi teoriche."}
+2025-03-27 11:34:46,023 - INFO - bfcv_007.py:1966 - analyze_cv_openai -   conoscenza_delle_basi_teoriche_o_esperienza_in_campagne_digitli_tipo_google_ads_o_meta_ads - score grezzo: 85 - tipo: <class 'int'>
+2025-03-27 11:34:46,023 - INFO - bfcv_007.py:1979 - analyze_cv_openai -   conoscenza_delle_basi_teoriche_o_esperienza_in_campagne_digitli_tipo_google_ads_o_meta_ads - peso: 20
+2025-03-27 11:34:46,023 - INFO - bfcv_007.py:1949 - analyze_cv_openai - Elaborazione criterio 'conoscenza_delle_basi_teoriche_o_esperienza_di_uso_della_ai'
+2025-03-27 11:34:46,023 - INFO - bfcv_007.py:1953 - analyze_cv_openai - Criterio 'conoscenza_delle_basi_teoriche_o_esperienza_di_uso_della_ai' trovato: {"score": 30, "motivation": "Non ci sono indicazioni di esperienza o conoscenza specifica nell'uso di strumenti di intelligenza artificiale."}
+2025-03-27 11:34:46,023 - INFO - bfcv_007.py:1966 - analyze_cv_openai -   conoscenza_delle_basi_teoriche_o_esperienza_di_uso_della_ai - score grezzo: 30 - tipo: <class 'int'>
+2025-03-27 11:34:46,023 - INFO - bfcv_007.py:1979 - analyze_cv_openai -   conoscenza_delle_basi_teoriche_o_esperienza_di_uso_della_ai - peso: 20
+2025-03-27 11:34:46,023 - INFO - bfcv_007.py:2000 - analyze_cv_openai - Punteggio composito calcolato: 64 (= 10250.0 / 160)
+2025-03-27 11:34:46,024 - INFO - bfcv_007.py:2006 - analyze_cv_openai - Punteggio composito ricalcolato: 64 (media pesata con peso totale 160)
+2025-03-27 11:34:46,024 - INFO - bfcv_007.py:2010 - analyze_cv_openai - Punteggio composito originale: 64.5

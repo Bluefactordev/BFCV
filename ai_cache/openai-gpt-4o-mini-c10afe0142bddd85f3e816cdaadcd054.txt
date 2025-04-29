@@ -1,0 +1,1 @@
+"{\n    \"Età\": 39,\n    \"Città di residenza\": \"Malta\",\n    \"Città di origine\": \"Pisa\",\n    \"Lingue conosciute\": \"Italiano, Inglese\",\n    \"Legame con Firenze\": \"Laurea in Scienze Sociali & Economia all'Università degli Studi di Pisa\"\n}"

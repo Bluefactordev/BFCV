@@ -1,0 +1,2277 @@
+
+# -*- coding: utf-8 -*-
+import streamlit as st
+import pandas as pd
+import numpy as np
+import os
+import json
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
+import plotly.graph_objects as go
+import fitz  # PyMuPDF
+import docx2txt
+import re
+import time
+import hashlib
+import requests
+import io
+import base64
+import random
+import tiktoken
+from datetime import datetime
+import warnings
+from typing import Dict, List, Optional, Any, Tuple, Union
+import uuid
+from PIL import Image, ImageFilter
+import pytesseract
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Modifica il percorso se necessario
+
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.output_parsers import StrOutputParser
+from io import BytesIO
+from langchain_openai import ChatOpenAI
+import xlsxwriter
+import logging
+import sys
+from pathlib import Path
+from streamlit.components.v1 import html
+from auth_system import AuthManager
+from cv_profiles import ProfileManager
+from cv_projects import ProjectManager
+from job_positions import PositionManager  # Corretto il nome del file
+
+# Variabile per controllare se saltare la configurazione della pagina (sarà impostata a True dal launcher)
+skip_page_config = False
+
+# Variabile per controllare se saltare l'autenticazione (sarà impostata a True dal launcher)
+skip_authentication = False
+
+# Configurazione della pagina DEVE essere il primo comando Streamlit (a meno che non venga saltata)
+# Esegui la configurazione solo se questo script è eseguito direttamente (non importato)
+if __name__ == "__main__":
+    st.set_page_config(
+        page_title="CV Analyzer Pro",
+        page_icon="📄",
+        layout="wide",
+        initial_sidebar_state="expanded"
+    )
+
+# Costante per limitare il numero di CV da analizzare
+MAX_CV_TO_ANALYZE = 5
+
+# RIMUOVO TUTTI I COMANDI UI DI STREAMLIT A LIVELLO GLOBALE
+# Ma mantengo tutte le variabili, costanti, classi e import originali
+
+# Variabili, costanti, ecc. rimangono invariate
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+
+# Definire un tema di colori coerente per l'applicazione
+COLORS = {
+    'primary': '#1E88E5',       # Blu primario
+    'secondary': '#26A69A',     # Verde acqua
+    'accent': '#FFC107',        # Giallo ambra
+    'success': '#4CAF50',       # Verde
+    'warning': '#FF9800',       # Arancione
+    'error': '#F44336',         # Rosso
+    'info': '#2196F3',          # Blu chiaro
+    'neutral': '#607D8B',       # Blu grigio
+    'lightgray': '#ECEFF1',     # Grigio chiaro
+    'white': '#FFFFFF',         # Bianco
+    'darktext': '#263238',      # Testo scuro
+    'lighttext': '#FAFAFA'      # Testo chiaro
+}
+
+
+
+# Criteri di valutazione e campi da estrarre
+EVALUATION_CRITERIA = [
+    ("competenze_tecniche", "Competenze Tecniche"),
+    ("esperienza_rilevante", "Esperienza Settoriale"),
+    ("formazione", "Formazione"),
+    ("problem_solving", "Problem Solving"),
+    ("leadership", "Leadership"),
+    ("potenziale_crescita", "Potenziale")
+]
+
+# Pesi di default per i criteri di valutazione
+DEFAULT_CRITERIA_WEIGHTS = {
+    "competenze_tecniche": 25,
+    "esperienza_rilevante": 25,
+    "formazione": 15,
+    "problem_solving": 15,
+    "leadership": 10,
+    "potenziale_crescita": 10
+}
+
+CV_FIELDS = [
+    "Nome", 
+    "Cognome",
+    "Numero di contatto", 
+    "Email",
+    "Età",
+    "Città di residenza",
+    "Città di origine",
+    "Anni di esperienza lavorativa", 
+    "Anni di esperienza lavorativa nel ruolo richiesto", 
+    "Master o assimilabile nel ruolo richiesto", 
+    "Formazione più alta", 
+    "Università/Istituto", 
+    "Posizione attuale", 
+    "Datori di lavoro precedenti",
+    "Lingue conosciute",
+    "Legame con Firenze",
+    "Soft skills", 
+    "Lingue straniere",
+]
+
+DEFAULT_JOB_DESCRIPTION = """Account Manager di agenzia di digital marketing. 
+Si preferisce un candidato che:
+- Abbia esperienza in agenzia di pubblicità o di digital marketing. 
+- Abbia una predisposizione o esperienza nella generazione di new business o come commerciale di agenzie di digital marketing
+- Abbia già un qualche legame con la città di lavoro, cioè Firenze, ovvero o abiti vicino, o ci abbia almeno studiato o lavorato, e quindi possa volerci tornare
+- Possibilmente sotto i 30 anni. 
+- Preferibilmente con un master in marketing o comunicazione.
+
+Compiti: 
+- Gestione e sviluppo dei rapporti con i clienti
+- Pianificazione e gestione di progetti digitali
+- Analisi delle performance delle campagne
+- Preparazione di presentazioni e reportistica
+- Sviluppo di strategie di content marketing
+- Ricerca di nuove opportunità di business
+- Presentazione dell'agenzia ai clienti
+"""
+
+
+
+
+
+# Stile CSS personalizzato
+st.markdown(f"""
+<style>
+    /* Stile generale */
+    .main {{
+        background-color: {COLORS['lightgray']};
+        color: {COLORS['darktext']};
+    }}
+    
+    /* Intestazioni */
+    h1, h2, h3, h4, h5, h6 {{
+        color: {COLORS['primary']};
+        font-weight: 600;
+    }}
+    
+    /* Bottoni */
+    .stButton>button {{
+        background-color: {COLORS['primary']};
+        color: {COLORS['white']};
+        border-radius: 5px;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        font-weight: bold;
+        transition: all 0.3s;
+    }}
+    .stButton>button:hover {{
+        background-color: {COLORS['secondary']};
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }}
+    
+    /* Box di stato */
+    .status-box {{
+        padding: 1rem;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+        border-left: 5px solid;
+    }}
+    .success-box {{
+        background-color: #E8F5E9;
+        border-left-color: {COLORS['success']};
+    }}
+    .info-box {{
+        background-color: #E1F5FE;
+        border-left-color: {COLORS['info']};
+    }}
+    .warning-box {{
+        background-color: #FFF8E1;
+        border-left-color: {COLORS['warning']};
+    }}
+    .error-box {{
+        background-color: #FFEBEE;
+        border-left-color: {COLORS['error']};
+    }}
+    
+    /* Schede per i CV */
+    .cv-card {{
+        background-color: {COLORS['white']};
+        border-radius: 8px;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        transition: all 0.3s;
+    }}
+    .cv-card:hover {{
+        box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        transform: translateY(-2px);
+    }}
+    
+    /* Badge per i punteggi */
+    .score-badge {{
+        display: inline-block;
+        padding: 0.35em 0.65em;
+        font-size: 0.85em;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: 0.375rem;
+        margin-right: 0.5rem;
+    }}
+    .score-high {{
+        background-color: {COLORS['success']};
+        color: white;
+    }}
+    .score-medium {{
+        background-color: {COLORS['warning']};
+        color: {COLORS['darktext']};
+    }}
+    .score-low {{
+        background-color: {COLORS['error']};
+        color: white;
+    }}
+    
+    /* Miglioramenti per DataFrame */
+    .dataframe {{
+        border: none !important;
+        border-collapse: separate !important;
+        border-spacing: 0 !important;
+        border-radius: 10px !important;
+        overflow: hidden !important;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05) !important;
+    }}
+    .dataframe thead tr th {{
+        background-color: {COLORS['primary']} !important;
+        color: white !important;
+        font-weight: 600 !important;
+        padding: 12px 15px !important;
+        text-align: left !important;
+    }}
+    .dataframe tbody tr:nth-child(even) {{
+        background-color: {COLORS['lightgray']} !important;
+    }}
+    .dataframe tbody tr td {{
+        padding: 10px 15px !important;
+        border-bottom: 1px solid #e0e0e0 !important;
+    }}
+    
+    /* Tooltip personalizzato */
+    .tooltip {{
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }}
+    .tooltip .tooltiptext {{
+        visibility: hidden;
+        width: 300px;
+        background-color: #333;
+        color: #fff;
+        text-align: left;
+        border-radius: 6px;
+        padding: 10px;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: opacity 0.3s;
+        font-size: 0.9em;
+    }}
+    .tooltip:hover .tooltiptext {{
+        visibility: visible;
+        opacity: 1;
+    }}
+    
+    /* Stile della sidebar */
+    .sidebar .sidebar-content {{
+        background-color: {COLORS['white']};
+        border-right: 1px solid #e0e0e0;
+    }}
+    
+    /* Nascondere il footer */
+    footer {{
+        visibility: hidden;
+    }}
+    
+    /* Stile delle metriche */
+    .metric-card {{
+        background-color: {COLORS['white']};
+        border-radius: 8px;
+        padding: 1rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        text-align: center;
+        height: 100%;
+    }}
+    .metric-value {{
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: {COLORS['primary']};
+    }}
+    .metric-label {{
+        font-size: 1rem;
+        color: {COLORS['neutral']};
+        margin-top: 0.5rem;
+    }}
+    
+    /* Stile dropdown e filtri */
+    .stSelectbox>div>div, .stMultiSelect>div>div {{
+        background-color: {COLORS['white']};
+        border-radius: 5px;
+        border: 1px solid #e0e0e0;
+    }}
+    
+    /* Scheda candidato */
+    .candidate-header {{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+    }}
+    .candidate-avatar {{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: {COLORS['primary']};
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-right: 1rem;
+    }}
+    .candidate-name {{
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin: 0;
+    }}
+    .candidate-position {{
+        color: {COLORS['neutral']};
+        margin: 0;
+    }}
+    .candidate-details {{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }}
+    .candidate-detail {{
+        padding: 0.5rem 1rem;
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+        background-color: {COLORS['lightgray']};
+        border-radius: 20px;
+        font-size: 0.9rem;
+    }}
+    .candidate-section {{
+        margin-top: 1.5rem;
+    }}
+    .candidate-section-title {{
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        color: {COLORS['primary']};
+        border-bottom: 2px solid {COLORS['lightgray']};
+        padding-bottom: 0.5rem;
+    }}
+    
+    /* Barra del punteggio */
+    .score-bar-container {{
+        width: 100%;
+        background-color: {COLORS['lightgray']};
+        border-radius: 5px;
+        margin-bottom: 0.5rem;
+    }}
+    .score-bar {{
+        height: 10px;
+        border-radius: 5px;
+    }}
+    .score-label {{
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.85rem;
+    }}
+    
+    /* Tabella comparativa */
+    .comparison-table {{
+        width: 100%;
+        border-collapse: collapse;
+    }}
+    .comparison-table th, .comparison-table td {{
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #e0e0e0;
+    }}
+    .comparison-table th {{
+        background-color: {COLORS['primary']};
+        color: white;
+    }}
+    .comparison-table tr:nth-child(even) {{
+        background-color: {COLORS['lightgray']};
+    }}
+    
+    /* Stile del link di download */
+    .download-button {{
+        background-color: {COLORS['primary']};
+        color: {COLORS['white']};
+        border-radius: 5px;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        font-weight: bold;
+        transition: all 0.3s;
+        display: inline-block;
+        margin-top: 1rem;
+    }}
+    .download-button:hover {{
+        background-color: {COLORS['secondary']};
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }}
+</style>
+""", unsafe_allow_html=True)
+
+# Configurazione delle costanti per i prezzi API
+OPENAI_PRICING = {
+    # Modelli o3 - GPT-3.5
+    "gpt-3.5-turbo": {"input": 0.0000005, "output": 0.0000015},  # $0.5/1M input, $1.5/1M output
+    "o3-mini": {"input": 0.0000005, "output": 0.0000015},        # $0.5/1M input, $1.5/1M output (alias di gpt-3.5-turbo)
+    "o3-mini-high": {"input": 0.0000005, "output": 0.0000015},   # $0.5/1M input, $1.5/1M output (versione ipotetica)
+    
+    # Modelli o1 - GPT-4 Turbo
+    "gpt-4-turbo": {"input": 0.00001, "output": 0.00003},        # $10/1M input, $30/1M output
+    "o1": {"input": 0.00001, "output": 0.00003},                # $10/1M input, $30/1M output (alias di gpt-4-turbo)
+    
+    # Standard GPT-4
+    "gpt-4": {"input": 0.00003, "output": 0.00006},              # $30/1M input, $60/1M output
+    
+    # Famiglia o4 - GPT-4o  
+    "gpt-4o-mini": {"input": 0.00000015, "output": 0.0000006},   # $0.15/1M input, $0.6/1M output
+    "gpt-4o": {"input": 0.000005, "output": 0.000015},           # $5/1M input, $15/1M output
+    "gpt-4o-mini-high": {"input": 0.00000035, "output": 0.0000014} # $0.35/1M input, $1.4/1M output
+}
+
+# Job description di esempio
+job_description = DEFAULT_JOB_DESCRIPTION
+
+def suggest_custom_fields(job_description, base_fields, use_ollama=False, openai_model=None, ollama_model=None, api_key=None):
+    """Suggerisce campi CV personalizzati basati sulla job description"""
+    
+    # Controlla cache
+    cache_key = f"custom_fields_{hashlib.md5(job_description.encode()).hexdigest()}"
+    model_prefix = "ollama-" if use_ollama else "openai-"
+    model_name = f"{model_prefix}{ollama_model if use_ollama else openai_model}"
+    
+    # Cerca nella cache
+    cached_result = get_cached_response(model_name, cache_key)
+    if cached_result:
+        return cached_result
+    
+    # Prepara il prompt
+    prompt = f"""
+    Analizza questa job description e suggerisci 3-5 campi aggiuntivi specifici che sarebbero utili estrarre dai CV per valutare i candidati.
+    I campi dovrebbero essere pertinenti per questo specifico ruolo e non già presenti nell'elenco base.
+    
+    Job Description:
+    {job_description}
+    
+    Campi base già presenti:
+    {', '.join(base_fields)}
+    
+    Restituisci SOLO un array JSON con i campi suggeriti. Esempio: ["Campo1", "Campo2", "Campo3"]
+    """
+    
+    # Chiama LLM appropriato
+    if use_ollama:
+        response = requests.post(
+            "http://localhost:11434/api/generate",
+            json={"model": ollama_model, "prompt": prompt, "stream": False}
+        )
+        if response.status_code == 200:
+            suggestion_text = response.json().get("response", "[]")
+        else:
+            return []
+    else:
+        try:
+            llm = ChatOpenAI(model=openai_model, api_key=api_key)
+            chat_prompt = ChatPromptTemplate.from_template("{text}")
+            chain = chat_prompt | llm | StrOutputParser()
+            suggestion_text = chain.invoke({"text": prompt})
+        except Exception as e:
+            st.warning(f"Errore nel suggerimento campi: {str(e)}")
+            return []
+    
+    # Estrai i campi dall'output
+    try:
+        # Cerca il pattern JSON nell'output
+        import re
+        json_match = re.search(r'\[.*\]', suggestion_text)
+        if json_match:
+            custom_fields = json.loads(json_match.group(0))
+        else:
+            custom_fields = json.loads(suggestion_text)
+    except:
+        st.warning("Errore nel parsing dei campi suggeriti")
+        custom_fields = []
+    
+    # Salva nella cache
+    save_to_cache(model_name, cache_key, custom_fields)
+    
+    return custom_fields
+
+# Funzione per contare i token in un testo
+def count_tokens(text, model="gpt-4o"):
+    """Conta i token in un testo per il modello specificato"""
+    try:
+        encoding = tiktoken.encoding_for_model(model)
+        return len(encoding.encode(text))
+    except Exception as e:
+        # Se il modello specifico non è supportato, usa cl100k_base come fallback
+        try:
+            encoding = tiktoken.get_encoding("cl100k_base")
+            return len(encoding.encode(text))
+        except Exception as inner_e:
+            st.warning(f"Impossibile contare i token: {str(inner_e)}")
+            # Stima approssimativa: 4 caratteri = 1 token
+            return len(text) // 4
+
+# Funzione per calcolare il costo di una chiamata API
+def calculate_cost(input_tokens, output_tokens, model="gpt-4o-mini"):
+    """Calcola il costo di una chiamata API in base ai token e al modello"""
+    if model not in OPENAI_PRICING:
+        st.warning(f"Modello {model} non trovato nel listino prezzi, uso gpt-4o-mini come fallback")
+        model = "gpt-4o-mini"
+    
+    input_cost = (input_tokens / 1000) * OPENAI_PRICING[model]["input"]
+    output_cost = (output_tokens / 1000) * OPENAI_PRICING[model]["output"]
+    return input_cost + output_cost
+
+# Funzione per stimare i costi su altri modelli
+def estimate_costs_across_models(input_tokens, output_tokens):
+    """Stima il costo della stessa operazione su diversi modelli"""
+    costs = {}
+    for model in OPENAI_PRICING:
+        costs[model] = calculate_cost(input_tokens, output_tokens, model)
+    return costs
+
+# Inizializzazione del tracciamento dei costi in session_state
+def init_cost_tracking():
+    """Inizializza o resetta il tracciamento dei costi nella session_state"""
+    # Token effettivamente processati (senza cache)
+    if "real_input_tokens" not in st.session_state:
+        st.session_state.real_input_tokens = 0
+    if "real_output_tokens" not in st.session_state:
+        st.session_state.real_output_tokens = 0
+    if "real_api_calls" not in st.session_state:
+        st.session_state.real_api_calls = 0
+        
+    # Totale token (inclusi quelli dalla cache)
+    if "total_input_tokens" not in st.session_state:
+        st.session_state.total_input_tokens = 0
+    if "total_output_tokens" not in st.session_state:
+        st.session_state.total_output_tokens = 0
+    if "total_api_calls" not in st.session_state:
+        st.session_state.total_api_calls = 0
+        
+    # Contatori cache
+    if "cached_input_tokens" not in st.session_state:
+        st.session_state.cached_input_tokens = 0
+    if "cached_output_tokens" not in st.session_state:
+        st.session_state.cached_output_tokens = 0
+    if "cached_calls" not in st.session_state:
+        st.session_state.cached_calls = 0
+        
+    if "model_used" not in st.session_state:
+        st.session_state.model_used = "gpt-4o-mini"
+        
+    # Contatori per l'estrazione
+    if "extraction_tokens_input" not in st.session_state:
+        st.session_state.extraction_tokens_input = 0
+    if "extraction_tokens_output" not in st.session_state:
+        st.session_state.extraction_tokens_output = 0
+
+# Aggiorna il tracciamento dei costi
+def update_cost_tracking(input_tokens, output_tokens, from_cache=False):
+    """
+    Aggiorna il tracciamento dei costi nella session_state
+    
+    Args:
+        input_tokens: Numero di token di input per questa chiamataimage.png
+        output_tokens: Numero di token di output per questa chiamata
+        from_cache: True se la risposta viene dalla cache, False se è una chiamata API reale
+    """
+    if "total_input_tokens" not in st.session_state:
+        init_cost_tracking()
+    
+    # Aggiorna sempre il totale complessivo
+    st.session_state.total_input_tokens += input_tokens
+    st.session_state.total_output_tokens += output_tokens
+    st.session_state.total_api_calls += 1
+    
+    if from_cache:
+        # è una chiamata dalla cache
+        st.session_state.cached_input_tokens += input_tokens
+        st.session_state.cached_output_tokens += output_tokens
+        st.session_state.cached_calls += 1
+    else:
+        # è una chiamata API reale
+        st.session_state.real_input_tokens += input_tokens
+        st.session_state.real_output_tokens += output_tokens
+        st.session_state.real_api_calls += 1
+    
+    if "model" in st.session_state:
+        st.session_state.model_used = st.session_state.model
+
+
+# Funzione per aggiornare la visualizzazione dei costi in tempo reale
+def update_cost_display():
+    """Mostra un riepilogo dei costi attuali in tempo reale"""
+    if "total_input_tokens" in st.session_state and "total_output_tokens" in st.session_state:
+        container = st.empty()
+        with container.container():
+            col1, col2, col3 = st.columns(3)
+            
+            real_cost = calculate_cost(
+                st.session_state.real_input_tokens, 
+                st.session_state.real_output_tokens, 
+                st.session_state.model_used
+            )
+            
+            potential_cost = calculate_cost(
+                st.session_state.total_input_tokens, 
+                st.session_state.total_output_tokens, 
+                st.session_state.model_used
+            )
+            
+            savings = potential_cost - real_cost
+            
+            with col1:
+                st.metric("Costo Attuale", f"${real_cost:.4f}")
+            with col2:
+                st.metric("Costo Potenziale (senza cache)", f"${potential_cost:.4f}")
+            with col3:
+                st.metric("Risparmio", f"${savings:.4f}")
+            
+            # Aggiungi un expander con i dettagli dei costi per altri modelli
+            with st.expander("Dettagli costi per altri modelli"):
+                # Calcola i costi con altri modelli
+                costs_other_models = {}
+                for model in ["gpt-4o", "gpt-4o-mini", "o1", "o3-mini"]:
+                    real_cost_model = calculate_cost(
+                        st.session_state.real_input_tokens, 
+                        st.session_state.real_output_tokens, 
+                        model
+                    )
+                    potential_cost_model = calculate_cost(
+                        st.session_state.total_input_tokens, 
+                        st.session_state.total_output_tokens, 
+                        model
+                    )
+                    savings_model = potential_cost_model - real_cost_model
+                    
+                    costs_other_models[model] = {
+                        "real": real_cost_model,
+                        "potential": potential_cost_model,
+                        "savings": savings_model
+                    }
+                
+                # Crea una tabella per mostrare i costi
+                cost_data = []
+                for model, costs in costs_other_models.items():
+                    cost_data.append({
+                        "Modello": model,
+                        "Costo Attuale": f"${costs['real']:.4f}",
+                        "Costo Senza Cache": f"${costs['potential']:.4f}",
+                        "Risparmio": f"${costs['savings']:.4f}"
+                    })
+                
+                cost_df = pd.DataFrame(cost_data)
+                st.table(cost_df)
+        return container
+    return None
+
+
+
+# Mostra il riepilogo dei costi
+def display_cost_summary():
+    """Mostra un riepilogo dei costi attuali e stimati su altri modelli"""
+    if "total_input_tokens" not in st.session_state:
+        st.info("Nessun dato sui costi disponibile")
+        return
+    
+    input_tokens = st.session_state.total_input_tokens
+    output_tokens = st.session_state.total_output_tokens
+    model_used = st.session_state.model_used
+    
+    st.subheader("💰 Riepilogo Costi API")
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        st.metric("Numero di chiamate API", st.session_state.total_api_calls)
+        st.metric("Token di input totali", f"{input_tokens:,}")
+    with col2:
+        st.metric("Token di output totali", f"{output_tokens:,}")
+        actual_cost = calculate_cost(input_tokens, output_tokens, model_used)
+        st.metric("Costo Totale", f"${actual_cost:.4f}")
+    
+    # Calcola i costi stimati con altri modelli
+    estimated_costs = estimate_costs_across_models(input_tokens, output_tokens)
+    
+    # Crea una tabella comparativa dei costi
+    cost_data = {
+        "Modello": [],
+        "Costo Stimato": [],
+        "Differenza": []
+    }
+    
+    for model, cost in estimated_costs.items():
+        cost_data["Modello"].append(model)
+        cost_data["Costo Stimato"].append(f"${cost:.4f}")
+        diff = cost - actual_cost
+        diff_str = f"+${diff:.4f}" if diff > 0 else f"-${abs(diff):.4f}"
+        cost_data["Differenza"].append(diff_str)
+    
+    st.markdown("### Costi Stimati con Altri Modelli")
+    cost_df = pd.DataFrame(cost_data)
+    st.table(cost_df)
+    
+    # Aggiungi un grafico per visualizzare i costi
+    fig = px.bar(cost_df, x="Modello", y=[float(c.replace("$", "")) for c in cost_data["Costo Stimato"]], 
+                title="Confronto Costi tra Modelli",
+                labels={"y": "Costo in USD", "x": "Modello"})
+    
+    # Evidenzia il modello utilizzato
+    model_indices = [i for i, m in enumerate(cost_data["Modello"]) if m == model_used]
+    if model_indices:
+        idx = model_indices[0]
+        fig.add_shape(
+            type="rect",
+            x0=idx-0.4, y0=0,
+            x1=idx+0.4, y1=float(cost_data["Costo Stimato"][idx].replace("$", "")),
+            line=dict(color="yellow", width=3),
+            fillcolor="rgba(0,0,0,0)"
+        )
+    
+    st.plotly_chart(fig, use_container_width=True)
+
+# Inizializzazione delle variabili di sessione
+if 'cv_dir' not in st.session_state:
+    st.session_state.cv_dir = None
+if 'job_description' not in st.session_state:
+    st.session_state.job_description = ""
+if 'analysis_results' not in st.session_state:
+    st.session_state.analysis_results = None
+if 'detailed_results' not in st.session_state:
+    st.session_state.detailed_results = None
+if 'detailed_view' not in st.session_state:
+    st.session_state.detailed_view = None
+if 'comparison_candidates' not in st.session_state:
+    st.session_state.comparison_candidates = []
+if 'api_key' not in st.session_state:
+    st.session_state.api_key = OPENAI_API_KEY
+if 'model' not in st.session_state:
+    st.session_state.model = "gpt-4o-mini"
+if 'use_ollama' not in st.session_state:
+    st.session_state.use_ollama = False
+if 'ollama_model' not in st.session_state:
+    st.session_state.ollama_model = None
+if 'ollama_models' not in st.session_state:
+    st.session_state.ollama_models = []
+
+
+# Funzioni di utilità
+
+def get_score_color(score):
+    """Restituisce il colore appropriato in base al punteggio"""
+    try:
+        score_num = float(score) if score is not None else 0
+    except (ValueError, TypeError):
+        score_num = 0
+    
+    if score_num >= 80:
+        return COLORS['success']
+    elif score_num >= 65:
+        return COLORS['warning']
+    else:
+        return COLORS['error']
+
+def get_score_label(score):
+    """Restituisce l'etichetta appropriata in base al punteggio"""
+    try:
+        score_num = float(score) if score is not None else 0
+    except (ValueError, TypeError):
+        score_num = 0
+    
+    if score_num >= 80:
+        return "Ottimo"
+    elif score_num >= 65:
+        return "Buono"
+    else:
+        return "Sufficiente"
+
+def format_score_with_color(score):
+    """Formatta il punteggio con il colore appropriato"""
+    # Assicuriamoci che il punteggio sia un numero
+    try:
+        score_num = float(score) if score is not None else 0
+        # Arrotondiamo il punteggio per visualizzazione
+        score_display = int(round(score_num))
+    except (ValueError, TypeError):
+        score_num = 0
+        score_display = 0
+    
+    color = get_score_color(score_num)
+    return f'<span style="color:{color};font-weight:bold;">{score_display}</span>'
+
+def create_score_badge(score):
+    """Crea un badge HTML per il punteggio"""
+    # Assicuriamoci che il punteggio sia un numero
+    try:
+        score_num = float(score) if score is not None else 0
+        # Arrotondiamo il punteggio per visualizzazione
+        score_display = int(round(score_num))
+    except (ValueError, TypeError):
+        score_num = 0
+        score_display = 0
+    
+    # Definizione degli stili in base al punteggio
+    if score_num >= 80:
+        style = "background-color: #4CAF50; color: white;"  # Verde
+    elif score_num >= 65:
+        style = "background-color: #FFC107; color: black;"  # Giallo
+    else:
+        style = "background-color: #F44336; color: white;"  # Rosso
+    
+    return f'<span style="padding: 4px 8px; border-radius: 4px; font-weight: bold; {style}">{score_display}</span>'
+
+def create_score_bar(score, max_score=100):
+    """Crea una barra di progresso per visualizzare il punteggio"""
+    try:
+        score_num = float(score) if score is not None else 0
+    except (ValueError, TypeError):
+        score_num = 0
+    
+    color = get_score_color(score_num)
+    
+    # Calcola la percentuale
+    percent = (score_num / max_score) * 100
+    
+    # Crea l'HTML per la barra di progresso
+    html = f"""
+    <div class="score-bar-container">
+        <div class="score-bar" style="width: {percent}%; background-color: {color};"></div>
+    </div>
+    <div class="score-label">
+        <span>0</span>
+        <span>{int(round(score_num))}/{max_score}</span>
+        <span>{max_score}</span>
+    </div>
+    """
+    return html
+
+def format_motivazione(text, max_length=150):
+    """Formatta la motivazione con un limite di caratteri"""
+    if not text:
+        return ""
+    
+    if len(text) <= max_length:
+        return text
+    
+    return text[:max_length] + "..."
+
+# Replace the safe_html function with this simpler version:
+def safe_html(html_content):
+    """Sanitizza e prepara il contenuto HTML per la visualizzazione sicura"""
+    if html_content is None:
+        return ""
+    
+    # Assicurarsi che sia una stringa
+    if not isinstance(html_content, str):
+        html_content = str(html_content)
+    
+    return html_content
+    
+    # Assicurarsi che sia una stringa
+    if not isinstance(html_content, str):
+        html_content = str(html_content)
+    
+    # Rimuovere caratteri problematici
+    html_content = html_content.replace("\\", "")
+    
+    # Se il contenuto è già un frammento HTML, togliere eventuali escape
+    if "&lt;" in html_content and "&gt;" in html_content:
+        # HTML con escape, ripristina i tag
+        html_content = html_content.replace("&lt;", "<").replace("&gt;", ">")
+    
+    # Avvolgi il contenuto in un div
+    return f"""{html_content}"""
+
+def create_tooltip(content, tooltip_text):
+    """Crea un tooltip con contenuto e testo al passaggio del mouse"""
+    return f'''
+    <div class="tooltip">{content}
+        <div class="tooltiptext">{tooltip_text}</div>
+    </div>
+    '''
+
+def create_cache_dir():
+    """Crea la directory per la cache se non esiste"""
+    cache_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ai_cache")
+    os.makedirs(cache_dir, exist_ok=True)
+    return cache_dir
+
+def get_cache_path(model_name, prompt):
+    """Genera il percorso del file di cache basato sul modello e sul prompt"""
+    # Crea un hash dal prompt
+    prompt_hash = hashlib.md5(prompt.encode('utf-8')).hexdigest()
+    
+    # Crea il nome del file
+    cache_filename = f"{model_name}-{prompt_hash}.txt"
+    
+    # Restituisci il percorso completo
+    cache_dir = create_cache_dir()
+    return os.path.join(cache_dir, cache_filename)
+
+def get_cached_response(model_name, prompt):
+    """Ottiene una risposta dalla cache, se esiste."""
+    # Se la cache è disabilitata, restituisci sempre None
+    if "use_cache" in st.session_state and not st.session_state.use_cache:
+        logger.info(f"Cache disabilitata, salto il controllo per {model_name}")
+        return None
+        
+    cache_path = get_cache_path(model_name, prompt)
+    logger.debug(f"Verifico cache in: {cache_path}")
+    
+    if os.path.exists(cache_path):
+        try:
+            with open(cache_path, 'r', encoding='utf-8') as f:
+                cached_result = json.load(f)
+                
+                # Conta i token per la metrica di risparmio, segnalando che viene dalla cache
+                input_tokens = count_tokens(prompt)
+                output_tokens = count_tokens(cached_result if isinstance(cached_result, str) else json.dumps(cached_result))
+                update_cost_tracking(input_tokens, output_tokens, from_cache=True)
+                
+                logger.info(f"Trovata risposta nella cache per {model_name}")
+                return cached_result
+        except Exception as e:
+            logger.warning(f"Errore nella lettura della cache: {str(e)}")
+            return None
+    
+    logger.info(f"Nessuna cache trovata per {model_name} con hash {hashlib.md5(prompt.encode('utf-8')).hexdigest()}")
+    return None
+
+def save_to_cache(model_name, prompt, response):
+    """Salva una risposta nella cache."""
+    # Se la cache è disabilitata, non salvare
+    if "use_cache" in st.session_state and not st.session_state.use_cache:
+        logger.info(f"Cache disabilitata, salto il salvataggio per {model_name}")
+        return None
+        
+    try:
+        cache_path = get_cache_path(model_name, prompt)
+        with open(cache_path, 'w', encoding='utf-8') as f:
+            json.dump(response, f, ensure_ascii=False)
+        logger.info(f"Risposta salvata nella cache: {cache_path}")
+        return cache_path
+    except Exception as e:
+        logger.warning(f"Errore nel salvataggio della cache: {str(e)}")
+        return None
+
+def get_ollama_models():
+    """Ottiene la lista dei modelli disponibili su Ollama."""
+    try:
+        response = requests.get("http://localhost:11434/api/tags")
+        if response.status_code == 200:
+            models = response.json().get('models', [])
+            return [model['name'] for model in models]
+        return []
+    except:
+        return []
+
+def extract_text_from_pdf(pdf_path):
+    """Estrae il testo da un PDF usando sia PyMuPDF che OCR"""
+    # Inizializzazione del logger per i punteggi
+    scores_logger = logging.getLogger("SCORES_DEBUG")
+    
+    # Estrazione diretta
+    text_direct = ""
+    try:
+        doc = fitz.open(pdf_path)
+        for page in doc:
+            text_direct += page.get_text()
+        doc.close()
+    except Exception as e:
+        st.error(f"Errore nell'estrazione diretta del testo: {e}")
+        text_direct = ""
+    
+    # Estrazione OCR
+    text_ocr = ""
+    try:
+        doc = fitz.open(pdf_path)
+        for page in doc:
+            pix = page.get_pixmap(dpi=300)
+            img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+            img = img.convert('L')
+            img = img.point(lambda x: 0 if x < 140 else 255, '1')
+            img = img.filter(ImageFilter.SHARPEN)
+            
+            custom_config = r'--oem 3 --psm 6'
+            page_text = pytesseract.image_to_string(img, lang='ita+eng', config=custom_config)
+            text_ocr += page_text
+        doc.close()
+    except Exception as e:
+        st.error(f"Errore nell'OCR: {e}")
+        text_ocr = ""
+    
+    return text_direct, text_ocr
+
+def clean_cv_text(text_direct, text_ocr):
+    """Pulisce e combina il testo estratto dal CV"""
+    # Inizializzazione del logger per i punteggi
+    scores_logger = logging.getLogger("SCORES_DEBUG")
+    
+    # Se entrambi i metodi di estrazione hanno fallito
+    if not text_direct and not text_ocr:
+        return ""
+    
+    # Se uno dei due metodi ha fallito, restituisci l'altro
+    if not text_direct:
+        return text_ocr
+    if not text_ocr:
+        return text_direct
+    
+    # Altrimenti, chiedi all'AI di combinare i risultati
+    if st.session_state.use_ollama:
+        return combine_texts_ollama(text_direct, text_ocr)
+    else:
+        return combine_texts_openai(text_direct, text_ocr)
+
+def combine_texts_openai(text_direct, text_ocr):
+    """Usa OpenAI per combinare e pulire i testi estratti"""
+    # Inizializzazione del logger per i punteggi
+    scores_logger = logging.getLogger("SCORES_DEBUG")
+    
+    try:
+        # Crea il prompt
+        prompt_template = (
+            "Ecco due versioni del testo estratto da un CV:"
+            "\n\n---Estrazione Diretta---\n{text_direct}"
+            "\n\n---Estrazione OCR---\n{text_ocr}"
+            "\n\nCrea una versione pulita e completa combinando le due versioni. "
+            "Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, "
+            "formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+        )
+        
+        prompt = prompt_template.format(text_direct=text_direct, text_ocr=text_ocr)
+        
+        # Cerca nella cache
+        model_name = f"openai-{st.session_state.model}"
+        cached_response = get_cached_response(model_name, prompt)
+        
+        if cached_response:
+            return cached_response
+        
+        # Se non c'è in cache, chiama l'API
+        model = ChatOpenAI(model=st.session_state.model, api_key=st.session_state.api_key)
+        prompt_obj = ChatPromptTemplate.from_template("{text}")
+        chain = prompt_obj | model | StrOutputParser()
+        result = chain.invoke({"text": prompt})
+        
+        # Salva nella cache
+        save_to_cache(model_name, prompt, result)
+        
+        return result
+    except Exception as e:
+        st.error(f"Errore nella combinazione dei testi con OpenAI: {e}")
+        # In caso di errore, restituisci la versione più lunga
+        return text_direct if len(text_direct) > len(text_ocr) else text_ocr
+    
+    
+def refine_missing_fields(cv_text, extraction_result, fields, use_ollama=False, openai_model=None, ollama_model=None, api_key=None):
+    """
+    Controlla e affina i campi mancanti o non specificati.
+    
+    Args:
+        cv_text: Testo del CV
+        extraction_result: Risultato dell'estrazione iniziale (dizionario)
+        fields: Lista dei campi da controllare
+        use_ollama: Se True, usa Ollama invece di OpenAI
+        openai_model: Il modello OpenAI da utilizzare
+        ollama_model: Il modello Ollama da utilizzare
+        api_key: Chiave API per OpenAI
+    
+    Returns:
+        Il dizionario di estrazione aggiornato con i campi mancanti raffinati
+    """
+    if not extraction_result:
+        return {field: "Non specificato" for field in fields}
+    
+    # Identifica i campi mancanti o non specificati
+    missing_fields = []
+    for field in fields:
+        if field not in extraction_result or not extraction_result[field] or extraction_result[field] == "Non specificato":
+            missing_fields.append(field)
+    
+    if not missing_fields:
+        return extraction_result  # Nessun campo mancante
+
+    logger.info(f"Affinamento di {len(missing_fields)} campi mancanti: {', '.join(missing_fields)}")
+    st.info(f"Affinamento di {len(missing_fields)} campi mancanti: {', '.join(missing_fields)}")
+    
+    # Creo un prompt per affinare TUTTI i campi mancanti in una sola chiamata
+    fields_to_extract = "\n".join([f"{i+1}. {field}" for i, field in enumerate(missing_fields)])
+    
+    refinement_prompt = f"""
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    {fields_to_extract}
+    
+    CV:
+    {cv_text}
+    
+    IMPORTANTE: 
+    1. Estrai ESCLUSIVAMENTE i campi elencati dal CV
+    2. Se un'informazione non è esplicitamente presente, fai una stima ragionevole basata sul contesto
+    3. Per 'Anni di esperienza', calcola in base alle date di fine della scuola superiore o cose simili
+    4. Per 'Posizione attuale', indica l'ultimo ruolo menzionato
+    5. Per 'Formazione più alta', estrai il titolo di studio più elevato
+    6. Evita di rispondere con 'Non specificato' o 'Non disponibile' - fai sempre una stima informata
+    7. Restituisci il risultato in formato JSON, con ogni campo come chiave e il valore estratto
+    8. Rispondi concisamente, massimo 2-3 righe per campo
+    
+    Formato della risposta (esempio):
+    {{
+        "Nome del campo 1": "Valore estratto 1",
+        "Nome del campo 2": "Valore estratto 2",
+        ...
+    }}
+    """
+    
+    try:
+        if use_ollama:
+            # Usa l'API di Ollama
+            model_name = f"ollama-{ollama_model}"
+            
+            # Cerca nella cache
+            cached_response = get_cached_response(model_name, refinement_prompt)
+            if cached_response:
+                logger.info("Usando risposta dalla cache per il raffinamento dei campi mancanti")
+                try:
+                    if isinstance(cached_response, str):
+                        refinement_result = json.loads(cached_response)
+                    else:
+                        refinement_result = cached_response
+                        
+                    # Aggiorna extraction_result con i campi raffinati
+                    for field in missing_fields:
+                        if field in refinement_result:
+                            extraction_result[field] = refinement_result[field]
+                        
+                    return extraction_result
+                except:
+                    logger.warning("Errore nel parsing della risposta dalla cache. Procedo con una nuova chiamata.")
+                    cached_response = None
+            
+            if not cached_response:
+                logger.info("Chiamata API Ollama per il raffinamento dei campi mancanti")
+                # Usa il formato JSON strutturato di Ollama
+                response = requests.post(
+                    "http://localhost:11434/api/generate",
+                    json={
+                        "model": ollama_model,
+                        "prompt": refinement_prompt,
+                        "stream": False,
+                        "format": "json",
+                        "options": {
+                            "temperature": 0.7
+                        }
+                    }
+                )
+                
+                if response.status_code == 200:
+                    try:
+                        response_data = response.json()
+                        logger.debug(f"Risposta strutturata da Ollama: {response_data}")
+                        
+                        if "response" in response_data:
+                            refinement_text = response_data.get("response", "{}")
+                            # Salva risposta in cache
+                            save_to_cache(model_name, refinement_prompt, refinement_text)
+                            
+                            # Parsing del JSON
+                            try:
+                                refinement_result = json.loads(refinement_text)
+                                logger.info("Parsing JSON riuscito per la risposta strutturata di Ollama")
+                            except json.JSONDecodeError as e:
+                                logger.error(f"Errore nel parsing JSON strutturato: {e}, testo: {refinement_text}")
+                                # Tentativo di estrarre il JSON con regex
+                                import re
+                                json_match = re.search(r'\{.*\}', refinement_text, re.DOTALL)
+                                if json_match:
+                                    try:
+                                        refinement_result = json.loads(json_match.group(0))
+                                        logger.info("Estratto JSON con regex dalla risposta di Ollama")
+                                    except:
+                                        logger.error(f"Errore nel parsing della risposta JSON da Ollama anche dopo regex: {refinement_text}")
+                                        st.error("Errore nell'affinamento con Ollama. La risposta non contiene un JSON valido.")
+                                        return extraction_result
+                                else:
+                                    logger.error(f"Risposta di Ollama non contiene JSON: {refinement_text}")
+                                    st.error("Errore nell'affinamento con Ollama. La risposta non contiene un JSON valido.")
+                                    return extraction_result
+                        else:
+                            logger.error("Risposta non valida da Ollama, manca il campo 'response'")
+                            st.error("Risposta non valida da Ollama")
+                            return extraction_result
+                    except json.JSONDecodeError as e:
+                        logger.error(f"Errore nel parsing della risposta HTTP da Ollama: {e}")
+                        st.error(f"Errore nel parsing della risposta: {e}")
+                        return extraction_result
+                    
+                    # Aggiorna extraction_result con i campi raffinati
+                    for field in missing_fields:
+                        if field in refinement_result:
+                            extraction_result[field] = refinement_result[field]
+                    
+                    return extraction_result
+                else:
+                    logger.error(f"Errore nella chiamata API Ollama: {response.status_code} - {response.text}")
+                    st.error(f"Errore nella chiamata API Ollama: {response.status_code}")
+                    return extraction_result
+        else:
+            # Usa l'API di OpenAI
+            model_name = f"openai-{openai_model}"
+            
+            # Cerca nella cache
+            cached_response = get_cached_response(model_name, refinement_prompt)
+            if cached_response:
+                logger.info("Usando risposta dalla cache per il raffinamento dei campi mancanti")
+                try:
+                    if isinstance(cached_response, str):
+                        refinement_result = json.loads(cached_response)
+                    else:
+                        refinement_result = cached_response
+                        
+                    # Aggiorna extraction_result con i campi raffinati
+                    for field in missing_fields:
+                        if field in refinement_result:
+                            extraction_result[field] = refinement_result[field]
+                        
+                    return extraction_result
+                except:
+                    logger.warning("Errore nel parsing della risposta dalla cache. Procedo con una nuova chiamata.")
+                    cached_response = None
+            
+            if not cached_response:
+                logger.info("Chiamata API OpenAI per il raffinamento dei campi mancanti")
+                from openai import OpenAI
+                client = OpenAI(api_key=api_key)
+                
+                # Verifica se il modello supporta response_format
+                supports_json_format = any(m in openai_model for m in ["gpt-4o", "gpt-4-turbo", "gpt-3.5-turbo"])
+                
+                response_args = {
+                    "model": openai_model,
+                    "messages": [{"role": "user", "content": refinement_prompt}],
+                    "temperature": 0.8  # Aumenta la temperatura per diversificare le risposte
+                }
+                
+                # Aggiungi response_format solo per i modelli che lo supportano
+                if supports_json_format:
+                    response_args["response_format"] = {"type": "json_object"}
+                
+                try:
+                    response = client.chat.completions.create(**response_args)
+                    refinement_text = response.choices[0].message.content
+                    
+                    # Aggiornamento dei token utilizzati
+                    input_tokens = response.usage.prompt_tokens
+                    output_tokens = response.usage.completion_tokens
+                    update_cost_tracking(input_tokens, output_tokens)
+                    
+                    # Salva nella cache
+                    save_to_cache(model_name, refinement_prompt, refinement_text)
+                    
+                    # Parsing del JSON
+                    try:
+                        refinement_result = json.loads(refinement_text)
+                    except:
+                        import re
+                        json_match = re.search(r'\{.*\}', refinement_text, re.DOTALL)
+                        if json_match:
+                            try:
+                                refinement_result = json.loads(json_match.group(0))
+                            except:
+                                logger.error(f"Errore nel parsing della risposta JSON da OpenAI: {refinement_text}")
+                                st.error("L' Errore nell'affinamento con OpenAI. La risposta non contiene un JSON valido.")
+                                return extraction_result
+                        else:
+                            logger.error(f"Risposta di OpenAI non contiene JSON: {refinement_text}")
+                            st.error("L' Errore nell'affinamento con OpenAI. La risposta non contiene un JSON valido.")
+                            return extraction_result
+                    
+                    # Aggiorna extraction_result con i campi raffinati
+                    for field in missing_fields:
+                        if field in refinement_result:
+                            extraction_result[field] = refinement_result[field]
+                    
+                    return extraction_result
+                except Exception as e:
+                    logger.error(f"Errore nella chiamata API OpenAI: {str(e)}")
+                    st.error(f"L' Errore nella chiamata API OpenAI: {str(e)}")
+                    return extraction_result
+                    
+    except Exception as e:
+        logger.error(f"Errore generale nell'affinamento dei campi: {str(e)}")
+        st.error(f"L' Errore generale nell'affinamento dei campi: {str(e)}")
+        return extraction_result
+    
+    return extraction_result
+
+def combine_texts_ollama(text_direct, text_ocr):
+    """Usa Ollama per combinare e pulire i testi estratti"""
+    # Inizializzazione del logger per i punteggi
+    scores_logger = logging.getLogger("SCORES_DEBUG")
+    
+    try:
+        # Crea il prompt
+        prompt = (
+            "Ecco due versioni del testo estratto da un CV:"
+            "\n\n---Estrazione Diretta---\n" + text_direct +
+            "\n\n---Estrazione OCR---\n" + text_ocr +
+            "\n\nCrea una versione pulita e completa combinando le due versioni. "
+            "Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, "
+            "formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+        )
+        
+        # Cerca nella cache
+        model_name = f"ollama-{st.session_state.ollama_model}"
+        cached_response = get_cached_response(model_name, prompt)
+        
+        if cached_response:
+            return cached_response
+        
+        # Se non c'è in cache, chiama l'API
+        logger.info(f"Chiamata API Ollama con modello {st.session_state.ollama_model}")
+        response = requests.post(
+            "http://localhost:11434/api/generate",
+            json={
+                "model": st.session_state.ollama_model,
+                "prompt": prompt,
+                "stream": False
+            }
+        )
+        
+        if response.status_code == 200:
+            try:
+                response_data = response.json()
+                logger.debug(f"Risposta Ollama ricevuta: {response_data}")
+                
+                if "response" in response_data:
+                    result = response_data["response"]
+                else:
+                    logger.error("Risposta Ollama non contiene il campo 'response'")
+                    st.error("Errore: risposta non valida da Ollama")
+                    return text_direct if len(text_direct) > len(text_ocr) else text_ocr
+                
+                # Salva nella cache
+                save_to_cache(model_name, prompt, result)
+                
+                return result
+            except json.JSONDecodeError as e:
+                logger.error(f"Errore nel parsing JSON della risposta Ollama: {str(e)}")
+                logger.error(f"Contenuto della risposta: {response.text}")
+                st.error(f"Errore nel parsing della risposta di Ollama: {str(e)}")
+                return text_direct if len(text_direct) > len(text_ocr) else text_ocr
+        else:
+            logger.error(f"Errore nella richiesta a Ollama: {response.status_code}")
+            logger.error(f"Contenuto della risposta: {response.text}")
+            st.error(f"Errore nella richiesta a Ollama: {response.status_code}")
+            return text_direct if len(text_direct) > len(text_ocr) else text_ocr
+    except Exception as e:
+        logger.error(f"Errore nella combinazione dei testi con Ollama: {str(e)}")
+        st.error(f"Errore nella combinazione dei testi con Ollama: {str(e)}")
+        return text_direct if len(text_direct) > len(text_ocr) else text_ocr
+
+def analyze_cv_openai(cv_text, job_description, fields):
+    """Analizza un CV con OpenAI"""
+    # Setup del logger per i punteggi
+    scores_logger = logging.getLogger("SCORES_DEBUG")
+    scores_logger.info(f"{'='*40} NUOVA ANALISI CV CON OPENAI {'='*40}")
+    
+    if "model" not in st.session_state or not st.session_state.model:
+        st.error("L' Modello OpenAI non selezionato")
+        scores_logger.error("Modello OpenAI non selezionato")
+        return None
+    
+    if "api_key" not in st.session_state or not st.session_state.api_key:
+        st.error("L' API key di OpenAI non impostata")
+        scores_logger.error("API key di OpenAI non impostata")
+        return None
+        
+    try:
+        # FASE 1: Estrazione iniziale di tutti i campi
+        logger.info("Iniziando l'estrazione principale con OpenAI")
+        extraction_result = {}
+        
+        # Preparazione del prompt per OpenAI
+        fields_prompt = "\n".join([f"{i+1}. {field}" for i, field in enumerate(fields)])
+        extraction_prompt = f"""
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        {job_description}
+        
+        CV:
+        {cv_text}
+        
+        Estrai le seguenti informazioni (se non disponibili, scrivi "Non specificato"):
+        {fields_prompt}
+        
+        Inoltre, identificare i seguenti punti:
+        1. Forza principale: La caratteristica più forte del candidato rispetto alla posizione
+        2. Debolezza principale: La caratteristica più debole del candidato rispetto alla posizione
+        3. Fit generale: Una valutazione sintetica in 1-2 frasi dell'adeguatezza del candidato
+        
+        Restituisci i risultati in formato JSON, con ogni campo come chiave e il valore estratto.
+        """
+        
+        # Conta i token del prompt di estrazione
+        extraction_input_tokens = count_tokens(extraction_prompt, st.session_state.model)
+        extraction_output_tokens = 0
+        
+        # Cerca nella cache per l'estrazione
+        model_name = f"openai-{st.session_state.model}"
+        cached_extraction = get_cached_response(model_name, extraction_prompt)
+        
+        if cached_extraction:
+            logger.info("Utilizzando risposta dalla cache per l'estrazione principale")
+            try:
+                if isinstance(cached_extraction, str):
+                    extraction_result = json.loads(cached_extraction)
+                else:
+                    extraction_result = cached_extraction
+                # Nota: il conteggio dei token per la cache à già gestito in get_cached_response
+            except:
+                import re
+                json_match = re.search(r'\{.*\}', cached_extraction, re.DOTALL)
+                if json_match:
+                    extraction_result = json.loads(json_match.group(0))
+                else:
+                    logger.warning("Cache corrotta per l'estrazione, richiamo l'API")
+                    st.warning("à&à Cache corrotta per l'estrazione, richiamo l'API")
+                    cached_extraction = None
+        
+        if not cached_extraction:
+            logger.info("Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale")
+            # Rimosso il 'try' problematico
+            from openai import OpenAI
+            client = OpenAI(api_key=st.session_state.api_key)
+            
+            # Verifica se il modello supporta response_format
+            supports_json_format = any(m in st.session_state.model for m in ["gpt-4o", "gpt-4-turbo", "gpt-3.5-turbo"])
+            
+            response_args = {
+                "model": st.session_state.model,
+                "messages": [{"role": "user", "content": extraction_prompt}]
+            }
+            
+            # Aggiungi response_format solo per i modelli che lo supportano
+            if supports_json_format:
+                response_args["response_format"] = {"type": "json_object"}
+            
+            try:
+                response = client.chat.completions.create(**response_args)
+                result = response.choices[0].message.content
+                
+                # Aggiornamento dei token utilizzati
+                input_tokens = response.usage.prompt_tokens
+                output_tokens = response.usage.completion_tokens
+                update_cost_tracking(input_tokens, output_tokens)
+                
+                # Aggiornamento del contatore di token
+                extraction_input_tokens = input_tokens
+                extraction_output_tokens = output_tokens
+                
+                # Salva in cache
+                save_to_cache(model_name, extraction_prompt, result)
+                
+                # Converti in JSON
+                try:
+                    extraction_result = json.loads(result)
+                except:
+                    # Fallback: tenta di estrarre JSON con regex
+                    import re
+                    json_match = re.search(r'\{.*\}', result, re.DOTALL)
+                    if json_match:
+                        extraction_result = json.loads(json_match.group(0))
+                    else:
+                        st.error(f"L' Impossibile analizzare il risultato JSON: {result}")
+                        return None
+            except Exception as e:
+                logger.error(f"Errore nella chiamata API: {str(e)}")
+                st.error(f"L' Errore nella chiamata API: {str(e)}")
+                return None
+        
+        # FASE 2: Raffinamento dei campi mancanti (solo se necessario)
+        # Utilizziamo la funzione di raffinamento per i campi mancanti o non specificati
+        logger.info("Controllo campi mancanti per eventuale raffinamento")
+        extraction_result = refine_missing_fields(
+            cv_text=cv_text,
+            extraction_result=extraction_result,
+            fields=fields,
+            use_ollama=False,
+            openai_model=st.session_state.model,
+            api_key=st.session_state.api_key
+        )
+        
+        # FASE 3: Valutazione con i criteri
+        logger.info("Iniziando la fase di valutazione")
+        scores_logger.info("Iniziando la fase di valutazione con i criteri")
+        
+        # Ottieni i criteri dalla session_state se disponibili, altrimenti usa quelli predefiniti
+        criteria_list = st.session_state.evaluation_criteria if 'evaluation_criteria' in st.session_state else EVALUATION_CRITERIA
+        criteria_weights = st.session_state.criteria_weights if 'criteria_weights' in st.session_state else DEFAULT_CRITERIA_WEIGHTS
+        
+        # Crea la parte del prompt per i criteri
+        criteria_prompt = ""
+        for i, (criteria_id, criteria_label) in enumerate(criteria_list):
+            weight = criteria_weights.get(criteria_id, 10)
+            criteria_prompt += f"{i+1}. {criteria_id}: Valuta {criteria_label}. (Peso: {weight}%)\n"
+        
+        evaluation_prompt = f"""
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            {job_description}
+            
+            CV:
+            {cv_text}
+            
+        Estrazione informazioni:
+        {json.dumps(extraction_result, indent=2, ensure_ascii=False)}
+        
+        Valuta il candidato per i seguenti criteri su una scala da 0 a 100:
+        {criteria_prompt}
+        
+        IMPORTANTE:
+        - Utilizza l'INTERA scala da 0 a 100 per i punteggi
+        - Differenzia i punteggi in base alle reali qualifiche del candidato
+        - Evita di usare valori medi (come 50) a meno che non rappresentino realmente il profilo
+        - Se un criterio à eccellente, usa un punteggio alto (80+)
+        - Se un criterio à scarso, usa un punteggio basso (30-)
+        - Ogni criterio puà avere un punteggio diverso, non assegnare lo stesso punteggio a tutti i criteri
+        
+        Per ogni criterio, fornisci:
+        - Un punteggio da 0 a 100
+        - Una breve motivazione di 1-2 frasi che giustifica il punteggio
+        
+        Calcola anche un punteggio composito che rappresenta il fit complessivo del candidato.
+        Il punteggio composito à una media pesata dei criteri sopra, usando i pesi indicati per ciascun criterio.
+        
+        Nella tua valutazione:
+        - Assegna 70-100 per candidati che soddisfano pienamente o superano i requisiti
+        - Assegna 40-69 per candidati che soddisfano parzialmente i requisiti
+        - Assegna 0-39 per candidati che non soddisfano i requisiti minimi
+        
+        Restituisci i risultati in formato JSON con questa struttura:
+        {{
+            "criteria": {{
+                "criterio1": {{"score": X, "motivation": "..."}},
+                "criterio2": {{"score": X, "motivation": "..."}},
+                ... altri criteri ...
+            }},
+            "composite_score": X,
+            "extraction": {{ ... tutti i campi estratti dal CV ... }}
+        }}
+        
+        Le motivazioni devono essere concise ma informative, massimo 2 frasi.
+        """
+        
+        # Conta i token del prompt di valutazione
+        evaluation_input_tokens = count_tokens(evaluation_prompt, st.session_state.model)
+        evaluation_output_tokens = 0
+        
+        # Cerca nella cache per la valutazione
+        cached_evaluation = get_cached_response(model_name, evaluation_prompt)
+        
+        if cached_evaluation:
+            logger.info("Utilizzando risposta dalla cache per la valutazione")
+            try:
+                if isinstance(cached_evaluation, str):
+                    evaluation_result = json.loads(cached_evaluation)
+                else:
+                    evaluation_result = cached_evaluation
+                    
+                # Stima token di output dalla cache
+                evaluation_output_tokens = count_tokens(json.dumps(evaluation_result), st.session_state.model)
+            except:
+                import re
+                json_match = re.search(r'\{.*\}', cached_evaluation if isinstance(cached_evaluation, str) else json.dumps(cached_evaluation), re.DOTALL)
+                if json_match:
+                    evaluation_result = json.loads(json_match.group(0))
+                    evaluation_output_tokens = count_tokens(json_match.group(0), st.session_state.model)
+                else:
+                    logger.warning("Cache corrotta per la valutazione, richiamo l'API")
+                    st.warning("à&à Cache corrotta per la valutazione, richiamo l'API")
+                    cached_evaluation = None
+                    evaluation_result = {}
+        else:
+            logger.info("Nessuna cache disponibile, chiamo l'API OpenAI per la valutazione")
+            try:
+                # Utilizzo di client OpenAI diretto con response_format
+                from openai import OpenAI
+                client = OpenAI(api_key=st.session_state.api_key)
+                
+                # Verifica se il modello supporta response_format
+                supports_json_format = any(m in st.session_state.model for m in ["gpt-4o", "gpt-4-turbo", "gpt-3.5-turbo"])
+                
+                response_args = {
+                    "model": st.session_state.model,
+                    "messages": [{"role": "user", "content": evaluation_prompt}],
+                    "temperature": 0.8  # Aumenta la temperatura per diversificare le risposte
+                }
+                
+                # Aggiungi response_format solo per i modelli che lo supportano
+                if supports_json_format:
+                    response_args["response_format"] = {"type": "json_object"}
+                
+                response = client.chat.completions.create(**response_args)
+                evaluation_text = response.choices[0].message.content
+                
+                # Conta i token di output
+                evaluation_output_tokens = count_tokens(evaluation_text, st.session_state.model)
+                
+                # Aggiorna il conteggio dei token e il costo per la fase di valutazione
+                update_cost_tracking(evaluation_input_tokens, evaluation_output_tokens, from_cache=False)
+                
+                # Salva nella cache
+                save_to_cache(model_name, evaluation_prompt, evaluation_text)
+                
+                # Parsing del JSON in dict Python
+                try:
+                    evaluation_result = json.loads(evaluation_text)
+                except json.JSONDecodeError:
+                    # Prova a pulire la risposta se il parsing JSON fallisce
+                    import re
+                    json_match = re.search(r'\{.*\}', evaluation_text, re.DOTALL)
+                    if json_match:
+                        try:
+                            evaluation_result = json.loads(json_match.group(0))
+                        except:
+                            st.error("L' Errore nel parsing della valutazione. JSON non valido anche dopo la pulizia.")
+                            st.code(evaluation_text, language="json")
+                            return None
+                    else:
+                        st.error("L' Errore nel parsing della valutazione. La risposta non contiene un JSON valido.")
+                        st.code(evaluation_text, language="text")
+                        return None
+            except Exception as e:
+                logger.error(f"Errore nell'invocazione di OpenAI per la valutazione: {str(e)}")
+                import traceback
+                st.error(traceback.format_exc())
+                return None
+                
+              
+        # Calcolo punteggio composito
+        total_score = 0
+        total_weight = 0
+        scores_logger.info("RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:")
+        
+        # Ottieni i pesi dalla session_state
+        criteria_weights = st.session_state.criteria_weights if 'criteria_weights' in st.session_state else DEFAULT_CRITERIA_WEIGHTS
+        
+        # Verifica se i criteri sono nel formato con "criteria" o direttamente al primo livello
+        if "criteria" in evaluation_result and isinstance(evaluation_result["criteria"], dict):
+            criteria_data = evaluation_result["criteria"]
+            scores_logger.info(f"Utilizzo 'criteria' per i punteggi: {list(criteria_data.keys())[:5]}...")
+        else:
+            criteria_data = evaluation_result
+            scores_logger.info("Utilizzo direttamente evaluation_result per i punteggi")
+        
+        for criteria_id, _ in criteria_list:
+            # Cerca il criterio nell'oggetto criteria
+            if criteria_id in criteria_data:
+                criteria_obj = criteria_data[criteria_id]
+                scores_logger.info(f"Criterio {criteria_id} trovato: {criteria_obj}")
+            else:
+                scores_logger.info(f"Criterio {criteria_id} non trovato, salto")
+                continue
+                
+            try:
+                # Può essere un oggetto con "score" o direttamente un valore
+                if isinstance(criteria_obj, dict) and "score" in criteria_obj:
+                    raw_score = criteria_obj["score"]
+                elif isinstance(criteria_obj, (int, float)):
+                    raw_score = criteria_obj
+                else:
+                    raw_score = 0
+                    
+                scores_logger.info(f"  {criteria_id} - score grezzo: {raw_score} - tipo: {type(raw_score)}")
+                
+                # Assicurati che il punteggio sia numerico
+                if isinstance(raw_score, str):
+                    # Rimuovi eventuali caratteri non numerici
+                    cleaned_score = ''.join(c for c in raw_score if c.isdigit() or c == '.')
+                    score = float(cleaned_score) if cleaned_score else 0
+                    scores_logger.info(f"  {criteria_id} - conversione da stringa '{raw_score}' a numero {score}")
+                else:
+                    score = float(raw_score)
+                
+                # Ottieni il peso del criterio (default 10 se non specificato)
+                weight = criteria_weights.get(criteria_id, 10)
+                scores_logger.info(f"  {criteria_id} - peso: {weight}")
+                
+                # Aggiungi al punteggio pesato
+                total_score += score * weight
+                total_weight += weight
+                
+            except (ValueError, TypeError) as e:
+                st.warning(f"Errore nel punteggio per {criteria_id}")
+                scores_logger.error(f"Errore nella conversione del punteggio per {criteria_id}: {str(e)}")
+                scores_logger.error(f"Valore problematico: {criteria_obj}")
+        
+        # Calcola la media pesata (default 50 se non ci sono criteri validi)
+        composite_score = int(total_score / max(1, total_weight)) if total_weight > 0 else 50
+        scores_logger.info(f"Punteggio composito ricalcolato: {composite_score} (media pesata con peso totale {total_weight})")
+        
+        # Confronto con il punteggio composito originale
+        original_composite = evaluation_result.get("composite_score", None)
+        scores_logger.info(f"Punteggio composito originale: {original_composite}")
+        
+        return {
+            "extraction": extraction_result,
+            "criteria": evaluation_result,
+            "composite_score": composite_score
+        }
+    except Exception as e:
+        logger.error(f"Errore durante l'analisi con OpenAI: {str(e)}")
+        import traceback
+        st.error(traceback.format_exc())
+        return None
+
+def analyze_cv_ollama(cv_text, job_description, fields):
+    """Analizza un CV con Ollama"""
+    # Setup del logger per i punteggi
+    scores_logger = logging.getLogger("SCORES_DEBUG")
+    scores_logger.info(f"{'='*40} NUOVA ANALISI CV CON OLLAMA {'='*40}")
+    
+    if "ollama_model" not in st.session_state or not st.session_state.ollama_model:
+        st.error("L' Modello Ollama non selezionato")
+        scores_logger.error("Modello Ollama non selezionato")
+        return None
+    
+    try:
+        # FASE 1: Estrazione iniziale di tutti i campi
+        logger.info("Iniziando l'estrazione principale con Ollama")
+        extraction_result = {}
+        
+        # Preparazione del prompt per Ollama
+        fields_prompt = "\n".join([f"{i+1}. {field}" for i, field in enumerate(fields)])
+        extraction_prompt = f"""
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        {job_description}
+        
+        CV:
+        {cv_text}
+        
+        Estrai le seguenti informazioni (se non disponibili, scrivi "Non specificato"):
+        {fields_prompt}
+        
+        Inoltre, identificare i seguenti punti:
+        1. Forza principale: La caratteristica più forte del candidato rispetto alla posizione
+        2. Debolezza principale: La caratteristica più debole del candidato rispetto alla posizione
+        3. Fit generale: Una valutazione sintetica in 1-2 frasi dell'adeguatezza del candidato
+        
+        Restituisci i risultati in formato JSON, con ogni campo come chiave e il valore estratto.
+        """
+        
+        # Cerca nella cache
+        model_name = f"ollama-{st.session_state.ollama_model}"
+        cached_extraction = get_cached_response(model_name, extraction_prompt)
+        
+        if cached_extraction:
+            logger.info("Utilizzando risposta dalla cache per l'estrazione principale")
+            try:
+                extraction_result = json.loads(cached_extraction)
+            except:
+                import re
+                json_match = re.search(r'\{.*\}', cached_extraction, re.DOTALL)
+                if json_match:
+                    extraction_result = json.loads(json_match.group(0))
+                else:
+                    logger.warning("Cache corrotta per l'estrazione, richiamo l'API")
+                    st.warning("Cache corrotta per l'estrazione, richiamo l'API")
+                    cached_extraction = None
+        
+        if not cached_extraction:
+            logger.info("Nessuna cache disponibile, chiamo l'API Ollama per l'estrazione principale")
+            try:
+                # Chiamata API Ollama con formato JSON strutturato
+                response = requests.post(
+                    "http://localhost:11434/api/generate",
+                    json={
+                        "model": st.session_state.ollama_model,
+                        "prompt": extraction_prompt,
+                        "stream": False,
+                        "format": "json",
+                        "options": {
+                            "temperature": 0.7
+                        }
+                    }
+                )
+                
+                if response.status_code == 200:
+                    try:
+                        response_data = response.json()
+                        logger.debug(f"Risposta strutturata da Ollama: {response_data}")
+                        
+                        if "response" in response_data:
+                            result = response_data["response"]
+                            save_to_cache(model_name, extraction_prompt, result)
+                            
+                            # Parsing del JSON in dict Python
+                            try:
+                                extraction_result = json.loads(result)
+                                logger.info("Parsing JSON riuscito per la risposta strutturata di Ollama")
+                            except json.JSONDecodeError as e:
+                                logger.error(f"Errore nel parsing JSON strutturato: {e}, testo: {result}")
+                                # Tentativo fallback con regex
+                                import re
+                                json_match = re.search(r'\{.*\}', result, re.DOTALL)
+                                if json_match:
+                                    try:
+                                        extraction_result = json.loads(json_match.group(0))
+                                        logger.info("Estratto JSON con regex dalla risposta di Ollama")
+                                    except:
+                                        logger.error(f"Errore nel parsing della risposta JSON da Ollama anche con regex: {result}")
+                                        st.error("Errore nel parsing della risposta. La risposta non contiene un JSON valido.")
+                                        return None
+                                else:
+                                    logger.error(f"Errore nel parsing della risposta. La risposta non contiene un JSON valido: {result}")
+                                    st.error("Errore nel parsing della risposta. La risposta non contiene un JSON valido.")
+                                    return None
+                        else:
+                            logger.error("Risposta non valida da Ollama, manca il campo 'response'")
+                            st.error("Risposta non valida da Ollama")
+                            return None
+                    except json.JSONDecodeError as e:
+                        logger.error(f"Errore nel parsing della risposta HTTP da Ollama: {e}, risposta: {response.text}")
+                        st.error(f"Errore nel parsing della risposta: {e}")
+                        return None
+                else:
+                    logger.error(f"Errore nella chiamata API: {response.status_code} - {response.text}")
+                    st.error(f"Errore nella chiamata API: {response.status_code} - {response.text}")
+                    return None
+            except Exception as e:
+                logger.error(f"Errore nella connessione a Ollama: {str(e)}")
+                st.error(f"Errore nella connessione a Ollama: {str(e)}")
+                return None
+        
+        # FASE 2: Raffinamento dei campi mancanti (solo se necessario)
+        # Utilizziamo la funzione di raffinamento per i campi mancanti o non specificati
+        logger.info("Controllo campi mancanti per eventuale raffinamento")
+        extraction_result = refine_missing_fields(
+            cv_text=cv_text,
+            extraction_result=extraction_result,
+            fields=fields,
+            use_ollama=True,
+            ollama_model=st.session_state.ollama_model
+        )
+        
+        # FASE 3: Valutazione con i criteri
+        logger.info("Iniziando la fase di valutazione")
+        evaluation_prompt = f"""
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            {job_description}
+            
+            CV:
+            {cv_text}
+            
+        Estrazione informazioni:
+        {json.dumps(extraction_result, indent=2, ensure_ascii=False)}
+        
+        Valuta il candidato per i seguenti criteri su una scala da 0 a 100:
+        1. competenze_tecniche: Valuta quanto le competenze tecniche del candidato corrispondono a quelle richieste.
+        2. esperienza_rilevante: Valuta quanto l'esperienza lavorativa precedente à rilevante per la posizione.
+        3. formazione: Valuta l'adeguatezza della formazione accademica e professionale.
+        4. soft_skills: Valuta le capacità comunicative, di lavoro in team e di problem solving.
+        5. fit_culturale: Valuta quanto il candidato potrebbe integrarsi nell'ambiente di lavoro.
+        6. potenziale_crescita: Valuta il potenziale di crescita e sviluppo professionale del candidato.
+        7. criteri_base: Valuta quanto il candidato soddisfa i requisiti minimi del ruolo.
+        8. criteri_estesi: Valuta quanto il candidato soddisfa requisiti aggiuntivi desiderabili.
+        
+        Per ogni criterio, fornisci:
+        - Un punteggio da 0 a 100
+        - Una breve motivazione di 1-2 frasi che giustifica il punteggio
+        
+        Calcola anche un punteggio composito che rappresenta il fit complessivo del candidato.
+        Il punteggio composito à una media pesata dei criteri sopra, dove i pesi sono:
+        - competenze_tecniche: 25%
+        - esperienza_rilevante: 20%
+        - formazione: 15%
+        - soft_skills: 10%
+        - fit_culturale: 10%
+        - potenziale_crescita: 5%
+        - criteri_base: 10%
+        - criteri_estesi: 5%
+        
+        Restituisci i risultati in formato JSON con questa struttura:
+        {{
+            "criteria": {{
+                "competenze_tecniche": {{"score": X, "motivation": "..."}},
+                "esperienza_rilevante": {{"score": X, "motivation": "..."}},
+                ... altri criteri ...
+            }},
+            "composite_score": X,
+            "extraction": {{ ... tutti i campi estratti dal CV ... }}
+        }}
+        
+        Le motivazioni devono essere concise ma informative, massimo 2 frasi.
+        """
+        
+        # Conta i token del prompt di valutazione
+        evaluation_input_tokens = count_tokens(evaluation_prompt, st.session_state.model)
+        evaluation_output_tokens = 0
+        
+        # Cerca nella cache per la valutazione
+        cached_evaluation = get_cached_response(model_name, evaluation_prompt)
+        
+        if cached_evaluation:
+            logger.info("Utilizzando risposta dalla cache per la valutazione")
+            try:
+                if isinstance(cached_evaluation, str):
+                    evaluation_result = json.loads(cached_evaluation)
+                else:
+                    evaluation_result = cached_evaluation
+                    
+                # Stima token di output dalla cache
+                evaluation_output_tokens = count_tokens(json.dumps(evaluation_result), st.session_state.model)
+            except:
+                import re
+                json_match = re.search(r'\{.*\}', cached_evaluation if isinstance(cached_evaluation, str) else json.dumps(cached_evaluation), re.DOTALL)
+                if json_match:
+                    evaluation_result = json.loads(json_match.group(0))
+                    evaluation_output_tokens = count_tokens(json_match.group(0), st.session_state.model)
+                else:
+                    logger.warning("Cache corrotta per la valutazione, richiamo l'API")
+                    st.warning("à&à Cache corrotta per la valutazione, richiamo l'API")
+                    cached_evaluation = None
+                    evaluation_result = {}
+        else:
+            logger.info("Nessuna cache disponibile, chiamo l'API Ollama per la valutazione")
+            try:
+                # Chiamata API Ollama per la valutazione
+                response = requests.post(
+                    "http://localhost:11434/api/generate",
+                    json={
+                        "model": st.session_state.ollama_model,
+                        "prompt": evaluation_prompt,
+                        "stream": False,
+                        "format": "json",
+                        "options": {
+                            "temperature": 0.7
+                        }
+                    }
+                )
+                
+                if response.status_code == 200:
+                    try:
+                        response_data = response.json()
+                        logger.debug(f"Risposta strutturata da Ollama per valutazione: {response_data}")
+                        
+                        if "response" in response_data:
+                            evaluation_text = response_data["response"]
+                            
+                            # Salva nella cache
+                            save_to_cache(model_name, evaluation_prompt, evaluation_text)
+                            
+                            # Parsing del JSON in dict Python
+                            try:
+                                evaluation_result = json.loads(evaluation_text)
+                                logger.info("Parsing JSON riuscito per la risposta strutturata di valutazione")
+                                
+                                # Verifica se "criteria" esiste nella risposta
+                                if "criteria" in evaluation_result:
+                                    criteria_data = evaluation_result["criteria"]
+                                    logger.info(f"Trovata struttura con campo 'criteria': {list(criteria_data.keys())[:5]} ...")
+                                    
+                                    # Verifica se i criteri sono nel formato corretto
+                                    for crit_id, crit_data in criteria_data.items():
+                                        if isinstance(crit_data, dict) and "score" in crit_data:
+                                            logger.info(f"Criterio {crit_id} ha formato corretto con score={crit_data['score']}")
+                                        else:
+                                            logger.warning(f"Criterio {crit_id} ha formato non standard: {crit_data}")
+                                else:
+                                    logger.warning("La risposta non contiene un campo 'criteria'. Verificando la struttura di primo livello...")
+                                    
+                                    # Log delle chiavi di primo livello
+                                    logger.info(f"Chiavi di primo livello: {list(evaluation_result.keys())}")
+                                    
+                                    # Verifica se i criteri sono direttamente al primo livello
+                                    for key, value in evaluation_result.items():
+                                        if key in [c[0] for c in criteria_list]:
+                                            logger.info(f"Trovato criterio {key} direttamente al primo livello: {value}")
+                            except json.JSONDecodeError as e:
+                                logger.error(f"Errore nel parsing JSON strutturato della valutazione: {e}, testo: {evaluation_text}")
+                                # Prova a pulire la risposta con regex
+                                import re
+                                json_match = re.search(r'\{.*\}', evaluation_text, re.DOTALL)
+                                if json_match:
+                                    try:
+                                        evaluation_result = json.loads(json_match.group(0))
+                                        logger.info("Estratto JSON con regex dalla risposta di valutazione")
+                                    except Exception as inner_e:
+                                        logger.error(f"Errore nel parsing della valutazione anche dopo la pulizia: {str(inner_e)}")
+                                        st.error("Errore nel parsing della valutazione. JSON non valido anche dopo la pulizia.")
+                                        st.code(evaluation_text, language="json")
+                                        return None
+                                else:
+                                    logger.error(f"Errore nel parsing della valutazione. La risposta non contiene un JSON valido: {evaluation_text}")
+                                    st.error("Errore nel parsing della valutazione. La risposta non contiene un JSON valido.")
+                                    st.code(evaluation_text, language="text")
+                                    return None
+                        else:
+                            logger.error("Risposta non valida da Ollama per valutazione, manca il campo 'response'")
+                            st.error("Risposta non valida da Ollama per valutazione")
+                            return None
+                    except json.JSONDecodeError as e:
+                        logger.error(f"Errore nel parsing della risposta HTTP da Ollama per valutazione: {e}, risposta: {response.text}")
+                        st.error(f"Errore nel parsing della risposta di valutazione: {e}")
+                        return None
+                else:
+                    logger.error(f"Errore nella chiamata Ollama per la valutazione: {response.status_code} - {response.text}")
+                    st.error(f"L' Errore nella chiamata Ollama per la valutazione: {response.status_code} - {response.text}")
+                    return None
+            except Exception as e:
+                logger.error(f"Errore durante la chiamata Ollama per la valutazione: {str(e)}")
+                import traceback
+                st.error(traceback.format_exc())
+                return None
+                
+        
+        # Calcolo punteggio composito
+        total_score = 0
+        total_weight = 0
+        scores_logger.info("RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:")
+        
+        # Ottieni i criteri dalla session_state se disponibili, altrimenti usa quelli predefiniti
+        criteria_list = st.session_state.evaluation_criteria if 'evaluation_criteria' in st.session_state else EVALUATION_CRITERIA
+        
+        # Ottieni i pesi dalla session_state
+        criteria_weights = st.session_state.criteria_weights if 'criteria_weights' in st.session_state else DEFAULT_CRITERIA_WEIGHTS
+        
+        for criteria_id, _ in criteria_list:
+            if criteria_id in evaluation_result:
+                try:
+                    raw_score = evaluation_result[criteria_id].get("score", 0)
+                    scores_logger.info(f"  {criteria_id} - score grezzo: {raw_score} - tipo: {type(raw_score)}")
+                    
+                    # Assicurati che il punteggio sia numerico
+                    if isinstance(raw_score, str):
+                        # Rimuovi eventuali caratteri non numerici
+                        cleaned_score = ''.join(c for c in raw_score if c.isdigit() or c == '.')
+                        score = float(cleaned_score) if cleaned_score else 0
+                        scores_logger.info(f"  {criteria_id} - conversione da stringa '{raw_score}' a numero {score}")
+                    else:
+                        score = float(raw_score)
+                    
+                    # Ottieni il peso del criterio (default 10 se non specificato)
+                    weight = criteria_weights.get(criteria_id, 10)
+                    scores_logger.info(f"  {criteria_id} - peso: {weight}")
+                    
+                    # Aggiungi al punteggio pesato
+                    total_score += score * weight
+                    total_weight += weight
+                    
+                except (ValueError, TypeError) as e:
+                    st.warning(f"à&à Errore nel punteggio per {criteria_id}")
+                    scores_logger.error(f"Errore nella conversione del punteggio per {criteria_id}: {str(e)}")
+                    scores_logger.error(f"Valore problematico: {evaluation_result[criteria_id].get('score')}")
+        
+        # Calcola la media pesata (default 50 se non ci sono criteri validi)
+        composite_score = int(total_score / max(1, total_weight)) if total_weight > 0 else 50
+        scores_logger.info(f"Punteggio composito ricalcolato: {composite_score} (media pesata con peso totale {total_weight})")
+        
+        # Confronto con il punteggio composito originale
+        original_composite = evaluation_result.get("composite_score", None)
+        scores_logger.info(f"Punteggio composito originale: {original_composite}")
+        
+        return {
+            "extraction": extraction_result,
+            "criteria": evaluation_result,
+            "composite_score": composite_score
+        }
+    except Exception as e:
+        st.error(f"Errore durante l'analisi con Ollama: {str(e)}")
+        import traceback
+        st.error(traceback.format_exc())
+        return None
+
+def create_download_link(df):
+    """Crea un link per scaricare un DataFrame come file Excel."""
+    output = io.BytesIO()
+    with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+        df.to_excel(writer, sheet_name='Risultati', index=False)
+        writer.sheets['Risultati'].set_column('A:Z', 20)  # Imposta larghezza colonne
+    
+    # Prendi i dati binari dal BytesIO
+    processed_data = output.getvalue()
+    
+    return processed_data
+
+def normalize_dataframe(df):
+    """Normalizza i tipi di dati nel DataFrame per evitare errori di visualizzazione"""
+    # Setup del logger per i punteggi
+    scores_logger = logging.getLogger("SCORES_DEBUG")
+    scores_logger.info(f"{'='*20} INIZIO NORMALIZZAZIONE DATAFRAME {'='*20}")
+    
+    df_normalized = df.copy()
+    
+    # Log delle colonne
+    scores_logger.info(f"Colonne nel DataFrame originale: {df.columns.tolist()}")
+    
+    # Colonne di punteggio che possiamo identificare
+    score_columns = ["Punteggio_composito"]
+    criteria_to_use = st.session_state.evaluation_criteria if 'evaluation_criteria' in st.session_state else EVALUATION_CRITERIA
+    for _, criteria_label in criteria_to_use:
+        score_columns.append(criteria_label)
+    
+    # Log dei valori nei punteggi prima della normalizzazione
+    for col in score_columns:
+        if col in df.columns:
+            scores_logger.info(f"Valori originali per {col}: {df[col].tolist()}")
+            scores_logger.info(f"Tipi per {col}: {df[col].apply(type).value_counts().to_dict()}")
+    
+    # Conversione di liste in stringhe per tutte le colonne
+    for col in df_normalized.columns:
+        # Se è una colonna di punteggio, annota più dettagli
+        is_score_column = col in score_columns
+        
+        if is_score_column:
+            scores_logger.info(f"Normalizzazione colonna di punteggio: {col}")
+            
+            # Memorizza i valori prima della normalizzazione
+            before_values = df_normalized[col].tolist() 
+            
+            # Funzione di conversione sicura per qualsiasi tipo di dato
+            def safe_convert(x):
+                if isinstance(x, list):
+                    return ", ".join(str(item) for item in x)
+                elif x is None:
+                    return ""
+                else:
+                    return str(x)
+            
+            df_normalized[col] = df_normalized[col].apply(safe_convert)
+            
+            # Memorizza i valori dopo la normalizzazione
+            after_values = df_normalized[col].tolist()
+            
+            # Log delle trasformazioni
+            for i, (before, after) in enumerate(zip(before_values, after_values)):
+                if str(before) != after:
+                    scores_logger.warning(f"Cambiamento in {col}[{i}]: '{before}' -> '{after}'")
+        else:
+            # Colonne normali
+            df_normalized[col] = df_normalized[col].apply(safe_convert)
+    
+    # Gestione specifica per "Anni di esperienza lavorativa"
+    if "Anni di esperienza lavorativa" in df_normalized.columns:
+        df_normalized["Anni di esperienza lavorativa"] = df_normalized["Anni di esperienza lavorativa"].apply(
+            lambda x: str(x).replace("None", "")
+        )
+    
+    # Gestione specifica per "Competenze tecniche"
+    if "Competenze tecniche" in df_normalized.columns:
+        df_normalized["Competenze tecniche"] = df_normalized["Competenze tecniche"].apply(
+            lambda x: str(x).replace("None", "").replace("[", "").replace("]", "").replace("'", "")
+        )
+    
+    # Rimuovi caratteri problematici da tutte le stringhe
+    for col in df_normalized.columns:
+        if df_normalized[col].dtype == 'object':
+            df_normalized[col] = df_normalized[col].apply(
+                lambda x: str(x).replace("\n", " ").replace("\r", " ") if isinstance(x, str) else x
+            )
+    
+    # Log finale dei punteggi
+    scores_logger.info(f"{'='*20} PUNTEGGI DOPO NORMALIZZAZIONE {'='*20}")
+    for col in score_columns:
+        if col in df_normalized.columns:
+            scores_logger.info(f"Valori finali per {col}: {df_normalized[col].tolist()}")
+    
+    scores_logger.info(f"{'='*20} FINE NORMALIZZAZIONE DATAFRAME {'='*20}")
+    
+    return df_normalized
+
+def process_cvs(cv_dir, job_description, fields, progress_callback=None):
+    """Processa tutti i CV in una directory"""
+    # Log di inizio elaborazione
+    logger.info(f"Inizio elaborazione CV nella directory: {cv_dir}")
+    logger.info(f"Campi selezionati: {fields}")
+    
+    # Setup del logger per i punteggi
+    scores_logger = logging.getLogger("SCORES_DEBUG")
+    scores_logger.info(f"{'='*40} INIZIO ELABORAZIONE CV IN {cv_dir} {'='*40}")
+    
+    # Trova tutti i file PDF nella directory
+    pdf_files = []
+    for file in os.listdir(cv_dir):
+        if file.lower().endswith('.pdf'):
+            pdf_files.append(os.path.join(cv_dir, file))
+    
+    logger.info(f"Trovati {len(pdf_files)} file PDF nella directory")
+    
+    if not pdf_files:
+        logger.warning("Nessun file PDF trovato nella directory selezionata")
+        st.warning("Nessun file PDF trovato nella directory selezionata")
+        return [], pd.DataFrame()  # Restituisco risultati vuoti e un DataFrame vuoto
+    
+    # Applica il limite al numero di CV da analizzare
+    if len(pdf_files) > MAX_CV_TO_ANALYZE:
+        logger.info(f"Limitando l'analisi ai primi {MAX_CV_TO_ANALYZE} CV (su {len(pdf_files)} totali)")
+        st.info(f"Limitando l'analisi ai primi {MAX_CV_TO_ANALYZE} CV (su {len(pdf_files)} totali)")
+        pdf_files = pdf_files[:MAX_CV_TO_ANALYZE]
+    
+    # Determina quale modello stiamo usando (OpenAI o Ollama)
+    using_openai = not st.session_state.get("use_ollama", False)
+    logger.info(f"Utilizzo OpenAI: {using_openai}")
+    
+    # Assicurati che fields sia una lista valida
+    if fields is None:
+        # Campi predefiniti che puoi prendere da CV_FIELDS
+        fields = st.session_state.fields if 'fields' in st.session_state else CV_FIELDS     
+        logger.warning("Campi non specificati, utilizzo dei campi selezionati dall'utente")
+        st.warning("Campi non specificati, utilizzo dei campi selezionati dall'utente")
+
+    
+    # Debug info per verificare quale modello viene effettivamente usato
+    engine_type = "OpenAI" if using_openai else "Ollama"
+    if using_openai:
+        model_name = st.session_state.get('model', 'non impostato')
+        logger.info(f"Utilizzo {engine_type} - Modello: {model_name}")
+        st.info(f">àà Utilizzo {engine_type} - Modello: {model_name}")
+        if "api_key" not in st.session_state or not st.session_state.api_key:
+            logger.error("API key di OpenAI non impostata. L'analisi potrebbe fallire.")
+            st.error("L' API key di OpenAI non impostata. L'analisi potrebbe fallire.")
+    else:
+        model_name = st.session_state.get('ollama_model', 'non impostato')
+        logger.info(f"Utilizzo {engine_type} - Modello: {model_name}")
+        st.info(f">àà Utilizzo {engine_type} - Modello: {model_name}")
+        # Verifica che Ollama sia raggiungibile
+        try:
+            ollama_models = get_ollama_models()
+            if not ollama_models:
+                logger.warning("Ollama non sembra essere in esecuzi

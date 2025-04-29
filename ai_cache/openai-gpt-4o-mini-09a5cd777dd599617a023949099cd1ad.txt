@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"22\",\n    \"Anni di esperienza lavorativa\": \"6\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea Triennale in Culture e Pratiche della Moda\"\n}"

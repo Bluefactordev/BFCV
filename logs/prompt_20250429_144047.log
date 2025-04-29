@@ -1,0 +1,195 @@
+Data e ora: 2025-04-29 14:40:47
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nIT SKILLS\nLANGUAGES\nWORK EXPERIENCE\nSTUDIES\nCONTACT\nMilan, Italy\nstefano.foppiani01@gmail.com\n+39 3389193662\nMicrosoft Office Professional\nMac OSX Operating System\nGoogle analytics\nMeta Business Suite\nFanpage Karma\nAppNexus Console\nChamaleon.ad\nAdform\nApple Search ADS\nMarch 2018 - current\nInstal, Startupitalia | Milano\nSENIOR CAMPAIGN MANAGER\nManaging performance campaigns for direct clients and\naffiliates for months using Instal platform, Apple Search Ads,\nAdform etc. \nMy goal is to reach campaign KPIs (lead, sales etc.) and\nsupport client needs for the technical side as well as assist\nthe commercial team in sharing marketing reports. \nItalian - Native\nEnglish - B2+\nC a m p a i g n  M a n a g e r\nStefano\nFoppiani\nSenior Campaign Manager for Instal.com, an international\nmobile marketing platform, part of StartupItalia group.\nI manage performance campaigns for direct clients, media\ncentres and affiliates using different technologies. My goal\nis to close deals with the affiliate and support the\ncommercial team to build customer loyalty.\nSept 2017 - Feb 2018\nBlogo | Milano\nWEB TRAFFICKER\nMonitoring and optimizing performance marketing\ncampaigns, collaborating with the commercial team to foster\ncustomer relationships and loyalty. Multichannel campaign\nmanagement and KPIs control.\nAug 2016 - Aug 2017\nOfficina Bio-farmaceutica Mastelli | Sanremo\nMARKETING Intern\nAssisting the marketing manager, I contribute to different\nactivities, focusing on: social media, market research,\nproduct marketing, performance campaigns, to more\ncomplex marketing strategies. \nMaster's Degree in marketing and digital communications\nDigital Advertising, SEO, Web analysis, Social Media\nManagement, Data Science, Content Management.\n24 ORE Business School. Milano\nBachelor's degree in Economic management.\nMarketing, Corporate Communication, Business\nManagement, Banking and Finance.\nUniversity of Pavia. Pavia\nLinkedIn Profile\nI authorise the processing of my personal data\npursuant to Legislative Decree 196/03\n\n\n---Estrazione OCR---\n; Stefano\n- e e\n, a : Campaign Manager\n| . 4 | Senior Campaign Manager for Instal.com, an international\n. : mobile marketing platform, part of Startupltalia group.\n| manage performance campaigns for direct clients, media\ncentres and affiliates using different technologies. My goal\nis to close deals with the affiliate and support the\ncommercial team to build customer loyalty.\nWORK EXPERIENCE 2J—_\n+39 3389193662 SENIOR CAMPAIGN MANAGER March 2018 - current\nInstal, Startupitalia | Milano\n| stefano.foppiani0l@gmail.com Managing performance campaigns for direct clients and\naffiliates for months using Instal platform, Apple Search Ads,\nMilan, Italy Adform etc.\nMy goal is to reach campaign KPIs (lead, sales etc.) and\nin| LinkedIn Profile support client needs for the technical side as well as assist\nthe commercial team in sharing marketing reports.\nWEB TRAFFICKER Sept 2017 - Feb 2018\nBlogo | Milano\nMonitoring and optimizing performance marketing\nMicrosoft Office Professional campaigns, collaborating with the commercial team to foster\nMac OSX Operating System customer relationships and loyalty. Multichannel campaign\nmanagement and KPIs control.\nGoogle analytics\nMeta Business Suite MARKETING Intern Aug 2016 - Aug 2017\nOfficina Bio-farmaceutica Mastelli | Sanremo\nFanpage Karma a. . . .\nAssisting the marketing manager, | contribute to different\nAppNexus Console activities, focusing on: social media, market research,\nChamaleon.ad product marketing, performance campaigns, to more\nAdform complex marketing strategies.\nApple Search ADS STUDIES\n24 ORE Business School. Milano\nMaster's Degree in marketing and digital communications\nDigital Advertising, SEO, Web analysis, Social Media\n* Italian - Native Management, Data Science, Content Management.\n* English - B2+ University of Pavia. Pavia\nBachelor's degree in Economic management.\nMarketing, Corporate Communication, Business\n! authorise the processing of my personal data Management Banking and Finance\npursuant to Legislative Decree 196/03 , :\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+IT SKILLS
+LANGUAGES
+WORK EXPERIENCE
+STUDIES
+CONTACT
+Milan, Italy
+stefano.foppiani01@gmail.com
++39 3389193662
+Microsoft Office Professional
+Mac OSX Operating System
+Google analytics
+Meta Business Suite
+Fanpage Karma
+AppNexus Console
+Chamaleon.ad
+Adform
+Apple Search ADS
+March 2018 - current
+Instal, Startupitalia | Milano
+SENIOR CAMPAIGN MANAGER
+Managing performance campaigns for direct clients and
+affiliates for months using Instal platform, Apple Search Ads,
+Adform etc. 
+My goal is to reach campaign KPIs (lead, sales etc.) and
+support client needs for the technical side as well as assist
+the commercial team in sharing marketing reports. 
+Italian - Native
+English - B2+
+C a m p a i g n  M a n a g e r
+Stefano
+Foppiani
+Senior Campaign Manager for Instal.com, an international
+mobile marketing platform, part of StartupItalia group.
+I manage performance campaigns for direct clients, media
+centres and affiliates using different technologies. My goal
+is to close deals with the affiliate and support the
+commercial team to build customer loyalty.
+Sept 2017 - Feb 2018
+Blogo | Milano
+WEB TRAFFICKER
+Monitoring and optimizing performance marketing
+campaigns, collaborating with the commercial team to foster
+customer relationships and loyalty. Multichannel campaign
+management and KPIs control.
+Aug 2016 - Aug 2017
+Officina Bio-farmaceutica Mastelli | Sanremo
+MARKETING Intern
+Assisting the marketing manager, I contribute to different
+activities, focusing on: social media, market research,
+product marketing, performance campaigns, to more
+complex marketing strategies. 
+Master's Degree in marketing and digital communications
+Digital Advertising, SEO, Web analysis, Social Media
+Management, Data Science, Content Management.
+24 ORE Business School. Milano
+Bachelor's degree in Economic management.
+Marketing, Corporate Communication, Business
+Management, Banking and Finance.
+University of Pavia. Pavia
+LinkedIn Profile
+I authorise the processing of my personal data
+pursuant to Legislative Decree 196/03
+
+
+---Estrazione OCR---
+; Stefano
+- e e
+, a : Campaign Manager
+| . 4 | Senior Campaign Manager for Instal.com, an international
+. : mobile marketing platform, part of Startupltalia group.
+| manage performance campaigns for direct clients, media
+centres and affiliates using different technologies. My goal
+is to close deals with the affiliate and support the
+commercial team to build customer loyalty.
+WORK EXPERIENCE 2J—_
++39 3389193662 SENIOR CAMPAIGN MANAGER March 2018 - current
+Instal, Startupitalia | Milano
+| stefano.foppiani0l@gmail.com Managing performance campaigns for direct clients and
+affiliates for months using Instal platform, Apple Search Ads,
+Milan, Italy Adform etc.
+My goal is to reach campaign KPIs (lead, sales etc.) and
+in| LinkedIn Profile support client needs for the technical side as well as assist
+the commercial team in sharing marketing reports.
+WEB TRAFFICKER Sept 2017 - Feb 2018
+Blogo | Milano
+Monitoring and optimizing performance marketing
+Microsoft Office Professional campaigns, collaborating with the commercial team to foster
+Mac OSX Operating System customer relationships and loyalty. Multichannel campaign
+management and KPIs control.
+Google analytics
+Meta Business Suite MARKETING Intern Aug 2016 - Aug 2017
+Officina Bio-farmaceutica Mastelli | Sanremo
+Fanpage Karma a. . . .
+Assisting the marketing manager, | contribute to different
+AppNexus Console activities, focusing on: social media, market research,
+Chamaleon.ad product marketing, performance campaigns, to more
+Adform complex marketing strategies.
+Apple Search ADS STUDIES
+24 ORE Business School. Milano
+Master's Degree in marketing and digital communications
+Digital Advertising, SEO, Web analysis, Social Media
+* Italian - Native Management, Data Science, Content Management.
+* English - B2+ University of Pavia. Pavia
+Bachelor's degree in Economic management.
+Marketing, Corporate Communication, Business
+! authorise the processing of my personal data Management Banking and Finance
+pursuant to Legislative Decree 196/03 , :
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**Stefano Foppiani**  
+Milan, Italy  
+stefano.foppiani01@gmail.com  
++39 3389193662  
+[LinkedIn Profile](#)
+
+---
+
+**IT SKILLS**  
+- Microsoft Office Professional  
+- Mac OSX Operating System  
+- Google Analytics  
+- Meta Business Suite  
+- Fanpage Karma  
+- AppNexus Console  
+- Chamaleon.ad  
+- Adform  
+- Apple Search Ads  
+
+---
+
+**WORK EXPERIENCE**  
+
+**Senior Campaign Manager**  
+Instal, Startupitalia | Milano  
+March 2018 - current  
+- Managing performance campaigns for direct clients and affiliates using Instal platform, Apple Search Ads, Adform, etc.  
+- My goal is to reach campaign KPIs (lead, sales, etc.) and support client needs for the technical side as well as assist the commercial team in sharing marketing reports.  
+
+**Web Trafficker**  
+Blogo | Milano  
+Sept 2017 - Feb 2018  
+- Monitoring and optimizing performance marketing campaigns, collaborating with the commercial team to foster customer relationships and loyalty.  
+- Multichannel campaign management and KPIs control.  
+
+**Marketing Intern**  
+Officina Bio-farmaceutica Mastelli | Sanremo  
+Aug 2016 - Aug 2017  
+- Assisting the marketing manager, contributing to different activities, focusing on social media, market research, product marketing, performance campaigns, and more complex marketing strategies.  
+
+---
+
+**STUDIES**  
+
+**Master's Degree in Marketing and Digital Communications**  
+24 ORE Business School | Milano  
+- Digital Advertising, SEO, Web Analysis, Social Media Management, Data Science, Content Management.  
+
+**Bachelor's Degree in Economic Management**  
+University of Pavia | Pavia  
+- Marketing, Corporate Communication, Business Management, Banking and Finance.  
+
+---
+
+**LANGUAGES**  
+- Italian - Native  
+- English - B2+  
+
+---
+
+I authorise the processing of my personal data pursuant to Legislative Decree 196/03.

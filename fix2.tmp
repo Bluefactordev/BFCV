@@ -1,0 +1,11 @@
+            except (ValueError, TypeError) as e:
+                st.warning(f"Errore nel punteggio per {criteria_id}")
+                scores_logger.error(f"Errore nella conversione del punteggio per {criteria_id}: {str(e)}")
+                try:
+                    if criteria_id in criteria_data:
+                        problematic_value = str(criteria_data[criteria_id])
+                    else:
+                        problematic_value = "criterio non trovato"
+                    scores_logger.error(f"Valore problematico: {problematic_value}")
+                except Exception as inner_e:
+                    scores_logger.error(f"Errore nel log del valore problematico: {str(inner_e)}") 

@@ -1,0 +1,7 @@
+[
+  "Competenze in gestione dei social media",
+  "Esperienza nella creazione di campagne PPC",
+  "Portfolio di progetti precedenti",
+  "Certificazioni in marketing digitale",
+  "Esperienza di lavoro in team multidisciplinari"
+]

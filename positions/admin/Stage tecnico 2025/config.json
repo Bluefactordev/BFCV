@@ -1,0 +1,43 @@
+{
+  "name": "Stage tecnico 2025",
+  "description": "",
+  "created_at": "2025-03-14T15:50:01.376952",
+  "updated_at": "2025-03-14T15:50:01.399883",
+  "job_descriptions": [
+    {
+      "name": "Default",
+      "content": "Account Manager di agenzia di digital marketing. \nSi preferisce un candidato che:\n- Abbia esperienza in agenzia di pubblicit\u00e0 o di digital marketing. \n- Abbia una predisposizione o esperienza nella generazione di new business o come commerciale di agenzie di digital marketing\n- Abbia gi\u00e0 un qualche legame con la citt\u00e0 di lavoro, cio\u00e8 Firenze, ovvero o abiti vicino, o ci abbia almeno studiato o lavorato, e quindi possa volerci tornare\n- Possibilmente sotto i 30 anni. \n- Preferibilmente con un master in marketing o comunicazione.\n\nCompiti: \n- Gestione e sviluppo dei rapporti con i clienti\n- Pianificazione e gestione di progetti digitali\n- Analisi delle performance delle campagne\n- Preparazione di presentazioni e reportistica\n- Sviluppo di strategie di content marketing\n- Ricerca di nuove opportunit\u00e0 di business\n- Presentazione dell'agenzia ai clienti\n",
+      "created_at": "2025-03-14T15:50:01.385491",
+      "updated_at": "2025-03-14T15:50:01.385491"
+    }
+  ],
+  "field_sets": [
+    {
+      "name": "Default",
+      "fields": [
+        "Nome",
+        "Cognome",
+        "Numero di contatto",
+        "Email",
+        "Et\u00e0",
+        "Citt\u00e0 di residenza",
+        "Citt\u00e0 di origine",
+        "Anni di esperienza lavorativa",
+        "Anni di esperienza lavorativa nel ruolo richiesto",
+        "Master o assimilabile nel ruolo richiesto",
+        "Formazione pi\u00f9 alta",
+        "Universit\u00e0/Istituto",
+        "Posizione attuale",
+        "Datori di lavoro precedenti",
+        "Lingue conosciute",
+        "Legame con Firenze",
+        "Soft skills",
+        "Lingue straniere"
+      ],
+      "created_at": "2025-03-14T15:50:01.399883",
+      "updated_at": "2025-03-14T15:50:01.399883"
+    }
+  ],
+  "current_job_description": "Default",
+  "current_field_set": "Default"
+}

@@ -1,0 +1,22 @@
+2025-03-27 11:47:55,673 - INFO - bfcv_007.py:2977 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-03-27 11:47:55,674 - INFO - bfcv_007.py:2978 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-27 11:47:55,674 - INFO - bfcv_007.py:2979 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-27 11:47:55,675 - INFO - bfcv_007.py:2980 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-03-27 11:47:55,675 - INFO - bfcv_007.py:2981 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-03-27 11:47:55,685 - INFO - bfcv_007.py:3357 - main - Mantenuto st.session_state.fields esistente con 18 campi
+2025-03-27 11:47:55,685 - INFO - bfcv_007.py:3363 - main - Mantenuto st.session_state.available_fields esistente con 18 campi
+2025-03-27 11:47:55,686 - INFO - bfcv_007.py:3374 - main - Mantenuto st.session_state.selected_fields esistente con 18 campi
+2025-03-27 11:47:55,777 - INFO - bfcv_007.py:3891 - main - Avvio analisi dei CV con process_cvs
+2025-03-27 11:47:55,777 - INFO - bfcv_007.py:2534 - process_cvs - Inizio elaborazione CV nella directory: D:\Progetti\BFCV\CVS\Stage2025
+2025-03-27 11:47:55,779 - INFO - bfcv_007.py:2535 - process_cvs - Campi selezionati: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Lingue conosciute', 'Legame con Firenze', 'Soft skills', 'Lingue straniere']
+2025-03-27 11:47:55,781 - INFO - bfcv_007.py:2547 - process_cvs - Trovati 172 file PDF nella directory
+2025-03-27 11:47:55,782 - INFO - bfcv_007.py:2562 - process_cvs - Utilizzo OpenAI: True
+2025-03-27 11:47:55,782 - INFO - bfcv_007.py:2576 - process_cvs - Utilizzo OpenAI - Modello: deepseek/deepseek-chat-v3-0324:free
+2025-03-27 11:47:55,784 - ERROR - bfcv_007.py:2579 - process_cvs - API key di OpenAI non impostata. L'analisi potrebbe fallire.
+2025-03-27 11:47:55,785 - INFO - bfcv_007.py:2597 - process_cvs - Inizio analisi di 172 file PDF
+2025-03-27 11:47:55,786 - INFO - bfcv_007.py:2601 - process_cvs - [1/172] Analisi di (Ita) Alessandro Anceschi - CV.pdf...
+2025-03-27 11:47:55,786 - INFO - bfcv_007.py:2611 - process_cvs - Estrazione testo da (Ita) Alessandro Anceschi - CV.pdf
+2025-03-27 11:47:56,612 - DEBUG - bfcv_007.py:2613 - process_cvs - Lunghezza testo diretto: 1402, testo OCR: 1737
+2025-03-27 11:47:56,613 - INFO - bfcv_007.py:2618 - process_cvs - Combinazione testi con OpenAI per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-27 11:47:56,613 - DEBUG - bfcv_007.py:1052 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\openai-deepseek/deepseek-chat-v3-0324:free-917cfa3ebae6752a8eef68c327ed1ddc.txt
+2025-03-27 11:47:56,614 - INFO - bfcv_007.py:1089 - get_cached_response - Nessuna cache trovata per openai-deepseek/deepseek-chat-v3-0324:free con hash 917cfa3ebae6752a8eef68c327ed1ddc

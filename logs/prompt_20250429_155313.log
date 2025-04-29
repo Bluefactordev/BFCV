@@ -1,0 +1,182 @@
+Data e ora: 2025-04-29 15:53:13
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nLingue\nmatteo.cantelli89@gmail.com\n3339579317\nVia Maragliano 11\nFirenze\nPR\nInglese, Spagnolo\nGrafico\nDaniele Palladini\namministra\ntore di 111 sas\ndaniele.palladini@me.com\nDa 15 anni organizzo\neventi a Firenze.\nEsperienze professionali\nPianificazione calendario\nCollaborazioni\nSono un Event Manager con una grande passione e conoscenza della scena culturale fiorentina.\nDa 15 anni organizzo eventi a Firenze.\nDIRETTORE\nARTISTICO\nOrganizzazione Eventi\nPartnership\nPR\nDJ\nGrafico\nSocial Media Manager\nTOUR LEADER\nWeRoad\nMolo Firenze\n2019-2024\nPianificazione calendario\nCollaborazioni\nDirezione Artistica\nReport\nMatteo\nCantelli\nWeRoad\n2018-2024\nGestione gruppo\nPianificazion\ne Itinerario\nLeadership\nGestione rapporto con i partner\nCopywriting\nAgenzia Ergonauth\n2022-2024\nGestione acc\nount\nCopywriting\nStrategia\nCampagne ADS\nDJ\n2010-2024\nDa oltre 15 anni attivo nella scena toscana come Dj\nDaniele Palladini\namministratore di 111 sas\nLaurea triennale | Giugno 2011 - giugno 2015\n\n\n---Estrazione OCR---\n\\ we antelll\nry P|\n=| 4 EVENT MANAGER / PR\n|= i ty fhe . e\nys SA Panoramica Competenze\nA ” : .\n“#i . F “i 4 Me Pi generale e Organizzazione Eventi\nPrt: Fst pe, TOF BA Bene , ¢« Partnership\ni at “TRIN if Sono un Event Manager con . PR\nes a .. ¥ a = una grande passione e ° DJ\n4 : var ar Age\n~ Sf a y ae a conoscenza della scena © Grafico\nwy ~ id 7 ‘ culturale fiorentina. * Social Media Manager\n' , i Da 15 anni organizzo\neventi a Firenze.\n5 6 -\n: e f e li\nj | Esperienze professionali\nDIRETTORE e Pianificazione calendario\nARTISTICO * Collaborazioni\nMolo Firenze e Direzione Artistica\n7 2019-2024 * Report\nContatti\nmatteo.cantelli89agmail.com\n3339579317 TOUR LEADER ~ « Gestione gruppo\nVia Maragliano 411 WeBoad e Pianificazione Itinerario\nFirenze 2018-2024 * Leadership\ne Gestione rapporto con i partner\n° SOCIAL MEDIA « Gestione account\nLingue MANAGER * Copywriting\n; « Strategia\nInglese, Spagnolo Agenzta Ergonauth\n2022-2024 ¢ Campagne ADS\nDJ e Da oltre 15 anni attivo nella\nRerefenze 2010-2024 scena toscana come Dj\nDaniele Palladini\namministratore di 111 sas\ndaniele.palladiniame.com F ° ° °\normazione e istruzione\nUNIVERSITA DI = Laurea triennale in Scienze\nFIRENZE Umanistiche per la Comunicazione.\nLaurea triennale |\nGiugno 20441 -\ngiugno 20415\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Lingue
+matteo.cantelli89@gmail.com
+3339579317
+Via Maragliano 11
+Firenze
+PR
+Inglese, Spagnolo
+Grafico
+Daniele Palladini
+amministra
+tore di 111 sas
+daniele.palladini@me.com
+Da 15 anni organizzo
+eventi a Firenze.
+Esperienze professionali
+Pianificazione calendario
+Collaborazioni
+Sono un Event Manager con una grande passione e conoscenza della scena culturale fiorentina.
+Da 15 anni organizzo eventi a Firenze.
+DIRETTORE
+ARTISTICO
+Organizzazione Eventi
+Partnership
+PR
+DJ
+Grafico
+Social Media Manager
+TOUR LEADER
+WeRoad
+Molo Firenze
+2019-2024
+Pianificazione calendario
+Collaborazioni
+Direzione Artistica
+Report
+Matteo
+Cantelli
+WeRoad
+2018-2024
+Gestione gruppo
+Pianificazion
+e Itinerario
+Leadership
+Gestione rapporto con i partner
+Copywriting
+Agenzia Ergonauth
+2022-2024
+Gestione acc
+ount
+Copywriting
+Strategia
+Campagne ADS
+DJ
+2010-2024
+Da oltre 15 anni attivo nella scena toscana come Dj
+Daniele Palladini
+amministratore di 111 sas
+Laurea triennale | Giugno 2011 - giugno 2015
+
+
+---Estrazione OCR---
+\ we antelll
+ry P|
+=| 4 EVENT MANAGER / PR
+|= i ty fhe . e
+ys SA Panoramica Competenze
+A ” : .
+“#i . F “i 4 Me Pi generale e Organizzazione Eventi
+Prt: Fst pe, TOF BA Bene , ¢« Partnership
+i at “TRIN if Sono un Event Manager con . PR
+es a .. ¥ a = una grande passione e ° DJ
+4 : var ar Age
+~ Sf a y ae a conoscenza della scena © Grafico
+wy ~ id 7 ‘ culturale fiorentina. * Social Media Manager
+' , i Da 15 anni organizzo
+eventi a Firenze.
+5 6 -
+: e f e li
+j | Esperienze professionali
+DIRETTORE e Pianificazione calendario
+ARTISTICO * Collaborazioni
+Molo Firenze e Direzione Artistica
+7 2019-2024 * Report
+Contatti
+matteo.cantelli89agmail.com
+3339579317 TOUR LEADER ~ « Gestione gruppo
+Via Maragliano 411 WeBoad e Pianificazione Itinerario
+Firenze 2018-2024 * Leadership
+e Gestione rapporto con i partner
+° SOCIAL MEDIA « Gestione account
+Lingue MANAGER * Copywriting
+; « Strategia
+Inglese, Spagnolo Agenzta Ergonauth
+2022-2024 ¢ Campagne ADS
+DJ e Da oltre 15 anni attivo nella
+Rerefenze 2010-2024 scena toscana come Dj
+Daniele Palladini
+amministratore di 111 sas
+daniele.palladiniame.com F ° ° °
+ormazione e istruzione
+UNIVERSITA DI = Laurea triennale in Scienze
+FIRENZE Umanistiche per la Comunicazione.
+Laurea triennale |
+Giugno 20441 -
+giugno 20415
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**Matteo Cantelli**  
+Email: matteo.cantelli89@gmail.com  
+Telefono: 3339579317  
+Indirizzo: Via Maragliano 11, Firenze, PR  
+
+**Lingue**  
+Inglese, Spagnolo  
+
+**Profilo Professionale**  
+Sono un Event Manager con una grande passione e conoscenza della scena culturale fiorentina. Da 15 anni organizzo eventi a Firenze.
+
+**Esperienze Professionali**  
+
+**DIRETTORE ARTISTICO**  
+Molo Firenze  
+2019-2024  
+- Pianificazione calendario  
+- Collaborazioni  
+- Direzione Artistica  
+- Report  
+
+**TOUR LEADER**  
+WeRoad  
+2018-2024  
+- Gestione gruppo  
+- Pianificazione Itinerario  
+- Leadership  
+- Gestione rapporto con i partner  
+
+**SOCIAL MEDIA MANAGER**  
+Agenzia Ergonauth  
+2022-2024  
+- Gestione account  
+- Copywriting  
+- Strategia  
+- Campagne ADS  
+
+**DJ**  
+2010-2024  
+- Da oltre 15 anni attivo nella scena toscana come DJ  
+
+**Formazione**  
+Laurea triennale in Scienze Umanistiche per la Comunicazione  
+Università di Firenze  
+Giugno 2011 - Giugno 2015  
+
+**Contatti**  
+Daniele Palladini  
+Amministratore di 111 sas  
+Email: daniele.palladini@me.com  

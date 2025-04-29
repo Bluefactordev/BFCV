@@ -1,0 +1,6 @@
+2025-03-26 11:43:00,954 - INFO - bfcv_007.py:2717 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-03-26 11:43:00,955 - INFO - bfcv_007.py:2718 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-26 11:43:00,956 - INFO - bfcv_007.py:2719 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-26 11:43:00,957 - INFO - bfcv_007.py:2720 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-03-26 11:43:00,958 - INFO - bfcv_007.py:2721 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-03-26 11:43:03,081 - WARNING - bfcv_007.py:4257 - main - Nessun risultato trovato in session_state

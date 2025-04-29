@@ -1,0 +1,22 @@
+2025-03-25 19:57:17,587 - INFO - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-03-25 19:57:17,588 - INFO - Inizializzato logger di debug per i punteggi
+2025-03-25 19:57:17,698 - INFO - ======================================== INIZIO ELABORAZIONE CV IN D:\Progetti\BFCV\CVS\Stage2025 ========================================
+2025-03-25 19:57:31,335 - INFO - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-25 20:00:41,249 - INFO - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-25 20:01:43,730 - INFO - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-25 20:03:30,987 - INFO - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-25 20:06:15,880 - INFO - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-25 20:06:22,403 - INFO - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-03-25 20:06:22,403 - INFO - Punteggio composito ricalcolato: 50 (media pesata con peso totale 0)
+2025-03-25 20:06:22,404 - INFO - Punteggio composito originale: None
+2025-03-25 20:06:22,406 - INFO - Processando risultato per file: Ajlin Sinani Curriculum Vitae.pdf
+2025-03-25 20:06:22,407 - INFO - Punteggio composito grezzo: 50 (tipo: <class 'int'>)
+2025-03-25 20:06:22,407 - INFO - Punteggio composito convertito: 50
+2025-03-25 20:06:22,408 - INFO - Riga DataFrame completa per Ajlin Sinani Curriculum Vitae.pdf: {'Filename': 'Ajlin Sinani Curriculum Vitae.pdf', 'Nome': 'Non specificato', 'Cognome': 'Non specificato', 'Numero di contatto': 'Non specificato', 'Email': 'Non specificato', 'Età': 'Non specificato', 'Città di residenza': 'Non specificato', 'Città di origine': 'Non specificato', 'Anni di esperienza lavorativa': 'Non specificato', 'Anni di esperienza lavorativa nel ruolo richiesto': 'Non specificato', 'Master o assimilabile nel ruolo richiesto': 'Non specificato', 'Università/Istituto': 'Non specificato', 'Posizione attuale': 'Non specificato', 'Datori di lavoro precedenti': 'Non specificato', 'Legame con Firenze': 'Non specificato', 'Soft skills': 'Non specificato', 'Competenze in linguaggi di programmazione (es. Python, JavaScript)': 'Non specificato', 'Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)': 'Non specificato', 'Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)': 'Non specificato', "Progetti personali o accademici relativi all'AI o al marketing digitale": 'Non specificato', 'Conoscenza di pratiche SEO e SEM': 'Non specificato', 'Punteggio_composito': 50}
+2025-03-25 20:06:22,412 - INFO - VALORI PUNTEGGI NEL DATAFRAME PRIMA DELLA NORMALIZZAZIONE:
+2025-03-25 20:06:22,414 - INFO - File: Ajlin Sinani Curriculum Vitae.pdf
+2025-03-25 20:06:22,414 - INFO -   Punteggio composito: 50 (tipo: <class 'int'>)
+2025-03-25 20:06:22,415 - INFO - ==================== INIZIO NORMALIZZAZIONE DATAFRAME ====================
+2025-03-25 20:06:22,416 - INFO - Colonne nel DataFrame originale: ['Filename', 'Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Anni di esperienza lavorativa nel ruolo richiesto', 'Master o assimilabile nel ruolo richiesto', 'Università/Istituto', 'Posizione attuale', 'Datori di lavoro precedenti', 'Legame con Firenze', 'Soft skills', 'Competenze in linguaggi di programmazione (es. Python, JavaScript)', 'Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)', 'Esperienza con strumenti di automazione di marketing (es. HubSpot, Mailchimp)', "Progetti personali o accademici relativi all'AI o al marketing digitale", 'Conoscenza di pratiche SEO e SEM', 'Punteggio_composito']
+2025-03-25 20:06:22,417 - INFO - Valori originali per Punteggio_composito: [50]
+2025-03-25 20:06:22,421 - INFO - Tipi per Punteggio_composito: {<class 'int'>: 1}

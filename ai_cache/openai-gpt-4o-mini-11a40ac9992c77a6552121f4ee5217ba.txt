@@ -1,0 +1,1 @@
+"{\n    \"Città di residenza\": \"Napoli\",\n    \"Città di origine\": \"Napoli\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea Magistrale in 'Lingue Europee e Americane'\",\n    \"Legame con Firenze\": \"Non specificato, ma potrebbe essere presente per motivi professionali.\"\n}"

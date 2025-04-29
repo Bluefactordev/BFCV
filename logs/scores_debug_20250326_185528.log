@@ -1,0 +1,639 @@
+2025-03-26 18:55:28,055 - INFO - bfcv_007.py:2966 - setup_scores_logger - ================ AVVIO DEBUGGING PUNTEGGI ================
+2025-03-26 18:55:28,056 - INFO - bfcv_007.py:2967 - setup_scores_logger - Inizializzato logger di debug per i punteggi
+2025-03-26 18:55:28,056 - INFO - bfcv_007.py:2968 - setup_scores_logger - Python version: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-26 18:55:28,056 - INFO - bfcv_007.py:2969 - setup_scores_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-26 18:55:28,056 - INFO - bfcv_007.py:2970 - setup_scores_logger - Log file: D:\Progetti\BFCV\logs\scores_debug_20250326_185528.log
+2025-03-26 18:55:28,056 - INFO - bfcv_007.py:2972 - setup_scores_logger - Modello OpenAI configurato: phi4:latest
+2025-03-26 18:55:28,057 - INFO - bfcv_007.py:2974 - setup_scores_logger - Modello Ollama configurato: phi4:latest
+2025-03-26 18:55:28,057 - INFO - bfcv_007.py:2976 - setup_scores_logger - Uso Ollama: True
+2025-03-26 18:55:28,057 - INFO - bfcv_007.py:2978 - setup_scores_logger - Cache abilitata: True
+2025-03-26 18:55:28,057 - INFO - bfcv_007.py:3240 - main - Inizializzato logger di debug per i punteggi
+2025-03-26 18:55:28,143 - INFO - bfcv_007.py:2451 - process_cvs - ======================================== INIZIO ELABORAZIONE CV IN D:\Progetti\BFCV\CVS\Stage2025 ========================================
+2025-03-26 18:55:31,025 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=917cfa3e...
+2025-03-26 18:55:31,025 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Esperienze
+Digital Support: Diadora (Stage Extracurriculare) | Supporto gestione ADS, Contenuti Social Media e Sito
+| 02/2024 -  08/2024 (Caerano di San Marco - Treviso)
+Social Media Support: Silicon Drinkabout Rome (Eventi di ...
+2025-03-26 18:55:31,586 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=917cfa3e...
+2025-03-26 18:55:31,586 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): **Alessandro Anceschi**  
+*Digital Marketing Specialist*
+
+---
+
+**Contatti:**  
+- **Telefono:** +39 3921956752  
+- **E-mail:** alessandro.anceschi.21@gmail.com  
+- **Città:** Roma, CAP 00142  
+
+**Esperienze:**
+
+1. **Digital Support - Diadora (Stage Extracurriculare):**  
+   - Supporto nella gestione ...
+2025-03-26 18:55:31,587 - INFO - bfcv_007.py:1940 - analyze_cv_ollama - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-26 18:55:31,588 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=7169c176...
+2025-03-26 18:55:31,588 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        **Alessandro Anceschi**  
+*Digital ...
+2025-03-26 18:55:31,591 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=7169c176...
+2025-03-26 18:55:31,591 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Nome": "Alessandro",
+    "Cognome": "Anceschi",
+    "Numero di contatto": "+39 3921956752",
+    "Email": "alessandro.anceschi.21@gmail.com",
+    "Età": "Non specificato", 	"Anno di nascita non fornito nel curriculum."
+    :"Città di residenza: ",
+    "Roma"
+    :"Città di origine: ",
+    "Non...
+2025-03-26 18:55:31,594 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=bf39fb86...
+2025-03-26 18:55:31,594 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Età
+2. Città di residenza
+3. Città di origine
+4. Anni di esperienza lavorativa
+5. Anni di esperienza lavorativa nel ruolo richiesto
+6. Master o assimilabile nel ruolo richiesto
+7. Università/Istituto
+8. Posizione attuale
+...
+2025-03-26 18:55:31,598 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=bf39fb86...
+2025-03-26 18:55:31,598 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Età": "Alessandro è nato nel 2003 (presumendo che il '21' nella sua email si riferisca al suo anno di nascita), quindi ha circa 21 anni.",
+    "Città di residenza": "Roma",
+    "Città di origine": "Non specificato, ma Pesaro è menzionata come luogo per le attività con Anffas Roma Onlus; presu...
+2025-03-26 18:55:31,903 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=84d5edef...
+2025-03-26 18:55:31,904 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Stage tecnico in programmazione web e ai e performance web marketing!
+            
+            CV:
+            **Alessandro Anceschi**  
+*Digit...
+2025-03-26 18:55:31,909 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=84d5edef...
+2025-03-26 18:55:31,909 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {
+            "score": 60,
+            "motivation": "Alessandro ha una buona comprensione delle pratiche di SEO e SEM grazie all'uso di strumenti come Screaming Frog, Semrush e Ubersuggest. Tuttavia, mancano competenze in programmazione PHP o Pytho...
+2025-03-26 18:55:31,910 - INFO - bfcv_007.py:2253 - analyze_cv_ollama - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-03-26 18:55:31,910 - INFO - bfcv_007.py:2264 - analyze_cv_ollama - Trovata struttura con campo 'criteria': ['competenze_tecniche', 'esperienza_rilevante', 'formazione', 'problem_solving', 'leadership'] ...
+2025-03-26 18:55:31,912 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'competenze_tecniche'
+2025-03-26 18:55:31,912 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'competenze_tecniche' trovato: {"score": 60, "motivation": "Alessandro ha una buona comprensione delle pratiche di SEO e SEM grazie all'uso di strumenti come Screaming Frog, Semrush e Ubersuggest. Tuttavia, mancano competenze in programmazione PHP o Python, che sono cruciali per alcune posizioni tecniche."}
+2025-03-26 18:55:31,912 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   competenze_tecniche - score grezzo: 60 - tipo: <class 'int'>
+2025-03-26 18:55:31,912 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   competenze_tecniche - peso: 25
+2025-03-26 18:55:31,913 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'esperienza_rilevante'
+2025-03-26 18:55:31,913 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'esperienza_rilevante' trovato: {"score": 65, "motivation": "Ha esperienza nel marketing digitale e nella gestione delle pagine social, che si allinea con le responsabilit\u00e0 di un Digital Marketing Specialist. L'assenza di esperienze specifiche legate a Firenze potrebbe limitare l'applicazione diretta in alcune aree geografiche."}
+2025-03-26 18:55:31,913 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   esperienza_rilevante - score grezzo: 65 - tipo: <class 'int'>
+2025-03-26 18:55:31,913 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   esperienza_rilevante - peso: 25
+2025-03-26 18:55:31,914 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'formazione'
+2025-03-26 18:55:31,914 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'formazione' trovato: {"score": 70, "motivation": "La formazione include una laurea triennale in Comunicazione e un Master I livello in Marketing Management, che sono rilevanti. Un corso di digital marketing aggiuntivo da Start 2 Impact potenzia ulteriormente la sua preparazione."}
+2025-03-26 18:55:31,914 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   formazione - score grezzo: 70 - tipo: <class 'int'>
+2025-03-26 18:55:31,914 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   formazione - peso: 15
+2025-03-26 18:55:31,915 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'problem_solving'
+2025-03-26 18:55:31,915 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'problem_solving' trovato: {"score": 55, "motivation": "Le esperienze riportate suggeriscono una capacit\u00e0 di affrontare problemi, specialmente nel marketing digitale e nella gestione dei social media. Tuttavia, non ci sono progetti specifici o risultati quantificabili che evidenziano abilit\u00e0 avanzate di risoluzione dei problemi."}
+2025-03-26 18:55:31,915 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   problem_solving - score grezzo: 55 - tipo: <class 'int'>
+2025-03-26 18:55:31,915 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   problem_solving - peso: 15
+2025-03-26 18:55:31,915 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'leadership'
+2025-03-26 18:55:31,916 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'leadership' trovato: {"score": 50, "motivation": "Alessandro ha partecipato a eventi e conferenze, suggerendo una certa capacit\u00e0 di leadership. Tuttavia, non ci sono menzioni di ruoli formali come capo progetto o leadership in team."}
+2025-03-26 18:55:31,916 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   leadership - score grezzo: 50 - tipo: <class 'int'>
+2025-03-26 18:55:31,916 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   leadership - peso: 10
+2025-03-26 18:55:31,916 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'potenziale_crescita'
+2025-03-26 18:55:31,916 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'potenziale_crescita' trovato: {"score": 75, "motivation": "La sua giovane et\u00e0 e la volont\u00e0 di partecipare a corsi e stage suggeriscono un forte potenziale per crescere. La curiosit\u00e0 dimostrata verso nuove tecnologie e tendenze \u00e8 promettente."}
+2025-03-26 18:55:31,917 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   potenziale_crescita - score grezzo: 75 - tipo: <class 'int'>
+2025-03-26 18:55:31,917 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   potenziale_crescita - peso: 10
+2025-03-26 18:55:31,917 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'programmazione_php_o_python'
+2025-03-26 18:55:31,917 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'programmazione_php_o_python' trovato: {"score": 0, "motivation": "Non ci sono prove di esperienza o competenza in programmazione PHP o Python, che sono fondamentali per alcune posizioni tecniche nel marketing digitale."}
+2025-03-26 18:55:31,917 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   programmazione_php_o_python - score grezzo: 0 - tipo: <class 'int'>
+2025-03-26 18:55:31,918 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   programmazione_php_o_python - peso: 20
+2025-03-26 18:55:31,918 - INFO - bfcv_007.py:2329 - analyze_cv_ollama - Punteggio composito calcolato: 52 (= 6250.0 / 120)
+2025-03-26 18:55:31,918 - INFO - bfcv_007.py:2335 - analyze_cv_ollama - Punteggio composito ricalcolato: 52 (media pesata con peso totale 120)
+2025-03-26 18:55:31,918 - INFO - bfcv_007.py:2339 - analyze_cv_ollama - Punteggio composito originale: 53.5
+2025-03-26 18:55:34,008 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=1df81578...
+2025-03-26 18:55:34,009 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+RAFAEL PATRON
+Growth Hacker 
+Growth Hacker & 
+& AI Program Manager
+AI Program Manager
+Professionista con 16 anni di esperienza in Digital 
+Marketing, AI Program Manager, SEO/SEM, Marketing 
+Automation e CRM (Salesforce), specia...
+2025-03-26 18:55:34,015 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=1df81578...
+2025-03-26 18:55:34,016 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): **Cv Pulito: Rafael Patron**
+
+---
+
+**Contatti**
+- Email: rafael.patron@example.com
+- Cellulare: +39 123 456 789
+
+**Esperienza Professionale**
+
+1. **Growth Hacker & Web Marketing Manager**  
+   *Wyscout* | 2014 - 2017  
+   Implementazione di SEO, SEM e Growth Hacking per potenziare la visibilità onli...
+2025-03-26 18:55:34,016 - INFO - bfcv_007.py:1940 - analyze_cv_ollama - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-26 18:55:34,016 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=c3c9a95d...
+2025-03-26 18:55:34,016 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        **Cv Pulito: Rafael Patron**
+
+---
+
+...
+2025-03-26 18:55:34,019 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=c3c9a95d...
+2025-03-26 18:55:34,019 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Nome": "Rafael",
+    "Cognome": "Patron",
+    "Numero di contatto": "+39 123 456 789",
+    "Email": "rafael.patron@example.com",
+    "Età": "Non specificato",
+    "Città di residenza": "Non specificato",
+    "Città di origine": "Non specificato",
+    "Anni di esperienza lavorativa": 17,
+    "...
+2025-03-26 18:55:34,022 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=d6d713a9...
+2025-03-26 18:55:34,022 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Età
+2. Città di residenza
+3. Città di origine
+4. Posizione attuale
+5. Competenze in linguaggi di programmazione (es. Python, JavaScript)
+6. Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)
+7. Esp...
+2025-03-26 18:55:34,025 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=d6d713a9...
+2025-03-26 18:55:34,025 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): {
+    "Età": "Sulla base dell'ultima formazione completata nel 2014 e della pubblicazione prevista del libro per il 2024, è ragionevole stimare che Rafael abbia circa 40 anni.",
+    "Città di residenza": "Non specificato direttamente nel CV. Basandosi sulla presenza in aziende come Dedagroup a Milan...
+2025-03-26 18:55:34,028 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=50fbd2ed...
+2025-03-26 18:55:34,028 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Stage tecnico in programmazione web e ai e performance web marketing!
+            
+            CV:
+            **Cv Pulito: Rafael Patron**
+
+--...
+2025-03-26 18:55:34,031 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=50fbd2ed...
+2025-03-26 18:55:34,032 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {
+            "score": 80,
+            "motivation": "Rafael ha una forte competenza in strumenti di analisi web come Google Analytics e Semrush, oltre a certificazioni significative che dimostrano la sua abilità in SEO e SEM."
+        },
+        "e...
+2025-03-26 18:55:34,032 - INFO - bfcv_007.py:2253 - analyze_cv_ollama - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-03-26 18:55:34,032 - INFO - bfcv_007.py:2264 - analyze_cv_ollama - Trovata struttura con campo 'criteria': ['competenze_tecniche', 'esperienza_rilevante', 'formazione', 'problem_solving', 'leadership'] ...
+2025-03-26 18:55:34,034 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'competenze_tecniche'
+2025-03-26 18:55:34,034 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'competenze_tecniche' trovato: {"score": 80, "motivation": "Rafael ha una forte competenza in strumenti di analisi web come Google Analytics e Semrush, oltre a certificazioni significative che dimostrano la sua abilit\u00e0 in SEO e SEM."}
+2025-03-26 18:55:34,034 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   competenze_tecniche - score grezzo: 80 - tipo: <class 'int'>
+2025-03-26 18:55:34,034 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   competenze_tecniche - peso: 25
+2025-03-26 18:55:34,034 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'esperienza_rilevante'
+2025-03-26 18:55:34,034 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'esperienza_rilevante' trovato: {"score": 90, "motivation": "Rafael ha un'ampia esperienza nel marketing digitale e ruoli di consulenza SEO, con anni di lavoro rilevanti per il settore in aziende come Google ed Eurotraining."}
+2025-03-26 18:55:34,035 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   esperienza_rilevante - score grezzo: 90 - tipo: <class 'int'>
+2025-03-26 18:55:34,035 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   esperienza_rilevante - peso: 25
+2025-03-26 18:55:34,036 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'formazione'
+2025-03-26 18:55:34,036 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'formazione' trovato: {"score": 75, "motivation": "Ha completato formazioni pertinenti nel marketing e certificazioni nell'analisi web; la sua futura formazione a Harvard riguardante l'AI rafforzer\u00e0 ulteriormente le sue competenze."}
+2025-03-26 18:55:34,036 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   formazione - score grezzo: 75 - tipo: <class 'int'>
+2025-03-26 18:55:34,036 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   formazione - peso: 15
+2025-03-26 18:55:34,038 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'problem_solving'
+2025-03-26 18:55:34,038 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'problem_solving' trovato: {"score": 75, "motivation": "L'esperienza di Rafael in ruoli tecnici e strategici nel marketing digitale implica una solida capacit\u00e0 di risoluzione dei problemi, anche se non documentata esplicitamente."}
+2025-03-26 18:55:34,038 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   problem_solving - score grezzo: 75 - tipo: <class 'int'>
+2025-03-26 18:55:34,038 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   problem_solving - peso: 15
+2025-03-26 18:55:34,039 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'leadership'
+2025-03-26 18:55:34,039 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'leadership' trovato: {"score": 60, "motivation": "Nonostante la sua esperienza lavorativa, il CV non evidenzia ruoli specifici di leadership o gestione di team, limitando l'evaluazione della sua capacit\u00e0 di guidare progetti."}
+2025-03-26 18:55:34,039 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   leadership - score grezzo: 60 - tipo: <class 'int'>
+2025-03-26 18:55:34,039 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   leadership - peso: 10
+2025-03-26 18:55:34,039 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'potenziale_crescita'
+2025-03-26 18:55:34,040 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'potenziale_crescita' trovato: {"score": 85, "motivation": "Il suo background e la formazione attuale indicano un elevato potenziale per ulteriori crescita, specialmente con il completamento della sua formazione in AI."}
+2025-03-26 18:55:34,040 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   potenziale_crescita - score grezzo: 85 - tipo: <class 'int'>
+2025-03-26 18:55:34,040 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   potenziale_crescita - peso: 10
+2025-03-26 18:55:34,041 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'programmazione_php_o_python'
+2025-03-26 18:55:34,041 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'programmazione_php_o_python' trovato: {"score": 30, "motivation": "Non ci sono evidenze dirette di competenza nella programmazione PHP o Python nel curriculum attuale, rappresentando una debolezza in questo ambito specifico."}
+2025-03-26 18:55:34,041 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   programmazione_php_o_python - score grezzo: 30 - tipo: <class 'int'>
+2025-03-26 18:55:34,041 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   programmazione_php_o_python - peso: 20
+2025-03-26 18:55:34,041 - INFO - bfcv_007.py:2329 - analyze_cv_ollama - Punteggio composito calcolato: 71 (= 8550.0 / 120)
+2025-03-26 18:55:34,042 - INFO - bfcv_007.py:2335 - analyze_cv_ollama - Punteggio composito ricalcolato: 71 (media pesata con peso totale 120)
+2025-03-26 18:55:34,042 - INFO - bfcv_007.py:2339 - analyze_cv_ollama - Punteggio composito originale: 72.5
+2025-03-26 18:55:35,037 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=6f942ac9...
+2025-03-26 18:55:35,037 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+781-608-2292
+juliemiller0303@gmail.com 
+https://linktr.ee/majolicamedia
+PROFILE
+Versatile social media manager and content
+strategist with a strong background in
+digital marketing, brand storytelling, and
+audience engagement. E...
+2025-03-26 18:55:35,050 - INFO - bfcv_007.py:1010 - get_cached_response - CACHE HIT: Modello=ollama-phi4:latest, Hash=6f942ac9...
+2025-03-26 18:55:35,050 - DEBUG - bfcv_007.py:1015 - get_cached_response - CACHE RESPONSE (troncato): **Julie Miller**
+
+*Contatti:*
+
+- **Telefono:** 781-608-2292
+- **Email:** juliemiller0303@gmail.com
+- **LinkedIn:** [linkedin.com/in/julie-m-00669a135](https://www.linkedin.com/in/julie-m-00669a135)
+- **Sito Web:** [Majolicamedia](https://linktr.ee/majolicamedia)
+
+**Profilo:**
+
+Versatile social media...
+2025-03-26 18:55:35,052 - INFO - bfcv_007.py:1940 - analyze_cv_ollama - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-26 18:55:35,053 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=1bf3d0e2...
+2025-03-26 18:55:35,053 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        **Julie Miller**
+
+*Contatti:*
+
+- **...
+2025-03-26 18:55:35,053 - INFO - bfcv_007.py:1030 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=1bf3d0e2...
+2025-03-26 18:55:35,054 - INFO - bfcv_007.py:1031 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=1bf3d0e2...
+2025-03-26 18:55:51,035 - INFO - bfcv_007.py:1108 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=1bf3d0e2...
+2025-03-26 18:55:51,035 - DEBUG - bfcv_007.py:1113 - save_to_cache - CACHED RESPONSE (troncato): {
+    "Nome": "Julie",
+    "Cognome": "Miller",
+    "Numero di contatto": "781-608-2292",
+    "Email": "juliemiller0303@gmail.com",
+    "Età": "Non specificato",
+    "Città di residenza": "Non specificato",
+    "Città di origine": "Non specificato",
+    "Anni di esperienza lavorativa": "Più di 1 ann...
+2025-03-26 18:55:51,038 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=c305a073...
+2025-03-26 18:55:51,038 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Età
+2. Città di residenza
+3. Città di origine
+4. Competenze in linguaggi di programmazione (es. Python, JavaScript)
+5. Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)
+6. Esperienza con strumenti...
+2025-03-26 18:55:51,039 - INFO - bfcv_007.py:1030 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=c305a073...
+2025-03-26 18:55:51,039 - INFO - bfcv_007.py:1031 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=c305a073...
+2025-03-26 18:56:00,644 - INFO - bfcv_007.py:1108 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=c305a073...
+2025-03-26 18:56:00,644 - DEBUG - bfcv_007.py:1113 - save_to_cache - CACHED RESPONSE (troncato): {
+    "Età": "Probabilmente intorno ai 24-26 anni, basandosi sulla recente laurea e esperienza lavorativa iniziata nel 2023.",
+    "Città di residenza": "Probabilmente Firenze o una città circostante, data la formazione presso l'Istituto Marangoni a Firenze.",
+    "Città di origine": "Non specificat...
+2025-03-26 18:56:00,647 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=ba376704...
+2025-03-26 18:56:00,647 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Stage tecnico in programmazione web e ai e performance web marketing!
+            
+            CV:
+            **Julie Miller**
+
+*Contatti:*
+
+-...
+2025-03-26 18:56:00,647 - INFO - bfcv_007.py:1030 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=ba376704...
+2025-03-26 18:56:00,647 - INFO - bfcv_007.py:1031 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=ba376704...
+2025-03-26 18:56:19,464 - INFO - bfcv_007.py:1108 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=ba376704...
+2025-03-26 18:56:19,464 - DEBUG - bfcv_007.py:1113 - save_to_cache - CACHED RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {
+            "score": 35,
+            "motivation": "Il curriculum non mostra competenze tecniche esplicite in programmazione web o AI, che sono cruciali per il ruolo richiesto. Tuttavia, ha esperienza con SEO, Analytics & Performance Tracking."
+  ...
+2025-03-26 18:56:19,466 - INFO - bfcv_007.py:2253 - analyze_cv_ollama - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-03-26 18:56:19,466 - INFO - bfcv_007.py:2264 - analyze_cv_ollama - Trovata struttura con campo 'criteria': ['competenze_tecniche', 'esperienza_rilevante', 'formazione', 'problem_solving', 'leadership'] ...
+2025-03-26 18:56:19,466 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'competenze_tecniche'
+2025-03-26 18:56:19,467 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'competenze_tecniche' trovato: {"score": 35, "motivation": "Il curriculum non mostra competenze tecniche esplicite in programmazione web o AI, che sono cruciali per il ruolo richiesto. Tuttavia, ha esperienza con SEO, Analytics & Performance Tracking."}
+2025-03-26 18:56:19,467 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   competenze_tecniche - score grezzo: 35 - tipo: <class 'int'>
+2025-03-26 18:56:19,467 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   competenze_tecniche - peso: 25
+2025-03-26 18:56:19,467 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'esperienza_rilevante'
+2025-03-26 18:56:19,468 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'esperienza_rilevante' trovato: {"score": 25, "motivation": "La maggior parte dell'esperienza di Julie \u00e8 nel content e social media management, piuttosto che nella programmazione o AI, rendendo l'esperienza settoriale limitata per la posizione specifica."}
+2025-03-26 18:56:19,468 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   esperienza_rilevante - score grezzo: 25 - tipo: <class 'int'>
+2025-03-26 18:56:19,468 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   esperienza_rilevante - peso: 25
+2025-03-26 18:56:19,468 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'formazione'
+2025-03-26 18:56:19,468 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'formazione' trovato: {"score": 60, "motivation": "Julie ha un Master in Fashion Styling, Creative Direction & Digital Content, rilevante per il marketing digitale ma non specificamente per programmazione web o AI."}
+2025-03-26 18:56:19,468 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   formazione - score grezzo: 60 - tipo: <class 'int'>
+2025-03-26 18:56:19,469 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   formazione - peso: 15
+2025-03-26 18:56:19,469 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'problem_solving'
+2025-03-26 18:56:19,469 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'problem_solving' trovato: {"score": 55, "motivation": "L'esperienza di Julie nel content creation e digital storytelling suggerisce abilit\u00e0 di problem-solving in ambito creativo, anche se manca il contesto tecnico."}
+2025-03-26 18:56:19,469 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   problem_solving - score grezzo: 55 - tipo: <class 'int'>
+2025-03-26 18:56:19,469 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   problem_solving - peso: 15
+2025-03-26 18:56:19,470 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'leadership'
+2025-03-26 18:56:19,470 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'leadership' trovato: {"score": 65, "motivation": "Julie ha fondato Majolica Media ed \u00e8 stata promossa a posizioni strategiche in altre aziende, indicando forti abilit\u00e0 di leadership e capacit\u00e0 organizzative."}
+2025-03-26 18:56:19,470 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   leadership - score grezzo: 65 - tipo: <class 'int'>
+2025-03-26 18:56:19,470 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   leadership - peso: 10
+2025-03-26 18:56:19,470 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'potenziale_crescita'
+2025-03-26 18:56:19,470 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'potenziale_crescita' trovato: {"score": 70, "motivation": "Con una solida base nel marketing digitale e esperienza nella gestione, Julie ha il potenziale per crescere in ruoli pi\u00f9 tecnici con la formazione adeguata."}
+2025-03-26 18:56:19,471 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   potenziale_crescita - score grezzo: 70 - tipo: <class 'int'>
+2025-03-26 18:56:19,471 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   potenziale_crescita - peso: 10
+2025-03-26 18:56:19,471 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'programmazione_php_o_python'
+2025-03-26 18:56:19,471 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'programmazione_php_o_python' trovato: {"score": 10, "motivation": "Non ci sono competenze esplicite menzionate nel curriculum riguardo alla programmazione PHP o Python, cruciali per il ruolo richiesto."}
+2025-03-26 18:56:19,471 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   programmazione_php_o_python - score grezzo: 10 - tipo: <class 'int'>
+2025-03-26 18:56:19,471 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   programmazione_php_o_python - peso: 20
+2025-03-26 18:56:19,472 - INFO - bfcv_007.py:2329 - analyze_cv_ollama - Punteggio composito calcolato: 39 (= 4775.0 / 120)
+2025-03-26 18:56:19,472 - INFO - bfcv_007.py:2335 - analyze_cv_ollama - Punteggio composito ricalcolato: 39 (media pesata con peso totale 120)
+2025-03-26 18:56:19,472 - INFO - bfcv_007.py:2339 - analyze_cv_ollama - Punteggio composito originale: 44.5
+2025-03-26 18:56:20,754 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=2b8e57f7...
+2025-03-26 18:56:20,754 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
++39 338 895 4005
+aledemaria98@hotmail.com
+Istruzione e formazione
+Su di me
+Appassionato di comunicazione e
+pubbliche relazioni, con esperienza nella
+gestione dei social media, creazione di
+contenuti e organizzazione eventi.
+Mot...
+2025-03-26 18:56:20,755 - INFO - bfcv_007.py:1030 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=2b8e57f7...
+2025-03-26 18:56:20,755 - INFO - bfcv_007.py:1031 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=2b8e57f7...
+2025-03-26 18:56:41,363 - INFO - bfcv_007.py:1108 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=2b8e57f7...
+2025-03-26 18:56:41,363 - DEBUG - bfcv_007.py:1113 - save_to_cache - CACHED RESPONSE (troncato): **Alessandro De Maria**
+
+- **Contatti:**  
+  - Telefono: +39 338 895 4005  
+  - Email: aledemaria98@hotmail.com
+
+- **Sommario:**  
+  Aspirante PR & Communication Specialist con esperienza in gestione dei social media, creazione di contenuti e organizzazione eventi. Motivato, intraprendente, forte at...
+2025-03-26 18:56:41,364 - INFO - bfcv_007.py:1940 - analyze_cv_ollama - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-26 18:56:41,364 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=4aec1310...
+2025-03-26 18:56:41,365 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        **Alessandro De Maria**
+
+- **Contat...
+2025-03-26 18:56:41,365 - INFO - bfcv_007.py:1030 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=4aec1310...
+2025-03-26 18:56:41,365 - INFO - bfcv_007.py:1031 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=4aec1310...
+2025-03-26 18:57:00,474 - INFO - bfcv_007.py:1108 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=4aec1310...
+2025-03-26 18:57:00,474 - DEBUG - bfcv_007.py:1113 - save_to_cache - CACHED RESPONSE (troncato): {
+    "Nome": "Alessandro",
+    "Cognome": "De Maria",
+    "Numero di contatto": "+39 338 895 4005",
+    "Email": "aledemaria98@hotmail.com",
+    "Età": "Non specificato",
+    "Città di residenza": "Napoli (poiché disponibile per trasferirsi lì)",
+    "Città di origine": "Non specificato",
+    "Anni...
+2025-03-26 18:57:00,477 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=0840f2df...
+2025-03-26 18:57:00,477 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Età
+2. Città di origine
+3. Anni di esperienza lavorativa nel ruolo richiesto
+4. Legame con Firenze
+5. Competenze in linguaggi di programmazione (es. Python, JavaScript)
+6. Conoscenze di strumenti di analisi web (es. Googl...
+2025-03-26 18:57:00,477 - INFO - bfcv_007.py:1030 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=0840f2df...
+2025-03-26 18:57:00,477 - INFO - bfcv_007.py:1031 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=0840f2df...
+2025-03-26 18:57:09,392 - INFO - bfcv_007.py:1108 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=0840f2df...
+2025-03-26 18:57:09,392 - DEBUG - bfcv_007.py:1113 - save_to_cache - CACHED RESPONSE (troncato): {
+    "Età": "Probabilmente intorno ai 25 anni, basato sul formato dell'email e l'anno di laurea.",
+    "Città di origine": "Non esplicitamente menzionata; supponiamo Roma o Napoli poiché frequentò università in entrambe le città e è disponibile per trasferirsi a Napoli.",
+    "Anni di esperienza la...
+2025-03-26 18:57:09,394 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=b82f03e3...
+2025-03-26 18:57:09,395 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Stage tecnico in programmazione web e ai e performance web marketing!
+            
+            CV:
+            **Alessandro De Maria**
+
+- **Con...
+2025-03-26 18:57:09,395 - INFO - bfcv_007.py:1030 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=b82f03e3...
+2025-03-26 18:57:09,395 - INFO - bfcv_007.py:1031 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=b82f03e3...
+2025-03-26 18:57:27,111 - INFO - bfcv_007.py:1108 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=b82f03e3...
+2025-03-26 18:57:27,111 - DEBUG - bfcv_007.py:1113 - save_to_cache - CACHED RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {
+            "score": 45,
+            "motivation": "Alessandro ha competenze informatiche di base e strumenti SEO/SEM, ma manca di esperienza esplicita nella programmazione web o nell'AI."
+        },
+        "esperienza_rilevante": {
+            "...
+2025-03-26 18:57:27,112 - INFO - bfcv_007.py:2253 - analyze_cv_ollama - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-03-26 18:57:27,114 - INFO - bfcv_007.py:2264 - analyze_cv_ollama - Trovata struttura con campo 'criteria': ['competenze_tecniche', 'esperienza_rilevante', 'formazione', 'problem_solving', 'leadership'] ...
+2025-03-26 18:57:27,114 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'competenze_tecniche'
+2025-03-26 18:57:27,114 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'competenze_tecniche' trovato: {"score": 45, "motivation": "Alessandro ha competenze informatiche di base e strumenti SEO/SEM, ma manca di esperienza esplicita nella programmazione web o nell'AI."}
+2025-03-26 18:57:27,114 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   competenze_tecniche - score grezzo: 45 - tipo: <class 'int'>
+2025-03-26 18:57:27,114 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   competenze_tecniche - peso: 25
+2025-03-26 18:57:27,114 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'esperienza_rilevante'
+2025-03-26 18:57:27,114 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'esperienza_rilevante' trovato: {"score": 55, "motivation": "Ha una solida esperienza nel marketing digitale e nelle analisi SEO che sono rilevanti per il marketing, ma carente in programmazione web."}
+2025-03-26 18:57:27,114 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   esperienza_rilevante - score grezzo: 55 - tipo: <class 'int'>
+2025-03-26 18:57:27,114 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   esperienza_rilevante - peso: 25
+2025-03-26 18:57:27,115 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'formazione'
+2025-03-26 18:57:27,115 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'formazione' trovato: {"score": 60, "motivation": "La laurea magistrale \u00e8 pertinente al marketing, ma non copre la programmazione o l'AI necessarie per lo stage tecnico."}
+2025-03-26 18:57:27,115 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   formazione - score grezzo: 60 - tipo: <class 'int'>
+2025-03-26 18:57:27,115 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   formazione - peso: 15
+2025-03-26 18:57:27,115 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'problem_solving'
+2025-03-26 18:57:27,117 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'problem_solving' trovato: {"score": 50, "motivation": "Ha dimostrato capacit\u00e0 di risolvere problemi nel marketing digitale, ma la mancanza di esperienza tecnica limita il suo approccio al problem solving in contesti di programmazione."}
+2025-03-26 18:57:27,117 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   problem_solving - score grezzo: 50 - tipo: <class 'int'>
+2025-03-26 18:57:27,117 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   problem_solving - peso: 15
+2025-03-26 18:57:27,117 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'leadership'
+2025-03-26 18:57:27,117 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'leadership' trovato: {"score": 40, "motivation": "Non ci sono prove significative di ruoli formali di leadership nel curriculum, sebbene abbia lavorato come Junior Sales Manager e freelancer."}
+2025-03-26 18:57:27,117 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   leadership - score grezzo: 40 - tipo: <class 'int'>
+2025-03-26 18:57:27,118 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   leadership - peso: 10
+2025-03-26 18:57:27,118 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'potenziale_crescita'
+2025-03-26 18:57:27,118 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'potenziale_crescita' trovato: {"score": 70, "motivation": "Alessandro ha un forte background in marketing digitale che suggerisce una buona base per il potenziale di apprendimento, specialmente con formazione aggiuntiva nella programmazione."}
+2025-03-26 18:57:27,118 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   potenziale_crescita - score grezzo: 70 - tipo: <class 'int'>
+2025-03-26 18:57:27,118 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   potenziale_crescita - peso: 10
+2025-03-26 18:57:27,118 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'programmazione_php_o_python'
+2025-03-26 18:57:27,118 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'programmazione_php_o_python' trovato: {"score": 20, "motivation": "Non ci sono menzioni specifiche del suo lavoro o competenza in PHP o Python nel curriculum."}
+2025-03-26 18:57:27,119 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   programmazione_php_o_python - score grezzo: 20 - tipo: <class 'int'>
+2025-03-26 18:57:27,119 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   programmazione_php_o_python - peso: 20
+2025-03-26 18:57:27,119 - INFO - bfcv_007.py:2329 - analyze_cv_ollama - Punteggio composito calcolato: 47 (= 5650.0 / 120)
+2025-03-26 18:57:27,119 - INFO - bfcv_007.py:2335 - analyze_cv_ollama - Punteggio composito ricalcolato: 47 (media pesata con peso totale 120)
+2025-03-26 18:57:27,119 - INFO - bfcv_007.py:2339 - analyze_cv_ollama - Punteggio composito originale: 48.5
+2025-03-26 18:57:28,371 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=e67d110b...
+2025-03-26 18:57:28,371 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+ +33 7 69 65 10 41
+ ajlinsinani2016@gmail.com
+23 Avnue de Bruxelles 
+14000 Caen,  Francia
+Ajlin
+Sinani
+STUDENTESSA IN LINGUE
+STRANIERE APPLICATE PER IL
+COMMERCIO
+PROFILO
+Studentessa dell'ultimo anno di laurea
+triennale  in Ling...
+2025-03-26 18:57:28,371 - INFO - bfcv_007.py:1030 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=e67d110b...
+2025-03-26 18:57:28,372 - INFO - bfcv_007.py:1031 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=e67d110b...
+2025-03-26 18:57:47,889 - INFO - bfcv_007.py:1108 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=e67d110b...
+2025-03-26 18:57:47,889 - DEBUG - bfcv_007.py:1113 - save_to_cache - CACHED RESPONSE (troncato): **Ajlin Sinani**
+
+**Contatto**  
+Telefono: +33 7 69 65 10 41  
+Email: ajlinsinani2016@gmail.com  
+
+Indirizzo:  
+23 Avenue de Bruxelles,  
+14000 Caen, Francia
+
+**Profilo**  
+Studentessa dell'ultimo anno di laurea triennale in Lingue Straniere Applicate per il Commercio. Interessi principali includono...
+2025-03-26 18:57:47,890 - INFO - bfcv_007.py:1940 - analyze_cv_ollama - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-26 18:57:47,891 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=e8c16e8c...
+2025-03-26 18:57:47,891 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        **Ajlin Sinani**
+
+**Contatto**  
+Te...
+2025-03-26 18:57:47,891 - INFO - bfcv_007.py:1030 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=e8c16e8c...
+2025-03-26 18:57:47,892 - INFO - bfcv_007.py:1031 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=e8c16e8c...
+2025-03-26 18:58:03,434 - INFO - bfcv_007.py:1108 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=e8c16e8c...
+2025-03-26 18:58:03,434 - DEBUG - bfcv_007.py:1113 - save_to_cache - CACHED RESPONSE (troncato): {
+    "Nome": "Ajlin",
+    "Cognome": "Sinani",
+    "Numero di contatto": "+33 7 69 65 10 41",
+    "Email": "ajlinsinani2016@gmail.com",
+    "Età": "Non specificato",
+    "Città di residenza": "Caen, Francia",
+    "Città di origine": "Bitola, Macedonia del Nord",
+    "Anni di esperienza lavorativa":...
+2025-03-26 18:58:03,436 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=a818c13b...
+2025-03-26 18:58:03,437 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+    Analizza il seguente CV ed estrai SOLO i seguenti campi specifici:
+    1. Età
+2. Legame con Firenze
+3. Competenze in linguaggi di programmazione (es. Python, JavaScript)
+4. Conoscenze di strumenti di analisi web (es. Google Analytics, Tag Manager)
+5. Esperienza con strumenti di automazione di m...
+2025-03-26 18:58:03,438 - INFO - bfcv_007.py:1030 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=a818c13b...
+2025-03-26 18:58:03,438 - INFO - bfcv_007.py:1031 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=a818c13b...
+2025-03-26 18:58:12,402 - INFO - bfcv_007.py:1108 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=a818c13b...
+2025-03-26 18:58:12,402 - DEBUG - bfcv_007.py:1113 - save_to_cache - CACHED RESPONSE (troncato): {
+    "Età": "Probabilmente intorno ai 22 anni. Supponendo che Ajlin abbia iniziato la scuola superiore all'età di circa 6-7 anni e completato il suo corso di laurea triennale (di solito richiede almeno 3 anni dopo la scuola superiore), è ragionevole stimare l'età considerando l'anno attuale come 20...
+2025-03-26 18:58:12,405 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=300bb930...
+2025-03-26 18:58:12,405 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+        Sei un esperto di selezione del personale. Valuta il CV rispetto alla descrizione del lavoro.
+            
+            Job Description:
+            Stage tecnico in programmazione web e ai e performance web marketing!
+            
+            CV:
+            **Ajlin Sinani**
+
+**Contatto**  ...
+2025-03-26 18:58:12,405 - INFO - bfcv_007.py:1030 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=300bb930...
+2025-03-26 18:58:12,406 - INFO - bfcv_007.py:1031 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=300bb930...
+2025-03-26 18:58:34,553 - INFO - bfcv_007.py:1108 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=300bb930...
+2025-03-26 18:58:34,553 - DEBUG - bfcv_007.py:1113 - save_to_cache - CACHED RESPONSE (troncato): {
+    "criteria": {
+        "competenze_tecniche": {
+            "score": 20,
+            "motivation": "Il candidato non ha competenze tecniche rilevanti in programmazione web o strumenti di analisi/automazione del marketing, essenziali per il tirocinio."
+        },
+        "esperienza_rilevante": ...
+2025-03-26 18:58:34,556 - INFO - bfcv_007.py:2253 - analyze_cv_ollama - RICALCOLO PUNTEGGIO COMPOSITO IN BASE AI CRITERI:
+2025-03-26 18:58:34,556 - INFO - bfcv_007.py:2264 - analyze_cv_ollama - Trovata struttura con campo 'criteria': ['competenze_tecniche', 'esperienza_rilevante', 'formazione', 'problem_solving', 'leadership'] ...
+2025-03-26 18:58:34,557 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'competenze_tecniche'
+2025-03-26 18:58:34,557 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'competenze_tecniche' trovato: {"score": 20, "motivation": "Il candidato non ha competenze tecniche rilevanti in programmazione web o strumenti di analisi/automazione del marketing, essenziali per il tirocinio."}
+2025-03-26 18:58:34,557 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   competenze_tecniche - score grezzo: 20 - tipo: <class 'int'>
+2025-03-26 18:58:34,557 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   competenze_tecniche - peso: 25
+2025-03-26 18:58:34,558 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'esperienza_rilevante'
+2025-03-26 18:58:34,558 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'esperienza_rilevante' trovato: {"score": 15, "motivation": "La formazione e l'esperienza si concentrano sulle competenze linguistiche e interculturali piuttosto che su ruoli tecnici o specifici nel marketing web."}
+2025-03-26 18:58:34,558 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   esperienza_rilevante - score grezzo: 15 - tipo: <class 'int'>
+2025-03-26 18:58:34,558 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   esperienza_rilevante - peso: 25
+2025-03-26 18:58:34,558 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'formazione'
+2025-03-26 18:58:34,559 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'formazione' trovato: {"score": 30, "motivation": "Ajlin ha una solida formazione accademica nelle lingue, ma non include programmi di informatica o marketing digitale necessari per il ruolo."}
+2025-03-26 18:58:34,559 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   formazione - score grezzo: 30 - tipo: <class 'int'>
+2025-03-26 18:58:34,559 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   formazione - peso: 15
+2025-03-26 18:58:34,560 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'problem_solving'
+2025-03-26 18:58:34,560 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'problem_solving' trovato: {"score": 40, "motivation": "Le esperienze nel lavoro interculturale e nell'insegnamento indicano capacit\u00e0 di problem solving in contesti comunicativi, ma non in ambito tecnico."}
+2025-03-26 18:58:34,560 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   problem_solving - score grezzo: 40 - tipo: <class 'int'>
+2025-03-26 18:58:34,560 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   problem_solving - peso: 15
+2025-03-26 18:58:34,560 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'leadership'
+2025-03-26 18:58:34,560 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'leadership' trovato: {"score": 30, "motivation": "L'esperienza come tutor mostra qualche competenza di leadership, ma principalmente a livello individuale e informale."}
+2025-03-26 18:58:34,561 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   leadership - score grezzo: 30 - tipo: <class 'int'>
+2025-03-26 18:58:34,561 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   leadership - peso: 10
+2025-03-26 18:58:34,561 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'potenziale_crescita'
+2025-03-26 18:58:34,561 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'potenziale_crescita' trovato: {"score": 60, "motivation": "Con un forte background linguistico e interculturale, Ajlin ha il potenziale per crescere in ruoli che richiedono comunicazione globale una volta acquisite competenze tecniche."}
+2025-03-26 18:58:34,561 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   potenziale_crescita - score grezzo: 60 - tipo: <class 'int'>
+2025-03-26 18:58:34,561 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   potenziale_crescita - peso: 10
+2025-03-26 18:58:34,562 - INFO - bfcv_007.py:2271 - analyze_cv_ollama - Elaborazione criterio 'programmazione_php_o_python'
+2025-03-26 18:58:34,562 - INFO - bfcv_007.py:2275 - analyze_cv_ollama - Criterio 'programmazione_php_o_python' trovato: {"score": 0, "motivation": "Il CV non menziona alcuna esperienza o formazione nella programmazione PHP o Python, fondamentali per il ruolo richiesto."}
+2025-03-26 18:58:34,562 - INFO - bfcv_007.py:2295 - analyze_cv_ollama -   programmazione_php_o_python - score grezzo: 0 - tipo: <class 'int'>
+2025-03-26 18:58:34,562 - INFO - bfcv_007.py:2308 - analyze_cv_ollama -   programmazione_php_o_python - peso: 20
+2025-03-26 18:58:34,562 - INFO - bfcv_007.py:2329 - analyze_cv_ollama - Punteggio composito calcolato: 23 (= 2825.0 / 120)
+2025-03-26 18:58:34,562 - INFO - bfcv_007.py:2335 - analyze_cv_ollama - Punteggio composito ricalcolato: 23 (media pesata con peso totale 120)
+2025-03-26 18:58:34,563 - INFO - bfcv_007.py:2339 - analyze_cv_ollama - Punteggio composito originale: 30.25
+2025-03-26 18:58:35,786 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=79214e3a...
+2025-03-26 18:58:35,786 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+ALESSIA MILELLA
+PROFILO
+Sono appassionata di comunicazione e
+marketing, con una forte
+determinazione a crescere nel settore.
+Cerco opportunità in aziende, agenzie
+e centri media, dove posso utilizzare le
+mie competenze per svil...
+2025-03-26 18:58:35,787 - INFO - bfcv_007.py:1030 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=79214e3a...
+2025-03-26 18:58:35,787 - INFO - bfcv_007.py:1031 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=79214e3a...
+2025-03-26 18:58:56,034 - INFO - bfcv_007.py:1108 - save_to_cache - CACHE SAVE: Modello=ollama-phi4:latest, Hash=79214e3a...
+2025-03-26 18:58:56,035 - DEBUG - bfcv_007.py:1113 - save_to_cache - CACHED RESPONSE (troncato): ```
+ALESSIA MILELLA
+
+PROFILO  
+Sono appassionata di comunicazione e marketing, con una forte determinazione a crescere nel settore. Cerco opportunità in aziende, agenzie e centri media dove posso utilizzare le mie competenze per sviluppare strategie innovative e contribuire al successo dei progetti....
+2025-03-26 18:58:56,036 - INFO - bfcv_007.py:1940 - analyze_cv_ollama - ======================================== NUOVA ANALISI CV CON OLLAMA ========================================
+2025-03-26 18:58:56,036 - INFO - bfcv_007.py:993 - get_cached_response - CACHE CHECK: Modello=ollama-phi4:latest, Hash=df059ac0...
+2025-03-26 18:58:56,036 - DEBUG - bfcv_007.py:997 - get_cached_response - PROMPT (troncato): 
+        Sei un assistente esperto in analisi dei CV. Analizza il seguente curriculum rispetto alla descrizione del lavoro.
+        
+        Job Description:
+        Stage tecnico in programmazione web e ai e performance web marketing!
+        
+        CV:
+        ```
+ALESSIA MILELLA
+
+PROFILO  
+Sono...
+2025-03-26 18:58:56,037 - INFO - bfcv_007.py:1030 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=df059ac0...
+2025-03-26 18:58:56,037 - INFO - bfcv_007.py:1031 - get_cached_response - CACHE MISS: Modello=ollama-phi4:latest, Hash=df059ac0...

@@ -1,0 +1,130 @@
+2025-03-14 17:30:00,908 - INFO - bfcv_007.py:2165 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-03-14 17:30:00,909 - INFO - bfcv_007.py:2166 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-14 17:30:00,909 - INFO - bfcv_007.py:2167 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-14 17:30:00,909 - INFO - bfcv_007.py:2168 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-03-14 17:30:00,909 - INFO - bfcv_007.py:2169 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-03-14 17:30:00,955 - INFO - bfcv_007.py:2485 - main - Avvio analisi dei CV con process_cvs
+2025-03-14 17:30:00,955 - INFO - bfcv_007.py:1864 - process_cvs - Inizio elaborazione CV nella directory: D:\Progetti\BFCV\CVS\Stage2025
+2025-03-14 17:30:00,956 - INFO - bfcv_007.py:1865 - process_cvs - Campi selezionati: ['Nome', 'Cognome', 'Numero di contatto', 'Email', 'Età', 'Città di residenza', 'Città di origine', 'Anni di esperienza lavorativa', 'Master o assimilabile nel ruolo richiesto', 'Formazione più alta', 'Università/Istituto', 'Posizione attuale', 'Legame con Firenze', 'Esperienza pratica con strumenti AI (es. Cursor AI, Copilot, ChatGPT)', 'Progetti di sviluppo software (link o descrizione)', 'Competenze in analisi dei dati (es. strumenti utilizzati, linguaggi)', 'Capacità di lavorare con team multidisciplinari (es. esempi di collaborazione)', 'Interesse specifico per strategie di digital marketing e automazione']
+2025-03-14 17:30:00,958 - INFO - bfcv_007.py:1873 - process_cvs - Trovati 172 file PDF nella directory
+2025-03-14 17:30:00,958 - INFO - bfcv_007.py:1882 - process_cvs - Limitando l'analisi ai primi 10 CV (su 172 totali)
+2025-03-14 17:30:00,959 - INFO - bfcv_007.py:1888 - process_cvs - Utilizzo OpenAI: True
+2025-03-14 17:30:00,959 - INFO - bfcv_007.py:1902 - process_cvs - Utilizzo OpenAI - Modello: gpt-4o-mini
+2025-03-14 17:30:00,960 - INFO - bfcv_007.py:1923 - process_cvs - Inizio analisi di 10 file PDF
+2025-03-14 17:30:00,960 - INFO - bfcv_007.py:1927 - process_cvs - [1/10] Analisi di (Ita) Alessandro Anceschi - CV.pdf...
+2025-03-14 17:30:00,962 - INFO - bfcv_007.py:1937 - process_cvs - Estrazione testo da (Ita) Alessandro Anceschi - CV.pdf
+2025-03-14 17:30:01,834 - DEBUG - bfcv_007.py:1939 - process_cvs - Lunghezza testo diretto: 1402, testo OCR: 1737
+2025-03-14 17:30:01,835 - INFO - bfcv_007.py:1944 - process_cvs - Combinazione testi con OpenAI per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-14 17:30:02,447 - INFO - bfcv_007.py:1962 - process_cvs - Inizio analisi contenuto CV per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-14 17:30:02,448 - INFO - bfcv_007.py:1247 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-14 17:30:11,961 - INFO - bfcv_007.py:1299 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-14 17:30:43,151 - INFO - bfcv_007.py:1351 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-03-14 17:30:50,980 - INFO - bfcv_007.py:1362 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-03-14 17:30:50,983 - INFO - bfcv_007.py:1443 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per la valutazione
+2025-03-14 17:31:07,000 - INFO - bfcv_007.py:1978 - process_cvs - Analisi completata per (Ita) Alessandro Anceschi - CV.pdf
+2025-03-14 17:31:07,002 - INFO - bfcv_007.py:1927 - process_cvs - [2/10] Analisi di 0_Rafael-Patron_AI_Program_Manager.pdf...
+2025-03-14 17:31:07,003 - INFO - bfcv_007.py:1937 - process_cvs - Estrazione testo da 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-14 17:31:09,142 - DEBUG - bfcv_007.py:1939 - process_cvs - Lunghezza testo diretto: 26620, testo OCR: 4615
+2025-03-14 17:31:09,143 - INFO - bfcv_007.py:1944 - process_cvs - Combinazione testi con OpenAI per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-14 17:31:09,156 - INFO - bfcv_007.py:1962 - process_cvs - Inizio analisi contenuto CV per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-14 17:31:09,156 - INFO - bfcv_007.py:1247 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-14 17:31:30,422 - INFO - bfcv_007.py:1299 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-14 17:32:18,414 - INFO - bfcv_007.py:1351 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-03-14 17:32:19,608 - INFO - bfcv_007.py:1362 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-03-14 17:32:19,611 - INFO - bfcv_007.py:1443 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per la valutazione
+2025-03-14 17:32:28,796 - INFO - bfcv_007.py:1978 - process_cvs - Analisi completata per 0_Rafael-Patron_AI_Program_Manager.pdf
+2025-03-14 17:32:28,798 - INFO - bfcv_007.py:1927 - process_cvs - [3/10] Analisi di 2025 Resume.pdf.pdf...
+2025-03-14 17:32:28,799 - INFO - bfcv_007.py:1937 - process_cvs - Estrazione testo da 2025 Resume.pdf.pdf
+2025-03-14 17:32:29,795 - DEBUG - bfcv_007.py:1939 - process_cvs - Lunghezza testo diretto: 2829, testo OCR: 2757
+2025-03-14 17:32:29,796 - INFO - bfcv_007.py:1944 - process_cvs - Combinazione testi con OpenAI per 2025 Resume.pdf.pdf
+2025-03-14 17:32:29,799 - INFO - bfcv_007.py:1962 - process_cvs - Inizio analisi contenuto CV per 2025 Resume.pdf.pdf
+2025-03-14 17:32:29,800 - INFO - bfcv_007.py:1247 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-14 17:32:39,411 - INFO - bfcv_007.py:1299 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-14 17:33:00,437 - INFO - bfcv_007.py:1351 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-03-14 17:33:06,822 - INFO - bfcv_007.py:1362 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-03-14 17:33:06,826 - INFO - bfcv_007.py:1443 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per la valutazione
+2025-03-14 17:33:21,189 - INFO - bfcv_007.py:1978 - process_cvs - Analisi completata per 2025 Resume.pdf.pdf
+2025-03-14 17:33:21,190 - INFO - bfcv_007.py:1927 - process_cvs - [4/10] Analisi di 4.DE_MARIA_ALESSANDRO_CV_2425.pdf...
+2025-03-14 17:33:21,192 - INFO - bfcv_007.py:1937 - process_cvs - Estrazione testo da 4.DE_MARIA_ALESSANDRO_CV_2425.pdf
+2025-03-14 17:33:22,459 - DEBUG - bfcv_007.py:1939 - process_cvs - Lunghezza testo diretto: 2765, testo OCR: 2931
+2025-03-14 17:33:22,459 - INFO - bfcv_007.py:1944 - process_cvs - Combinazione testi con OpenAI per 4.DE_MARIA_ALESSANDRO_CV_2425.pdf
+2025-03-14 17:33:22,463 - INFO - bfcv_007.py:1962 - process_cvs - Inizio analisi contenuto CV per 4.DE_MARIA_ALESSANDRO_CV_2425.pdf
+2025-03-14 17:33:22,464 - INFO - bfcv_007.py:1247 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-14 17:33:22,467 - INFO - bfcv_007.py:1299 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-14 17:33:26,343 - INFO - bfcv_007.py:1351 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-03-14 17:33:34,214 - INFO - bfcv_007.py:1362 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-03-14 17:33:34,217 - INFO - bfcv_007.py:1443 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per la valutazione
+2025-03-14 17:33:47,606 - INFO - bfcv_007.py:1978 - process_cvs - Analisi completata per 4.DE_MARIA_ALESSANDRO_CV_2425.pdf
+2025-03-14 17:33:47,607 - INFO - bfcv_007.py:1927 - process_cvs - [5/10] Analisi di Ajlin Sinani Curriculum Vitae.pdf...
+2025-03-14 17:33:47,608 - INFO - bfcv_007.py:1937 - process_cvs - Estrazione testo da Ajlin Sinani Curriculum Vitae.pdf
+2025-03-14 17:33:48,780 - DEBUG - bfcv_007.py:1939 - process_cvs - Lunghezza testo diretto: 2231, testo OCR: 2176
+2025-03-14 17:33:48,781 - INFO - bfcv_007.py:1944 - process_cvs - Combinazione testi con OpenAI per Ajlin Sinani Curriculum Vitae.pdf
+2025-03-14 17:33:48,787 - INFO - bfcv_007.py:1962 - process_cvs - Inizio analisi contenuto CV per Ajlin Sinani Curriculum Vitae.pdf
+2025-03-14 17:33:48,787 - INFO - bfcv_007.py:1247 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-14 17:33:48,790 - INFO - bfcv_007.py:1299 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-14 17:33:55,076 - INFO - bfcv_007.py:1351 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-03-14 17:34:03,111 - INFO - bfcv_007.py:1362 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-03-14 17:34:03,114 - INFO - bfcv_007.py:1443 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per la valutazione
+2025-03-14 17:34:14,723 - INFO - bfcv_007.py:1978 - process_cvs - Analisi completata per Ajlin Sinani Curriculum Vitae.pdf
+2025-03-14 17:34:14,724 - INFO - bfcv_007.py:1927 - process_cvs - [6/10] Analisi di Alessia Milella - CV.pdf...
+2025-03-14 17:34:14,725 - INFO - bfcv_007.py:1937 - process_cvs - Estrazione testo da Alessia Milella - CV.pdf
+2025-03-14 17:34:15,743 - DEBUG - bfcv_007.py:1939 - process_cvs - Lunghezza testo diretto: 2307, testo OCR: 2431
+2025-03-14 17:34:15,744 - INFO - bfcv_007.py:1944 - process_cvs - Combinazione testi con OpenAI per Alessia Milella - CV.pdf
+2025-03-14 17:34:15,748 - INFO - bfcv_007.py:1962 - process_cvs - Inizio analisi contenuto CV per Alessia Milella - CV.pdf
+2025-03-14 17:34:15,748 - INFO - bfcv_007.py:1247 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-14 17:34:15,751 - INFO - bfcv_007.py:1299 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-14 17:34:29,149 - INFO - bfcv_007.py:1351 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-03-14 17:34:37,431 - INFO - bfcv_007.py:1362 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-03-14 17:34:37,435 - INFO - bfcv_007.py:1443 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per la valutazione
+2025-03-14 17:34:47,962 - INFO - bfcv_007.py:1978 - process_cvs - Analisi completata per Alessia Milella - CV.pdf
+2025-03-14 17:34:47,964 - INFO - bfcv_007.py:1927 - process_cvs - [7/10] Analisi di ALICE PETRI PROFILO CV.pdf...
+2025-03-14 17:34:47,966 - INFO - bfcv_007.py:1937 - process_cvs - Estrazione testo da ALICE PETRI PROFILO CV.pdf
+2025-03-14 17:34:49,158 - DEBUG - bfcv_007.py:1939 - process_cvs - Lunghezza testo diretto: 2427, testo OCR: 2470
+2025-03-14 17:34:49,158 - INFO - bfcv_007.py:1944 - process_cvs - Combinazione testi con OpenAI per ALICE PETRI PROFILO CV.pdf
+2025-03-14 17:34:49,163 - INFO - bfcv_007.py:1962 - process_cvs - Inizio analisi contenuto CV per ALICE PETRI PROFILO CV.pdf
+2025-03-14 17:34:49,164 - INFO - bfcv_007.py:1247 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-14 17:34:49,165 - INFO - bfcv_007.py:1299 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-14 17:35:04,052 - INFO - bfcv_007.py:1351 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-03-14 17:35:15,813 - INFO - bfcv_007.py:1362 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-03-14 17:35:15,817 - INFO - bfcv_007.py:1443 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per la valutazione
+2025-03-14 17:35:26,343 - INFO - bfcv_007.py:1978 - process_cvs - Analisi completata per ALICE PETRI PROFILO CV.pdf
+2025-03-14 17:35:26,345 - INFO - bfcv_007.py:1927 - process_cvs - [8/10] Analisi di Alice Tonelli-5.pdf...
+2025-03-14 17:35:26,346 - INFO - bfcv_007.py:1937 - process_cvs - Estrazione testo da Alice Tonelli-5.pdf
+2025-03-14 17:35:27,056 - DEBUG - bfcv_007.py:1939 - process_cvs - Lunghezza testo diretto: 1509, testo OCR: 1320
+2025-03-14 17:35:27,057 - INFO - bfcv_007.py:1944 - process_cvs - Combinazione testi con OpenAI per Alice Tonelli-5.pdf
+2025-03-14 17:35:27,061 - INFO - bfcv_007.py:1962 - process_cvs - Inizio analisi contenuto CV per Alice Tonelli-5.pdf
+2025-03-14 17:35:27,061 - INFO - bfcv_007.py:1247 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-14 17:35:27,062 - INFO - bfcv_007.py:1299 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-14 17:35:34,940 - INFO - bfcv_007.py:1351 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-03-14 17:35:44,931 - INFO - bfcv_007.py:1362 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-03-14 17:35:44,935 - INFO - bfcv_007.py:1443 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per la valutazione
+2025-03-14 17:35:56,689 - INFO - bfcv_007.py:1978 - process_cvs - Analisi completata per Alice Tonelli-5.pdf
+2025-03-14 17:35:56,690 - INFO - bfcv_007.py:1927 - process_cvs - [9/10] Analisi di AliceVeracini_Curriculum.pdf...
+2025-03-14 17:35:56,691 - INFO - bfcv_007.py:1937 - process_cvs - Estrazione testo da AliceVeracini_Curriculum.pdf
+2025-03-14 17:35:57,844 - DEBUG - bfcv_007.py:1939 - process_cvs - Lunghezza testo diretto: 2644, testo OCR: 2710
+2025-03-14 17:35:57,844 - INFO - bfcv_007.py:1944 - process_cvs - Combinazione testi con OpenAI per AliceVeracini_Curriculum.pdf
+2025-03-14 17:35:57,849 - INFO - bfcv_007.py:1962 - process_cvs - Inizio analisi contenuto CV per AliceVeracini_Curriculum.pdf
+2025-03-14 17:35:57,849 - INFO - bfcv_007.py:1247 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-14 17:35:57,851 - INFO - bfcv_007.py:1299 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-14 17:36:02,989 - INFO - bfcv_007.py:1351 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-03-14 17:36:11,218 - INFO - bfcv_007.py:1362 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-03-14 17:36:11,221 - INFO - bfcv_007.py:1443 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per la valutazione
+2025-03-14 17:36:25,703 - INFO - bfcv_007.py:1978 - process_cvs - Analisi completata per AliceVeracini_Curriculum.pdf
+2025-03-14 17:36:25,704 - INFO - bfcv_007.py:1927 - process_cvs - [10/10] Analisi di ANGELINA TARASOVA CV.pdf...
+2025-03-14 17:36:25,705 - INFO - bfcv_007.py:1937 - process_cvs - Estrazione testo da ANGELINA TARASOVA CV.pdf
+2025-03-14 17:36:27,323 - DEBUG - bfcv_007.py:1939 - process_cvs - Lunghezza testo diretto: 3702, testo OCR: 3526
+2025-03-14 17:36:27,324 - INFO - bfcv_007.py:1944 - process_cvs - Combinazione testi con OpenAI per ANGELINA TARASOVA CV.pdf
+2025-03-14 17:36:27,331 - INFO - bfcv_007.py:1962 - process_cvs - Inizio analisi contenuto CV per ANGELINA TARASOVA CV.pdf
+2025-03-14 17:36:27,331 - INFO - bfcv_007.py:1247 - analyze_cv_openai - Iniziando l'estrazione principale con OpenAI
+2025-03-14 17:36:27,334 - INFO - bfcv_007.py:1299 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per l'estrazione principale
+2025-03-14 17:36:38,954 - INFO - bfcv_007.py:1351 - analyze_cv_openai - Controllo campi mancanti per eventuale raffinamento
+2025-03-14 17:36:47,121 - INFO - bfcv_007.py:1362 - analyze_cv_openai - Iniziando la fase di valutazione
+2025-03-14 17:36:47,124 - INFO - bfcv_007.py:1443 - analyze_cv_openai - Nessuna cache disponibile, chiamo l'API OpenAI per la valutazione
+2025-03-14 17:37:01,994 - INFO - bfcv_007.py:1978 - process_cvs - Analisi completata per ANGELINA TARASOVA CV.pdf
+2025-03-14 17:37:01,995 - INFO - bfcv_007.py:2004 - process_cvs - Analisi completata. Processati 10 CV su 10 disponibili
+2025-03-14 17:37:01,998 - INFO - bfcv_007.py:2031 - process_cvs - DataFrame creato con 10 righe e 29 colonne
+2025-03-14 17:37:02,014 - INFO - bfcv_007.py:2035 - process_cvs - DataFrame normalizzato e pronto per la visualizzazione
+2025-03-14 17:37:02,015 - INFO - bfcv_007.py:2493 - main - Analisi completata con successo. Ottenuti 10 risultati
+2025-03-14 17:37:02,015 - INFO - bfcv_007.py:2499 - main - Risultati salvati in st.session_state.results e st.session_state.analysis_results
+2025-03-14 17:37:02,017 - INFO - bfcv_007.py:2508 - main - Impostata active_tab = 0 per mostrare la panoramica dei risultati
+2025-03-14 17:37:02,017 - INFO - bfcv_007.py:2511 - main - Eseguo st.rerun() per ricaricare la pagina e mostrare i risultati

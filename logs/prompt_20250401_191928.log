@@ -1,0 +1,433 @@
+Data e ora: 2025-04-01 19:19:28
+Modello: gpt-4o-mini
+
+Parametri chiamata:
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ecco due versioni del testo estratto da un CV:\n\n---Estrazione Diretta---\nRonald K. Bray \nJupiter, FL 33458 \nronbray13@gmail.com | 561-385-9343| www.linkedin.com/in/ronbray  \nCustomer Focused and Results Driven Sales Professional \n Strategic Thinker| Adaptive Approach| Product Expert \nExceptional Outside Sales Representative who is an expert in establishing and growing sales territories within multiple \nregions.  A specialist at building rapport with a variety of personalities and backgrounds to identify customer needs to \ndevelop a strategy, provide solutions and close the sale resulting in a satisfied and loyal customer. \nTestimonial \n“I worked with Ron for many years. Ron is a professional. He knows his stuff and is a pleasure to be around both \npersonally but also in the OR environment. He makes everyone in the facility his friend, as a result of this he manages to \ncut through red tape with his personality and relationships. He is also a hard worker and as reliable as you can be. He is \nthe kind of person I would want to represent myself and my company.\" \n\t\n\t\n\t\n\t\n\t\n\t\n\t\nDr. Howard Routman, President at Atlantis Orthopaedics \nCareer Highlights \nZimmer Biomet One- A Distributor for Zimmer Biomet Corporation \t\nJuly 2024- Present \nOrthopedic Sales Representative \nChief responsibilities included: sales activities and case coverage for Palm Beach, Martin and St. Lucie Counties. \nOrthopedic Resources- Distributor for Conformis/Restor3d, Corin, Signature and Medacta \nOrthopedic Sales Representative\t\n\t\n\t\n\t\n\t\n\t\nJanuary 2024- June 2024 \nChief responsibilities included: sales activities and case coverage for Palm Beach, Martin, St. Lucie and Broward Counties. \nLandstar System- Ranger \nBusiness Capacity Owner\t\n\t\n\t\n\t\n\t\n\t\n\t\nJuly 2023- January 2024 \nCowan Systems- National Roads  \nLease Purchase Operator\t\n\t\n\t\n\t\n\t\n\t\n\t\nFeb 2023- July 2023 \nFreymiller Inc \nLease Purchase Operator\t\n\t\n\t\n\t\n\t\n\t\n\t\nDec 2022- Feb 2023\t\n\t\n\t\n\t\n\t\n\t\n\t\n \nEmpire City Labs \nAccount Manager\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\nFeb- Nov 2022 \nResponsible for educating and  servicing clients on available tests and services for their individual practices. \nCRST Transportation\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n \nCaterpillar Dedicated Route Driver\t\n\t\n\t\n\t\n\t\n\t\n2021 - 2022 \nVan Expedited OTR Driver\t\n\t\n\t\n\t\n\t\n\t\n\t\n \nRKB Medical LLC\t\t\n\t\n\t\n\t\n\t\n\t\n\t\n \nMedical Product Sales Consultant\t\n\t\n\t\n\t\n\t\n\t\n2016-2021 \nBoutique medical product and sales organization.  \nAllied Universal \t\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n \nChemical Account Management\t \t\n\t\n\t\n\t\n\t\n\t\n2018-2020\t\n\t\n\t\n\t\nResponsible for account management and field sales within Broward and Palm Beach Counties. \nSmart Pharmacy \nPharmaceutical Account Executive\t\n\t\n\t\n\t\n\t\n\t\n2017-2018 \nResponsible for sales and marketing of the organizations compounding pharmacy options. \nConMed Linvatec Corp.\t \nOrthopedic Sales Representative\t\n\t\n\t\n\t\n\t\n\t\n2013-2016 \nDirect hire to represent the company’s portfolio in Palm Beach, Broward, Martin and St. Lucie counties. \nOsteo Encore – Distributor of DJO Surgical and Omni Life Science/Corin \nOrthopedic Sales Representative\t\n\t\n\t\n\t\n\t\n\t\n2010-2013\t\n \nRepresented the organization by selling and covering surgeries in Palm Beach, Broward, Martin and St. Lucie Counties. \nRedMedical- Distributor for Arthrex \nOrthopedic Sales Representative\t\n\t\n\t\n\t\n\t\n\t\n2007-2010 \nResponsible for sales and coverage of product portfolio in Palm Beach, Martin and St. Lucie counties. Annual sales \ngrowth of over 30% during my time in this role \nFields Medical Corporation- Distributor of Biomet \nOrthopedic Sales Representative\t\n\t\n\t\n\t\n\t\n\t\n2003-2007 \nResponsible for sales and surgical coverage for Arthrotek Sports Medicine and  Biomet joint replacements and trauma. \nGrew initial territory from $540k per year to over $2.4 million annually.  \nPharmacia Corporation/ Searle Pharmaceuticals \t\n\t\n\t\n\t\n1998-2003 \nArthritis and Pain Specialty Sales Representative \nEducation \nWestern Kentucky University, Bowling Green, KY \nBachelor of Science – Health Care Administration\t \t\n \nMilitary Service \nUnited States Army National Guard, Kentucky\t\n\t\n\t\n\t\n\t\n \nIndirect Fire Infantryman \nHonorable Discharge \nUnited States Army, Fort Riley, Kansas\t\n\t\n\t\n\t\n\t\n\t\n \nIndirect Fire Infantryman \nHonorable Discharge \nSkills \n\t\nTime Management\t\nStrong Communication\t    Customer Focused\t\nSales Trainer \n\t\n \n\t\n\n\n---Estrazione OCR---\nRonald K. Bray\nJupiter, FL 33458\nronbray13 @gmail.com | 561-385-9343] www.linkedin.com/in/ronbray\nCustomer Focused and Results Driven Sales Professional\nStrategic Thinker | Adaptive Approach| Product Expert\nExceptional Outside Sales Representative who is an expert in establishing and growing sales territories within multiple\nregions. A specialist at building rapport with a variety of personalities and backgrounds to identify customer needs to\ndevelop a strategy, provide solutions and close the sale resulting in a satisfied and loyal customer.\nTestimonial\n“| worked with Ron for many years. Ron is a professional. He knows his stuff and is a pleasure to be around both\n\npersonally but also in the OR environment. He makes everyone in the facility his friend, as a result of this he manages to\n\ncut through red tape with his personality and relationships. He is also a hard worker and as reliable as you can be. He is\n\nthe kind of person | would want to represent myself and my company.\"\nDr. Howard Routman, President at Atlantis Orthopaedics\nCareer Highlights\n\nZimmer Biomet One- A Distributor for Zimmer Biomet Corporation July 2024- Present\nOrthopedic Sales Representative\nChief responsibilities included: sales activities and case coverage for Palm Beach, Martin and St. Lucie Counties.\nOrthopedic Resources- Distributor for Conformis/Restor3d, Corin, Signature and Medacta\nOrthopedic Sales Representative January 2024- June 2024\nChief responsibilities included: sales activities and case coverage for Palm Beach, Martin, St. Lucie and Broward Counties.\nLandstar System- Ranger\nBusiness Capacity Owner July 2023- January 2024\nCowan Systems- National Roads\nLease Purchase Operator Feb 2023- July 2023\nFreymiller Inc\nLease Purchase Operator Dec 2022- Feb 2023\nEmpire City Labs\nAccount Manager Feb- Nov 2022\n\nResponsible for educating and servicing clients on available tests and services for their individual practices.\nCRST Transportation\nCaterpillar Dedicated Route Driver 2021 - 2022\n\nVan Expedited OTR Driver\nRKB Medical LLC\nMedical Product Sales Consultant 2016-2021\n\nBoutique medical product and sales organization.\nAllied Universal\nChemical Account Management 2018-2020\n\nResponsible for account management and field sales within Broward and Palm Beach Counties.\nSmart Pharmacy\nPharmaceutical Account Executive 2017-2018\nResponsible for sales and marketing of the organizations compounding pharmacy options.\nConMed Linvatec Corp.\nOrthopedic Sales Representative 2013-2016\nDirect hire to represent the company’s portfolio in Palm Beach, Broward, Martin and St. Lucie counties.\nOsteo Encore — Distributor of DJO Surgical and Omni Life Science/Corin\nOrthopedic Sales Representative 2010-2013\nRepresented the organization by selling and covering surgeries in Palm Beach, Broward, Martin and St. Lucie Counties.\nRedMedical- Distributor for Arthrex\nOrthopedic Sales Representative 2007-2010\nResponsible for sales and coverage of product portfolio in Palm Beach, Martin and St. Lucie counties. Annual sales\ngrowth of over 30% during my time in this role\nFields Medical Corporation- Distributor of Biomet\nOrthopedic Sales Representative 2003-2007\nResponsible for sales and surgical coverage for Arthrotek Sports Medicine and Biomet joint replacements and trauma.\nGrew initial territory from $540k per year to over $2.4 million annually.\nPharmacia Corporation/ Searle Pharmaceuticals 1998-2003\nArthritis and Pain Specialty Sales Representative\nEducation\nWestern Kentucky University, Bowling Green, KY\nBachelor of Science — Health Care Administration\nMilitary Service\nUnited States Army National Guard, Kentucky\nIndirect Fire Infantryman\nHonorable Discharge\nUnited States Army, Fort Riley, Kansas\nIndirect Fire Infantryman\nHonorable Discharge\nSkills\nTime Management Strong Communication Customer Focused Sales Trainer\n\n\nCrea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni."
+    }
+  ],
+  "temperature": 0.3,
+  "response_format": {
+    "type": "text"
+  }
+}
+
+Prompt:
+Ecco due versioni del testo estratto da un CV:
+
+---Estrazione Diretta---
+Ronald K. Bray 
+Jupiter, FL 33458 
+ronbray13@gmail.com | 561-385-9343| www.linkedin.com/in/ronbray  
+Customer Focused and Results Driven Sales Professional 
+ Strategic Thinker| Adaptive Approach| Product Expert 
+Exceptional Outside Sales Representative who is an expert in establishing and growing sales territories within multiple 
+regions.  A specialist at building rapport with a variety of personalities and backgrounds to identify customer needs to 
+develop a strategy, provide solutions and close the sale resulting in a satisfied and loyal customer. 
+Testimonial 
+“I worked with Ron for many years. Ron is a professional. He knows his stuff and is a pleasure to be around both 
+personally but also in the OR environment. He makes everyone in the facility his friend, as a result of this he manages to 
+cut through red tape with his personality and relationships. He is also a hard worker and as reliable as you can be. He is 
+the kind of person I would want to represent myself and my company." 
+	
+	
+	
+	
+	
+	
+	
+Dr. Howard Routman, President at Atlantis Orthopaedics 
+Career Highlights 
+Zimmer Biomet One- A Distributor for Zimmer Biomet Corporation 	
+July 2024- Present 
+Orthopedic Sales Representative 
+Chief responsibilities included: sales activities and case coverage for Palm Beach, Martin and St. Lucie Counties. 
+Orthopedic Resources- Distributor for Conformis/Restor3d, Corin, Signature and Medacta 
+Orthopedic Sales Representative	
+	
+	
+	
+	
+	
+January 2024- June 2024 
+Chief responsibilities included: sales activities and case coverage for Palm Beach, Martin, St. Lucie and Broward Counties. 
+Landstar System- Ranger 
+Business Capacity Owner	
+	
+	
+	
+	
+	
+	
+July 2023- January 2024 
+Cowan Systems- National Roads  
+Lease Purchase Operator	
+	
+	
+	
+	
+	
+	
+Feb 2023- July 2023 
+Freymiller Inc 
+Lease Purchase Operator	
+	
+	
+	
+	
+	
+	
+Dec 2022- Feb 2023	
+	
+	
+	
+	
+	
+	
+ 
+Empire City Labs 
+Account Manager	
+	
+	
+	
+	
+	
+	
+	
+Feb- Nov 2022 
+Responsible for educating and  servicing clients on available tests and services for their individual practices. 
+CRST Transportation	
+	
+	
+	
+	
+	
+	
+	
+ 
+Caterpillar Dedicated Route Driver	
+	
+	
+	
+	
+	
+2021 - 2022 
+Van Expedited OTR Driver	
+	
+	
+	
+	
+	
+	
+ 
+RKB Medical LLC		
+	
+	
+	
+	
+	
+	
+ 
+Medical Product Sales Consultant	
+	
+	
+	
+	
+	
+2016-2021 
+Boutique medical product and sales organization.  
+Allied Universal 		
+	
+	
+	
+	
+	
+	
+	
+ 
+Chemical Account Management	 	
+	
+	
+	
+	
+	
+2018-2020	
+	
+	
+	
+Responsible for account management and field sales within Broward and Palm Beach Counties. 
+Smart Pharmacy 
+Pharmaceutical Account Executive	
+	
+	
+	
+	
+	
+2017-2018 
+Responsible for sales and marketing of the organizations compounding pharmacy options. 
+ConMed Linvatec Corp.	 
+Orthopedic Sales Representative	
+	
+	
+	
+	
+	
+2013-2016 
+Direct hire to represent the company’s portfolio in Palm Beach, Broward, Martin and St. Lucie counties. 
+Osteo Encore – Distributor of DJO Surgical and Omni Life Science/Corin 
+Orthopedic Sales Representative	
+	
+	
+	
+	
+	
+2010-2013	
+ 
+Represented the organization by selling and covering surgeries in Palm Beach, Broward, Martin and St. Lucie Counties. 
+RedMedical- Distributor for Arthrex 
+Orthopedic Sales Representative	
+	
+	
+	
+	
+	
+2007-2010 
+Responsible for sales and coverage of product portfolio in Palm Beach, Martin and St. Lucie counties. Annual sales 
+growth of over 30% during my time in this role 
+Fields Medical Corporation- Distributor of Biomet 
+Orthopedic Sales Representative	
+	
+	
+	
+	
+	
+2003-2007 
+Responsible for sales and surgical coverage for Arthrotek Sports Medicine and  Biomet joint replacements and trauma. 
+Grew initial territory from $540k per year to over $2.4 million annually.  
+Pharmacia Corporation/ Searle Pharmaceuticals 	
+	
+	
+	
+1998-2003 
+Arthritis and Pain Specialty Sales Representative 
+Education 
+Western Kentucky University, Bowling Green, KY 
+Bachelor of Science – Health Care Administration	 	
+ 
+Military Service 
+United States Army National Guard, Kentucky	
+	
+	
+	
+	
+ 
+Indirect Fire Infantryman 
+Honorable Discharge 
+United States Army, Fort Riley, Kansas	
+	
+	
+	
+	
+	
+ 
+Indirect Fire Infantryman 
+Honorable Discharge 
+Skills 
+	
+Time Management	
+Strong Communication	    Customer Focused	
+Sales Trainer 
+	
+ 
+	
+
+
+---Estrazione OCR---
+Ronald K. Bray
+Jupiter, FL 33458
+ronbray13 @gmail.com | 561-385-9343] www.linkedin.com/in/ronbray
+Customer Focused and Results Driven Sales Professional
+Strategic Thinker | Adaptive Approach| Product Expert
+Exceptional Outside Sales Representative who is an expert in establishing and growing sales territories within multiple
+regions. A specialist at building rapport with a variety of personalities and backgrounds to identify customer needs to
+develop a strategy, provide solutions and close the sale resulting in a satisfied and loyal customer.
+Testimonial
+“| worked with Ron for many years. Ron is a professional. He knows his stuff and is a pleasure to be around both
+
+personally but also in the OR environment. He makes everyone in the facility his friend, as a result of this he manages to
+
+cut through red tape with his personality and relationships. He is also a hard worker and as reliable as you can be. He is
+
+the kind of person | would want to represent myself and my company."
+Dr. Howard Routman, President at Atlantis Orthopaedics
+Career Highlights
+
+Zimmer Biomet One- A Distributor for Zimmer Biomet Corporation July 2024- Present
+Orthopedic Sales Representative
+Chief responsibilities included: sales activities and case coverage for Palm Beach, Martin and St. Lucie Counties.
+Orthopedic Resources- Distributor for Conformis/Restor3d, Corin, Signature and Medacta
+Orthopedic Sales Representative January 2024- June 2024
+Chief responsibilities included: sales activities and case coverage for Palm Beach, Martin, St. Lucie and Broward Counties.
+Landstar System- Ranger
+Business Capacity Owner July 2023- January 2024
+Cowan Systems- National Roads
+Lease Purchase Operator Feb 2023- July 2023
+Freymiller Inc
+Lease Purchase Operator Dec 2022- Feb 2023
+Empire City Labs
+Account Manager Feb- Nov 2022
+
+Responsible for educating and servicing clients on available tests and services for their individual practices.
+CRST Transportation
+Caterpillar Dedicated Route Driver 2021 - 2022
+
+Van Expedited OTR Driver
+RKB Medical LLC
+Medical Product Sales Consultant 2016-2021
+
+Boutique medical product and sales organization.
+Allied Universal
+Chemical Account Management 2018-2020
+
+Responsible for account management and field sales within Broward and Palm Beach Counties.
+Smart Pharmacy
+Pharmaceutical Account Executive 2017-2018
+Responsible for sales and marketing of the organizations compounding pharmacy options.
+ConMed Linvatec Corp.
+Orthopedic Sales Representative 2013-2016
+Direct hire to represent the company’s portfolio in Palm Beach, Broward, Martin and St. Lucie counties.
+Osteo Encore — Distributor of DJO Surgical and Omni Life Science/Corin
+Orthopedic Sales Representative 2010-2013
+Represented the organization by selling and covering surgeries in Palm Beach, Broward, Martin and St. Lucie Counties.
+RedMedical- Distributor for Arthrex
+Orthopedic Sales Representative 2007-2010
+Responsible for sales and coverage of product portfolio in Palm Beach, Martin and St. Lucie counties. Annual sales
+growth of over 30% during my time in this role
+Fields Medical Corporation- Distributor of Biomet
+Orthopedic Sales Representative 2003-2007
+Responsible for sales and surgical coverage for Arthrotek Sports Medicine and Biomet joint replacements and trauma.
+Grew initial territory from $540k per year to over $2.4 million annually.
+Pharmacia Corporation/ Searle Pharmaceuticals 1998-2003
+Arthritis and Pain Specialty Sales Representative
+Education
+Western Kentucky University, Bowling Green, KY
+Bachelor of Science — Health Care Administration
+Military Service
+United States Army National Guard, Kentucky
+Indirect Fire Infantryman
+Honorable Discharge
+United States Army, Fort Riley, Kansas
+Indirect Fire Infantryman
+Honorable Discharge
+Skills
+Time Management Strong Communication Customer Focused Sales Trainer
+
+
+Crea una versione pulita e completa combinando le due versioni. Assicurati di includere tutti i dettagli importanti come nome, contatti, esperienze, formazione, competenze, ecc. Non aggiungere commenti o spiegazioni.
+
+Risposta:
+**Ronald K. Bray**  
+Jupiter, FL 33458  
+ronbray13@gmail.com | 561-385-9343 | www.linkedin.com/in/ronbray  
+
+**Customer Focused and Results Driven Sales Professional**  
+Strategic Thinker | Adaptive Approach | Product Expert  
+
+Eccezionale rappresentante di vendite esterne con esperienza nell'establishing e nella crescita di territori di vendita in più regioni. Specialista nella costruzione di rapporti con una varietà di personalità e background per identificare le esigenze dei clienti, sviluppare strategie, fornire soluzioni e chiudere le vendite, risultando in clienti soddisfatti e fedeli.  
+
+**Testimonial**  
+“I worked with Ron for many years. Ron is a professional. He knows his stuff and is a pleasure to be around both personally but also in the OR environment. He makes everyone in the facility his friend, as a result of this he manages to cut through red tape with his personality and relationships. He is also a hard worker and as reliable as you can be. He is the kind of person I would want to represent myself and my company."  
+— Dr. Howard Routman, President at Atlantis Orthopaedics  
+
+**Career Highlights**  
+
+**Zimmer Biomet One - A Distributor for Zimmer Biomet Corporation**  
+*Orthopedic Sales Representative*  
+Luglio 2024 - Presente  
+Responsabilità principali: attività di vendita e copertura dei casi per le contee di Palm Beach, Martin e St. Lucie.  
+
+**Orthopedic Resources - Distributor for Conformis/Restor3d, Corin, Signature and Medacta**  
+*Orthopedic Sales Representative*  
+Gennaio 2024 - Giugno 2024  
+Responsabilità principali: attività di vendita e copertura dei casi per le contee di Palm Beach, Martin, St. Lucie e Broward.  
+
+**Landstar System - Ranger**  
+*Business Capacity Owner*  
+Luglio 2023 - Gennaio 2024  
+
+**Cowan Systems - National Roads**  
+*Lease Purchase Operator*  
+Febbraio 2023 - Luglio 2023  
+
+**Freymiller Inc**  
+*Lease Purchase Operator*  
+Dicembre 2022 - Febbraio 2023  
+
+**Empire City Labs**  
+*Account Manager*  
+Febbraio - Novembre 2022  
+Responsabile per l'educazione e il servizio ai clienti sui test e servizi disponibili per le loro pratiche individuali.  
+
+**CRST Transportation**  
+*Caterpillar Dedicated Route Driver*  
+2021 - 2022  
+*Van Expedited OTR Driver*  
+
+**RKB Medical LLC**  
+*Medical Product Sales Consultant*  
+2016 - 2021  
+Organizzazione boutique di prodotti e vendite mediche.  
+
+**Allied Universal**  
+*Chemical Account Management*  
+2018 - 2020  
+Responsabile per la gestione degli account e le vendite sul campo nelle contee di Broward e Palm Beach.  
+
+**Smart Pharmacy**  
+*Pharmaceutical Account Executive*  
+2017 - 2018  
+Responsabile per le vendite e il marketing delle opzioni di farmacia di compounding dell'organizzazione.  
+
+**ConMed Linvatec Corp.**  
+*Orthopedic Sales Representative*  
+2013 - 2016  
+Assunzione diretta per rappresentare il portafoglio dell'azienda nelle contee di Palm Beach, Broward, Martin e St. Lucie.  
+
+**Osteo Encore - Distributor of DJO Surgical and Omni Life Science/Corin**  
+*Orthopedic Sales Representative*  
+2010 - 2013  
+Rappresentato l'organizzazione vendendo e coprendo interventi chirurgici nelle contee di Palm Beach, Broward, Martin e St. Lucie.  
+
+**RedMedical - Distributor for Arthrex**  
+*Orthopedic Sales Representative*  
+2007 - 2010  
+Responsabile per le vendite e la copertura del portafoglio prodotti nelle contee di Palm Beach, Martin e St. Lucie. Crescita annuale delle vendite di oltre il 30% durante il mio periodo in questo ruolo.  
+
+**Fields Medical Corporation - Distributor of Biomet**  
+*Orthopedic Sales Representative*  
+2003 - 2007  
+Responsabile per le vendite e la copertura chirurgica per Arthrotek Sports Medicine e Biomet joint replacements e trauma. Cresciuto il territorio iniziale da $540k all'anno a oltre $2.4 milioni annualmente.  
+
+**Pharmacia Corporation/Searle Pharmaceuticals**  
+*Arthritis and Pain Specialty Sales Representative*  
+1998 - 2003  
+
+**Education**  
+Western Kentucky University, Bowling Green, KY  
+Bachelor of Science – Health Care Administration  
+
+**Military Service**  
+United States Army National Guard, Kentucky  
+*Indirect Fire Infantryman*  
+Onorevole congedo  
+
+United States Army, Fort Riley, Kansas  
+*Indirect Fire Infantryman*  
+Onorevole congedo  
+
+**Skills**  
+Time Management | Strong Communication | Customer Focused | Sales Trainer  

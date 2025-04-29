@@ -1,0 +1,16 @@
+2025-04-01 19:20:02,625 - INFO - bfcv_007.py:3195 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-04-01 19:20:02,625 - INFO - bfcv_007.py:3196 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-04-01 19:20:02,626 - INFO - bfcv_007.py:3197 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-04-01 19:20:02,626 - INFO - bfcv_007.py:3198 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-04-01 19:20:02,626 - INFO - bfcv_007.py:3199 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-04-01 19:20:02,637 - INFO - bfcv_007.py:3606 - main - Mantenuto st.session_state.fields esistente con 18 campi
+2025-04-01 19:20:02,637 - INFO - bfcv_007.py:3612 - main - Mantenuto st.session_state.available_fields esistente con 18 campi
+2025-04-01 19:20:02,637 - INFO - bfcv_007.py:3623 - main - Mantenuto st.session_state.selected_fields esistente con 18 campi
+2025-04-01 19:20:02,739 - INFO - bfcv_007.py:4238 - main - Risultati trovati in session_state, procedo con la visualizzazione
+2025-04-01 19:20:02,741 - INFO - bfcv_007.py:4264 - main - Creazione tabs: ['📊 Panoramica', '🔍 Dettaglio', '⚖️ Confronta', '📋 Schede CV', '🏢 Aziende']
+2025-04-01 19:20:02,743 - INFO - bfcv_007.py:4268 - main - Rendering tab Panoramica
+2025-04-01 19:20:02,775 - INFO - bfcv_007.py:4420 - main - Visualizzazione DataFrame dei risultati nella panoramica
+2025-04-01 19:20:03,030 - INFO - bfcv_007.py:4670 - main - Rendering tab Dettaglio
+2025-04-01 19:20:03,034 - INFO - bfcv_007.py:4889 - main - Rendering tab Confronta
+2025-04-01 19:20:03,039 - INFO - bfcv_007.py:4905 - main - Confronto tra CV: CV Alessio Gasperetti. Italiano.pdf e Giorgio.Floriddia.Cv.25 (1).pdf
+2025-04-01 19:20:03,060 - INFO - bfcv_007.py:4982 - main - Rendering tab Schede CV

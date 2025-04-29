@@ -1,0 +1,12 @@
+2025-04-28 15:27:06,202 - INFO - bfcv_007.py:3195 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-04-28 15:27:06,202 - INFO - bfcv_007.py:3196 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-04-28 15:27:06,203 - INFO - bfcv_007.py:3197 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-04-28 15:27:06,203 - INFO - bfcv_007.py:3198 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-04-28 15:27:06,203 - INFO - bfcv_007.py:3199 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-04-28 15:27:06,217 - INFO - bfcv_007.py:3606 - main - Mantenuto st.session_state.fields esistente con 16 campi
+2025-04-28 15:27:06,218 - INFO - bfcv_007.py:3612 - main - Mantenuto st.session_state.available_fields esistente con 18 campi
+2025-04-28 15:27:06,218 - INFO - bfcv_007.py:3623 - main - Mantenuto st.session_state.selected_fields esistente con 16 campi
+2025-04-28 15:27:06,240 - DEBUG - bfcv_007.py:1125 - get_cached_response - Verifico cache in: D:\Progetti\BFCV\ai_cache\ollama-phi4:latest-4d609da8a2bcd5d36f70ca7ee0acf7db.txt
+2025-04-28 15:27:06,241 - INFO - bfcv_007.py:1162 - get_cached_response - Nessuna cache trovata per ollama-phi4:latest con hash 4d609da8a2bcd5d36f70ca7ee0acf7db
+2025-04-28 15:27:14,874 - INFO - bfcv_007.py:1240 - save_to_cache - Risposta salvata nella cache: D:\Progetti\BFCV\ai_cache\ollama-phi4:latest-4d609da8a2bcd5d36f70ca7ee0acf7db.txt
+2025-04-28 15:27:14,973 - WARNING - bfcv_007.py:5076 - main - Nessun risultato trovato in session_state

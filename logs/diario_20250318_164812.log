@@ -1,0 +1,11 @@
+2025-03-18 16:48:12,334 - INFO - bfcv_007.py:2243 - setup_logger - ================ AVVIO APPLICAZIONE ================
+2025-03-18 16:48:12,336 - INFO - bfcv_007.py:2244 - setup_logger - Versione Python: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+2025-03-18 16:48:12,336 - INFO - bfcv_007.py:2245 - setup_logger - Directory di lavoro: D:\Progetti\BFCV
+2025-03-18 16:48:12,337 - INFO - bfcv_007.py:2246 - setup_logger - Directory dei log: D:\Progetti\BFCV\logs
+2025-03-18 16:48:12,337 - INFO - bfcv_007.py:2247 - setup_logger - Configurazione logger completata - livello DEBUG abilitato
+2025-03-18 16:48:12,378 - INFO - bfcv_007.py:2608 - main - Risultati trovati in session_state, procedo con la visualizzazione
+2025-03-18 16:48:12,398 - INFO - bfcv_007.py:2621 - main - Rendering tab Panoramica
+2025-03-18 16:48:12,401 - INFO - bfcv_007.py:2649 - main - Visualizzazione DataFrame dei risultati nella panoramica
+2025-03-18 16:48:12,521 - INFO - bfcv_007.py:2672 - main - Rendering tab Dettaglio
+2025-03-18 16:48:12,524 - INFO - bfcv_007.py:2756 - main - Rendering tab Confronta
+2025-03-18 16:48:12,530 - INFO - bfcv_007.py:2772 - main - Confronto tra CV: (Ita) Alessandro Anceschi - CV.pdf e 0_Rafael-Patron_AI_Program_Manager.pdf
