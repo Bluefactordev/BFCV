@@ -1,0 +1,1 @@
+"{\n    \"Lingue conosciute\": \"Italiano\",\n    \"Soft skills\": \"Public Relation, gestione team, organizzazione eventi\",\n    \"Lingue straniere\": \"Inglese (presunto, dato il contesto professionale internazionale)\"\n}"

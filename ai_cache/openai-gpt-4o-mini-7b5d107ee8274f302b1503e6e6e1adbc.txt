@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"22\",\n    \"Città di origine\": \"Livorno\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Corso di HR Specialist\",\n    \"Legame con Firenze\": \"Non specificato, ma potrebbe avere legami tramite studi o attività professionali nella regione.\",\n    \"Lingue straniere\": \"Non specificato, ma si presume una conoscenza di base dell'inglese.\"\n}"

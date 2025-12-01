@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Arezzo\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"5 anni\",\n    \"Legame con Firenze\": \"Lavoro attualmente a Leccio, vicino a Firenze\"\n}"

@@ -1,0 +1,67 @@
+{
+  "name": "Account 2005 Novembre",
+  "description": "",
+  "created_at": "2025-11-24T16:20:28.809776",
+  "updated_at": "2025-11-24T16:38:51.990877",
+  "fields": [
+    "Nome",
+    "Cognome",
+    "Numero di contatto",
+    "Email",
+    "Et\u00e0",
+    "Citt\u00e0 di residenza",
+    "Citt\u00e0 di origine",
+    "Anni di esperienza lavorativa",
+    "Anni di esperienza lavorativa nel ruolo richiesto",
+    "Master o assimilabile nel ruolo richiesto",
+    "Formazione pi\u00f9 alta",
+    "Universit\u00e0/Istituto",
+    "Posizione attuale",
+    "Datori di lavoro precedenti",
+    "Lingue conosciute",
+    "Legame con Firenze",
+    "Soft skills",
+    "Lingue straniere"
+  ],
+  "job_description": "Stiamo cercando una persona con molta passione per il digital marketing e la comunicazione multicanale, attitudine al rapporto con i clienti ed alla gestione di progetti, e ottima padronanza della lingua inglese.\nSono gradite esperienze in digital agency e predisposizione ad attivit\u00e0 di new business e business development.\nIl lavoro si svolger\u00e0 all'interno di un team composto da creativi, esperti di digital marketing, web copy, in un clima collaborativo e di continua evoluzione.\nIl lavoro comporter\u00e0 il contatto con i clienti, molti dei quali aziende di altissimo profilo, leader in Italia e nel mondo nei propri settori.\nPreferiremo persone:\n- sembrino sveglie e fresche di testa\n- rigorosamente sotto i 30 anni\n- ragionevolemte coinvolgibili con un apprensistato\n-  pronte subito che non debbano dare lunghissimo preavviso o almeno La cui situazione professionale in questo momento faccia pensare che non dovranno dare un grande preavviso\n- meglio se hanno una sia pur breve esperienza in agenzia\n",
+  "cv_dir": "D:\\Progetti\\BFCV\\CVS\\Account_2025",
+  "criteria_weights": {
+    "competenze_tecniche": 25,
+    "esperienza_rilevante": 25,
+    "formazione": 15,
+    "problem_solving": 15,
+    "leadership": 10,
+    "potenziale_crescita": 10
+  },
+  "evaluation_criteria": [
+    [
+      "competenze_tecniche",
+      "Competenze Tecniche"
+    ],
+    [
+      "esperienza_rilevante",
+      "Esperienza Settoriale"
+    ],
+    [
+      "formazione",
+      "Formazione"
+    ],
+    [
+      "problem_solving",
+      "Problem Solving"
+    ],
+    [
+      "leadership",
+      "Leadership"
+    ],
+    [
+      "potenziale_crescita",
+      "Potenziale"
+    ]
+  ],
+  "llm_model": "gpt-4o-mini",
+  "use_ollama": false,
+  "api_key": "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",
+  "use_cache": true,
+  "max_cv_to_analyze": 999
+}

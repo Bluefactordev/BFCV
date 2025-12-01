@@ -1,0 +1,844 @@
+{
+  "metadata": {
+    "created_at": "2025-11-28T10:10:18.713111",
+    "analysis_file": "D:\\Progetti\\BFCV\\analysis_results\\analysis_0b7f8b704e04e689_20251128_100852.json",
+    "last_updated": "2025-11-28T10:10:26.247162",
+    "total_results": 6
+  },
+  "results": [
+    {
+      "filename": "Vanessa Poggi CV (1).pdf",
+      "path": "G:\\Drive condivisi\\Bluefactor - Produzione\\Ricerche di personale\\Account2025\\Vanessa Poggi CV (1).pdf",
+      "result": {
+        "extraction": {
+          "Nome": "Vanessa",
+          "Cognome": "Poggi",
+          "Numero di contatto": "+39 333 3315500",
+          "Email": "vanessapoggi@hotmail.it",
+          "Età": 32,
+          "Città di residenza": "Florence",
+          "Città di origine": "Florence",
+          "Anni di esperienza lavorativa": 6,
+          "Anni di esperienza lavorativa nel ruolo richiesto": "7",
+          "Master o assimilabile nel ruolo richiesto": "Bachelor Degree in Media and Communication Science",
+          "Formazione più alta": "Bachelor Degree in Media and Communication Science",
+          "Università/Istituto": "Università degli Studi di Firenze",
+          "Posizione attuale": "Project Manager",
+          "Datori di lavoro precedenti": "Proartist Management S.R.L., Associazione Property Managers Italia, Guccio Gucci S.p.A., Benedetta Martini",
+          "Lingue conosciute": "Italian, English, Spanish, French",
+          "Legame con Firenze": "Vive a Firenze e ha studiato lì",
+          "Soft skills": "Team Oriented, Listening, Communication, Goal Oriented, Problem Solving, Leadership",
+          "Lingue straniere": "English, Spanish, French",
+          "Forza principale": "Esperienza nella gestione dei social media e forte capacità di comunicazione",
+          "Debolezza principale": "Mancanza di esperienza specifica nel digital marketing e performance web marketing",
+          "Fit generale": "Vanessa ha competenze in area comunicativa e gestione eventi, ma necessita di maggiore esperienza specifica nel digital marketing per essere completamente allineata al ruolo.",
+          "aziende_menzionate": "Proartist Management S.R.L., Associazione Property Managers Italia, Guccio Gucci S.p.A., Benedetta Martini"
+        },
+        "criteria": {
+          "criteria": {
+            "competenze_tecniche": {
+              "score": 60,
+              "motivation": "Vanessa ha esperienza nella gestione dei social media, ma non ha competenze specifiche nel digital marketing e nella performance web marketing, che sono cruciali per il ruolo."
+            },
+            "esperienza_rilevante": {
+              "score": 70,
+              "motivation": "Ha un buon background nella gestione di eventi e social media, ma manca di esperienza diretta nel digital marketing e nella gestione di campagne SEO/SEM."
+            },
+            "formazione": {
+              "score": 80,
+              "motivation": "Possiede una laurea in Media e Comunicazione, che è pertinente al ruolo, anche se non è un master."
+            },
+            "problem_solving": {
+              "score": 75,
+              "motivation": "Dimostra buone capacità di problem solving attraverso le sue esperienze lavorative, in particolare nella gestione di eventi e relazioni con i clienti."
+            },
+            "leadership": {
+              "score": 70,
+              "motivation": "Ha ricoperto ruoli di responsabilità, come Project Manager, ma non ha evidenze forti di leadership in contesti di team creativi."
+            },
+            "potenziale_crescita": {
+              "score": 65,
+              "motivation": "Sebbene manchi di esperienza specifica, la sua attitudine e background comunicativo suggeriscono un buon potenziale di crescita nel digital marketing."
+            }
+          },
+          "composite_score": 69,
+          "extraction": {
+            "Nome": "Vanessa",
+            "Cognome": "Poggi",
+            "Numero di contatto": "+39 333 3315500",
+            "Email": "vanessapoggi@hotmail.it",
+            "Età": 32,
+            "Città di residenza": "Florence",
+            "Città di origine": "Florence",
+            "Anni di esperienza lavorativa": 6,
+            "Anni di esperienza lavorativa nel ruolo richiesto": "7",
+            "Master o assimilabile nel ruolo richiesto": "Bachelor Degree in Media and Communication Science",
+            "Formazione più alta": "Bachelor Degree in Media and Communication Science",
+            "Università/Istituto": "Università degli Studi di Firenze",
+            "Posizione attuale": "Project Manager",
+            "Datori di lavoro precedenti": "Proartist Management S.R.L., Associazione Property Managers Italia, Guccio Gucci S.p.A., Benedetta Martini",
+            "Lingue conosciute": "Italian, English, Spanish, French",
+            "Legame con Firenze": "Vive a Firenze e ha studiato lì",
+            "Soft skills": "Team Oriented, Listening, Communication, Goal Oriented, Problem Solving, Leadership",
+            "Lingue straniere": "English, Spanish, French",
+            "Forza principale": "Esperienza nella gestione dei social media e forte capacità di comunicazione",
+            "Debolezza principale": "Mancanza di esperienza specifica nel digital marketing e performance web marketing",
+            "Fit generale": "Vanessa ha competenze in area comunicativa e gestione eventi, ma necessita di maggiore esperienza specifica nel digital marketing per essere completamente allineata al ruolo.",
+            "aziende_menzionate": "Proartist Management S.R.L., Associazione Property Managers Italia, Guccio Gucci S.p.A., Benedetta Martini"
+          },
+          "companies": [
+            {
+              "name": "ProArtist Management S.R.L",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-28 17:37:47",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Associazione Property Managers Italia",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-28 17:37:47",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Guccio Gucci S.p.A",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-28 17:37:48",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Benedetta Martini",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-28 17:37:48",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            }
+          ]
+        },
+        "composite_score": 69
+      },
+      "cv_text": "**VANESSA POGGI**  \nI am an open and independent person eager to work facing every new challenge. My ambition is to develop a solid professional career path, improving my managerial and negotiation skills, working in a team, pursuing goals, and achieving high-quality results.  \n\n**PERSONAL INFO**  \nDate of birth: 24/06/1991  \nCitizen: Italian  \nAddress: Via Filippo Turati 6, Florence  \nPhone: +39 333 3315500  \nEmail: vanessapoggi@hotmail.it  \nLinkedIn: Vanessa Poggi  \nAvailable to relocate  \n\n**EDUCATION**  \n- Bachelor Degree in Media and Communication Science  \n  Università degli Studi di Firenze (April 2016)  \n- Linguistic High School Diploma  \n  \"Machiavelli-Capponi\" Liceo Linguistico Internazionale (July 2010)  \n\n**LANGUAGES SKILLS**  \n- Italian: Mother tongue  \n- English: Full proficiency fluent  \n- Spanish: Full proficiency fluent  \n- French: Fluent  \n\n**TECHNICAL SKILLS**  \n- Microsoft Office: Advanced knowledge of Excel, Word, PowerPoint.  \n\n**SOFT SKILLS**  \nTeam Oriented, Listening, Communication, Goal Oriented, Problem Solving, Leadership.  \n\n**WORK EXPERIENCE**  \n\n**PROARTIST MANAGEMENT S.R.L.**  \n01/2021 - Current  \nFlorence  \nProject Manager  \nPermanent job focused on event/show management and building strong relationships with clients and artists.  \nMain activities:  \n- Planning activities regarding engagements, managing artist needs, and maintaining constant communication to ensure effective collaboration between the agency and the artists;  \n- Logistical planning, resource management, and coordination of all activities necessary for the successful execution of performances;  \n- Managing the company's presence on social media and online interaction with the audience, including content posting, handling responses to comments, and promoting events and projects;  \n- Office operations management and other administrative activities.  \n\n**ASSOCIAZIONE PROPERTY MANAGERS ITALIA**  \n01/2022 – 04/2024  \nFlorence  \nSales Manager  \nCollaboration activity as Sales Manager for Italian Property Managers Association.  \nMain activities:  \n- Identification and evaluation of potential sponsors, creation of sponsorship proposals, and negotiation of the offered packages;  \n- Management of daily invoicing operations, monthly reporting on company costs/revenues, and maintenance of existing relationships monitoring performance and results;  \n- Organization of webinars, including the management of registrations and interactions in real time and in a professional way.  \n\n**GUCCIO GUCCI S.p.A.**  \n01/2019 – 01/2020  \nFlorence  \nPost Production Planner  \nFixed term job responsible for strategically planning the post-production workflow and delivering e-commerce images for Gucci.com/Wholesale.  \nMain activities:  \n- Photo-shooting and post-production management ensuring high-quality output and seamless workflow;  \n- Collaboration with Corporate Image Department and other external functions to structure and realize the editing requests while respecting deadlines.  \n\n**BENEDETTA MARTINI**  \n10/2011 – 09/2016  \nFlorence  \nEvent Planner  \nOn-call job related to supervision and planning for fashion events.  \nMain activities:  \n- Planning and inspection of in-site installations;  \n- Social media promoting to sponsor the event and manage feedback.  \n\nI hereby consent to the processing of the data I provided in this CV. I declare my agreement with the data protection regulations in the data privacy statement.",
+      "timestamp": "2025-11-28T10:10:18.713111"
+    },
+    {
+      "filename": "CV SILVIA PRASTARO.pdf",
+      "path": "G:\\Drive condivisi\\Bluefactor - Produzione\\Ricerche di personale\\Account2025\\CV SILVIA PRASTARO.pdf",
+      "result": {
+        "extraction": {
+          "Nome": "Silvia",
+          "Cognome": "Prastaro",
+          "Numero di contatto": "+39 3397481386",
+          "Email": "prastaro.silvia.3@gmail.com",
+          "Età": 30,
+          "Città di residenza": "Roma",
+          "Città di origine": "Roma",
+          "Anni di esperienza lavorativa": 2,
+          "Anni di esperienza lavorativa nel ruolo richiesto": 2,
+          "Master o assimilabile nel ruolo richiesto": "Sì",
+          "Formazione più alta": "Laurea Magistrale",
+          "Università/Istituto": "Università di Roma La Sapienza",
+          "Posizione attuale": "Project Manager / Social Media Manager",
+          "Datori di lavoro precedenti": "CASA MARIOLA PRODUCTION SRLS, TYPIMEDIA SRL, ARKAGE - ART ATTACK GROUP",
+          "Lingue conosciute": "Italiano, Inglese",
+          "Legame con Firenze": "Non specificato, ma possibile legame tramite esperienze lavorative nel settore culturale",
+          "Soft skills": "Organizzazione, Lavoro in team, Rispetto delle deadline, Problem solving",
+          "Lingue straniere": "Inglese - B2",
+          "forza_principale": "Esperienza significativa nella gestione di social media e marketing, con un forte focus sul lavoro di squadra e coordinamento di progetti.",
+          "debolezza_principale": "Residenza a Roma, nessun legame specifico con Firenze.",
+          "fit_generale": "Il candidato ha esperienza diretta in digital marketing e social media, ma non soddisfa il requisito della residenza a Firenze.",
+          "aziende_menzionate": "CASA MARIOLA PRODUCTION SRLS, TYPIMEDIA SRL, ARKAGE - ART ATTACK GROUP"
+        },
+        "criteria": {
+          "criteria": {
+            "competenze_tecniche": {
+              "score": 80,
+              "motivation": "Silvia ha una solida esperienza nella gestione di social media e nella creazione di contenuti, ma non è specificato un utilizzo approfondito di strumenti come Meta Business Manager."
+            },
+            "esperienza_rilevante": {
+              "score": 85,
+              "motivation": "Ha due anni di esperienza diretta nel digital marketing e social media, con ruoli significativi in aziende di rilievo."
+            },
+            "formazione": {
+              "score": 90,
+              "motivation": "Possiede un Master in Management dell’arte e dei beni culturali e una Laurea Magistrale, che la rendono ben preparata per il ruolo."
+            },
+            "problem_solving": {
+              "score": 80,
+              "motivation": "Ha dimostrato capacità di problem solving in contesti lavorativi complessi, gestendo team e progetti con successo."
+            },
+            "leadership": {
+              "score": 75,
+              "motivation": "Ha coordinato un team creativo, ma non ci sono dettagli specifici su esperienze di leadership formale."
+            },
+            "potenziale_crescita": {
+              "score": 80,
+              "motivation": "La sua attitudine e le esperienze precedenti suggeriscono un buon potenziale di crescita nel settore del digital marketing."
+            }
+          },
+          "composite_score": 80.25,
+          "extraction": {
+            "Nome": "Silvia",
+            "Cognome": "Prastaro",
+            "Numero di contatto": "+39 3397481386",
+            "Email": "prastaro.silvia.3@gmail.com",
+            "Età": 30,
+            "Città di residenza": "Roma",
+            "Città di origine": "Roma",
+            "Anni di esperienza lavorativa": 2,
+            "Anni di esperienza lavorativa nel ruolo richiesto": 2,
+            "Master o assimilabile nel ruolo richiesto": "Sì",
+            "Formazione più alta": "Laurea Magistrale",
+            "Università/Istituto": "Università di Roma La Sapienza",
+            "Posizione attuale": "Project Manager / Social Media Manager",
+            "Datori di lavoro precedenti": "CASA MARIOLA PRODUCTION SRLS, TYPIMEDIA SRL, ARKAGE - ART ATTACK GROUP",
+            "Lingue conosciute": "Italiano, Inglese",
+            "Legame con Firenze": "Non specificato, ma possibile legame tramite esperienze lavorative nel settore culturale",
+            "Soft skills": "Organizzazione, Lavoro in team, Rispetto delle deadline, Problem solving",
+            "Lingue straniere": "Inglese - B2",
+            "forza_principale": "Esperienza significativa nella gestione di social media e marketing, con un forte focus sul lavoro di squadra e coordinamento di progetti.",
+            "debolezza_principale": "Residenza a Roma, nessun legame specifico con Firenze.",
+            "fit_generale": "Il candidato ha esperienza diretta in digital marketing e social media, ma non soddisfa il requisito della residenza a Firenze.",
+            "aziende_menzionate": "CASA MARIOLA PRODUCTION SRLS, TYPIMEDIA SRL, ARKAGE - ART ATTACK GROUP"
+          },
+          "companies": [
+            {
+              "name": "CASA MARIOLA PRODUCTION SRLS",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-28 17:47:35",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "TYPIMEDIA SRL",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-28 17:47:36",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "ARKAGE - ART ATTACK GROUP",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-28 17:47:36",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            }
+          ]
+        },
+        "composite_score": 82
+      },
+      "cv_text": "**SILVIA PRASTARO**  \nProject Manager / Social Media Manager  \n\n**Contatti**  \nEmail: prastaro.silvia.3@gmail.com  \nTelefono: +39 3397481386  \nIndirizzo: Via Attilio Hortis 68, 00177 Roma (Rm) - Italy  \nData di nascita: 03/08/1993  \n\n---\n\n**Esperienze di lavoro**  \n\n**CASA MARIOLA PRODUCTION SRLS**  \nProject Manager / Social Media Manager  \n11/2022 - corrente  \nLa mia esperienza più importante riguarda la valorizzazione e gestione del Personal Brand di Chef Max Mariola e delle attività a lui connesse di Influencer Marketing. Gestisco e supervisiono un team creativo per ottenere il massimo dei risultati in termini di qualità dei contenuti realizzati. Sono l’anello di congiunzione tra digital agencies e/o aziende e il food influencer Chef Max Mariola. Organizzo e pianifico la produzione di contenuti branded e non branded per le piattaforme social IG, FB e YT; mi occupo della stesura di progetti e preventivi per attività di IM per eventi e contenuti video sponsor; scrivo copy e pubblico su FB, IG e IGS. Coordino il team interno e mi interfaccio con partner esterni per la realizzazione di altri progetti come: il libro di cucina \"The Sound of Love\", Max Mariola il Ristorante, Max Mariola Bistrot, Max Mariola Academy.\n\n**TYPIMEDIA SRL**  \nSocial Media Manager  \n03/2022 - 10/2022  \nPiani editoriali, copy social, copy per newsletter, articoli Wordpress, grafiche Photoshop, social posting su IG e FB, sono le attività che ho svolto presso Typimedia Editore per circa 8 mesi. Questa è stata la mia prima esperienza di lavoro in azienda che mi ha fatto capire cosa vuol dire essere focalizzati su un solo progetto.\n\n**ARKAGE - ART ATTACK GROUP**  \nJunior Project Manager / Junior SMM  \n03/2021 - 09/2021  \nQuella svolta presso l’agenzia creativa Arkage - Art Attack Group, con sedi a Roma e Milano, è stata uno stage curricolare intenso e altamente formativo. Grazie alle numerose attività svolte per progetti pensati e realizzati per svariati clienti, da Amnesty Italia a DeLonghi, da Mercedes-Benz ad Alpitour, ho potuto mettere alla prova le mie capacità di problem solving, di organizzazione del lavoro in team, del rapporto con i clienti e gestione del budget. Ho capito cosa significa affrontare sfide sempre diverse, trovare soluzioni a possibili criticità e lavorare in squadra per raggiungere gli obiettivi prefissati.\n\n---\n\n**Formazione**  \n\n**Giunti e Treccani Academy**  \nMaster post-laurea in Management dell’arte e dei beni culturali  \n03/2020 - 03/2021  \n110/110 con lode  \n\n**Università di Roma La Sapienza**  \nLaurea Magistrale in Editoria e scrittura  \n24/01/2020  \n\n---\n\n**Competenze**  \n- Organizzazione  \n- Lavoro in team  \n- Rispetto delle deadline  \n- Problem solving  \n\n**Work Tools**  \n- Asana Project Manager  \n- Google Workspace  \n- Slack  \n- PowerPoint  \n- Excel  \n- Wordpress  \n- AirTable  \n- Photoshop  \n\n---\n\n**Lingue**  \n- Italiano - Madrelingua  \n- Inglese - B2  \n\n---\n\nAutorizzo il trattamento dei dati personali contenuti nel mio CV ai sensi dell'art. 13 del GDPR 679/2016 – Regolamento Generale sulla Protezione Dati – e dell'art. 13 del D. Lgs. 196/2003 – Codice in materia di protezione dei dati personali.",
+      "timestamp": "2025-11-28T10:10:20.640446"
+    },
+    {
+      "filename": "CV Leonardo Ronzini (1).pdf",
+      "path": "G:\\Drive condivisi\\Bluefactor - Produzione\\Ricerche di personale\\Account2025\\CV Leonardo Ronzini (1).pdf",
+      "result": {
+        "extraction": {
+          "Nome": "Leonardo",
+          "Cognome": "Ronzini",
+          "Numero di contatto": "3387355845",
+          "Email": "leonardo.ronzini@yahoo.it",
+          "Età": 26,
+          "Città di residenza": "Castel del Piano (GR)",
+          "Città di origine": "Castel del Piano (GR)",
+          "Anni di esperienza lavorativa": 3,
+          "Anni di esperienza lavorativa nel ruolo richiesto": "2 anni",
+          "Master o assimilabile nel ruolo richiesto": "No",
+          "Formazione più alta": "Laurea magistrale in Food Marketing e strategie commerciali",
+          "Università/Istituto": "Università Cattolica del Sacro Cuore",
+          "Posizione attuale": "Assistant Brand Manager",
+          "Datori di lavoro precedenti": "Affinity Petcare, Caffeina S.p.A",
+          "Lingue conosciute": "Italiano, Inglese, Francese",
+          "Legame con Firenze": "Non specificato, ma la città è nella stessa regione della Toscana",
+          "Soft skills": "Passione per marketing, capacità analitiche, pensiero creativo, impegno, costanza",
+          "Lingue straniere": "Inglese (B2), Francese (B2)",
+          "Forza principale": "Passione per il marketing e capacità di unire competenze analitiche e creative.",
+          "Debolezza principale": "Nessuna esperienza specifica nel ruolo richiesto di digital marketing e social media marketing.",
+          "Fit generale": "Il candidato ha una buona formazione e competenze nel marketing, ma manca di esperienza diretta nel social media marketing richiesto dal lavoro.",
+          "aziende_menzionate": "Affinity Petcare, Caffeina S.p.A, Scuola di fumetto e scrittura"
+        },
+        "criteria": {
+          "criteria": {
+            "competenze_tecniche": {
+              "score": 75,
+              "motivation": "Il candidato ha competenze tecniche solide, inclusa esperienza con social media ads e creazione di contenuti digitali, ma non ha menzionato specifiche competenze in SEO e SEM."
+            },
+            "esperienza_rilevante": {
+              "score": 60,
+              "motivation": "Ha due anni di esperienza lavorativa nel marketing, ma solo un'esperienza limitata come Social Media Manager, che potrebbe non essere sufficiente per il ruolo richiesto."
+            },
+            "formazione": {
+              "score": 85,
+              "motivation": "Possiede una laurea magistrale in Food Marketing e strategie commerciali, che è pertinente al settore, e ha ottenuto un'ottima votazione finale."
+            },
+            "problem_solving": {
+              "score": 70,
+              "motivation": "Il profilo del candidato indica capacità analitiche e un approccio creativo, suggerendo buone abilità di problem solving."
+            },
+            "leadership": {
+              "score": 65,
+              "motivation": "Non ci sono evidenze dirette di esperienze di leadership, ma il suo ruolo come Assistant Brand Manager suggerisce una certa capacità di gestione."
+            },
+            "potenziale_crescita": {
+              "score": 80,
+              "motivation": "Il candidato mostra una forte passione per il marketing e un desiderio di apprendimento, indicando un buon potenziale di crescita nel settore."
+            }
+          },
+          "composite_score": 71.5,
+          "extraction": {
+            "Nome": "Leonardo",
+            "Cognome": "Ronzini",
+            "Numero di contatto": "3387355845",
+            "Email": "leonardo.ronzini@yahoo.it",
+            "Età": 26,
+            "Città di residenza": "Castel del Piano (GR)",
+            "Città di origine": "Castel del Piano (GR)",
+            "Anni di esperienza lavorativa": 3,
+            "Anni di esperienza lavorativa nel ruolo richiesto": "2 anni",
+            "Master o assimilabile nel ruolo richiesto": "No",
+            "Formazione più alta": "Laurea magistrale in Food Marketing e strategie commerciali",
+            "Università/Istituto": "Università Cattolica del Sacro Cuore",
+            "Posizione attuale": "Assistant Brand Manager",
+            "Datori di lavoro precedenti": "Affinity Petcare, Caffeina S.p.A",
+            "Lingue conosciute": "Italiano, Inglese, Francese",
+            "Legame con Firenze": "Non specificato, ma la città è nella stessa regione della Toscana",
+            "Soft skills": "Passione per marketing, capacità analitiche, pensiero creativo, impegno, costanza",
+            "Lingue straniere": "Inglese (B2), Francese (B2)",
+            "Forza principale": "Passione per il marketing e capacità di unire competenze analitiche e creative.",
+            "Debolezza principale": "Nessuna esperienza specifica nel ruolo richiesto di digital marketing e social media marketing.",
+            "Fit generale": "Il candidato ha una buona formazione e competenze nel marketing, ma manca di esperienza diretta nel social media marketing richiesto dal lavoro.",
+            "aziende_menzionate": "Affinity Petcare, Caffeina S.p.A, Scuola di fumetto e scrittura"
+          },
+          "companies": [
+            {
+              "name": "Affinity Petcare",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-29 14:35:05",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Caffeina S.p.A",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-29 14:35:05",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Scuola di fumetto e scrittura",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-29 14:35:06",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            }
+          ]
+        },
+        "composite_score": 71
+      },
+      "cv_text": "**LEONARDO RONZINI**  \n30/08/1997  \nCastel del Piano (GR)  \nleonardo.ronzini@yahoo.it  \n3387355845  \n[linkedin.com/in/leonardo-ronzini](https://linkedin.com/in/leonardo-ronzini)  \n\n---\n\n**PROFILO**  \nAppassionato di marketing e di ogni forma di tecnologia, ho sempre cercato di unire le mie capacità analitiche al mio pensiero creativo. Sono alla continua ricerca di stimoli, per mettermi con umiltà alla prova, per imparare e migliorarmi. Ho sempre creduto nell'impegno e nella costanza, due concetti che hanno saputo regalarmi grandi soddisfazioni nella mia vita e durante il mio percorso di studi.\n\n---\n\n**ESPERIENZE LAVORATIVE**  \n- **Assistant Brand Manager**  \n  Affinity Petcare, Milano (MI)  \n  FEB 2024 - PRESENTE  \n\n- **Account Executive**  \n  Caffeina S.p.A, Parma (PR)  \n  GEN 2023 - GIU 2023  \n\n- **Assistant Account Executive**  \n  Caffeina S.p.A, Parma (PR)  \n  GEN 2022 - DIC 2022  \n\n- **Social Media Manager**  \n  Scuola di fumetto e scrittura, Siena (SI)  \n  MAR 2019 - GIU 2019  \n\n---\n\n**FORMAZIONE**  \n- **Laurea magistrale in Food Marketing e strategie commerciali (LM77)**  \n  Università Cattolica del Sacro Cuore, Piacenza  \n  2020 - 2025  \n  Votazione finale 110/110  \n  Business Game Lavazza - Coop | Calzedonia | Bolton | McCan  \n\n- **Laurea triennale in Scienze della Comunicazione (L20)**  \n  Università degli Studi di Siena  \n  2016 - 2019  \n  Tesi di Laurea: \"Il marketing digitale nell'era dello streaming: il caso Twitch\"  \n\n- **Liceo scientifico E. Fermi, Castel del Piano**  \n  Diploma di scuola superiore e Baccaulauréat  \n  2011 - 2016  \n\n---\n\n**COMPETENZE TECNICHE**  \n- Microsoft Office Suite  \n- Excel avanzato  \n- IOS system e software (Keynote)  \n- Montaggio video (Final Cut Pro)  \n- Social media ads  \n- Creazione contenuti digitali  \n\n---\n\n**LINGUE**  \n- Inglese: conoscenza professionale intermedia (B2)  \n- Francese: conoscenza professionale intermedia (B2)  \n\n---\n\nAutorizzo il trattamento dei dati personali ai sensi della legge 196/2003 e successive modifiche e ai sensi dell'art. 13 GDPR 679/16.",
+      "timestamp": "2025-11-28T10:10:21.717257"
+    },
+    {
+      "filename": "SILVIO PANDINO CV (1).pdf",
+      "path": "G:\\Drive condivisi\\Bluefactor - Produzione\\Ricerche di personale\\Account2025\\SILVIO PANDINO CV (1).pdf",
+      "result": {
+        "extraction": {
+          "Nome": "Silvio",
+          "Cognome": "Pandino",
+          "Numero di contatto": "+393476416683",
+          "Email": "silviopandino@virgilio.it",
+          "Età": "Circa 28-30 anni",
+          "Città di residenza": "Milano",
+          "Città di origine": "Milano",
+          "Anni di esperienza lavorativa": "3",
+          "Anni di esperienza lavorativa nel ruolo richiesto": "3 anni",
+          "Master o assimilabile nel ruolo richiesto": "Sì",
+          "Formazione più alta": "Laurea",
+          "Università/Istituto": "Università di Torino",
+          "Posizione attuale": "Account Executive",
+          "Datori di lavoro precedenti": "IDRA - Real Estate & Media, Mamma Mia ADV, Hovo Faber, Beready srl",
+          "Lingue conosciute": "Italiano, Inglese",
+          "Legame con Firenze": "Non specificato",
+          "Soft skills": "Passione per il marketing, determinazione, capacità di adattamento, umiltà",
+          "Lingue straniere": "Inglese"
+        },
+        "criteria": {
+          "criteria": {
+            "competenze_tecniche": {
+              "score": 80,
+              "motivation": "Il candidato ha una solida esperienza in digital marketing e social media, con competenze in SEO e SEM, che sono rilevanti per il ruolo."
+            },
+            "esperienza_rilevante": {
+              "score": 75,
+              "motivation": "Ha 3 anni di esperienza nel settore, lavorando come Account Executive e Junior Account Manager, ma non ha esperienza diretta nella gestione di social media specificamente per e-commerce."
+            },
+            "formazione": {
+              "score": 85,
+              "motivation": "Possiede un Master in Marketing e Comunicazione, oltre a una laurea in Scienze Umane, che forniscono una base teorica solida per il ruolo."
+            },
+            "problem_solving": {
+              "score": 70,
+              "motivation": "Il candidato ha dimostrato capacità di sviluppare strategie di marketing e gestire relazioni con i clienti, suggerendo buone abilità di problem solving."
+            },
+            "leadership": {
+              "score": 65,
+              "motivation": "Ha ricoperto ruoli di gestione junior, ma non ha esperienze di leadership significative che possano essere evidenziate."
+            },
+            "potenziale_crescita": {
+              "score": 75,
+              "motivation": "La sua passione per il marketing e il desiderio di migliorarsi indicano un buon potenziale di crescita all'interno del team."
+            }
+          },
+          "composite_score": 75.25,
+          "extraction": {
+            "Nome": "Silvio",
+            "Cognome": "Pandino",
+            "Numero di contatto": "+393476416683",
+            "Email": "silviopandino@virgilio.it",
+            "Età": "Circa 28-30 anni",
+            "Città di residenza": "Milano",
+            "Città di origine": "Milano",
+            "Anni di esperienza lavorativa": "3",
+            "Anni di esperienza lavorativa nel ruolo richiesto": "3 anni",
+            "Master o assimilabile nel ruolo richiesto": "Sì",
+            "Formazione più alta": "Laurea",
+            "Università/Istituto": "Università di Torino",
+            "Posizione attuale": "Account Executive",
+            "Datori di lavoro precedenti": "IDRA - Real Estate & Media, Mamma Mia ADV, Hovo Faber, Beready srl",
+            "Lingue conosciute": "Italiano, Inglese",
+            "Legame con Firenze": "Non specificato",
+            "Soft skills": "Passione per il marketing, determinazione, capacità di adattamento, umiltà",
+            "Lingue straniere": "Inglese"
+          },
+          "companies": [
+            {
+              "name": "IDRA - Real Estate & Media",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-28 17:03:24",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Mamma Mia ADV",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-28 17:03:20",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Hovo Faber",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-28 10:10:23",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Beready srl",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-28 17:03:23",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            }
+          ]
+        },
+        "composite_score": 76
+      },
+      "cv_text": "**Silvio Pandino**  \nVia Pellegrino Rossi 87, Milano  \nPhone: +393476416683  \nEmail: silviopandino@virgilio.it  \n\n---\n\n**Account Executive**  \nResults-oriented advertising account with a strong determination to exceed sales goals and cultivate strong client relationships. I have a passion for traditional and social media marketing and advertising, an extensive background in digital marketing and various skills in advertising. I always strive to improve myself while maintaining humility as the fundamental point of my evolution, the trait I believe is most important to stand out and move forward.\n\n---\n\n**Experience**  \n\n**IDRA - Real Estate & Media** - Account Executive (2023/2024)  \n- Developed and implemented marketing strategies to increase brand awareness and customer engagement.\n\n**Mamma Mia ADV** - Account Executive (2022/2023)  \n- Developed and executed strategic account plans to drive revenue growth and meet objectives (Clients: Over Holding, Getir, Hollister Inc, Unipol, KOS group, Multimedica, CDC Lab, EON, Magnesio Supremo, Chiesi Farmaceutici S.P.A).\n\n**Hovo Faber - Design Experience Studio** - Junior Account Manager (2021/2022)  \n- Developed and implemented marketing strategies to increase brand awareness and customer engagement (Clients: Chantecler).\n\n**Beready srl** - Junior Account Manager (2021)  \n- Developed and maintained relationships with clients to meet their business objectives (Clients: Barilla, Illy, Porsche).\n\n---\n\n**Education**  \n\n**University of Turin**  \nBachelor's degree, Modern Humanities  \n\n**Accademia di Comunicazione**  \nMaster certified ASFOR, Marketing, communication, digital marketing and social media strategy  \n\n**London Business School**  \nTaught Master's, Digital marketing: SEM, SEO, Social media and beyond  \n\n---\n\n**Expertise**  \n- Sales Strategy  \n- Digital Marketing  \n- Client Management  \n- Adobe Suite  \n\n---\n\n**Languages**  \n- English  \n- Italian  ",
+      "timestamp": "2025-11-28T10:10:23.429758"
+    },
+    {
+      "filename": "Stefano Foppiani CV ENG.pdf",
+      "path": "G:\\Drive condivisi\\Bluefactor - Produzione\\Ricerche di personale\\Account2025\\Stefano Foppiani CV ENG.pdf",
+      "result": {
+        "extraction": {
+          "Nome": "Stefano",
+          "Cognome": "Foppiani",
+          "Numero di contatto": "+39 3389193662",
+          "Email": "stefano.foppiani01@gmail.com",
+          "Età": "Circa 29 anni",
+          "Città di residenza": "Milan",
+          "Città di origine": "Milano",
+          "Anni di esperienza lavorativa": "Circa 6",
+          "Anni di esperienza lavorativa nel ruolo richiesto": "5 anni",
+          "Master o assimilabile nel ruolo richiesto": "Sì",
+          "Formazione più alta": "Master's Degree in Marketing and Digital Communications",
+          "Università/Istituto": "24 ORE Business School",
+          "Posizione attuale": "Senior Campaign Manager",
+          "Datori di lavoro precedenti": "Instal, Blogo, Officina Bio-farmaceutica Mastelli",
+          "Lingue conosciute": "Italian, English",
+          "Legame con Firenze": "Nessun legame specificato",
+          "Soft skills": "Gestione delle campagne, supporto clienti, collaborazione con team commerciali",
+          "Lingue straniere": "English - B2+",
+          "Forza principale": "Ampia esperienza in marketing digitale e gestione di campagne pubblicitarie, compreso l'uso della piattaforma Meta Business Suite.",
+          "Debolezza principale": "Non ha specificato esperienze nella gestione redazionale dei canali social o nella creazione di contenuti visivi.",
+          "Fit generale": "Stefano ha una buona formazione e esperienza nel digital marketing, ma potrebbe mancare di qualche componente richiesto nel focus sui social media e nuovi contenuti.",
+          "aziende_menzionate": "Instal, Blogo, Officina Bio-farmaceutica Mastelli"
+        },
+        "criteria": {
+          "criteria": {
+            "competenze_tecniche": {
+              "score": 85,
+              "motivation": "Stefano ha una solida conoscenza delle piattaforme di marketing digitale, inclusa la Meta Business Suite, e competenze in Google Analytics. Tuttavia, non ha evidenziato esperienze specifiche nella creazione di contenuti visivi."
+            },
+            "esperienza_rilevante": {
+              "score": 80,
+              "motivation": "Con circa 6 anni di esperienza nel marketing digitale e 5 anni nel ruolo richiesto, ha una buona base, ma il focus su social media e gestione redazionale è limitato."
+            },
+            "formazione": {
+              "score": 90,
+              "motivation": "Il Master in Marketing e Comunicazioni Digitali fornisce a Stefano una preparazione adeguata e attuale nel settore."
+            },
+            "problem_solving": {
+              "score": 75,
+              "motivation": "Ha dimostrato capacità di ottimizzare campagne e gestire KPI, ma non ci sono dettagli specifici su come affronta le sfide in situazioni complesse."
+            },
+            "leadership": {
+              "score": 70,
+              "motivation": "Sebbene abbia esperienza nella gestione di campagne e supporto ai clienti, non ci sono evidenze di ruoli di leadership diretta."
+            },
+            "potenziale_crescita": {
+              "score": 80,
+              "motivation": "La sua esperienza e formazione suggeriscono un buon potenziale di crescita, specialmente se supportato in aree come la gestione dei contenuti social."
+            }
+          },
+          "composite_score": 79.5,
+          "extraction": {
+            "Nome": "Stefano",
+            "Cognome": "Foppiani",
+            "Numero di contatto": "+39 3389193662",
+            "Email": "stefano.foppiani01@gmail.com",
+            "Età": "Circa 29 anni",
+            "Città di residenza": "Milan",
+            "Città di origine": "Milano",
+            "Anni di esperienza lavorativa": "Circa 6",
+            "Anni di esperienza lavorativa nel ruolo richiesto": "5 anni",
+            "Master o assimilabile nel ruolo richiesto": "Sì",
+            "Formazione più alta": "Master's Degree in Marketing and Digital Communications",
+            "Università/Istituto": "24 ORE Business School",
+            "Posizione attuale": "Senior Campaign Manager",
+            "Datori di lavoro precedenti": "Instal, Blogo, Officina Bio-farmaceutica Mastelli",
+            "Lingue conosciute": "Italian, English",
+            "Legame con Firenze": "Nessun legame specificato",
+            "Soft skills": "Gestione delle campagne, supporto clienti, collaborazione con team commerciali",
+            "Lingue straniere": "English - B2+",
+            "Forza principale": "Ampia esperienza in marketing digitale e gestione di campagne pubblicitarie, compreso l'uso della piattaforma Meta Business Suite.",
+            "Debolezza principale": "Non ha specificato esperienze nella gestione redazionale dei canali social o nella creazione di contenuti visivi.",
+            "Fit generale": "Stefano ha una buona formazione e esperienza nel digital marketing, ma potrebbe mancare di qualche componente richiesto nel focus sui social media e nuovi contenuti.",
+            "aziende_menzionate": "Instal, Blogo, Officina Bio-farmaceutica Mastelli"
+          },
+          "companies": [
+            {
+              "name": "Instal",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-28 17:38:40",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Blogo",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-28 17:38:41",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Officina Bio-farmaceutica Mastelli",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-28 17:38:41",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            }
+          ]
+        },
+        "composite_score": 81
+      },
+      "cv_text": "**Stefano Foppiani**  \nMilan, Italy  \nstefano.foppiani01@gmail.com  \n+39 3389193662  \n[LinkedIn Profile](#)\n\n---\n\n**IT SKILLS**  \n- Microsoft Office Professional  \n- Mac OSX Operating System  \n- Google Analytics  \n- Meta Business Suite  \n- Fanpage Karma  \n- AppNexus Console  \n- Chamaleon.ad  \n- Adform  \n- Apple Search Ads  \n\n---\n\n**WORK EXPERIENCE**  \n\n**Senior Campaign Manager**  \nInstal, Startupitalia | Milano  \nMarch 2018 - current  \n- Managing performance campaigns for direct clients and affiliates using Instal platform, Apple Search Ads, Adform, etc.  \n- My goal is to reach campaign KPIs (lead, sales, etc.) and support client needs for the technical side as well as assist the commercial team in sharing marketing reports.  \n\n**Web Trafficker**  \nBlogo | Milano  \nSept 2017 - Feb 2018  \n- Monitoring and optimizing performance marketing campaigns, collaborating with the commercial team to foster customer relationships and loyalty.  \n- Multichannel campaign management and KPIs control.  \n\n**Marketing Intern**  \nOfficina Bio-farmaceutica Mastelli | Sanremo  \nAug 2016 - Aug 2017  \n- Assisting the marketing manager, contributing to different activities, focusing on social media, market research, product marketing, performance campaigns, and more complex marketing strategies.  \n\n---\n\n**STUDIES**  \n\n**Master's Degree in Marketing and Digital Communications**  \n24 ORE Business School | Milano  \n- Digital Advertising, SEO, Web Analysis, Social Media Management, Data Science, Content Management.  \n\n**Bachelor's Degree in Economic Management**  \nUniversity of Pavia | Pavia  \n- Marketing, Corporate Communication, Business Management, Banking and Finance.  \n\n---\n\n**LANGUAGES**  \n- Italian - Native  \n- English - B2+  \n\n---\n\nI authorise the processing of my personal data pursuant to Legislative Decree 196/03.",
+      "timestamp": "2025-11-28T10:10:25.426315"
+    },
+    {
+      "filename": "Ludovica Giuliodori - CV ITA.pdf",
+      "path": "G:\\Drive condivisi\\Bluefactor - Produzione\\Ricerche di personale\\Account2025\\Ludovica Giuliodori - CV ITA.pdf",
+      "result": {
+        "extraction": {
+          "Nome": "LUDOVICA",
+          "Cognome": "GIULIODORI",
+          "Numero di contatto": "+39 3486729757",
+          "Email": "giuliodoriludovica@gmail.com",
+          "Età": "28",
+          "Città di residenza": "Loreto (AN)",
+          "Città di origine": "Non specificato",
+          "Anni di esperienza lavorativa": 5,
+          "Anni di esperienza lavorativa nel ruolo richiesto": 3,
+          "Master o assimilabile nel ruolo richiesto": "Sì",
+          "Formazione più alta": "Laurea Triennale in Economia e Comme"Bologna Business School, LUISS Business School",
+          "Posizione attuale": "Project Manager & Account Manager",
+          "Datori di lavoro precedenti": "BH Blasted B-Corp, Blowhammer, Varzi SRL, Massa Gioconda S.a.s.",
+          "Lingue conosciute": "Italiano, Inglese, Spagnolo",
+          "Legame con Firenze": "Formazione presso LUISS Business School, che può implicare un legame professionale o culturale con Firenze.",
+          "Soft skills": "Dinamico, proattivo, predisposizione per le relazioni umane, capacità di interazione interpersonale",
+          "Lingue straniere": "Inglese (Full Professional), Spagnolo (Limited Working)",
+          "Forza principale": "Elevate competenze nel digital marketing e provenienza da istituzioni di alto livello",
+          "Debolezza principale": "Nonostante le competenze, non si menziona esperienza diretta e specifica nel social media marketing",
+          "Fit generale": "Il candidato ha una solida formazione e competenze nel digital marketing, anche se potrebbe non avere un'approfondita esperienza specifica nel social media marketing richiesto.",
+          "aziende_menzionate": "BH Blasted B-Corp, Blowhammer, Varzi SRL, Massa Gioconda S.a.s."
+        },
+        "criteria": {
+          "criteria": {
+            "competenze_tecniche": {
+              "score": 80,
+              "motivation": "Il candidato ha competenze solide nel digital marketing e nella gestione di progetti, ma non ha esperienza specifica nel social media marketing, che è cruciale per il ruolo."
+            },
+            "esperienza_rilevante": {
+              "score": 70,
+              "motivation": "Il candidato ha circa 3 anni di esperienza nel digital marketing, ma la sua esperienza diretta nel social media marketing è limitata."
+            },
+            "formazione": {
+              "score": 90,
+              "motivation": "Il candidato ha conseguito due master in marketing e social media, dimostrando un forte impegno nella formazione professionale."
+            },
+            "problem_solving": {
+              "score": 75,
+              "motivation": "La sua esperienza nella gestione di progetti e nel coordinamento di team suggerisce buone capacità di problem solving, anche se non sono evidenziate situazioni specifiche."
+            },
+            "leadership": {
+              "score": 70,
+              "motivation": "Ha ricoperto ruoli di gestione e coordinamento, ma non ci sono dettagli specifici su risultati di leadership significativi."
+            },
+            "potenziale_crescita": {
+              "score": 85,
+              "motivation": "Il candidato mostra un forte desiderio di apprendere e crescere nel settore, supportato da una formazione di alto livello e da esperienze internazionali."
+            }
+          },
+          "composite_score": 76.25,
+          "extraction": {
+            "Nome": "Daniele",
+            "Cognome": "Federico",
+            "Numero di contatto": "+39 338 38 37 697",
+            "Email": "danielefederico94@gmail.com",
+            "Età": 29,
+            "Città di residenza": "Bologna",
+            "Città di origine": "Salerno",
+            "Anni di esperienza lavorativa": 6,
+            "Anni di esperienza lavorativa nel ruolo richiesto": 3,
+            "Master o assimilabile nel ruolo richiesto": "Sì",
+            "Formazione più alta": "Master's degree",
+            "Università/Istituto": "Bologna Business School, LUISS Business School",
+            "Posizione attuale": "Project Manager & Account Manager",
+            "Datori di lavoro precedenti": "BH Blasted B-Corp, Blowhammer, Varzi SRL, Massa Gioconda S.a.s.",
+            "Lingue conosciute": "Italiano, Inglese, Spagnolo",
+            "Legame con Firenze": "Formazione presso LUISS Business School, che può implicare un legame professionale o culturale con Firenze.",
+            "Soft skills": "Dinamico, proattivo, predisposizione per le relazioni umane, capacità di interazione interpersonale",
+            "Lingue straniere": "Inglese (Full Professional), Spagnolo (Limited Working)",
+            "Forza principale": "Elevate competenze nel digital marketing e provenienza da istituzioni di alto livello",
+            "Debolezza principale": "Nonostante le competenze, non si menziona esperienza diretta e specifica nel social media marketing",
+            "Fit generale": "Il candidato ha una solida formazione e competenze nel digital marketing, anche se potrebbe non avere un'approfondita esperienza specifica nel social media marketing richiesto.",
+            "aziende_menzionate": "BH Blasted B-Corp, Blowhammer, Varzi SRL, Massa Gioconda S.a.s."
+          },
+          "companies": [
+            {
+              "name": "BH Blasted B-Corp",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-29 14:30:13",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Blowhammer",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-29 14:30:14",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Varzi SRL",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-28 17:08:06",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Massa Gioconda S.a.s",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-28 17:08:06",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            }
+          ]
+        },
+        "composite_score": 77
+      },
+      "cv_text": "**Daniele Federico**  \n18/07/1994  \nContatti:  \n+39 338 38 37 697  \ndanielefederico94@gmail.com  \nwww.linkedin.com/in/danielefederico94 (LinkedIn)  \nDisponibile al trasferimento immediato  \n\n---\n\n**Sommario**  \nCon un approccio dinamico e proattivo, mi dedico all'esplorazione di nuove frontiere professionali, mantenendo un costante aggiornamento sulle ultime tendenze dei settori di mio interesse. Dotato di un'innata predisposizione per le relazioni umane, mi distinguo nelle interazioni interpersonali e nelle attività commerciali. La mia esperienza si estende al settore informatico, avendo affinato competenze che vanno dalla programmazione di base fino alla padronanza di software avanzati e linguaggi di design grafico. La mia carriera è stata arricchita da significative esperienze nel campo dello sviluppo e della gestione di progetti di digital marketing e digitalizzazione delle imprese. Aperto e desideroso di accogliere sfide in ambito internazionale, ho maturato esperienze lavorative e personali sia in Europa che negli Stati Uniti, operando come Project Manager e Junior Marketing Manager. Attualmente, il mio desiderio è di espandere le mie abilità in un contesto globale, perseguendo lo sviluppo professionale e l'arricchimento delle competenze necessarie a forgiare un futuro di successo nella mia carriera.\n\n---\n\n**Top Skills**  \n- Project Management  \n- Business Relationship Management  \n- Team Management  \n- Digital Marketing  \n- English (Full Professional)  \n- Spanish (Limited Working)  \n- Italian (Native or Bilingual)  \n\n---\n\n**Formazione**  \n- Master's degree, Business and Personal Project Management and Marketing Operations · Bologna Business School (Settembre 2022 - Luglio 2023) - 110  \n- Master's degree, Marketing & Social Media Data · LUISS Business School (Settembre 2021 - Luglio 2022) - 110  \n- Bachelor's degree, International Relations and Affairs · Università degli Studi di Salerno (Settembre 2013 - Luglio 2016) - 106  \n- Liceo Scientifico E. Pascal High School Diploma · (Settembre 2008 - Giugno 2013) - 98  \n\n---\n\n**Esperienze**  \n\n**BH Blasted B-Corp**  \n*Project Manager & Account Manager*  \nDicembre 2023 - Presente  \n- Responsabile della gestione di progetti con focus sulle performance marketing e brand positioning.  \n- Coordino team specializzati in lead generation, performance marketing e sviluppo web, massimizzando ROI/ROAS.  \n- Collaboro con i clienti per creare strategie integrate di branding e performance.  \n\n*Blowhammer - Streetwear Fashion Brand*  \n- Gestione strategica dei progetti per il brand streetwear, con focus su lancio collezioni e espansione in nuovi mercati.  \n- Coordino campagne di marketing per assicurare coerenza con la brand identity e obiettivi di crescita, combinando creatività e performance commerciale.  \n\n**Varzi SRL**  \n*Marketing Director*  \nOttobre 2020 - Dicembre 2023  \n- Gestione del ciclo di vita completo dei progetti con una stretta aderenza agli standard di qualità e alle tempistiche.  \n- Elaborazione e realizzazione di piani di marketing integrati per promuovere la percezione delle operazioni imprenditoriali di Varzi SRL.  \n- Creazione e attuazione di iniziative promozionali, assicurando un'esecuzione metodica e produttiva.  \n- Coordinamento di un team multidisciplinare per il raggiungimento di obiettivi comuni come l'aumento della brand awareness.  \n- Monitoraggio costante del livello di soddisfazione del cliente, garantendo la conformità alle aspettative.  \n\n**Massa Gioconda S.a.s.**  \n*Project Manager & Export Marketing Manager*  \nAgosto 2017 - Giugno 2019  \n- Trasferta lavorativa negli Stati Uniti per la gestione diretta di clienti ed eventi espositivi, rafforzando le relazioni commerciali e l'immagine dell'azienda nel mercato nordamericano.  \n- Partecipazione attiva alle principali fiere internazionali nel settore della gioielleria, principalmente negli Stati Uniti e nelle capitali europee.  \n- Sviluppo e ottimizzazione delle piattaforme E-Commerce B2C/B2B, inclusa la gestione SEO/SEM.  \n\n---\n\n**Competenze Tecniche**  \n- Gestione di progetti digitali complessi: Coordinamento di team multidisciplinari tramite l’utilizzo di strumenti come Jira, ClickUp e Trello.  \n- Metodologie Agile e Lean: Implementazione di sprint ciclici per adattarsi rapidamente ai cambiamenti e ottimizzare la delivery.  \n- Analisi delle performance digitali: Monitoraggio e ottimizzazione delle campagne di marketing tramite Google Analytics, SEMrush e HubSpot.  \n- Account Management: Gestione diretta delle relazioni con i clienti, fungendo da punto di contatto principale per le esigenze strategiche e operative.  \n\n---",
+      "timestamp": "2025-11-28T10:10:25.432340"
+    }
+  ]
+}

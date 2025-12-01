@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Solbiate Arno (VA)\",\n    \"Legame con Firenze\": \"Non specificato, ma ha studiato a Milano\"\n}"

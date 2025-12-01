@@ -1,0 +1,1 @@
+"{\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"1 anno\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Non specificato, ma attualmente in possesso di una Laurea in Corso\",\n    \"Legame con Firenze\": \"Non specificato, ma potrebbe esserci un legame se partecipa a eventi o progetti in città\"\n}"

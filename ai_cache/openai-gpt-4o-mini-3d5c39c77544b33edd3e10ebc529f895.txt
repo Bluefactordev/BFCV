@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"Circa 30 anni\",\n    \"Città di origine\": \"Firenze\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"8 anni\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea Magistrale in Lingue e civiltà dell'Asia e dell'Africa mediterranea\",\n    \"Legame con Firenze\": \"Residente a Firenze e lavorato per Firenze Sake\"\n}"

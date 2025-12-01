@@ -1,0 +1,1 @@
+"{\n    \"Anni di esperienza lavorativa\": \"2 anni\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"0 anni\",\n    \"Legame con Firenze\": \"Non specificato, ma cerca uno stage nel settore digitale\"\n}"

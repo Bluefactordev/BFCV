@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"34\",\n    \"Città di origine\": \"Firenze\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea triennale in Scienze Umanistiche per la Comunicazione\"\n}"

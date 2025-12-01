@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Campi Bisenzio\",\n    \"Soft skills\": \"Gestione dei lead commerciali, gestione del portafoglio clienti, sviluppo di piani di marketing, analisi del mercato, creazione di contenuti, supervisione delle performance\"\n}"

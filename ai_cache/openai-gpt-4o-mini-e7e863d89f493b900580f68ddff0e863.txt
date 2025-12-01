@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Borgo a Buggiano (PT)\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea triennale in Mediazione Linguistica\"\n}"

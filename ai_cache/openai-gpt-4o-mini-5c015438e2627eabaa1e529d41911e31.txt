@@ -1,0 +1,1 @@
+"{\n    \"Città di residenza\": \"Milano\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea in Scienze umanistiche per la Comunicazione\"\n}"

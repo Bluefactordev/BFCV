@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Firenze, Italia\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea Triennale in Scienze per la Comunicazione\",\n    \"Posizione attuale\": \"Cameriera\"\n}"

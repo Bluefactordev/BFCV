@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"35-40 anni\",\n    \"Città di origine\": \"Firenze\",\n    \"Legame con Firenze\": \"Formazione universitaria e master a Firenze\"\n}"

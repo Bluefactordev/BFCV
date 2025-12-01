@@ -1,0 +1,1 @@
+"{\n    \"Anni di esperienza lavorativa\": \"3\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"0\",\n    \"Legame con Firenze\": \"Non specificato, ma attualmente residente a Perugia\"\n}"

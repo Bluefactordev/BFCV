@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"25\",\n    \"Città di origine\": \"Poggio a Caiano (PO)\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2\",\n    \"Legame con Firenze\": \"Ambasciatore dell'arte presso Palazzo Pitti e Villa Medicea di Poggio a Caiano\"\n}"

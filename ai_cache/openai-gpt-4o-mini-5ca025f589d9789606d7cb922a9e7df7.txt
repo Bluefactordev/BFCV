@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"53 anni\",\n    \"Città di origine\": \"Firenze\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Non specificato, ma laurea in Scienze Politiche\"\n}"

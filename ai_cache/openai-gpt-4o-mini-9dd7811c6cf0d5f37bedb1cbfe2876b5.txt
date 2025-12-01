@@ -1,0 +1,1 @@
+"{\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"6 anni\",\n    \"Posizione attuale\": \"In-house Sales Representative\",\n    \"Formazione più alta\": \"Laurea magistrale in Governo e Direzione d'Impresa\"\n}"

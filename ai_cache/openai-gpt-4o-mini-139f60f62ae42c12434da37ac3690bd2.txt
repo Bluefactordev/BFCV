@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Peccioli, Pisa\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea Triennale in Comunicazione\"\n}"

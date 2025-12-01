@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"Circa 45 anni\",\n    \"Città di origine\": \"Busto Arsizio\",\n    \"Legame con Firenze\": \"Nessun legame esplicitamente menzionato\"\n}"

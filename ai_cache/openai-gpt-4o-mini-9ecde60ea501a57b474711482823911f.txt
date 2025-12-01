@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"34\",\n    \"Città di origine\": \"Florence\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"8\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Master in Marketing & Chinese Language\",\n    \"Soft skills\": \"Sales & Negotiation, Cross-cultural Communication, Business Development\"\n}"

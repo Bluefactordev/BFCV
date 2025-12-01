@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"Circa 24 anni\",\n    \"Città di origine\": \"Poggio a Caiano (PO)\",\n    \"Soft skills\": \"Capacità di lavoro in team, comunicazione efficace, responsabilità, capacità di problem solving\"\n}"

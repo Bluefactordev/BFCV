@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"24 anni\",\n    \"Città di origine\": \"Minturno (LT)\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Percorso di formazione in Digital Marketing\",\n    \"Legame con Firenze\": \"Nessun legame specificato\"\n}"

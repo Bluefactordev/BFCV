@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"circa 25 anni\",\n    \"Legame con Firenze\": \"Laurea magistrale in Diritto ed Economia europei presso Sapienza Università di Roma\"\n}"

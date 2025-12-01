@@ -1,0 +1,1 @@
+"{\n    \"Città di residenza\": \"Italy\",\n    \"Città di origine\": \"Bologna, Italy\",\n    \"Legame con Firenze\": \"Non specificato, ma possibile legame attraverso l'istruzione presso l'Università di Bologna\"\n}"

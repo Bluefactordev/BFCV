@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Ponsacco\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea Triennale in Scienze della Comunicazione\",\n    \"Posizione attuale\": \"Addetto alle vendite, Calliope\"\n}"

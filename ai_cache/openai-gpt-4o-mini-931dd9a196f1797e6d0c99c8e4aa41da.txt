@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"India\",\n    \"Legame con Firenze\": \"Non specificato, ma attualmente studia in Germania e potrebbe avere legami con Firenze per motivi di studio o lavoro\"\n}"

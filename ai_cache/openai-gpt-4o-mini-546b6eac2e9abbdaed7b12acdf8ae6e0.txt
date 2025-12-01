@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"India\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2\",\n    \"Legame con Firenze\": \"Non specificato, ma in cerca di opportunità che potrebbero includere Firenze.\"\n}"

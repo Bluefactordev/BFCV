@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Firenze\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea Magistrale in Teorie della Comunicazione\"\n}"

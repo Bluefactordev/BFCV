@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Milano\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2 anni\",\n    \"Legame con Firenze\": \"Esperienza lavorativa con clienti di Firenze (Trenitalia)\",\n    \"Soft skills\": \"Gestione del budget, coordinamento risorse umane, reporting, formazione\"\n}"

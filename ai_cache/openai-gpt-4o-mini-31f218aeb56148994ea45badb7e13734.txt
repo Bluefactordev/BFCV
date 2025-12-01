@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"Circa 30-35 anni (data di inizio della carriera lavorativa nel 2013)\",\n    \"Città di origine\": \"Pisa\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"8 anni (dal 2015 al 2023 come Project Manager e ruoli correlati)\",\n    \"Legame con Firenze\": \"Non specificato, ma avendo lavorato in Toscana potrebbe avere un legame indiretto\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Salerno\",\n    \"Legame con Firenze\": \"Laurea magistrale in Comunicazione Persuasiva e Pubblicitaria presso l'Università degli studi di Siena, che è vicina a Firenze.\"\n}"

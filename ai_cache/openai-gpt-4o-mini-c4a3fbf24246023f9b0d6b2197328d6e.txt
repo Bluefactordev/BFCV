@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Treviso\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2 anni\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Non specificato, ma laurea triennale in Economia internazionale in corso\",\n    \"Legame con Firenze\": \"Non specificato, ma nessun legame diretto evidente\"\n}"

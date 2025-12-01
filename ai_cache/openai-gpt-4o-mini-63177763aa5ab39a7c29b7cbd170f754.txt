@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"Circa 29 anni\",\n    \"Città di origine\": \"Milano\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"5 anni\",\n    \"Legame con Firenze\": \"Nessun legame specificato\",\n    \"Soft skills\": \"Gestione delle campagne, supporto clienti, collaborazione con team commerciali\"\n}"

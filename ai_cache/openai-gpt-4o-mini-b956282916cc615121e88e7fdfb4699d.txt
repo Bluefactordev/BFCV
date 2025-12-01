@@ -1,0 +1,1 @@
+"{\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"8 anni\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea magistrale in Lingue e Letterature Europee e Americane\"\n}"

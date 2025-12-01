@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Certaldo (Fi)\",\n    \"Anni di esperienza lavorativa\": \"1 anno\"\n}"

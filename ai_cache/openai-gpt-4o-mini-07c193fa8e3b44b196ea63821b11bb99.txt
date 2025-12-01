@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"22\",\n    \"Città di origine\": \"Firenze\",\n    \"Anni di esperienza lavorativa\": \"1\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"1\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea Triennale in Fashion Marketing\"\n}"

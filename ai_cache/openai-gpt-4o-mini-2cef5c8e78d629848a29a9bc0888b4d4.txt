@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"22 anni\", \n    \"Città di origine\": \"Verona\", \n    \"Anni di esperienza lavorativa\": \"7 anni\", \n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea in Marketing & Advertising\", \n    \"Legame con Firenze\": \"Non specificato, ma possibile legame attraverso esperienze lavorative\"\n}"

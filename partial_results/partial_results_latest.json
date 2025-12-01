@@ -1,0 +1,1251 @@
+{
+  "timestamp": "20251124_162712",
+  "cv_dir": "D:\\Progetti\\BFCV\\CVS\\Account_2025",
+  "job_description": "Stiamo cercando una persona con molta passione per il digital marketing e la comunicazione multicanale, attitudine al rapporto con i clienti ed alla gestione di progetti, e ottima padronanza della lingua inglese.\nSono gradite esperienze in digital agency e predisposizione ad attività di new business e business development.\nIl lavoro si svolgerà all'interno di un team composto da creativi, esperti di digital marketing, web copy, in un clima collaborativo e di continua evoluzione.\nIl lavoro comporterà il contatto con i clienti, molti dei quali aziende di altissimo profilo, leader in Italia e nel mondo nei propri settori.\nDIamo priorità a persone che abbiano esperienza in agenzia e siano disponibili subito senza lunghi preavvisi",
+  "fields": [
+    "Nome",
+    "Cognome",
+    "Numero di contatto",
+    "Email",
+    "Età",
+    "Città di residenza",
+    "Città di origine",
+    "Anni di esperienza lavorativa",
+    "Anni di esperienza lavorativa nel ruolo richiesto",
+    "Master o assimilabile nel ruolo richiesto",
+    "Formazione più alta",
+    "Università/Istituto",
+    "Posizione attuale",
+    "Datori di lavoro precedenti",
+    "Lingue conosciute",
+    "Legame con Firenze",
+    "Soft skills",
+    "Lingue straniere"
+  ],
+  "total_analyzed": 7,
+  "results": [
+    {
+      "filename": "Alexander, John Michael - Curriculum Vitae.pdf",
+      "path": "D:\\Progetti\\BFCV\\CVS\\Account_2025\\Alexander, John Michael - Curriculum Vitae.pdf",
+      "result": {
+        "extraction": {
+          "Nome": "John",
+          "Cognome": "Michael Alexander",
+          "Numero di contatto": "(+39) 3888037825",
+          "Email": "John.Michael.Alexander@ASU.edu",
+          "Età": "42",
+          "Città di residenza": "Borgo San Lorenzo",
+          "Città di origine": "Houston",
+          "Anni di esperienza lavorativa": "15",
+          "Anni di esperienza lavorativa nel ruolo richiesto": "Circa 11 anni",
+          "Master o assimilabile nel ruolo richiesto": "Certificato di Scienze Applicate al Business",
+          "Formazione più alta": "Laurea di Primo Livello in Sociologia",
+          "Università/Istituto": "Arizona State University",
+          "Posizione attuale": "Commerciale Export",
+          "Datori di lavoro precedenti": "Terranova Software, Emerson Automation Solutions, Drillmec Drilling Technologies",
+          "Lingue conosciute": "Inglese, Italiano, Spagnolo",
+          "Legame con Firenze": "Residente a Firenze",
+          "Soft skills": "Gestione progetti, creazione di soluzioni innovative, costruzione di relazioni solide",
+          "Lingue straniere": "Inglese, Italiano, Spagnolo"
+        },
+        "criteria": {
+          "criteria": {
+            "competenze_tecniche": {
+              "score": 70,
+              "motivation": "Il candidato ha una buona conoscenza di strumenti tecnici e software utili nel settore, ma non ha esperienze specifiche nel digital marketing, che è cruciale per il ruolo."
+            },
+            "esperienza_rilevante": {
+              "score": 60,
+              "motivation": "Ha un'esperienza significativa nella gestione delle vendite e nello sviluppo commerciale, ma non ha lavorato direttamente in agenzie di digital marketing."
+            },
+            "formazione": {
+              "score": 75,
+              "motivation": "Possiede una laurea in Sociologia e un certificato in Scienze Applicate al Business, che forniscono una base solida, anche se non specificamente nel marketing."
+            },
+            "problem_solving": {
+              "score": 80,
+              "motivation": "Dimostra capacità di problem solving attraverso la gestione di relazioni complesse e la creazione di soluzioni innovative nel suo lavoro attuale."
+            },
+            "leadership": {
+              "score": 65,
+              "motivation": "Ha esperienza nella gestione di progetti e nel coordinamento di team, ma non ha ruoli di leadership formali evidenti nel CV."
+            },
+            "potenziale_crescita": {
+              "score": 70,
+              "motivation": "Il candidato mostra un buon potenziale di crescita grazie alla sua esperienza internazionale e alla capacità di adattarsi a contesti sfidanti."
+            }
+          },
+          "composite_score": 69.25,
+          "extraction": {
+            "Nome": "John",
+            "Cognome": "Michael Alexander",
+            "Numero di contatto": "(+39) 3888037825",
+            "Email": "John.Michael.Alexander@ASU.edu",
+            "Età": "42",
+            "Città di residenza": "Borgo San Lorenzo",
+            "Città di origine": "Houston",
+            "Anni di esperienza lavorativa": "15",
+            "Anni di esperienza lavorativa nel ruolo richiesto": "Circa 11 anni",
+            "Master o assimilabile nel ruolo richiesto": "Certificato di Scienze Applicate al Business",
+            "Formazione più alta": "Laurea di Primo Livello in Sociologia",
+            "Università/Istituto": "Arizona State University",
+            "Posizione attuale": "Commerciale Export",
+            "Datori di lavoro precedenti": "Terranova Software, Emerson Automation Solutions, Drillmec Drilling Technologies",
+            "Lingue conosciute": "Inglese, Italiano, Spagnolo",
+            "Legame con Firenze": "Residente a Firenze",
+            "Soft skills": "Gestione progetti, creazione di soluzioni innovative, costruzione di relazioni solide",
+            "Lingue straniere": "Inglese, Italiano, Spagnolo"
+          },
+          "companies": [
+            {
+              "name": "Terranova Software",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:54:00",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Emerson Automation Solutions",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:54:00",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Drillmec Drilling Technologies",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:54:00",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            }
+          ]
+        },
+        "composite_score": 69
+      }
+    },
+    {
+      "filename": "ANDREA BASSOLINO cv.pdf",
+      "path": "D:\\Progetti\\BFCV\\CVS\\Account_2025\\ANDREA BASSOLINO cv.pdf",
+      "result": {
+        "extraction": {
+          "nome": "Andrea",
+          "cognome": "Bassolino",
+          "numero_di_contatto": "+39 3383020062",
+          "email": "bassolinoandrea27@gmail.com",
+          "età": 26,
+          "città_di_residenza": "Firenze",
+          "città_di_origine": "Firenze",
+          "anni_di_esperienza_lavorativa": 6,
+          "anni_di_esperienza_lavorativa_nel_ruolo_richiesto": 0,
+          "master_o_assimilabile_nel_ruolo_richiesto": "Non specificato",
+          "formazione_piu_alta": "Laurea magistrale in 'Governo e Direzione d’Impresa'",
+          "università_istituto": "Università degli Studi di Firenze",
+          "posizione_attuale": "In-house Sales Representative",
+          "datori_di_lavoro_precedenti": "La Crusca S.A.S, Dance Performance ASD, Overbeach S.A.S, Pitti Uomo, Gioielleria Firenze",
+          "lingue_conosciute": "Italiano, Inglese, Spagnolo",
+          "legame_con_firenze": "Residente e originario",
+          "soft_skills": "Lavoro di gruppo, attitudine collaborativa, organizzativa, leadership, problem solving, determinazione, attenzione ai dettagli, capacità di sintesi, propensione alla vendita, ascolto e interazione con il cliente.",
+          "lingue_straniere": "Inglese (B2), Spagnolo (B1)",
+          "forza_principale": "Esperienza nel servizio al cliente e capacità di gestione delle relazioni, che è fondamentale per il ruolo richiesto.",
+          "debolezza_principale": "Non ha esperienza pregressa specifica in digital marketing o in una digital agency",
+          "fit_generale": "Il candidato ha una solida esperienza nel servizio al cliente e capacità di lavoro in team, ma gli manca un'esperienza diretta nel digital marketing, che è cruciale per il ruolo.",
+          "aziende_menzionate": "Savino Del Bene Spa, La Crusca S.A.S, Dance Performance ASD, Overbeach S.A.S, Pitti Uomo, Gioielleria Firenze",
+          "Nome": "Andrea",
+          "Cognome": "Bassolino",
+          "Numero di contatto": "+39 3383020062",
+          "Email": "bassolinoandrea27@gmail.com",
+          "Età": "26",
+          "Città di residenza": "Firenze",
+          "Città di origine": "Firenze",
+          "Anni di esperienza lavorativa": "6",
+          "Anni di esperienza lavorativa nel ruolo richiesto": "0",
+          "Master o assimilabile nel ruolo richiesto": "Sì",
+          "Formazione più alta": "Laurea Magistrale in Governo e Direzione d'Impresa",
+          "Università/Istituto": "Università degli Studi di Firenze",
+          "Posizione attuale": "In-house Sales Representative",
+          "Datori di lavoro precedenti": "La Crusca S.A.S, Dance Performance ASD, Overbeach S.A.S, Pitti Uomo, Gioielleria Firenze",
+          "Lingue conosciute": "Italiano, Inglese, Spagnolo",
+          "Legame con Firenze": "Nato e residente a Firenze",
+          "Soft skills": "Team working, leadership, problem solving, determinazione, attenzione ai dettagli, capacità di sintesi",
+          "Lingue straniere": "Inglese (B2), Spagnolo (B1)"
+        },
+        "criteria": {
+          "criteria": {
+            "competenze_tecniche": {
+              "score": 50,
+              "motivation": "Il candidato ha competenze digitali di base, ma non ha esperienza specifica nel digital marketing, che è cruciale per il ruolo."
+            },
+            "esperienza_rilevante": {
+              "score": 30,
+              "motivation": "Non ha esperienza pregressa in digital agency o in ruoli specifici di digital marketing, limitando la sua rilevanza per la posizione."
+            },
+            "formazione": {
+              "score": 80,
+              "motivation": "Possiede una laurea magistrale in Governo e Direzione d'Impresa, che fornisce una buona base teorica per il marketing e la gestione."
+            },
+            "problem_solving": {
+              "score": 70,
+              "motivation": "Ha dimostrato capacità di problem solving nelle sue esperienze lavorative, gestendo situazioni complesse con successo."
+            },
+            "leadership": {
+              "score": 60,
+              "motivation": "Ha esperienza nella gestione del personale e nella leadership, ma in contesti più operativi che strategici."
+            },
+            "potenziale_crescita": {
+              "score": 65,
+              "motivation": "Mostra una forte attitudine al lavoro di gruppo e alla collaborazione, suggerendo buone possibilità di crescita nel settore."
+            }
+          },
+          "composite_score": 57.5,
+          "extraction": {
+            "nome": "Andrea",
+            "cognome": "Bassolino",
+            "numero_di_contatto": "+39 3383020062",
+            "email": "bassolinoandrea27@gmail.com",
+            "età": 26,
+            "città_di_residenza": "Firenze",
+            "città_di_origine": "Firenze",
+            "anni_di_esperienza_lavorativa": 6,
+            "anni_di_esperienza_lavorativa_nel_ruolo_richiesto": 0,
+            "master_o_assimilabile_nel_ruolo_richiesto": "Non specificato",
+            "formazione_piu_alta": "Laurea magistrale in 'Governo e Direzione d’Impresa'",
+            "università_istituto": "Università degli Studi di Firenze",
+            "posizione_attuale": "In-house Sales Representative",
+            "datori_di_lavoro_precedenti": "La Crusca S.A.S, Dance Performance ASD, Overbeach S.A.S, Pitti Uomo, Gioielleria Firenze",
+            "lingue_conosciute": "Italiano, Inglese, Spagnolo",
+            "legame_con_firenze": "Residente e originario",
+            "soft_skills": "Lavoro di gruppo, attitudine collaborativa, organizzativa, leadership, problem solving, determinazione, attenzione ai dettagli, capacità di sintesi, propensione alla vendita, ascolto e interazione con il cliente.",
+            "lingue_straniere": "Inglese (B2), Spagnolo (B1)"
+          },
+          "companies": [
+            {
+              "name": "Savino del Bene SPA",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:54:51",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "La Crusca S.A.S",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:54:51",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Dance Performance ASD",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:54:52",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Overbeach S.A.S",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:54:52",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Pitti Uomo",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:54:52",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Gioielleria Firenze",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:54:52",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "house Sales Representative",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:54:53",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            }
+          ]
+        },
+        "composite_score": 55
+      }
+    },
+    {
+      "filename": "Antonio Cardola.pdf",
+      "path": "D:\\Progetti\\BFCV\\CVS\\Account_2025\\Antonio Cardola.pdf",
+      "result": {
+        "extraction": {
+          "Nome": "Antonio",
+          "Cognome": "Cardola",
+          "Numero di contatto": "+39 3534104173",
+          "Email": "antoniocardola@hotmail.com",
+          "Età": "46",
+          "Città di residenza": "Firenze",
+          "Città di origine": "Firenze",
+          "Anni di esperienza lavorativa": "20",
+          "Anni di esperienza lavorativa nel ruolo richiesto": "20",
+          "Master o assimilabile nel ruolo richiesto": "Si",
+          "Formazione più alta": "Master in Brand Management",
+          "Università/Istituto": "Istituto Polimoda Firenze",
+          "Posizione attuale": "Area Manager Toscana Emilia Romagna",
+          "Datori di lavoro precedenti": "MuyMucho, Samsung, Oprimax Mexico, Cortefiel Spagna, Gruppo Fingen Italia - UK, H&M Svezia, Coin Italia, Hermes",
+          "Lingue conosciute": "Italiano, Spagnolo, Inglese, Francese",
+          "Legame con Firenze": "Residenza a Firenze",
+          "Soft skills": "Comunicativo, creativo, attitudine alla gestione di progetti, capacità di relazione con i clienti",
+          "Lingue straniere": "Inglese, Spagnolo, Francese"
+        },
+        "criteria": {
+          "criteria": {
+            "competenze_tecniche": {
+              "score": 85,
+              "motivation": "Antonio ha una solida esperienza nel marketing e nella gestione di progetti, con competenze specifiche in digital marketing e comunicazione multicanale."
+            },
+            "esperienza_rilevante": {
+              "score": 90,
+              "motivation": "Con oltre 20 anni di esperienza in ruoli manageriali e in aziende di alto profilo, Antonio ha una comprovata esperienza nel settore del marketing e della vendita."
+            },
+            "formazione": {
+              "score": 80,
+              "motivation": "Possiede un Master in Brand Management, che è altamente pertinente per il ruolo richiesto."
+            },
+            "problem_solving": {
+              "score": 80,
+              "motivation": "Le sue esperienze lavorative dimostrano una forte capacità di affrontare e risolvere problemi complessi in contesti dinamici."
+            },
+            "leadership": {
+              "score": 75,
+              "motivation": "Antonio ha gestito team e progetti in diverse aziende, mostrando capacità di leadership e di motivazione del personale."
+            },
+            "potenziale_crescita": {
+              "score": 80,
+              "motivation": "La sua esperienza diversificata e la continua evoluzione professionale indicano un buon potenziale di crescita futura."
+            }
+          },
+          "composite_score": 81.25,
+          "extraction": {
+            "Nome": "Antonio",
+            "Cognome": "Cardola",
+            "Numero di contatto": "+39 3534104173",
+            "Email": "antoniocardola@hotmail.com",
+            "Età": "46",
+            "Città di residenza": "Firenze",
+            "Città di origine": "Firenze",
+            "Anni di esperienza lavorativa": "20",
+            "Anni di esperienza lavorativa nel ruolo richiesto": "20",
+            "Master o assimilabile nel ruolo richiesto": "Si",
+            "Formazione più alta": "Master in Brand Management",
+            "Università/Istituto": "Istituto Polimoda Firenze",
+            "Posizione attuale": "Area Manager Toscana Emilia Romagna",
+            "Datori di lavoro precedenti": "MuyMucho, Samsung, Oprimax Mexico, Cortefiel Spagna, Gruppo Fingen Italia - UK, H&M Svezia, Coin Italia, Hermes",
+            "Lingue conosciute": "Italiano, Spagnolo, Inglese, Francese",
+            "Legame con Firenze": "Residenza a Firenze",
+            "Soft skills": "Comunicativo, creativo, attitudine alla gestione di progetti, capacità di relazione con i clienti",
+            "Lingue straniere": "Inglese, Spagnolo, Francese"
+          },
+          "companies": [
+            {
+              "name": "MuyMucho",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:56:30",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Samsung",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:56:30",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Oprimax Mexico",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:56:31",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Cortefiel Spagna",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:56:31",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Gruppo Fingen Italia - UK",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:56:31",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "H&M Svezia",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:56:31",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Coin Italia",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:56:32",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Hermes",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:56:32",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            }
+          ]
+        },
+        "composite_score": 83
+      }
+    },
+    {
+      "filename": "APG CV (1).pdf",
+      "path": "D:\\Progetti\\BFCV\\CVS\\Account_2025\\APG CV (1).pdf",
+      "result": {
+        "extraction": {
+          "Nome": "Antonio",
+          "Cognome": "Putrino Gallo",
+          "Numero di contatto": "+393881985447",
+          "Email": "anto.pigallo@gmail.com",
+          "Età": "circa 29 anni",
+          "Città di residenza": "Firenze",
+          "Città di origine": "Firenze",
+          "Anni di esperienza lavorativa": "8",
+          "Anni di esperienza lavorativa nel ruolo richiesto": "5",
+          "Master o assimilabile nel ruolo richiesto": "Sì",
+          "Formazione più alta": "Laurea Magistrale in Giurisprudenza",
+          "Università/Istituto": "Università degli Studi di Firenze",
+          "Posizione attuale": "Freelance Digital Project Manager & Communication Strategist",
+          "Datori di lavoro precedenti": "Format culturali (Isidora & ON.irica), Convention Bureau Italia, Nana Bianca Srl, Tecnoconference TC Group, Studio Legale Baldoni-Magi",
+          "Lingue conosciute": "Italiano, Inglese",
+          "Legame con Firenze": "Presente (risiede a Firenze e ha lavorato per diverse aziende con sede lì)",
+          "Soft skills": "Attitudine al rapporto con i clienti, gestione progetti, approccio collaborativo",
+          "Lingue straniere": "Inglese (avanzato)",
+          "Forza principale": "Ottima esperienza in digital marketing e gestione di progetti, con una forte attitudine alla comunicazione e al rapporto con i clienti",
+          "Debolezza principale": "Non ha specificato esperienze in digital agency direttamente, sebbene alcune esperienze siano simili",
+          "Fit generale": "Antonio sembra avere un profilo molto adeguato per il ruolo, con esperienza e competenze in digital marketing e gestione di progetti, anche se potrebbe mancare del tutto il contesto di una digital agency.",
+          "aziende_menzionate": "Format culturali (Isidora & ON.irica), Freelance, Convention Bureau Italia, Nana Bianca Srl, Tecnoconference TC Group, Studio Legale Baldoni-Magi"
+        },
+        "criteria": {
+          "criteria": {
+            "competenze_tecniche": {
+              "score": 90,
+              "motivation": "Antonio ha una solida esperienza in digital marketing, gestione di progetti e utilizzo di strumenti avanzati, dimostrando una forte padronanza delle competenze richieste."
+            },
+            "esperienza_rilevante": {
+              "score": 75,
+              "motivation": "Ha lavorato in contesti simili, ma non ha esperienze dirette in una digital agency, il che potrebbe limitare la sua comprensione di alcune dinamiche specifiche del settore."
+            },
+            "formazione": {
+              "score": 85,
+              "motivation": "Possiede una laurea magistrale e diversi master pertinenti, che forniscono una base teorica solida per il ruolo."
+            },
+            "problem_solving": {
+              "score": 80,
+              "motivation": "La sua esperienza nella gestione di progetti e campagne digitali suggerisce una buona capacità di affrontare e risolvere problemi complessi."
+            },
+            "leadership": {
+              "score": 70,
+              "motivation": "Ha ricoperto ruoli di coordinamento, ma la sua esperienza di leadership diretta in team potrebbe essere limitata."
+            },
+            "potenziale_crescita": {
+              "score": 80,
+              "motivation": "Con la sua attitudine al miglioramento continuo e l'esperienza accumulata, mostra un buon potenziale per crescere e adattarsi in un ambiente dinamico."
+            }
+          },
+          "composite_score": 78.5,
+          "extraction": {
+            "Nome": "Antonio",
+            "Cognome": "Putrino Gallo",
+            "Numero di contatto": "+393881985447",
+            "Email": "anto.pigallo@gmail.com",
+            "Età": "circa 29 anni",
+            "Città di residenza": "Firenze",
+            "Città di origine": "Firenze",
+            "Anni di esperienza lavorativa": "8",
+            "Anni di esperienza lavorativa nel ruolo richiesto": "5",
+            "Master o assimilabile nel ruolo richiesto": "Sì",
+            "Formazione più alta": "Laurea Magistrale in Giurisprudenza",
+            "Università/Istituto": "Università degli Studi di Firenze",
+            "Posizione attuale": "Freelance Digital Project Manager & Communication Strategist",
+            "Datori di lavoro precedenti": "Format culturali (Isidora & ON.irica), Convention Bureau Italia, Nana Bianca Srl, Tecnoconference TC Group, Studio Legale Baldoni-Magi",
+            "Lingue conosciute": "Italiano, Inglese",
+            "Legame con Firenze": "Presente (risiede a Firenze e ha lavorato per diverse aziende con sede lì)",
+            "Soft skills": "Attitudine al rapporto con i clienti, gestione progetti, approccio collaborativo",
+            "Lingue straniere": "Inglese (avanzato)",
+            "Forza principale": "Ottima esperienza in digital marketing e gestione di progetti, con una forte attitudine alla comunicazione e al rapporto con i clienti",
+            "Debolezza principale": "Non ha specificato esperienze in digital agency direttamente, sebbene alcune esperienze siano simili",
+            "Fit generale": "Antonio sembra avere un profilo molto adeguato per il ruolo, con esperienza e competenze in digital marketing e gestione di progetti, anche se potrebbe mancare del tutto il contesto di una digital agency.",
+            "aziende_menzionate": "Format culturali (Isidora & ON.irica), Freelance, Convention Bureau Italia, Nana Bianca Srl, Tecnoconference TC Group, Studio Legale Baldoni-Magi"
+          },
+          "companies": [
+            {
+              "name": "Format culturali (Isidora & ON.irica",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:57:35",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Freelance",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-04-28 16:37:58",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Convention Bureau Italia",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:57:35",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Nana Bianca Srl",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:57:35",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Tecnoconference TC Group",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:57:36",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Studio Legale Baldoni-Magi",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:57:36",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            }
+          ]
+        },
+        "composite_score": 81
+      }
+    },
+    {
+      "filename": "AROUIZI_CV.pdf",
+      "path": "D:\\Progetti\\BFCV\\CVS\\Account_2025\\AROUIZI_CV.pdf",
+      "result": {
+        "extraction": {
+          "nome": "ASMAE",
+          "cognome": "AROUIZI",
+          "numero_di_contatto": "+39 3772456855",
+          "email": "asmaearo@gmail.com",
+          "età": "Non specificato",
+          "città_di_residenza": "Campi Bisenzio",
+          "città_di_origine": "Non specificato",
+          "anni_di_esperienza_lavorativa": "3",
+          "anni_di_esperienza_lavorativa_nel_ruolo_richiestо": "Non specificato",
+          "master_o_assimilabile_nel_ruolo_richiestо": "Non specificato",
+          "formazione_piu_alta": "Bachelor Degree",
+          "università_istituto": "University of Florence",
+          "posizione_attuale": "Brand Representative",
+          "datori_di_lavoro_precedenti": "Hollister & Co., Marioni, Cooperativa Equalis, Polo Museale Toscana",
+          "lingue_conosciute": "Italian, Arabic, English, Spanish",
+          "legame_con_Firenze": "Sì, ha esperienza lavorativa come guida turistica a Firenze",
+          "soft_skills": "Customer service, empathetic communication, interpersonal skills, active listening, time management",
+          "lingue_straniere": "English (Fluent - C1), Spanish (Intermediate - B2)",
+          "Nome": "Asmae",
+          "Cognome": "Arouizi",
+          "Numero di contatto": "+39 3772456855",
+          "Email": "asmaearo@gmail.com",
+          "Età": "23",
+          "Città di residenza": "Campi Bisenzio",
+          "Città di origine": "Firenze",
+          "Anni di esperienza lavorativa": "5",
+          "Anni di esperienza lavorativa nel ruolo richiesto": "2",
+          "Master o assimilabile nel ruolo richiesto": "No",
+          "Formazione più alta": "Bachelor Degree",
+          "Università/Istituto": "University of Florence",
+          "Posizione attuale": "Brand Representative",
+          "Datori di lavoro precedenti": "Hollister & Co., Marioni, Cooperativa Equalis, Polo Museale Toscana",
+          "Lingue conosciute": "Italian, Arabic, English, Spanish",
+          "Legame con Firenze": "Residente e ha lavorato come guida turistica",
+          "Soft skills": "Empatia, comunicazione efficace, ascolto attivo, gestione del tempo",
+          "Lingue straniere": "English, Spanish"
+        },
+        "criteria": {
+          "criteria": {
+            "competenze_tecniche": {
+              "score": 70,
+              "motivation": "Possiede competenze in Adobe Suite e content editing, ma non ha esperienze dirette nel digital marketing specifico richiesto."
+            },
+            "esperienza_rilevante": {
+              "score": 60,
+              "motivation": "Ha lavorato in ruoli di customer service e design, ma manca di esperienza diretta in agenzie di digital marketing."
+            },
+            "formazione": {
+              "score": 75,
+              "motivation": "Ha conseguito una laurea in design, che è pertinente, ma non ha una formazione specifica in marketing."
+            },
+            "problem_solving": {
+              "score": 80,
+              "motivation": "Dimostra buone capacità di problem solving attraverso esperienze di customer service e gestione di richieste complesse."
+            },
+            "leadership": {
+              "score": 50,
+              "motivation": "Non ci sono evidenze di esperienze di leadership o gestione di team nel suo CV."
+            },
+            "potenziale_crescita": {
+              "score": 70,
+              "motivation": "Mostra una buona attitudine al lavoro di squadra e alla comunicazione, suggerendo potenziale per crescere nel ruolo."
+            }
+          },
+          "composite_score": 67.5,
+          "extraction": {
+            "nome": "Asmae",
+            "cognome": "Arouizi",
+            "numero_di_contatto": "+39 3772456855",
+            "email": "asmaearo@gmail.com",
+            "età": "23",
+            "città_di_residenza": "Campi Bisenzio",
+            "città_di_origine": "Firenze",
+            "anni_di_esperienza_lavorativa": "5",
+            "anni_di_esperienza_lavorativa_nel_ruolo_richiestо": "2",
+            "master_o_assimilabile_nel_ruolo_richiestо": "No",
+            "formazione_piu_alta": "Bachelor Degree",
+            "università_istituto": "University of Florence",
+            "posizione_attuale": "Brand Representative",
+            "datori_di_lavoro_precedenti": "Hollister & Co., Marioni, Cooperativa Equalis, Polo Museale Toscana",
+            "lingue_conosciute": "Italian, Arabic, English, Spanish",
+            "legame_con_Firenze": "Residente e ha lavorato come guida turistica",
+            "soft_skills": "Empatia, comunicazione efficace, ascolto attivo, gestione del tempo",
+            "lingue_straniere": "English, Spanish"
+          },
+          "companies": [
+            {
+              "name": "Hollister & Co",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:58:14",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Marioni",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:58:14",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Cooperativa Equalis",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:58:14",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Polo Museale Toscana",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:58:14",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            }
+          ]
+        },
+        "composite_score": 67
+      }
+    },
+    {
+      "filename": "ChiaraCastaldo_CV.pdf",
+      "path": "D:\\Progetti\\BFCV\\CVS\\Account_2025\\ChiaraCastaldo_CV.pdf",
+      "result": {
+        "extraction": {
+          "nome": "Chiara",
+          "cognome": "Castaldo",
+          "numero_di_contatto": "(+39) 333-420-4761",
+          "email": "castald01.chiara@gmail.com",
+          "età": "Non specificato",
+          "città_di_residenza": "Florence, Italy",
+          "città_di_origin": "Non specificato",
+          "anni_di_esperienza_lavorativa": "Non specificato",
+          "anni_di_esperienza_lavorativa_nel_ruolo_richiesto": "Non specificato",
+          "master_o_assimilabile_nel_ruolo_richiesto": "Sì",
+          "formazione_piu_alta": "Master’s Degree in Economics and Development",
+          "universita_istituto": "University of Florence",
+          "posizione_attuale": "Internship in Research Activity",
+          "datori_di_lavoro_precedenti": "Non specificato",
+          "lingue_conosciute": "Italian, English, French",
+          "legame_con_firenze": "Attuale residenza e frequenza universitaria",
+          "soft_skills": "Communication, Teamwork, Problem-solving, Time management, Empathy, Creativity",
+          "lingue_straniere": "English (Advanced), French (Basic)",
+          "forza_principale": "Elevata padronanza della lingua inglese e una solida formazione accademica nel campo dell'economia e dello sviluppo.",
+          "debolezza_principale": "Non ha esperienza lavorativa specifica nel digital marketing o in agenzia.",
+          "fit_generale": "Il candidato ha una buona formazione accademica e competenze trasversali utili, ma manca di esperienza diretta nel digital marketing e in agenzia, il che potrebbe renderlo meno immediatamente adatto alla posizione.",
+          "aziende_menzionate": "ARCO, University of Florence, Yale University",
+          "Nome": "Chiara",
+          "Cognome": "Castaldo",
+          "Numero di contatto": "(+39) 333-420-4761",
+          "Email": "castald01.chiara@gmail.com",
+          "Età": 23,
+          "Città di residenza": "Florence",
+          "Città di origine": "Naples",
+          "Anni di esperienza lavorativa": 2,
+          "Anni di esperienza lavorativa nel ruolo richiesto": 0,
+          "Master o assimilabile nel ruolo richiesto": "Sì",
+          "Formazione più alta": "Master’s Degree in Economics and Development",
+          "Università/Istituto": "University of Florence",
+          "Posizione attuale": "Internship in Research Activity",
+          "Datori di lavoro precedenti": "ARCO - Department of Economics and Management, University of Florence",
+          "Lingue conosciute": "Italian, English, French",
+          "Legame con Firenze": "Residente",
+          "Soft skills": "Communication, Teamwork, Problem-solving, Time management, Empathy, Creativity",
+          "Lingue straniere": "English (Advanced), French (Basic)"
+        },
+        "criteria": {
+          "criteria": {
+            "competenze_tecniche": {
+              "score": 60,
+              "motivation": "Il candidato ha competenze tecniche in analisi dei dati e utilizzo di software come Stata e Canva, ma manca di esperienza diretta nel digital marketing."
+            },
+            "esperienza_rilevante": {
+              "score": 30,
+              "motivation": "Non ha esperienza lavorativa specifica nel digital marketing o in agenzie, che è un requisito fondamentale per la posizione."
+            },
+            "formazione": {
+              "score": 85,
+              "motivation": "Ha una solida formazione accademica con un Master in Economia e Sviluppo, che fornisce una base teorica utile per il marketing."
+            },
+            "problem_solving": {
+              "score": 70,
+              "motivation": "Ha dimostrato capacità di problem solving attraverso attività di analisi e sintesi di dati complessi durante il suo tirocinio."
+            },
+            "leadership": {
+              "score": 50,
+              "motivation": "La sua esperienza di volontariato e partecipazione a conferenze suggerisce una certa predisposizione alla leadership, ma non ci sono ruoli di leadership formali nel suo CV."
+            },
+            "potenziale_crescita": {
+              "score": 75,
+              "motivation": "Il candidato mostra un buon potenziale di crescita grazie alla sua formazione e alla volontà di lavorare in un ambiente dinamico."
+            }
+          },
+          "composite_score": 58.5,
+          "extraction": {
+            "nome": "Chiara",
+            "cognome": "Castaldo",
+            "numero_di_contatto": "(+39) 333-420-4761",
+            "email": "castald01.chiara@gmail.com",
+            "età": 23,
+            "città_di_residenza": "Florence",
+            "città_di_origin": "Naples",
+            "anni_di_esperienza_lavorativa": 2,
+            "anni_di_esperienza_lavorativa_nel_ruolo_richiesto": 0,
+            "master_o_assimilabile_nel_ruolo_richiesto": "Sì",
+            "formazione_piu_alta": "Master’s Degree in Economics and Development",
+            "universita_istituto": "University of Florence",
+            "posizione_attuale": "Internship in Research Activity",
+            "datori_di_lavoro_precedenti": "ARCO - Department of Economics and Management, University of Florence",
+            "lingue_conosciute": "Italian, English, French",
+            "legame_con_firenze": "Residente",
+            "soft_skills": "Communication, Teamwork, Problem-solving, Time management, Empathy, Creativity",
+            "lingue_straniere": "English (Advanced), French (Basic)"
+          },
+          "companies": [
+            {
+              "name": "ARCO",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 16:26:37",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "University of Florence",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:59:02",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Yale University",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 16:26:37",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "ARCO - Department of Economics and Management",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:59:02",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Research Activity",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 10:59:02",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            }
+          ]
+        },
+        "composite_score": 58
+      }
+    },
+    {
+      "filename": "CLAUDIA RUSCONI CV e PORTFOLIO.pdf",
+      "path": "D:\\Progetti\\BFCV\\CVS\\Account_2025\\CLAUDIA RUSCONI CV e PORTFOLIO.pdf",
+      "result": {
+        "extraction": {
+          "nome": "Claudia",
+          "cognome": "Rusconi",
+          "numero_di_contatto": "+39 335 486414",
+          "email": "claudia.ruscioni@email.com",
+          "età": "Non specificato",
+          "città_di_residenza": "Firenze",
+          "città_di_origine": "Non specificato",
+          "anni_di_esperienza_lavorativa": "Circa 31",
+          "anni_di_esperienza_lavorativa_nel_ruolo_richiesto": "Non specificato",
+          "master_o_assimilabile_nel_ruolo_richiesto": "Non specificato",
+          "formazione_piu_alta": "Laurea in Scienze Politiche",
+          "università_istituto": "Università degli Studi di Firenze",
+          "posizione_attuale": "Partner",
+          "datori_di_lavoro_precedenti": "PAPERMINE.com, ARTEL, Passigli Editore, Ponte alle Grazie Editore, Longanesi, Donzelli Editore",
+          "lingue_conosciute": "Italiano, Inglese, Francese",
+          "legame_con_firenze": "Residente",
+          "soft_skills": "Capacità di lavorare in team, gestione relazioni interpersonali, affidabilità, serietà, sensibilità nelle relazioni interpersonali, predisposizione per i rapporti umani",
+          "lingue_straniere": "Inglese, Francese",
+          "forza_principale": "Significativa esperienza nella comunicazione e gestione di progetti, con un forte background nel copywriting e nelle relazioni B2B.",
+          "debolezza_principale": "Mancanza di esperienza specifica in agenzie digitali e nella gestione diretta di attività di business development.",
+          "fit_generale": "Il candidato presenta una solida esperienza nella comunicazione e gestione progetti, ma la mancanza di esperienza diretta nel digital marketing e in agenzie digitali è un punto di debolezza significativo per la posizione.",
+          "aziende_menzionate": "PAPERMINE.com, ARTEL, Passigli Editore, Ponte alle Grazie Editore, Longanesi, Donzelli Editore",
+          "Nome": "Claudia",
+          "Cognome": "Rusconi",
+          "Numero di contatto": "+39 335 486414",
+          "Email": "claudia.ruscioni@email.com",
+          "Età": "circa 54",
+          "Città di residenza": "Firenze",
+          "Città di origine": "Firenze",
+          "Anni di esperienza lavorativa": "31",
+          "Anni di esperienza lavorativa nel ruolo richiesto": "4",
+          "Master o assimilabile nel ruolo richiesto": "No",
+          "Formazione più alta": "Laurea in Scienze Politiche",
+          "Università/Istituto": "Università degli Studi di Firenze",
+          "Posizione attuale": "Partner presso PAPERMINE.com",
+          "Datori di lavoro precedenti": "Passigli Editore, Donzelli Editore, Ponte alle Grazie Editore, ARTEL",
+          "Lingue conosciute": "Italiano, Inglese, Francese",
+          "Legame con Firenze": "Residenza a Firenze",
+          "Soft skills": "Capacità di lavorare in team, affidabilità, sensibilità nelle relazioni interpersonali",
+          "Lingue straniere": "Inglese, Francese"
+        },
+        "criteria": {
+          "criteria": {
+            "competenze_tecniche": {
+              "score": 70,
+              "motivation": "Claudia ha competenze in web marketing e social media management, ma la sua esperienza non è specificamente focalizzata sul digital marketing, che è cruciale per il ruolo."
+            },
+            "esperienza_rilevante": {
+              "score": 60,
+              "motivation": "Ha una lunga carriera nel settore della comunicazione e del copywriting, ma manca di esperienza diretta in agenzie digitali e nella gestione di attività di business development."
+            },
+            "formazione": {
+              "score": 70,
+              "motivation": "Possiede una laurea in Scienze Politiche, che fornisce una base solida, ma non ha un master specifico in marketing o comunicazione digitale."
+            },
+            "problem_solving": {
+              "score": 75,
+              "motivation": "La sua esperienza come project manager e nella gestione di relazioni B2B suggerisce buone capacità di problem solving e adattamento."
+            },
+            "leadership": {
+              "score": 65,
+              "motivation": "Ha ricoperto ruoli di responsabilità, ma non ci sono evidenze chiare di leadership in contesti di team o gestione di progetti complessi."
+            },
+            "potenziale_crescita": {
+              "score": 70,
+              "motivation": "Claudia ha dimostrato capacità di adattamento e apprendimento, ma la mancanza di esperienza diretta nel digital marketing potrebbe limitare la sua crescita in questo specifico ambito."
+            }
+          },
+          "composite_score": 68.25,
+          "extraction": {
+            "nome": "Claudia",
+            "cognome": "Rusconi",
+            "numero_di_contatto": "+39 335 486414",
+            "email": "claudia.ruscioni@email.com",
+            "età": "circa 54",
+            "città_di_residenza": "Firenze",
+            "città_di_origine": "Firenze",
+            "anni_di_esperienza_lavorativa": "31",
+            "anni_di_esperienza_lavorativa_nel_ruolo_richiesto": "4",
+            "master_o_assimilabile_nel_ruolo_richiesto": "No",
+            "formazione_piu_alta": "Laurea in Scienze Politiche",
+            "università_istituto": "Università degli Studi di Firenze",
+            "posizione_attuale": "Partner presso PAPERMINE.com",
+            "datori_di_lavoro_precedenti": "Passigli Editore, Donzelli Editore, Ponte alle Grazie Editore, ARTEL",
+            "lingue_conosciute": "Italiano, Inglese, Francese",
+            "legame_con_firenze": "Residenza a Firenze",
+            "soft_skills": "Capacità di lavorare in team, affidabilità, sensibilità nelle relazioni interpersonali",
+            "lingue_straniere": "Inglese, Francese"
+          },
+          "companies": [
+            {
+              "name": "PAPERMINE.com",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 11:02:54",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "ARTEL",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 11:02:54",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Passigli Editore",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 11:02:53",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Ponte alle Grazie Editore",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 11:02:53",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Longanesi",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 16:27:12",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Donzelli Editore",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-24 11:02:53",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            }
+          ]
+        },
+        "composite_score": 67
+      }
+    }
+  ]
+}

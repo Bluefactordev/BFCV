@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"23\",\n    \"Città di residenza\": \"Torino\",\n    \"Città di origine\": \"Bolzano\",\n    \"Anni di esperienza lavorativa\": \"2\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"0.5\",\n    \"Legame con Firenze\": \"Nessun legame esplicito menzionato\"\n}"

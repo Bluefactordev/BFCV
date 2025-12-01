@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"39 anni\",\n    \"Città di origine\": \"Perugia\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Professional Certificate in Brand Management\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"26\", \n    \"Città di origine\": \"Reggio Calabria\", \n    \"Anni di esperienza lavorativa\": \"3\", \n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"1\", \n    \"Posizione attuale\": \"Sponsorship and Partnership Manager\", \n    \"Legame con Firenze\": \"Non specificato, ma ha esperienza a livello nazionale\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Rufina, Firenze\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"1 anno\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Corso di specializzazione Creazione Siti Web\"\n}"

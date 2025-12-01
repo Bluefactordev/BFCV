@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Bologna\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"8 anni\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea Specialistica in Direzione Aziendale\",\n    \"Legame con Firenze\": \"Non specificato, ma ha esperienza in progetti internazionali che potrebbero coinvolgere Firenze\"\n}"

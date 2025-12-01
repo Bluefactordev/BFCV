@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"22\",\n    \"Città di origine\": \"Empoli\",\n    \"Anni di esperienza lavorativa\": \"2\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea Triennale in Mediazione Linguistica indirizzo Marketing e Comunicazione\"\n}"

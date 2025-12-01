@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"23 anni\",\n    \"Città di origine\": \"Lucignano, Arezzo\",\n    \"Posizione attuale\": \"Stage in Social Media Management\",\n    \"Legame con Firenze\": \"Studia all'Università degli studi di Siena, vicino a Firenze\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"Città di residenza\": \"Firenze, IT\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"4 anni\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Fashion Marketing & Communication\"\n}"

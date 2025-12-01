@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"25\",\n    \"Città di residenza\": \"Castellammare di Stabia (NA)\",\n    \"Città di origine\": \"Nola\",\n    \"Legame con Firenze\": \"Non specificato\"\n}"

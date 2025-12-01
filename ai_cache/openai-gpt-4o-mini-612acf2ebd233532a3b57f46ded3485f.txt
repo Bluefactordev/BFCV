@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Spicchio-Sovigliana, Vinci\",\n    \"Anni di esperienza lavorativa\": 2,\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": 0.5,\n    \"Datori di lavoro precedenti\": \"agenzia di comunicazione Digital Tomato, supporto scolastico\"\n}"

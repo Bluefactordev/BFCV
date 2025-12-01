@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"24 anni\",\n    \"Città di origine\": \"Sesto Fiorentino (FI)\",\n    \"Anni di esperienza lavorativa\": \"6 anni\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"0 anni\"\n}"

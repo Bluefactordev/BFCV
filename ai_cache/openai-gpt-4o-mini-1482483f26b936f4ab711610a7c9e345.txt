@@ -1,0 +1,1 @@
+"{\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"0.5\",\n    \"Posizione attuale\": \"Teaching Assistant\",\n    \"Formazione più alta\": \"Laurea Magistrale in Governo, Amministrazione e Politica\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"29 anni\",\n    \"Master o assimilabile nel ruolo richiesto\": \"IFT S Food & Wine Management\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"23\",\n    \"Città di origine\": \"Cascina (PI)\",\n    \"Anni di esperienza lavorativa\": \"3\",\n    \"Legame con Firenze\": \"Non specificato, ma probabile interesse per il marketing in contesto toscano\"\n}"

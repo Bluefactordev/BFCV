@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Bagno a Ripoli (FI)\",\n    \"Anni di esperienza lavorativa\": 13,\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": 4,\n    \"Master o assimilabile nel ruolo richiesto\": \"Corso Digital Marketing\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"23\",\n    \"Città di origine\": \"Campi Bisenzio\",\n    \"Anni di esperienza lavorativa\": \"4\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2\",\n    \"Master o assimilabile nel ruolo richiesto\": \"No\"\n}"

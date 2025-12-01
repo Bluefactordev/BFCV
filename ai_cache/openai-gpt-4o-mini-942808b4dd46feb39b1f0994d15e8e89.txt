@@ -1,0 +1,1 @@
+"{\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2 anni\",\n    \"Posizione attuale\": \"Food and Beverages Sales Associate\",\n    \"Formazione più alta\": \"Masters in International Accounting and Management\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Marano di Napoli\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2 anni\",\n    \"Legame con Firenze\": \"Non specificato, nessun legame evidente\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Firenze\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"4\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea in Scienze Umanistiche per la Comunicazione\"\n}"

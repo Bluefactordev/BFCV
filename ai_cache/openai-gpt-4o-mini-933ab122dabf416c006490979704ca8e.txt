@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Santa Maria a Monte, Pisa\",\n    \"Legame con Firenze\": \"Disponibile al trasferimento\"\n}"

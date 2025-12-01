@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"37\",\n    \"Città di residenza\": \"Firenze\",\n    \"Città di origine\": \"Non specificata\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"13\",\n    \"Legame con Firenze\": \"Formazione come tatuatrice presso Bottega Toscana e esperienza lavorativa presso il Dpt of Culture and Performing Arts, City of Florence\"\n}"

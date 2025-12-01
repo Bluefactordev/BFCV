@@ -1,0 +1,1 @@
+"{\n    \"Città di residenza\": \"Milano\",\n    \"Città di origine\": \"Non specificata, ma presumibilmente italiana\",\n    \"Legame con Firenze\": \"Nessun legame specificato\"\n}"

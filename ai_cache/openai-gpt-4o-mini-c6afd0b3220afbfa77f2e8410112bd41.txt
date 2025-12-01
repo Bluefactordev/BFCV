@@ -1,0 +1,1 @@
+"{\n    \"Master o assimilabile nel ruolo richiesto\": \"Non specificato, ma ha corsi di formazione in vendite e leadership\",\n    \"Anni di esperienza\": \"29 anni\",\n    \"Posizione attuale\": \"FC Communication & Event Manager\",\n    \"Formazione più alta\": \"Corso di Laurea Facoltà di Lettere e Filosofia (interrotto)\"\n}"

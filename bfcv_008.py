@@ -133,7 +133,7 @@ max_cv = MAX_CV_TO_ANALYZE
 # Ma mantengo tutte le variabili, costanti, classi e import originali
 
 # Variabili, costanti, ecc. rimangono invariate
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "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")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "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")
 DEEPSEEK_OPENROUTER_API_KEY = os.getenv("DEEPSEEK-OPENROUTER-API-KEY", "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")
 # Definire un tema di colori coerente per l'applicazione
 COLORS = {
@@ -1240,50 +1240,6 @@ def get_cached_response(model_name, prompt):
     scores_logger.info(f"CACHE MISS: Modello={model_name}, Hash={hashlib.md5(prompt.encode('utf-8')).hexdigest()[:8]}...")
     scores_logger.info(f"CACHE MISS: Modello={model_name}, Hash={prompt_hash[:8]}...")
     return None
-        
-    cache_path = get_cache_path(model_name, prompt)
-    prompt_hash = hashlib.md5(prompt.encode('utf-8')).hexdigest()
-    
-    logger.debug(f"Verifico cache in: {cache_path}")
-    scores_logger.info(f"CACHE CHECK: Modello={model_name}, Hash={prompt_hash}, Path={cache_path}")
-    
-    # Log del prompt troncato per debug
-    truncated_prompt = prompt[:500] + "..." if len(prompt) > 500 else prompt
-    scores_logger.debug(f"PROMPT (troncato): {truncated_prompt}")
-    
-    if os.path.exists(cache_path):
-        try:
-            with open(cache_path, 'r', encoding='utf-8') as f:
-                cached_result = json.load(f)
-                
-                # Conta i token per la metrica di risparmio, segnalando che viene dalla cache
-                input_tokens = count_tokens(prompt)
-                output_tokens = count_tokens(cached_result if isinstance(cached_result, str) else json.dumps(cached_result))
-                update_cost_tracking(input_tokens, output_tokens, from_cache=True)
-                
-                logger.info(f"Trovata risposta nella cache per {model_name}")
-                scores_logger.info(f"CACHE HIT: Modello={model_name}, Hash={prompt_hash}, TokensRisparmiati={input_tokens+output_tokens}")
-                
-                # Log della risposta troncata per debug
-                result_str = cached_result if isinstance(cached_result, str) else json.dumps(cached_result)
-                truncated_result = result_str[:500] + "..." if len(result_str) > 500 else result_str
-                scores_logger.debug(f"CACHE RESPONSE (troncato): {truncated_result}")
-                
-                return cached_result
-        except Exception as e:
-            logger.warning(f"Errore nella lettura della cache: {str(e)}")
-            scores_logger.error(f"CACHE ERROR: Errore nella lettura della cache per {model_name}: {str(e)}")
-            # Tenta di riparare il file di cache danneggiato rimuovendolo
-            try:
-                os.remove(cache_path)
-                scores_logger.info(f"CACHE REPAIR: Rimosso file di cache danneggiato: {cache_path}")
-            except:
-                pass
-            return None
-    
-    logger.info(f"Nessuna cache trovata per {model_name} con hash {prompt_hash}")
-    scores_logger.info(f"CACHE MISS: Modello={model_name}, Hash={prompt_hash}")
-    return None
 
 def save_to_cache(model_name, prompt, response):
     """Salva una risposta nella cache."""
@@ -1320,40 +1276,6 @@ def save_to_cache(model_name, prompt, response):
         # Log della risposta troncata per debug
         result_str = response if isinstance(response, str) else json.dumps(response)
         truncated_result = result_str[:300] + "..." if len(result_str) > 300 else result_str
-        scores_logger.debug(f"CACHED RESPONSE (troncato): {truncated_result}")
-        
-        return cache_path
-    except Exception as e:
-        logger.warning(f"Errore nel salvataggio della cache: {str(e)}")
-        scores_logger.error(f"CACHE ERROR: Errore nel salvataggio per {model_name}: {str(e)}")
-        import traceback
-        scores_logger.error(f"CACHE ERROR TRACEBACK: {traceback.format_exc()}")
-        return None
-    
-    prompt_hash = hashlib.md5(prompt.encode('utf-8')).hexdigest()    
-    cache_path = get_cache_path(model_name, prompt)
-    
-    # Verifica se la risposta è un dizionario vuoto o None
-    if response is None or (isinstance(response, dict) and len(response) == 0):
-        logger.warning(f"Tentativo di salvare una risposta vuota in cache per {model_name}")
-        scores_logger.warning(f"CACHE SKIP: Risposta vuota per {model_name}, Hash={prompt_hash}")
-        return None
-        
-    try:
-        # Verifica se la directory di cache esiste, altrimenti creala
-        cache_dir = os.path.dirname(cache_path)
-        os.makedirs(cache_dir, exist_ok=True)
-        
-        # Salva la risposta nella cache
-        with open(cache_path, 'w', encoding='utf-8') as f:
-            json.dump(response, f, ensure_ascii=False, indent=2)
-            
-        logger.info(f"Risposta salvata nella cache: {cache_path}")
-        scores_logger.info(f"CACHE SAVE: Modello={model_name}, Hash={prompt_hash}, Path={cache_path}")
-        
-        # Log della risposta troncata per debug
-        result_str = response if isinstance(response, str) else json.dumps(response)
-        truncated_result = result_str[:500] + "..." if len(result_str) > 500 else result_str
         scores_logger.debug(f"CACHED RESPONSE (troncato): {truncated_result}")
         
         return cache_path
@@ -1490,36 +1412,66 @@ def combine_texts_openai(text_direct, text_ocr):
         # Log dei parametri della chiamata
         logger.info(f"Parametri chiamata API: {response_args}")
         
-        try:
-            # Esegui la chiamata API
-            logger.info("Esecuzione chiamata API...")
-            response = client.chat.completions.create(**response_args)
-            logger.info("Chiamata API completata con successo")
-            logger.info(f"Risposta ricevuta da: {response.model if hasattr(response, 'model') else 'modello non specificato'}")
-            
-            # Log della chiamata API
-            log_api_call(
-                model=model_to_use,
-                params=response_args,
-                prompt=prompt,
-                response=response.choices[0].message.content
-            )
-            
-            # Salva nella cache
-            save_to_cache(model_name, prompt, response.choices[0].message.content)
-            
-            return response.choices[0].message.content
-            
-        except Exception as e:
-            # Log dell'errore API
-            log_api_call(
-                model=model_to_use,
-                params=response_args,
-                prompt=prompt,
-                response=str(e),
-                is_error=True
-            )
-            raise e
+        # Gestione errori di connessione con retry
+        max_retries = 3
+        retry_delay = 2  # secondi
+        last_error = None
+        
+        for attempt in range(max_retries):
+            try:
+                # Esegui la chiamata API
+                logger.info(f"Tentativo {attempt + 1}/{max_retries} di chiamata API per combinazione testi...")
+                response = client.chat.completions.create(
+                    **response_args,
+                    timeout=60.0  # Timeout di 60 secondi
+                )
+                logger.info("Chiamata API completata con successo")
+                logger.info(f"Risposta ricevuta da: {response.model if hasattr(response, 'model') else 'modello non specificato'}")
+                
+                # Log della chiamata API
+                log_api_call(
+                    model=model_to_use,
+                    params=response_args,
+                    prompt=prompt,
+                    response=response.choices[0].message.content
+                )
+                
+                # Salva nella cache
+                save_to_cache(model_name, prompt, response.choices[0].message.content)
+                
+                # Successo, esci dal loop
+                return response.choices[0].message.content
+                
+            except Exception as e:
+                last_error = e
+                error_msg = str(e)
+                logger.warning(f"Tentativo {attempt + 1}/{max_retries} fallito nella combinazione testi: {error_msg}")
+                
+                # Log dell'errore API
+                log_api_call(
+                    model=model_to_use,
+                    params=response_args,
+                    prompt=prompt,
+                    response=error_msg,
+                    is_error=True
+                )
+                
+                # Se è un errore di connessione e non è l'ultimo tentativo, riprova
+                if "Connection" in error_msg or "timeout" in error_msg.lower() or "network" in error_msg.lower():
+                    if attempt < max_retries - 1:
+                        logger.info(f"Errore di connessione rilevato. Attendo {retry_delay} secondi prima di riprovare...")
+                        time.sleep(retry_delay)
+                        retry_delay *= 2  # Backoff esponenziale
+                        continue
+                
+                # Se non è un errore di connessione o è l'ultimo tentativo, solleva l'eccezione
+                if attempt == max_retries - 1:
+                    logger.error(f"Errore nella chiamata API dopo {max_retries} tentativi: {error_msg}")
+                    raise e
+        
+        # Se il loop termina senza return, significa che tutti i tentativi sono falliti
+        logger.error(f"Tutti i {max_retries} tentativi di combinazione testi sono falliti. Ultimo errore: {str(last_error)}")
+        raise last_error if last_error else Exception("Errore sconosciuto nella combinazione dei testi")
             
     except Exception as e:
         st.error(f"Errore nella combinazione dei testi con OpenAI: {e}")
@@ -1721,46 +1673,79 @@ def refine_missing_fields(cv_text, extraction_result, fields, use_ollama=False, 
                 if supports_json_format:
                     response_args["response_format"] = {"type": "json_object"}
                 
-                try:
-                    response = client.chat.completions.create(**response_args)
-                    refinement_text = response.choices[0].message.content
-                    
-                    # Aggiornamento dei token utilizzati
-                    input_tokens = response.usage.prompt_tokens
-                    output_tokens = response.usage.completion_tokens
-                    update_cost_tracking(input_tokens, output_tokens)
-                    
-                    # Salva nella cache
-                    save_to_cache(model_name, refinement_prompt, refinement_text)
-                    
-                    # Parsing del JSON
+                # Gestione errori di connessione con retry
+                max_retries = 3
+                retry_delay = 2  # secondi
+                last_error = None
+                
+                for attempt in range(max_retries):
                     try:
-                        refinement_result = json.loads(refinement_text)
-                    except:
-                        import re
-                        json_match = re.search(r'\{.*\}', refinement_text, re.DOTALL)
-                        if json_match:
-                            try:
-                                refinement_result = json.loads(json_match.group(0))
-                            except:
-                                logger.error(f"Errore nel parsing della risposta JSON da OpenAI: {refinement_text}")
+                        logger.info(f"Tentativo {attempt + 1}/{max_retries} di chiamata API per raffinamento...")
+                        response = client.chat.completions.create(
+                            **response_args,
+                            timeout=60.0  # Timeout di 60 secondi
+                        )
+                        refinement_text = response.choices[0].message.content
+                        
+                        # Aggiornamento dei token utilizzati
+                        input_tokens = response.usage.prompt_tokens
+                        output_tokens = response.usage.completion_tokens
+                        update_cost_tracking(input_tokens, output_tokens)
+                        
+                        # Salva nella cache
+                        save_to_cache(model_name, refinement_prompt, refinement_text)
+                        
+                        # Parsing del JSON
+                        try:
+                            refinement_result = json.loads(refinement_text)
+                        except:
+                            import re
+                            json_match = re.search(r'\{.*\}', refinement_text, re.DOTALL)
+                            if json_match:
+                                try:
+                                    refinement_result = json.loads(json_match.group(0))
+                                except:
+                                    logger.error(f"Errore nel parsing della risposta JSON da OpenAI: {refinement_text}")
+                                    st.error("L' Errore nell'affinamento con OpenAI. La risposta non contiene un JSON valido.")
+                                    return extraction_result
+                            else:
+                                logger.error(f"Risposta di OpenAI non contiene JSON: {refinement_text}")
                                 st.error("L' Errore nell'affinamento con OpenAI. La risposta non contiene un JSON valido.")
                                 return extraction_result
-                        else:
-                            logger.error(f"Risposta di OpenAI non contiene JSON: {refinement_text}")
-                            st.error("L' Errore nell'affinamento con OpenAI. La risposta non contiene un JSON valido.")
+                        
+                        # Aggiorna extraction_result con i campi raffinati
+                        for field in missing_fields:
+                            if field in refinement_result:
+                                extraction_result[field] = refinement_result[field]
+                        
+                        # Successo, esci dal loop
+                        return extraction_result
+                        
+                    except Exception as e:
+                        last_error = e
+                        error_msg = str(e)
+                        logger.warning(f"Tentativo {attempt + 1}/{max_retries} fallito nel raffinamento: {error_msg}")
+                        
+                        # Se è un errore di connessione e non è l'ultimo tentativo, riprova
+                        if "Connection" in error_msg or "timeout" in error_msg.lower() or "network" in error_msg.lower():
+                            if attempt < max_retries - 1:
+                                logger.info(f"Errore di connessione rilevato. Attendo {retry_delay} secondi prima di riprovare...")
+                                time.sleep(retry_delay)
+                                retry_delay *= 2  # Backoff esponenziale
+                                continue
+                        
+                        # Se non è un errore di connessione o è l'ultimo tentativo, logga e termina
+                        if attempt == max_retries - 1:
+                            logger.error(f"Errore nella chiamata API OpenAI dopo {max_retries} tentativi: {error_msg}")
+                            st.error(f"L' Errore nella chiamata API OpenAI: {error_msg}")
+                            if "Connection" in error_msg:
+                                st.warning("⚠️ Problema di connessione durante il raffinamento. Verifica la tua connessione internet.")
                             return extraction_result
-                    
-                    # Aggiorna extraction_result con i campi raffinati
-                    for field in missing_fields:
-                        if field in refinement_result:
-                            extraction_result[field] = refinement_result[field]
-                    
-                    return extraction_result
-                except Exception as e:
-                    logger.error(f"Errore nella chiamata API OpenAI: {str(e)}")
-                    st.error(f"L' Errore nella chiamata API OpenAI: {str(e)}")
-                    return extraction_result
+                
+                # Se il loop termina senza return, significa che tutti i tentativi sono falliti
+                logger.error(f"Tutti i {max_retries} tentativi di raffinamento sono falliti. Ultimo errore: {str(last_error)}")
+                st.error(f"Errore nella chiamata API OpenAI dopo {max_retries} tentativi: {str(last_error)}")
+                return extraction_result
                     
     except Exception as e:
         logger.error(f"Errore generale nell'affinamento dei campi: {str(e)}")
@@ -2015,37 +2000,72 @@ def analyze_cv_openai(cv_text, job_description, fields):
             if supports_json_format:
                 response_args["response_format"] = {"type": "json_object"}
             
-            try:
-                response = client.chat.completions.create(**response_args)
-                result = response.choices[0].message.content
-                
-                # Aggiornamento dei token utilizzati
-                input_tokens = response.usage.prompt_tokens
-                output_tokens = response.usage.completion_tokens
-                update_cost_tracking(input_tokens, output_tokens)
-                
-                # Aggiornamento del contatore di token
-                extraction_input_tokens = input_tokens
-                extraction_output_tokens = output_tokens
-                
-                # Salva in cache
-                save_to_cache(model_name, extraction_prompt, result)
-                
-                # Converti in JSON
+            # Gestione errori di connessione con retry
+            max_retries = 3
+            retry_delay = 2  # secondi
+            last_error = None
+            
+            for attempt in range(max_retries):
                 try:
-                    extraction_result = json.loads(result)
-                except:
-                    # Fallback: tenta di estrarre JSON con regex
-                    import re
-                    json_match = re.search(r'\{.*\}', result, re.DOTALL)
-                    if json_match:
-                        extraction_result = json.loads(json_match.group(0))
-                    else:
-                        st.error(f"L' Impossibile analizzare il risultato JSON: {result}")
+                    logger.info(f"Tentativo {attempt + 1}/{max_retries} di chiamata API...")
+                    response = client.chat.completions.create(
+                        **response_args,
+                        timeout=60.0  # Timeout di 60 secondi
+                    )
+                    result = response.choices[0].message.content
+                    
+                    # Aggiornamento dei token utilizzati
+                    input_tokens = response.usage.prompt_tokens
+                    output_tokens = response.usage.completion_tokens
+                    update_cost_tracking(input_tokens, output_tokens)
+                    
+                    # Aggiornamento del contatore di token
+                    extraction_input_tokens = input_tokens
+                    extraction_output_tokens = output_tokens
+                    
+                    # Salva in cache
+                    save_to_cache(model_name, extraction_prompt, result)
+                    
+                    # Converti in JSON
+                    try:
+                        extraction_result = json.loads(result)
+                    except:
+                        # Fallback: tenta di estrarre JSON con regex
+                        import re
+                        json_match = re.search(r'\{.*\}', result, re.DOTALL)
+                        if json_match:
+                            extraction_result = json.loads(json_match.group(0))
+                        else:
+                            st.error(f"L' Impossibile analizzare il risultato JSON: {result}")
+                            return None
+                    
+                    # Successo, esci dal loop
+                    break
+                    
+                except Exception as e:
+                    last_error = e
+                    error_msg = str(e)
+                    logger.warning(f"Tentativo {attempt + 1}/{max_retries} fallito: {error_msg}")
+                    
+                    # Se è un errore di connessione e non è l'ultimo tentativo, riprova
+                    if "Connection" in error_msg or "timeout" in error_msg.lower() or "network" in error_msg.lower():
+                        if attempt < max_retries - 1:
+                            logger.info(f"Errore di connessione rilevato. Attendo {retry_delay} secondi prima di riprovare...")
+                            time.sleep(retry_delay)
+                            retry_delay *= 2  # Backoff esponenziale
+                            continue
+                    
+                    # Se non è un errore di connessione o è l'ultimo tentativo, logga e termina
+                    if attempt == max_retries - 1:
+                        logger.error(f"Errore nella chiamata API dopo {max_retries} tentativi: {error_msg}")
+                        st.error(f"Errore nella chiamata API: {error_msg}")
+                        if "Connection" in error_msg:
+                            st.warning("⚠️ Problema di connessione. Verifica la tua connessione internet e riprova.")
                         return None
-            except Exception as e:
-                logger.error(f"Errore nella chiamata API: {str(e)}")
-                st.error(f"L' Errore nella chiamata API: {str(e)}")
+            else:
+                # Se il loop termina senza break, significa che tutti i tentativi sono falliti
+                logger.error(f"Tutti i {max_retries} tentativi sono falliti. Ultimo errore: {str(last_error)}")
+                st.error(f"Errore nella chiamata API dopo {max_retries} tentativi: {str(last_error)}")
                 return None
         
         # FASE 2: Raffinamento dei campi mancanti (solo se necessario)
@@ -2954,6 +2974,13 @@ def process_cvs(cv_dir, job_description, fields, progress_callback=None):
                 }
                 results.append(result_entry)
                 
+                # Salva i risultati parziali dopo ogni CV completato
+                try:
+                    save_partial_results(results, cv_dir, job_description, fields)
+                    logger.debug(f"Risultati parziali salvati dopo analisi di {filename}")
+                except Exception as e:
+                    logger.warning(f"Errore nel salvataggio parziale: {str(e)}")
+                
                 # Aggiorna il progresso
                 if progress_callback:
                     progress_callback(i + 1, total_files, f"Completato {filename}")
@@ -3393,6 +3420,53 @@ def add_candidate_note(candidate_id, note):
         "user": st.session_state.get("username", "utente")
     })
 
+def add_candidate_rating(candidate_id, rating):
+    """
+    Assegna un voto a un candidato (da 1 a 5).
+    
+    Args:
+        candidate_id: Identificativo univoco del candidato
+        rating: Voto numerico da 1 a 5
+        
+    Returns:
+        None
+    """
+    if 'candidate_ratings' not in st.session_state:
+        st.session_state.candidate_ratings = {}
+    
+    # Assicura che il rating sia un numero valido tra 1 e 5
+    try:
+        rating_value = float(rating)
+        if rating_value < 1:
+            rating_value = 1
+        elif rating_value > 5:
+            rating_value = 5
+    except:
+        rating_value = 3  # valore predefinito in caso di errore
+    
+    # Salva il rating con timestamp
+    timestamp = datetime.now().strftime("%d/%m/%Y %H:%M")
+    st.session_state.candidate_ratings[candidate_id] = {
+        "rating": rating_value,
+        "timestamp": timestamp,
+        "user": st.session_state.get("username", "utente")
+    }
+
+def get_candidate_rating(candidate_id):
+    """
+    Ottiene il voto assegnato a un candidato.
+    
+    Args:
+        candidate_id: Identificativo univoco del candidato
+        
+    Returns:
+        Dizionario con il voto e le informazioni associate, o None se non disponibile
+    """
+    if 'candidate_ratings' not in st.session_state:
+        st.session_state.candidate_ratings = {}
+    
+    return st.session_state.candidate_ratings.get(candidate_id, None)
+
 def get_candidate_notes(candidate_id):
     """
     Ottiene le note per un candidato.
@@ -3441,136 +3515,147 @@ def get_candidate_category(candidate_id):
 
 def render_cv_card(result, idx, show_details=True):
     """
-    Renderizza una scheda per un CV con tutte le informazioni estratte.
+    Renders the CV card with the given result
     
     Args:
-        result: Dizionario contenente i dati del CV
-        idx: Indice del CV nella lista
-        show_details: Se True, mostra più dettagli
+        result: The CV result
+        idx: The index of the CV
+        show_details: Whether to show the details of the CV
         
     Returns:
-        HTML della scheda del CV
-    """
-    # Estrai i dati principali
-    filename = result.get("filename", f"CV {idx+1}")
-    
-    # Estrai l'estrazione e il punteggio
-    extraction = {}
-    composite_score = 0
-    criteria = {}
-    
-    if "result" in result:
-        extraction = result["result"].get("extraction", {})
-        composite_score = result["result"].get("composite_score", 0)
-        criteria = result["result"].get("criteria", {})
-    
-    # Costruiamo l'HTML della scheda
-    html = f"""
-    <div class="cv-card">
-        <h3>{extraction.get("Nome", "")} {extraction.get("Cognome", "")}</h3>
-        <h4>{filename}</h4>
-        
-        <div style="display:flex; align-items:center; margin-bottom:15px;">
-            <div style="flex:1;">
-                <strong>Punteggio complessivo:</strong>
-                {create_score_bar(composite_score)}
-                <div style="text-align:center;">{format_score_with_color(composite_score)}</div>
-            </div>
-        </div>
+        None
     """
     
-    if show_details:
-        # Aggiungi informazioni di contatto
-        html += f"""
-        <div style="margin-bottom:15px;">
-            <strong>Contatti:</strong>
-            <div style="display:flex; flex-wrap:wrap;">
-                <div style="flex:1; min-width:200px; margin-right:10px;">
-                    <i class="fas fa-envelope"></i> {extraction.get("Email", "Non specificata")}
-                </div>
-                <div style="flex:1; min-width:200px;">
-                    <i class="fas fa-phone"></i> {extraction.get("Numero di contatto", "Non specificato")}
-                </div>
-            </div>
-        </div>
+    # Genera un ID univoco per il candidato basato sul nome del file
+    candidate_id = result.get('filename', f"candidate_{idx}")
+    
+    # Get the normalized criteria scores
+    normalized_criteria = result.get('normalized_criteria', {})
+    
+    # Retrieve the candidate category and notes
+    category = get_candidate_category(candidate_id)
+    notes = get_candidate_notes(candidate_id)
+    rating_data = get_candidate_rating(candidate_id)
+    current_rating = rating_data['rating'] if rating_data else 0
+    
+    # Card container
+    with st.container():
+        # Top bar with name and controls
+        col1, col2 = st.columns([3, 1])
         
-        <div style="display:flex; flex-wrap:wrap; margin-bottom:15px;">
-            <div style="flex:1; min-width:150px; margin-right:10px;">
-                <strong>Età:</strong> {extraction.get("Età", "Non specificata")}
-            </div>
-            <div style="flex:1; min-width:150px; margin-right:10px;">
-                <strong>Città:</strong> {extraction.get("Città di residenza", "Non specificata")}
-            </div>
-            <div style="flex:2; min-width:200px;">
-                <strong>Posizione attuale:</strong> {extraction.get("Posizione attuale", "Non specificata")}
-            </div>
-        </div>
+        with col1:
+            name = result.get('name', 'N/A')
+            surname = result.get('surname', 'N/A')
+            full_name = f"{name} {surname}".strip()
+            if full_name == 'N/A N/A':
+                full_name = f"Candidato {idx+1}"
+            
+            st.markdown(f"### {full_name}")
+            
+            # Mostra informazioni di contatto se disponibili
+            email = result.get('email', 'N/A')
+            phone = result.get('phone', 'N/A')
+            if email != 'N/A' or phone != 'N/A':
+                contact_info = []
+                if email != 'N/A':
+                    contact_info.append(f"📧 {email}")
+                if phone != 'N/A':
+                    contact_info.append(f"📱 {phone}")
+                st.markdown(" | ".join(contact_info))
         
-        <div style="margin-bottom:15px;">
-            <strong>Esperienza:</strong> {extraction.get("Anni di esperienza lavorativa", "Non specificata")}
-            <br>
-            <strong>Formazione:</strong> {extraction.get("Formazione più alta", "Non specificata")}
-            {" presso " + (extraction.get("Università/Istituto", "") if isinstance(extraction.get("Università/Istituto", ""), str) else ", ".join(extraction.get("Università/Istituto", [])) if isinstance(extraction.get("Università/Istituto", ""), list) else "") if extraction.get("Università/Istituto") else ""}
-        </div>
-        """
+        with col2:
+            # Dropdown per selezionare categoria
+            categories = ["Non categorizzato", "Da contattare", "In valutazione", "Shortlist", "Scartato"]
+            selected_category = st.selectbox(
+                "Categoria", 
+                categories, 
+                index=categories.index(category) if category in categories else 0,
+                key=f"category_{candidate_id}"
+            )
+            
+            # Aggiorna la categoria solo se è cambiata
+            if selected_category != category:
+                categorize_candidate(candidate_id, selected_category)
+                st.rerun()
+            
+            # Widget per votare il candidato
+            rating = st.select_slider(
+                "Voto", 
+                options=[0, 1, 2, 3, 4, 5],
+                value=int(current_rating),
+                key=f"rating_{candidate_id}"
+            )
+            
+            # Aggiorna il voto solo se è cambiato
+            if rating != current_rating:
+                add_candidate_rating(candidate_id, rating)
         
-        # Aggiungi punteggi per criterio
-        html += """<div style="margin-top:20px;"><strong>Valutazione per criteri:</strong><div style="display:flex; flex-wrap:wrap;">"""
-        
-        criteria_to_use = st.session_state.evaluation_criteria if 'evaluation_criteria' in st.session_state else EVALUATION_CRITERIA
-        for criteria_id, criteria_label in criteria_to_use:
-            if criteria_id in criteria:
-                # Gestisce diversi formati possibili del criterio
-                if isinstance(criteria[criteria_id], dict):
-                    # Formato standard: dizionario con score e motivation
-                    score = criteria[criteria_id].get("score", 0) 
-                    motivation = criteria[criteria_id].get("motivation", "")
-                elif isinstance(criteria[criteria_id], (int, float)):
-                    # Formato semplice: solo il valore numerico
-                    score = criteria[criteria_id]
-                    motivation = ""
-                else:
-                    # Per sicurezza, forza la conversione a stringa
-                    try:
-                        score = float(str(criteria[criteria_id]).strip())
-                        motivation = ""
-                    except:
-                        score = 0
-                        motivation = f"Formato non supportato: {str(criteria[criteria_id])}"
+        if show_details:
+            # Display CV details
+            with st.expander("Dettagli CV", expanded=False):
+                cv_info_cols = st.columns(3)
                 
-                html += f"""
-                <div style="flex:1; min-width:200px; margin:5px; padding:10px; background-color:#f5f5f5; border-radius:5px;">
-                    <div style="display:flex; align-items:center; margin-bottom:5px;">
-                        <div style="flex:1;"><strong>{criteria_label.split(":")[0]}</strong></div>
-                        <div>{create_score_badge(score)}</div>
-                    </div>
-                    <div style="font-size:0.9em; color:#555;">{motivation}</div>
-                </div>
-                """
-        
-        html += "</div></div>"
+                # Colonna 1 - Informazioni generali
+                with cv_info_cols[0]:
+                    st.markdown("#### Informazioni generali")
+                    st.markdown(f"**Età:** {result.get('age', 'N/A')}")
+                    st.markdown(f"**Città:** {result.get('city_of_residence', 'N/A')}")
+                    st.markdown(f"**Nazionalità:** {result.get('nationality', 'N/A')}")
+                    st.markdown(f"**Esperienza:** {result.get('years_of_experience', 'N/A')} anni")
+                    st.markdown(f"**Istruzione:** {result.get('education_level', 'N/A')}")
+                
+                # Colonna 2 - Competenze
+                with cv_info_cols[1]:
+                    st.markdown("#### Competenze")
+                    skills = result.get('skills', [])
+                    if skills:
+                        for skill in skills[:10]:  # Limita a 10 skill per non occupare troppo spazio
+                            st.markdown(f"- {skill}")
+                        if len(skills) > 10:
+                            st.markdown(f"- *e altre {len(skills) - 10}...*")
+                    else:
+                        st.markdown("*Nessuna competenza rilevata*")
+                
+                # Colonna 3 - Valutazione
+                with cv_info_cols[2]:
+                    st.markdown("#### Punteggi")
+                    composite_score = result.get('composite_score', 0)
+                    st.markdown(f"**Punteggio complessivo:** {composite_score:.2f}")
+                    
+                    # Display the normalized criteria scores
+                    for criterion, score in normalized_criteria.items():
+                        st.markdown(f"**{criterion}:** {score:.2f}")
+                
+                # File originale e preview PDF
+                st.markdown("#### File originale")
+                filename = result.get('filename', '')
+                if filename:
+                    download_link_pdf = create_download_link_pdf(filename)
+                    st.markdown(download_link_pdf, unsafe_allow_html=True)
+            
+            # Note section
+            with st.expander("Note", expanded=False):
+                # Mostra le note esistenti
+                if notes:
+                    for i, note_item in enumerate(notes):
+                        timestamp = note_item.get('timestamp', '')
+                        note_text = note_item.get('note', '')
+                        user = note_item.get('user', 'utente')
+                        st.markdown(f"**{timestamp}** *({user})*: {note_text}")
+                else:
+                    st.markdown("*Nessuna nota per questo candidato*")
+                
+                # Campo per aggiungere nuove note
+                new_note = st.text_area("Aggiungi una nota", key=f"note_input_{candidate_id}")
+                if st.button("Salva nota", key=f"note_button_{candidate_id}"):
+                    if new_note.strip():
+                        add_candidate_note(candidate_id, new_note)
+                        st.rerun()
+            
+            # Horizontal line as separator
+            st.markdown("---")
     
-    html += """
-        <div style="display:flex; justify-content:flex-end; margin-top:15px;">
-            <button class="view-details-btn" style="background-color:#4CAF50; color:white; border:none; padding:8px 15px; border-radius:4px; cursor:pointer; margin-right:10px;">
-                Vedi dettagli
-            </button>
-            <div class="dropdown">
-                <button class="category-btn" style="background-color:#607D8B; color:white; border:none; padding:8px 15px; border-radius:4px; cursor:pointer;">
-                    Categorizza
-                </button>
-                <div class="dropdown-content" style="display:none; position:absolute; background-color:white; min-width:160px; box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2); z-index:1; border-radius:4px;">
-                    <a href="#" style="color:black; padding:12px 16px; text-decoration:none; display:block;">Da contattare</a>
-                    <a href="#" style="color:black; padding:12px 16px; text-decoration:none; display:block;">In attesa</a>
-                    <a href="#" style="color:black; padding:12px 16px; text-decoration:none; display:block;">Non idoneo</a>
-                    <a href="#" style="color:black; padding:12px 16px; text-decoration:none; display:block;">Contattato</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    """
-    
-    return html
+    return None
 
 def create_download_link_pdf(filename):
     """Crea un link per il download del file PDF"""
@@ -3642,6 +3727,311 @@ def log_api_call(model: str, params: dict, prompt: str, response: str, is_error:
             f.write("Risposta:\n")
         f.write(str(response))
 
+def save_partial_results(results, cv_dir, job_description, fields):
+    """
+    Salva i risultati parziali dell'analisi in corso in un file JSON.
+    Utile per visualizzare i risultati mentre l'analisi è ancora in corso.
+    
+    Args:
+        results: Lista dei risultati parziali
+        cv_dir: Directory dei CV
+        job_description: Descrizione del lavoro
+        fields: Campi selezionati
+        
+    Returns:
+        str: Percorso del file salvato
+    """
+    try:
+        # Crea la cartella partial_results se non esiste
+        partial_dir = Path(os.path.abspath(os.getcwd())) / "partial_results"
+        partial_dir.mkdir(exist_ok=True)
+        
+        # Crea il nome file con timestamp (sovrascrive sempre l'ultimo)
+        partial_file = partial_dir / "partial_results_latest.json"
+        
+        # Prepara i risultati senza cv_text per risparmiare spazio
+        results_to_save = []
+        for result in results:
+            result_copy = result.copy()
+            # Rimuovi cv_text per risparmiare spazio (non necessario per la visualizzazione)
+            if "cv_text" in result_copy:
+                del result_copy["cv_text"]
+            results_to_save.append(result_copy)
+        
+        # Prepara i dati da salvare
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        save_data = {
+            "timestamp": timestamp,
+            "cv_dir": cv_dir,
+            "job_description": job_description,
+            "fields": fields,
+            "total_analyzed": len(results),
+            "results": results_to_save
+        }
+        
+        # Salva i dati in formato JSON
+        with open(partial_file, 'w', encoding='utf-8') as f:
+            json.dump(save_data, f, ensure_ascii=False, indent=2, default=str)
+        
+        logger.debug(f"Risultati parziali salvati in {partial_file} ({len(results)} CV)")
+        return str(partial_file)
+    except Exception as e:
+        logger.error(f"Errore nel salvataggio dei risultati parziali: {str(e)}")
+        return None
+
+def get_latest_partial_results():
+    """
+    Recupera i risultati parziali più recenti.
+    
+    Returns:
+        dict: Dati dei risultati parziali o None se non trovati
+    """
+    try:
+        partial_dir = Path(os.path.abspath(os.getcwd())) / "partial_results"
+        if not partial_dir.exists():
+            return None
+        
+        # Trova tutti i file JSON nella cartella
+        partial_files = list(partial_dir.glob("partial_results_*.json"))
+        if not partial_files:
+            return None
+        
+        # Ordina per data di modifica (più recente prima)
+        partial_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+        latest_file = partial_files[0]
+        
+        # Leggi il file
+        with open(latest_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        return data
+    except Exception as e:
+        logger.error(f"Errore nel recupero dei risultati parziali: {str(e)}")
+        return None
+
+def save_analysis_state(save_name):
+    """
+    Salva lo stato corrente dell'analisi in un file JSON.
+    
+    Args:
+        save_name: Nome del salvataggio
+        
+    Returns:
+        str: Percorso del file salvato o messaggio di errore
+    """
+    # Verifica che ci siano risultati da salvare
+    if 'results' not in st.session_state or not st.session_state.results:
+        return "Nessun risultato da salvare"
+    
+    try:
+        # Crea la cartella saves se non esiste
+        save_dir = Path(os.path.abspath(os.getcwd())) / "saves"
+        save_dir.mkdir(exist_ok=True)
+        
+        # Sanitizza il nome del salvataggio
+        safe_save_name = ''.join(c if c.isalnum() or c in ['-', '_'] else '_' for c in save_name)
+        
+        # Crea il nome file con timestamp
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        save_file = save_dir / f"{safe_save_name}_{timestamp}.json"
+        
+        # Prepara i dati da salvare
+        save_data = {
+            "timestamp": timestamp,
+            "user": st.session_state.get("username", "utente"),
+            "save_name": save_name,
+            "job_description": st.session_state.get("job_description", ""),
+            "fields": st.session_state.get("fields", []),
+            "selected_fields": st.session_state.get("selected_fields", []),
+            "evaluation_criteria": st.session_state.get("evaluation_criteria", []),
+            "criteria_weights": st.session_state.get("criteria_weights", {}),
+            "results": st.session_state.get("results", []),
+            "results_df": st.session_state.get("results_df", {}).to_dict() if hasattr(st.session_state.get("results_df", {}), "to_dict") else {},
+            "candidate_notes": st.session_state.get("candidate_notes", {}),
+            "candidate_ratings": st.session_state.get("candidate_ratings", {}),
+            "candidate_categories": st.session_state.get("candidate_categories", {}),
+            "filter_criteria": st.session_state.get("filter_criteria", {}),
+            "advanced_filters": st.session_state.get("advanced_filters", {}),
+            "sort_criteria": st.session_state.get("sort_criteria", {})
+        }
+        
+        # Salva i dati in formato JSON
+        with open(save_file, 'w', encoding='utf-8') as f:
+            json.dump(save_data, f, ensure_ascii=False, indent=2, default=str)
+        
+        # Aggiorna la lista dei salvataggi nella session state
+        if 'available_saves' not in st.session_state:
+            st.session_state.available_saves = []
+        
+        st.session_state.available_saves.append({
+            "filename": str(save_file.name),
+            "filepath": str(save_file),
+            "save_name": save_name,
+            "timestamp": timestamp,
+            "user": st.session_state.get("username", "utente")
+        })
+        
+        return str(save_file)
+    
+    except Exception as e:
+        return f"Errore nel salvataggio: {str(e)}"
+
+def load_analysis_state(filepath):
+    """
+    Carica uno stato di analisi salvato da un file JSON.
+    
+    Args:
+        filepath: Percorso del file da caricare
+        
+    Returns:
+        bool: True se il caricamento è avvenuto con successo, False altrimenti
+    """
+    try:
+        # Carica i dati dal file JSON
+        with open(filepath, 'r', encoding='utf-8') as f:
+            save_data = json.load(f)
+        
+        # Ripristina i dati nella session_state
+        if "job_description" in save_data:
+            st.session_state.job_description = save_data["job_description"]
+        
+        if "fields" in save_data:
+            st.session_state.fields = save_data["fields"]
+        
+        if "selected_fields" in save_data:
+            st.session_state.selected_fields = save_data["selected_fields"]
+        
+        if "evaluation_criteria" in save_data:
+            st.session_state.evaluation_criteria = save_data["evaluation_criteria"]
+        
+        if "criteria_weights" in save_data:
+            st.session_state.criteria_weights = save_data["criteria_weights"]
+        
+        if "results" in save_data:
+            st.session_state.results = save_data["results"]
+        
+        if "results_df" in save_data and save_data["results_df"]:
+            # Converte il dizionario in DataFrame
+            st.session_state.results_df = pd.DataFrame.from_dict(save_data["results_df"])
+            # Migrazione del nome: results_df -> analysis_results
+            st.session_state.analysis_results = st.session_state.results_df
+        
+        if "candidate_notes" in save_data:
+            st.session_state.candidate_notes = save_data["candidate_notes"]
+        
+        if "candidate_ratings" in save_data:
+            st.session_state.candidate_ratings = save_data["candidate_ratings"]
+        
+        if "candidate_categories" in save_data:
+            st.session_state.candidate_categories = save_data["candidate_categories"]
+            
+        # Ripristina anche i filtri se disponibili
+        if "filter_criteria" in save_data:
+            st.session_state.filter_criteria = save_data["filter_criteria"]
+            
+        if "advanced_filters" in save_data:
+            st.session_state.advanced_filters = save_data["advanced_filters"]
+            
+        if "sort_criteria" in save_data:
+            st.session_state.sort_criteria = save_data["sort_criteria"]
+        
+        return True
+    
+    except Exception as e:
+        logger.error(f"Errore nel caricamento del salvataggio: {str(e)}")
+        return False
+
+def get_available_saves():
+    """
+    Ottiene la lista dei salvataggi disponibili.
+    
+    Returns:
+        list: Lista di dizionari con i dettagli dei salvataggi
+    """
+    try:
+        # Crea la cartella saves se non esiste
+        save_dir = Path(os.path.abspath(os.getcwd())) / "saves"
+        save_dir.mkdir(exist_ok=True)
+        
+        # Cerca tutti i file JSON nella cartella
+        save_files = list(save_dir.glob("*.json"))
+        
+        saves = []
+        for file in save_files:
+            try:
+                # Leggi il file per estrarre le informazioni
+                with open(file, 'r', encoding='utf-8') as f:
+                    save_data = json.load(f)
+                
+                # Aggiungi le informazioni alla lista
+                saves.append({
+                    "filename": file.name,
+                    "filepath": str(file),
+                    "save_name": save_data.get("save_name", file.stem),
+                    "timestamp": save_data.get("timestamp", ""),
+                    "user": save_data.get("user", "sconosciuto")
+                })
+            except:
+                # Se il file è corrotto, aggiungilo comunque con informazioni limitate
+                saves.append({
+                    "filename": file.name,
+                    "filepath": str(file),
+                    "save_name": file.stem,
+                    "timestamp": "",
+                    "user": "sconosciuto"
+                })
+        
+        # Ordina i salvataggi per timestamp (più recenti prima)
+        saves.sort(key=lambda x: x["timestamp"], reverse=True)
+        
+        return saves
+    
+    except Exception as e:
+        logger.error(f"Errore nel recupero dei salvataggi: {str(e)}")
+        return []
+
+def delete_save(filepath):
+    """
+    Elimina un file di salvataggio.
+    
+    Args:
+        filepath: Percorso del file da eliminare
+        
+    Returns:
+        bool: True se l'eliminazione è avvenuta con successo, False altrimenti
+    """
+    try:
+        # Elimina il file
+        os.remove(filepath)
+        
+        # Aggiorna la lista dei salvataggi nella session state
+        if 'available_saves' in st.session_state:
+            st.session_state.available_saves = [
+                save for save in st.session_state.available_saves 
+                if save["filepath"] != filepath
+            ]
+        
+        return True
+    
+    except Exception as e:
+        logger.error(f"Errore nell'eliminazione del salvataggio: {str(e)}")
+        return False
+        
+def get_candidate_rating(candidate_id):
+    """
+    Ottiene il voto assegnato a un candidato.
+    
+    Args:
+        candidate_id: Identificativo univoco del candidato
+        
+    Returns:
+        Dizionario con il voto e le informazioni associate, o None se non disponibile
+    """
+    if 'candidate_ratings' not in st.session_state:
+        st.session_state.candidate_ratings = {}
+    
+    return st.session_state.candidate_ratings.get(candidate_id, None)
+
 def main():
     # Dichiaro global logger all'inizio della funzione per usarlo
     global logger
@@ -3653,9 +4043,6 @@ def main():
     scores_logger = setup_scores_logger()
     scores_logger.info("Inizializzato logger di debug per i punteggi")
     
-    # Utilizziamo components.v1.html per inserire lo script di blocco in modo invisibile
-    html(create_script_blocker(), height=0, width=0)
-    
     # Inizializzazione dei managers
     auth_manager = AuthManager()
     profile_manager = ProfileManager()
@@ -3665,6 +4052,10 @@ def main():
     if not auth_manager.is_authenticated():
         auth_manager.login_page()
         return
+    
+    # Utilizziamo st.markdown per inserire lo script di blocco dopo l'inizializzazione della sessione
+    # Questo evita l'errore "Tried to use SessionInfo before it was initialized"
+    st.markdown(create_script_blocker(), unsafe_allow_html=True)
         
     # Mostra il percorso del file di log dei punteggi se esiste
     if 'scores_log_path' in st.session_state:
@@ -4091,7 +4482,7 @@ def main():
                                     if existing_id == criteria_id:
                                         exists = True
                                         break
-                                
+            
                                 if not exists:
                                     st.session_state.evaluation_criteria.append((criteria_id, criteria_label))
                                     st.session_state.criteria_weights[criteria_id] = criteria_weight
@@ -4217,6 +4608,71 @@ def main():
     }
     </style>
     """, unsafe_allow_html=True)
+    
+    # Mostra automaticamente i risultati parziali se disponibili
+    partial_data = get_latest_partial_results()
+    if partial_data and partial_data.get("results"):
+        with st.expander(f"📊 Risultati Parziali Disponibili ({len(partial_data['results'])} CV analizzati)", expanded=False):
+            st.info(f"📅 Ultimo aggiornamento: {partial_data.get('timestamp', 'N/A')}")
+            
+            # Converti i risultati parziali in DataFrame
+            try:
+                partial_results = partial_data["results"]
+                fields = partial_data.get("fields", st.session_state.get("fields", []))
+                
+                # Prepara il DataFrame dei risultati parziali
+                partial_data_list = []
+                for result in partial_results:
+                    row = {
+                        "File_PDF": result.get("filename", ""),
+                        "file_path": result.get("path", "")
+                    }
+                    
+                    # Aggiungi il punteggio composito
+                    if "result" in result and "composite_score" in result["result"]:
+                        try:
+                            raw_score = result["result"]["composite_score"]
+                            row["Punteggio_composito"] = int(float(raw_score) if raw_score is not None else 0)
+                        except (ValueError, TypeError):
+                            row["Punteggio_composito"] = 0
+                    else:
+                        row["Punteggio_composito"] = 0
+                    
+                    # Aggiungi le informazioni estratte
+                    for field in fields:
+                        if "result" in result and "extraction" in result["result"] and field in result["result"]["extraction"]:
+                            value = result["result"]["extraction"][field]
+                            if isinstance(value, list):
+                                row[field] = ", ".join(map(str, value))
+                            else:
+                                row[field] = value
+                    
+                    partial_data_list.append(row)
+                
+                if partial_data_list:
+                    partial_df = pd.DataFrame(partial_data_list)
+                    st.dataframe(partial_df, use_container_width=True, height=300)
+                    
+                    # Pulsante per caricare i risultati parziali nella sessione
+                    if st.button("🔄 Carica questi risultati nella sessione", key="load_partial_auto_button"):
+                        st.session_state.results = partial_results
+                        st.session_state.analysis_results = partial_df
+                        st.session_state.active_tab = 0
+                        st.success("✅ Risultati parziali caricati! Vai alla scheda 'Panoramica' per visualizzarli.")
+                        st.rerun()
+                else:
+                    st.warning("Nessun dato disponibile nei risultati parziali.")
+            except Exception as e:
+                st.error(f"Errore nella visualizzazione dei risultati parziali: {str(e)}")
+                logger.error(f"Errore nella visualizzazione dei risultati parziali: {str(e)}")
+    
+    # Pulsante per aggiornare i risultati parziali
+    partial_col1, partial_col2, partial_col3 = st.columns([1, 1, 1])
+    with partial_col2:
+        view_partial_button = st.button("🔄 Aggiorna Risultati Parziali", key="view_partial_button", use_container_width=True)
+    
+    if view_partial_button:
+        st.rerun()  # Ricarica la pagina per mostrare i risultati più recenti
     
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
@@ -4586,11 +5042,11 @@ def main():
                                     # Crea slider con due handle per range
                                     st.markdown(f"**{criteria_label}**")
                                     values = st.slider(
-                                        f"Range per {criteria_label}",
+                                                        f"Range per {criteria_label}",
                                         min_value=min_val,
                                         max_value=max_val,
                                         value=(default_min, default_max),
-                                        key=f"range_{criteria_label}"
+                                                        key=f"range_{criteria_label}"
                                     )
                                     
                                     # Aggiorna i filtri nella session state
@@ -5042,6 +5498,54 @@ def main():
                     file_name=f"risultati_analisi_cv_{datetime.now().strftime('%Y%m%d_%H%M%S')}.xlsx",
                     mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
                 )
+                
+                # Sezione per salvare/caricare lo stato dell'analisi
+                with st.expander("💾 Salva/Carica analisi", expanded=False):
+                    st.markdown("### Salva lo stato dell'analisi")
+                    save_cols = st.columns([3, 1])
+                    with save_cols[0]:
+                        save_name = st.text_input("Nome del salvataggio", placeholder="es. Analisi Marketing Luglio 2023")
+                    with save_cols[1]:
+                        if st.button("Salva", use_container_width=True):
+                            if save_name:
+                                result = save_analysis_state(save_name)
+                                if result and not result.startswith("Errore"):
+                                    st.success(f"Salvataggio completato!")
+                                else:
+                                    st.error(f"Errore: {result}")
+                            else:
+                                st.warning("Inserisci un nome")
+                    
+                    st.markdown("---")
+                    st.markdown("### Carica un'analisi salvata")
+                    
+                    available_saves = get_available_saves()
+                    if not available_saves:
+                        st.info("Nessun salvataggio disponibile")
+                    else:
+                        for i, save in enumerate(available_saves):
+                            with st.container():
+                                cols = st.columns([3, 2, 1, 1])
+                                with cols[0]:
+                                    st.markdown(f"**{save['save_name']}**")
+                                with cols[1]:
+                                    st.caption(f"Data: {save.get('timestamp', '')}")
+                                with cols[2]:
+                                    if st.button("Carica", key=f"load_{i}"):
+                                        success = load_analysis_state(save["filepath"])
+                                        if success:
+                                            st.success("Caricato!")
+                                            st.rerun()
+                                        else:
+                                            st.error("Errore")
+                                with cols[3]:
+                                    if st.button("Elimina", key=f"del_{i}"):
+                                        if delete_save(save["filepath"]):
+                                            st.success("Eliminato")
+                                            st.rerun()
+                                        else:
+                                            st.error("Errore")
+                                st.markdown("---")
             else:
                 logger.warning("DataFrame dei risultati non trovato o vuoto")
                 st.info("Nessun dato disponibile per la visualizzazione")
@@ -5077,11 +5581,11 @@ def main():
                                 # Converti le liste in stringhe per evitare errori nella visualizzazione
                                 if isinstance(value, list):
                                     value = ", ".join(map(str, value))
-                                info_data.append({"Campo": field, "Valore": value})
-                            
-                            st.table(pd.DataFrame(info_data))
-                        else:
-                            st.warning("Nessuna informazione estratta disponibile")
+                                    info_data.append({"Campo": field, "Valore": value})
+                                    
+                                    st.table(pd.DataFrame(info_data))
+                                else:
+                                    st.warning("Nessuna informazione estratta disponibile")
                         
                         with detail_tabs[1]:
                             st.subheader("Valutazione Dettagliata")
@@ -5259,7 +5763,7 @@ def main():
                                         """, unsafe_allow_html=True)
                             else:
                                 st.info("Nessuna nota disponibile per questo candidato.")
-                        
+                    
                 else:
                     st.info("Seleziona un CV dalla lista per visualizzare i dettagli")
             else:

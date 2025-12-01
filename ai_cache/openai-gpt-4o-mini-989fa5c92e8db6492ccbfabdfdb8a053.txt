@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"25 anni\",\n    \"Città di origine\": \"Salerno\",\n    \"Master o assimilabile nel ruolo richiesto\": \"SEO Minidegree, Meta Ads Minidegree, Google Ads Minidegree, Social Media Content Minidegree, SEM Minidegree, Media Buyer Minidegree\",\n    \"Legame con Firenze\": \"Non specificato, ma probabile assente\"\n}"

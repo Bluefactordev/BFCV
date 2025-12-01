@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"circa 23 anni\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"3 anni\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Non specificato\"\n}"

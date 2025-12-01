@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Roma\",\n    \"Legame con Firenze\": \"Non specificato, ma potrebbe avere legami professionali o accademici considerando l'educazione e la carriera.\",\n    \"Soft skills\": \"Comunicazione chiara ed efficace, capacità di risoluzione dei problemi, coordinamento e organizzazione.\"\n}"

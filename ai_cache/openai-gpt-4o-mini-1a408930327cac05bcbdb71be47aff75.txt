@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Ischia (NA)\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2 anni\",\n    \"Legame con Firenze\": \"Studia presso l'Università degli Studi di Siena\"\n}"

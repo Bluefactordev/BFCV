@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"22\",\n    \"Città di origine\": \"Prato (PO)\",\n    \"Anni di esperienza lavorativa\": \"2\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"1\"\n}"

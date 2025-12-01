@@ -1,0 +1,1 @@
+"{\n    \"Anni di esperienza lavorativa\": \"4 anni\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2 anni\",\n    \"Soft skills\": \"Coordinazione, gestione logistica, comunicazione, mediazione, progettazione didattica\"\n}"

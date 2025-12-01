@@ -1,0 +1,1 @@
+"{\n    \"Numero di contatto\": \"Non specificato\",\n    \"Età\": \"Circa 27 anni\",\n    \"Città di origine\": \"Firenze\",\n    \"Anni di esperienza lavorativa\": \"3 anni\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea in Teorie della Comunicazione\",\n    \"Posizione attuale\": \"Social Media Manager e Copywriter\"\n}"

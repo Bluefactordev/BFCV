@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"35-40 anni\",\n    \"Città di origine\": \"Arezzo\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"10+ anni\",\n    \"Legame con Firenze\": \"Disponibile a lavorare sul territorio, ma non specificato se ha vissuto o lavorato a Firenze\",\n    \"Lingue straniere\": \"Inglese (presumibile, non specificato nel CV)\"\n}"

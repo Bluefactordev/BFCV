@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"23\",\n    \"Città di residenza\": \"Bologna\",\n    \"Città di origine\": \"San Giovanni Rotondo\",\n    \"Anni di esperienza lavorativa\": \"2\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"0\",\n    \"Posizione attuale\": \"Stage - Ufficio Stampa\",\n    \"Legame con Firenze\": \"Nessun legame esplicito menzionato\"\n}"

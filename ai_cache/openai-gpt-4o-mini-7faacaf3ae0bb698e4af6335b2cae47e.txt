@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Montevarchi\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea in Economia Aziendale e Management (in corso)\"\n}"

@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "created_at": "2025-12-01T10:20:13.824816",
+    "analysis_file": "D:\\Progetti\\BFCV\\analysis_results\\analysis_abd028a1cc744890_20251201_101957.json",
+    "last_updated": "2025-12-01T10:20:13.829548",
+    "total_results": 2
+  },
+  "results": [
+    {
+      "filename": "CV_2025_Mktg.pdf",
+      "path": "G:\\Drive condivisi\\Bluefactor - Ricerche personale\\2025-11-Stage-digital\\CV_2025_Mktg.pdf",
+      "result": {
+        "extraction": {
+          "Nome": "Andrea",
+          "Cognome": "Rossi",
+          "Numero di contatto": "+39 3465846906",
+          "Email": "ar.andrearossi8@gmail.com",
+          "Età": "23",
+          "Città di residenza": "Cascina (PI)",
+          "Città di origine": "Cascina (PI)",
+          "Anni di esperienza lavorativa": "3",
+          "Anni di esperienza lavorativa nel ruolo richiesto": "1 (stage di 6 mesi)",
+          "Master o assimilabile nel ruolo richiesto": "Sì",
+          "Formazione più alta": "Laurea triennale",
+          "Università/Istituto": "Alma Mater Studiorum - Università di Bologna",
+          "Posizione attuale": "Assistente Digital Marketing | Stage",
+          "Datori di lavoro precedenti": "Pacini Group, Sosteniamo",
+          "Lingue conosciute": "Italiano, Inglese",
+          "Legame con Firenze": "Non specificato, ma probabile interesse per il marketing in contesto toscano",
+          "Soft skills": "Pensiero critico, Problem solving, Creatività, Lavoro di squadra, Attenzione ai dettagli, Empatia",
+          "Lingue straniere": "Inglese",
+          "Forza principale": "Passione per il digital marketing e la comunicazione, con esperienze pertinenti e attitudine alla scrittura.",
+          "Debolezza principale": "Esperienza limitata nel ruolo richiesto e familiarità con strumenti specifici come Meta Business Manager.",
+          "Fit generale": "Il candidato mostra una forte attitudine per il digital marketing e la comunicazione, ma la mancanza di esperienza pratica nei requisiti specifici potrebbe limitare il suo impatto iniziale. Tuttavia, la sua motivazione e il desiderio di apprendere potrebbero renderlo un asset prezioso nel lungo termine.",
+          "aziende_menzionate": "Pacini Group, Sosteniamo"
+        },
+        "criteria": {
+          "criteria": {
+            "competenze_tecniche": {
+              "score": 70,
+              "motivation": "Il candidato ha esperienza nel copywriting e nella gestione di siti web, ma la familiarità con strumenti specifici come Meta Business Manager è limitata."
+            },
+            "esperienza_rilevante": {
+              "score": 60,
+              "motivation": "Ha un'esperienza di 6 mesi come assistente digital marketing, ma non ha esperienza diretta nella gestione di campagne di social media marketing."
+            },
+            "formazione": {
+              "score": 80,
+              "motivation": "Il candidato ha una laurea in Scienze della comunicazione e sta completando un master in Digital Marketing Management, che è pertinente al ruolo."
+            },
+            "problem_solving": {
+              "score": 75,
+              "motivation": "Le soft skills indicate, come il problem solving e il pensiero critico, suggeriscono una buona attitudine a risolvere problemi."
+            },
+            "leadership": {
+              "score": 50,
+              "motivation": "Non ci sono evidenze di esperienze di leadership nel CV, il che limita la valutazione in questo criterio."
+            },
+            "potenziale_crescita": {
+              "score": 85,
+              "motivation": "Il candidato mostra una forte motivazione e desiderio di apprendere, suggerendo un buon potenziale di crescita nel settore."
+            }
+          },
+          "composite_score": 70.25,
+          "extraction": {
+            "Nome": "Andrea",
+            "Cognome": "Rossi",
+            "Numero di contatto": "+39 3465846906",
+            "Email": "ar.andrearossi8@gmail.com",
+            "Età": "23",
+            "Città di residenza": "Cascina (PI)",
+            "Città di origine": "Cascina (PI)",
+            "Anni di esperienza lavorativa": "3",
+            "Anni di esperienza lavorativa nel ruolo richiesto": "1 (stage di 6 mesi)",
+            "Master o assimilabile nel ruolo richiesto": "Sì",
+            "Formazione più alta": "Laurea triennale",
+            "Università/Istituto": "Alma Mater Studiorum - Università di Bologna",
+            "Posizione attuale": "Assistente Digital Marketing | Stage",
+            "Datori di lavoro precedenti": "Pacini Group, Sosteniamo",
+            "Lingue conosciute": "Italiano, Inglese",
+            "Legame con Firenze": "Non specificato, ma probabile interesse per il marketing in contesto toscano",
+            "Soft skills": "Pensiero critico, Problem solving, Creatività, Lavoro di squadra, Attenzione ai dettagli, Empatia",
+            "Lingue straniere": "Inglese",
+            "Forza principale": "Passione per il digital marketing e la comunicazione, con esperienze pertinenti e attitudine alla scrittura.",
+            "Debolezza principale": "Esperienza limitata nel ruolo richiesto e familiarità con strumenti specifici come Meta Business Manager.",
+            "Fit generale": "Il candidato mostra una forte attitudine per il digital marketing e la comunicazione, ma la mancanza di esperienza pratica nei requisiti specifici potrebbe limitare il suo impatto iniziale. Tuttavia, la sua motivazione e il desiderio di apprendere potrebbero renderlo un asset prezioso nel lungo termine.",
+            "aziende_menzionate": "Pacini Group, Sosteniamo"
+          },
+          "companies": [
+            {
+              "name": "Pacini Group",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-28 10:31:30",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            },
+            {
+              "name": "Sosteniamo",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-28 10:31:31",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            }
+          ]
+        },
+        "composite_score": 69
+      },
+      "cv_text": "ANDREA ROSSI  \nDigital Marketing Assistant  \n\n**CONTATTI**  \nVia Piastroni 123, Cascina (PI)  \n+39 3465846906  \nar.andrearossi8@gmail.com  \nProfilo Linkedin  \n\n**FORMAZIONE**  \nAlma Mater Studiorum - Università di Bologna  \nScienze della comunicazione  \nLaurea triennale | 2020-2023  \n\nRadar Academy  \nDigital Marketing Management  \nMaster 1° livello | 2024  \n\n**ESPERIENZA**  \nAssistente Digital Marketing | Stage  \nPacini Group | Via Quattro Novembre 149, 00187 Roma  \nDic 2024 - Mag 2025  \n- Copywriting  \n- Brand Strategy  \n- Gestione siti web  \n\nRider  \nSosteniamo | Via Contessa Matilde 32, 56123 Pisa  \nGen 2018 - Giu 2021  \n\n**SOFT SKILLS**  \n- Pensiero critico  \n- Problem solving  \n- Creatività  \n- Lavoro di squadra  \n- Attenzione ai dettagli  \n- Empatia  \n\n**LINGUE**  \n- Italiano  \n- Inglese  \n\n**CHI SONO**  \nDa sempre amo raccontare storie, creare connessioni e dare forma alle idee. Il mondo del Marketing digitale rappresenta la dimensione capace di farci attraversare tempo e spazio, con dinamismo e possibilità di sperimentare. La direzione è chiara: portare il mio contributo a progetti in grado di generare un impatto reale nella vita di tutti i giorni. Passione, empatia, curiosità e determinazione sono le basi del mio modo di lavorare e affrontare le sfide. Non mi spaventa partire dal basso, se c’è la possibilità di costruire qualcosa di grande. Non cerco un punto di arrivo. Cerco entusiasmanti strade da percorrere.  \n\n**NEXT STEP | CHE COSA CERCO**  \nDesidero misurarmi con una realtà che mi conceda la possibilità di ideare, sperimentare e mettere in pratica strategie di Marketing, partecipando attivamente a progetti orientati a ottenere risultati importanti giorno dopo giorno. Un ambiente in cui poter esprimere liberamente le mie idee, collaborando con altre persone per modellare la mia figura professionale e crescere in vista del futuro.",
+      "timestamp": "2025-12-01T10:20:13.824816"
+    },
+    {
+      "filename": "Ilaria Mosele_CV_ita.pdf",
+      "path": "G:\\Drive condivisi\\Bluefactor - Ricerche personale\\2025-11-Stage-digital\\Ilaria Mosele_CV_ita.pdf",
+      "result": {
+        "extraction": {
+          "Nome": "Ilaria",
+          "Cognome": "Mosele",
+          "Numero di contatto": "3703070867",
+          "Email": "ilaria.mosele01@gmail.com",
+          "Età": "22",
+          "Città di residenza": "Firenze",
+          "Città di origine": "Firenze",
+          "Anni di esperienza lavorativa": "0",
+          "Anni di esperienza lavorativa nel ruolo richiesto": "1 anno",
+          "Master o assimilabile nel ruolo richiesto": "Laurea Triennale in Fashion Marketing",
+          "Formazione più alta": "Laurea Triennale",
+          "Università/Istituto": "IED, Istituto Europeo di Design Firenze",
+          "Posizione attuale": "Istruttrice di Nuoto",
+          "Datori di lavoro precedenti": "Rari Nantes Florentia",
+          "Lingue conosciute": "Italiano, Inglese",
+          "Legame con Firenze": "Vive e lavora a Firenze",
+          "Soft skills": "Capacità comunicative, problem-solving, gestione progetti, collaborazione in team, approccio proattivo",
+          "Lingue straniere": "Inglese: Avanzato",
+          "Forza principale": "Eccellenti capacità comunicative e relazionali che possono essere utili nel digital marketing e social media.",
+          "Debolezza principale": "Mancanza di esperienza specifica nel digital marketing e social media.",
+          "Fit generale": "Il candidato ha buone capacità comunicative e una formazione pertinente, ma gli manca esperienza nel digital marketing, che è cruciale per la posizione.",
+          "aziende_menzionate": "Rari Nantes Florentia, IED, Istituto Europeo di Design Firenze"
+        },
+        "criteria": {
+          "criteria": {
+            "competenze_tecniche": {
+              "score": 40,
+              "motivation": "Il candidato ha una formazione in Fashion Marketing, ma non ha esperienza diretta nel digital marketing e social media, che sono fondamentali per il ruolo."
+            },
+            "esperienza_rilevante": {
+              "score": 20,
+              "motivation": "Non ha esperienza specifica nel settore del digital marketing, il che rappresenta una significativa lacuna rispetto ai requisiti del lavoro."
+            },
+            "formazione": {
+              "score": 70,
+              "motivation": "La laurea triennale in Fashion Marketing è pertinente, ma non è specificamente focalizzata sul digital marketing."
+            },
+            "problem_solving": {
+              "score": 75,
+              "motivation": "Il candidato ha dimostrato capacità di problem-solving e adattamento in contesti multidisciplinari, che sono utili nel marketing."
+            },
+            "leadership": {
+              "score": 50,
+              "motivation": "Non ci sono evidenze di esperienze di leadership nel CV, ma l'attività di insegnamento suggerisce una certa capacità di gestione di gruppo."
+            },
+            "potenziale_crescita": {
+              "score": 65,
+              "motivation": "Il candidato mostra un approccio proattivo e motivazione per la crescita professionale, ma necessita di formazione specifica nel digital marketing."
+            }
+          },
+          "composite_score": 54,
+          "extraction": {
+            "Nome": "Ilaria",
+            "Cognome": "Mosele",
+            "Numero di contatto": "3703070867",
+            "Email": "ilaria.mosele01@gmail.com",
+            "Età": "22",
+            "Città di residenza": "Firenze",
+            "Città di origine": "Firenze",
+            "Anni di esperienza lavorativa": "0",
+            "Anni di esperienza lavorativa nel ruolo richiesto": "1 anno",
+            "Master o assimilabile nel ruolo richiesto": "Laurea Triennale in Fashion Marketing",
+            "Formazione più alta": "Laurea Triennale",
+            "Università/Istituto": "IED, Istituto Europeo di Design Firenze",
+            "Posizione attuale": "Istruttrice di Nuoto",
+            "Datori di lavoro precedenti": "Rari Nantes Florentia",
+            "Lingue conosciute": "Italiano, Inglese",
+            "Legame con Firenze": "Vive e lavora a Firenze",
+            "Soft skills": "Capacità comunicative, problem-solving, gestione progetti, collaborazione in team, approccio proattivo",
+            "Lingue straniere": "Inglese: Avanzato",
+            "Forza principale": "Eccellenti capacità comunicative e relazionali che possono essere utili nel digital marketing e social media.",
+            "Debolezza principale": "Mancanza di esperienza specifica nel digital marketing e social media.",
+            "Fit generale": "Il candidato ha buone capacità comunicative e una formazione pertinente, ma gli manca esperienza nel digital marketing, che è cruciale per la posizione.",
+            "aziende_menzionate": "Rari Nantes Florentia, IED, Istituto Europeo di Design Firenze"
+          },
+          "companies": [
+            {
+              "name": "Rari Nantes Florentia",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-28 10:31:26",
+              "notes": null,
+              "sear"**VANESSA FAZZARI**  \n+39 3701025157  \nVanessafazzari01@gmail.com  \n14/03/2001  \nVico V Roma n1, Roccella Jonica, (RC), 89047  \n\n**Profilo**  \nStudentessa iscritta a un Master in Digital Marketing, sto acquisendo competenze pratiche su strumenti e strategie fondamentali per il settore. In particolare, mi sto formando su Google Analytics, Google Ads, Meta Ads, SEO on-page e off-page, email marketing, content creation, analisi dei dati e ottimizzazione delle performance. Approccio ogni argomento con curiosità e orientamento al risultato. Cerco uno stage dove poter applicare quanto appreso, imparare sul campo e contribuire conc"Istituto Europeo di Design Firenze",
+              "website": null,
+              "description": null,
+              "industry": null,
+              "size": null,
+              "location": null,
+              "founded_year": null,
+              "competitor_level": null,
+              "potential_client": null,
+              "last_updated": "2025-11-28 10:31:26",
+              "notes": null,
+              "search_source": "ricerca fallita",
+              "relevance_score": null
+            }
+          ]
+        },
+        "composite_score": 48
+      },
+      "cv_text": "**ILARIA MOSELE**  \nFirenze  \n3703070867  \nilaria.mosele01@gmail.com  \n\n---\n\n**PROFILO**  \nSono una candidata motivata e versatile, con esperienza in diversi settori. Grazie alle numerose attività svolte presso IED ho sviluppato solide competenze di problem-solving, gestione di progetti e collaborazione in team multidisciplinari. Mi distingue la capacità di proporre soluzioni innovative e adattarmi rapidamente a nuovi contesti professionali. Dispongo di eccellenti capacità comunicative e relazionali, volte a garantire una comunicazione chiara e efficace. Affronto ogni sfida con un approccio proattivo, orientato alla crescita professionale e al raggiungimento degli obiettivi aziendali.\n\n---\n\n**ESPERIENZE LAVORATIVE**  \n**Istruttrice di Nuoto**  \nRari Nantes Florentia | Firenze | Febbraio 2023 - Attuale  \n- Insegnamento della disciplina sia a livello individuale che di gruppo.  \n- Confronto con i genitori per monitorare l'interesse e il miglioramento dei bambini nell'attività.  \n- Supervisione costante per garantire la sicurezza in acqua.  \n- Collaborazione con il personale della piscina per coordinare orari e attività.  \n\n**Assistente Bagnanti**  \nRari Nantes Florentia | Firenze | Febbraio 2024 - Attuale  \n- Sorveglianza dell’area per prevenire incidenti.  \n- Intervento in caso di emergenza e utilizzo di misure di primo soccorso.  \n- Assistenza ai bagnanti.  \n\n---\n\n**ISTRUZIONE E FORMAZIONE**  \n**Liceo Ludovico Ariosto Ferrara**  \nDiploma di scuola superiore: Scienze applicate | 2016-2021  \n\n**IED, Istituto Europeo di Design Firenze**  \nLaurea Triennale: Fashion Marketing | 2021-2024  \n\n---\n\n**LINGUE**  \nItaliano: Lingua Madre  \nInglese: Avanzato  \n\n---\n\n**CAPACITÀ E COMPETENZE**  \n- Tecniche di Insegnamento  \n- Capacità di Gestione del Tempo  \n- Strategie Relazionali  \n- Capacità di lavorare in gruppo  \n- Capacità di gestire situazioni di emergenza  \n\n---\n\n**CERTIFICAZIONI**  \n- Assistente bagnanti  \n- Esecutrice BLSD (Basic Life Support Defibrillation)  \n- Istruttrice di nuoto  \n\n---\n\n28/02/2024  \nAutorizzo il trattamento dei dati personali contenuti in questo CV ai fini della ricerca e selezione del personale.  \nIlaria Mosele  ",
+      "timestamp": "2025-12-01T10:20:13.825883"
+    }
+  ]
+}

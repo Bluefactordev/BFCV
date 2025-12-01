@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Milano\",\n    \"Legame con Firenze\": \"Diploma classico conseguito a Prato, vicino a Firenze\"\n}"

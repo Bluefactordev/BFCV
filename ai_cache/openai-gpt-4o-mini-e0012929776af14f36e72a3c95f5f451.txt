@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"23\",\n    \"Città di origine\": \"Livorno\",\n    \"Anni di esperienza lavorativa\": \"1\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Corso di HR Specialist\",\n    \"Lingue conosciute\": \"Italiano\",\n    \"Lingue straniere\": \"Inglese\"\n}"

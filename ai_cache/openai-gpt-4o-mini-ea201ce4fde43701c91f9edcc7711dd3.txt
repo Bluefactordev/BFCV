@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Salerno\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"3 anni\",\n    \"Legame con Firenze\": \"Laurea magistrale in Comunicazione Persuasiva e Pubblicitaria presso l'Università degli studi di Siena\"\n}"

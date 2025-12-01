@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Castelfiorentino\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea triennale in corso\",\n    \"Soft skills\": \"Automunita, capacità di comunicazione\"\n}"

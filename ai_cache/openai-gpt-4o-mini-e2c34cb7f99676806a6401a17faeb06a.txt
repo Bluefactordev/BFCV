@@ -1,0 +1,1 @@
+"{\n    \"Città di residenza\": \"Rome\",\n    \"Anni di esperienza lavorativa\": \"7\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"0.5\",\n    \"Posizione attuale\": \"Recruitment Consultant | Hays Srl\",\n    \"Legame con Firenze\": \"Non specificato, ma aperta a nuove opportunità\"\n}"

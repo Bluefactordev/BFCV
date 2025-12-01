@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"Circa 25 anni\",\n    \"Città di residenza\": \"Roma\",\n    \"Città di origine\": \"Karachi\",\n    \"Legame con Firenze\": \"Non specificato\"\n}"

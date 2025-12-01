@@ -1,0 +1,1 @@
+"{\n    \"Città di residenza\": \"Cosenza\",\n    \"Anni di esperienza lavorativa\": \"4\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"3\",\n    \"Legame con Firenze\": \"Non specificato\"\n}"

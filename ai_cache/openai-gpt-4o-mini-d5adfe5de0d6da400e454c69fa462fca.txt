@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"23\",\n    \"Città di origine\": \"Milan\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Bachelor’s Degree in Corporate Communication & Public Relations\",\n    \"Legame con Firenze\": \"Non specificato\"\n}"

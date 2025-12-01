@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"28\", \n    \"Città di residenza\": \"Loreto (AN)\", \n    \"Città di origine\": \"Non specificato\", \n    \"Legame con Firenze\": \"Non specificato\"\n}"

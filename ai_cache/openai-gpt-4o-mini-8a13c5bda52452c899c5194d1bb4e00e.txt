@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"22\",\n    \"Città di residenza\": \"Venezia\",\n    \"Città di origine\": \"Lugo (RA)\",\n    \"Anni di esperienza lavorativa\": \"2\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"1\",\n    \"Posizione attuale\": \"Receptionist Front Desk\"\n}"

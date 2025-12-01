@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Roma\",\n    \"Legame con Firenze\": \"Non specificato, ma possibile legame tramite esperienze lavorative nel settore culturale\"\n}"

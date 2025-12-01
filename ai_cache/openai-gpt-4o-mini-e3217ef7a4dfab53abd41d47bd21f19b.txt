@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Milano\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"3\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Master of Computer Applications\",\n    \"Legame con Firenze\": \"Esperienza lavorativa in Toscana\"\n}"

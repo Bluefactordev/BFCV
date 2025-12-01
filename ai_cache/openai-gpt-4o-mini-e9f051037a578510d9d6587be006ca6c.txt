@@ -1,0 +1,1 @@
+"{\n    \"Numero di contatto\": \"giadanocentini99@outlook.com\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"5 anni\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"Circa 24 anni\",  \n    \"Città di origine\": \"Firenze\",  \n    \"Anni di esperienza lavorativa\": \"Circa 1 anno\",  \n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"Circa 6 mesi\",  \n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea in Strategia della Comunicazione Pubblica e Politica (in corso)\"  \n}"

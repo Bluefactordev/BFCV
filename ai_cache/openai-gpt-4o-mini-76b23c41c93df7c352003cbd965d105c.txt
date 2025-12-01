@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Impruneta, Firenze\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea in Economia Aziendale, percorso in Marketing, Internazionalizzazione e Qualità\",\n    \"Università/Istituto\": \"Università\"\n}"

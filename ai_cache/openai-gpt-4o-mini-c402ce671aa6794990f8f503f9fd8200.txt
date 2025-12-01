@@ -1,0 +1,1 @@
+"{\n    \"Numero di contatto\": \"Non specificato\",\n    \"Età\": \"25\",\n    \"Città di origine\": \"Firenze\",\n    \"Soft skills\": \"Gestione clientela, comunicazione efficace, lavoro di squadra\"\n}"

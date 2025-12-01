@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"38\",\n    \"Città di origine\": \"Borgo San Lorenzo (FI)\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"15\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea magistrale in Geografia Sociale, Politica e Turismo\"\n}"

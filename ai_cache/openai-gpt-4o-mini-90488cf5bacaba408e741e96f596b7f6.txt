@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Mirano (Ve)\",\n    \"Legame con Firenze\": \"Non specificato, ma ha studiato a Padova e Ferrara\"\n}"

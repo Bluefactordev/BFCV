@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"24\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"1\",\n    \"Posizione attuale\": \"Ufficio Comunicazione Area Emergenze - Confederazione Nazionale Misericordie d’Italia\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Prato\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Partecipazione ad alcune lezioni del Master in Digital Marketing - Wempark\"\n}"

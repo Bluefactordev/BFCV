@@ -1,0 +1,1 @@
+"{\n    \"Master o assimilabile nel ruolo richiesto\": \"Diploma accademico di I livello in design della comunicazione visiva\",\n    \"Anni di esperienza\": \"3 anni\",\n    \"Posizione attuale\": \"VIDEO MAKER E GRAPHIC DESIGNER\",\n    \"Formazione più alta\": \"Diploma accademico di I livello in design della comunicazione visiva\"\n}"

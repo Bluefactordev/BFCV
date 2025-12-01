@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"S.Maria a Monte (Pisa)\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"1 anno\",\n    \"Legame con Firenze\": \"Studente presso Università Bocconi, che ha una sede a Firenze\"\n}"

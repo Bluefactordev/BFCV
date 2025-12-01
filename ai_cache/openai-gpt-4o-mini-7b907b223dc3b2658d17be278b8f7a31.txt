@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"Circa 32 anni\",\n    \"Città di origine\": \"Firenze\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"8 anni\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Master in Marketing & Chinese Language\"\n}"

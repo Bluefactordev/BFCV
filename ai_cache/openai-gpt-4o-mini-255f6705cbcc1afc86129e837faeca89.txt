@@ -1,0 +1,1 @@
+"{\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"5 anni\",\n    \"Posizione attuale\": \"A&R presso OnShuffle EP\"\n}"

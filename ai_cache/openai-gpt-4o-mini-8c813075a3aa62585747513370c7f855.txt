@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Lecce\",\n    \"Master o assimilabile nel ruolo richiesto\": \"CORSO CONTENT MARKETING - By Ninja Academy\",\n    \"Legame con Firenze\": \"Non specificato, ma potrebbe essere associato a opportunità lavorative o corsi nella città.\"\n}"

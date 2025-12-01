@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"29\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Specializzazione in Design\"\n}"

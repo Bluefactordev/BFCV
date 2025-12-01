@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"Circa 21 anni\",  \n    \"Anni di esperienza lavorativa\": \"2 anni\",  \n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea Triennale in Mediazione Linguistica con indirizzo Marketing e Comunicazione\"\n}"

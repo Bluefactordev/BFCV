@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"23\",\n    \"Città di residenza\": \"Pesaro, Italy\",\n    \"Anni di esperienza lavorativa\": \"5\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"1\",\n    \"Legame con Firenze\": \"Non specificato, ma ha studiato in Italia\",\n    \"Soft skills\": \"Adattabilità, comunicazione, gestione del tempo, creatività\"\n}"

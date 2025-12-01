@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"23\",\n    \"Città di origine\": \"Pescara\",\n    \"Anni di esperienza lavorativa\": \"2\",\n    \"Master o assimilabile nel ruolo richiesto\": \"In corso di conseguimento (Scienze delle amministrazioni e Comunicazione per la gestione delle organizzazioni)\",\n    \"Legame con Firenze\": \"Non specificato\"\n}"

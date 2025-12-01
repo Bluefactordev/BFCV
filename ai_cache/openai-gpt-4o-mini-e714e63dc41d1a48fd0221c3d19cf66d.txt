@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"37 anni\",\n    \"Città di residenza\": \"Malta\",\n    \"Città di origine\": \"Pisa\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"14 anni\",\n    \"Lingue conosciute\": \"Italiano, Inglese\",\n    \"Legame con Firenze\": \"Laurea conseguita presso l'Università degli Studi di Pisa\",\n    \"Lingue straniere\": \"Inglese\"\n}"

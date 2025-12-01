@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"25\",\n    \"Città di origine\": \"Roma\",\n    \"Posizione attuale\": \"Stagista Amministrativo\",\n    \"Legame con Firenze\": \"Non specificato, ma si stima nessun legame diretto\"\n}"

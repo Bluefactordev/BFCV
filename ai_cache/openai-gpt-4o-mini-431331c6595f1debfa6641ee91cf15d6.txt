@@ -1,0 +1,1 @@
+"{\n    \"Anni di esperienza lavorativa\": \"4 anni\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"1 anno\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Non specificato\",\n    \"Legame con Firenze\": \"Studia a Pisa, che è vicino a Firenze\"\n}"

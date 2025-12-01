@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"23\",\n    \"Città di residenza\": \"Rotterdam\",\n    \"Città di origine\": \"Bologna\",\n    \"Legame con Firenze\": \"Esperienza lavorativa presso le Gallerie degli Uffizi\"\n}"

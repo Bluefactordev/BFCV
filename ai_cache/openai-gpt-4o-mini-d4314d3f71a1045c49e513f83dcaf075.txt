@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Roma\",\n    \"Legame con Firenze\": \"Non specificato, ma potrebbe essere implicito tramite la formazione universitaria a La Sapienza, che ha una reputazione anche a Firenze.\"\n}"

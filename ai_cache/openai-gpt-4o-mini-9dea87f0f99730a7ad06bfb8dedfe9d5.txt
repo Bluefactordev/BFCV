@@ -1,0 +1,1 @@
+"{\n    \"Città di residenza\": \"Bologna\",\n    \"Città di origine\": \"Salerno\",\n    \"Legame con Firenze\": \"Formazione presso LUISS Business School, che può implicare un legame professionale o culturale con Firenze.\"\n}"

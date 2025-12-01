@@ -1,0 +1,1 @@
+"{\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"7 anni (dal 2013 al 2025)\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Certificato di Scienze Applicate al Business in Project Management\",\n    \"Legame con Firenze\": \"Risiede a Borgo San Lorenzo, vicino a Firenze\"\n}"

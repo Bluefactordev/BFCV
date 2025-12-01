@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"Circa 25 anni\",\n    \"Città di origine\": \"Firenze\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"5 anni\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Diploma presso 'Scuola Italiana Turismo'\"\n}"

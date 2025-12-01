@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Bregnano (CO)\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2 anni\",\n    \"Posizione attuale\": \"Social Media Content Talent\",\n    \"Legame con Firenze\": \"Non specificato\"\n}"

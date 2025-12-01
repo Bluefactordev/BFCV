@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"Circa 27 anni\",\n    \"Città di origine\": \"Firenze\",\n    \"Anni di esperienza lavorativa\": \"Circa 7 anni\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"Circa 2 anni\"\n}"

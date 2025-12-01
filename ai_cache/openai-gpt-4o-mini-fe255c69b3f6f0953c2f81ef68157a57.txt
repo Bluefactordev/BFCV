@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Firenze\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"3 anni\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea magistrale in Giurisprudenza\"\n}"

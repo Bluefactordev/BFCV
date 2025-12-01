@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Lecce\",\n    \"Master o assimilabile nel ruolo richiesto\": \"CORSO CONTENT MARKETING - By Ninja Academy\",\n    \"Legame con Firenze\": \"Non specificato, ma disponibile a lavori ibridi o full-remote.\",\n    \"Soft skills\": \"Gestione piani editoriali, ottimizzazione dei contenuti, capacità di scrittura creativa e strategica.\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Milano\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"5 anni\",\n    \"Master o assimilabile nel ruolo richiesto\": \"MIEX Master in Management Internazionale\",\n    \"Legame con Firenze\": \"Presente (Università di Bologna)\",\n    \"Soft skills\": \"Leadership, Strategie di Impresa, Negoziazione\"\n}"

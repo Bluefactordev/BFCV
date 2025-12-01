@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"Circa 30 anni\",\n    \"Posizione attuale\": \"Digital Marketing & Special Project Manager\",\n    \"Formazione più alta\": \"Laurea Magistrale in Filologia Moderna\"\n}"

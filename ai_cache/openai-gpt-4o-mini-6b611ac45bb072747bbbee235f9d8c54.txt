@@ -1,0 +1,1 @@
+"{\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2 anni\",\n    \"Posizione attuale\": \"Stage presso agenzia di Comunicazione ed Eventi Win Effect SRLS, Firenze\",\n    \"Formazione più alta\": \"Laurea Triennale in Scienze della Comunicazione\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Firenze\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Iscritta al secondo anno universitario “Scienze umanistiche per la comunicazione”\"\n}"

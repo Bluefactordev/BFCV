@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Napoli\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"8\",\n    \"Legame con Firenze\": \"Formazione conseguita presso l'Università di Pisa, situata a Firenze.\"\n}"

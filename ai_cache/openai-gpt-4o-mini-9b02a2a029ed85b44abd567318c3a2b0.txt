@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Castelfranci (AV)\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"5 anni\",\n    \"Legame con Firenze\": \"Non specificato, ma non sembra esserci un legame diretto\",\n    \"Soft skills\": \"Collaborazione, creatività, organizzazione, capacità di lavorare in team\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"Circa 11 anni\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Certificato di Scienze Applicate al Business\"\n}"

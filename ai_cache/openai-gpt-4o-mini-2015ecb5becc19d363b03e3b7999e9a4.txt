@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Firenze\",\n    \"Anni di esperienza lavorativa\": \"8\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"2\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Diploma professionale - Fashion Designer\"\n}"

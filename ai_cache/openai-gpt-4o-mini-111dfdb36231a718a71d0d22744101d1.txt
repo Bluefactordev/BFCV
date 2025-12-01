@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Santa Maria a Monte (PI)\",\n    \"Anni di esperienza lavorativa\": 18,\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": 15,\n    \"Master o assimilabile nel ruolo richiesto\": \"Responsabile Risorse Umane\"\n}"

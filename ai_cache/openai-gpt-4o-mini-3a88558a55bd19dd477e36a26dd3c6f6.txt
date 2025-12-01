@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"35\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"6\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Direct Response Copywriting Certification\",\n    \"Lingue straniere\": \"Inglese\"\n}"

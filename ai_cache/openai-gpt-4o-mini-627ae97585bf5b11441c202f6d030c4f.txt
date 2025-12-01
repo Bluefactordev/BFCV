@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"25\",\n    \"Città di residenza\": \"Bari\",\n    \"Posizione attuale\": \"Tirocinante presso Agenzia di comunicazione, web e marketing GROWELL\",\n    \"Legame con Firenze\": \"Non specificato, ma potrebbe avere un legame indiretto tramite la formazione accademica\"\n}"

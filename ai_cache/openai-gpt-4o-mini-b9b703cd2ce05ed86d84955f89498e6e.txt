@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"25\",\n    \"Città di origine\": \"Firenze\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea in comunicazione (in corso)\"\n}"

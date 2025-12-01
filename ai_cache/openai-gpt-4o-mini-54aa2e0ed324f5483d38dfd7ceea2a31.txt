@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Montemurlo (PO)\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"4 anni\",\n    \"Legame con Firenze\": \"Formazione universitaria presso Università PIN - Polo Universitario Città di Prato\"\n}"

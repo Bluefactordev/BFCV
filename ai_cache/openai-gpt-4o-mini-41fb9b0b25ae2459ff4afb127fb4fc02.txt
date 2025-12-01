@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"24\",\n    \"Città di origine\": \"Salento, Italia\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"4\",\n    \"Università/Istituto\": \"Luiss Guido Carli, Roma, Italia\",\n    \"Legame con Firenze\": \"Non specificato, ma aperta a trasferimenti\"\n}"

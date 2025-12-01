@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"35\",\n    \"Città di origine\": \"Bagno a Ripoli\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"5\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Corso di Laurea in Studi in Comunicazione\"\n}"

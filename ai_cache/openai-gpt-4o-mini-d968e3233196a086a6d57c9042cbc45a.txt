@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"Firenze (FI)\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Comunicazione e Pubblicità per le Organizzazioni\"\n}"

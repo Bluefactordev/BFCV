@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"Circa 37 anni\",\n    \"Città di origine\": \"Milano\",\n    \"Anni di esperienza lavorativa\": \"11 anni\",\n    \"Posizione attuale\": \"Freelance Communication Manager\",\n    \"Legame con Firenze\": \"Non specificato, ma potrebbe avere legami professionali o personali\"\n}"

@@ -1,0 +1,1 @@
+"{\n    \"Città di origine\": \"CASTELFRANCI (AV)\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"5\"\n}"

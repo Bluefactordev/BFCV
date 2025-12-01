@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"circa 25 anni\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"circa 4 anni\",\n    \"Legame con Firenze\": \"presumibilmente tramite la formazione universitaria presso Sapienza Università di Roma\"\n}"

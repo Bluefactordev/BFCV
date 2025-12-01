@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"25\",\n    \"Città di origine\": \"Barberino di Mugello\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Laurea Triennale in Culture e Pratiche della Moda\"\n}"

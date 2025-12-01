@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"Circa 25 anni\",\n    \"Città di origine\": \"Kandy, Sri Lanka\",\n    \"Master o assimilabile nel ruolo richiesto\": \"Qualità e assistenza tecnica nel settore farmaceutico e biomedicale\",\n    \"Legame con Firenze\": \"Nessun legame diretto menzionato, vive a Lucca\"\n}"

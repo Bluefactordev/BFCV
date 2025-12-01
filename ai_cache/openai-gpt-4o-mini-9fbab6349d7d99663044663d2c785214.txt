@@ -1,0 +1,1 @@
+"{\n    \"Età\": \"25\",\n    \"Città di residenza\": \"Roma\",\n    \"Città di origine\": \"Non specificato\",\n    \"Anni di esperienza lavorativa\": \"2\",\n    \"Anni di esperienza lavorativa nel ruolo richiesto\": \"1\",\n    \"Università/Istituto\": \"Sapienza Università di Roma\",\n    \"Legame con Firenze\": \"Non specificato\"\n}"
